@@ -1,6 +1,0 @@
-2026/08/05-14:21:08.644 81e8 Creating DB D:\ComputerXperts\WebAgent\newSolution\Default\IndexedDB\https_leodirectory.com_0.indexeddb.leveldb since it was missing.
-2026/08/05-14:21:08.651 81e8 Reusing MANIFEST D:\ComputerXperts\WebAgent\newSolution\Default\IndexedDB\https_leodirectory.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/08/05-14:21:15.795 9064 Level-0 table #5: started
-2026/08/05-14:21:15.798 9064 Level-0 table #5: 810 bytes OK
-2026/08/05-14:21:15.800 9064 Delete type=0 #3
-2026/08/05-14:21:15.800 6c60 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

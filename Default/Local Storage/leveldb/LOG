@@ -1,9 +1,0 @@
-2026/08/05-13:29:35.883 9bc Reusing MANIFEST D:\ComputerXperts\WebAgent\newSolution\Default\Local Storage\leveldb/MANIFEST-000001
-2026/08/05-13:29:35.894 9bc Recovering log #3
-2026/08/05-13:29:35.899 9bc Reusing old log D:\ComputerXperts\WebAgent\newSolution\Default\Local Storage\leveldb/000003.log 
-2026/08/05-13:33:17.459 90a0 Level-0 table #5: started
-2026/08/05-13:33:17.497 90a0 Level-0 table #5: 23562 bytes OK
-2026/08/05-13:33:17.503 90a0 Delete type=0 #3
-2026/08/05-14:29:55.972 90a0 Level-0 table #7: started
-2026/08/05-14:29:56.016 90a0 Level-0 table #7: 32396 bytes OK
-2026/08/05-14:29:56.020 90a0 Delete type=0 #4
