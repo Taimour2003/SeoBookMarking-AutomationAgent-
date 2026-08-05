@@ -1,0 +1,38 @@
+{
+   "acceptButton": {
+      "message": "Godta"
+   },
+   "appTitle": {
+      "message": "Auto Refresh Plus"
+   },
+   "consentText": {
+      "message": "For å forbedre Auto Refresh Plus samler denne utvidelsen inn nettadressene (URL-ene) til sidene du besøker og siden du kom fra (henvisnings-URL), knyttet til en tilfeldig anonym ID. Vi bruker dette til å måle hvordan utvidelsen brukes og til å finne sider der automatisk oppdatering ikke fungerer. Disse dataene sendes til våre servere, selges aldri og deles aldri med tredjeparter. Du kan avslå og fortsatt bruke utvidelsen. Du kan lese mer i vår"
+   },
+   "declineButton": {
+      "message": "Avslå"
+   },
+   "enterTimeText": {
+      "message": "Skriv inn tid i sekunder"
+   },
+   "extensionDescription": {
+      "message": "Auto Refresh Plus oppdaterer og laster inn automatisk hvilken som helst side eller fane etter et angitt antall sekunder"
+   },
+   "extensionName": {
+      "message": "Auto Refresh Plus"
+   },
+   "extensionTitle": {
+      "message": "Auto Refresh Plus"
+   },
+   "privacyPolicy": {
+      "message": "Personvernpolicy"
+   },
+   "secondsText": {
+      "message": "sekunder"
+   },
+   "startButton": {
+      "message": "START"
+   },
+   "stopButton": {
+      "message": "STOPP"
+   }
+}

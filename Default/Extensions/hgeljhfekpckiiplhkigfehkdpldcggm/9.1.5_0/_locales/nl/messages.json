@@ -1,0 +1,2186 @@
+{
+   "action_on_detection": {
+      "message": "Actie bij detectie"
+   },
+   "action_report_bug_feedback": {
+      "message": "Bug melden / Feedback"
+   },
+   "action_stop_refresh": {
+      "message": "Vernieuwen stoppen"
+   },
+   "active_tabs_alerts_help": {
+      "message": "Tabbladen met een monitorwaarschuwing. Negeer individuele meldingen of wis alles."
+   },
+   "active_tabs_alerts_title": {
+      "message": "Meldingen"
+   },
+   "active_tabs_clear_all": {
+      "message": "alles wissen"
+   },
+   "active_tabs_paused": {
+      "message": "gepauzeerd"
+   },
+   "active_tabs_refreshing_help": {
+      "message": "Tabbladen die automatisch vernieuwen. Hover om te pauzeren, herstarten of stoppen."
+   },
+   "active_tabs_refreshing_title": {
+      "message": "Vernieuwen"
+   },
+   "active_tabs_stop_all": {
+      "message": "alles stoppen"
+   },
+   "active_tabs_time_day_ago": {
+      "message": "%1 dag geleden"
+   },
+   "active_tabs_time_days_ago": {
+      "message": "%1 dagen geleden"
+   },
+   "active_tabs_time_hour_ago": {
+      "message": "%1 uur geleden"
+   },
+   "active_tabs_time_hours_ago": {
+      "message": "%1 uur geleden"
+   },
+   "active_tabs_time_just_now": {
+      "message": "Zojuist"
+   },
+   "active_tabs_time_min_ago": {
+      "message": "%1 min geleden"
+   },
+   "active_tabs_time_sec_ago": {
+      "message": "%1 sec geleden"
+   },
+   "add": {
+      "message": "Toevoegen"
+   },
+   "add_email": {
+      "message": "E-mail toevoegen"
+   },
+   "add_email_tooltip": {
+      "message": "Voeg een e-mailadres toe voor meldingen"
+   },
+   "add_keywords": {
+      "message": "Standaard doeltrefwoorden toevoegen"
+   },
+   "add_new": {
+      "message": "Nieuw toevoegen"
+   },
+   "added": {
+      "message": "Toegevoegd"
+   },
+   "alert_settings": {
+      "message": "Waarschuwingsinstellingen"
+   },
+   "alert_when_any_change_detected": {
+      "message": "Auto Refresh Plus waarschuwt u wanneer wijzigingen op deze webpagina worden gedetecteerd"
+   },
+   "alert_when_keyword_appears": {
+      "message": "Ontvang een melding wanneer uw trefwoord verschijnt."
+   },
+   "alert_when_keyword_disappears": {
+      "message": "Ontvang een melding wanneer uw trefwoord verdwijnt."
+   },
+   "all_days": {
+      "message": "Alle dagen"
+   },
+   "any": {
+      "message": "Alles"
+   },
+   "app_description": {
+      "description": "The description of extension",
+      "message": "Vernieuw de pagina automatisch met krachtige paginamonitor functies."
+   },
+   "app_name": {
+      "description": "The extension name",
+      "message": "Auto Refresh Plus | Page Monitor"
+   },
+   "appearance": {
+      "message": "Uiterlijk"
+   },
+   "apply": {
+      "message": "Toepassen"
+   },
+   "are_you_sure": {
+      "message": "Weet u zeker dat u wilt verwijderen?"
+   },
+   "ast": {
+      "message": "Afteltimer"
+   },
+   "auto_click_element_aria": {
+      "message": "Auto-klik elementselector"
+   },
+   "auto_click_element_label": {
+      "message": "auto-klik element"
+   },
+   "auto_click_help": {
+      "message": "Klikt automatisch op de koppeling als het gemonitorde trefwoord een koppeling bevat."
+   },
+   "auto_click_targets_desc": {
+      "message": "Elementen klikken na elke vernieuwing of bij trefwoordmatch"
+   },
+   "auto_click_targets_label": {
+      "message": "Automatische klikdoelen"
+   },
+   "auto_clicker": {
+      "message": "Automatische klikker"
+   },
+   "auto_clicker_msg1": {
+      "message": "Automatisch klikken op monitor trefwoord"
+   },
+   "auto_disable_on_first": {
+      "message": "Automatisch uitschakelen bij eerste uitvoering"
+   },
+   "auto_disable_on_first_desc": {
+      "message": "Dit schema uitschakelen nadat het eenmaal is uitgevoerd"
+   },
+   "auto_stop_schedule": {
+      "message": "Automatisch stoppen"
+   },
+   "auto_stop_schedule_desc": {
+      "message": "bijv. vernieuwen tussen 10–11 uur"
+   },
+   "auto_tasks_add_another": {
+      "message": "Nog een klik toevoegen"
+   },
+   "auto_tasks_add_element": {
+      "message": "Element toevoegen"
+   },
+   "auto_tasks_empty": {
+      "message": "Nog geen elementen toegevoegd"
+   },
+   "auto_tasks_help": {
+      "message": "Klikt automatisch op geselecteerde elementen op de pagina."
+   },
+   "auto_tasks_label": {
+      "message": "Extra elementen aanklikken"
+   },
+   "auto_tasks_new_tab_short": {
+      "message": "Nieuw tabblad"
+   },
+   "auto_tasks_open_in_new_tab": {
+      "message": "Openen in nieuw tabblad indien link"
+   },
+   "auto_tasks_open_new_tab_aria": {
+      "message": "Klik %1 openen in nieuw tabblad"
+   },
+   "auto_tasks_options": {
+      "message": "Opties"
+   },
+   "auto_tasks_pick": {
+      "message": "Kiezen"
+   },
+   "auto_tasks_remove": {
+      "message": "Verwijderen"
+   },
+   "auto_tasks_remove_target_aria": {
+      "message": "Klikdoel %1 verwijderen"
+   },
+   "auto_tasks_selector_aria": {
+      "message": "CSS-selector voor klikdoel %1"
+   },
+   "auto_tasks_set_selector": {
+      "message": "Selector instellen…"
+   },
+   "auto_tasks_toggle_target_aria": {
+      "message": "Klikdoel %1 in-/uitklappen"
+   },
+   "auto_tasks_trigger": {
+      "message": "Trigger"
+   },
+   "auto_tasks_trigger_each_refresh": {
+      "message": "Bij elke vernieuwing"
+   },
+   "auto_tasks_trigger_on_detection": {
+      "message": "Wanneer de waarschuwing afgaat"
+   },
+   "auto_tasks_trigger_on_detection_short": {
+      "message": "Bij detectie"
+   },
+   "auto_tasks_trigger_refresh_short": {
+      "message": "Vernieuwen"
+   },
+   "bad": {
+      "message": "Slecht"
+   },
+   "behavior_on_interaction": {
+      "message": "Gedrag bij interactie"
+   },
+   "bulk_keywords_results": {
+      "message": "Resultaten bulktrefwoorden"
+   },
+   "calendar_weekday_fri": {
+      "message": "Vr"
+   },
+   "calendar_weekday_mon": {
+      "message": "Ma"
+   },
+   "calendar_weekday_sat": {
+      "message": "Za"
+   },
+   "calendar_weekday_sun": {
+      "message": "Zo"
+   },
+   "calendar_weekday_thu": {
+      "message": "Do"
+   },
+   "calendar_weekday_tue": {
+      "message": "Di"
+   },
+   "calendar_weekday_wed": {
+      "message": "Wo"
+   },
+   "cancel": {
+      "message": "Annuleren"
+   },
+   "captcha_detection": {
+      "message": "Captcha-detectie"
+   },
+   "caution_badge": {
+      "message": "Let op"
+   },
+   "choose_interval": {
+      "message": "Kies tijdinterval"
+   },
+   "clear": {
+      "message": "Wissen"
+   },
+   "clear_all": {
+      "message": "Alles wissen"
+   },
+   "clear_all_keywords": {
+      "message": "Alle trefwoorden wissen"
+   },
+   "clear_all_keywords_desc": {
+      "message": "Weet u zeker dat u alle trefwoorden wilt wissen?"
+   },
+   "click_automation_title": {
+      "message": "Klikautomatisering"
+   },
+   "close": {
+      "message": "Sluiten"
+   },
+   "continue": {
+      "message": "Doorgaan"
+   },
+   "continue_refreshing_after_alert": {
+      "message": "Doorgaan met verversen na waarschuwing"
+   },
+   "continue_refreshing_help": {
+      "message": "Activeer waarschuwing bij trefwoord detectie, maar ga door met verversen als normaal."
+   },
+   "continue_refreshing_switch_desc": {
+      "message": "Blijven vernieuwen na een melding"
+   },
+   "copy_expression": {
+      "message": "Expressie kopiëren"
+   },
+   "copy_to_clipboard": {
+      "message": "Kopieer naar klembord"
+   },
+   "countdown_decrease_hours": {
+      "message": "Uren verlagen"
+   },
+   "countdown_decrease_min": {
+      "message": "Min verlagen"
+   },
+   "countdown_decrease_sec": {
+      "message": "Sec verlagen"
+   },
+   "countdown_duration_label": {
+      "message": "countdown-duur"
+   },
+   "countdown_fires_after": {
+      "message": "gaat af na %1"
+   },
+   "countdown_hms_header": {
+      "message": "u : m : s"
+   },
+   "countdown_hours_value": {
+      "message": "Urenwaarde"
+   },
+   "countdown_increase_hours": {
+      "message": "Uren verhogen"
+   },
+   "countdown_increase_min": {
+      "message": "Min verhogen"
+   },
+   "countdown_increase_sec": {
+      "message": "Sec verhogen"
+   },
+   "countdown_min_value": {
+      "message": "Minutenwaarde"
+   },
+   "countdown_sec_value": {
+      "message": "Secondenwaarde"
+   },
+   "countdown_target_date_time": {
+      "message": "doeldatum & -tijd"
+   },
+   "countdown_timer_modes_help": {
+      "message": "Kies hoe de timer afgaat: Duur telt af vanaf uren/minuten/seconden; Datum & tijd gaat één keer af op het exacte moment dat je kiest."
+   },
+   "countdown_triggers_once": {
+      "message": "wordt één keer geactiveerd op het gekozen moment"
+   },
+   "countdown_unit_hours": {
+      "message": "Uren"
+   },
+   "countdown_unit_min": {
+      "message": "Min"
+   },
+   "countdown_unit_sec": {
+      "message": "Sec"
+   },
+   "css_selector": {
+      "message": "CSS-selector"
+   },
+   "css_selector_aria": {
+      "message": "CSS-selector"
+   },
+   "css_selector_placeholder": {
+      "message": "bijv. button of a[href=\"/login\"]"
+   },
+   "custom": {
+      "message": "Aangepast"
+   },
+   "custom_expression": {
+      "message": "Aangepaste expressie"
+   },
+   "custom_expression_desc": {
+      "message": "Het wordt geïnitialiseerd met twee ## symbolen en zijn logische statements voor OR- en AND-operatoren. Het moet tussen haakjes staan (in totaal 4 haakjes)."
+   },
+   "custom_expression_example_1_desc": {
+      "message": "Zoekt naar \"in stock\" OF \"available\" EN \"add to cart\" OF \"buy now\""
+   },
+   "custom_expression_example_2_desc": {
+      "message": "Zoekt naar \"sale\" OF \"discount\" EN \"50%\" OF \"30%\""
+   },
+   "custom_expression_example_3_desc": {
+      "message": "Booleaanse expressie met OR (|) en AND-operatoren met haakjes"
+   },
+   "custom_interval": {
+      "message": "Aangepast interval"
+   },
+   "custom_interval_desc": {
+      "message": "Stel exacte uren, minuten en seconden in"
+   },
+   "custom_monitor": {
+      "message": "Aangepaste monitor"
+   },
+   "custom_time_interval": {
+      "message": "Aangepast tijdinterval"
+   },
+   "date_picker_next_month": {
+      "message": "Volgende maand"
+   },
+   "date_picker_previous_month": {
+      "message": "Vorige maand"
+   },
+   "date_time_desc": {
+      "message": "Stel aftelling in om op een bepaalde datum en tijd in werking te treden."
+   },
+   "date_time_mode": {
+      "message": "Datum-tijdmodus"
+   },
+   "date_time_target": {
+      "message": "Doeldatum en -tijd"
+   },
+   "day_abbr_fri": {
+      "message": "Vr"
+   },
+   "day_abbr_mon": {
+      "message": "Ma"
+   },
+   "day_abbr_sat": {
+      "message": "Za"
+   },
+   "day_abbr_sun": {
+      "message": "Zo"
+   },
+   "day_abbr_thu": {
+      "message": "Do"
+   },
+   "day_abbr_tue": {
+      "message": "Di"
+   },
+   "day_abbr_wed": {
+      "message": "Wo"
+   },
+   "decrease_aria": {
+      "message": "Verlagen"
+   },
+   "default_help_description": {
+      "message": "U kunt ook '%1' in de algemene instellingen configureren om het op alle websites toe te passen."
+   },
+   "default_interval": {
+      "message": "Standaard tijdinterval"
+   },
+   "delay_before_scanning": {
+      "message": "Vertraging vóór scannen"
+   },
+   "detect_any_change": {
+      "message": "Auto Refresh Plus heeft een wijziging op deze website gedetecteerd."
+   },
+   "detect_any_change_title": {
+      "message": "Pagina-monitor"
+   },
+   "detect_captcha_on_page": {
+      "message": "Captcha op pagina detecteren"
+   },
+   "detect_error_on_page": {
+      "message": "Foutpagina's detecteren (bijv. 404)"
+   },
+   "detection_behavior": {
+      "message": "Detectiegedrag"
+   },
+   "developer_mode_msg": {
+      "message": "Ontwikkelaarsmodus is om veiligheids- en stabiliteitredenen niet toegestaan.\u003Cbr>Download en installeer de extensie vanuit de officiële winkel om ervoor te zorgen dat u de nieuwste en meest veilige versie hebt"
+   },
+   "dismiss": {
+      "message": "Sluiten"
+   },
+   "dismiss_alert": {
+      "message": "Melding negeren"
+   },
+   "donation_msg2": {
+      "message": "Ik heb dit al gedaan."
+   },
+   "download_in_store": {
+      "message": "Installeren vanuit webstore"
+   },
+   "duplicates": {
+      "message": "Duplicaten"
+   },
+   "duration_desc": {
+      "message": "Stel aftelling in met uren, minuten en seconden."
+   },
+   "duration_help": {
+      "message": "Gebruik deze actie om een aftelling in te stellen op basis van een specifieke duur in uren, minuten en seconden"
+   },
+   "duration_mode": {
+      "message": "Duurmodus"
+   },
+   "email_alert_help": {
+      "message": "E-mailwaarschuwingen stellen u ervan in kennis wanneer specifieke wijzigingen of gebeurtenissen plaatsvinden. Voeg een e-mailadres toe om deze meldingen te ontvangen"
+   },
+   "email_alerts_switch_desc": {
+      "message": "E-mail sturen wanneer de monitor activeert"
+   },
+   "email_daily_limit": {
+      "message": "%1 / %2 dagelijks limiet"
+   },
+   "email_disconnect": {
+      "message": "Verbinding verbreken"
+   },
+   "email_limit_reached": {
+      "message": "E-maillimiet bereikt"
+   },
+   "email_limit_toast_description": {
+      "message": "U hebt uw dagelijks e-maillimiet bereikt. Upgrade om e-mailwaarschuwingen blijven versturen."
+   },
+   "email_remaining_count": {
+      "message": "%1 resterend"
+   },
+   "email_sent_today": {
+      "message": "%1 vandaag verzonden"
+   },
+   "email_usage_count": {
+      "message": "E-mails vandaag verzonden: %1 / %2"
+   },
+   "emails_remaining": {
+      "message": "e-mails resterend"
+   },
+   "enable_captcha_detection_help": {
+      "message": "Inschakelen om te detecteren wanneer een captcha-challenge verschijnt."
+   },
+   "enable_error_detection_help": {
+      "message": "Inschakelen om defecte of verbroken pagina's te detecteren."
+   },
+   "enter_custom_interval": {
+      "message": "Voer uw aangepaste interval in seconden in."
+   },
+   "enter_time_duration": {
+      "message": "Voer tijdsduur in"
+   },
+   "error_page_detection": {
+      "message": "Foutpagina-detectie"
+   },
+   "error_save_preferences": {
+      "message": "Voorkeuren opslaan mislukt. Probeer het opnieuw."
+   },
+   "error_schedule_one_day": {
+      "message": "U moet minstens één dag selecteren."
+   },
+   "error_stop_time": {
+      "message": "Stoptijd moet later zijn dan starttijd."
+   },
+   "example": {
+      "message": "Voorbeeld"
+   },
+   "expression_templates": {
+      "message": "Expressiesjablonen"
+   },
+   "ext_action_failed": {
+      "message": "Actie mislukt"
+   },
+   "ext_applying": {
+      "message": "Toepassen..."
+   },
+   "ext_approve_action": {
+      "message": "goedkeuren"
+   },
+   "ext_approve_apply": {
+      "message": "Goedkeuren en toepassen"
+   },
+   "ext_auto_generated": {
+      "message": "(automatisch gegenereerd)"
+   },
+   "ext_blacklist": {
+      "message": "Blacklist"
+   },
+   "ext_changes_merged": {
+      "message": "Wijzigingen die worden samengevoegd in lokale opties."
+   },
+   "ext_code": {
+      "message": "Code"
+   },
+   "ext_completed": {
+      "message": "Voltooid"
+   },
+   "ext_configuration_review": {
+      "message": "Configuratiebeoordeling"
+   },
+   "ext_created": {
+      "message": "Aangemaakt"
+   },
+   "ext_current": {
+      "message": "Huidig"
+   },
+   "ext_custom_script": {
+      "message": "Aangepast script"
+   },
+   "ext_custom_script_add_new": {
+      "message": "Aangepast script (Nieuw toevoegen)"
+   },
+   "ext_custom_script_add_only": {
+      "message": "Deze bewerking voegt alleen een nieuw script toe en overschrijft nooit stilletjes bestaande scripts."
+   },
+   "ext_domain_config": {
+      "message": "Domeinconfiguratie"
+   },
+   "ext_domain_configuration": {
+      "message": "Domeinconfiguratie"
+   },
+   "ext_empty": {
+      "message": "(leeg)"
+   },
+   "ext_enabled": {
+      "message": "Ingeschakeld"
+   },
+   "ext_error_action": {
+      "message": "Verzoek %1 mislukt."
+   },
+   "ext_error_storage": {
+      "message": "Kan openstaande beoordeling niet lezen uit extensieopslag."
+   },
+   "ext_error_sync": {
+      "message": "Verzoek %1 mislukt vanwege opslagsynchronisatiefout."
+   },
+   "ext_execution_timing": {
+      "message": "Uitvoeringstijdstip"
+   },
+   "ext_expires": {
+      "message": "Verloopt"
+   },
+   "ext_extension_wide_settings": {
+      "message": "Extensiebrede instellingen"
+   },
+   "ext_field": {
+      "message": "Veld"
+   },
+   "ext_global_options": {
+      "message": "Globale opties"
+   },
+   "ext_global_options_changes": {
+      "message": "Wijzigingen in globale opties"
+   },
+   "ext_id": {
+      "message": "ID"
+   },
+   "ext_injection_type": {
+      "message": "Injectietype"
+   },
+   "ext_name": {
+      "message": "Naam"
+   },
+   "ext_new": {
+      "message": "Nieuw"
+   },
+   "ext_new_script_injection": {
+      "message": "Nieuwe scriptinjectie"
+   },
+   "ext_no_changes_detected": {
+      "message": "Geen effectieve wijzigingen gedetecteerd."
+   },
+   "ext_no_pending_description": {
+      "message": "Er zijn geen openstaande wijzigingen om te beoordelen. Deze pagina verschijnt wanneer een externe bron een configuratie-update aanvraagt."
+   },
+   "ext_no_pending_request": {
+      "message": "Geen openstaand verzoek"
+   },
+   "ext_proposed_changes": {
+      "message": "Voorgestelde wijzigingen"
+   },
+   "ext_refresh": {
+      "message": "Vernieuwen"
+   },
+   "ext_reject": {
+      "message": "Afwijzen"
+   },
+   "ext_reject_action": {
+      "message": "afwijzen"
+   },
+   "ext_rejecting": {
+      "message": "Afwijzen..."
+   },
+   "ext_request": {
+      "message": "Verzoek"
+   },
+   "ext_review_description": {
+      "message": "Bekijk de voorgestelde wijzigingen en keur alleen goed als ze overeenkomen met uw intentie. Er wordt niets toegepast totdat u bevestigt."
+   },
+   "ext_review_pending_changes": {
+      "message": "Beoordeel openstaande wijzigingen"
+   },
+   "ext_site_specific_rules": {
+      "message": "Sitespecifieke regels"
+   },
+   "ext_source": {
+      "message": "Bron"
+   },
+   "ext_target": {
+      "message": "Doel"
+   },
+   "ext_type": {
+      "message": "Type"
+   },
+   "ext_unknown": {
+      "message": "Onbekend"
+   },
+   "ext_url_pattern": {
+      "message": "URL-patroon"
+   },
+   "ext_whitelist": {
+      "message": "Whitelist"
+   },
+   "extension_settings": {
+      "message": "Extensie-instellingen"
+   },
+   "extension_update_dismiss_aria": {
+      "message": "Updatemelding sluiten"
+   },
+   "extension_update_notification_aria": {
+      "message": "Extensie-updatemelding"
+   },
+   "extension_updated_to_version": {
+      "message": "Extensie bijgewerkt naar v%1"
+   },
+   "feature_is_premium": {
+      "message": "%1 is een premium-functie. Upgrade om alle premium-gereedschappen te gebruiken en uw ervaring te verbeteren."
+   },
+   "find_mtr_msg": {
+      "message": "Monitortekst zoeken in"
+   },
+   "follow_all_redirects": {
+      "message": "Alle omleidingen volgen"
+   },
+   "follow_all_redirects_desc": {
+      "message": "Doorgaan met verversen, zelfs als de pagina naar een ander URL wordt omgeleid."
+   },
+   "follow_canonical_url": {
+      "message": "Canonieke URL volgen"
+   },
+   "follow_canonical_url_desc": {
+      "message": "Gebruik de canonieke (oorspronkelijke) URL van de pagina."
+   },
+   "found": {
+      "message": "Gevonden"
+   },
+   "frozen_tab_noti_message": {
+      "message": "De browser heeft dit tabblad op de achtergrond bevroren om geheugen te besparen. Automatisch vernieuwen hervat wanneer u terugkeert naar dit tabblad."
+   },
+   "frozen_tab_noti_title": {
+      "message": "Automatisch vernieuwen gepauzeerd"
+   },
+   "full_documentation": {
+      "message": "Volledige documentatie"
+   },
+   "full_page": {
+      "message": "Volledige paginaverniewing"
+   },
+   "full_page_type_desc": {
+      "message": "Laad de hele pagina opnieuw om op wijzigingen te controleren"
+   },
+   "full_page_type_help": {
+      "message": "Normale vernieuwing stelt u in staat om op wijzigingen in de gehele pagina te controleren, inclusief alle inhoud en bronnen."
+   },
+   "go_premium_full_access": {
+      "message": "Upgrade naar Premium - Volledige toegang"
+   },
+   "go_to_top": {
+      "description": "Accessible label for scroll-to-top button",
+      "message": "Naar boven"
+   },
+   "go_top": {
+      "message": "Omhoog"
+   },
+   "good": {
+      "message": "Goed"
+   },
+   "grace_period_banner": {
+      "message": "Uw respijtperiode verloopt op 1 juli. Premiumfuncties worden uitgeschakeld"
+   },
+   "grace_period_consent_body": {
+      "message": "U staat op het punt de toegang tot premiumfuncties te verliezen. Weet u zeker dat u wilt doorgaan met het gratis abonnement?"
+   },
+   "grace_period_consent_title": {
+      "message": "Doorgaan zonder Premium?"
+   },
+   "grace_period_dismiss_aria": {
+      "message": "Respijtbericht sluiten"
+   },
+   "grace_period_expired_data_safe": {
+      "message": "Uw instellingen en gegevens zijn veilig en blijven opgeslagen."
+   },
+   "grace_period_expired_description": {
+      "message": "Premiumfuncties zijn niet meer actief op uw account."
+   },
+   "grace_period_expired_disable_button": {
+      "message": "Premiumfuncties uitschakelen"
+   },
+   "grace_period_expired_title": {
+      "message": "Respijtperiode verlopen"
+   },
+   "grace_period_expired_upgrade_button": {
+      "message": "Upgraden naar Premium"
+   },
+   "grace_period_expired_upgrade_hint": {
+      "message": "U kunt op elk moment upgraden om alle Premiumfuncties te herstellen."
+   },
+   "grace_period_ok_with_free": {
+      "message": "Doorgaan met gratis"
+   },
+   "grace_period_upgrade_button": {
+      "message": "Premium behouden"
+   },
+   "great": {
+      "message": "Geweldig!"
+   },
+   "handle_redirects": {
+      "message": "Omleidingen beheren"
+   },
+   "hard_refresh": {
+      "message": "Volledige verniewing"
+   },
+   "hard_refresh_desc": {
+      "message": "Cache omzeilen bij elke herlading"
+   },
+   "hard_refresh_help": {
+      "message": "Laad de pagina opnieuw zonder op gecachte gegevens te vertrouwen."
+   },
+   "highlight_element": {
+      "message": "Element op pagina markeren"
+   },
+   "highlight_keyword": {
+      "message": "Trefwoord op pagina markeren"
+   },
+   "highlight_keyword_desc": {
+      "message": "Overeenkomend trefwoord markeren"
+   },
+   "highlight_keyword_help": {
+      "message": "Wanneer een trefwoord wordt gedetecteerd, wordt het visueel op de pagina gemarkeerd."
+   },
+   "hotkeys_label": {
+      "message": "Sneltoetsen"
+   },
+   "hour": {
+      "message": "Uur"
+   },
+   "hours": {
+      "message": "Uren"
+   },
+   "increase_aria": {
+      "message": "Verhogen"
+   },
+   "individual_plan": {
+      "message": "individueel plan"
+   },
+   "individual_plan_starts_at": {
+      "message": "Individueel plan begint bij $2,99"
+   },
+   "interaction_help": {
+      "message": "Stop automatisch met verversen wanneer de gebruiker met de pagina interactief werkt."
+   },
+   "interactions_switch_desc": {
+      "message": "Wat gebeurt er bij paginagebruik"
+   },
+   "interactions_title_opt": {
+      "message": "Vernieuwingsgedrag bij gebruikersinteractie"
+   },
+   "interval": {
+      "message": "Interval"
+   },
+   "interval_card_custom_duration": {
+      "message": "aangepaste duur"
+   },
+   "interval_card_interval": {
+      "message": "Interval"
+   },
+   "interval_card_random_range": {
+      "message": "willekeurig bereik"
+   },
+   "interval_custom_summary": {
+      "message": "elke %1u %2m %3s"
+   },
+   "interval_decrease_by": {
+      "message": "Verlaag met %1"
+   },
+   "interval_edit_custom_aria": {
+      "message": "Aangepast interval bewerken"
+   },
+   "interval_in_seconds_aria": {
+      "message": "Interval in seconden"
+   },
+   "interval_increase_by": {
+      "message": "Verhoog met %1"
+   },
+   "interval_max_sec": {
+      "message": "max (sec)"
+   },
+   "interval_max_sec_aria": {
+      "message": "maximale seconden"
+   },
+   "interval_min_sec": {
+      "message": "min (sec)"
+   },
+   "interval_min_sec_aria": {
+      "message": "minimale seconden"
+   },
+   "interval_modes_help": {
+      "message": "Vast: elke N seconden vernieuwen. Willekeurig: interval variëren binnen een bereik. Aangepast: een precieze uren/minuten/seconden-duur instellen."
+   },
+   "interval_preset_minutes": {
+      "message": "%1m"
+   },
+   "interval_preset_seconds": {
+      "message": "%1s"
+   },
+   "interval_random_summary": {
+      "message": "vernieuwt elke %1–%2 s"
+   },
+   "interval_range_to": {
+      "message": "tot"
+   },
+   "interval_tab_custom": {
+      "message": "Aangepast"
+   },
+   "interval_tab_fixed": {
+      "message": "Vast"
+   },
+   "interval_tab_random": {
+      "message": "Willekeurig"
+   },
+   "interval_unit_hrs": {
+      "message": "uur"
+   },
+   "interval_unit_min": {
+      "message": "min"
+   },
+   "interval_unit_sec": {
+      "message": "sec"
+   },
+   "interval_unit_seconds_header": {
+      "message": "seconden"
+   },
+   "keyword_input_placeholder": {
+      "message": "Voer trefwoord, regex, XPath of CSS-selector in (scheid meerdere waarden met komma's)..."
+   },
+   "keywords_to_monitor": {
+      "message": "Trefwoorden om te monitoren"
+   },
+   "kill_notification": {
+      "message": "Notificatiewaarschuwing stoppen"
+   },
+   "kill_successfully": {
+      "message": "Succesvol beëindigd"
+   },
+   "lang_code": {
+      "message": "nl"
+   },
+   "language": {
+      "message": "Taal"
+   },
+   "lost": {
+      "message": "Verloren"
+   },
+   "loved": {
+      "message": "Hield ervan!"
+   },
+   "match_html_source_desc": {
+      "message": "Ruwe bron scannen — trager, voorzichtig gebruiken"
+   },
+   "match_html_source_label": {
+      "message": "HTML-bron matchen"
+   },
+   "match_visible_text_desc": {
+      "message": "Weergegeven schermtekst scannen"
+   },
+   "match_visible_text_label": {
+      "message": "Zichtbare tekst matchen"
+   },
+   "maximum": {
+      "message": "Maximum"
+   },
+   "minimum": {
+      "message": "Minimum"
+   },
+   "minute": {
+      "message": "Minuut"
+   },
+   "minutes": {
+      "message": "Minuten"
+   },
+   "monitor": {
+      "message": "Monitor"
+   },
+   "monitor_area_select": {
+      "message": "Selecteren"
+   },
+   "monitor_area_selector_desc": {
+      "message": "Voer een CSS-selector in of kies een element op de pagina."
+   },
+   "monitor_area_switch_desc": {
+      "message": "Beperk het zoeken tot één regio"
+   },
+   "monitor_area_switch_label": {
+      "message": "Monitorgebied"
+   },
+   "monitor_custom_area": {
+      "message": "Zoeken in aangepast gedeelte van de pagina"
+   },
+   "monitor_custom_area_help": {
+      "message": "Inschakelen om een aangepast gedeelte van de pagina voor monitoring of zoeking in te stellen."
+   },
+   "monitor_full_page": {
+      "message": "Volledige pagina monitoren"
+   },
+   "monitor_full_page_help": {
+      "message": "Inschakelen om wijzigingen in de hele webpagina te monitoren."
+   },
+   "monitor_page_for_any_changes": {
+      "message": "Volg paginaverwijderingen automatisch."
+   },
+   "monitored_area": {
+      "message": "Gemonitord gebied"
+   },
+   "monitoring_active": {
+      "message": "Monitoring actief"
+   },
+   "monitoring_auto_click_label": {
+      "message": "Automatisch klikken bij trefwoordmatch"
+   },
+   "monitoring_engine_advanced": {
+      "message": "Geavanceerd"
+   },
+   "monitoring_engine_aria": {
+      "message": "Monitoring engine versie"
+   },
+   "monitoring_engine_basic": {
+      "message": "Basis"
+   },
+   "monitoring_engine_beta": {
+      "message": "beta"
+   },
+   "monitoring_engine_tooltip_desc": {
+      "message": "Werkt voor alle selecties — Gevonden, Verloren & Aangepast — met snellere, slimmere detectie."
+   },
+   "monitoring_engine_tooltip_title": {
+      "message": "Nieuwe beta-kern"
+   },
+   "monitoring_keyword_input_aria": {
+      "message": "Te monitoren trefwoord"
+   },
+   "monitoring_keywords_empty": {
+      "message": "Nog geen trefwoorden — voeg er minstens één toe om te beginnen met monitoren."
+   },
+   "monitoring_mode": {
+      "message": "Monitoringsmodus"
+   },
+   "monitoring_mode_custom_info_highlight": {
+      "message": "elke wijziging"
+   },
+   "monitoring_mode_custom_info_prefix": {
+      "message": "De aangepaste modus waarschuwt u wanneer "
+   },
+   "monitoring_mode_custom_info_suffix": {
+      "message": " op deze pagina wordt gedetecteerd — geen trefwoorden vereist."
+   },
+   "monitoring_mode_custom_intro": {
+      "message": "Volg automatisch alle paginawijzigingen."
+   },
+   "monitoring_mode_custom_short": {
+      "message": "Aangepast"
+   },
+   "monitoring_mode_found_desc": {
+      "message": "Ontvang een melding wanneer uw trefwoord verschijnt."
+   },
+   "monitoring_mode_found_short": {
+      "message": "Gevonden"
+   },
+   "monitoring_mode_help": {
+      "message": "Kies wanneer Auto Refresh Plus u moet waarschuwen"
+   },
+   "monitoring_mode_lost_desc": {
+      "message": "Ontvang een melding wanneer uw trefwoord verdwijnt."
+   },
+   "monitoring_mode_lost_short": {
+      "message": "Verloren"
+   },
+   "monitoring_remove_keyword_aria": {
+      "message": "Verwijder %1"
+   },
+   "monitoring_tip_banner": {
+      "message": "Meer acties nodig? Probeer Multi-Click Automatisering."
+   },
+   "monitoring_tip_label": {
+      "message": "Tip:"
+   },
+   "new_badge": {
+      "message": "Nieuw"
+   },
+   "no_active_tabs": {
+      "message": "Geen actieve tabbladen"
+   },
+   "no_active_tabs_desc": {
+      "message": "Er zijn momenteel geen tabbladen die worden gemonitord of vernieuwd. Start het verversen van een tabblad om het hier te zien."
+   },
+   "no_keyword": {
+      "message": "Nog geen trefwoorden toegevoegd. Voeg trefwoorden toe om te monitoren."
+   },
+   "no_tabs_refreshing": {
+      "message": "Geen tabbladen aan het vernieuwen"
+   },
+   "no_templates_match": {
+      "message": "Geen sjablonen die aan uw zoekcriteria voldoen."
+   },
+   "normal_expression": {
+      "message": "Normale expressie"
+   },
+   "normal_expression_desc": {
+      "message": "Het zoekt naar trefwoorden op de webpagina en hoeft niet met een symbool te worden geïnitialiseerd. Druk eenvoudig op Enter bij elk trefwoord."
+   },
+   "normal_expression_example_1_desc": {
+      "message": "Zoekt naar de exacte tekst \"In Stock\" op de webpagina"
+   },
+   "normal_expression_example_2_desc": {
+      "message": "Zoekt naar meerdere trefwoorden, druk na elk trefwoord op Enter"
+   },
+   "normal_expression_example_3_desc": {
+      "message": "Zoekt naar \"Add to Cart\" knop of tekst op de pagina"
+   },
+   "not_allowed": {
+      "message": "U mag het hier niet gebruiken."
+   },
+   "noti_msg": {
+      "message": "Auto Refresh Plus heeft %1 uw doeltekst gedetecteerd."
+   },
+   "noti_msg_title": {
+      "message": "De doeltekst!"
+   },
+   "notification_domain_info": {
+      "message": "op %1"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "okay": {
+      "message": "Prima"
+   },
+   "open_link_help": {
+      "message": "Opent de aangeklikte koppeling in een nieuw browsertabblad."
+   },
+   "open_link_tab": {
+      "message": "Koppeling in nieuw tabblad openen"
+   },
+   "options": {
+      "message": "Opties"
+   },
+   "partial_page_desc": {
+      "message": "Alleen AJAX/XHR-verzoeken monitoren"
+   },
+   "pause": {
+      "message": "Pauze"
+   },
+   "pause_on_interact": {
+      "message": "Pauzeren bij interactie"
+   },
+   "pause_refreshing": {
+      "message": "Vernieuwen pauzeren"
+   },
+   "permissions_attention": {
+      "message": "Let op"
+   },
+   "permissions_btn_grant": {
+      "message": "Sitetoegang verlenen voor dashboardhosts"
+   },
+   "permissions_btn_opening_dialog": {
+      "message": "Machtigingsdialoog wordt geopend..."
+   },
+   "permissions_btn_refresh": {
+      "message": "Status vernieuwen"
+   },
+   "permissions_config_missing_body": {
+      "message": "is niet gedefinieerd in de buildomgeving. Bouw opnieuw en stel deze in op uw dashboardhostnaam."
+   },
+   "permissions_config_missing_title": {
+      "message": "Configuratie ontbreekt"
+   },
+   "permissions_error_denied": {
+      "message": "Machtigingen geweigerd. Verleen toegang voor de dashboardhost zodat synchronisatie en geïnjecteerde functies betrouwbaar werken."
+   },
+   "permissions_error_dialog": {
+      "message": "Er ging iets mis bij het openen van het machtigingsdialoogvenster. Probeer het opnieuw of controleer uw browserinstellingen."
+   },
+   "permissions_error_read_state": {
+      "message": "Kan sitetoestemmingsstatus niet lezen. Laad deze pagina opnieuw of probeer het later opnieuw."
+   },
+   "permissions_go_to_options": {
+      "message": "Naar opties"
+   },
+   "permissions_granted_body": {
+      "message": "Deze extensie heeft al overeenkomstige hostmachtiging voor uw platform. U kunt dit tabblad sluiten."
+   },
+   "permissions_granted_ok": {
+      "message": "OK"
+   },
+   "permissions_granted_title": {
+      "message": "Sitetoegang is ingeschakeld"
+   },
+   "permissions_heading_dashboard": {
+      "message": "Machtigingen voor dashboardhost"
+   },
+   "permissions_intro_dashboard": {
+      "message": "Bepaal of de extensie op uw Auto Refresh Plus-dashboarddomeinen kan draaien (content scripts en platformintegratie)."
+   },
+   "permissions_label_dashboard_host": {
+      "message": "Dashboardhost"
+   },
+   "permissions_revoke_hint": {
+      "message": "Om later in te trekken, verwijdert u deze site uit de lijst met sitetoegang voor extensies in uw browserinstellingen."
+   },
+   "permissions_subtitle": {
+      "message": "Platformsite-toegang"
+   },
+   "permissions_warn_body_prefix": {
+      "message": "Verleen toegang zodat de extensie in uw dashboard kan injecteren, voorkeuren kan spiegelen en de dashboardervaring synchroon kan houden met de extensie (zelfde hostpatroon als het content script:"
+   },
+   "permissions_warn_body_suffix": {
+      "message": ")."
+   },
+   "permissions_warn_title": {
+      "message": "Sitetoegang nog niet verleend"
+   },
+   "play_alarm_on_captcha_detection": {
+      "message": "Alarm afspelen bij captcha-detectie"
+   },
+   "play_alarm_on_captcha_detection_help": {
+      "message": "Geluidswaarschuwing afspelen wanneer captcha wordt gedetecteerd."
+   },
+   "play_alarm_on_error_detection": {
+      "message": "Alarm afspelen bij foutdetectie"
+   },
+   "play_alarm_on_error_detection_help": {
+      "message": "Geluidswaarschuwing afspelen wanneer een foutpagina wordt gedetecteerd."
+   },
+   "please_add_email_first": {
+      "message": "Voeg eerst e-mail toe."
+   },
+   "please_add_webhooks_first": {
+      "message": "Voeg eerst webhooks toe."
+   },
+   "please_rateus": {
+      "message": "Beoordeel ons alstublieft"
+   },
+   "popup_on_keyword_found": {
+      "message": "Waarschuwing wanneer trefwoord wordt gevonden"
+   },
+   "popup_on_keyword_lost": {
+      "message": "Waarschuwing wanneer trefwoord verdwijnt"
+   },
+   "predefined_interval": {
+      "message": "Vooraf ingesteld interval"
+   },
+   "predefined_interval_desc": {
+      "message": "Vooraf ingestelde of standaard tijdwaarden gebruiken"
+   },
+   "premium_benefits": {
+      "message": "Premium voordelen:"
+   },
+   "premium_device_sync": {
+      "message": "Tot 3 apparaten beheren"
+   },
+   "premium_full_access": {
+      "message": "Alle premium-functies"
+   },
+   "premium_priority_support": {
+      "message": "Verschillende instellingsprofielen"
+   },
+   "premium_tag_aria": {
+      "message": "Premiumfunctie: %1. Aankondiging openen."
+   },
+   "premium_tag_default_feature": {
+      "message": "Functie"
+   },
+   "premium_tag_tooltip_click": {
+      "message": "Klik voor details"
+   },
+   "premium_usage_body": {
+      "message": "Premiumfuncties actief op gratis abonnement."
+   },
+   "premium_usage_dismiss": {
+      "message": "Melding sluiten"
+   },
+   "premium_usage_status_label": {
+      "message": "Premiumfuncties in gebruik"
+   },
+   "preset_interval": {
+      "message": "Vooraf ingestelde intervallen"
+   },
+   "pricing": {
+      "message": "Prijzen"
+   },
+   "pro_announcement_body": {
+      "message": "Auto Refresh Plus voert PRO geleidelijk in om langetermijnontwikkeling, geavanceerde functies, cloudsync, slimmer monitoren en beheer van meerdere apparaten te ondersteunen, terwijl kernverversfuncties voor iedereen gratis blijven."
+   },
+   "pro_announcement_close_aria": {
+      "message": "Dialoog sluiten"
+   },
+   "pro_announcement_days_label": {
+      "message": "dagen"
+   },
+   "pro_announcement_days_remaining_aria": {
+      "message": "Nog %1 dagen"
+   },
+   "pro_announcement_fresh_install_body": {
+      "message": "Ontgrendel %1 en de volledige premiumervaring met PRO, inclusief geavanceerde tools, slimmere monitoring, cloudsynchronisatie en multi-device-toegang."
+   },
+   "pro_announcement_fresh_install_title_suffix": {
+      "message": "is een Premium-functie"
+   },
+   "pro_announcement_fresh_install_trial": {
+      "message": "Gratis proefperiode van 15 dagen"
+   },
+   "pro_announcement_important_badge": {
+      "message": "Belangrijk"
+   },
+   "pro_announcement_important_notice_aria": {
+      "message": "Belangrijke mededeling"
+   },
+   "pro_announcement_moving_to_pro": {
+      "message": "Gaat naar PRO"
+   },
+   "pro_announcement_premium_badge": {
+      "message": "PREMIUM"
+   },
+   "pro_announcement_premium_badge_aria": {
+      "message": "Premium"
+   },
+   "pro_announcement_rollout_date": {
+      "message": "1 juni"
+   },
+   "pro_announcement_rollout_intro": {
+      "message": "Uitrol vanaf"
+   },
+   "pro_announcement_rollout_outro": {
+      "message": "."
+   },
+   "pro_announcement_view_pricing": {
+      "message": "Prijzen bekijken — vanaf 2,99 $/mnd"
+   },
+   "random_interval": {
+      "message": "Willekeurig interval"
+   },
+   "random_interval_desc": {
+      "message": "Willekeurige vernieuwing tussen min–max"
+   },
+   "random_interval_help": {
+      "message": "Met de huidige instellingen wordt de pagina willekeurig om de %1 tot %2 seconden vernieuwd."
+   },
+   "random_time_interval": {
+      "message": "Willekeurig vernieuwingsbereik"
+   },
+   "rate_us": {
+      "message": "Beoordeel ons"
+   },
+   "rateus_title": {
+      "message": "Deze extensie beoordelen"
+   },
+   "ready_expressions_load_error": {
+      "message": "Kan de sjablonen niet laden. Probeer het later opnieuw."
+   },
+   "real_time_detection_during_refresh": {
+      "message": "Realtime detectie"
+   },
+   "real_time_detection_switch_desc": {
+      "message": "Continu controleren zonder volledige herladingen"
+   },
+   "realtime_help": {
+      "message": "Detecteer wijzigingen voortdurend tijdens verniewing, niet alleen aan het einde van het interval."
+   },
+   "receive_emails_alerts": {
+      "message": "E-mailwaarschuwingen ontvangen"
+   },
+   "receive_webhook_alerts": {
+      "message": "Webhook-waarschuwingen ontvangen"
+   },
+   "redirection_behavior": {
+      "message": "Omleidingsgedrag"
+   },
+   "redirection_behavior_desc": {
+      "message": "Omleidingen beheren tijdens vernieuwen"
+   },
+   "redirection_behavior_help": {
+      "message": "Kies hoe Auto Refresh Plus URL-wijzigingen verwerkt. U kunt het originele domein vergrendelen of omleidingen volgen."
+   },
+   "refresh_cycles_completed": {
+      "message": "Voltooide vernieuwingscycli"
+   },
+   "refresh_interval_mode": {
+      "message": "Vernieuwingsintervalmodus"
+   },
+   "refresh_limit": {
+      "message": "Vernieuwingslimiet"
+   },
+   "refresh_limit_times": {
+      "message": "keer"
+   },
+   "refresh_number": {
+      "message": "Aantal verversen instellen"
+   },
+   "refresh_number_desc": {
+      "message": "Stoppen na vast aantal"
+   },
+   "refresh_number_help": {
+      "message": "Stel in hoe vaak u de pagina wilt verversen."
+   },
+   "refresh_position_hint_body": {
+      "message": "U kunt de vernieuwknop en andere UI-aanpassingen wijzigen via dit menu."
+   },
+   "refresh_position_hint_understand": {
+      "message": "Begrepen"
+   },
+   "refresh_top_pause": {
+      "message": "Pauze"
+   },
+   "refresh_top_resume": {
+      "message": "Hervat"
+   },
+   "refresh_top_start": {
+      "message": "Start"
+   },
+   "refresh_top_stop": {
+      "message": "Stop"
+   },
+   "refresh_type": {
+      "message": "Vernieuwingstype"
+   },
+   "refresh_type_help": {
+      "message": "Hoe de pagina vóór elke scan wordt herladen. Volledige pagina herlaadt de hele URL zoals bij vernieuwen — betrouwbaar maar zwaarder. XHR voert alleen achtergrond AJAX/XHR-verzoeken uit (geen volledige herlaad) — sneller en lichter, ideaal voor dynamische pagina's die inhoud bijwerken zonder te herladen."
+   },
+   "regex": {
+      "message": "Regex"
+   },
+   "regex_expression": {
+      "message": "Regex-expressie"
+   },
+   "regex_expression_desc": {
+      "message": "Auto Refresh Plus ondersteunt ook Regex-expressies en moet worden geïnitialiseerd met het $-symbool gevolgd door de regex-expressie."
+   },
+   "regex_expression_example_1_desc": {
+      "message": "Komt overeen met \"product\" gevolgd door een of meer cijfers (product1, product42, enz.)"
+   },
+   "regex_expression_example_2_desc": {
+      "message": "Komt overeen met \"in stock\" zonder hoofdlettergevoeligheid met behulp van regex-vlaggen"
+   },
+   "regex_expression_example_3_desc": {
+      "message": "Komt overeen met prijsformaat zoals \"$19,99\", \"$299,00\", enz."
+   },
+   "remove_email": {
+      "message": "E-mail verwijderen"
+   },
+   "restart": {
+      "message": "Opnieuw starten"
+   },
+   "restart_wait_seconds_desc": {
+      "message": "Stel het aantal seconden in dat moet wachten voordat de vernieuwing opnieuw begint"
+   },
+   "resume": {
+      "message": "Hervatten"
+   },
+   "resume_refreshing": {
+      "message": "Vernieuwen hervatten"
+   },
+   "save": {
+      "message": "Opslaan"
+   },
+   "scan_method_title": {
+      "message": "Scanmethode"
+   },
+   "sch_description": {
+      "message": "Automatisch uitvoeren op gekozen tijden en dagen."
+   },
+   "schedule_add": {
+      "message": "Schema toevoegen"
+   },
+   "schedule_auto_disable_aria": {
+      "message": "Automatisch uitschakelen"
+   },
+   "schedule_auto_stop_aria": {
+      "message": "Automatisch stoppen"
+   },
+   "schedule_delete_aria": {
+      "message": "Schema verwijderen"
+   },
+   "schedule_disconnected": {
+      "message": "Het schema is verbroken"
+   },
+   "schedule_edit_aria": {
+      "message": "Schema bewerken"
+   },
+   "schedule_enable_aria": {
+      "message": "Schema inschakelen"
+   },
+   "schedule_help": {
+      "message": "Schema's laten je automatisch vernieuwen op specifieke tijden en dagen. Elk schema kan een starttijd, geselecteerde weekdagen, automatisch stoppen en automatisch uitschakelen hebben."
+   },
+   "schedule_options_label": {
+      "message": "opties"
+   },
+   "schedule_select_days": {
+      "message": "dagen selecteren"
+   },
+   "schedule_start_time_label": {
+      "message": "starttijd"
+   },
+   "schedules": {
+      "message": "Schema's"
+   },
+   "schedules_active_count": {
+      "message": "%1 actief"
+   },
+   "schedules_empty": {
+      "message": "Nog geen schema's"
+   },
+   "search_templates": {
+      "message": "Sjablonen zoeken..."
+   },
+   "seconds": {
+      "message": "Seconden"
+   },
+   "select_area": {
+      "message": "Selecteer gebied"
+   },
+   "select_area_desc": {
+      "message": "Voer een CSS-selector in om het zoekgebied te beperken"
+   },
+   "select_css_selector": {
+      "message": "Selecteer een element om de gebiedselector in te stellen"
+   },
+   "select_date_time": {
+      "message": "Datum en tijd selecteren"
+   },
+   "select_days": {
+      "message": "Selecteer dagen"
+   },
+   "select_element": {
+      "message": "Element selecteren"
+   },
+   "select_language": {
+      "message": "Selecteer uw taal"
+   },
+   "select_time": {
+      "message": "Tijd selecteren"
+   },
+   "session_expired": {
+      "message": "Uw sessie is verlopen. Meld u alstublieft opnieuw aan."
+   },
+   "settings_card_collapse_aria": {
+      "message": "%1 inklappen"
+   },
+   "settings_card_expand_aria": {
+      "message": "%1 uitklappen"
+   },
+   "show_tab": {
+      "message": "Tabblad weergeven"
+   },
+   "signup_requirement_body": {
+      "message": "Binnenkort is een account vereist om verder te gaan."
+   },
+   "signup_requirement_countdown_days": {
+      "message": "Nog %1 dagen tot accountvereiste"
+   },
+   "signup_requirement_countdown_one_day": {
+      "message": "Nog 1 dag tot accountvereiste"
+   },
+   "signup_requirement_days_abbr": {
+      "message": "dagen"
+   },
+   "signup_requirement_dismiss": {
+      "message": "Melding sluiten"
+   },
+   "signup_requirement_sign_up": {
+      "message": "Gratis registreren →"
+   },
+   "signup_requirement_status_label": {
+      "message": "Melding accountvereiste"
+   },
+   "skip_repeated_keyword": {
+      "message": "Herhaald trefwoord overslaan"
+   },
+   "skip_repeated_keyword_desc": {
+      "message": "Reeds gedetecteerde trefwoorden negeren"
+   },
+   "skip_repeated_keyword_help": {
+      "message": "Negeer al gedetecteerde trefwoorden bij volgende vernieuwing."
+   },
+   "slave_device_alert_body": {
+      "message": "Deze extensie is ingesteld als gekoppeld secundair apparaat. Instellingen en verversingsregeling kunnen overeenkomen met je primaire apparaat."
+   },
+   "slave_device_alert_dismiss": {
+      "message": "Melding sluiten"
+   },
+   "slave_device_alert_read_more": {
+      "message": "Meer informatie"
+   },
+   "slave_device_alert_status_label": {
+      "message": "Secundair apparaat"
+   },
+   "slave_message_alert": {
+      "message": "U kunt deze optie niet wijzigen omdat u een slave-gebruiker bent."
+   },
+   "source_find_text": {
+      "message": "Bron (HTML-bron)"
+   },
+   "source_find_text_caution": {
+      "message": "Deze optie is voornamelijk bedoeld voor ontwikkelaars. Het scannen van de ruwe HTML-bron kan verborgen of niet-zichtbare markup matchen, wat vaak tot valse positieven leidt. Het is trager en niet aanbevolen voor dagelijks monitoren — schakel het alleen in wanneer zichtbare-tekstmatching niet genoeg is."
+   },
+   "source_find_text_help": {
+      "message": "Extraheert tekst rechtstreeks uit de HTML-broncode. Kan verborgen of dynamische inhoud bevatten."
+   },
+   "start_countdown": {
+      "message": "Aftelling starten"
+   },
+   "start_msg": {
+      "message": "Start"
+   },
+   "start_refreshing": {
+      "message": "Vernieuwen starten"
+   },
+   "start_time": {
+      "message": "Starttijd"
+   },
+   "stop": {
+      "message": "Stop"
+   },
+   "stop_countdown": {
+      "message": "Aftelling stoppen"
+   },
+   "stop_refreshing": {
+      "message": "Vernieuwen stoppen"
+   },
+   "stop_time": {
+      "message": "Stoptijd"
+   },
+   "subscription": {
+      "message": "Abonnement"
+   },
+   "success": {
+      "message": "Instellingen succesvol opgeslagen"
+   },
+   "support_ticket": {
+      "message": "Ondersteuningsticket"
+   },
+   "supported_expressions": {
+      "message": "Ondersteunde expressies"
+   },
+   "supported_expressions_msg_monitor": {
+      "message": "Ondersteunde expressies voor pagina-monitoring"
+   },
+   "syntax_css_desc": {
+      "message": "Richt elementen met standaard CSS-selectors — op id, klasse, attribuut of hiërarchie."
+   },
+   "syntax_css_ex1_desc": {
+      "message": "Selecteert het element met id \"price\""
+   },
+   "syntax_css_ex1_title": {
+      "message": "Op id"
+   },
+   "syntax_css_ex2_desc": {
+      "message": "Selecteert elementen met de klasse \"stock-status\""
+   },
+   "syntax_css_ex2_title": {
+      "message": "Op klasse"
+   },
+   "syntax_css_ex3_desc": {
+      "message": "Selecteert het element waar data-testid \"add-to-cart\" is"
+   },
+   "syntax_css_ex3_title": {
+      "message": "Op attribuut"
+   },
+   "syntax_css_title": {
+      "message": "CSS-selectors"
+   },
+   "syntax_custom_desc": {
+      "message": "Begint met ## en combineert trefwoorden met Boolean AND / OR / NOT-logica."
+   },
+   "syntax_custom_ex1_desc": {
+      "message": "Activeert alleen wanneer \"In Stock\" en \"Add to Cart\" verschijnen"
+   },
+   "syntax_custom_ex1_title": {
+      "message": "AND-voorwaarde"
+   },
+   "syntax_custom_ex2_desc": {
+      "message": "Activeert wanneer een van de trefwoorden verschijnt"
+   },
+   "syntax_custom_ex2_title": {
+      "message": "OR-voorwaarde"
+   },
+   "syntax_custom_ex3_desc": {
+      "message": "Activeert wanneer \"In Stock\" verschijnt maar \"Sold Out\" niet"
+   },
+   "syntax_custom_ex3_title": {
+      "message": "NOT-voorwaarde"
+   },
+   "syntax_custom_title": {
+      "message": "Aangepaste expressies"
+   },
+   "syntax_norm_ex1_desc": {
+      "message": "Komt overeen met de exacte tekst \"In Stock\" overal op de pagina"
+   },
+   "syntax_norm_ex1_title": {
+      "message": "In Stock"
+   },
+   "syntax_norm_ex2_desc": {
+      "message": "Meerdere trefwoorden — druk na elk op Enter"
+   },
+   "syntax_norm_ex2_title": {
+      "message": "Available, Out of Stock"
+   },
+   "syntax_norm_ex3_desc": {
+      "message": "Komt overeen met de knop of tekst \"Add to Cart\" op de pagina"
+   },
+   "syntax_norm_ex3_title": {
+      "message": "Add to Cart"
+   },
+   "syntax_regex_desc": {
+      "message": "Tussen schuine strepen /.../ voor tekstpatronen. Handig voor prijzen, SKU's en flexibele matches."
+   },
+   "syntax_regex_ex1_desc": {
+      "message": "Komt overeen met een dollarbedrag zoals $19.99 of $1,299.00"
+   },
+   "syntax_regex_ex1_title": {
+      "message": "Prijsmatch"
+   },
+   "syntax_regex_ex2_desc": {
+      "message": "Komt overeen met \"In Stock\" of \"in stock\" (hoofdletterongevoelig)"
+   },
+   "syntax_regex_ex2_title": {
+      "message": "Voorraadstatus"
+   },
+   "syntax_regex_ex3_desc": {
+      "message": "Komt overeen met een product-SKU zoals SKU-12345"
+   },
+   "syntax_regex_ex3_title": {
+      "message": "SKU-code"
+   },
+   "syntax_regex_title": {
+      "message": "Reguliere expressies"
+   },
+   "syntax_text_matching_desc": {
+      "message": "Zoekt eenvoudige trefwoorden op de webpagina. Geen symbool nodig — druk na elk trefwoord op Enter."
+   },
+   "syntax_text_matching_title": {
+      "message": "Tekstovereenkomst"
+   },
+   "syntax_xpath_desc": {
+      "message": "Begint met // om elementen te richten op hun positie in de HTML-structuur."
+   },
+   "syntax_xpath_ex1_desc": {
+      "message": "Selecteert elk element met de klasse \"price\""
+   },
+   "syntax_xpath_ex1_title": {
+      "message": "Op klasse"
+   },
+   "syntax_xpath_ex2_desc": {
+      "message": "Selecteert een knop met tekst \"Add to Cart\""
+   },
+   "syntax_xpath_ex2_title": {
+      "message": "Knop op tekst"
+   },
+   "syntax_xpath_ex3_desc": {
+      "message": "Selecteert het element met id \"availability\""
+   },
+   "syntax_xpath_ex3_title": {
+      "message": "Op id"
+   },
+   "syntax_xpath_title": {
+      "message": "XPath-expressies"
+   },
+   "tabs": {
+      "message": "Tabbladen"
+   },
+   "tabs_alerts": {
+      "message": "Tabbladen met waarschuwingen"
+   },
+   "tabs_refreshing": {
+      "message": "Actieve tabbladen verversen"
+   },
+   "template_add_to_cart_button": {
+      "message": "In-winkelwagen-knop"
+   },
+   "template_add_to_cart_button_desc": {
+      "message": "Komt overeen met winkelwagenknop via test id"
+   },
+   "template_any_stock_term": {
+      "message": "Elke voorraadterm"
+   },
+   "template_any_stock_term_desc": {
+      "message": "Activeert bij elk voorraadtrefwoord"
+   },
+   "template_buy_button": {
+      "message": "Koopknop"
+   },
+   "template_buy_button_desc": {
+      "message": "Koop- of aanknoppen zoeken"
+   },
+   "template_email_address": {
+      "message": "E-mailadres"
+   },
+   "template_email_address_desc": {
+      "message": "E-mailadressen afbreken"
+   },
+   "template_expression_description": {
+      "message": "Sjabloonexpressie voor pagina-monitoring"
+   },
+   "template_in_stock_buyable": {
+      "message": "Op voorraad & koopbaar"
+   },
+   "template_in_stock_buyable_desc": {
+      "message": "Alarm alleen bij voorraad EN koopbaar"
+   },
+   "template_in_stock_not_sold_out": {
+      "message": "Op voorraad, niet uitverkocht"
+   },
+   "template_in_stock_not_sold_out_desc": {
+      "message": "Op voorraad zonder uitverkocht-tekst"
+   },
+   "template_input_field_value": {
+      "message": "Invoerveldwaarde"
+   },
+   "template_input_field_value_desc": {
+      "message": "Invoer met zoekwaarde zoeken"
+   },
+   "template_phone_number": {
+      "message": "Telefoonnummer"
+   },
+   "template_phone_number_desc": {
+      "message": "Telefoonnummers (123) 456-7890 afbreken"
+   },
+   "template_price_changes": {
+      "message": "Prijswijzigingen"
+   },
+   "template_price_changes_desc": {
+      "message": "Gerelateerde trefwoorden van prijs monitoren"
+   },
+   "template_price_detector": {
+      "message": "Prijsdetector"
+   },
+   "template_price_detector_desc": {
+      "message": "Komt overeen met elke dollarprijs zoals $19.99"
+   },
+   "template_price_element": {
+      "message": "Prijselement"
+   },
+   "template_price_element_desc": {
+      "message": "Elementen met prijsklasse zoeken"
+   },
+   "template_price_format": {
+      "message": "Prijsopmaak"
+   },
+   "template_price_format_desc": {
+      "message": "Prijzen zoals $19,99 afbreken"
+   },
+   "template_product_availability": {
+      "message": "Beschikbaarheid van product"
+   },
+   "template_product_availability_desc": {
+      "message": "Beschikbaarheidsstatus van product monitoren"
+   },
+   "template_product_id_pattern": {
+      "message": "Productid-patroon"
+   },
+   "template_product_id_pattern_desc": {
+      "message": "Productid's zoals product-123 afbreken"
+   },
+   "template_product_status": {
+      "message": "Productstatus"
+   },
+   "template_product_status_desc": {
+      "message": "Nieuwe of beperkte editieproducten"
+   },
+   "template_restock_alert": {
+      "message": "Herbevoorradingsalarm"
+   },
+   "template_restock_alert_desc": {
+      "message": "Vang het moment waarop een artikel terug is"
+   },
+   "template_shipping_options": {
+      "message": "Verzendopties"
+   },
+   "template_shipping_options_desc": {
+      "message": "Snelle verzendopties beschikbaar"
+   },
+   "template_shopping_actions": {
+      "message": "Winkelacties"
+   },
+   "template_shopping_actions_desc": {
+      "message": "Beschikbaarheid van winkelbuttones bijhouden"
+   },
+   "template_stock_and_price": {
+      "message": "Voorraad en prijs"
+   },
+   "template_stock_and_price_desc": {
+      "message": "Artikelen op voorraad EN te koop"
+   },
+   "template_stock_status_element": {
+      "message": "Voorraadstatuselement"
+   },
+   "template_stock_status_element_desc": {
+      "message": "Richt een element op via de klasse"
+   },
+   "template_stock_status_text": {
+      "message": "Voorrraadstatustekst"
+   },
+   "template_stock_status_text_desc": {
+      "message": "Tekst met \"In Stock\" zoeken"
+   },
+   "template_ticket_availability": {
+      "message": "Ticketbeschikbaarheid"
+   },
+   "template_ticket_availability_desc": {
+      "message": "Houd tickets in de gaten wanneer ze live gaan"
+   },
+   "templates": {
+      "message": "Sjablonen"
+   },
+   "templates_add_to_keywords": {
+      "message": "Toevoegen aan trefwoorden"
+   },
+   "templates_ai_aria": {
+      "message": "AI-expressiegenerator"
+   },
+   "templates_ai_label": {
+      "message": "AI"
+   },
+   "templates_back_to_templates": {
+      "message": "Terug naar sjablonen"
+   },
+   "templates_close_aria": {
+      "message": "Dialoog sluiten"
+   },
+   "templates_copy_aria": {
+      "message": "Expressie %1 kopiëren"
+   },
+   "templates_header_templates_aria": {
+      "message": "Terug naar sjablonen"
+   },
+   "templates_ready_made": {
+      "message": "Kant-en-klaar"
+   },
+   "templates_syntax_aria": {
+      "message": "Syntaxishulp"
+   },
+   "templates_syntax_button": {
+      "message": "Syntax"
+   },
+   "templates_tooltip": {
+      "message": "Bekijk kant-en-klare monitoringtemplates"
+   },
+   "templates_type_css": {
+      "message": "CSS"
+   },
+   "templates_type_custom": {
+      "message": "Aangepast"
+   },
+   "templates_type_normal": {
+      "message": "Normaal"
+   },
+   "templates_type_regex": {
+      "message": "Regex"
+   },
+   "templates_type_xpath": {
+      "message": "XPath"
+   },
+   "text": {
+      "message": "Tekst"
+   },
+   "thankyou_msg": {
+      "message": "Dank u voor uw feedback"
+   },
+   "this_is_not_valid_css_selector": {
+      "message": "Dit is geen geldige CSS-selector."
+   },
+   "thnakyou_desc": {
+      "message": "Uw feedback helpt ons te verbeteren"
+   },
+   "time": {
+      "message": "Tijd"
+   },
+   "time_has_passed": {
+      "message": "Tijd is verstreken"
+   },
+   "time_is_invalid": {
+      "message": "Ongeldige tijd geselecteerd"
+   },
+   "timer": {
+      "message": "Timer"
+   },
+   "timer_position": {
+      "message": "Timerlocatie"
+   },
+   "timer_position_bottom_left": {
+      "message": "Linksonder"
+   },
+   "timer_position_bottom_right": {
+      "message": "Rechtsonder"
+   },
+   "timer_position_center": {
+      "message": "Midden"
+   },
+   "timer_position_top_left": {
+      "message": "Linksboven"
+   },
+   "timer_position_top_right": {
+      "message": "Rechtsboven"
+   },
+   "upgrade": {
+      "message": "Upgrade"
+   },
+   "use_default": {
+      "message": "Standaardtrefwoorden gebruiken"
+   },
+   "user_menu_account_aria": {
+      "message": "Accountmenu"
+   },
+   "user_menu_avatar_alt": {
+      "message": "Gebruikersavatar"
+   },
+   "user_menu_classic_view": {
+      "message": "Classic"
+   },
+   "user_menu_classic_view_aria": {
+      "message": "Classic-weergave"
+   },
+   "user_menu_command_view": {
+      "message": "Command"
+   },
+   "user_menu_command_view_aria": {
+      "message": "Command-weergave"
+   },
+   "user_menu_focus_mode": {
+      "message": "Focusmodus"
+   },
+   "user_menu_focus_mode_aria": {
+      "message": "Focusmodus in-/uitschakelen"
+   },
+   "user_menu_focus_mode_tooltip": {
+      "message": "Extra UI-elementen verbergen"
+   },
+   "user_menu_refresh_position": {
+      "message": "Knoppen bovenaan"
+   },
+   "user_menu_refresh_position_aria": {
+      "message": "Vernieuwknop bovenaan tonen"
+   },
+   "user_menu_refresh_position_tooltip": {
+      "message": "Vernieuwknoppen in de koptekst tonen"
+   },
+   "user_menu_theme_dark_aria": {
+      "message": "Donker thema"
+   },
+   "user_menu_theme_light_aria": {
+      "message": "Licht thema"
+   },
+   "user_menu_theme_system_aria": {
+      "message": "Systeemthema"
+   },
+   "user_menu_ui_cosmetics": {
+      "message": "UI-cosmetica"
+   },
+   "user_menu_view": {
+      "message": "Weergave"
+   },
+   "user_menu_view_aria": {
+      "message": "Weergavemodus selecteren"
+   },
+   "view_pricing_plans": {
+      "message": "Prijsplannen weergeven"
+   },
+   "visual_find_text": {
+      "message": "Visueel (schermtekst)"
+   },
+   "visual_find_text_help": {
+      "message": "Extraheert zichtbare tekst van het scherm zoals een mens deze zou zien."
+   },
+   "visual_timer_desc": {
+      "message": "Aftelling op de pagina tonen"
+   },
+   "visual_timer_done": {
+      "message": "voltooid"
+   },
+   "visual_timer_help": {
+      "message": "De visuele timer geeft rechtstreeks op de webpagina een aftelling weer. Het toont de resterende tijd tot de volgende vernieuwing en bevat besturingselementen om de timer te pauzeren, hervatten of opnieuw in te stellen."
+   },
+   "visual_timer_live_monitor": {
+      "message": "Live monitor"
+   },
+   "visual_timer_msg": {
+      "message": "Visuele timer weergeven"
+   },
+   "visual_timer_next_refresh_in": {
+      "message": "Volgende verversing over"
+   },
+   "visual_timer_pause_aria": {
+      "message": "Timer pauzeren"
+   },
+   "visual_timer_paused": {
+      "message": "GEPAUZEERD"
+   },
+   "visual_timer_restart_tooltip": {
+      "message": "Aftelling opnieuw starten"
+   },
+   "visual_timer_resume_aria": {
+      "message": "Timer starten"
+   },
+   "visual_timer_running": {
+      "message": "ACTIEF"
+   },
+   "visual_timer_stop_aria": {
+      "message": "Timer stoppen"
+   },
+   "wait_content_load": {
+      "message": "Wacht op inhoudsbelasting"
+   },
+   "wait_content_load_desc": {
+      "message": "Scan vertragen na elke vernieuwing"
+   },
+   "wait_content_load_help": {
+      "message": "Wacht voordat detectie plaatsvindt om de inhoud volledig te laden."
+   },
+   "warning_random_interval": {
+      "message": "De maximumwaarde moet groter zijn dan de minimumwaarde om willekeurige intervallen correct te laten werken."
+   },
+   "webhook_alert_help": {
+      "message": "Met webhooks kunt u waarschuwingen naar andere toepassingen of services sturen wanneer wijzigingen worden gedetecteerd."
+   },
+   "webhook_alerts_switch_desc": {
+      "message": "Payload naar uw endpoint sturen"
+   },
+   "webhooks": {
+      "message": "Webhooks"
+   },
+   "webhooks_tooltip": {
+      "message": "Webhook-instellingen openen voor meldingen"
+   },
+   "whats_new": {
+      "message": "Wat is nieuw"
+   },
+   "whats_new_close_aria": {
+      "message": "Wat is nieuw sluiten"
+   },
+   "whats_new_latest": {
+      "message": "Nieuwste"
+   },
+   "whats_new_load_error": {
+      "message": "Kan de release-opmerkingen niet laden. Probeer het later opnieuw."
+   },
+   "whats_new_subtitle": {
+      "message": "Release-opmerkingen van Auto Refresh Plus"
+   },
+   "whats_new_thank_you": {
+      "message": "Bedankt voor het gebruiken van Auto Refresh Plus"
+   },
+   "window_focus_on_detection": {
+      "message": "Vensterfocus bij trefwoorddetectie"
+   },
+   "window_focus_on_detection_desc": {
+      "message": "Tab naar voren brengen bij overeenkomst"
+   },
+   "window_focus_on_detection_help": {
+      "message": "Schakel vensterfocus in wanneer pagina-monitor een trefwoord vindt of verliest. Deze functie zorgt ervoor dat het venster automatisch naar het voorgrond van uw scherm komt wanneer het opgegeven trefwoord wordt gedetecteerd of verloren gaat."
+   },
+   "without_full": {
+      "message": "XHR verniewing"
+   },
+   "xhr_page_help": {
+      "message": "Gegevens van een URL ophalen zonder volledige paginaverniewing. Dit stelt een webpagina in staat om alleen een deel van een pagina bij te werken zonder te verstoren wat de gebruiker doet."
+   },
+   "xhr_request_autoclick": {
+      "message": "Element automatisch aanklikken"
+   },
+   "xhr_request_autoclick_desc": {
+      "message": "Klik op het pagina-element dat u automatisch wilt klikken."
+   },
+   "xpath": {
+      "message": "XPath"
+   },
+   "xpath_expression": {
+      "message": "XPath-expressie"
+   },
+   "xpath_expression_desc": {
+      "message": "XML Path Language biedt een flexibele manier om verschillende delen van een document aan te spreken. Het moet worden geïnitialiseerd met twee @@ symbolen."
+   },
+   "xpath_expression_example_1_desc": {
+      "message": "Zoekt naar een element dat de tekst \"In Stock\" bevat"
+   },
+   "xpath_expression_example_2_desc": {
+      "message": "Zoekt naar invoerelementen met waardekenmerk met \"Search\""
+   },
+   "xpath_expression_example_3_desc": {
+      "message": "Zoekt naar div-elementen met klasse \"price\" met \"$\" symbool"
+   },
+   "your_expressions": {
+      "message": "Jouw expressies"
+   },
+   "your_expressions_add_new": {
+      "message": "Nieuw toevoegen"
+   },
+   "your_expressions_define_placeholder": {
+      "message": "Expressie definiëren (bijv. Op voorraad of ##Op voorraad AND In winkelwagen)"
+   },
+   "your_expressions_delete_aria": {
+      "message": "%1 verwijderen"
+   },
+   "your_expressions_edit_aria": {
+      "message": "%1 bewerken"
+   },
+   "your_expressions_empty": {
+      "message": "Nog geen opgeslagen expressies. Tik op \"Nieuw toevoegen\" om er een te maken."
+   },
+   "your_expressions_name_placeholder": {
+      "message": "Naam expressie (bijv. Mijn voorraadmelding)"
+   },
+   "your_expressions_yours_badge": {
+      "message": "Van jou"
+   }
+}

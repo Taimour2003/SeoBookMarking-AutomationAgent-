@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+<script src="/aitopia/marketplace/js/extension-config.js"></script>
+  <script src="/aitopia/marketplace/js/shared/pre-auth.js"></script>
+
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <base href="/aitopia/marketplace/home.html">
+  <title> Smart Sidebar (AITOPIA)</title>
+  <meta name="description" content="Create your AITOPIA developer partner account.">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <link rel="icon" type="image/svg+xml" href="/aitopia/marketplace/favicon.svg">
+  <link href="/aitopia/marketplace/css/vendor/css2.css" rel="stylesheet">
+  <script src="/aitopia/marketplace/js/vendor/tailwindcss.min.js"></script>
+  <script src="/aitopia/marketplace/store/tailwind-config.js"></script>
+  <link rel="stylesheet" href="/aitopia/marketplace/store/shared.css">
+  <script src="/aitopia/marketplace/js/inline/developers-register-inline-1.js"></script>
+  <script src="/aitopia/marketplace/js/inline/developers-register-inline-2.js"></script>
+</head>
+<body data-page="developers-register" class="min-h-screen font-sans antialiased bg-white dark:bg-neutral-950 text-gray-900 dark:text-white transition-colors aifnmjmchg aifnmjmchg-marketplace">
+  <div id="navbar-container"></div>
+  <script src="/aitopia/marketplace/js/shared/cache.js"></script>
+  <script src="/aitopia/marketplace/js/components/navbar.js"></script>
+
+  <main class="max-w-[1600px] mx-auto px-3 sm:px-4 lg:px-6 py-8 max-w-4xl">
+    <div class="flex items-start justify-between gap-4 flex-wrap">
+      <div class="min-w-0">
+        <h1 class="text-3xl font-bold tracking-tight">Join the Developer Program</h1>
+        <p class="mt-2 text-sm text-muted-foreground">Create your partner profile and namespace to start publishing agents.</p>
+      </div>
+      <a href="/aitopia/marketplace/developers-dashboard.html" class="h-10 px-4 inline-flex items-center justify-center rounded-full bg-secondary hover:bg-secondary/80 text-sm font-semibold transition-colors">Go to Dashboard</a>
+    </div>
+
+    <div id="registerMessage" class="hidden mt-6 rounded-xl border px-4 py-3 text-sm"></div>
+
+    <form id="developerRegisterForm" class="mt-6 rounded-ios-2xl border border-border bg-card p-6 sm:p-8 space-y-5">
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div>
+          <label for="displayName" class="block text-sm font-semibold mb-2">Display name</label>
+          <input id="displayName" type="text" required class="w-full h-11 px-4 rounded-full bg-secondary/80 border-0 text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/25" placeholder="Acme AI">
+        </div>
+        <div>
+          <label for="email" class="block text-sm font-semibold mb-2">Contact email</label>
+          <input id="email" type="email" required class="w-full h-11 px-4 rounded-full bg-secondary/80 border-0 text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/25" placeholder="dev@acme.ai">
+        </div>
+      </div>
+
+      <div>
+        <label for="namespace" class="block text-sm font-semibold mb-2">Namespace</label>
+        <input id="namespace" type="text" required class="w-full h-11 px-4 rounded-full bg-secondary/80 border-0 text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/25" placeholder="acme">
+        <p class="mt-2 text-xs text-muted-foreground">Agent ID preview: <span id="namespacePreview" class="font-semibold">dev.your-namespace.your-agent</span></p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div>
+          <label for="websiteUrl" class="block text-sm font-semibold mb-2">Website URL (optional)</label>
+          <input id="websiteUrl" type="text" inputmode="url" autocomplete="url" autocapitalize="off" spellcheck="false" class="w-full h-11 px-4 rounded-full bg-secondary/80 border-0 text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/25" placeholder="acme.ai or https://acme.ai">
+        </div>
+        <div>
+          <label for="description" class="block text-sm font-semibold mb-2">Short description (optional)</label>
+          <input id="description" type="text" class="w-full h-11 px-4 rounded-full bg-secondary/80 border-0 text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/25" placeholder="Image and video tooling">
+        </div>
+      </div>
+
+      <div class="space-y-2 pt-1">
+        <label class="flex items-start gap-2 text-sm">
+          <input id="acceptTerms" type="checkbox" class="mt-1 h-4 w-4 rounded border-border" required>
+          <span>I accept the partner terms and review policy.</span>
+        </label>
+        <label class="flex items-start gap-2 text-sm">
+          <input id="acceptRevenue" type="checkbox" class="mt-1 h-4 w-4 rounded border-border" required>
+          <span>I understand BYOM revenue split, remix ordering, and escrow release rules.</span>
+        </label>
+      </div>
+
+      <div class="pt-2 flex items-center gap-2 sm:gap-3">
+        <button id="registerSubmitBtn" type="submit" class="h-10 sm:h-11 px-5 sm:px-6 rounded-full bg-primary text-primary-foreground text-xs sm:text-sm font-semibold hover:bg-primary/90 transition-colors whitespace-nowrap">Create Developer Account</button>
+        <a href="/aitopia/marketplace/developers.html" class="h-10 sm:h-11 px-4 sm:px-6 inline-flex items-center justify-center rounded-full bg-secondary hover:bg-secondary/80 text-xs sm:text-sm font-semibold transition-colors whitespace-nowrap">Cancel</a>
+      </div>
+    </form>
+  </main>
+
+  <script type="module" src="/aitopia/marketplace/js/developers/register.js"></script>
+  <script src="/aitopia/marketplace/js/shared/global-nav.js"></script>
+<script src="/aitopia/marketplace/js/shared/footer.js"></script>
+</body>
+</html>

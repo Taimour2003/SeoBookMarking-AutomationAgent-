@@ -1,0 +1,68 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "images/128.png",
+         "16": "images/16.png",
+         "19": "images/19.png",
+         "32": "images/32.png",
+         "38": "images/38.png",
+         "48": "images/48.png",
+         "64": "images/64.png"
+      },
+      "default_popup": "bluePopup.html",
+      "default_title": "__MSG_extName__"
+   },
+   "background": {
+      "service_worker": "blueBackground.js",
+      "type": "module"
+   },
+   "commands": {
+      "show-popup": {
+         "description": "Show extension popup",
+         "suggested_key": {
+            "default": "Ctrl+Shift+P"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "css": [  ],
+      "js": [ "loader.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "aitopia/assets/f6a2caa41de31708344b1dd006c1cfb8.css", "aitopia/assets/ec15df56d44083d042f7f016efe543eb.css", "aitopia/assets/195be7ae69f8c7be7ce11e1274a06320.css" ],
+      "js": [ "aitopia/assets/cd6f9e3e5be5fc76832300dbb7dc24df.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_extShortDesc__",
+   "externally_connectable": {
+      "matches": [ "*://*.aitopia.ai/*", "*://*.chatgptextension.ai/*" ]
+   },
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "images/128.png",
+      "16": "images/16.png",
+      "19": "images/19.png",
+      "32": "images/32.png",
+      "38": "images/38.png",
+      "48": "images/48.png",
+      "64": "images/64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAi8Jy7ag87+FtAktyxbGJ4UrCL6OmwLbPbIG6lKPJcqm8Y3LfHL+CpzhDFpvRf/1mNwI+kf27cDg3e+mwSBGxjlA4vc4LV+TVM16oWKRBE9qfZvPRZkMrq4PCd95QsLSU8zLAxN2Vu/0vJCSMWuIZITP17oDByIeg/8AQUU0J/I/OGlC5805f88mhCAD9shwqZB1dm3g3Fp5ebGzLtB4ct6Umc3xobAXdwEwAjVSo9DVVN2XbdtmuuBoaBGZYDB3vxPyjYgDnt8FQDK03dKrjZDYoQhXgKbgbUaOxoHZrJ4lDjcYpU++yXNRfP4mIP3A5ghY+qv4y9WqvH7+dmtXH6wIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_extName__",
+   "permissions": [ "storage", "scripting", "system.display", "contextMenus" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0.6",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "*.png", "*.svg", "*.otf", "*.mp4", "*.webm", "*.js", "*.css", "*.woff", "./aitopia/assets/images/*", "./aitopia/assets/videos/*" ],
+      "use_dynamic_url": false
+   }, {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "*.png", "*.svg", "*.otf", "*.mp4", "*.webm", "*.js", "*.css", "*.html", "./aitopia/assets/fonts/*.otf", "*.woff", "*.woff2", "./aitopia/assets/fonts/*.woff", "./aitopia/assets/images/*", "./aitopia/assets/images/**/*.jpg", "./aitopia/assets/images/**/*.png", "./aitopia/assets/images/**/*.svg", "./aitopia/assets/**/*.mp4", "./aitopia/assets/**/*.webm", "./aitopia/assets/**/*.otf", "./aitopia/assets/**/*.png", "./aitopia/assets/**/*.svg", "./aitopia/assets/**/*.css", "./aitopia/assets/**/*.js", "./aitopia/assets/videos/*", "./aitopia/assets/videos/**/*.mp4", "./aitopia/assets/videos/**/*.webm", "aitopia/assets/4d4a6d26cfb6412d1f0cb229686323fc.js", "aitopia/assets/b0e888bd68d3525c609c36b350f3bc11.js", "aitopia/assets/adb05a10ba4e1b99f73635636b54891b.js", "aitopia/assets/4f31556a7f03453726f116c1aad35aa9.js", "aitopia/assets/671ab23eb6b4809b1c466688a1e2b690.js", "aitopia/assets/7f55eb35ab133e610d91ce6d15db3325.js", "aitopia/assets/97caddadbaae9b035117642441fb011c.js", "aitopia/assets/29ea08988297acf619d777f39cd9439c.js", "aitopia/assets/917783efc94466596ca8a6f981c24f9d.js", "aitopia/assets/f3ce4f386facac8dd7e262dd0a48ce24.js", "aitopia/assets/42f4f30a42a02214984a162e5db106a6.js", "aitopia/assets/b73915cc83fcf798d6b826dfd0193c51.js", "aitopia/assets/f0c95a8fed2e7b38b19f7dbf4519c7a5.js", "aitopia/assets/cfb0c1f8655adb0c4b8a482f6085594f.js", "aitopia/assets/6eea217cc7c491a6037bf296ae5a5519.js", "aitopia/assets/bf4df79df72ccb27d0b203e9a26d023a.js", "aitopia/assets/c01bcd3c71b369b23854fb7c64fd1b83.js", "aitopia/assets/21f0374f95240e0f23d6d7cf60e51022.js", "aitopia/assets/427814d59f7573c99030ef422864298b.js", "aitopia/assets/def67f336b06bd006482eedf085aa6c1.js", "aitopia/assets/1f393fb6593557b06ac829ce8deb3790.js", "aitopia/assets/5b1879d0fc0aa951c7421afc0c2300c9.js", "aitopia/assets/9d2244af9511ae58b0aa71c785195948.js", "aitopia/assets/78af22acedf93076a3bf5b8041643b94.js", "aitopia/assets/1f14d800a654c84adc7b6cc8849c841a.js", "aitopia/assets/ebf240a6b6bfb0e83e88600424f46d52.js", "aitopia/assets/7eb91f718739d411c3e0616dbacb2eb7.js", "aitopia/assets/b02e8926e5a2cd3b345b70208d0a182d.js", "aitopia/assets/adc8313c1d4e9a99f895cd00b761ab62.js", "aitopia/assets/c37d4dd3f54bc75fba33ff6a84b937f6.js", "aitopia/assets/25dd1d22b6ff841415ff0837cb436209.js", "aitopia/assets/6651b8365dcaa0d23fe1f6cbbf432dfb.js", "aitopia/assets/142d5ff8f3d0766a8a3c5d1e4439c6f4.js", "aitopia/assets/954927f13a6a8d75882a729484cb49a5.js", "aitopia/assets/ca2ec7371697dd11b98202752b83fc6f.js", "aitopia/assets/899b1ffd3bcba010ef6b9b79c085b38d.js", "aitopia/assets/a4148bc92bfd1b9c30ce2946982cfb59.js", "aitopia/assets/28063dfdf6f5a6023814d21342eae552.js", "aitopia/assets/c578fe284143e2127756b6a97541738c.js", "aitopia/assets/3fbabcc297934928e80038993851597f.js", "aitopia/assets/40a9cc1b954a96a2117c071ecc59198b.js", "aitopia/assets/a80cb245274c274c7f0cfa6dc5b1e67a.js", "aitopia/assets/88405142a554a3fd914de1e22fa285df.js", "aitopia/assets/8b8cc97dd96dc1530a641deb80106427.js", "aitopia/assets/60ad22b6cb24627eae94f55e48518cc2.js", "aitopia/assets/f4389d5bb9273094e0bdd240dc824261.js", "aitopia/assets/fe2f916490d850e146f9c9fd8190c9b3.js", "aitopia/assets/d78ad57768f481c343f2bb46c9ab7fd5.js", "aitopia/assets/5726b36b57735ee91e895956a580b714.js", "aitopia/assets/881cd549496052f68a5c725215f415d4.js", "aitopia/assets/1b78d5db174ca2281178cd1c6a6993d0.js" ],
+      "use_dynamic_url": false
+   } ]
+}

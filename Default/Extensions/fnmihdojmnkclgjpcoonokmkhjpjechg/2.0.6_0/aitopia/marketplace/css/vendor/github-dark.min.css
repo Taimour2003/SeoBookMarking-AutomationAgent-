@@ -1,0 +1,10 @@
+.aifnmjmchg pre code.hljs{display:block;overflow-x:auto;padding:1em}.aifnmjmchg code.hljs{padding:3px 5px}/*!
+  Theme: GitHub Dark
+  Description: Dark theme as seen on github.com
+  Author: github.com
+  Maintainer: @Hirse
+  Updated: 2021-05-15
+
+  Outdated base version: https://github.com/primer/github-syntax-dark
+  Current colors taken from GitHub's CSS
+*/.aifnmjmchg .hljs{color:#c9d1d9;background:#0d1117}.aifnmjmchg .hljs-doctag,.aifnmjmchg .hljs-keyword,.aifnmjmchg .hljs-meta .hljs-keyword,.aifnmjmchg .hljs-template-tag,.aifnmjmchg .hljs-template-variable,.aifnmjmchg .hljs-type,.aifnmjmchg .hljs-variable.language_{color:#ff7b72}.aifnmjmchg .hljs-title,.aifnmjmchg .hljs-title.class_,.aifnmjmchg .hljs-title.class_.inherited__,.aifnmjmchg .hljs-title.function_{color:#d2a8ff}.aifnmjmchg .hljs-attr,.aifnmjmchg .hljs-attribute,.aifnmjmchg .hljs-literal,.aifnmjmchg .hljs-meta,.aifnmjmchg .hljs-number,.aifnmjmchg .hljs-operator,.aifnmjmchg .hljs-selector-attr,.aifnmjmchg .hljs-selector-class,.aifnmjmchg .hljs-selector-id,.aifnmjmchg .hljs-variable{color:#79c0ff}.aifnmjmchg .hljs-meta .hljs-string,.aifnmjmchg .hljs-regexp,.aifnmjmchg .hljs-string{color:#a5d6ff}.aifnmjmchg .hljs-built_in,.aifnmjmchg .hljs-symbol{color:#ffa657}.aifnmjmchg .hljs-code,.aifnmjmchg .hljs-comment,.aifnmjmchg .hljs-formula{color:#8b949e}.aifnmjmchg .hljs-name,.aifnmjmchg .hljs-quote,.aifnmjmchg .hljs-selector-pseudo,.aifnmjmchg .hljs-selector-tag{color:#7ee787}.aifnmjmchg .hljs-subst{color:#c9d1d9}.aifnmjmchg .hljs-section{color:#1f6feb;font-weight:700}.aifnmjmchg .hljs-bullet{color:#f2cc60}.aifnmjmchg .hljs-emphasis{color:#c9d1d9;font-style:italic}.aifnmjmchg .hljs-strong{color:#c9d1d9;font-weight:700}.aifnmjmchg .hljs-addition{color:#aff5b4;background-color:#033a16}.aifnmjmchg .hljs-deletion{color:#ffdcd7;background-color:#67060c}

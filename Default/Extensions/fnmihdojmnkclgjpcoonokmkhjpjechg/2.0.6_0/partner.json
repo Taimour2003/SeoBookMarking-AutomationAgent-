@@ -1,0 +1,14 @@
+{
+  "name": "AITOPIA",
+  "title": " Smart Sidebar (AITOPIA)",
+  "search_title": "AITOPIA",
+  "logo": "/logo.svg",
+  "logo_full": "/logo_full.svg",
+  "main_color": "#000000",
+  "main_color_dark": "#ffffff",
+  "description": "Supercharge Your Browser with the ChatGPT Powered Browser Extension",
+  "store_url": "https://chromewebstore.google.com/detail/chat-gpt/fnmihdojmnkclgjpcoonokmkhjpjechg",
+  "context": false,
+  "install": false,
+  "uninstall": false
+}

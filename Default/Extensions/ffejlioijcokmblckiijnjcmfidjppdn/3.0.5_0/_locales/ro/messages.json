@@ -1,0 +1,38 @@
+{
+   "acceptButton": {
+      "message": "Acceptă"
+   },
+   "appTitle": {
+      "message": "Auto Refresh Plus"
+   },
+   "consentText": {
+      "message": "Pentru a îmbunătăți Auto Refresh Plus, această extensie colectează adresele web (URL-urile) paginilor pe care le vizitați și pagina de la care ați venit (URL-ul de referință), asociate cu un ID anonim aleatoriu. Folosim aceste date pentru a măsura modul în care este utilizată extensia și pentru a găsi paginile pe care reîmprospătarea automată nu funcționează. Aceste date sunt trimise pe serverele noastre, nu sunt niciodată vândute și nu sunt niciodată partajate cu terți. Puteți refuza și puteți utiliza în continuare extensia. Puteți afla mai multe în"
+   },
+   "declineButton": {
+      "message": "Refuză"
+   },
+   "enterTimeText": {
+      "message": "Introduceți timpul în secunde"
+   },
+   "extensionDescription": {
+      "message": "Auto Refresh Plus actualizează și reîncarcă automat orice pagină sau filă după un număr specificat de secunde"
+   },
+   "extensionName": {
+      "message": "Auto Refresh Plus"
+   },
+   "extensionTitle": {
+      "message": "Auto Refresh Plus"
+   },
+   "privacyPolicy": {
+      "message": "Politica de Confidențialitate"
+   },
+   "secondsText": {
+      "message": "secunde"
+   },
+   "startButton": {
+      "message": "START"
+   },
+   "stopButton": {
+      "message": "OPRIRE"
+   }
+}

@@ -1,0 +1,38 @@
+{
+   "acceptButton": {
+      "message": "同意する"
+   },
+   "appTitle": {
+      "message": "Auto Refresh Plus"
+   },
+   "consentText": {
+      "message": "Auto Refresh Plusを改善するため、この拡張機能は、ランダムな匿名IDに紐付けて、お客様が閲覧したページのウェブアドレス（URL）および参照元のページ（リファラーURL）を収集します。これは、拡張機能の利用状況を測定し、自動更新が機能していないページを見つけるために使用されます。このデータは当社のサーバーに送信され、販売されることは決してなく、第三者と共有されることもありません。同意しなくても拡張機能をご利用いただけます。詳しくは当社の"
+   },
+   "declineButton": {
+      "message": "拒否"
+   },
+   "enterTimeText": {
+      "message": "秒数を入力してください"
+   },
+   "extensionDescription": {
+      "message": "Auto Refresh Plusは、指定された秒数後に任意のページまたはタブを自動的に更新して再読み込みします"
+   },
+   "extensionName": {
+      "message": "Auto Refresh Plus"
+   },
+   "extensionTitle": {
+      "message": "Auto Refresh Plus"
+   },
+   "privacyPolicy": {
+      "message": "プライバシーポリシー"
+   },
+   "secondsText": {
+      "message": "秒"
+   },
+   "startButton": {
+      "message": "開始"
+   },
+   "stopButton": {
+      "message": "停止"
+   }
+}

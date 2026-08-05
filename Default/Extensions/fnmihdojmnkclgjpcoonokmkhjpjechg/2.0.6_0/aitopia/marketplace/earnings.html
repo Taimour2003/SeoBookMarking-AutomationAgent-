@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+<script src="/aitopia/marketplace/js/extension-config.js"></script>
+  <script src="/aitopia/marketplace/js/shared/pre-auth.js"></script>
+  
+
+
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <base href="/aitopia/marketplace/home.html">
+  <title> Smart Sidebar (AITOPIA)</title>
+  <meta name="description" content="View credits earned from remixes and creator payouts (credits-first).">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <link rel="icon" type="image/x-icon" href="/aitopia/marketplace/favicon.ico">
+  <link href="/aitopia/marketplace/css/vendor/css2.css" rel="stylesheet">
+
+  <script src="/aitopia/marketplace/js/vendor/tailwindcss.min.js"></script>
+  <script src="/aitopia/marketplace/store/tailwind-config.js"></script>
+  <link rel="stylesheet" href="/aitopia/marketplace/store/shared.css">
+
+  <script src="/aitopia/marketplace/js/inline/earnings-inline-2.js"></script>
+  <script src="/aitopia/marketplace/js/inline/earnings-inline-3.js"></script>
+</head>
+
+<body class="min-h-screen font-sans antialiased bg-white dark:bg-neutral-950 text-gray-900 dark:text-white transition-colors aifnmjmchg aifnmjmchg-marketplace">
+
+
+  <div id="navbar-container"></div>
+  <script src="/aitopia/marketplace/js/shared/cache.js"></script>
+  <script src="/aitopia/marketplace/js/components/navbar.js"></script>
+
+  <main class="max-w-[1600px] mx-auto px-3 sm:px-4 lg:px-6 py-8 max-w-5xl">
+    <div class="flex items-start justify-between gap-4">
+      <div class="min-w-0">
+        <h1 class="text-3xl font-bold tracking-tight">Earnings</h1>
+        <p class="text-sm text-muted-foreground mt-2">Credits earned from remixes (credits-first; no cash payouts in this release).</p>
+      </div>
+      <a href="/aitopia/marketplace/outputs.html" class="h-11 px-5 inline-flex items-center justify-center rounded-full bg-secondary hover:bg-secondary/80 text-sm font-semibold transition-colors whitespace-nowrap">
+        Browse
+      </a>
+    </div>
+
+    <div id="authRequired" class="hidden mt-10 rounded-ios-2xl border border-border bg-card p-8 text-center">
+      <div class="w-16 h-16 mx-auto rounded-ios-2xl bg-secondary flex items-center justify-center text-3xl">🔒</div>
+      <h2 class="mt-5 text-xl font-semibold">Sign in required</h2>
+      <p class="mt-2 text-sm text-muted-foreground">Sign in to view your earnings.</p>
+      <a href="/aitopia/marketplace/login.html" class="mt-6 inline-flex items-center justify-center h-11 px-6 rounded-full bg-primary text-primary-foreground text-sm font-semibold hover:bg-primary/90 transition-colors">Sign in</a>
+    </div>
+
+    <div id="content" class="hidden mt-8">
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+        <div class="rounded-ios-2xl border border-border bg-card p-6">
+          <div class="text-sm text-muted-foreground">All time</div>
+          <div id="creditsAllTime" class="mt-2 text-3xl font-bold text-green-500">—</div>
+          <div class="text-xs text-muted-foreground mt-1">credits earned</div>
+        </div>
+        <div class="rounded-ios-2xl border border-border bg-card p-6">
+          <div class="text-sm text-muted-foreground">Today</div>
+          <div id="creditsToday" class="mt-2 text-3xl font-bold">—</div>
+          <div class="text-xs text-muted-foreground mt-1">credits earned</div>
+        </div>
+        <div class="rounded-ios-2xl border border-border bg-card p-6">
+          <div class="text-sm text-muted-foreground">Entries</div>
+          <div id="entriesCount" class="mt-2 text-3xl font-bold">—</div>
+          <div class="text-xs text-muted-foreground mt-1">ledger rows</div>
+        </div>
+      </div>
+
+      <div class="mt-8 rounded-ios-2xl border border-border bg-card overflow-hidden">
+        <div class="p-4 border-b border-border flex items-center justify-between gap-3">
+          <h2 class="font-semibold">Recent earnings</h2>
+          <button id="refreshBtn" type="button" class="h-9 px-4 rounded-full bg-secondary hover:bg-secondary/80 text-sm font-semibold transition-colors">
+            Refresh
+          </button>
+        </div>
+        <div id="entries" class="divide-y divide-border"></div>
+        <div id="empty" class="hidden p-10 text-center text-sm text-muted-foreground">
+          No earnings yet. Publish remixable creations to start earning.
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script type="module" src="/aitopia/marketplace/js/shared/fetch-helper.js"></script>
+  <script type="module" src="/aitopia/marketplace/js/earnings/earnings.js"></script>
+  <script src="/aitopia/marketplace/js/shared/global-nav.js"></script>
+<script src="/aitopia/marketplace/js/shared/footer.js"></script>
+</body>
+</html>

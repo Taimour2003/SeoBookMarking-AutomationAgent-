@@ -1,0 +1,2186 @@
+{
+   "action_on_detection": {
+      "message": "Дія при виявленні"
+   },
+   "action_report_bug_feedback": {
+      "message": "Повідомити про помилку / Відгук"
+   },
+   "action_stop_refresh": {
+      "message": "Зупинити оновлення"
+   },
+   "active_tabs_alerts_help": {
+      "message": "Вкладки зі спрацювавшим сповіщенням монітора. Закрийте окремі сповіщення або очистіть усе."
+   },
+   "active_tabs_alerts_title": {
+      "message": "Сповіщення"
+   },
+   "active_tabs_clear_all": {
+      "message": "очистити все"
+   },
+   "active_tabs_paused": {
+      "message": "на паузі"
+   },
+   "active_tabs_refreshing_help": {
+      "message": "Вкладки з автооновленням. Наведіть для паузи, перезапуску або зупинки."
+   },
+   "active_tabs_refreshing_title": {
+      "message": "Оновлення"
+   },
+   "active_tabs_stop_all": {
+      "message": "зупинити все"
+   },
+   "active_tabs_time_day_ago": {
+      "message": "%1 день тому"
+   },
+   "active_tabs_time_days_ago": {
+      "message": "%1 дн тому"
+   },
+   "active_tabs_time_hour_ago": {
+      "message": "%1 год тому"
+   },
+   "active_tabs_time_hours_ago": {
+      "message": "%1 год тому"
+   },
+   "active_tabs_time_just_now": {
+      "message": "Щойно"
+   },
+   "active_tabs_time_min_ago": {
+      "message": "%1 хв тому"
+   },
+   "active_tabs_time_sec_ago": {
+      "message": "%1 с тому"
+   },
+   "add": {
+      "message": "Додати"
+   },
+   "add_email": {
+      "message": "Додати електронну пошту"
+   },
+   "add_email_tooltip": {
+      "message": "Додайте email для отримання сповіщень"
+   },
+   "add_keywords": {
+      "message": "Додати ключові слова цілі за замовчуванням"
+   },
+   "add_new": {
+      "message": "Додати нове"
+   },
+   "added": {
+      "message": "Додано"
+   },
+   "alert_settings": {
+      "message": "Параметри сповіщень"
+   },
+   "alert_when_any_change_detected": {
+      "message": "Auto Refresh Plus сповістить вас, коли на цій веб-сторінці буде виявлено будь-яку зміну"
+   },
+   "alert_when_keyword_appears": {
+      "message": "Отримайте повідомлення, коли з'явиться ваше ключове слово."
+   },
+   "alert_when_keyword_disappears": {
+      "message": "Отримайте повідомлення, коли ваше ключове слово зникне."
+   },
+   "all_days": {
+      "message": "Всі дні"
+   },
+   "any": {
+      "message": "Будь-який"
+   },
+   "app_description": {
+      "description": "The description of extension",
+      "message": "Автоматичне оновлення сторінки з потужними функціями моніторингу сторінки."
+   },
+   "app_name": {
+      "description": "The extension name",
+      "message": "Auto Refresh Plus | Page Monitor"
+   },
+   "appearance": {
+      "message": "Зовнішній вигляд"
+   },
+   "apply": {
+      "message": "Застосувати"
+   },
+   "are_you_sure": {
+      "message": "Ви впевнені, що хочете видалити?"
+   },
+   "ast": {
+      "message": "Таймер зворотного відліку"
+   },
+   "auto_click_element_aria": {
+      "message": "Селектор елемента авто-кліку"
+   },
+   "auto_click_element_label": {
+      "message": "елемент авто-кліку"
+   },
+   "auto_click_help": {
+      "message": "Автоматично клацає посилання, якщо моніторуване ключове слово містить посилання."
+   },
+   "auto_click_targets_desc": {
+      "message": "Клікати елементи після кожного оновлення або при збігу ключового слова"
+   },
+   "auto_click_targets_label": {
+      "message": "Цілі автокліку"
+   },
+   "auto_clicker": {
+      "message": "Автоклікер"
+   },
+   "auto_clicker_msg1": {
+      "message": "Автоматичний клік по ключовому слову моніторингу"
+   },
+   "auto_disable_on_first": {
+      "message": "Автоматично вимкнути після першого запуску"
+   },
+   "auto_disable_on_first_desc": {
+      "message": "Відключити цей розклад після першого запуску"
+   },
+   "auto_stop_schedule": {
+      "message": "Автоматична зупинка"
+   },
+   "auto_stop_schedule_desc": {
+      "message": "напр., оновлення з 10 до 11"
+   },
+   "auto_tasks_add_another": {
+      "message": "Додати ще клік"
+   },
+   "auto_tasks_add_element": {
+      "message": "Додати елемент"
+   },
+   "auto_tasks_empty": {
+      "message": "Елементи ще не додано"
+   },
+   "auto_tasks_help": {
+      "message": "Автоматично натискає на вибрані елементи сторінки."
+   },
+   "auto_tasks_label": {
+      "message": "Клік по додаткових елементах"
+   },
+   "auto_tasks_new_tab_short": {
+      "message": "Нова вкладка"
+   },
+   "auto_tasks_open_in_new_tab": {
+      "message": "Відкрити в новій вкладці, якщо посилання"
+   },
+   "auto_tasks_open_new_tab_aria": {
+      "message": "Відкрити клік %1 у новій вкладці"
+   },
+   "auto_tasks_options": {
+      "message": "Параметри"
+   },
+   "auto_tasks_pick": {
+      "message": "Вибрати"
+   },
+   "auto_tasks_remove": {
+      "message": "Видалити"
+   },
+   "auto_tasks_remove_target_aria": {
+      "message": "Видалити ціль кліку %1"
+   },
+   "auto_tasks_selector_aria": {
+      "message": "CSS-селектор для цілі кліку %1"
+   },
+   "auto_tasks_set_selector": {
+      "message": "Задати селектор…"
+   },
+   "auto_tasks_toggle_target_aria": {
+      "message": "Перемкнути ціль кліку %1"
+   },
+   "auto_tasks_trigger": {
+      "message": "Тригер"
+   },
+   "auto_tasks_trigger_each_refresh": {
+      "message": "При кожному оновленні"
+   },
+   "auto_tasks_trigger_on_detection": {
+      "message": "Коли спрацьовує сповіщення"
+   },
+   "auto_tasks_trigger_on_detection_short": {
+      "message": "При виявленні"
+   },
+   "auto_tasks_trigger_refresh_short": {
+      "message": "Оновлення"
+   },
+   "bad": {
+      "message": "Погано"
+   },
+   "behavior_on_interaction": {
+      "message": "Поведінка при взаємодії"
+   },
+   "bulk_keywords_results": {
+      "message": "Результати масової ключових слів"
+   },
+   "calendar_weekday_fri": {
+      "message": "Пт"
+   },
+   "calendar_weekday_mon": {
+      "message": "Пн"
+   },
+   "calendar_weekday_sat": {
+      "message": "Сб"
+   },
+   "calendar_weekday_sun": {
+      "message": "Нд"
+   },
+   "calendar_weekday_thu": {
+      "message": "Чт"
+   },
+   "calendar_weekday_tue": {
+      "message": "Вт"
+   },
+   "calendar_weekday_wed": {
+      "message": "Ср"
+   },
+   "cancel": {
+      "message": "Скасувати"
+   },
+   "captcha_detection": {
+      "message": "Виявлення капчи"
+   },
+   "caution_badge": {
+      "message": "Увага"
+   },
+   "choose_interval": {
+      "message": "Виберіть часовий інтервал"
+   },
+   "clear": {
+      "message": "Очистити"
+   },
+   "clear_all": {
+      "message": "Очистити все"
+   },
+   "clear_all_keywords": {
+      "message": "Очистити всі ключові слова"
+   },
+   "clear_all_keywords_desc": {
+      "message": "Ви впевнені, що хочете очистити всі ключові слова?"
+   },
+   "click_automation_title": {
+      "message": "Автоматизація кліків"
+   },
+   "close": {
+      "message": "Закрити"
+   },
+   "continue": {
+      "message": "Продовжити"
+   },
+   "continue_refreshing_after_alert": {
+      "message": "Продовжити оновлення після сповіщення"
+   },
+   "continue_refreshing_help": {
+      "message": "Спрацюйте сповіщення при виявленні ключового слова, але продовжуйте звичайне оновлення."
+   },
+   "continue_refreshing_switch_desc": {
+      "message": "Продовжувати оновлення після сповіщення"
+   },
+   "copy_expression": {
+      "message": "Копіювати вираз"
+   },
+   "copy_to_clipboard": {
+      "message": "Копіювати в буфер обміну"
+   },
+   "countdown_decrease_hours": {
+      "message": "Зменшити години"
+   },
+   "countdown_decrease_min": {
+      "message": "Зменшити хв"
+   },
+   "countdown_decrease_sec": {
+      "message": "Зменшити сек"
+   },
+   "countdown_duration_label": {
+      "message": "тривалість відліку"
+   },
+   "countdown_fires_after": {
+      "message": "спрацьовує через %1"
+   },
+   "countdown_hms_header": {
+      "message": "г : х : с"
+   },
+   "countdown_hours_value": {
+      "message": "Значення годин"
+   },
+   "countdown_increase_hours": {
+      "message": "Збільшити години"
+   },
+   "countdown_increase_min": {
+      "message": "Збільшити хв"
+   },
+   "countdown_increase_sec": {
+      "message": "Збільшити сек"
+   },
+   "countdown_min_value": {
+      "message": "Значення хвилин"
+   },
+   "countdown_sec_value": {
+      "message": "Значення секунд"
+   },
+   "countdown_target_date_time": {
+      "message": "цільова дата й час"
+   },
+   "countdown_timer_modes_help": {
+      "message": "Оберіть режим таймера: Тривалість відліковує години/хвилини/секунди; Дата й час спрацьовує один раз у вибраний момент."
+   },
+   "countdown_triggers_once": {
+      "message": "спрацьовує один раз у вибраний момент"
+   },
+   "countdown_unit_hours": {
+      "message": "Год"
+   },
+   "countdown_unit_min": {
+      "message": "Хв"
+   },
+   "countdown_unit_sec": {
+      "message": "Сек"
+   },
+   "css_selector": {
+      "message": "CSS селектор"
+   },
+   "css_selector_aria": {
+      "message": "CSS-селектор"
+   },
+   "css_selector_placeholder": {
+      "message": "напр., button або a[href=\"/login\"]"
+   },
+   "custom": {
+      "message": "Користувацька"
+   },
+   "custom_expression": {
+      "message": "Користувацький вираз"
+   },
+   "custom_expression_desc": {
+      "message": "Він ініціалізується двома символами ##, це булеві вирази для операторів OR та AND. Має бути укладено в круглі дужки (всього 4 дужки)."
+   },
+   "custom_expression_example_1_desc": {
+      "message": "Шукає \"У наявності\" ЧИ \"доступно\" І \"Додати до кошика\" ЧИ \"купити зараз\""
+   },
+   "custom_expression_example_2_desc": {
+      "message": "Шукає \"розпродаж\" ЧИ \"знижка\" І \"50%\" ЧИ \"30%\""
+   },
+   "custom_expression_example_3_desc": {
+      "message": "Булев вираз, що використовує оператори OR (|) та AND з дужками"
+   },
+   "custom_interval": {
+      "message": "Користувацький інтервал"
+   },
+   "custom_interval_desc": {
+      "message": "Встановіть точні години, хвилини та секунди"
+   },
+   "custom_monitor": {
+      "message": "Користувацький моніторинг"
+   },
+   "custom_time_interval": {
+      "message": "Користувацький часовий інтервал"
+   },
+   "date_picker_next_month": {
+      "message": "Наступний місяць"
+   },
+   "date_picker_previous_month": {
+      "message": "Попередній місяць"
+   },
+   "date_time_desc": {
+      "message": "Встановіть зворотний відлік для спрацювання на певну дату та час."
+   },
+   "date_time_mode": {
+      "message": "Режим дати та часу"
+   },
+   "date_time_target": {
+      "message": "Цільова дата та час"
+   },
+   "day_abbr_fri": {
+      "message": "Пт"
+   },
+   "day_abbr_mon": {
+      "message": "Пн"
+   },
+   "day_abbr_sat": {
+      "message": "Сб"
+   },
+   "day_abbr_sun": {
+      "message": "Нд"
+   },
+   "day_abbr_thu": {
+      "message": "Чт"
+   },
+   "day_abbr_tue": {
+      "message": "Вт"
+   },
+   "day_abbr_wed": {
+      "message": "Ср"
+   },
+   "decrease_aria": {
+      "message": "Зменшити"
+   },
+   "default_help_description": {
+      "message": "Ви також можете налаштувати \"%1\" у загальних параметрах, щоб застосувати його на всіх веб-сайтах."
+   },
+   "default_interval": {
+      "message": "Часовий інтервал за замовчуванням"
+   },
+   "delay_before_scanning": {
+      "message": "Затримка перед скануванням"
+   },
+   "detect_any_change": {
+      "message": "Auto Refresh Plus виявив зміну на цьому веб-сайті."
+   },
+   "detect_any_change_title": {
+      "message": "Моніторинг сторінки"
+   },
+   "detect_captcha_on_page": {
+      "message": "Виявити капчу на сторінці"
+   },
+   "detect_error_on_page": {
+      "message": "Виявити сторінки помилок (наприклад, 404)"
+   },
+   "detection_behavior": {
+      "message": "Поведінка виявлення"
+   },
+   "developer_mode_msg": {
+      "message": "З міркувань безпеки та стабільності режим розробника не допускається.\u003Cbr> Будь ласка, завантажте та встановіть розширення з офіційного магазину, щоб переконатися, що у вас є найнова та найбільш безпечна версія"
+   },
+   "dismiss": {
+      "message": "Відхилити"
+   },
+   "dismiss_alert": {
+      "message": "Закрити сповіщення"
+   },
+   "donation_msg2": {
+      "message": "Я вже це зробив."
+   },
+   "download_in_store": {
+      "message": "Встановити з магазину"
+   },
+   "duplicates": {
+      "message": "Дублікати"
+   },
+   "duration_desc": {
+      "message": "Встановіть зворотний відлік, використовуючи години, хвилини та секунди."
+   },
+   "duration_help": {
+      "message": "Використовуйте цю дію, щоб встановити зворотний відлік на основі певної тривалості в годинах, хвилинах та секундах"
+   },
+   "duration_mode": {
+      "message": "Режим тривалості"
+   },
+   "email_alert_help": {
+      "message": "Сповіщення електронної пошти повідомляють вас про те, коли виникають певні зміни або події. Додайте адресу електронної пошти, щоб почати отримувати ці сповіщення"
+   },
+   "email_alerts_switch_desc": {
+      "message": "Надсилати email, коли спрацює монітор"
+   },
+   "email_daily_limit": {
+      "message": "%1 / %2 денний ліміт"
+   },
+   "email_disconnect": {
+      "message": "Від'єднати"
+   },
+   "email_limit_reached": {
+      "message": "Досягнуто ліміт електронної пошти"
+   },
+   "email_limit_toast_description": {
+      "message": "Ви досягли щоденного ліміту електронної пошти. Розширте функціонал, щоб продовжити надсилання сповіщень електронної пошти."
+   },
+   "email_remaining_count": {
+      "message": "%1 залишилось"
+   },
+   "email_sent_today": {
+      "message": "%1 надіслано сьогодні"
+   },
+   "email_usage_count": {
+      "message": "Електронних листів надіслано сьогодні: %1 / %2"
+   },
+   "emails_remaining": {
+      "message": "електронних листів залишилося"
+   },
+   "enable_captcha_detection_help": {
+      "message": "Ввімкніть, щоб виявити, коли з'являється запит на капчу."
+   },
+   "enable_error_detection_help": {
+      "message": "Ввімкніть, щоб виявити невдалі або розірвані сторінки."
+   },
+   "enter_custom_interval": {
+      "message": "Введіть власний інтервал у секундах."
+   },
+   "enter_time_duration": {
+      "message": "Введіть часову тривалість"
+   },
+   "error_page_detection": {
+      "message": "Виявлення сторінки помилки"
+   },
+   "error_save_preferences": {
+      "message": "Не вдалося зберегти налаштування. Спробуйте ще раз."
+   },
+   "error_schedule_one_day": {
+      "message": "Ви повинні вибрати принаймні один день."
+   },
+   "error_stop_time": {
+      "message": "Час зупинки повинен бути пізніше, ніж час початку."
+   },
+   "example": {
+      "message": "Приклад"
+   },
+   "expression_templates": {
+      "message": "Шаблони виразів"
+   },
+   "ext_action_failed": {
+      "message": "Дію не виконано"
+   },
+   "ext_applying": {
+      "message": "Застосування..."
+   },
+   "ext_approve_action": {
+      "message": "схвалити"
+   },
+   "ext_approve_apply": {
+      "message": "Схвалити та застосувати"
+   },
+   "ext_auto_generated": {
+      "message": "(створено автоматично)"
+   },
+   "ext_blacklist": {
+      "message": "Чорний список"
+   },
+   "ext_changes_merged": {
+      "message": "Зміни, які будуть об'єднані з локальними параметрами."
+   },
+   "ext_code": {
+      "message": "Код"
+   },
+   "ext_completed": {
+      "message": "Завершено"
+   },
+   "ext_configuration_review": {
+      "message": "Перевірка конфігурації"
+   },
+   "ext_created": {
+      "message": "Створено"
+   },
+   "ext_current": {
+      "message": "Поточне"
+   },
+   "ext_custom_script": {
+      "message": "Користувацький скрипт"
+   },
+   "ext_custom_script_add_new": {
+      "message": "Користувацький скрипт (Додати новий)"
+   },
+   "ext_custom_script_add_only": {
+      "message": "Ця операція лише додає новий скрипт і ніколи не перезаписує існуючі скрипти без повідомлення."
+   },
+   "ext_domain_config": {
+      "message": "Конфіг. домену"
+   },
+   "ext_domain_configuration": {
+      "message": "Конфігурація домену"
+   },
+   "ext_empty": {
+      "message": "(порожньо)"
+   },
+   "ext_enabled": {
+      "message": "Увімкнено"
+   },
+   "ext_error_action": {
+      "message": "Не вдалося %1 запит."
+   },
+   "ext_error_storage": {
+      "message": "Не вдалося прочитати очікувану перевірку зі сховища розширення."
+   },
+   "ext_error_sync": {
+      "message": "Не вдалося %1 запит через помилку синхронізації сховища."
+   },
+   "ext_execution_timing": {
+      "message": "Час виконання"
+   },
+   "ext_expires": {
+      "message": "Закінчується"
+   },
+   "ext_extension_wide_settings": {
+      "message": "Налаштування розширення"
+   },
+   "ext_field": {
+      "message": "Поле"
+   },
+   "ext_global_options": {
+      "message": "Глобальні параметри"
+   },
+   "ext_global_options_changes": {
+      "message": "Зміни глобальних параметрів"
+   },
+   "ext_id": {
+      "message": "ID"
+   },
+   "ext_injection_type": {
+      "message": "Тип ін'єкції"
+   },
+   "ext_name": {
+      "message": "Назва"
+   },
+   "ext_new": {
+      "message": "Нове"
+   },
+   "ext_new_script_injection": {
+      "message": "Нова ін'єкція скрипта"
+   },
+   "ext_no_changes_detected": {
+      "message": "Ефективні зміни не виявлено."
+   },
+   "ext_no_pending_description": {
+      "message": "Немає очікуваних змін для перевірки. Ця сторінка з'явиться, коли зовнішнє джерело запитає оновлення конфігурації."
+   },
+   "ext_no_pending_request": {
+      "message": "Немає очікуваних запитів"
+   },
+   "ext_proposed_changes": {
+      "message": "Запропоновані зміни"
+   },
+   "ext_refresh": {
+      "message": "Оновити"
+   },
+   "ext_reject": {
+      "message": "Відхилити"
+   },
+   "ext_reject_action": {
+      "message": "відхилити"
+   },
+   "ext_rejecting": {
+      "message": "Відхилення..."
+   },
+   "ext_request": {
+      "message": "Запит"
+   },
+   "ext_review_description": {
+      "message": "Перегляньте запропоновані зміни та схвалюйте лише якщо вони відповідають вашому наміру. Нічого не буде застосовано до вашого підтвердження."
+   },
+   "ext_review_pending_changes": {
+      "message": "Перевірити очікувані зміни"
+   },
+   "ext_site_specific_rules": {
+      "message": "Правила для сайту"
+   },
+   "ext_source": {
+      "message": "Джерело"
+   },
+   "ext_target": {
+      "message": "Ціль"
+   },
+   "ext_type": {
+      "message": "Тип"
+   },
+   "ext_unknown": {
+      "message": "Невідомо"
+   },
+   "ext_url_pattern": {
+      "message": "Шаблон URL"
+   },
+   "ext_whitelist": {
+      "message": "Білий список"
+   },
+   "extension_settings": {
+      "message": "Параметри розширення"
+   },
+   "extension_update_dismiss_aria": {
+      "message": "Закрити сповіщення про оновлення"
+   },
+   "extension_update_notification_aria": {
+      "message": "Сповіщення про оновлення розширення"
+   },
+   "extension_updated_to_version": {
+      "message": "Розширення оновлено до v%1"
+   },
+   "feature_is_premium": {
+      "message": "%1 є функцією преміум. Розширте функціонал, щоб отримати доступ до всіх преміум-інструментів і покращити свої можливості."
+   },
+   "find_mtr_msg": {
+      "message": "Знайти текст моніторингу в"
+   },
+   "follow_all_redirects": {
+      "message": "Слідувати всім перенаправленням"
+   },
+   "follow_all_redirects_desc": {
+      "message": "Продовжуйте оновлення навіть якщо сторінка перенаправляється на іншу URL-адресу."
+   },
+   "follow_canonical_url": {
+      "message": "Слідувати канонічній URL-адресі"
+   },
+   "follow_canonical_url_desc": {
+      "message": "Використовуйте канонічну (оригінальну) URL-адресу сторінки."
+   },
+   "found": {
+      "message": "Знайдено"
+   },
+   "frozen_tab_noti_message": {
+      "message": "Браузер заморозив цю вкладку у фоні для економії пам'яті. Автооновлення відновиться, коли ви повернетеся на цю вкладку."
+   },
+   "frozen_tab_noti_title": {
+      "message": "Автооновлення призупинено"
+   },
+   "full_documentation": {
+      "message": "Повна документація"
+   },
+   "full_page": {
+      "message": "Повне оновлення сторінки"
+   },
+   "full_page_type_desc": {
+      "message": "Перезавантажити всю сторінку для перевірки змін"
+   },
+   "full_page_type_help": {
+      "message": "Нормальне оновлення дозволяє перевірити зміни на всій сторінці, включаючи весь вміст і ресурси."
+   },
+   "go_premium_full_access": {
+      "message": "Перейти на преміум – Повний доступ"
+   },
+   "go_to_top": {
+      "description": "Accessible label for scroll-to-top button",
+      "message": "Догори"
+   },
+   "go_top": {
+      "message": "Вгору"
+   },
+   "good": {
+      "message": "Добре"
+   },
+   "grace_period_banner": {
+      "message": "Пільговий період закінчується 1 липня. Преміум-функції будуть вимкнені"
+   },
+   "grace_period_consent_body": {
+      "message": "Ви збираєтеся втратити доступ до преміум-функцій. Ви впевнені, що хочете продовжити з безкоштовним тарифом?"
+   },
+   "grace_period_consent_title": {
+      "message": "Продовжити без Premium?"
+   },
+   "grace_period_dismiss_aria": {
+      "message": "Закрити сповіщення про пільговий період"
+   },
+   "grace_period_expired_data_safe": {
+      "message": "Ваші налаштування та дані в безпеці й залишаться збереженими."
+   },
+   "grace_period_expired_description": {
+      "message": "Преміум-функції більше не активні у вашому обліковому записі."
+   },
+   "grace_period_expired_disable_button": {
+      "message": "Вимкнути преміум-функції"
+   },
+   "grace_period_expired_title": {
+      "message": "Пільговий період завершився"
+   },
+   "grace_period_expired_upgrade_button": {
+      "message": "Перейти на Premium"
+   },
+   "grace_period_expired_upgrade_hint": {
+      "message": "Ви можете перейти на Premium у будь-який час, щоб відновити всі преміум-функції."
+   },
+   "grace_period_ok_with_free": {
+      "message": "Продовжити з безкоштовною версією"
+   },
+   "grace_period_upgrade_button": {
+      "message": "Зберегти Premium"
+   },
+   "great": {
+      "message": "Відмінно!"
+   },
+   "handle_redirects": {
+      "message": "Керування перенаправленнями"
+   },
+   "hard_refresh": {
+      "message": "Жорстке оновлення"
+   },
+   "hard_refresh_desc": {
+      "message": "Обходити кеш при кожному перезавантаженні"
+   },
+   "hard_refresh_help": {
+      "message": "Перезавантажте сторінку без опори на кешовані дані."
+   },
+   "highlight_element": {
+      "message": "Виділити елемент на сторінці"
+   },
+   "highlight_keyword": {
+      "message": "Виділити ключове слово на сторінці"
+   },
+   "highlight_keyword_desc": {
+      "message": "Підсвічувати знайдене ключове слово"
+   },
+   "highlight_keyword_help": {
+      "message": "При виявленні ключового слова воно буде візуально виділено на сторінці."
+   },
+   "hotkeys_label": {
+      "message": "Гарячі клавіші"
+   },
+   "hour": {
+      "message": "Година"
+   },
+   "hours": {
+      "message": "Години"
+   },
+   "increase_aria": {
+      "message": "Збільшити"
+   },
+   "individual_plan": {
+      "message": "індивідуальний план"
+   },
+   "individual_plan_starts_at": {
+      "message": "Індивідуальний план починається від $2.99"
+   },
+   "interaction_help": {
+      "message": "Автоматично припинити оновлення, коли користувач взаємодіє зі сторінкою."
+   },
+   "interactions_switch_desc": {
+      "message": "Що відбувається під час взаємодії зі сторінкою"
+   },
+   "interactions_title_opt": {
+      "message": "Поведінка оновлення під час взаємодії користувача"
+   },
+   "interval": {
+      "message": "Інтервал"
+   },
+   "interval_card_custom_duration": {
+      "message": "користувацька тривалість"
+   },
+   "interval_card_interval": {
+      "message": "Інтервал"
+   },
+   "interval_card_random_range": {
+      "message": "випадковий діапазон"
+   },
+   "interval_custom_summary": {
+      "message": "кожні %1г %2х %3с"
+   },
+   "interval_decrease_by": {
+      "message": "Зменшити на %1"
+   },
+   "interval_edit_custom_aria": {
+      "message": "Редагувати користувацький інтервал"
+   },
+   "interval_in_seconds_aria": {
+      "message": "Інтервал у секундах"
+   },
+   "interval_increase_by": {
+      "message": "Збільшити на %1"
+   },
+   "interval_max_sec": {
+      "message": "макс (сек)"
+   },
+   "interval_max_sec_aria": {
+      "message": "максимальні секунди"
+   },
+   "interval_min_sec": {
+      "message": "мін (сек)"
+   },
+   "interval_min_sec_aria": {
+      "message": "мінімальні секунди"
+   },
+   "interval_modes_help": {
+      "message": "Фіксований: оновлення кожні N секунд. Випадковий: інтервал у діапазоні. Користувацький: точна тривалість у годинах/хвилинах/секундах."
+   },
+   "interval_preset_minutes": {
+      "message": "%1х"
+   },
+   "interval_preset_seconds": {
+      "message": "%1с"
+   },
+   "interval_random_summary": {
+      "message": "оновлення кожні %1–%2 с"
+   },
+   "interval_range_to": {
+      "message": "до"
+   },
+   "interval_tab_custom": {
+      "message": "Власний"
+   },
+   "interval_tab_fixed": {
+      "message": "Фіксований"
+   },
+   "interval_tab_random": {
+      "message": "Випадковий"
+   },
+   "interval_unit_hrs": {
+      "message": "год"
+   },
+   "interval_unit_min": {
+      "message": "хв"
+   },
+   "interval_unit_sec": {
+      "message": "сек"
+   },
+   "interval_unit_seconds_header": {
+      "message": "секунди"
+   },
+   "keyword_input_placeholder": {
+      "message": "Введіть ключове слово, регулярний вираз, XPath або селектор CSS (розділіть кілька комами)..."
+   },
+   "keywords_to_monitor": {
+      "message": "Ключові слова для моніторингу"
+   },
+   "kill_notification": {
+      "message": "Вимкнути сигнал сповіщення"
+   },
+   "kill_successfully": {
+      "message": "Успішно вимкнено"
+   },
+   "lang_code": {
+      "message": "uk"
+   },
+   "language": {
+      "message": "Мова"
+   },
+   "lost": {
+      "message": "Втрачено"
+   },
+   "loved": {
+      "message": "Дуже подобається!"
+   },
+   "match_html_source_desc": {
+      "message": "Сканувати вихідний код — повільніше, використовуйте обережно"
+   },
+   "match_html_source_label": {
+      "message": "Збіг HTML-джерела"
+   },
+   "match_visible_text_desc": {
+      "message": "Сканувати відображений на екрані текст"
+   },
+   "match_visible_text_label": {
+      "message": "Збіг видимого тексту"
+   },
+   "maximum": {
+      "message": "Максимум"
+   },
+   "minimum": {
+      "message": "Мінімум"
+   },
+   "minute": {
+      "message": "Хвилина"
+   },
+   "minutes": {
+      "message": "Хвилини"
+   },
+   "monitor": {
+      "message": "Моніторинг"
+   },
+   "monitor_area_select": {
+      "message": "Вибрати"
+   },
+   "monitor_area_selector_desc": {
+      "message": "Введіть CSS-селектор або виберіть елемент на сторінці."
+   },
+   "monitor_area_switch_desc": {
+      "message": "Обмежити пошук одним регіоном"
+   },
+   "monitor_area_switch_label": {
+      "message": "Область моніторингу"
+   },
+   "monitor_custom_area": {
+      "message": "Пошук у користувацькій區ї сторінки"
+   },
+   "monitor_custom_area_help": {
+      "message": "Ввімкніть, щоб вказати користувацьку область сторінки для моніторингу або пошуку."
+   },
+   "monitor_full_page": {
+      "message": "Моніторити повну сторінку"
+   },
+   "monitor_full_page_help": {
+      "message": "Ввімкніть, щоб моніторити зміни по всій веб-сторінці."
+   },
+   "monitor_page_for_any_changes": {
+      "message": "Автоматично відстежувати будь-які зміни сторінки."
+   },
+   "monitored_area": {
+      "message": "Область моніторингу"
+   },
+   "monitoring_active": {
+      "message": "Моніторинг активний"
+   },
+   "monitoring_auto_click_label": {
+      "message": "Автоклік при збігу ключового слова"
+   },
+   "monitoring_engine_advanced": {
+      "message": "Розширений"
+   },
+   "monitoring_engine_aria": {
+      "message": "Версія рушія моніторингу"
+   },
+   "monitoring_engine_basic": {
+      "message": "Базовий"
+   },
+   "monitoring_engine_beta": {
+      "message": "бета"
+   },
+   "monitoring_engine_tooltip_desc": {
+      "message": "Працює для всіх виборів — Знайдено, Втрачено та Користувацький — з швидшим і розумнішим виявленням."
+   },
+   "monitoring_engine_tooltip_title": {
+      "message": "Нове бета-ядро"
+   },
+   "monitoring_keyword_input_aria": {
+      "message": "Ключове слово для моніторингу"
+   },
+   "monitoring_keywords_empty": {
+      "message": "Ще немає ключових слів — додайте хоча б одне, щоб почати моніторинг."
+   },
+   "monitoring_mode": {
+      "message": "Режим моніторингу"
+   },
+   "monitoring_mode_custom_info_highlight": {
+      "message": "будь-яку зміну"
+   },
+   "monitoring_mode_custom_info_prefix": {
+      "message": "Користувацький режим сповіщає вас, коли виявлено "
+   },
+   "monitoring_mode_custom_info_suffix": {
+      "message": " на цій сторінці — ключові слова не потрібні."
+   },
+   "monitoring_mode_custom_intro": {
+      "message": "Автоматично відстежуйте будь-які зміни сторінки."
+   },
+   "monitoring_mode_custom_short": {
+      "message": "Користувацький"
+   },
+   "monitoring_mode_found_desc": {
+      "message": "Отримуйте сповіщення, коли з'являється ваше ключове слово."
+   },
+   "monitoring_mode_found_short": {
+      "message": "Знайдено"
+   },
+   "monitoring_mode_help": {
+      "message": "Виберіть, коли Auto Refresh Plus має сповіщати вас"
+   },
+   "monitoring_mode_lost_desc": {
+      "message": "Отримуйте сповіщення, коли зникає ваше ключове слово."
+   },
+   "monitoring_mode_lost_short": {
+      "message": "Втрачено"
+   },
+   "monitoring_remove_keyword_aria": {
+      "message": "Видалити %1"
+   },
+   "monitoring_tip_banner": {
+      "message": "Потрібно більше дій? Спробуйте автоматизацію мульти-кліків."
+   },
+   "monitoring_tip_label": {
+      "message": "Порада:"
+   },
+   "new_badge": {
+      "message": "Нове"
+   },
+   "no_active_tabs": {
+      "message": "Немає активних вкладок"
+   },
+   "no_active_tabs_desc": {
+      "message": "Наразі немає вкладок, які моніторяться або оновлюються. Почніть оновляти вкладку, щоб побачити її тут."
+   },
+   "no_keyword": {
+      "message": "Ключові слова ще не додані. Додайте ключові слова для моніторингу."
+   },
+   "no_tabs_refreshing": {
+      "message": "Немає вкладок, що оновлюються"
+   },
+   "no_templates_match": {
+      "message": "Немає шаблонів, які відповідають вашим критеріям пошуку."
+   },
+   "normal_expression": {
+      "message": "Нормальний вираз"
+   },
+   "normal_expression_desc": {
+      "message": "Він шукає ключові слова на веб-сторінці і не потребує ініціалізації з будь-яким символом. Просто натисніть Enter на кожному ключовому слові."
+   },
+   "normal_expression_example_1_desc": {
+      "message": "Шукає точний текст \"У наявності\" на веб-сторінці"
+   },
+   "normal_expression_example_2_desc": {
+      "message": "Шукає кілька ключових слів, натисніть Enter після кожного ключового слова"
+   },
+   "normal_expression_example_3_desc": {
+      "message": "Шукає кнопку \"Додати до кошика\" або текст на сторінці"
+   },
+   "not_allowed": {
+      "message": "Вам не дозволено користуватися цим тут."
+   },
+   "noti_msg": {
+      "message": "Auto Refresh Plus %1 ваш цільовий текст."
+   },
+   "noti_msg_title": {
+      "message": "Цільовий текст!"
+   },
+   "notification_domain_info": {
+      "message": "на %1"
+   },
+   "ok": {
+      "message": "ОК"
+   },
+   "okay": {
+      "message": "Нормально"
+   },
+   "open_link_help": {
+      "message": "Відкриває клацнуту посилання у новій вкладці браузера."
+   },
+   "open_link_tab": {
+      "message": "Відкрити посилання у новій вкладці"
+   },
+   "options": {
+      "message": "Параметри"
+   },
+   "partial_page_desc": {
+      "message": "Відстежувати лише AJAX/XHR-запити"
+   },
+   "pause": {
+      "message": "Пауза"
+   },
+   "pause_on_interact": {
+      "message": "Пауза при взаємодії"
+   },
+   "pause_refreshing": {
+      "message": "Призупинити оновлення"
+   },
+   "permissions_attention": {
+      "message": "Увага"
+   },
+   "permissions_btn_grant": {
+      "message": "Надати доступ до сайту для хостів панелі"
+   },
+   "permissions_btn_opening_dialog": {
+      "message": "Відкриття діалогу дозволів..."
+   },
+   "permissions_btn_refresh": {
+      "message": "Оновити стан"
+   },
+   "permissions_config_missing_body": {
+      "message": "не визначено в середовищі збірки. Перезберіть із вказанням імені хоста панелі."
+   },
+   "permissions_config_missing_title": {
+      "message": "Немає конфігурації"
+   },
+   "permissions_error_denied": {
+      "message": "Дозволи відхилено. Надайте доступ для хоста панелі, щоб синхронізація та вбудовані функції працювали надійно."
+   },
+   "permissions_error_dialog": {
+      "message": "Під час відкриття діалогу дозволів сталася помилка. Спробуйте ще раз або перевірте налаштування браузера."
+   },
+   "permissions_error_read_state": {
+      "message": "Не вдалося прочитати стан дозволу сайту. Перезавантажте сторінку або спробуйте пізніше."
+   },
+   "permissions_go_to_options": {
+      "message": "До параметрів"
+   },
+   "permissions_granted_body": {
+      "message": "Розширення вже має відповідний дозвіл хоста для вашої платформи. Можна закрити цю вкладку."
+   },
+   "permissions_granted_ok": {
+      "message": "OK"
+   },
+   "permissions_granted_title": {
+      "message": "Доступ до сайту увімкнено"
+   },
+   "permissions_heading_dashboard": {
+      "message": "Дозволи хоста панелі"
+   },
+   "permissions_intro_dashboard": {
+      "message": "Керуйте тим, чи може розширення працювати на доменах панелі Auto Refresh Plus (контент-скрипти та інтеграція платформи)."
+   },
+   "permissions_label_dashboard_host": {
+      "message": "Хост панелі"
+   },
+   "permissions_revoke_hint": {
+      "message": "Щоб пізніше відкликати, видаліть цей сайт зі списку доступу до сайтів розширень у налаштуваннях браузера."
+   },
+   "permissions_subtitle": {
+      "message": "Доступ до сайту платформи"
+   },
+   "permissions_warn_body_prefix": {
+      "message": "Надайте доступ, щоб розширення могло підключатися до панелі, відображати налаштування та узгоджувати роботу з розширенням (той самий шаблон хоста, що й у контент-скрипті:"
+   },
+   "permissions_warn_body_suffix": {
+      "message": ")."
+   },
+   "permissions_warn_title": {
+      "message": "Доступ до сайту ще не надано"
+   },
+   "play_alarm_on_captcha_detection": {
+      "message": "Програти сигнал при виявленні капчи"
+   },
+   "play_alarm_on_captcha_detection_help": {
+      "message": "Програти звуковий сигнал при виявленні капчи."
+   },
+   "play_alarm_on_error_detection": {
+      "message": "Програти сигнал при виявленні помилки"
+   },
+   "play_alarm_on_error_detection_help": {
+      "message": "Програти звуковий сигнал при виявленні сторінки помилки."
+   },
+   "please_add_email_first": {
+      "message": "Будь ласка, спочатку додайте електронну пошту."
+   },
+   "please_add_webhooks_first": {
+      "message": "Будь ласка, спочатку додайте вебгачки."
+   },
+   "please_rateus": {
+      "message": "Будь ласка, оцініть нас"
+   },
+   "popup_on_keyword_found": {
+      "message": "Сповіщення при знайденому ключовому слові"
+   },
+   "popup_on_keyword_lost": {
+      "message": "Сповіщення при втраченому ключовому слові"
+   },
+   "predefined_interval": {
+      "message": "Попередньо визначений інтервал"
+   },
+   "predefined_interval_desc": {
+      "message": "Використовуйте попередньо встановлені або стандартні значення часу"
+   },
+   "premium_benefits": {
+      "message": "Переваги преміум:"
+   },
+   "premium_device_sync": {
+      "message": "Керуйте до 3 пристроями"
+   },
+   "premium_full_access": {
+      "message": "Всі преміум-функції"
+   },
+   "premium_priority_support": {
+      "message": "Різні профілі параметрів"
+   },
+   "premium_tag_aria": {
+      "message": "Преміум-функція: %1. Відкрити оголошення."
+   },
+   "premium_tag_default_feature": {
+      "message": "Функція"
+   },
+   "premium_tag_tooltip_click": {
+      "message": "Натисніть для деталей"
+   },
+   "premium_usage_body": {
+      "message": "Преміум-функції активні на безкоштовному тарифі."
+   },
+   "premium_usage_dismiss": {
+      "message": "Закрити сповіщення"
+   },
+   "premium_usage_status_label": {
+      "message": "Використовуються преміум-функції"
+   },
+   "preset_interval": {
+      "message": "Попередньо встановлені інтервали"
+   },
+   "pricing": {
+      "message": "Ціноутворення"
+   },
+   "pro_announcement_body": {
+      "message": "Auto Refresh Plus поступово впроваджує PRO, щоб підтримувати довгострокову розробку, розширені функції, хмарну синхронізацію, розумніший моніторинг і керування кількома пристроями, водночас базові функції оновлення залишаються безкоштовними для всіх."
+   },
+   "pro_announcement_close_aria": {
+      "message": "Закрити діалог"
+   },
+   "pro_announcement_days_label": {
+      "message": "дн."
+   },
+   "pro_announcement_days_remaining_aria": {
+      "message": "Залишилося %1 дн."
+   },
+   "pro_announcement_fresh_install_body": {
+      "message": "Відкрийте %1 і повний преміум-досвід з PRO — розширені інструменти, розумніший моніторинг, хмарна синхронізація й доступ із кількох пристроїв."
+   },
+   "pro_announcement_fresh_install_title_suffix": {
+      "message": "це преміальна функція"
+   },
+   "pro_announcement_fresh_install_trial": {
+      "message": "15 днів безкоштовно"
+   },
+   "pro_announcement_important_badge": {
+      "message": "Важливо"
+   },
+   "pro_announcement_important_notice_aria": {
+      "message": "Важливе повідомлення"
+   },
+   "pro_announcement_moving_to_pro": {
+      "message": "Переходить у PRO"
+   },
+   "pro_announcement_premium_badge": {
+      "message": "PREMIUM"
+   },
+   "pro_announcement_premium_badge_aria": {
+      "message": "Преміум"
+   },
+   "pro_announcement_rollout_date": {
+      "message": "1 червня"
+   },
+   "pro_announcement_rollout_intro": {
+      "message": "Розгортання з"
+   },
+   "pro_announcement_rollout_outro": {
+      "message": "."
+   },
+   "pro_announcement_view_pricing": {
+      "message": "Тарифи — від 2,99 $/міс."
+   },
+   "random_interval": {
+      "message": "Випадковий інтервал"
+   },
+   "random_interval_desc": {
+      "message": "Випадкове оновлення між мін.–макс."
+   },
+   "random_interval_help": {
+      "message": "При поточних параметрах сторінка буде оновлюватися випадково кожні %1–%2 секунди."
+   },
+   "random_time_interval": {
+      "message": "Діапазон випадкового оновлення"
+   },
+   "rate_us": {
+      "message": "Оцініть нас"
+   },
+   "rateus_title": {
+      "message": "Оцініть це розширення"
+   },
+   "ready_expressions_load_error": {
+      "message": "Не вдалося завантажити шаблони. Спробуйте пізніше."
+   },
+   "real_time_detection_during_refresh": {
+      "message": "Виявлення в реальному часі"
+   },
+   "real_time_detection_switch_desc": {
+      "message": "Перевіряти безперервно без повного перезавантаження"
+   },
+   "realtime_help": {
+      "message": "Виявляйте зміни безперервно під час оновлення, а не просто в кінці інтервалу."
+   },
+   "receive_emails_alerts": {
+      "message": "Отримувати сповіщення електронної пошти"
+   },
+   "receive_webhook_alerts": {
+      "message": "Отримувати сповіщення Webhook"
+   },
+   "redirection_behavior": {
+      "message": "Поведінка перенаправлення"
+   },
+   "redirection_behavior_desc": {
+      "message": "Керувати перенаправленнями під час оновлення"
+   },
+   "redirection_behavior_help": {
+      "message": "Виберіть, як Auto Refresh Plus обробляє зміни URL-адреси. Ви можете заблокувати вихідний домен або слідувати перенаправленням."
+   },
+   "refresh_cycles_completed": {
+      "message": "Завершені цикли оновлення"
+   },
+   "refresh_interval_mode": {
+      "message": "Режим інтервалу оновлення"
+   },
+   "refresh_limit": {
+      "message": "Ліміт оновлень"
+   },
+   "refresh_limit_times": {
+      "message": "разів"
+   },
+   "refresh_number": {
+      "message": "Встановити кількість оновлень"
+   },
+   "refresh_number_desc": {
+      "message": "Зупинити після фіксованої кількості"
+   },
+   "refresh_number_help": {
+      "message": "Встановіть, скільки разів ви хочете оновити сторінку."
+   },
+   "refresh_position_hint_body": {
+      "message": "Ви можете змінити кнопку оновлення та інші елементи інтерфейсу в цьому меню."
+   },
+   "refresh_position_hint_understand": {
+      "message": "Зрозуміло"
+   },
+   "refresh_top_pause": {
+      "message": "Пауза"
+   },
+   "refresh_top_resume": {
+      "message": "Далі"
+   },
+   "refresh_top_start": {
+      "message": "Старт"
+   },
+   "refresh_top_stop": {
+      "message": "Стоп"
+   },
+   "refresh_type": {
+      "message": "Тип оновлення"
+   },
+   "refresh_type_help": {
+      "message": "Як сторінка перезавантажується перед кожним скануванням. Повна сторінка перезавантажує весь URL як при оновленні — надійно, але важче. XHR запускає лише фонові AJAX/XHR-запити (без повного перезавантаження) — швидше й легше, ідеально для динамічних сторінок, що оновлюють вміст без перезавантаження."
+   },
+   "regex": {
+      "message": "Регулярний вираз"
+   },
+   "regex_expression": {
+      "message": "Регулярний вираз"
+   },
+   "regex_expression_desc": {
+      "message": "Auto Refresh Plus також підтримує регулярні вирази і має бути ініціалізовано символом $ та наступним регулярним виразом."
+   },
+   "regex_expression_example_1_desc": {
+      "message": "Збігається з \"продуктом\", за яким слідує одна або більше цифр (product1, product42 тощо)"
+   },
+   "regex_expression_example_2_desc": {
+      "message": "Збігається з \"У наявності\" без урахування регістру за допомогою прапорців регулярного виразу"
+   },
+   "regex_expression_example_3_desc": {
+      "message": "Збігається з форматом ціни, наприклад \"$19.99\", \"$299.00\" тощо"
+   },
+   "remove_email": {
+      "message": "Видалити електронну пошту"
+   },
+   "restart": {
+      "message": "Перезавантажити"
+   },
+   "restart_wait_seconds_desc": {
+      "message": "Встановіть кількість секунд, які потрібно чекати, перш ніж оновлення почнеться знову"
+   },
+   "resume": {
+      "message": "Відновити"
+   },
+   "resume_refreshing": {
+      "message": "Відновити оновлення"
+   },
+   "save": {
+      "message": "Зберегти"
+   },
+   "scan_method_title": {
+      "message": "Метод сканування"
+   },
+   "sch_description": {
+      "message": "Автоматичний запуск у вибраний час і дні."
+   },
+   "schedule_add": {
+      "message": "Додати розклад"
+   },
+   "schedule_auto_disable_aria": {
+      "message": "Автовимкнення"
+   },
+   "schedule_auto_stop_aria": {
+      "message": "Автозупинка"
+   },
+   "schedule_delete_aria": {
+      "message": "Видалити розклад"
+   },
+   "schedule_disconnected": {
+      "message": "Розклад був відключений"
+   },
+   "schedule_edit_aria": {
+      "message": "Редагувати розклад"
+   },
+   "schedule_enable_aria": {
+      "message": "Увімкнути розклад"
+   },
+   "schedule_help": {
+      "message": "Розклади дозволяють автоматично оновлювати сторінку у певний час і дні. Кожен розклад може мати час початку, вибрані дні тижня, автозупинку та автовимкнення."
+   },
+   "schedule_options_label": {
+      "message": "параметри"
+   },
+   "schedule_select_days": {
+      "message": "вибрати дні"
+   },
+   "schedule_start_time_label": {
+      "message": "час початку"
+   },
+   "schedules": {
+      "message": "Розклади"
+   },
+   "schedules_active_count": {
+      "message": "%1 активних"
+   },
+   "schedules_empty": {
+      "message": "Розкладів поки немає"
+   },
+   "search_templates": {
+      "message": "Пошукові шаблони..."
+   },
+   "seconds": {
+      "message": "Секунди"
+   },
+   "select_area": {
+      "message": "Виберіть область"
+   },
+   "select_area_desc": {
+      "message": "Введіть селектор CSS, щоб обмежити область пошуку"
+   },
+   "select_css_selector": {
+      "message": "Виберіть елемент, щоб встановити селектор області"
+   },
+   "select_date_time": {
+      "message": "Вибрати дату й час"
+   },
+   "select_days": {
+      "message": "Виберіть дні"
+   },
+   "select_element": {
+      "message": "Виберіть елемент"
+   },
+   "select_language": {
+      "message": "Виберіть свою мову"
+   },
+   "select_time": {
+      "message": "Виберіть час"
+   },
+   "session_expired": {
+      "message": "Ваша сеанс закінчився. Будь ласка, увійдіть знову."
+   },
+   "settings_card_collapse_aria": {
+      "message": "Згорнути %1"
+   },
+   "settings_card_expand_aria": {
+      "message": "Розгорнути %1"
+   },
+   "show_tab": {
+      "message": "Показати вкладку"
+   },
+   "signup_requirement_body": {
+      "message": "Незабаром для продовження знадобиться обліковий запис."
+   },
+   "signup_requirement_countdown_days": {
+      "message": "Залишилося %1 дн. до вимоги облікового запису"
+   },
+   "signup_requirement_countdown_one_day": {
+      "message": "Залишився 1 день до вимоги облікового запису"
+   },
+   "signup_requirement_days_abbr": {
+      "message": "дн."
+   },
+   "signup_requirement_dismiss": {
+      "message": "Закрити сповіщення"
+   },
+   "signup_requirement_sign_up": {
+      "message": "Реєстрація безкоштовно →"
+   },
+   "signup_requirement_status_label": {
+      "message": "Сповіщення про вимогу облікового запису"
+   },
+   "skip_repeated_keyword": {
+      "message": "Пропустити повторне ключове слово"
+   },
+   "skip_repeated_keyword_desc": {
+      "message": "Ігнорувати вже виявлені ключові слова"
+   },
+   "skip_repeated_keyword_help": {
+      "message": "Ігноруйте вже виявлені ключові слова при наступному оновленні."
+   },
+   "slave_device_alert_body": {
+      "message": "Це розширення налаштовано як підключений вторинний пристрій. Налаштування та керування оновленням сторінки можуть збігатися з основним пристроєм."
+   },
+   "slave_device_alert_dismiss": {
+      "message": "Закрити сповіщення"
+   },
+   "slave_device_alert_read_more": {
+      "message": "Докладніше"
+   },
+   "slave_device_alert_status_label": {
+      "message": "Вторинний пристрій"
+   },
+   "slave_message_alert": {
+      "message": "Ви не можете змінити цей параметр, тому що ви користувач-раб."
+   },
+   "source_find_text": {
+      "message": "Джерело (джерело HTML)"
+   },
+   "source_find_text_caution": {
+      "message": "Ця опція призначена переважно для розробників. Сканування вихідного HTML може збігатися з прихованою або невидимою розміткою, що часто призводить до хибних спрацьовувань. Це повільніше і не рекомендується для щоденного моніторингу — увімкніть лише коли зіставлення видимого тексту недостатньо."
+   },
+   "source_find_text_help": {
+      "message": "Витягує текст безпосередньо з вихідного коду HTML. Може містити приховане або динамічне вміст."
+   },
+   "start_countdown": {
+      "message": "Почати зворотний відлік"
+   },
+   "start_msg": {
+      "message": "Почати"
+   },
+   "start_refreshing": {
+      "message": "Почати оновлення"
+   },
+   "start_time": {
+      "message": "Час початку"
+   },
+   "stop": {
+      "message": "Зупинити"
+   },
+   "stop_countdown": {
+      "message": "Зупинити зворотний відлік"
+   },
+   "stop_refreshing": {
+      "message": "Зупинити оновлення"
+   },
+   "stop_time": {
+      "message": "Час зупинки"
+   },
+   "subscription": {
+      "message": "Передплата"
+   },
+   "success": {
+      "message": "Параметри успішно збережені"
+   },
+   "support_ticket": {
+      "message": "Квиток підтримки"
+   },
+   "supported_expressions": {
+      "message": "Підтримувані вирази"
+   },
+   "supported_expressions_msg_monitor": {
+      "message": "Підтримувані вирази для моніторингу сторінки"
+   },
+   "syntax_css_desc": {
+      "message": "Націлення на елементи стандартними CSS-селекторами — за id, класом, атрибутом або ієрархією."
+   },
+   "syntax_css_ex1_desc": {
+      "message": "Вибирає елемент з id «price»"
+   },
+   "syntax_css_ex1_title": {
+      "message": "За id"
+   },
+   "syntax_css_ex2_desc": {
+      "message": "Вибирає елементи з класом «stock-status»"
+   },
+   "syntax_css_ex2_title": {
+      "message": "За класом"
+   },
+   "syntax_css_ex3_desc": {
+      "message": "Вибирає елемент, де data-testid дорівнює «add-to-cart»"
+   },
+   "syntax_css_ex3_title": {
+      "message": "За атрибутом"
+   },
+   "syntax_css_title": {
+      "message": "CSS-селектори"
+   },
+   "syntax_custom_desc": {
+      "message": "Починаються з ## і поєднують ключові слова логікою Boolean AND / OR / NOT."
+   },
+   "syntax_custom_ex1_desc": {
+      "message": "Спрацьовує лише коли з'являються «In Stock» і «Add to Cart»"
+   },
+   "syntax_custom_ex1_title": {
+      "message": "Умова AND"
+   },
+   "syntax_custom_ex2_desc": {
+      "message": "Спрацьовує коли з'являється будь-яке ключове слово"
+   },
+   "syntax_custom_ex2_title": {
+      "message": "Умова OR"
+   },
+   "syntax_custom_ex3_desc": {
+      "message": "Спрацьовує коли «In Stock» є, а «Sold Out» ні"
+   },
+   "syntax_custom_ex3_title": {
+      "message": "Умова NOT"
+   },
+   "syntax_custom_title": {
+      "message": "Користувацькі вирази"
+   },
+   "syntax_norm_ex1_desc": {
+      "message": "Збігається з точним текстом «In Stock» будь-де на сторінці"
+   },
+   "syntax_norm_ex1_title": {
+      "message": "In Stock"
+   },
+   "syntax_norm_ex2_desc": {
+      "message": "Кілька ключових слів — Enter після кожного"
+   },
+   "syntax_norm_ex2_title": {
+      "message": "Available, Out of Stock"
+   },
+   "syntax_norm_ex3_desc": {
+      "message": "Збігається з кнопкою або текстом «Add to Cart» на сторінці"
+   },
+   "syntax_norm_ex3_title": {
+      "message": "Add to Cart"
+   },
+   "syntax_regex_desc": {
+      "message": "У слешах /.../ для зіставлення текстових шаблонів. Корисно для цін, SKU та гнучких збігів."
+   },
+   "syntax_regex_ex1_desc": {
+      "message": "Збігається з сумою в доларах, наприклад $19.99 або $1,299.00"
+   },
+   "syntax_regex_ex1_title": {
+      "message": "Збіг ціни"
+   },
+   "syntax_regex_ex2_desc": {
+      "message": "Збігається з «In Stock» або «in stock» (без урахування регістру)"
+   },
+   "syntax_regex_ex2_title": {
+      "message": "Статус наявності"
+   },
+   "syntax_regex_ex3_desc": {
+      "message": "Збігається з SKU продукту, наприклад SKU-12345"
+   },
+   "syntax_regex_ex3_title": {
+      "message": "Код SKU"
+   },
+   "syntax_regex_title": {
+      "message": "Регулярні вирази"
+   },
+   "syntax_text_matching_desc": {
+      "message": "Шукає прості ключові слова на сторінці. Символ не потрібен — натискайте Enter після кожного слова."
+   },
+   "syntax_text_matching_title": {
+      "message": "Зіставлення тексту"
+   },
+   "syntax_xpath_desc": {
+      "message": "Починаються з // для націлення на елементи за позицією в HTML-структурі."
+   },
+   "syntax_xpath_ex1_desc": {
+      "message": "Вибирає будь-який елемент з класом «price»"
+   },
+   "syntax_xpath_ex1_title": {
+      "message": "За класом"
+   },
+   "syntax_xpath_ex2_desc": {
+      "message": "Вибирає кнопку з текстом «Add to Cart»"
+   },
+   "syntax_xpath_ex2_title": {
+      "message": "Кнопка за текстом"
+   },
+   "syntax_xpath_ex3_desc": {
+      "message": "Вибирає елемент з id «availability»"
+   },
+   "syntax_xpath_ex3_title": {
+      "message": "За id"
+   },
+   "syntax_xpath_title": {
+      "message": "Вирази XPath"
+   },
+   "tabs": {
+      "message": "Вкладки"
+   },
+   "tabs_alerts": {
+      "message": "Вкладки зі сповіщеннями"
+   },
+   "tabs_refreshing": {
+      "message": "Активні вкладки оновлюються"
+   },
+   "template_add_to_cart_button": {
+      "message": "Кнопка «Додати в кошик»"
+   },
+   "template_add_to_cart_button_desc": {
+      "message": "Збіг з кнопкою кошика за test id"
+   },
+   "template_any_stock_term": {
+      "message": "Будь-який термін наявності"
+   },
+   "template_any_stock_term_desc": {
+      "message": "Спрацьовує при будь-якому ключовому слові наявності"
+   },
+   "template_buy_button": {
+      "message": "Кнопка купівлі"
+   },
+   "template_buy_button_desc": {
+      "message": "Знайти кнопки купівлі або покупки"
+   },
+   "template_email_address": {
+      "message": "Адреса електронної пошти"
+   },
+   "template_email_address_desc": {
+      "message": "Збігається з адресами електронної пошти"
+   },
+   "template_expression_description": {
+      "message": "Вираз шаблону для моніторингу сторінки"
+   },
+   "template_in_stock_buyable": {
+      "message": "В наявності та доступний для покупки"
+   },
+   "template_in_stock_buyable_desc": {
+      "message": "Сповіщення лише за наявності І можливості покупки"
+   },
+   "template_in_stock_not_sold_out": {
+      "message": "В наявності, не розпродано"
+   },
+   "template_in_stock_not_sold_out_desc": {
+      "message": "В наявності без тексту про розпродаж"
+   },
+   "template_input_field_value": {
+      "message": "Значення поля введення"
+   },
+   "template_input_field_value_desc": {
+      "message": "Знайти введення зі значенням пошуку"
+   },
+   "template_phone_number": {
+      "message": "Номер телефону"
+   },
+   "template_phone_number_desc": {
+      "message": "Збігається з форматом телефону (123) 456-7890"
+   },
+   "template_price_changes": {
+      "message": "Зміни ціни"
+   },
+   "template_price_changes_desc": {
+      "message": "Моніторити ключові слова, пов'язані з ціною"
+   },
+   "template_price_detector": {
+      "message": "Детектор цін"
+   },
+   "template_price_detector_desc": {
+      "message": "Збіг з будь-якою ціною в доларах, наприклад $19.99"
+   },
+   "template_price_element": {
+      "message": "Елемент ціни"
+   },
+   "template_price_element_desc": {
+      "message": "Знайти елементи з класом ціни"
+   },
+   "template_price_format": {
+      "message": "Формат ціни"
+   },
+   "template_price_format_desc": {
+      "message": "Збігається з ціною, як $19.99"
+   },
+   "template_product_availability": {
+      "message": "Доступність продукту"
+   },
+   "template_product_availability_desc": {
+      "message": "Моніторити статус доступності продукту"
+   },
+   "template_product_id_pattern": {
+      "message": "Шаблон ID продукту"
+   },
+   "template_product_id_pattern_desc": {
+      "message": "Відповідати ID продукту, як product-123"
+   },
+   "template_product_status": {
+      "message": "Статус продукту"
+   },
+   "template_product_status_desc": {
+      "message": "Нові або обмежені видання продуктів"
+   },
+   "template_restock_alert": {
+      "message": "Сповіщення про поповнення"
+   },
+   "template_restock_alert_desc": {
+      "message": "Вловіть момент повернення товару"
+   },
+   "template_shipping_options": {
+      "message": "Варіанти доставки"
+   },
+   "template_shipping_options_desc": {
+      "message": "Доступні варіанти швидкої доставки"
+   },
+   "template_shopping_actions": {
+      "message": "Дії покупки"
+   },
+   "template_shopping_actions_desc": {
+      "message": "Відстежити доступність кнопки покупки"
+   },
+   "template_stock_and_price": {
+      "message": "Запас І ціна"
+   },
+   "template_stock_and_price_desc": {
+      "message": "Товари в наявності І на розпродажу"
+   },
+   "template_stock_status_element": {
+      "message": "Елемент статусу наявності"
+   },
+   "template_stock_status_element_desc": {
+      "message": "Націлення на елемент за класом"
+   },
+   "template_stock_status_text": {
+      "message": "Текст статусу запасу"
+   },
+   "template_stock_status_text_desc": {
+      "message": "Знайти текст, що містить \"У наявності\""
+   },
+   "template_ticket_availability": {
+      "message": "Доступність квитків"
+   },
+   "template_ticket_availability_desc": {
+      "message": "Стежте за появою квитків у продажу"
+   },
+   "templates": {
+      "message": "Шаблони"
+   },
+   "templates_add_to_keywords": {
+      "message": "Додати до ключових слів"
+   },
+   "templates_ai_aria": {
+      "message": "Генератор виразів ШІ"
+   },
+   "templates_ai_label": {
+      "message": "ШІ"
+   },
+   "templates_back_to_templates": {
+      "message": "Назад до шаблонів"
+   },
+   "templates_close_aria": {
+      "message": "Закрити діалог"
+   },
+   "templates_copy_aria": {
+      "message": "Копіювати вираз %1"
+   },
+   "templates_header_templates_aria": {
+      "message": "Назад до шаблонів"
+   },
+   "templates_ready_made": {
+      "message": "Готові шаблони"
+   },
+   "templates_syntax_aria": {
+      "message": "Довідка з синтаксису"
+   },
+   "templates_syntax_button": {
+      "message": "Синтаксис"
+   },
+   "templates_tooltip": {
+      "message": "Переглянути готові шаблони моніторингу"
+   },
+   "templates_type_css": {
+      "message": "CSS"
+   },
+   "templates_type_custom": {
+      "message": "Користувацький"
+   },
+   "templates_type_normal": {
+      "message": "Звичайний"
+   },
+   "templates_type_regex": {
+      "message": "Regex"
+   },
+   "templates_type_xpath": {
+      "message": "XPath"
+   },
+   "text": {
+      "message": "Текст"
+   },
+   "thankyou_msg": {
+      "message": "Дякуємо за ваш відгук"
+   },
+   "this_is_not_valid_css_selector": {
+      "message": "Це не дійсний селектор CSS."
+   },
+   "thnakyou_desc": {
+      "message": "Ваш відгук допомагає нам покращити"
+   },
+   "time": {
+      "message": "Час"
+   },
+   "time_has_passed": {
+      "message": "Час пройшов"
+   },
+   "time_is_invalid": {
+      "message": "Вибраний час недійсний"
+   },
+   "timer": {
+      "message": "Таймер"
+   },
+   "timer_position": {
+      "message": "Позиція таймера"
+   },
+   "timer_position_bottom_left": {
+      "message": "Внизу зліва"
+   },
+   "timer_position_bottom_right": {
+      "message": "Внизу справа"
+   },
+   "timer_position_center": {
+      "message": "По центру"
+   },
+   "timer_position_top_left": {
+      "message": "Вгорі зліва"
+   },
+   "timer_position_top_right": {
+      "message": "Вгорі справа"
+   },
+   "upgrade": {
+      "message": "Розширити"
+   },
+   "use_default": {
+      "message": "Використовувати ключові слова за замовчуванням"
+   },
+   "user_menu_account_aria": {
+      "message": "Меню облікового запису"
+   },
+   "user_menu_avatar_alt": {
+      "message": "Аватар користувача"
+   },
+   "user_menu_classic_view": {
+      "message": "Classic"
+   },
+   "user_menu_classic_view_aria": {
+      "message": "Вигляд Classic"
+   },
+   "user_menu_command_view": {
+      "message": "Command"
+   },
+   "user_menu_command_view_aria": {
+      "message": "Вигляд Command"
+   },
+   "user_menu_focus_mode": {
+      "message": "Режим фокусу"
+   },
+   "user_menu_focus_mode_aria": {
+      "message": "Перемкнути режим фокусу"
+   },
+   "user_menu_focus_mode_tooltip": {
+      "message": "Приховати зайві елементи інтерфейсу"
+   },
+   "user_menu_refresh_position": {
+      "message": "Кнопки зверху"
+   },
+   "user_menu_refresh_position_aria": {
+      "message": "Показати кнопку оновлення зверху"
+   },
+   "user_menu_refresh_position_tooltip": {
+      "message": "Показати кнопки оновлення в шапці"
+   },
+   "user_menu_theme_dark_aria": {
+      "message": "Темна тема"
+   },
+   "user_menu_theme_light_aria": {
+      "message": "Світла тема"
+   },
+   "user_menu_theme_system_aria": {
+      "message": "Системна тема"
+   },
+   "user_menu_ui_cosmetics": {
+      "message": "Косметика UI"
+   },
+   "user_menu_view": {
+      "message": "Вигляд"
+   },
+   "user_menu_view_aria": {
+      "message": "Вибрати режим перегляду"
+   },
+   "view_pricing_plans": {
+      "message": "Переглянути плани ціноутворення"
+   },
+   "visual_find_text": {
+      "message": "Візуальне (текст екрана)"
+   },
+   "visual_find_text_help": {
+      "message": "Витягує видимий текст з екрана таким, як його бачить людина."
+   },
+   "visual_timer_desc": {
+      "message": "Показувати зворотний відлік на сторінці"
+   },
+   "visual_timer_done": {
+      "message": "виконано"
+   },
+   "visual_timer_help": {
+      "message": "Візуальний таймер показує зворотний відлік безпосередньо на веб-сторінці. Він показує час до наступного оновлення та включає елементи керування для паузи, відновлення або скидання таймера."
+   },
+   "visual_timer_live_monitor": {
+      "message": "Живий монітор"
+   },
+   "visual_timer_msg": {
+      "message": "Показати візуальний таймер"
+   },
+   "visual_timer_next_refresh_in": {
+      "message": "Наступне оновлення через"
+   },
+   "visual_timer_pause_aria": {
+      "message": "Призупинити таймер"
+   },
+   "visual_timer_paused": {
+      "message": "ПАУЗА"
+   },
+   "visual_timer_restart_tooltip": {
+      "message": "Перезапустити відлік"
+   },
+   "visual_timer_resume_aria": {
+      "message": "Запустити таймер"
+   },
+   "visual_timer_running": {
+      "message": "ПРАЦЮЄ"
+   },
+   "visual_timer_stop_aria": {
+      "message": "Зупинити таймер"
+   },
+   "wait_content_load": {
+      "message": "Чекати на завантаження вмісту"
+   },
+   "wait_content_load_desc": {
+      "message": "Затримувати сканування після кожного оновлення"
+   },
+   "wait_content_load_help": {
+      "message": "Зачекайте перед виявленням, щоб дозволити вмісту повністю завантажитися."
+   },
+   "warning_random_interval": {
+      "message": "Максимальне значення має бути більшим за мінімальне значення, щоб випадкові інтервали працювали правильно."
+   },
+   "webhook_alert_help": {
+      "message": "Вебгачки дозволяють вам надсилати сповіщення іншим програмам або послугам при виявленні змін."
+   },
+   "webhook_alerts_switch_desc": {
+      "message": "Надсилати payload на ваш endpoint"
+   },
+   "webhooks": {
+      "message": "Вебгачки"
+   },
+   "webhooks_tooltip": {
+      "message": "Відкрити налаштування webhook для сповіщень"
+   },
+   "whats_new": {
+      "message": "Що нового"
+   },
+   "whats_new_close_aria": {
+      "message": "Закрити що нового"
+   },
+   "whats_new_latest": {
+      "message": "Остання"
+   },
+   "whats_new_load_error": {
+      "message": "Не вдалося завантажити примітки до випуску. Спробуйте пізніше."
+   },
+   "whats_new_subtitle": {
+      "message": "Примітки до випуску Auto Refresh Plus"
+   },
+   "whats_new_thank_you": {
+      "message": "Дякуємо, що користуєтеся Auto Refresh Plus"
+   },
+   "window_focus_on_detection": {
+      "message": "Фокус вікна при виявленні ключового слова"
+   },
+   "window_focus_on_detection_desc": {
+      "message": "Виводити вкладку наперед при збігу"
+   },
+   "window_focus_on_detection_help": {
+      "message": "Ввімкніть фокус вікна, коли Page Monitor знайде або втратить ключове слово. Ця функція гарантує, що вікно автоматично переміщується на передній план вашого екрана, коли виявляється або втрачається вказане ключове слово."
+   },
+   "without_full": {
+      "message": "XHR оновлення"
+   },
+   "xhr_page_help": {
+      "message": "Отримайте дані з URL-адреси без повного оновлення сторінки. Це дозволяє веб-сторінці оновити лише частину сторінки, не перериваючи те, що робить користувач."
+   },
+   "xhr_request_autoclick": {
+      "message": "Автоматичне клацання елемента"
+   },
+   "xhr_request_autoclick_desc": {
+      "message": "Натисніть елемент сторінки, який потрібно автоматично клікати."
+   },
+   "xpath": {
+      "message": "XPath"
+   },
+   "xpath_expression": {
+      "message": "XPath вираз"
+   },
+   "xpath_expression_desc": {
+      "message": "Мова XML Paths забезпечує гнучкий спосіб адресування різних частин документа. Має бути ініціалізовано двома символами @@."
+   },
+   "xpath_expression_example_1_desc": {
+      "message": "Шукає будь-який елемент, що містить текст \"У наявності\""
+   },
+   "xpath_expression_example_2_desc": {
+      "message": "Шукає елементи введення з атрибутом значення, що містять \"Пошук\""
+   },
+   "xpath_expression_example_3_desc": {
+      "message": "Шукає елементи div з класом \"ціна\", що містять символ \"$\""
+   },
+   "your_expressions": {
+      "message": "Ваші вирази"
+   },
+   "your_expressions_add_new": {
+      "message": "Додати новий"
+   },
+   "your_expressions_define_placeholder": {
+      "message": "Визначити вираз (напр. В наявності або ##В наявності AND У кошик)"
+   },
+   "your_expressions_delete_aria": {
+      "message": "Видалити %1"
+   },
+   "your_expressions_edit_aria": {
+      "message": "Редагувати %1"
+   },
+   "your_expressions_empty": {
+      "message": "Збережених виразів ще немає. Натисніть «Додати новий», щоб створити."
+   },
+   "your_expressions_name_placeholder": {
+      "message": "Назва виразу (напр. Моє сповіщення про поповнення)"
+   },
+   "your_expressions_yours_badge": {
+      "message": "Ваші"
+   }
+}
