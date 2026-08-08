@@ -1,0 +1,38 @@
+{
+   "acceptButton": {
+      "message": "קבל"
+   },
+   "appTitle": {
+      "message": "Auto Refresh Plus"
+   },
+   "consentText": {
+      "message": "כדי לשפר את Auto Refresh Plus, תוסף זה אוסף את כתובות האינטרנט (URLs) של הדפים שבהם אתה מבקר ואת הדף שממנו הגעת (כתובת URL מפנה), המקושרות למזהה אקראי אנונימי. אנו משתמשים בכך כדי למדוד כיצד נעשה שימוש בתוסף וכדי לאתר דפים שבהם הרענון האוטומטי אינו פועל. נתונים אלה נשלחים לשרתים שלנו, לעולם אינם נמכרים ולעולם אינם משותפים עם צדדים שלישיים. תוכל לסרב ועדיין להשתמש בתוסף. תוכל ללמוד עוד ב"
+   },
+   "declineButton": {
+      "message": "דחה"
+   },
+   "enterTimeText": {
+      "message": "הזן זמן בשניות"
+   },
+   "extensionDescription": {
+      "message": "Auto Refresh Plus מרענן וטוען מחדש אוטומטית כל דף או כרטיסייה לאחר מספר שניות שצוין"
+   },
+   "extensionName": {
+      "message": "Auto Refresh Plus"
+   },
+   "extensionTitle": {
+      "message": "Auto Refresh Plus"
+   },
+   "privacyPolicy": {
+      "message": "מדיניות פרטיות"
+   },
+   "secondsText": {
+      "message": "שניות"
+   },
+   "startButton": {
+      "message": "התחל"
+   },
+   "stopButton": {
+      "message": "עצור"
+   }
+}

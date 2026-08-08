@@ -13,15 +13,13 @@ class ActivePageManager:
         initial_page: Page,
     ):
         self.context = context
-        self.current_page = initial_page
+        self.last_interacted_page: Page | None = initial_page
+        self._registered_ids: set[int] = set()
 
-        self.context.on(
-            "page",
-            self._handle_new_page,
-        )
+        for page in context.pages:
+            self.register(page)
 
-        for page in self.context.pages:
-            self._register_page(page)
+        context.on("page", self.register)
 
     def _handle_new_page(
         self,
@@ -35,66 +33,72 @@ class ActivePageManager:
             page.url,
         )
 
-    def _register_page(
+    def register(
         self,
         page: Page,
     ) -> None:
+        
+        page_id=id(page)
+        if page_id in self._registered_ids:
+            return
+        
+        self._registered_ids.add(page_id)
+        self.last_interacted_page = page
+        
         page.on(
             "domcontentloaded",
-            lambda: self._set_current_page(page),
+            lambda: self._mark_loaded(page),
         )
 
         page.on(
             "close",
-            lambda: self._handle_page_closed(page),
+            lambda: self._handle_close(page),
         )
 
-    def _set_current_page(
+    def _mark_loaded(
         self,
         page: Page,
     ) -> None:
         if not page.is_closed():
-            self.current_page = page
+            self.last_interacted_page = page
 
-    def _handle_page_closed(
+    def _handle_close(
         self,
         closed_page: Page,
     ) -> None:
-        if self.current_page != closed_page:
-            return
+        self._registered_ids.discard(id(closed_page))
+        if self.last_interacted_page == closed_page:
+            pages=self.pages()
+            self.last_interacted_page = pages[-1] if pages else None
 
-        available_pages = [
+    def mark_interacted(
+        self,
+        page: Page,
+    ) -> None:
+        if not page.is_closed():
+            self.last_interacted_page = page
+            
+    def pages(self) -> list[Page]:
+        return [
             page
             for page in self.context.pages
             if not page.is_closed()
         ]
-
-        self.current_page = (
-            available_pages[-1]
-            if available_pages
-            else None
-        )
-
+    
     def get_current_page(
         self,
     ) -> Page:
         if (
-            self.current_page
-            and not self.current_page.is_closed()
+            self.last_interacted_page
+            and not self.last_interacted_page.is_closed()
         ):
-            return self.current_page
+            return self.last_interacted_page
 
-        available_pages = [
-            page
-            for page in self.context.pages
-            if not page.is_closed()
-        ]
-
-        if not available_pages:
+        pages=self.pages()
+        if not pages:
             raise RuntimeError(
                 "No active browser page found."
             )
-
-        self.current_page = available_pages[-1]
-
-        return self.current_page
+        
+        self.last_interacted_page = pages[-1]
+        return self.last_interacted_page

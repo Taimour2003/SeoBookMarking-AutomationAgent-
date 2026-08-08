@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Prüfe Suchvolumen, CPC und Keyword-Daten auf Google, YouTube und Amazon. SEO-Tool von Neil Patel."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Ubersuggest - SEO und Keywordrecherche"
+   }
+}

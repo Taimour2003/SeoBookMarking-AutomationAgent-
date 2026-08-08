@@ -32,10 +32,14 @@ async def detect_security_page(
         "security service to protect against malicious bots",
     )
 
-    captcha_signals = (
-        "i'm not a robot",
-        "captcha",
-        "complete the security check",
+    captcha_selectors = (
+        'iframe[src*="recaptcha"]',
+        'iframe[src*="hcaptcha"]',
+        'iframe[src*="turnstile"]',
+        '.g-recaptcha',
+        '.h-captcha',
+        '[data-sitekey]',
+        'input[name*="captcha" i]',
     )
 
     login_signals = (
@@ -54,14 +58,28 @@ async def detect_security_page(
 
     if any(
         signal in body_text
-        for signal in captcha_signals
-    ):
-        return "CAPTCHA_REQUIRED"
-
-    if any(
-        signal in body_text
         for signal in login_signals
     ):
         return "MANUAL_LOGIN_REQUIRED"
 
+    for selector in captcha_selectors:
+        try:
+            locator = page.locator(selector)
+            if await locator.count() and await locator.is_visible():
+                return "CAPTCHA_REQUIRED"
+        except Exception:
+            continue
+    
+    captcha_text_signals = (
+        "i 'm not a robot",
+        "i am human",
+        "please verify you are a human",
+        "please complete the security check to access",
+    )
+
+    if any(
+        signal in body_text
+        for signal in captcha_text_signals
+    ):
+        return "CAPTCHA_REQUIRED"
     return None

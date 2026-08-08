@@ -1,0 +1,38 @@
+{
+   "acceptButton": {
+      "message": "ยอมรับ"
+   },
+   "appTitle": {
+      "message": "Auto Refresh Plus"
+   },
+   "consentText": {
+      "message": "เพื่อปรับปรุง Auto Refresh Plus ส่วนขยายนี้จะรวบรวมที่อยู่เว็บ (URL) ของหน้าที่คุณเข้าชมและหน้าที่คุณมาจาก (URL ผู้อ้างอิง) โดยเชื่อมโยงกับรหัสนิรนามแบบสุ่ม เราใช้ข้อมูลนี้เพื่อวัดว่ามีการใช้ส่วนขยายอย่างไรและเพื่อค้นหาหน้าที่การรีเฟรชอัตโนมัติไม่ทำงาน ข้อมูลนี้จะถูกส่งไปยังเซิร์ฟเวอร์ของเรา จะไม่ถูกขาย และจะไม่ถูกแชร์กับบุคคลที่สาม คุณสามารถปฏิเสธและยังคงใช้ส่วนขยายนี้ได้ คุณสามารถเรียนรู้เพิ่มเติมเกี่ยวกับ"
+   },
+   "declineButton": {
+      "message": "ปฏิเสธ"
+   },
+   "enterTimeText": {
+      "message": "ป้อนเวลาเป็นวินาที"
+   },
+   "extensionDescription": {
+      "message": "Auto Refresh Plus รีเฟรชและโหลดหน้าเว็บหรือแท็บใดๆ อัตโนมัติหลังจากจำนวนวินาทีที่กำหนด"
+   },
+   "extensionName": {
+      "message": "Auto Refresh Plus"
+   },
+   "extensionTitle": {
+      "message": "Auto Refresh Plus"
+   },
+   "privacyPolicy": {
+      "message": "นโยบายความเป็นส่วนตัว"
+   },
+   "secondsText": {
+      "message": "วินาที"
+   },
+   "startButton": {
+      "message": "เริ่ม"
+   },
+   "stopButton": {
+      "message": "หยุด"
+   }
+}

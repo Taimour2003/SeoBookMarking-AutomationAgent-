@@ -23,7 +23,7 @@ load_dotenv(
 )
 
 
-def get_bool_env(
+def _env_bool(
     key: str,
     default: bool = False,
 ) -> bool:
@@ -40,11 +40,11 @@ def get_bool_env(
     }
 
 
-def get_int_env(
-    key: str,
+def _env_int(
+    name: str,
     default: int,
 ) -> int:
-    value = os.getenv(key)
+    value = os.getenv(name)
 
     if value is None:
         return default
@@ -52,10 +52,7 @@ def get_int_env(
     try:
         return int(value)
     except ValueError as error:
-        raise ValueError(
-            f"Environment variable {key} "
-            f"must be an integer. Received: {value}"
-        ) from error
+        raise ValueError(f"{name} must be an integer. Received: {value} ") from error
 
 
 @dataclass(frozen=True)
@@ -65,6 +62,8 @@ class Settings:
     app_env: str
 
     # Browser
+    browser_mode: str
+    cdp_url: str
     headless: bool
     slow_mo: int
     default_timeout: int
@@ -78,12 +77,7 @@ class Settings:
 
     # Data source
     current_record_path: Path
-
-    # Runtime directories
-    screenshot_dir: Path
-    session_dir: Path
-    log_dir: Path
-    database_dir: Path
+    default_category: str
 
     # AI fallback
     use_ai_fallback: bool
@@ -91,26 +85,18 @@ class Settings:
     groq_model: str
 
     # Default form values
-    default_category: str
-    
-    browser_mode:str
-    cdp_url:str
 
-    def ensure_directories(self) -> None:
-        directories = [
-            self.browser_profile_dir,
-            self.screenshot_dir,
-            self.session_dir,
-            self.log_dir,
-            self.database_dir,
-            self.current_record_path.parent,
-        ]
+    # def ensure_directories(self) -> None:
+    #     directories = [
+    #         self.browser_profile_dir.mkdir(parents=True, exist_ok=True),
+    #         self.current_record_path.parent.mkdir(parents=True, exist_ok=True),
+    #     ]
 
-        for directory in directories:
-            directory.mkdir(
-                parents=True,
-                exist_ok=True,
-            )
+    #     for directory in directories:
+    #         directory.mkdir(
+    #             parents=True,
+    #             exist_ok=True,
+    #         )
 
 
 def get_settings() -> Settings:
@@ -123,28 +109,26 @@ def get_settings() -> Settings:
             "APP_ENV",
             "development",
         ),
-
-        headless=get_bool_env(
+        headless=_env_bool(
             "HEADLESS",
             False,
         ),
-        slow_mo=get_int_env(
+        slow_mo=_env_int(
             "SLOW_MO",
             100,
         ),
-        default_timeout=get_int_env(
+        default_timeout=_env_int(  # noqa: F821
             "DEFAULT_TIMEOUT",
             10_000,
         ),
-        navigation_timeout=get_int_env(
+        navigation_timeout=_env_int(
             "NAVIGATION_TIMEOUT",
             30_000,
         ),
-        ignore_https_errors=get_bool_env(
+        ignore_https_errors=_env_bool(
             "IGNORE_HTTPS_ERRORS",
             True,
         ),
-
         browser_channel=os.getenv(
             "BROWSER_CHANNEL",
             "chrome",
@@ -158,63 +142,57 @@ def get_settings() -> Settings:
             "START_URL",
             "https://www.google.com",
         ),
-
         current_record_path=PROJECT_ROOT
         / os.getenv(
             "CURRENT_RECORD_PATH",
             "data/current_record.json",
         ),
-
-        screenshot_dir=PROJECT_ROOT
-        / os.getenv(
-            "SCREENSHOT_DIR",
-            "screenshots",
-        ),
-        session_dir=PROJECT_ROOT
-        / os.getenv(
-            "SESSION_DIR",
-            "data/sessions",
-        ),
-        log_dir=PROJECT_ROOT
-        / os.getenv(
-            "LOG_DIR",
-            "logs",
-        ),
-        database_dir=PROJECT_ROOT
-        / os.getenv(
-            "DATABASE_DIR",
-            "database",
-        ),
-
-        use_ai_fallback=get_bool_env(
+        # screenshot_dir=PROJECT_ROOT
+        # / os.getenv(
+        #     "SCREENSHOT_DIR",
+        #     "screenshots",
+        # ),
+        # session_dir=PROJECT_ROOT
+        # / os.getenv(
+        #     "SESSION_DIR",
+        #     "data/sessions",
+        # ),
+        # log_dir=PROJECT_ROOT
+        # / os.getenv(
+        #     "LOG_DIR",
+        #     "logs",
+        # ),
+        # database_dir=PROJECT_ROOT
+        # / os.getenv(
+        #     "DATABASE_DIR",
+        #     "database",
+        # ),
+        use_ai_fallback=_env_bool(
             "USE_AI_FALLBACK",
             True,
         ),
-        groq_api_key=os.getenv(
-            "GROQ_API_KEY"
-        ),
+        groq_api_key=os.getenv("GROQ_API_KEY"),
         groq_model=os.getenv(
             "GROQ_MODEL",
             "llama-3.3-70b-versatile",
         ),
-
         default_category=os.getenv(
             "DEFAULT_CATEGORY",
             "Business",
         ),
-        
         browser_mode=os.getenv(
             "BROWSER_MODE",
             "cdp",
-        ).strip().lower(),
-        
+        )
+        .strip()
+        .lower(),
         cdp_url=os.getenv(
             "CDP_URL",
             "ws://localhost:9222/devtools/browser",
         ),
     )
 
-    settings.ensure_directories()
+    # settings.ensure_directories()
 
     return settings
 

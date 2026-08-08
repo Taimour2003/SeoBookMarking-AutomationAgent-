@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en" class="aifnmjmchg aifnmjmchg-scroll-smooth">
+<head>
+<script src="/aitopia/marketplace/js/extension-config.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <base href="/aitopia/marketplace/home.html">
+  <title> Smart Sidebar (AITOPIA)</title>
+  <link rel="icon" type="image/x-icon" href="/aitopia/marketplace/favicon.ico">
+  <meta name="description" content="Discover amazing AI agents for image, video, and content creation.">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <link href="/aitopia/marketplace/css/vendor/css2.css" rel="stylesheet">
+  <script src="/aitopia/marketplace/js/inline/index_mini-inline-1.js"></script>
+</head>
+<body class="aifnmjmchg-bg-background aifnmjmchg-text-foreground aifnmjmchg-min-h-screen aifnmjmchg-antialiased aifnmjmchg aifnmjmchg-marketplace">
+
+  <!-- Main Content (identical to index.html Today tab, without navbar/footer) -->
+  <main class="aifnmjmchg-marketplace aifnmjmchg-max-w-[1600px] aifnmjmchg-mx-auto aifnmjmchg-px-3 sm-aifnmjmchg-px-4 lg-aifnmjmchg-px-6" style="container-type: inline-size!important;">
+    <div id="aifnmjmchg-todayTab" class="aifnmjmchg-tab-content">
+
+      <!-- Featured Card (App Store Style) -->
+      <section class="aifnmjmchg-py-4">
+        <div class="aifnmjmchg-relative aifnmjmchg-overflow-hidden aifnmjmchg-rounded-ios-2xl aifnmjmchg-bg-gradient-to-br aifnmjmchg-from-primary--90 aifnmjmchg-via-indigo-600 aifnmjmchg-to-blue-600 aifnmjmchg-cursor-pointer group aifnmjmchg-card-hover" data-action="openDetail" data-param="video-generator">
+          <div class="aifnmjmchg-absolute aifnmjmchg-inset-0 aifnmjmchg-opacity-30">
+            <img src="https://aitopia.ai/agent-images/video-generator-1.webp" class="aifnmjmchg-w-full aifnmjmchg-h-full aifnmjmchg-object-cover" alt="">
+          </div>
+          <div class="aifnmjmchg-relative aifnmjmchg-p-6 md-aifnmjmchg-p-8">
+            <span class="aifnmjmchg-text-xs aifnmjmchg-font-semibold aifnmjmchg-text-white--70 aifnmjmchg-uppercase aifnmjmchg-tracking-wider">Featured Agent</span>
+            <h2 class="aifnmjmchg-text-2xl md-aifnmjmchg-text-3xl aifnmjmchg-font-bold aifnmjmchg-text-white aifnmjmchg-mt-2 aifnmjmchg-mb-2">Video Generator</h2>
+            <p class="aifnmjmchg-text-white--80 aifnmjmchg-text-sm md-aifnmjmchg-text-base aifnmjmchg-max-w-md aifnmjmchg-mb-4">Create stunning AI videos with Runway Gen-3 Alpha</p>
+            <div class="aifnmjmchg-flex aifnmjmchg-items-center aifnmjmchg-gap-3">
+              <img src="https://aitopia.ai/agent-images/video-generator-1.webp" class="aifnmjmchg-w-12 aifnmjmchg-h-12 aifnmjmchg-rounded-ios aifnmjmchg-object-cover aifnmjmchg-app-icon" alt="">
+              <div class="aifnmjmchg-flex-1">
+                <p class="aifnmjmchg-text-white aifnmjmchg-font-semibold aifnmjmchg-text-sm">Video Generator</p>
+              </div>
+              <span class="aifnmjmchg-px-5 aifnmjmchg-py-2 aifnmjmchg-rounded-full aifnmjmchg-bg-primary-foreground--20 aifnmjmchg-backdrop-blur-sm aifnmjmchg-text-white aifnmjmchg-text-sm aifnmjmchg-font-semibold hover-aifnmjmchg-bg-primary-foreground--30 aifnmjmchg-transition-colors aifnmjmchg-btn-press">
+                Get
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Quick Categories (pill buttons, identical to index.html) -->
+      <section class="aifnmjmchg-py-4">
+        <div class="aifnmjmchg-category-buttons-container aifnmjmchg-flex aifnmjmchg-gap-2 aifnmjmchg-overflow-x-auto aifnmjmchg-hide-scrollbar aifnmjmchg-pb-2">
+          <a href="/marketplace/agents.html" class="aifnmjmchg-category-btn active aifnmjmchg-flex-shrink-0 aifnmjmchg-px-4 aifnmjmchg-py-2 aifnmjmchg-rounded-full aifnmjmchg-bg-primary aifnmjmchg-text-primary-foreground aifnmjmchg-text-sm aifnmjmchg-font-medium aifnmjmchg-transition-all aifnmjmchg-btn-press aifnmjmchg-no-underline">All Agents</a>
+          <a href="/marketplace/agents?category=image" class="aifnmjmchg-category-btn aifnmjmchg-flex-shrink-0 aifnmjmchg-px-4 aifnmjmchg-py-2 aifnmjmchg-rounded-full aifnmjmchg-bg-secondary hover-aifnmjmchg-bg-secondary--80 aifnmjmchg-text-secondary-foreground aifnmjmchg-text-sm aifnmjmchg-font-medium aifnmjmchg-transition-all aifnmjmchg-btn-press aifnmjmchg-no-underline">Image</a>
+          <a href="/marketplace/agents?category=video" class="aifnmjmchg-category-btn aifnmjmchg-flex-shrink-0 aifnmjmchg-px-4 aifnmjmchg-py-2 aifnmjmchg-rounded-full aifnmjmchg-bg-secondary hover-aifnmjmchg-bg-secondary--80 aifnmjmchg-text-secondary-foreground aifnmjmchg-text-sm aifnmjmchg-font-medium aifnmjmchg-transition-all aifnmjmchg-btn-press aifnmjmchg-no-underline">Video</a>
+          <a href="/marketplace/agents?category=audio" class="aifnmjmchg-category-btn aifnmjmchg-flex-shrink-0 aifnmjmchg-px-4 aifnmjmchg-py-2 aifnmjmchg-rounded-full aifnmjmchg-bg-secondary hover-aifnmjmchg-bg-secondary--80 aifnmjmchg-text-secondary-foreground aifnmjmchg-text-sm aifnmjmchg-font-medium aifnmjmchg-transition-all aifnmjmchg-btn-press aifnmjmchg-no-underline">Audio & Voice</a>
+          <a href="/marketplace/agents?category=productivity" class="aifnmjmchg-category-btn aifnmjmchg-flex-shrink-0 aifnmjmchg-px-4 aifnmjmchg-py-2 aifnmjmchg-rounded-full aifnmjmchg-bg-secondary hover-aifnmjmchg-bg-secondary--80 aifnmjmchg-text-secondary-foreground aifnmjmchg-text-sm aifnmjmchg-font-medium aifnmjmchg-transition-all aifnmjmchg-btn-press aifnmjmchg-no-underline">Productivity</a>
+          <a href="/marketplace/agents?category=commerce" class="aifnmjmchg-category-btn aifnmjmchg-flex-shrink-0 aifnmjmchg-px-4 aifnmjmchg-py-2 aifnmjmchg-rounded-full aifnmjmchg-bg-secondary hover-aifnmjmchg-bg-secondary--80 aifnmjmchg-text-secondary-foreground aifnmjmchg-text-sm aifnmjmchg-font-medium aifnmjmchg-transition-all aifnmjmchg-btn-press aifnmjmchg-no-underline">Commerce</a>
+          <a href="/marketplace/agents?category=marketing" class="aifnmjmchg-category-btn aifnmjmchg-flex-shrink-0 aifnmjmchg-px-4 aifnmjmchg-py-2 aifnmjmchg-rounded-full aifnmjmchg-bg-secondary hover-aifnmjmchg-bg-secondary--80 aifnmjmchg-text-secondary-foreground aifnmjmchg-text-sm aifnmjmchg-font-medium aifnmjmchg-transition-all aifnmjmchg-btn-press aifnmjmchg-no-underline">Marketing</a>
+          <a href="/marketplace/agents?category=dev" class="aifnmjmchg-category-btn aifnmjmchg-flex-shrink-0 aifnmjmchg-px-4 aifnmjmchg-py-2 aifnmjmchg-rounded-full aifnmjmchg-bg-secondary hover-aifnmjmchg-bg-secondary--80 aifnmjmchg-text-secondary-foreground aifnmjmchg-text-sm aifnmjmchg-font-medium aifnmjmchg-transition-all aifnmjmchg-btn-press aifnmjmchg-no-underline">Dev & Data</a>
+          <a href="/marketplace/agents?category=business" class="aifnmjmchg-category-btn aifnmjmchg-flex-shrink-0 aifnmjmchg-px-4 aifnmjmchg-py-2 aifnmjmchg-rounded-full aifnmjmchg-bg-secondary hover-aifnmjmchg-bg-secondary--80 aifnmjmchg-text-secondary-foreground aifnmjmchg-text-sm aifnmjmchg-font-medium aifnmjmchg-transition-all aifnmjmchg-btn-press aifnmjmchg-no-underline">Business</a>
+        </div>
+      </section>
+
+      <!-- Popular Right Now -->
+      <section class="aifnmjmchg-py-2" id="aifnmjmchg-popularSection">
+        <div class="aifnmjmchg-flex aifnmjmchg-items-center aifnmjmchg-justify-between aifnmjmchg-mb-4">
+          <h2 id="aifnmjmchg-popularTitle" class="aifnmjmchg-text-xl md-aifnmjmchg-text-2xl aifnmjmchg-font-bold">Popular Right Now</h2>
+          <a href="/marketplace/agents.html" class="aifnmjmchg-text-sm aifnmjmchg-font-medium aifnmjmchg-text-primary hover-aifnmjmchg-text-primary--80 aifnmjmchg-transition-colors">See All</a>
+        </div>
+        <div class="aifnmjmchg-masonry-grid sm-aifnmjmchg-grid sm-aifnmjmchg-grid-cols-2 lg-aifnmjmchg-grid-cols-4 xl-aifnmjmchg-grid-cols-5 sm-aifnmjmchg-gap-4 sm-aifnmjmchg-justify-items-center" id="aifnmjmchg-popularAgents">
+        </div>
+      </section>
+
+      <!-- See It In Action (identical to index.html) -->
+      <section class="aifnmjmchg-py-4">
+        <div class="aifnmjmchg-flex aifnmjmchg-items-center aifnmjmchg-justify-between aifnmjmchg-mb-4">
+          <h2 class="aifnmjmchg-text-xl md-aifnmjmchg-text-2xl aifnmjmchg-font-bold">See It In Action</h2>
+          <span class="aifnmjmchg-text-sm aifnmjmchg-text-muted-foreground">AI Generated Content</span>
+        </div>
+
+        <!-- Featured Video Card (Large) -->
+        <div class="aifnmjmchg-mb-4">
+          <div class="aifnmjmchg-relative aifnmjmchg-rounded-ios-2xl aifnmjmchg-overflow-hidden aifnmjmchg-bg-black group aifnmjmchg-cursor-pointer">
+            <video class="aifnmjmchg-w-full aifnmjmchg-aspect-video aifnmjmchg-object-cover aifnmjmchg-pointer-events-none" muted loop playsinline preload="metadata">
+              <source src="https://aitopia.ai/agent-images/bullet-time-scene-video.mp4" type="video/mp4">
+            </video>
+            <div class="aifnmjmchg-absolute aifnmjmchg-inset-0 aifnmjmchg-bg-gradient-to-t aifnmjmchg-from-black--80 aifnmjmchg-via-transparent aifnmjmchg-to-transparent aifnmjmchg-pointer-events-none"></div>
+            <div class="aifnmjmchg-absolute aifnmjmchg-inset-0 aifnmjmchg-z-10" data-action="openDetail" data-param="bullet-time-scene"></div>
+            <div class="aifnmjmchg-absolute aifnmjmchg-bottom-0 aifnmjmchg-left-0 aifnmjmchg-right-0 aifnmjmchg-p-4 aifnmjmchg-z-20 aifnmjmchg-pointer-events-none">
+              <div class="aifnmjmchg-flex aifnmjmchg-items-center aifnmjmchg-gap-3">
+                <img src="https://aitopia.ai/agent-images/bullet-time-scene-1.webp" class="aifnmjmchg-w-10 aifnmjmchg-h-10 aifnmjmchg-rounded-ios aifnmjmchg-object-cover" alt="Bullet Time Scene">
+                <div class="aifnmjmchg-flex-1">
+                  <h3 class="aifnmjmchg-text-white aifnmjmchg-font-semibold aifnmjmchg-text-sm">Bullet Time Scene</h3>
+                  <p class="aifnmjmchg-text-white--70 aifnmjmchg-text-xs">Create stunning 360&deg; freeze-frame effects</p>
+                </div>
+                <div class="aifnmjmchg-w-10 aifnmjmchg-h-10 aifnmjmchg-rounded-full aifnmjmchg-bg-primary-foreground--20 aifnmjmchg-backdrop-blur-sm aifnmjmchg-flex aifnmjmchg-items-center aifnmjmchg-justify-center group-hover-aifnmjmchg-bg-primary-foreground--30 aifnmjmchg-transition-colors">
+                  <svg class="aifnmjmchg-w-5 aifnmjmchg-h-5 aifnmjmchg-text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Horizontal Scroll Gallery -->
+        <div class="aifnmjmchg-flex aifnmjmchg-gap-3 aifnmjmchg-overflow-x-auto aifnmjmchg-hide-scrollbar aifnmjmchg-pb-2 aifnmjmchg-px-4 sm-aifnmjmchg-mx-0 sm-aifnmjmchg-px-0">
+          <div class="aifnmjmchg-flex-shrink-0 aifnmjmchg-w-72 group aifnmjmchg-cursor-pointer">
+            <div class="aifnmjmchg-relative aifnmjmchg-rounded-ios-xl aifnmjmchg-overflow-hidden aifnmjmchg-bg-black aifnmjmchg-mb-2">
+              <video class="aifnmjmchg-w-full aifnmjmchg-aspect-square aifnmjmchg-object-cover aifnmjmchg-pointer-events-none" muted loop playsinline preload="metadata"><source src="https://aitopia.ai/agent-images/transition-flying-cam.mp4" type="video/mp4"></video>
+              <div class="aifnmjmchg-absolute aifnmjmchg-inset-0 aifnmjmchg-z-10" data-action="openDetail" data-param="transitions"></div>
+              <div class="aifnmjmchg-absolute aifnmjmchg-top-2 aifnmjmchg-left-2 aifnmjmchg-px-2 aifnmjmchg-py-1 aifnmjmchg-rounded-full aifnmjmchg-bg-black--50 aifnmjmchg-backdrop-blur-sm aifnmjmchg-z-20 aifnmjmchg-pointer-events-none"><span class="aifnmjmchg-text-white aifnmjmchg-text-xs aifnmjmchg-font-medium">Transitions</span></div>
+              <div class="aifnmjmchg-absolute aifnmjmchg-bottom-2 aifnmjmchg-right-2 aifnmjmchg-w-8 aifnmjmchg-h-8 aifnmjmchg-rounded-full aifnmjmchg-bg-primary-foreground--20 aifnmjmchg-backdrop-blur-sm aifnmjmchg-flex aifnmjmchg-items-center aifnmjmchg-justify-center aifnmjmchg-opacity-0 group-hover-aifnmjmchg-opacity-100 aifnmjmchg-transition-opacity aifnmjmchg-z-20 aifnmjmchg-pointer-events-none"><svg class="aifnmjmchg-w-4 aifnmjmchg-h-4 aifnmjmchg-text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+            </div>
+            <p class="aifnmjmchg-text-sm aifnmjmchg-font-medium aifnmjmchg-truncate" data-action="openDetail" data-param="transitions">Flying Camera</p>
+            <p class="aifnmjmchg-text-xs aifnmjmchg-text-muted-foreground">Transitions</p>
+          </div>
+          <div class="aifnmjmchg-flex-shrink-0 aifnmjmchg-w-72 group aifnmjmchg-cursor-pointer">
+            <div class="aifnmjmchg-relative aifnmjmchg-rounded-ios-xl aifnmjmchg-overflow-hidden aifnmjmchg-bg-black aifnmjmchg-mb-2">
+              <video class="aifnmjmchg-w-full aifnmjmchg-aspect-square aifnmjmchg-object-cover aifnmjmchg-pointer-events-none" muted loop playsinline preload="metadata"><source src="https://aitopia.ai/agent-images/sticker-match-cut.mp4" type="video/mp4"></video>
+              <div class="aifnmjmchg-absolute aifnmjmchg-inset-0 aifnmjmchg-z-10" data-action="openDetail" data-param="sticker-match-cut"></div>
+              <div class="aifnmjmchg-absolute aifnmjmchg-top-2 aifnmjmchg-left-2 aifnmjmchg-px-2 aifnmjmchg-py-1 aifnmjmchg-rounded-full aifnmjmchg-bg-black--50 aifnmjmchg-backdrop-blur-sm aifnmjmchg-z-20 aifnmjmchg-pointer-events-none"><span class="aifnmjmchg-text-white aifnmjmchg-text-xs aifnmjmchg-font-medium">Sticker Match</span></div>
+              <div class="aifnmjmchg-absolute aifnmjmchg-bottom-2 aifnmjmchg-right-2 aifnmjmchg-w-8 aifnmjmchg-h-8 aifnmjmchg-rounded-full aifnmjmchg-bg-primary-foreground--20 aifnmjmchg-backdrop-blur-sm aifnmjmchg-flex aifnmjmchg-items-center aifnmjmchg-justify-center aifnmjmchg-opacity-0 group-hover-aifnmjmchg-opacity-100 aifnmjmchg-transition-opacity aifnmjmchg-z-20 aifnmjmchg-pointer-events-none"><svg class="aifnmjmchg-w-4 aifnmjmchg-h-4 aifnmjmchg-text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+            </div>
+            <p class="aifnmjmchg-text-sm aifnmjmchg-font-medium aifnmjmchg-truncate" data-action="openDetail" data-param="sticker-match-cut">Sticker Match Cut</p>
+            <p class="aifnmjmchg-text-xs aifnmjmchg-text-muted-foreground">Sticker Match Cut</p>
+          </div>
+          <div class="aifnmjmchg-flex-shrink-0 aifnmjmchg-w-72 group aifnmjmchg-cursor-pointer">
+            <div class="aifnmjmchg-relative aifnmjmchg-rounded-ios-xl aifnmjmchg-overflow-hidden aifnmjmchg-bg-black aifnmjmchg-mb-2">
+              <video class="aifnmjmchg-w-full aifnmjmchg-aspect-square aifnmjmchg-object-cover aifnmjmchg-pointer-events-none" muted loop playsinline preload="metadata"><source src="https://aitopia.ai/agent-images/asmr-classic-video.mp4" type="video/mp4"></video>
+              <div class="aifnmjmchg-absolute aifnmjmchg-inset-0 aifnmjmchg-z-10" data-action="openDetail" data-param="asmr-classic"></div>
+              <div class="aifnmjmchg-absolute aifnmjmchg-top-2 aifnmjmchg-left-2 aifnmjmchg-px-2 aifnmjmchg-py-1 aifnmjmchg-rounded-full aifnmjmchg-bg-black--50 aifnmjmchg-backdrop-blur-sm aifnmjmchg-z-20 aifnmjmchg-pointer-events-none"><span class="aifnmjmchg-text-white aifnmjmchg-text-xs aifnmjmchg-font-medium">ASMR</span></div>
+              <div class="aifnmjmchg-absolute aifnmjmchg-bottom-2 aifnmjmchg-right-2 aifnmjmchg-w-8 aifnmjmchg-h-8 aifnmjmchg-rounded-full aifnmjmchg-bg-primary-foreground--20 aifnmjmchg-backdrop-blur-sm aifnmjmchg-flex aifnmjmchg-items-center aifnmjmchg-justify-center aifnmjmchg-opacity-0 group-hover-aifnmjmchg-opacity-100 aifnmjmchg-transition-opacity aifnmjmchg-z-20 aifnmjmchg-pointer-events-none"><svg class="aifnmjmchg-w-4 aifnmjmchg-h-4 aifnmjmchg-text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+            </div>
+            <p class="aifnmjmchg-text-sm aifnmjmchg-font-medium aifnmjmchg-truncate" data-action="openDetail" data-param="asmr-classic">ASMR Classic</p>
+            <p class="aifnmjmchg-text-xs aifnmjmchg-text-muted-foreground">ASMR Classic</p>
+          </div>
+          <div class="aifnmjmchg-flex-shrink-0 aifnmjmchg-w-72 group aifnmjmchg-cursor-pointer">
+            <div class="aifnmjmchg-relative aifnmjmchg-rounded-ios-xl aifnmjmchg-overflow-hidden aifnmjmchg-bg-black aifnmjmchg-mb-2">
+              <video class="aifnmjmchg-w-full aifnmjmchg-aspect-square aifnmjmchg-object-cover aifnmjmchg-pointer-events-none" muted loop playsinline preload="metadata"><source src="https://aitopia.ai/agent-images/transition-dissolve.mp4" type="video/mp4"></video>
+              <div class="aifnmjmchg-absolute aifnmjmchg-inset-0 aifnmjmchg-z-10" data-action="openDetail" data-param="transitions"></div>
+              <div class="aifnmjmchg-absolute aifnmjmchg-top-2 aifnmjmchg-left-2 aifnmjmchg-px-2 aifnmjmchg-py-1 aifnmjmchg-rounded-full aifnmjmchg-bg-black--50 aifnmjmchg-backdrop-blur-sm aifnmjmchg-z-20 aifnmjmchg-pointer-events-none"><span class="aifnmjmchg-text-white aifnmjmchg-text-xs aifnmjmchg-font-medium">Transitions</span></div>
+              <div class="aifnmjmchg-absolute aifnmjmchg-bottom-2 aifnmjmchg-right-2 aifnmjmchg-w-8 aifnmjmchg-h-8 aifnmjmchg-rounded-full aifnmjmchg-bg-primary-foreground--20 aifnmjmchg-backdrop-blur-sm aifnmjmchg-flex aifnmjmchg-items-center aifnmjmchg-justify-center aifnmjmchg-opacity-0 group-hover-aifnmjmchg-opacity-100 aifnmjmchg-transition-opacity aifnmjmchg-z-20 aifnmjmchg-pointer-events-none"><svg class="aifnmjmchg-w-4 aifnmjmchg-h-4 aifnmjmchg-text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+            </div>
+            <p class="aifnmjmchg-text-sm aifnmjmchg-font-medium aifnmjmchg-truncate" data-action="openDetail" data-param="transitions">Dissolve Effect</p>
+            <p class="aifnmjmchg-text-xs aifnmjmchg-text-muted-foreground">Transitions</p>
+          </div>
+          <div class="aifnmjmchg-flex-shrink-0 aifnmjmchg-w-72 group aifnmjmchg-cursor-pointer">
+            <div class="aifnmjmchg-relative aifnmjmchg-rounded-ios-xl aifnmjmchg-overflow-hidden aifnmjmchg-bg-black aifnmjmchg-mb-2">
+              <video class="aifnmjmchg-w-full aifnmjmchg-aspect-square aifnmjmchg-object-cover aifnmjmchg-pointer-events-none" muted loop playsinline preload="metadata"><source src="https://aitopia.ai/agent-images/transition-fade.mp4" type="video/mp4"></video>
+              <div class="aifnmjmchg-absolute aifnmjmchg-inset-0 aifnmjmchg-z-10" data-action="openDetail" data-param="transitions"></div>
+              <div class="aifnmjmchg-absolute aifnmjmchg-top-2 aifnmjmchg-left-2 aifnmjmchg-px-2 aifnmjmchg-py-1 aifnmjmchg-rounded-full aifnmjmchg-bg-black--50 aifnmjmchg-backdrop-blur-sm aifnmjmchg-z-20 aifnmjmchg-pointer-events-none"><span class="aifnmjmchg-text-white aifnmjmchg-text-xs aifnmjmchg-font-medium">Transitions</span></div>
+              <div class="aifnmjmchg-absolute aifnmjmchg-bottom-2 aifnmjmchg-right-2 aifnmjmchg-w-8 aifnmjmchg-h-8 aifnmjmchg-rounded-full aifnmjmchg-bg-primary-foreground--20 aifnmjmchg-backdrop-blur-sm aifnmjmchg-flex aifnmjmchg-items-center aifnmjmchg-justify-center aifnmjmchg-opacity-0 group-hover-aifnmjmchg-opacity-100 aifnmjmchg-transition-opacity aifnmjmchg-z-20 aifnmjmchg-pointer-events-none"><svg class="aifnmjmchg-w-4 aifnmjmchg-h-4 aifnmjmchg-text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+            </div>
+            <p class="aifnmjmchg-text-sm aifnmjmchg-font-medium aifnmjmchg-truncate" data-action="openDetail" data-param="transitions">Fade Effect</p>
+            <p class="aifnmjmchg-text-xs aifnmjmchg-text-muted-foreground">Transitions</p>
+          </div>
+          <div class="aifnmjmchg-flex-shrink-0 aifnmjmchg-w-72 group aifnmjmchg-cursor-pointer">
+            <div class="aifnmjmchg-relative aifnmjmchg-rounded-ios-xl aifnmjmchg-overflow-hidden aifnmjmchg-bg-black aifnmjmchg-mb-2">
+              <video class="aifnmjmchg-w-full aifnmjmchg-aspect-square aifnmjmchg-object-cover aifnmjmchg-pointer-events-none" muted loop playsinline preload="metadata"><source src="https://aitopia.ai/agent-images/3d-rotation-video.mp4" type="video/mp4"></video>
+              <div class="aifnmjmchg-absolute aifnmjmchg-inset-0 aifnmjmchg-z-10" data-action="openDetail" data-param="3d-rotation"></div>
+              <div class="aifnmjmchg-absolute aifnmjmchg-top-2 aifnmjmchg-left-2 aifnmjmchg-px-2 aifnmjmchg-py-1 aifnmjmchg-rounded-full aifnmjmchg-bg-black--50 aifnmjmchg-backdrop-blur-sm aifnmjmchg-z-20 aifnmjmchg-pointer-events-none"><span class="aifnmjmchg-text-white aifnmjmchg-text-xs aifnmjmchg-font-medium">3D Rotation</span></div>
+              <div class="aifnmjmchg-absolute aifnmjmchg-bottom-2 aifnmjmchg-right-2 aifnmjmchg-w-8 aifnmjmchg-h-8 aifnmjmchg-rounded-full aifnmjmchg-bg-primary-foreground--20 aifnmjmchg-backdrop-blur-sm aifnmjmchg-flex aifnmjmchg-items-center aifnmjmchg-justify-center aifnmjmchg-opacity-0 group-hover-aifnmjmchg-opacity-100 aifnmjmchg-transition-opacity aifnmjmchg-z-20 aifnmjmchg-pointer-events-none"><svg class="aifnmjmchg-w-4 aifnmjmchg-h-4 aifnmjmchg-text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+            </div>
+            <p class="aifnmjmchg-text-sm aifnmjmchg-font-medium aifnmjmchg-truncate" data-action="openDetail" data-param="3d-rotation">3D Rotation</p>
+            <p class="aifnmjmchg-text-xs aifnmjmchg-text-muted-foreground">3D Rotation</p>
+          </div>
+          <div class="aifnmjmchg-flex-shrink-0 aifnmjmchg-w-72 group aifnmjmchg-cursor-pointer">
+            <div class="aifnmjmchg-relative aifnmjmchg-rounded-ios-xl aifnmjmchg-overflow-hidden aifnmjmchg-bg-black aifnmjmchg-mb-2">
+              <video class="aifnmjmchg-w-full aifnmjmchg-aspect-square aifnmjmchg-object-cover aifnmjmchg-pointer-events-none" muted loop playsinline preload="metadata"><source src="https://aitopia.ai/agent-images/transition-morph.mp4" type="video/mp4"></video>
+              <div class="aifnmjmchg-absolute aifnmjmchg-inset-0 aifnmjmchg-z-10" data-action="openDetail" data-param="transitions"></div>
+              <div class="aifnmjmchg-absolute aifnmjmchg-top-2 aifnmjmchg-left-2 aifnmjmchg-px-2 aifnmjmchg-py-1 aifnmjmchg-rounded-full aifnmjmchg-bg-black--50 aifnmjmchg-backdrop-blur-sm aifnmjmchg-z-20 aifnmjmchg-pointer-events-none"><span class="aifnmjmchg-text-white aifnmjmchg-text-xs aifnmjmchg-font-medium">Transitions</span></div>
+              <div class="aifnmjmchg-absolute aifnmjmchg-bottom-2 aifnmjmchg-right-2 aifnmjmchg-w-8 aifnmjmchg-h-8 aifnmjmchg-rounded-full aifnmjmchg-bg-primary-foreground--20 aifnmjmchg-backdrop-blur-sm aifnmjmchg-flex aifnmjmchg-items-center aifnmjmchg-justify-center aifnmjmchg-opacity-0 group-hover-aifnmjmchg-opacity-100 aifnmjmchg-transition-opacity aifnmjmchg-z-20 aifnmjmchg-pointer-events-none"><svg class="aifnmjmchg-w-4 aifnmjmchg-h-4 aifnmjmchg-text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+            </div>
+            <p class="aifnmjmchg-text-sm aifnmjmchg-font-medium aifnmjmchg-truncate" data-action="openDetail" data-param="transitions">Morph Effect</p>
+            <p class="aifnmjmchg-text-xs aifnmjmchg-text-muted-foreground">Transitions</p>
+          </div>
+          <div class="aifnmjmchg-flex-shrink-0 aifnmjmchg-w-72 group aifnmjmchg-cursor-pointer">
+            <div class="aifnmjmchg-relative aifnmjmchg-rounded-ios-xl aifnmjmchg-overflow-hidden aifnmjmchg-bg-black aifnmjmchg-mb-2">
+              <video class="aifnmjmchg-w-full aifnmjmchg-aspect-square aifnmjmchg-object-cover aifnmjmchg-pointer-events-none" muted loop playsinline preload="metadata"><source src="https://aitopia.ai/agent-images/transition-slide.mp4" type="video/mp4"></video>
+              <div class="aifnmjmchg-absolute aifnmjmchg-inset-0 aifnmjmchg-z-10" data-action="openDetail" data-param="transitions"></div>
+              <div class="aifnmjmchg-absolute aifnmjmchg-top-2 aifnmjmchg-left-2 aifnmjmchg-px-2 aifnmjmchg-py-1 aifnmjmchg-rounded-full aifnmjmchg-bg-black--50 aifnmjmchg-backdrop-blur-sm aifnmjmchg-z-20 aifnmjmchg-pointer-events-none"><span class="aifnmjmchg-text-white aifnmjmchg-text-xs aifnmjmchg-font-medium">Transitions</span></div>
+              <div class="aifnmjmchg-absolute aifnmjmchg-bottom-2 aifnmjmchg-right-2 aifnmjmchg-w-8 aifnmjmchg-h-8 aifnmjmchg-rounded-full aifnmjmchg-bg-primary-foreground--20 aifnmjmchg-backdrop-blur-sm aifnmjmchg-flex aifnmjmchg-items-center aifnmjmchg-justify-center aifnmjmchg-opacity-0 group-hover-aifnmjmchg-opacity-100 aifnmjmchg-transition-opacity aifnmjmchg-z-20 aifnmjmchg-pointer-events-none"><svg class="aifnmjmchg-w-4 aifnmjmchg-h-4 aifnmjmchg-text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+            </div>
+            <p class="aifnmjmchg-text-sm aifnmjmchg-font-medium aifnmjmchg-truncate" data-action="openDetail" data-param="transitions">Slide Effect</p>
+            <p class="aifnmjmchg-text-xs aifnmjmchg-text-muted-foreground">Transitions</p>
+          </div>
+          <div class="aifnmjmchg-flex-shrink-0 aifnmjmchg-w-72 group aifnmjmchg-cursor-pointer">
+            <div class="aifnmjmchg-relative aifnmjmchg-rounded-ios-xl aifnmjmchg-overflow-hidden aifnmjmchg-bg-black aifnmjmchg-mb-2">
+              <video class="aifnmjmchg-w-full aifnmjmchg-aspect-square aifnmjmchg-object-cover aifnmjmchg-pointer-events-none" muted loop playsinline preload="metadata"><source src="https://aitopia.ai/agent-images/transition-smoke.mp4" type="video/mp4"></video>
+              <div class="aifnmjmchg-absolute aifnmjmchg-inset-0 aifnmjmchg-z-10" data-action="openDetail" data-param="transitions"></div>
+              <div class="aifnmjmchg-absolute aifnmjmchg-top-2 aifnmjmchg-left-2 aifnmjmchg-px-2 aifnmjmchg-py-1 aifnmjmchg-rounded-full aifnmjmchg-bg-black--50 aifnmjmchg-backdrop-blur-sm aifnmjmchg-z-20 aifnmjmchg-pointer-events-none"><span class="aifnmjmchg-text-white aifnmjmchg-text-xs aifnmjmchg-font-medium">Transitions</span></div>
+              <div class="aifnmjmchg-absolute aifnmjmchg-bottom-2 aifnmjmchg-right-2 aifnmjmchg-w-8 aifnmjmchg-h-8 aifnmjmchg-rounded-full aifnmjmchg-bg-primary-foreground--20 aifnmjmchg-backdrop-blur-sm aifnmjmchg-flex aifnmjmchg-items-center aifnmjmchg-justify-center aifnmjmchg-opacity-0 group-hover-aifnmjmchg-opacity-100 aifnmjmchg-transition-opacity aifnmjmchg-z-20 aifnmjmchg-pointer-events-none"><svg class="aifnmjmchg-w-4 aifnmjmchg-h-4 aifnmjmchg-text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+            </div>
+            <p class="aifnmjmchg-text-sm aifnmjmchg-font-medium aifnmjmchg-truncate" data-action="openDetail" data-param="transitions">Smoke Effect</p>
+            <p class="aifnmjmchg-text-xs aifnmjmchg-text-muted-foreground">Transitions</p>
+          </div>
+          <div class="aifnmjmchg-flex-shrink-0 aifnmjmchg-w-72 group aifnmjmchg-cursor-pointer">
+            <div class="aifnmjmchg-relative aifnmjmchg-rounded-ios-xl aifnmjmchg-overflow-hidden aifnmjmchg-bg-black aifnmjmchg-mb-2">
+              <video class="aifnmjmchg-w-full aifnmjmchg-aspect-square aifnmjmchg-object-cover aifnmjmchg-pointer-events-none" muted loop playsinline preload="metadata"><source src="https://aitopia.ai/agent-images/transition-wipe.mp4" type="video/mp4"></video>
+              <div class="aifnmjmchg-absolute aifnmjmchg-inset-0 aifnmjmchg-z-10" data-action="openDetail" data-param="transitions"></div>
+              <div class="aifnmjmchg-absolute aifnmjmchg-top-2 aifnmjmchg-left-2 aifnmjmchg-px-2 aifnmjmchg-py-1 aifnmjmchg-rounded-full aifnmjmchg-bg-black--50 aifnmjmchg-backdrop-blur-sm aifnmjmchg-z-20 aifnmjmchg-pointer-events-none"><span class="aifnmjmchg-text-white aifnmjmchg-text-xs aifnmjmchg-font-medium">Transitions</span></div>
+              <div class="aifnmjmchg-absolute aifnmjmchg-bottom-2 aifnmjmchg-right-2 aifnmjmchg-w-8 aifnmjmchg-h-8 aifnmjmchg-rounded-full aifnmjmchg-bg-primary-foreground--20 aifnmjmchg-backdrop-blur-sm aifnmjmchg-flex aifnmjmchg-items-center aifnmjmchg-justify-center aifnmjmchg-opacity-0 group-hover-aifnmjmchg-opacity-100 aifnmjmchg-transition-opacity aifnmjmchg-z-20 aifnmjmchg-pointer-events-none"><svg class="aifnmjmchg-w-4 aifnmjmchg-h-4 aifnmjmchg-text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+            </div>
+            <p class="aifnmjmchg-text-sm aifnmjmchg-font-medium aifnmjmchg-truncate" data-action="openDetail" data-param="transitions">Wipe Effect</p>
+            <p class="aifnmjmchg-text-xs aifnmjmchg-text-muted-foreground">Transitions</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Creations From Community (identical structure to index.html) -->
+      <section class="aifnmjmchg-py-4" id="aifnmjmchg-communityCreationsSection">
+        <div class="aifnmjmchg-flex aifnmjmchg-items-center aifnmjmchg-justify-between aifnmjmchg-mb-4">
+          <div class="aifnmjmchg-flex aifnmjmchg-items-center aifnmjmchg-gap-3">
+            <div class="aifnmjmchg-w-10 aifnmjmchg-h-10 aifnmjmchg-rounded-lg aifnmjmchg-flex aifnmjmchg-items-center aifnmjmchg-justify-center aifnmjmchg-bg-[#F3F5F9] dark-aifnmjmchg-bg-[#262626]">
+              <svg class="aifnmjmchg-w-5 aifnmjmchg-h-5 aifnmjmchg-text-foreground" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.455 2.456L21.75 6l-1.036.259a3.375 3.375 0 00-2.455 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z"/>
+              </svg>
+            </div>
+            <h2 class="aifnmjmchg-text-xl md-aifnmjmchg-text-2xl aifnmjmchg-font-bold">Creations From Community</h2>
+          </div>
+          <a href="/marketplace/outputs.html" class="aifnmjmchg-text-sm aifnmjmchg-font-medium aifnmjmchg-text-primary hover-aifnmjmchg-text-primary--80 aifnmjmchg-transition-colors">See All</a>
+        </div>
+        <div class="aifnmjmchg-grid xs-aifnmjmchg-grid-cols-2 sm-aifnmjmchg-grid-cols-3 md-aifnmjmchg-grid-cols-4 lg-aifnmjmchg-grid-cols-5 xl-aifnmjmchg-grid-cols-5 aifnmjmchg-gap-3" id="aifnmjmchg-communityCreationsGrid">
+        </div>
+      </section>
+
+      <!-- Slider Tabs Section (4 tabs, identical to index.html) -->
+      <section class="aifnmjmchg-py-4">
+        <div class="aifnmjmchg-flex aifnmjmchg-gap-1 aifnmjmchg-p-1 aifnmjmchg-bg-muted aifnmjmchg-rounded-ios-lg aifnmjmchg-overflow-x-auto aifnmjmchg-hide-scrollbar">
+          <button class="aifnmjmchg-slider-tab active aifnmjmchg-flex-shrink-0 aifnmjmchg-px-4 aifnmjmchg-py-2 aifnmjmchg-rounded-ios aifnmjmchg-text-sm aifnmjmchg-font-medium aifnmjmchg-transition-all" data-slider="new-noteworthy">New & Noteworthy</button>
+          <button class="aifnmjmchg-slider-tab aifnmjmchg-flex-shrink-0 aifnmjmchg-px-4 aifnmjmchg-py-2 aifnmjmchg-rounded-ios aifnmjmchg-text-sm aifnmjmchg-font-medium aifnmjmchg-text-muted-foreground hover-aifnmjmchg-text-foreground aifnmjmchg-transition-all" data-slider="top-charts">Top Charts</button>
+          <button class="aifnmjmchg-slider-tab aifnmjmchg-flex-shrink-0 aifnmjmchg-px-4 aifnmjmchg-py-2 aifnmjmchg-rounded-ios aifnmjmchg-text-sm aifnmjmchg-font-medium aifnmjmchg-text-muted-foreground hover-aifnmjmchg-text-foreground aifnmjmchg-transition-all" data-slider="top-rated">Top Rated</button>
+          <button class="aifnmjmchg-slider-tab aifnmjmchg-flex-shrink-0 aifnmjmchg-px-4 aifnmjmchg-py-2 aifnmjmchg-rounded-ios aifnmjmchg-text-sm aifnmjmchg-font-medium aifnmjmchg-text-muted-foreground hover-aifnmjmchg-text-foreground aifnmjmchg-transition-all" data-slider="editors-choice">Editor's Choice</button>
+        </div>
+      </section>
+
+      <!-- Slider Tab Contents -->
+      <div id="aifnmjmchg-sliderTabContents">
+        <!-- New & Noteworthy Content -->
+        <div id="aifnmjmchg-sliderNewNoteworthyContent" class="aifnmjmchg-slider-content">
+          <section class="aifnmjmchg-py-2">
+            <div class="aifnmjmchg-mb-4">
+              <h2 class="aifnmjmchg-text-xl md-aifnmjmchg-text-2xl aifnmjmchg-font-bold aifnmjmchg-mb-2">New & Noteworthy</h2>
+              <p class="aifnmjmchg-text-muted-foreground">Recently added agents worth checking out</p>
+            </div>
+            <div class="aifnmjmchg-masonry-grid sm-aifnmjmchg-grid sm-aifnmjmchg-grid-cols-2 lg-aifnmjmchg-grid-cols-4 xl-aifnmjmchg-grid-cols-5 sm-aifnmjmchg-gap-4 sm-aifnmjmchg-justify-items-center" id="aifnmjmchg-newNoteworthyGrid">
+            </div>
+          </section>
+        </div>
+        <!-- Top Charts Content -->
+        <div id="aifnmjmchg-sliderTopChartsContent" class="aifnmjmchg-slider-content aifnmjmchg-hidden">
+          <section class="aifnmjmchg-py-2">
+            <div class="aifnmjmchg-flex aifnmjmchg-items-center aifnmjmchg-justify-between aifnmjmchg-mb-4">
+              <h2 class="aifnmjmchg-text-xl md-aifnmjmchg-text-2xl aifnmjmchg-font-bold">Top Charts</h2>
+            </div>
+            <div class="aifnmjmchg-grid aifnmjmchg-grid-cols-1 md-aifnmjmchg-grid-cols-2 lg-aifnmjmchg-grid-cols-3 aifnmjmchg-gap-4" id="aifnmjmchg-topChartsGrid">
+            </div>
+          </section>
+        </div>
+        <!-- Top Rated Content -->
+        <div id="aifnmjmchg-sliderTopRatedContent" class="aifnmjmchg-slider-content aifnmjmchg-hidden">
+          <section class="aifnmjmchg-py-2">
+            <div class="aifnmjmchg-flex aifnmjmchg-items-center aifnmjmchg-justify-between aifnmjmchg-mb-4">
+              <h2 class="aifnmjmchg-text-xl md-aifnmjmchg-text-2xl aifnmjmchg-font-bold">Top Rated Agents</h2>
+            </div>
+            <div class="aifnmjmchg-masonry-grid sm-aifnmjmchg-grid sm-aifnmjmchg-grid-cols-2 lg-aifnmjmchg-grid-cols-4 xl-aifnmjmchg-grid-cols-5 sm-aifnmjmchg-gap-4 sm-aifnmjmchg-justify-items-center" id="aifnmjmchg-topRatedGrid">
+            </div>
+          </section>
+        </div>
+        <!-- Editor's Choice Content -->
+        <div id="aifnmjmchg-sliderEditorsChoiceContent" class="aifnmjmchg-slider-content aifnmjmchg-hidden">
+          <section class="aifnmjmchg-py-2">
+            <div class="aifnmjmchg-mb-4">
+              <h2 class="aifnmjmchg-text-xl md-aifnmjmchg-text-2xl aifnmjmchg-font-bold aifnmjmchg-mb-2">Editor's Choice</h2>
+              <p class="aifnmjmchg-text-muted-foreground">Hand-picked agents we love</p>
+            </div>
+            <div class="aifnmjmchg-masonry-grid sm-aifnmjmchg-grid sm-aifnmjmchg-grid-cols-2 lg-aifnmjmchg-grid-cols-4 xl-aifnmjmchg-grid-cols-5 sm-aifnmjmchg-gap-4 sm-aifnmjmchg-justify-items-center" id="aifnmjmchg-editorsChoiceGrid">
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <!-- Image Agents Category Section -->
+      <section class="aifnmjmchg-py-4" id="aifnmjmchg-imageAgentsSection">
+        <div class="aifnmjmchg-flex aifnmjmchg-items-center aifnmjmchg-justify-between aifnmjmchg-mb-4">
+          <div class="aifnmjmchg-flex aifnmjmchg-items-center aifnmjmchg-gap-3">
+            <div class="aifnmjmchg-w-10 aifnmjmchg-h-10 aifnmjmchg-rounded-lg aifnmjmchg-flex aifnmjmchg-items-center aifnmjmchg-justify-center aifnmjmchg-bg-[#F3F5F9] dark-aifnmjmchg-bg-[#262626]">
+              <img src="https://aitopia.ai/icons/image.svg" alt="" class="dark-aifnmjmchg-invert" style="width: 20px; height: 20px; object-fit: contain;">
+            </div>
+            <h2 class="aifnmjmchg-text-xl md-aifnmjmchg-text-2xl aifnmjmchg-font-bold">Image Agents</h2>
+          </div>
+          <a href="/marketplace/agents?category=image" class="aifnmjmchg-text-sm aifnmjmchg-font-medium aifnmjmchg-text-primary hover-aifnmjmchg-text-primary--80 aifnmjmchg-transition-colors">See All</a>
+        </div>
+        <div class="aifnmjmchg-masonry-grid sm-aifnmjmchg-grid sm-aifnmjmchg-grid-cols-2 lg-aifnmjmchg-grid-cols-4 xl-aifnmjmchg-grid-cols-5 sm-aifnmjmchg-gap-4 sm-aifnmjmchg-justify-items-center" id="aifnmjmchg-imageAgentsGrid">
+        </div>
+      </section>
+
+      <!-- Video Agents Category Section -->
+      <section class="aifnmjmchg-py-4" id="aifnmjmchg-videoAgentsSection">
+        <div class="aifnmjmchg-flex aifnmjmchg-items-center aifnmjmchg-justify-between aifnmjmchg-mb-4">
+          <div class="aifnmjmchg-flex aifnmjmchg-items-center aifnmjmchg-gap-3">
+            <div class="aifnmjmchg-w-10 aifnmjmchg-h-10 aifnmjmchg-rounded-lg aifnmjmchg-flex aifnmjmchg-items-center aifnmjmchg-justify-center aifnmjmchg-bg-[#F3F5F9] dark-aifnmjmchg-bg-[#262626]">
+              <img src="https://aitopia.ai/icons/video.svg" alt="" class="dark-aifnmjmchg-invert" style="width: 20px; height: 20px; object-fit: contain;">
+            </div>
+            <h2 class="aifnmjmchg-text-xl md-aifnmjmchg-text-2xl aifnmjmchg-font-bold">Video Agents</h2>
+          </div>
+          <a href="/marketplace/agents?category=video" class="aifnmjmchg-text-sm aifnmjmchg-font-medium aifnmjmchg-text-primary hover-aifnmjmchg-text-primary--80 aifnmjmchg-transition-colors">See All</a>
+        </div>
+        <div class="aifnmjmchg-masonry-grid sm-aifnmjmchg-grid sm-aifnmjmchg-grid-cols-2 lg-aifnmjmchg-grid-cols-4 xl-aifnmjmchg-grid-cols-5 sm-aifnmjmchg-gap-4 sm-aifnmjmchg-justify-items-center" id="aifnmjmchg-videoAgentsGrid">
+        </div>
+      </section>
+
+      <!-- E-Commerce Agents Category Section -->
+      <section class="aifnmjmchg-py-4" id="aifnmjmchg-ecommerceAgentsSection">
+        <div class="aifnmjmchg-flex aifnmjmchg-items-center aifnmjmchg-justify-between aifnmjmchg-mb-4">
+          <div class="aifnmjmchg-flex aifnmjmchg-items-center aifnmjmchg-gap-3">
+            <div class="aifnmjmchg-w-10 aifnmjmchg-h-10 aifnmjmchg-rounded-lg aifnmjmchg-flex aifnmjmchg-items-center aifnmjmchg-justify-center aifnmjmchg-bg-[#F3F5F9] dark-aifnmjmchg-bg-[#262626]">
+              <img src="https://aitopia.ai/icons/commerce.svg" alt="" class="dark-aifnmjmchg-invert" style="width: 20px; height: 20px; object-fit: contain;">
+            </div>
+            <h2 class="aifnmjmchg-text-xl md-aifnmjmchg-text-2xl aifnmjmchg-font-bold">E-Commerce Agents</h2>
+          </div>
+          <a href="/marketplace/agents?category=commerce" class="aifnmjmchg-text-sm aifnmjmchg-font-medium aifnmjmchg-text-primary hover-aifnmjmchg-text-primary--80 aifnmjmchg-transition-colors">See All</a>
+        </div>
+        <div class="aifnmjmchg-masonry-grid sm-aifnmjmchg-grid sm-aifnmjmchg-grid-cols-2 lg-aifnmjmchg-grid-cols-4 xl-aifnmjmchg-grid-cols-5 sm-aifnmjmchg-gap-4 sm-aifnmjmchg-justify-items-center" id="aifnmjmchg-ecommerceAgentsGrid">
+        </div>
+      </section>
+
+      <!-- Productivity Agents Category Section -->
+      <section class="aifnmjmchg-py-4" id="aifnmjmchg-productivityAgentsSection">
+        <div class="aifnmjmchg-flex aifnmjmchg-items-center aifnmjmchg-justify-between aifnmjmchg-mb-4">
+          <div class="aifnmjmchg-flex aifnmjmchg-items-center aifnmjmchg-gap-3">
+            <div class="aifnmjmchg-w-10 aifnmjmchg-h-10 aifnmjmchg-rounded-lg aifnmjmchg-flex aifnmjmchg-items-center aifnmjmchg-justify-center aifnmjmchg-bg-[#F3F5F9] dark-aifnmjmchg-bg-[#262626]">
+              <img src="https://aitopia.ai/icons/productivity.svg" alt="" class="dark-aifnmjmchg-invert" style="width: 20px; height: 20px; object-fit: contain;">
+            </div>
+            <h2 class="aifnmjmchg-text-xl md-aifnmjmchg-text-2xl aifnmjmchg-font-bold">Productivity Agents</h2>
+          </div>
+          <a href="/marketplace/agents?category=productivity" class="aifnmjmchg-text-sm aifnmjmchg-font-medium aifnmjmchg-text-primary hover-aifnmjmchg-text-primary--80 aifnmjmchg-transition-colors">See All</a>
+        </div>
+        <div class="aifnmjmchg-masonry-grid sm-aifnmjmchg-grid sm-aifnmjmchg-grid-cols-2 lg-aifnmjmchg-grid-cols-4 xl-aifnmjmchg-grid-cols-5 sm-aifnmjmchg-gap-4 sm-aifnmjmchg-justify-items-center" id="aifnmjmchg-productivityAgentsGrid">
+        </div>
+      </section>
+
+      <!-- AI Models Category Section -->
+      <section class="aifnmjmchg-py-4" id="aifnmjmchg-modelsSection">
+        <div class="aifnmjmchg-flex aifnmjmchg-items-center aifnmjmchg-justify-between aifnmjmchg-mb-4">
+          <div class="aifnmjmchg-flex aifnmjmchg-items-center aifnmjmchg-gap-3">
+            <div class="aifnmjmchg-w-10 aifnmjmchg-h-10 aifnmjmchg-rounded-lg aifnmjmchg-flex aifnmjmchg-items-center aifnmjmchg-justify-center aifnmjmchg-bg-[#F3F5F9] dark-aifnmjmchg-bg-[#262626]">
+              <img src="https://aitopia.ai/icons/models.svg" alt="" class="dark-aifnmjmchg-invert" style="width: 20px; height: 20px; object-fit: contain;">
+            </div>
+            <h2 class="aifnmjmchg-text-xl md-aifnmjmchg-text-2xl aifnmjmchg-font-bold">AI Models</h2>
+          </div>
+          <a href="/marketplace/models.html" class="aifnmjmchg-text-sm aifnmjmchg-font-medium aifnmjmchg-text-primary hover-aifnmjmchg-text-primary--80 aifnmjmchg-transition-colors">See All</a>
+        </div>
+        <div class="aifnmjmchg-grid xs-aifnmjmchg-grid-cols-2 sm-aifnmjmchg-grid-cols-3 lg-aifnmjmchg-grid-cols-5 aifnmjmchg-gap-4" id="aifnmjmchg-modelsGrid">
+        </div>
+      </section>
+
+      <!-- All Agents Grid -->
+      <section class="aifnmjmchg-py-4">
+        <div class="aifnmjmchg-flex aifnmjmchg-items-center aifnmjmchg-justify-between aifnmjmchg-mb-4">
+          <h2 id="aifnmjmchg-allAgentsTitle" class="aifnmjmchg-text-xl md-aifnmjmchg-text-2xl aifnmjmchg-font-bold">All Agents</h2>
+          <span class="aifnmjmchg-text-sm aifnmjmchg-text-muted-foreground" id="aifnmjmchg-agentCount"></span>
+        </div>
+        <div class="aifnmjmchg-grid aifnmjmchg-grid-cols-1 md-aifnmjmchg-grid-cols-2 lg-aifnmjmchg-grid-cols-3 aifnmjmchg-gap-4" id="aifnmjmchg-allAgents">
+        </div>
+      </section>
+
+    </div><!-- End Today Tab -->
+  </main>
+
+  <!-- Inline JS: fetch from API, fallback to static data -->
+  <script src="/aitopia/marketplace/js/inline/index_mini-inline-2.js"></script>
+<style>
+    :root {
+      --aifnmjmchg-m-background: 0 0% 100%; --aifnmjmchg-m-foreground: 0 0% 3.9%;
+      --aifnmjmchg-m-card: 0 0% 100%; --aifnmjmchg-m-card-foreground: 0 0% 3.9%;
+      --aifnmjmchg-m-popover: 0 0% 100%; --aifnmjmchg-m-popover-foreground: 0 0% 3.9%;
+      --aifnmjmchg-m-primary: 0 0% 0%; --aifnmjmchg-m-primary-foreground: 210 40% 98%;
+      --aifnmjmchg-m-secondary: 0 0% 100%; --aifnmjmchg-m-secondary-foreground: 222.2 47.4% 11.2%;
+      --aifnmjmchg-m-muted: 210 40% 96.1%; --aifnmjmchg-m-muted-foreground: 215.4 16.3% 46.9%;
+      --aifnmjmchg-m-accent: 210 40% 96.1%; --aifnmjmchg-m-accent-foreground: 222.2 47.4% 11.2%;
+      --aifnmjmchg-m-destructive: 0 84.2% 60.2%;
+      --aifnmjmchg-m-border: 214.3 31.8% 91.4%; --aifnmjmchg-m-input: 214.3 31.8% 91.4%; --aifnmjmchg-m-ring: 260 79% 59%;
+    }
+    .dark {
+      --aifnmjmchg-m-background: 0 0% 3.9%; --aifnmjmchg-m-foreground: 0 0% 98%;
+      --aifnmjmchg-m-card: 0 0% 7%; --aifnmjmchg-m-card-foreground: 0 0% 98%;
+      --aifnmjmchg-m-popover: 0 0% 7%; --aifnmjmchg-m-popover-foreground: 0 0% 98%;
+      --aifnmjmchg-m-primary: 0 0% 100%; --aifnmjmchg-m-primary-foreground: 0 0% 0%;
+      --aifnmjmchg-m-secondary: 0 0% 0%; --aifnmjmchg-m-secondary-foreground: 210 40% 98%;
+      --aifnmjmchg-m-muted: 217.2 32.6% 17.5%; --aifnmjmchg-m-muted-foreground: 215 20.2% 65.1%;
+      --aifnmjmchg-m-accent: 217.2 32.6% 17.5%; --aifnmjmchg-m-accent-foreground: 210 40% 98%;
+      --aifnmjmchg-m-destructive: 0 62.8% 30.6%;
+      --aifnmjmchg-m-border: 217.2 32.6% 17.5%; --aifnmjmchg-m-input: 217.2 32.6% 17.5%; --aifnmjmchg-m-ring: 260 79% 59%;
+    }
+    /* Container query root – responds to .aifnmjmchg element width, not viewport */
+    .aifnmjmchg { container-type: inline-size; }
+    .aifnmjmchg-marketplace a{ color: hsl(var(--aifnmjmchg-m-foreground)) !important; }
+    .aifnmjmchg-category-btn.active{color: hsl(var(--aifnmjmchg-m-primary-foreground)) !important;}
+
+    ::-webkit-scrollbar { width: 8px !important; height: 8px !important; }
+    ::-webkit-scrollbar-track { background: transparent !important; }
+    ::-webkit-scrollbar-thumb { background: hsl(var(--aifnmjmchg-m-muted-foreground) / 0.3) !important; border-radius: 4px !important; }
+    ::-webkit-scrollbar-thumb:hover { background: hsl(var(--aifnmjmchg-m-muted-foreground) / 0.5) !important; }
+    .aifnmjmchg-hide-scrollbar::-webkit-scrollbar { display: none !important; }
+    .aifnmjmchg-hide-scrollbar { -ms-overflow-style: none !important; scrollbar-width: none !important; }
+    .aifnmjmchg-card-hover { transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important; }
+    .aifnmjmchg-card-hover:hover { transform: translateY(-4px) !important; box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1) !important; }
+    .aifnmjmchg-card-hover:active { transform: scale(0.98) !important; }
+    /* Masonry mobile (container < 640px) */
+    @container (max-width: 639px) {
+      .aifnmjmchg-masonry-grid { display: grid !important; grid-template-columns: repeat(2, 1fr) !important; grid-auto-rows: 8px !important; grid-auto-flow: dense !important; gap: 6px !important; }
+      .aifnmjmchg-masonry-grid .aifnmjmchg-agent-card { background: hsl(var(--aifnmjmchg-m-card)) !important; border: 1px solid hsl(var(--aifnmjmchg-m-border) / 0.3) !important; overflow: hidden !important; border-radius: 16px !important; }
+      .aifnmjmchg-masonry-grid .aifnmjmchg-card-info { padding: 10px 12px 12px !important; background: hsl(var(--aifnmjmchg-m-card)) !important; }
+      .aifnmjmchg-masonry-grid .aifnmjmchg-card-info h3 { font-size: 13px !important; font-weight: 700 !important; line-height: 1.3 !important; margin: 0 0 2px 0 !important; white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important; }
+      .aifnmjmchg-masonry-grid .aifnmjmchg-card-info p { font-size: 11px !important; line-height: 1.3 !important; margin: 0 !important; opacity: 0.6 !important; white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis !important; display: block !important; }
+      .aifnmjmchg-masonry-grid .aifnmjmchg-card-info > div { display: none !important; }
+      .aifnmjmchg-masonry-grid .aifnmjmchg-agent-card:nth-child(odd) { grid-column: 1 !important; }
+      .aifnmjmchg-masonry-grid .aifnmjmchg-agent-card:nth-child(even) { grid-column: 2 !important; }
+      .aifnmjmchg-masonry-grid .aifnmjmchg-card-media { height: 100% !important; border-radius: 16px !important; overflow: hidden !important; }
+      .aifnmjmchg-masonry-grid .aifnmjmchg-card-media img, .aifnmjmchg-masonry-grid .aifnmjmchg-card-media video { width: 100% !important; height: 100% !important; object-fit: cover !important; display: block !important; }
+      .aifnmjmchg-masonry-grid .aifnmjmchg-agent-card { grid-row: span 15 !important; }
+      .aifnmjmchg-masonry-grid .aifnmjmchg-popular-badge { padding: 3px 8px !important; font-size: 9px !important; top: 6px !important; left: 6px !important; background: hsl(var(--aifnmjmchg-m-primary) / 0.8) !important; backdrop-filter: blur(4px) !important; -webkit-backdrop-filter: blur(4px) !important; }
+    }
+    .aifnmjmchg-btn-press { transition: all 0.15s ease !important; }
+    .aifnmjmchg-btn-press:active { transform: scale(0.95) !important; }
+    .aifnmjmchg-slider-tab.active { background: hsl(var(--aifnmjmchg-m-card)) !important; box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1) !important; }
+    .aifnmjmchg-img-zoom { transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1) !important; }
+    .aifnmjmchg-img-zoom:hover { transform: scale(1.05) !important; }
+    .aifnmjmchg-app-icon { border-radius: 22.37% !important; box-shadow: 0 0 0 0.5px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.1) !important; }
+    @keyframes staggerFadeUp { 0% { opacity: 0; transform: translateY(20px); } 100% { opacity: 1; transform: translateY(0); } }
+    .aifnmjmchg-stagger-item { animation: staggerFadeUp 0.4s ease-out forwards !important; }
+    .aifnmjmchg-stagger-item:nth-child(1) { animation-delay: 0ms !important; }
+    .aifnmjmchg-stagger-item:nth-child(2) { animation-delay: 50ms !important; }
+    .aifnmjmchg-stagger-item:nth-child(3) { animation-delay: 100ms !important; }
+    .aifnmjmchg-stagger-item:nth-child(4) { animation-delay: 150ms !important; }
+    .aifnmjmchg-stagger-item:nth-child(5) { animation-delay: 200ms !important; }
+    .aifnmjmchg-stagger-item:nth-child(6) { animation-delay: 250ms !important; }
+    .aifnmjmchg-stagger-item:nth-child(7) { animation-delay: 300ms !important; }
+    .aifnmjmchg-stagger-item:nth-child(8) { animation-delay: 350ms !important; }
+
+    /* ── Tailwind aifnmjmchg- utilities ── */
+
+    /* Layout & Position */
+    .aifnmjmchg-block { display: block !important; }
+    .aifnmjmchg-flex { display: flex !important; }
+    .aifnmjmchg-grid { display: grid !important; }
+    .aifnmjmchg-hidden { display: none !important; }
+    .aifnmjmchg-inline-flex { display: inline-flex !important; }
+    .aifnmjmchg-relative { position: relative !important; }
+    .aifnmjmchg-absolute { position: absolute !important; }
+    .aifnmjmchg-fixed { position: fixed !important; }
+    .aifnmjmchg-sticky { position: sticky !important; }
+    .aifnmjmchg-inset-0 { inset: 0 !important; }
+    .aifnmjmchg-top-2 { top: 0.5rem !important; }
+    .aifnmjmchg-left-0 { left: 0 !important; }
+    .aifnmjmchg-left-2 { left: 0.5rem !important; }
+    .aifnmjmchg-right-0 { right: 0 !important; }
+    .aifnmjmchg-right-2 { right: 0.5rem !important; }
+    .aifnmjmchg-bottom-0 { bottom: 0 !important; }
+    .aifnmjmchg-bottom-2 { bottom: 0.5rem !important; }
+    .aifnmjmchg-z-10 { z-index: 10 !important; }
+    .aifnmjmchg-z-20 { z-index: 20 !important; }
+    .aifnmjmchg-overflow-hidden { overflow: hidden !important; }
+    .aifnmjmchg-overflow-x-auto { overflow-x: auto !important; }
+
+    /* Flexbox */
+    .aifnmjmchg-flex-1 { flex: 1 1 0% !important; }
+    .aifnmjmchg-flex-col { flex-direction: column !important; }
+    .aifnmjmchg-flex-shrink-0 { flex-shrink: 0 !important; }
+    .aifnmjmchg-items-center { align-items: center !important; }
+    .aifnmjmchg-justify-center { justify-content: center !important; }
+    .aifnmjmchg-justify-between { justify-content: space-between !important; }
+    .aifnmjmchg-justify-end { justify-content: flex-end !important; }
+    .aifnmjmchg-justify-items-center { justify-items: center !important; }
+
+    /* Grid */
+    .aifnmjmchg-grid-cols-1 { grid-template-columns: repeat(1, minmax(0, 1fr)) !important; }
+    .aifnmjmchg-grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+    .aifnmjmchg-grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; }
+    .aifnmjmchg-grid-cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)) !important; }
+    .aifnmjmchg-grid-cols-5 { grid-template-columns: repeat(5, minmax(0, 1fr)) !important; }
+
+    /* Gap */
+    .aifnmjmchg-gap-1 { gap: 0.25rem !important; }
+    .aifnmjmchg-gap-2 { gap: 0.5rem !important; }
+    .aifnmjmchg-gap-3 { gap: 0.75rem !important; }
+    .aifnmjmchg-gap-4 { gap: 1rem !important; }
+
+    /* Sizing */
+    .aifnmjmchg-w-4 { width: 1rem !important; }
+    .aifnmjmchg-w-5 { width: 1.25rem !important; }
+    .aifnmjmchg-w-7 { width: 1.75rem !important; }
+    .aifnmjmchg-w-8 { width: 2rem !important; }
+    .aifnmjmchg-w-10 { width: 2.5rem !important; }
+    .aifnmjmchg-w-12 { width: 3rem !important; }
+    .aifnmjmchg-w-16 { width: 4rem !important; }
+    .aifnmjmchg-w-72 { width: 18rem !important; }
+    .aifnmjmchg-w-full { width: 100% !important; }
+    .aifnmjmchg-h-4 { height: 1rem !important; }
+    .aifnmjmchg-h-5 { height: 1.25rem !important; }
+    .aifnmjmchg-h-8 { height: 2rem !important; }
+    .aifnmjmchg-h-10 { height: 2.5rem !important; }
+    .aifnmjmchg-h-12 { height: 3rem !important; }
+    .aifnmjmchg-h-16 { height: 4rem !important; }
+    .aifnmjmchg-h-full { height: 100% !important; }
+    .aifnmjmchg-min-w-0 { min-width: 0 !important; }
+    .aifnmjmchg-min-h-screen { min-height: 100vh !important; }
+    .aifnmjmchg-max-w-md { max-width: 28rem !important; }
+    .aifnmjmchg-max-w-\[1600px\] { max-width: 1600px !important; }
+    .aifnmjmchg-aspect-square { aspect-ratio: 1 / 1 !important; }
+    .aifnmjmchg-aspect-video { aspect-ratio: 16 / 9 !important; }
+
+    /* Spacing */
+    .aifnmjmchg-p-1 { padding: 0.25rem !important; }
+    .aifnmjmchg-p-2\.5 { padding: 0.625rem !important; }
+    .aifnmjmchg-p-3 { padding: 0.75rem !important; }
+    .aifnmjmchg-p-4 { padding: 1rem !important; }
+    .aifnmjmchg-p-6 { padding: 1.5rem !important; }
+    .aifnmjmchg-p-8 { padding: 2rem !important; }
+    .aifnmjmchg-px-2 { padding-left: 0.5rem !important; padding-right: 0.5rem !important; }
+    .aifnmjmchg-px-2\.5 { padding-left: 0.625rem !important; padding-right: 0.625rem !important; }
+    .aifnmjmchg-px-3 { padding-left: 0.75rem !important; padding-right: 0.75rem !important; }
+    .aifnmjmchg-px-4 { padding-left: 1rem !important; padding-right: 1rem !important; }
+    .aifnmjmchg-px-5 { padding-left: 1.25rem !important; padding-right: 1.25rem !important; }
+    .aifnmjmchg-px-6 { padding-left: 1.5rem !important; padding-right: 1.5rem !important; }
+    .aifnmjmchg-px-0 { padding-left: 0 !important; padding-right: 0 !important; }
+    .aifnmjmchg-py-1 { padding-top: 0.25rem !important; padding-bottom: 0.25rem !important; }
+    .aifnmjmchg-py-2 { padding-top: 0.5rem !important; padding-bottom: 0.5rem !important; }
+    .aifnmjmchg-py-4 { padding-top: 1rem !important; padding-bottom: 1rem !important; }
+    .aifnmjmchg-pt-3 { padding-top: 0.75rem !important; }
+    .aifnmjmchg-pb-2 { padding-bottom: 0.5rem !important; }
+    .aifnmjmchg-mt-0\.5 { margin-top: 0.125rem !important; }
+    .aifnmjmchg-mt-1 { margin-top: 0.25rem !important; }
+    .aifnmjmchg-mt-2 { margin-top: 0.5rem !important; }
+    .aifnmjmchg-mt-auto { margin-top: auto !important; }
+    .aifnmjmchg-mb-0\.5 { margin-bottom: 0.125rem !important; }
+    .aifnmjmchg-mb-2 { margin-bottom: 0.5rem !important; }
+    .aifnmjmchg-mb-4 { margin-bottom: 1rem !important; }
+    .aifnmjmchg-mx-auto { margin-left: auto !important; margin-right: auto !important; }
+    .aifnmjmchg-mx-0 { margin-left: 0 !important; margin-right: 0 !important; }
+    .aifnmjmchg--mx-4 { margin-left: -1rem !important; margin-right: -1rem !important; }
+
+    /* Typography */
+    .aifnmjmchg-font-bold { font-weight: 700 !important; }
+    .aifnmjmchg-font-semibold { font-weight: 600 !important; }
+    .aifnmjmchg-font-medium { font-weight: 500 !important; }
+    .aifnmjmchg-text-xs { font-size: 0.75rem !important; line-height: 1rem !important; }
+    .aifnmjmchg-text-sm { font-size: 0.875rem !important; line-height: 1.25rem !important; }
+    .aifnmjmchg-text-base { font-size: 1rem !important; line-height: 1.5rem !important; }
+    .aifnmjmchg-text-lg { font-size: 1.125rem !important; line-height: 1.75rem !important; }
+    .aifnmjmchg-text-xl { font-size: 1.25rem !important; line-height: 1.75rem !important; }
+    .aifnmjmchg-text-2xl { font-size: 1.5rem !important; line-height: 2rem !important; }
+    .aifnmjmchg-text-3xl { font-size: 1.875rem !important; line-height: 2.25rem !important; }
+    .aifnmjmchg-text-4xl { font-size: 2.25rem !important; line-height: 2.5rem !important; }
+    .aifnmjmchg-text-\[10px\] { font-size: 10px !important; }
+    .aifnmjmchg-text-\[11px\] { font-size: 11px !important; }
+    .aifnmjmchg-text-center { text-align: center !important; }
+    .aifnmjmchg-uppercase { text-transform: uppercase !important; }
+    .aifnmjmchg-tracking-wide { letter-spacing: 0.025em !important; }
+    .aifnmjmchg-tracking-wider { letter-spacing: 0.05em !important; }
+    .aifnmjmchg-truncate { overflow: hidden !important; text-overflow: ellipsis !important; white-space: nowrap !important; }
+    .aifnmjmchg-line-clamp-2 { display: -webkit-box !important; -webkit-line-clamp: 2 !important; line-clamp: 2 !important; -webkit-box-orient: vertical !important; overflow: hidden !important; }
+    .aifnmjmchg-antialiased { -webkit-font-smoothing: antialiased !important; -moz-osx-font-smoothing: grayscale !important; }
+    .aifnmjmchg-whitespace-nowrap { white-space: nowrap !important; }
+    .aifnmjmchg-no-underline { text-decoration: none !important; }
+
+    /* Decimal sizing */
+    .aifnmjmchg-w-3\.5 { width: 0.875rem !important; }
+    .aifnmjmchg-h-3\.5 { height: 0.875rem !important; }
+    .aifnmjmchg-p-2\.5 { padding: 0.625rem !important; }
+    .aifnmjmchg-px-2\.5 { padding-left: 0.625rem !important; padding-right: 0.625rem !important; }
+    .aifnmjmchg-mt-0\.5 { margin-top: 0.125rem !important; }
+    .aifnmjmchg-mb-0\.5 { margin-bottom: 0.125rem !important; }
+
+    /* Colors */
+    .aifnmjmchg-text-foreground { color: hsl(var(--aifnmjmchg-m-foreground)) !important; }
+    .aifnmjmchg-text-muted-foreground { color: hsl(var(--aifnmjmchg-m-muted-foreground)) !important; }
+    .aifnmjmchg-text-primary { color: hsl(var(--aifnmjmchg-m-primary)) !important; }
+    .aifnmjmchg-text-primary-foreground { color: hsl(var(--aifnmjmchg-m-primary-foreground)) !important; }
+    .aifnmjmchg-text-primary\/80 { color: hsl(var(--aifnmjmchg-m-primary) / 0.8) !important; }
+    .aifnmjmchg-text-secondary-foreground { color: hsl(var(--aifnmjmchg-m-secondary-foreground)) !important; }
+    .aifnmjmchg-text-white { color: #fff !important; }
+    .aifnmjmchg-text-white\/60, .aifnmjmchg-text-white--60 { color: rgba(255,255,255,0.6) !important; }
+    .aifnmjmchg-text-white\/70, .aifnmjmchg-text-white--70 { color: rgba(255,255,255,0.7) !important; }
+    .aifnmjmchg-text-white\/80, .aifnmjmchg-text-white--80 { color: rgba(255,255,255,0.8) !important; }
+    .aifnmjmchg-text-primary\/80, .aifnmjmchg-text-primary--80 { color: hsl(var(--aifnmjmchg-m-primary) / 0.8) !important; }
+    .aifnmjmchg-text-yellow-500 { color: #eab308 !important; }
+    .aifnmjmchg-text-inherit { color: inherit !important; }
+
+    /* Backgrounds */
+    .aifnmjmchg-bg-background { background-color: hsl(var(--aifnmjmchg-m-background)) !important; }
+    .aifnmjmchg-bg-card { background-color: hsl(var(--aifnmjmchg-m-card)) !important; }
+    .aifnmjmchg-bg-primary { background-color: hsl(var(--aifnmjmchg-m-primary)) !important; }
+    .aifnmjmchg-bg-primary\/90, .aifnmjmchg-bg-primary--90 { background-color: hsl(var(--aifnmjmchg-m-primary) / 0.9) !important; }
+    .aifnmjmchg-bg-primary-foreground\/20, .aifnmjmchg-bg-primary-foreground--20 { background-color: hsl(var(--aifnmjmchg-m-primary-foreground) / 0.2) !important; }
+    .aifnmjmchg-bg-primary-foreground\/30, .aifnmjmchg-bg-primary-foreground--30 { background-color: hsl(var(--aifnmjmchg-m-primary-foreground) / 0.3) !important; }
+    .aifnmjmchg-bg-secondary { background-color: hsl(var(--aifnmjmchg-m-secondary)) !important; }
+    .aifnmjmchg-bg-secondary\/80, .aifnmjmchg-bg-secondary--80 { background-color: hsl(var(--aifnmjmchg-m-secondary) / 0.8) !important; }
+    .aifnmjmchg-bg-accent\/50, .aifnmjmchg-bg-accent--50 { background-color: hsl(var(--aifnmjmchg-m-accent) / 0.5) !important; }
+    .aifnmjmchg-bg-muted { background-color: hsl(var(--aifnmjmchg-m-muted)) !important; }
+    .aifnmjmchg-bg-black { background-color: #000 !important; }
+    .aifnmjmchg-bg-black\/50, .aifnmjmchg-bg-black--50 { background-color: rgba(0,0,0,0.5) !important; }
+    .aifnmjmchg-bg-\[\#F3F5F9\] { background-color: #F3F5F9 !important; }
+
+    /* Gradients */
+    .aifnmjmchg-bg-gradient-to-br { background-image: linear-gradient(to bottom right, var(--aifnmjmchg-gradient-stops)) !important; }
+    .aifnmjmchg-bg-gradient-to-t { background-image: linear-gradient(to top, var(--aifnmjmchg-gradient-stops)) !important; }
+    .aifnmjmchg-from-primary\/90, .aifnmjmchg-from-primary--90 { --aifnmjmchg-gradient-from: hsl(var(--aifnmjmchg-m-primary) / 0.9); --aifnmjmchg-gradient-stops: var(--aifnmjmchg-gradient-from), var(--aifnmjmchg-gradient-to, transparent); }
+    .aifnmjmchg-via-indigo-600 { --aifnmjmchg-gradient-stops: var(--aifnmjmchg-gradient-from), #4f46e5, var(--aifnmjmchg-gradient-to, transparent); }
+    .aifnmjmchg-to-blue-600 { --aifnmjmchg-gradient-to: #2563eb; }
+    .aifnmjmchg-from-black\/80, .aifnmjmchg-from-black--80 { --aifnmjmchg-gradient-from: rgba(0,0,0,0.8); --aifnmjmchg-gradient-stops: var(--aifnmjmchg-gradient-from), var(--aifnmjmchg-gradient-to, transparent); }
+    .aifnmjmchg-via-transparent { --aifnmjmchg-gradient-stops: var(--aifnmjmchg-gradient-from), transparent, var(--aifnmjmchg-gradient-to, transparent); }
+    .aifnmjmchg-to-transparent { --aifnmjmchg-gradient-to: transparent; }
+
+    /* Border & Rounded */
+    .aifnmjmchg-border { border-width: 1px !important; border-style: solid !important; border-color: hsl(var(--aifnmjmchg-m-border)) !important; }
+    .aifnmjmchg-border-t { border-top-width: 1px !important; border-top-style: solid !important; border-color: hsl(var(--aifnmjmchg-m-border)) !important; }
+    .aifnmjmchg-border-border\/30, .aifnmjmchg-border-border--30 { border-color: hsl(var(--aifnmjmchg-m-border) / 0.3) !important; }
+    .aifnmjmchg-border-border\/40, .aifnmjmchg-border-border--40 { border-color: hsl(var(--aifnmjmchg-m-border) / 0.4) !important; }
+    .aifnmjmchg-border-border\/50, .aifnmjmchg-border-border--50 { border-color: hsl(var(--aifnmjmchg-m-border) / 0.5) !important; }
+    .aifnmjmchg-rounded-full { border-radius: 9999px !important; }
+    .aifnmjmchg-rounded-lg { border-radius: 0.5rem !important; }
+    .aifnmjmchg-rounded-ios { border-radius: 10px !important; }
+    .aifnmjmchg-rounded-ios-lg { border-radius: 14px !important; }
+    .aifnmjmchg-rounded-ios-xl { border-radius: 20px !important; }
+    .aifnmjmchg-rounded-ios-2xl { border-radius: 24px !important; }
+    .aifnmjmchg-rounded-b-\[20px\] { border-bottom-left-radius: 20px !important; border-bottom-right-radius: 20px !important; }
+
+    /* Effects */
+    .aifnmjmchg-opacity-0 { opacity: 0 !important; }
+    .aifnmjmchg-opacity-30 { opacity: 0.3 !important; }
+    .aifnmjmchg-opacity-100 { opacity: 1 !important; }
+    .aifnmjmchg-backdrop-blur-sm { backdrop-filter: blur(4px) !important; -webkit-backdrop-filter: blur(4px) !important; }
+    .aifnmjmchg-backdrop-filter { backdrop-filter: var(--aifnmjmchg-backdrop-filter) !important; }
+    .aifnmjmchg-invert { filter: invert(1) !important; }
+    .aifnmjmchg-scroll-smooth { scroll-behavior: smooth !important; }
+
+    /* Transitions */
+    .aifnmjmchg-transition-all { transition-property: all !important; transition-timing-function: cubic-bezier(0.4,0,0.2,1) !important; transition-duration: 150ms !important; }
+    .aifnmjmchg-transition-colors { transition-property: color, background-color, border-color, text-decoration-color, fill, stroke !important; transition-timing-function: cubic-bezier(0.4,0,0.2,1) !important; transition-duration: 150ms !important; }
+    .aifnmjmchg-transition-opacity { transition-property: opacity !important; transition-timing-function: cubic-bezier(0.4,0,0.2,1) !important; transition-duration: 150ms !important; }
+    .aifnmjmchg-transition-transform { transition-property: transform !important; transition-timing-function: cubic-bezier(0.4,0,0.2,1) !important; transition-duration: 150ms !important; }
+    .aifnmjmchg-duration-200 { transition-duration: 200ms !important; }
+
+    /* Transforms */
+    .aifnmjmchg-transform { transform: var(--aifnmjmchg-transform) !important; }
+    .aifnmjmchg-translate-y-0 { transform: translateY(0) !important; }
+    .aifnmjmchg-translate-y-3 { transform: translateY(0.75rem) !important; }
+
+    /* Interactivity */
+    .aifnmjmchg-cursor-pointer { cursor: pointer !important; }
+    .aifnmjmchg-pointer-events-none { pointer-events: none !important; }
+    .aifnmjmchg-object-cover { object-fit: cover !important; }
+
+    /* SVG */
+    .aifnmjmchg-fill-current { fill: currentColor !important; }
+
+    /* ── Hover states ── */
+    .hover-aifnmjmchg-bg-secondary--80:hover { background-color: hsl(var(--aifnmjmchg-m-secondary) / 0.8) !important; }
+    .hover-aifnmjmchg-bg-primary-foreground--30:hover { background-color: hsl(var(--aifnmjmchg-m-primary-foreground) / 0.3) !important; }
+    .hover-aifnmjmchg-bg-accent--50:hover { background-color: hsl(var(--aifnmjmchg-m-accent) / 0.5) !important; }
+    .hover-aifnmjmchg-text-foreground:hover { color: hsl(var(--aifnmjmchg-m-foreground)) !important; }
+    .hover-aifnmjmchg-text-primary--80:hover { color: hsl(var(--aifnmjmchg-m-primary) / 0.8) !important; }
+    .group:hover .group-hover-aifnmjmchg-opacity-100 { opacity: 1 !important; }
+    .group:hover .group-hover-aifnmjmchg-bg-primary-foreground--30 { background-color: hsl(var(--aifnmjmchg-m-primary-foreground) / 0.3) !important; }
+    .group:hover .group-hover-aifnmjmchg-translate-y-0 { transform: translateY(0) !important; }
+
+    /* ── Dark mode ── */
+    .dark .dark-aifnmjmchg-bg-\[\#262626\] { background-color: #262626 !important; }
+    .dark .dark-aifnmjmchg-invert { filter: invert(1) !important; }
+
+        /* ── Responsive: sm (640px+) ── */
+    @container (min-width: 1px) {
+      .xs-aifnmjmchg-grid            { display: grid !important; }
+      .xs-aifnmjmchg-grid-cols-2     { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+      .xs-aifnmjmchg-grid-cols-3     { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; }
+    }
+    /* ── Responsive: sm (640px+) ── */
+    @container (min-width: 640px) {
+      .sm-aifnmjmchg-grid            { display: grid !important; }
+      .sm-aifnmjmchg-grid-cols-2     { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+      .sm-aifnmjmchg-grid-cols-3     { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; }
+      .sm-aifnmjmchg-gap-4           { gap: 1rem !important; }
+      .sm-aifnmjmchg-justify-items-center { justify-items: center !important; }
+      .sm-aifnmjmchg-px-4            { padding-left: 1rem !important; padding-right: 1rem !important; }
+      .sm-aifnmjmchg-px-0            { padding-left: 0 !important; padding-right: 0 !important; }
+      .sm-aifnmjmchg-mx-0            { margin-left: 0 !important; margin-right: 0 !important; }
+    }
+
+    /* ── Responsive: md (768px+) ── */
+    @container (min-width: 768px) {
+      .md-aifnmjmchg-grid-cols-2     { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+      .md-aifnmjmchg-grid-cols-4     { grid-template-columns: repeat(4, minmax(0, 1fr)) !important; }
+      .md-aifnmjmchg-p-8             { padding: 2rem !important; }
+      .md-aifnmjmchg-text-2xl        { font-size: 1.5rem !important; line-height: 2rem !important; }
+      .md-aifnmjmchg-text-3xl        { font-size: 1.875rem !important; line-height: 2.25rem !important; }
+      .md-aifnmjmchg-text-base       { font-size: 1rem !important; line-height: 1.5rem !important; }
+      .md-aifnmjmchg-text-4xl        { font-size: 2.25rem !important; line-height: 2.5rem !important; }
+    }
+
+    /* ── Responsive: lg (1024px+) ── */
+    @container (min-width: 1024px) {
+      .lg-aifnmjmchg-grid-cols-3     { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; }
+      .lg-aifnmjmchg-grid-cols-4     { grid-template-columns: repeat(4, minmax(0, 1fr)) !important; }
+      .lg-aifnmjmchg-grid-cols-5     { grid-template-columns: repeat(5, minmax(0, 1fr)) !important; }
+      .lg-aifnmjmchg-px-6            { padding-left: 1.5rem !important; padding-right: 1.5rem !important; }
+    }
+
+    /* ── Responsive: xl (1280px+) ── */
+    @container (min-width: 1280px) {
+      .xl-aifnmjmchg-grid-cols-5     { grid-template-columns: repeat(5, minmax(0, 1fr)) !important; }
+    }
+  </style>
+</body>
+</html>

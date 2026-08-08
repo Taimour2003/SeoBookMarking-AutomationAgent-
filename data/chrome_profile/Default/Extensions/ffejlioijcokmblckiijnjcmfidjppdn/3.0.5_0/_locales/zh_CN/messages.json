@@ -1,0 +1,38 @@
+{
+   "acceptButton": {
+      "message": "接受"
+   },
+   "appTitle": {
+      "message": "Auto Refresh Plus"
+   },
+   "consentText": {
+      "message": "为了改进 Auto Refresh Plus，本扩展程序会收集您访问的页面的网址（URL）以及您的来源页面（引荐来源网址），并将其与一个随机匿名 ID 相关联。我们以此衡量扩展程序的使用情况，并查找自动刷新无法正常工作的页面。这些数据会发送到我们的服务器，绝不会被出售，也绝不会与第三方共享。您可以拒绝，并仍然使用本扩展程序。您可以了解更多关于我们的"
+   },
+   "declineButton": {
+      "message": "拒绝"
+   },
+   "enterTimeText": {
+      "message": "输入时间（秒）"
+   },
+   "extensionDescription": {
+      "message": "Auto Refresh Plus会在指定的秒数后自动刷新和重新加载任何页面或标签页"
+   },
+   "extensionName": {
+      "message": "Auto Refresh Plus"
+   },
+   "extensionTitle": {
+      "message": "Auto Refresh Plus"
+   },
+   "privacyPolicy": {
+      "message": "隐私政策"
+   },
+   "secondsText": {
+      "message": "秒"
+   },
+   "startButton": {
+      "message": "开始"
+   },
+   "stopButton": {
+      "message": "停止"
+   }
+}

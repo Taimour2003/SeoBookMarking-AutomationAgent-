@@ -1,0 +1,38 @@
+{
+   "acceptButton": {
+      "message": "Pieņemt"
+   },
+   "appTitle": {
+      "message": "Auto Refresh Plus"
+   },
+   "consentText": {
+      "message": "Lai uzlabotu Auto Refresh Plus, šis paplašinājums vāc jūsu apmeklēto lapu tīmekļa adreses (URL) un lapu, no kuras jūs ieradāties (atsauces URL), kas saistītas ar nejaušu anonīmu ID. Mēs to izmantojam, lai novērtētu, kā paplašinājums tiek lietots, un atrastu lapas, kurās automātiskā atsvaidzināšana nedarbojas. Šie dati tiek nosūtīti uz mūsu serveriem, nekad netiek pārdoti un nekad netiek koplietoti ar trešajām pusēm. Jūs varat atteikties un turpināt lietot paplašinājumu. Vairāk varat uzzināt mūsu"
+   },
+   "declineButton": {
+      "message": "Atteikties"
+   },
+   "enterTimeText": {
+      "message": "Ievadiet laiku sekundēs"
+   },
+   "extensionDescription": {
+      "message": "Auto Refresh Plus automātiski atsvaidzina un pārlādē jebkuru lapu vai cilni pēc noteikta sekunžu skaita"
+   },
+   "extensionName": {
+      "message": "Auto Refresh Plus"
+   },
+   "extensionTitle": {
+      "message": "Auto Refresh Plus"
+   },
+   "privacyPolicy": {
+      "message": "Privātuma politika"
+   },
+   "secondsText": {
+      "message": "sekundes"
+   },
+   "startButton": {
+      "message": "SĀKT"
+   },
+   "stopButton": {
+      "message": "APTURĒT"
+   }
+}

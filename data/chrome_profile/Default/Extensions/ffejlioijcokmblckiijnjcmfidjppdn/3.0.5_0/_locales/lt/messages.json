@@ -1,0 +1,38 @@
+{
+   "acceptButton": {
+      "message": "Priimti"
+   },
+   "appTitle": {
+      "message": "Auto Refresh Plus"
+   },
+   "consentText": {
+      "message": "Siekdamas tobulinti Auto Refresh Plus, šis plėtinys renka jūsų lankomų puslapių interneto adresus (URL) ir puslapį, iš kurio atėjote (nukreipiančiojo puslapio URL), susietus su atsitiktiniu anoniminiu ID. Tai naudojame, kad išmatuotume, kaip plėtinys naudojamas, ir surastume puslapius, kuriuose automatinis atnaujinimas neveikia. Šie duomenys siunčiami į mūsų serverius, niekada neparduodami ir niekada nedalijami su trečiosiomis šalimis. Galite atsisakyti ir toliau naudotis plėtiniu. Daugiau sužinosite mūsų"
+   },
+   "declineButton": {
+      "message": "Atsisakyti"
+   },
+   "enterTimeText": {
+      "message": "Įveskite laiką sekundėmis"
+   },
+   "extensionDescription": {
+      "message": "Auto Refresh Plus automatiškai atnaujina ir iš naujo įkelia bet kurį puslapį ar skirtuką po nurodyto sekundžių skaičiaus"
+   },
+   "extensionName": {
+      "message": "Auto Refresh Plus"
+   },
+   "extensionTitle": {
+      "message": "Auto Refresh Plus"
+   },
+   "privacyPolicy": {
+      "message": "Privatumo politika"
+   },
+   "secondsText": {
+      "message": "sekundės"
+   },
+   "startButton": {
+      "message": "PALEISTI"
+   },
+   "stopButton": {
+      "message": "SUSTABDYTI"
+   }
+}

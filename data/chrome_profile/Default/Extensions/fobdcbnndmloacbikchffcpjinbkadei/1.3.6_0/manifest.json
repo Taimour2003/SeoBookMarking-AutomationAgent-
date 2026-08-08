@@ -1,0 +1,18 @@
+{
+   "action": {
+      "default_icon": "icon16.png",
+      "default_popup": "popup.html"
+   },
+   "description": "A simple way to create and manage individual notes quickly and efficiently.",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAh/1qA7ZOq1k6ikNArm2US7njvVBNVp6hCkRYkkrhJDx8IMIalQhUaKbTbKd3wodrieoOHsNJIPj6ZIccGvF/Mpz38Q7fXbSdrbj9LyQ9tmz557JJ0kEFq763od9Lt/Mb8WqQ7fVpkImYVr4V5SrZHygpWte4s3sVm57vAHkrHR8eikonBaoIHMO6/SP0Vukdqvs4H1Ji4PVzfMx+NDQMe+hyNeI4/pQ8NqZje5umckqYJEyZ7A7rTYa29q6/UqcfUxU5J9w9oQ/2LiBrQ+HgK0IF1LkcN8JHXKrl3GTELbMVO8WhJbPytybV0eiNYs3rPiriCQNRQg5KDoL7WP0wgQIDAQAB",
+   "manifest_version": 3,
+   "name": "Leaf: Simple Notes",
+   "permissions": [ "storage", "unlimitedStorage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.3.6"
+}

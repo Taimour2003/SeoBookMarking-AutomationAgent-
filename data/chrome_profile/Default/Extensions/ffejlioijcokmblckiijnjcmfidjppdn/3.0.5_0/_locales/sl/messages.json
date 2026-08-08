@@ -1,0 +1,38 @@
+{
+   "acceptButton": {
+      "message": "Sprejmi"
+   },
+   "appTitle": {
+      "message": "Auto Refresh Plus"
+   },
+   "consentText": {
+      "message": "Za izboljšanje Auto Refresh Plus ta razširitev zbira spletne naslove (URL) strani, ki jih obiščete, in stran, s katere ste prišli (URL napotitvene strani), povezane z naključnim anonimnim ID-jem. To uporabljamo za merjenje uporabe razširitve in za iskanje strani, na katerih samodejno osveževanje ne deluje. Ti podatki se pošiljajo na naše strežnike, nikoli niso prodani in nikoli niso deljeni s tretjimi osebami. Lahko zavrnete in razširitev še naprej uporabljate. Več lahko izveste v našem"
+   },
+   "declineButton": {
+      "message": "Zavrni"
+   },
+   "enterTimeText": {
+      "message": "Vnesite čas v sekundah"
+   },
+   "extensionDescription": {
+      "message": "Auto Refresh Plus samodejno osveži in ponovno naloži katero koli stran ali zavihek po določenem številu sekund"
+   },
+   "extensionName": {
+      "message": "Auto Refresh Plus"
+   },
+   "extensionTitle": {
+      "message": "Auto Refresh Plus"
+   },
+   "privacyPolicy": {
+      "message": "Pravilnik o zasebnosti"
+   },
+   "secondsText": {
+      "message": "sekund"
+   },
+   "startButton": {
+      "message": "ZAČNI"
+   },
+   "stopButton": {
+      "message": "USTAVI"
+   }
+}

@@ -1,0 +1,38 @@
+{
+   "acceptButton": {
+      "message": "Acceptar"
+   },
+   "appTitle": {
+      "message": "Auto Refresh Plus"
+   },
+   "consentText": {
+      "message": "Per millorar Auto Refresh Plus, aquesta extensió recopila les adreces web (URL) de les pàgines que visiteu i la pàgina de la qual proveniu (URL de referència), vinculades a un identificador anònim aleatori. Fem servir aquestes dades per mesurar com s'utilitza l'extensió i per detectar pàgines on l'actualització automàtica no funciona. Aquestes dades s'envien als nostres servidors, mai no es venen i mai no es comparteixen amb tercers. Podeu rebutjar-ho i continuar fent servir l'extensió. Podeu obtenir més informació a la nostra"
+   },
+   "declineButton": {
+      "message": "Rebutjar"
+   },
+   "enterTimeText": {
+      "message": "Introduïu el temps en segons"
+   },
+   "extensionDescription": {
+      "message": "Auto Refresh Plus actualitza i recarrega automàticament qualsevol pàgina o pestanya després d'un nombre especificat de segons"
+   },
+   "extensionName": {
+      "message": "Auto Refresh Plus"
+   },
+   "extensionTitle": {
+      "message": "Auto Refresh Plus"
+   },
+   "privacyPolicy": {
+      "message": "Política de Privacitat"
+   },
+   "secondsText": {
+      "message": "segons"
+   },
+   "startButton": {
+      "message": "INICIAR"
+   },
+   "stopButton": {
+      "message": "ATURAR"
+   }
+}

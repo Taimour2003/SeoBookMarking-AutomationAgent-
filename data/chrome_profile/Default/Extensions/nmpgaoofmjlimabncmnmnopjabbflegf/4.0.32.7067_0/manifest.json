@@ -1,0 +1,35 @@
+{
+   "action": {
+      "default_icon": "img/icon-128.png"
+   },
+   "background": {
+      "service_worker": "background.bundle.js",
+      "type": "module"
+   },
+   "content_scripts": [ {
+      "css": [ "content.styles.css" ],
+      "js": [ "lib/jquery.min.js", "contentScript.bundle.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "content_security_policy": {
+      "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; script-src-elem 'self' http: https:;object-src 'self';"
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "host_permissions": [ "*://*.google.com/*", "*://*.googleapis.com/*", "*://*.youtube.com/*", "*://*.amazon.com/*", "*://green.api.neilpatel.com/*", "*://blue.api.neilpatel.com/*", "*://app.neilpatel.com/*", "*://fonts.googleapis.com/*", "*://fonts.gstatic.com/*" ],
+   "icons": {
+      "128": "img/icon-128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtk+cBBZ83y9GmyJrYksEeGax6ybZuBzcBRRqwQq0/ah1uNzMMyIiQsHjAMlHxnTom9WFKApy2nt0mATY8VkgRQM3nt++egPo3yihy72xorTBjskHDRw8F7qCApZF+jIk//nmH+kibWbNcBsgWfkqvNtGFtE8k9gaSrctUwkC/9Zp75bLO9JswwAmU3sX7H0peud/RQTigb+wEX4fzAeHJtKfZbyiUk8yd8xzLYs41niIzYx3nkcKBnTDfx2ZLytQ16ISuA5DSsSBu/IytILAkB0Bef6J2MJk+3HgKvBnZCKJJlbgYqCs5vP5V0LaDYEmDJ4leyGFACncs2O2+ghIIwIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_appName__",
+   "optional_host_permissions": [  ],
+   "optional_permissions": [  ],
+   "permissions": [ "tabs", "storage", "cookies" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.0.32.7067",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "img/*", "images/*", "fonts/*", "css/sidebar.css", "css/tippy.css", "lib/*" ]
+   } ]
+}

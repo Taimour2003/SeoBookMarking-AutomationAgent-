@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+<script src="/aitopia/marketplace/js/extension-config.js"></script>
+
+  <script src="/aitopia/marketplace/js/shared/pre-auth.js"></script>
+  
+
+  
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title> Smart Sidebar (AITOPIA)</title>
+  <meta name="description" content="Development tools and data analysis Browse 4 AI agents in the Dev &amp; Data category.">
+  
+  <link rel="canonical" href="https://aitopia.ai/category/dev">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="AITOPIA - AI App Store">
+  <meta property="og:title" content="Dev &amp; Data AI Agents - AITOPIA">
+  <meta property="og:description" content="Development tools and data analysis Browse 4 AI agents in the Dev &amp; Data category.">
+  <meta property="og:image" content="https://aitopia.ai/agent-images/og-dev.jpg">
+  <meta property="og:url" content="https://aitopia.ai/category/dev">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Dev &amp; Data AI Agents - AITOPIA">
+  <meta name="twitter:description" content="Development tools and data analysis Browse 4 AI agents in the Dev &amp; Data category.">
+  <meta name="twitter:image" content="https://aitopia.ai/agent-images/og-dev.jpg">
+
+  <!-- Favicon & Theme -->
+  <link rel="icon" type="image/x-icon" href="/aitopia/marketplace/favicon.ico">
+  <meta name="theme-color" content="#7C3AED">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <!-- Structured Data -->
+  <script src="/aitopia/marketplace/js/inline/category-dev-inline-2.js" type="application/ld+json"></script>
+
+  <!-- Fonts -->
+  <link href="/aitopia/marketplace/css/vendor/css2.css" rel="stylesheet">
+
+  <!-- Tailwind CSS -->
+  <script src="/aitopia/marketplace/js/vendor/tailwindcss.min.js"></script>
+  <script src="/aitopia/marketplace/store/tailwind-config.js"></script>
+  
+  <!-- Theme System (from store.html) -->
+  <script src="/aitopia/marketplace/js/inline/category-dev-inline-3.js"></script>
+
+  <script src="/aitopia/marketplace/js/inline/category-dev-inline-4.js"></script>
+
+  <!-- Shared Styles -->
+  <link rel="stylesheet" href="/aitopia/marketplace/store/shared.css">
+  
+  <style>
+    /* CSS Variables for light theme */
+    :root {
+      --aifnmjmchg-m-background: 0 0% 100%;
+      --aifnmjmchg-m-foreground: 0 0% 3.9%;
+      --aifnmjmchg-m-card: 0 0% 100%;
+      --aifnmjmchg-m-card-foreground: 0 0% 3.9%;
+      --aifnmjmchg-m-popover: 0 0% 100%;
+      --aifnmjmchg-m-popover-foreground: 0 0% 3.9%;
+      --aifnmjmchg-m-primary: 0 0% 0%;
+      --aifnmjmchg-m-primary-foreground: 210 40% 98%;
+      --aifnmjmchg-m-secondary: 0 0% 100%;
+      --aifnmjmchg-m-secondary-foreground: 222.2 47.4% 11.2%;
+      --aifnmjmchg-m-muted: 210 40% 96.1%;
+      --aifnmjmchg-m-muted-foreground: 215.4 16.3% 46.9%;
+      --aifnmjmchg-m-accent: 210 40% 96.1%;
+      --aifnmjmchg-m-accent-foreground: 222.2 47.4% 11.2%;
+      --aifnmjmchg-m-destructive: 0 84.2% 60.2%;
+      --aifnmjmchg-m-border: 214.3 31.8% 91.4%;
+      --aifnmjmchg-m-input: 214.3 31.8% 91.4%;
+      --aifnmjmchg-m-ring: 260 79% 59%;
+    }
+
+    /* CSS Variables for dark theme */
+    .dark {
+      --aifnmjmchg-m-background: 0 0% 3.9%;
+      --aifnmjmchg-m-foreground: 0 0% 98%;
+      --aifnmjmchg-m-card: 0 0% 7%;
+      --aifnmjmchg-m-card-foreground: 0 0% 98%;
+      --aifnmjmchg-m-popover: 0 0% 7%;
+      --aifnmjmchg-m-popover-foreground: 0 0% 98%;
+      --aifnmjmchg-m-primary: 0 0% 100%;
+      --aifnmjmchg-m-primary-foreground: 0 0% 0%;
+      --aifnmjmchg-m-secondary: 0 0% 0%;
+      --aifnmjmchg-m-secondary-foreground: 210 40% 98%;
+      --aifnmjmchg-m-muted: 217.2 32.6% 17.5%;
+      --aifnmjmchg-m-muted-foreground: 215 20.2% 65.1%;
+      --aifnmjmchg-m-accent: 217.2 32.6% 17.5%;
+      --aifnmjmchg-m-accent-foreground: 210 40% 98%;
+      --aifnmjmchg-m-destructive: 0 62.8% 30.6%;
+      --aifnmjmchg-m-border: 217.2 32.6% 17.5%;
+      --aifnmjmchg-m-input: 217.2 32.6% 17.5%;
+      --aifnmjmchg-m-ring: 260 79% 59%;
+    }
+
+    * {
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: hsl(var(--aifnmjmchg-m-muted-foreground) / 0.3);
+      border-radius: 4px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: hsl(var(--aifnmjmchg-m-muted-foreground) / 0.5);
+    }
+
+    /* Glassmorphism - Match store.html exactly */
+    .glass {
+      background: rgba(255, 255, 255, 0.72);
+      backdrop-filter: saturate(180%) blur(20px);
+      -webkit-backdrop-filter: saturate(180%) blur(20px);
+    }
+
+    .dark .glass {
+      background: rgba(28, 28, 30, 0.72);
+    }
+
+    .scrollbar-hide::-webkit-scrollbar {
+      display: none;
+    }
+  </style>
+
+</head>
+<body class="min-h-screen font-sans antialiased bg-white dark:bg-neutral-950 text-gray-900 dark:text-white transition-colors aifnmjmchg aifnmjmchg-marketplace">
+
+
+  <!-- Navbar Component -->
+  <div id="navbar-container"></div>
+  <script src="/aitopia/marketplace/js/shared/cache.js"></script>
+  <script src="/aitopia/marketplace/js/components/navbar.js"></script>
+
+<main>
+  
+  <nav class="max-w-[1600px] mx-auto px-3 sm:px-4 lg:px-6 pt-4 pb-2" aria-label="Breadcrumb">
+    <script src="/aitopia/marketplace/js/inline/category-dev-inline-5.js" type="application/ld+json"></script>
+    <ol class="flex items-center gap-2 text-sm text-muted-foreground overflow-x-auto pb-2">
+      <li><a href="/aitopia/marketplace/home.html" class="hover:text-primary transition-colors">Home</a></li>
+      
+        <li class="flex items-center gap-2">
+          <svg class="w-4 h-4 flex-shrink-0 text-muted-foreground/50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-width="2" stroke-linecap="round" d="M9 5l7 7-7 7"/>
+          </svg>
+          <span class="text-foreground font-medium truncate">Dev &amp; Data</span>
+        </li>
+      
+    </ol>
+  </nav>
+
+  <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-6">
+    <!-- Header -->
+    <header class="mb-8">
+      <h1 class="text-3xl sm:text-4xl font-bold">Dev &amp; Data</h1>
+      <p class="text-gray-400 mt-2">Development tools and data analysis</p>
+      <p class="text-sm text-gray-500 mt-1">4 agents available</p>
+    </header>
+
+    <!-- Agent Grid -->
+    
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+	    
+		        <a href="/aitopia/marketplace/agent/smart-data-analyzer.html" class="group bg-card border border-border rounded-ios-2xl overflow-hidden hover:bg-secondary transition-colors">
+          <div class="aspect-[4/3] bg-card overflow-hidden">
+            <img src="https://aitopia.ai/agent-images/smart-data-analyzer-1.webp" alt="Smart Data Analyzer" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" data-fallback="https://aitopia.ai/agent-images/smart-data-analyzer-1.webp">
+          </div>
+	          <div class="p-4">
+	            <div class="flex items-start justify-between gap-2 mb-2">
+	              <h2 class="font-semibold truncate">Smart Data Analyzer</h2>
+	            </div>
+            <p class="text-sm text-gray-400 line-clamp-2">Statistical analysis with pattern detection and insights</p>
+            <div class="flex items-center gap-1 mt-3 text-sm">
+              <svg class="w-4 h-4 text-ios-orange" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+              </svg>
+              <span class="font-medium">4.8</span>
+            </div>
+          </div>
+        </a>
+		        <a href="/aitopia/marketplace/agent/data-visualization.html" class="group bg-card border border-border rounded-ios-2xl overflow-hidden hover:bg-secondary transition-colors">
+          <div class="aspect-[4/3] bg-card overflow-hidden">
+            <img src="https://aitopia.ai/agent-images/data-visualization-advisor-1.webp" alt="Data Visualization Advisor" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" data-fallback="https://aitopia.ai/agent-images/data-visualization-advisor-1.webp">
+          </div>
+	          <div class="p-4">
+	            <div class="flex items-start justify-between gap-2 mb-2">
+	              <h2 class="font-semibold truncate">Data Visualization Advisor</h2>
+	            </div>
+            <p class="text-sm text-gray-400 line-clamp-2">Get AI-powered suggestions for the best data visualization approaches</p>
+            <div class="flex items-center gap-1 mt-3 text-sm">
+              <svg class="w-4 h-4 text-ios-orange" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+              </svg>
+              <span class="font-medium">4.8</span>
+            </div>
+          </div>
+        </a>
+		        <a href="/aitopia/marketplace/agent/smart-q.html" class="group bg-card border border-border rounded-ios-2xl overflow-hidden hover:bg-secondary transition-colors">
+          <div class="aspect-[4/3] bg-card overflow-hidden">
+            <img src="https://aitopia.ai/agent-images/smart-q-analytics-1.webp" alt="Smart Q Analytics" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" data-fallback="https://aitopia.ai/agent-images/smart-q-analytics-1.webp">
+          </div>
+	          <div class="p-4">
+	            <div class="flex items-start justify-between gap-2 mb-2">
+	              <h2 class="font-semibold truncate">Smart Q Analytics</h2>
+	            </div>
+            <p class="text-sm text-gray-400 line-clamp-2">Answer questions about data with AI analysis</p>
+            <div class="flex items-center gap-1 mt-3 text-sm">
+              <svg class="w-4 h-4 text-ios-orange" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+              </svg>
+              <span class="font-medium">4.8</span>
+            </div>
+          </div>
+        </a>
+		        <a href="/aitopia/marketplace/agent/askheurist.html" class="group bg-card border border-border rounded-ios-2xl overflow-hidden hover:bg-secondary transition-colors">
+          <div class="aspect-[4/3] bg-card overflow-hidden">
+            <img src="https://aitopia.ai/agent-images/ask-heurist-crypto-1.webp" alt="AskHeurist Crypto" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" data-fallback="https://aitopia.ai/agent-images/ask-heurist-crypto-1.webp">
+          </div>
+	          <div class="p-4">
+	            <div class="flex items-start justify-between gap-2 mb-2">
+	              <h2 class="font-semibold truncate">AskHeurist Crypto</h2>
+	            </div>
+            <p class="text-sm text-gray-400 line-clamp-2">AI-powered cryptocurrency analysis and insights</p>
+            <div class="flex items-center gap-1 mt-3 text-sm">
+              <svg class="w-4 h-4 text-ios-orange" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+              </svg>
+              <span class="font-medium">4.8</span>
+            </div>
+          </div>
+        </a>
+    </div>
+    
+  </div>
+</main>
+
+
+  <footer class="border-t border-white/10 mt-8">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
+        <a href="/aitopia/marketplace/home.html" class="text-primary/90 hover:text-primary/90 transition-colors">
+          &larr; Back to AI App Store
+        </a>
+        <p class="text-sm text-gray-500">&copy; 2026 AITOPIA. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+<style>
+  .line-clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+</style>
+<script src="/aitopia/marketplace/js/shared/global-nav.js"></script>
+<script src="/aitopia/marketplace/js/shared/footer.js"></script>
+
+</body>
+</html>

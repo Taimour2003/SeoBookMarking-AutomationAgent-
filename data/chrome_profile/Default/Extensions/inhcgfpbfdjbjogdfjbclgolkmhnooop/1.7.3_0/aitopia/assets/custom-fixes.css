@@ -1,0 +1,16 @@
+/* Custom CSS Fixes for Extension UI */
+
+/* Hide Google Auth button on subscription page when user is logged in */
+/* The subscription page shows the user is already logged in, so hide the auth button */
+body[id*="setup"] button[type="button"]:has(svg) {
+  /* This targets the "Log in with Google" button that contains the Google icon SVG */
+  display: none !important;
+}
+
+/* Alternative: Hide the entire OR section and auth options on logged-in state */
+/* Uncomment if needed */
+/*
+body[id*="setup"] .aiinhbfoop-relative.aiinhbfoop-w-\\[70\\%\\] {
+  display: none !important;
+}
+*/

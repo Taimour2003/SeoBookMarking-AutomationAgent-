@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+<script src="/aitopia/marketplace/js/extension-config.js"></script>
+  <script src="/aitopia/marketplace/js/shared/pre-auth.js"></script>
+
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Smart Sidebar (AITOPIA)</title>
+  <meta name="description" content="Comprehensive documentation for Agent Marketplace including Shopify integration, triggers, actions, and API reference.">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <link href="/aitopia/marketplace/css/vendor/css2.css" rel="stylesheet">
+  <link href="/aitopia/marketplace/css/vendor/css2.css" rel="stylesheet">
+  <script src="/aitopia/marketplace/js/vendor/tailwindcss.min.js"></script>
+  <script src="/aitopia/marketplace/js/vendor/marked.min.js"></script>
+  <script src="/aitopia/marketplace/js/vendor/prism.min.js"></script>
+  <script src="/aitopia/marketplace/js/vendor/prism-typescript.min.js"></script>
+  <script src="/aitopia/marketplace/js/vendor/prism-javascript.min.js"></script>
+  <script src="/aitopia/marketplace/js/vendor/prism-bash.min.js"></script>
+  <script src="/aitopia/marketplace/js/vendor/prism-json.min.js"></script>
+  <script src="/aitopia/marketplace/js/vendor/prism-sql.min.js"></script>
+  <link href="/aitopia/marketplace/css/vendor/prism-tomorrow.min.css" rel="stylesheet">
+  <script src="/aitopia/marketplace/js/inline/docs-inline-1.js"></script>
+  <script src="/aitopia/marketplace/js/inline/docs-inline-2.js"></script>
+  <style>
+    /* Custom scrollbar - Light mode */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #f5f5f5;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #ccc;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #aaa;
+    }
+    /* Custom scrollbar - Dark mode */
+    .dark ::-webkit-scrollbar-track {
+      background: #1a1a1a;
+    }
+    .dark ::-webkit-scrollbar-thumb {
+      background: #333;
+    }
+    .dark ::-webkit-scrollbar-thumb:hover {
+      background: #444;
+    }
+
+    /* Markdown content styling - Light mode */
+    .markdown-content {
+      color: #374151;
+      line-height: 1.75;
+    }
+    .markdown-content h1 {
+      font-size: 2.25rem;
+      font-weight: 800;
+      margin-bottom: 1.5rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 1px solid #e5e5e5;
+      color: #111827;
+    }
+    .markdown-content h2 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-top: 2.5rem;
+      margin-bottom: 1rem;
+      color: #111827;
+    }
+    .markdown-content h3 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-top: 2rem;
+      margin-bottom: 0.75rem;
+      color: #1f2937;
+    }
+    .markdown-content h4 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+      color: #374151;
+    }
+    /* Markdown content styling - Dark mode */
+    .dark .markdown-content {
+      color: #e5e5e5;
+    }
+    .dark .markdown-content h1 {
+      border-bottom: 1px solid #333;
+      color: #fff;
+    }
+    .dark .markdown-content h2 {
+      color: #fff;
+    }
+    .dark .markdown-content h3 {
+      color: #f5f5f5;
+    }
+    .dark .markdown-content h4 {
+      color: #e5e5e5;
+    }
+    .markdown-content p {
+      margin-bottom: 1rem;
+    }
+    .markdown-content ul, .markdown-content ol {
+      margin-bottom: 1rem;
+      padding-left: 1.5rem;
+    }
+    .markdown-content li {
+      margin-bottom: 0.5rem;
+    }
+    .markdown-content ul li {
+      list-style-type: disc;
+    }
+    .markdown-content ol li {
+      list-style-type: decimal;
+    }
+    .markdown-content a {
+      color: #2563eb;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+    .markdown-content a:hover {
+      color: #1d4ed8;
+    }
+    .dark .markdown-content a {
+      color: #60a5fa;
+    }
+    .dark .markdown-content a:hover {
+      color: #93c5fd;
+    }
+    .markdown-content code:not(pre code) {
+      background: #f3f4f6;
+      padding: 0.2rem 0.4rem;
+      border-radius: 4px;
+      font-size: 0.875em;
+      font-family: 'Fira Code', monospace;
+      color: #db2777;
+    }
+    .dark .markdown-content code:not(pre code) {
+      background: #2a2a2a;
+      color: #f472b6;
+    }
+    .markdown-content pre {
+      background: #f8fafc;
+      border: 1px solid #e5e7eb;
+      border-radius: 8px;
+      padding: 1rem;
+      margin: 1rem 0;
+      overflow-x: auto;
+    }
+    .dark .markdown-content pre {
+      background: #1e1e1e;
+      border: 1px solid #333;
+    }
+    .markdown-content pre code {
+      font-family: 'Fira Code', monospace;
+      font-size: 0.875rem;
+      line-height: 1.5;
+    }
+    .markdown-content table {
+      width: 100%;
+      margin: 1rem 0;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+    }
+    .markdown-content th {
+      background: #f3f4f6;
+      font-weight: 600;
+      text-align: left;
+      padding: 0.75rem 1rem;
+      border: 1px solid #e5e7eb;
+      color: #111827;
+    }
+    .dark .markdown-content th {
+      background: #252525;
+      border: 1px solid #333;
+      color: #fff;
+    }
+    .markdown-content td {
+      padding: 0.75rem 1rem;
+      border: 1px solid #e5e7eb;
+    }
+    .dark .markdown-content td {
+      border: 1px solid #333;
+    }
+    .markdown-content tr:nth-child(even) {
+      background: #f9fafb;
+    }
+    .dark .markdown-content tr:nth-child(even) {
+      background: #1a1a1a;
+    }
+    .markdown-content blockquote {
+      border-left: 4px solid #007AFF;
+      padding-left: 1rem;
+      margin: 1rem 0;
+      color: #6b7280;
+      font-style: italic;
+    }
+    .dark .markdown-content blockquote {
+      color: #a3a3a3;
+    }
+    .markdown-content hr {
+      border: none;
+      border-top: 1px solid #e5e7eb;
+      margin: 2rem 0;
+    }
+    .dark .markdown-content hr {
+      border-top: 1px solid #333;
+    }
+    .markdown-content img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin: 1rem 0;
+    }
+
+    /* Sidebar active state */
+    .sidebar-link.active {
+      background: linear-gradient(90deg, rgba(99, 102, 241, 0.2) 0%, transparent 100%);
+      border-left: 3px solid #6366f1;
+    }
+
+    /* Loading spinner */
+    .spinner {
+      border: 3px solid #e5e7eb;
+      border-top-color: #6366f1;
+      border-radius: 50%;
+      width: 24px;
+      height: 24px;
+      animation: spin 0.8s linear infinite;
+    }
+    .dark .spinner {
+      border: 3px solid #333;
+      border-top-color: #6366f1;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    /* TOC styles */
+    .toc-link {
+      transition: all 0.15s ease;
+    }
+    .toc-link:hover {
+      color: #111827;
+      padding-left: 0.5rem;
+    }
+    .dark .toc-link:hover {
+      color: #fff;
+    }
+    .toc-link.active {
+      color: #6366f1;
+      font-weight: 500;
+    }
+  </style>
+</head>
+<body class="bg-white dark:bg-neutral-950 text-gray-900 dark:text-white min-h-screen aifnmjmchg aifnmjmchg-marketplace">
+  <div class="flex min-h-screen">
+    <!-- Sidebar -->
+    <aside id="sidebar" class="w-72 bg-gray-50 dark:bg-neutral-900 border-r border-gray-200 dark:border-neutral-800 fixed h-full overflow-y-auto z-40 transition-transform duration-300 -translate-x-full lg:translate-x-0">
+      <!-- Logo -->
+      <div class="p-6 border-b border-gray-200 dark:border-neutral-800">
+        <a href="/aitopia/marketplace/store.html" class="flex items-center gap-3 group">
+          <div class="w-10 h-10 bg-gradient-to-br from-indigo-500 to-primary/90 rounded-xl flex items-center justify-center">
+            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+            </svg>
+          </div>
+          <div>
+            <div class="font-bold text-gray-900 dark:text-white group-hover:text-indigo-400 transition-colors">Documentation</div>
+            <div class="text-xs text-gray-500 dark:text-neutral-500">Agent Marketplace</div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Navigation -->
+      <nav id="nav-categories" class="p-4">
+        <div class="flex items-center justify-center py-8">
+          <div class="spinner"></div>
+        </div>
+      </nav>
+
+      <!-- Back to Store -->
+      <div class="absolute bottom-0 left-0 right-0 p-4 border-t border-gray-200 dark:border-neutral-800 bg-gray-50 dark:bg-neutral-900">
+        <a href="/aitopia/marketplace/store.html" class="flex items-center gap-2 text-gray-500 dark:text-neutral-400 hover:text-gray-900 dark:hover:text-white transition-colors">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
+          </svg>
+          <span>Back to Store</span>
+        </a>
+      </div>
+    </aside>
+
+    <!-- Mobile header -->
+    <div class="lg:hidden fixed top-0 left-0 right-0 h-16 bg-gray-50 dark:bg-neutral-900 border-b border-gray-200 dark:border-neutral-800 z-30 flex items-center px-4">
+      <button id="menu-toggle" class="p-2 hover:bg-gray-200 dark:hover:bg-neutral-800 rounded-lg">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+      <span class="ml-4 font-semibold">Documentation</span>
+    </div>
+
+    <!-- Main content -->
+    <main class="flex-1 lg:ml-72">
+      <div class="max-w-4xl mx-auto px-6 py-8 lg:py-12 mt-16 lg:mt-0">
+        <!-- Breadcrumb -->
+        <nav id="breadcrumb" class="mb-6 text-sm text-gray-500 dark:text-neutral-500 hidden">
+          <a href="/aitopia/marketplace/docs.html" class="hover:text-gray-900 dark:hover:text-white transition-colors">Docs</a>
+          <span class="mx-2">/</span>
+          <span id="breadcrumb-current" class="text-gray-700 dark:text-neutral-300"></span>
+        </nav>
+
+        <!-- Content area -->
+        <article id="content" class="markdown-content">
+          <div class="flex items-center justify-center py-20">
+            <div class="spinner"></div>
+          </div>
+        </article>
+
+        <!-- Footer -->
+        <footer class="mt-16 pt-8 border-t border-gray-200 dark:border-neutral-800 text-gray-500 dark:text-neutral-500 text-sm">
+          <div class="flex flex-col sm:flex-row justify-between gap-4">
+            <div>
+              <p>Agent Marketplace Documentation</p>
+              <p class="text-gray-400 dark:text-neutral-600">Last updated: <span id="last-updated">-</span></p>
+            </div>
+            <div class="flex gap-4">
+              <a href="https://github.com" class="hover:text-gray-900 dark:hover:text-white transition-colors">GitHub</a>
+              <a href="/aitopia/marketplace/store.html" class="hover:text-gray-900 dark:hover:text-white transition-colors">Store</a>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </main>
+
+    <!-- Table of Contents (Desktop) -->
+    <aside id="toc-sidebar" class="hidden xl:block w-64 fixed right-0 top-0 h-full overflow-y-auto py-12 px-6 text-sm">
+      <div class="sticky top-12">
+        <h4 class="font-semibold text-gray-500 dark:text-neutral-400 mb-4 uppercase tracking-wider text-xs">On this page</h4>
+        <nav id="toc" class="space-y-2 text-gray-500 dark:text-neutral-500">
+          <!-- TOC will be populated here -->
+        </nav>
+      </div>
+    </aside>
+  </div>
+
+  <!-- Overlay for mobile -->
+  <div id="sidebar-overlay" class="fixed inset-0 bg-black/50 z-30 hidden lg:hidden" data-action="toggleSidebar"></div>
+
+  <script src="/aitopia/marketplace/js/inline/docs-inline-3.js"></script>
+<script src="/aitopia/marketplace/js/shared/footer.js"></script>
+</body>
+</html>

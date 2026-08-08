@@ -1,0 +1,38 @@
+{
+   "acceptButton": {
+      "message": "پذیرش"
+   },
+   "appTitle": {
+      "message": "Auto Refresh Plus"
+   },
+   "consentText": {
+      "message": "برای بهبود Auto Refresh Plus، این افزونه نشانی‌های وب (URL) صفحاتی که بازدید می‌کنید و صفحه‌ای که از آن آمده‌اید (نشانی URL ارجاع‌دهنده) را جمع‌آوری می‌کند که به یک شناسه تصادفی ناشناس پیوند داده شده است. ما از این برای سنجش نحوه استفاده از افزونه و یافتن صفحاتی که به‌روزرسانی خودکار در آن‌ها کار نمی‌کند استفاده می‌کنیم. این داده‌ها به سرورهای ما ارسال می‌شود، هرگز فروخته نمی‌شود و هرگز با اشخاص ثالث به اشتراک گذاشته نمی‌شود. می‌توانید رد کنید و همچنان از افزونه استفاده کنید. می‌توانید اطلاعات بیشتری را در"
+   },
+   "declineButton": {
+      "message": "رد کردن"
+   },
+   "enterTimeText": {
+      "message": "زمان را به ثانیه وارد کنید"
+   },
+   "extensionDescription": {
+      "message": "Auto Refresh Plus به طور خودکار هر صفحه یا تب را پس از تعداد مشخصی ثانیه به‌روزرسانی و بارگذاری مجدد می‌کند"
+   },
+   "extensionName": {
+      "message": "Auto Refresh Plus"
+   },
+   "extensionTitle": {
+      "message": "Auto Refresh Plus"
+   },
+   "privacyPolicy": {
+      "message": "سیاست حریم خصوصی"
+   },
+   "secondsText": {
+      "message": "ثانیه"
+   },
+   "startButton": {
+      "message": "شروع"
+   },
+   "stopButton": {
+      "message": "توقف"
+   }
+}

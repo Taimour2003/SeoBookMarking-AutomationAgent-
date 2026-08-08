@@ -1,6 +1,8 @@
 import asyncio
 from typing import Any
 
+from playwright.async_api import Page, async_playwright
+
 from browser.active_page_manager import ActivePageManager
 from browser.browser_manager import BrowserManager
 from browser.challenge_detector import detect_security_page
@@ -8,11 +10,12 @@ from browser.control_panel import (
     install_control_panel,
     set_ai_fix_enabled,
     update_panel_status,
-    wait_for_panel_action,
+    # wait_for_panel_action,
+    set_panel_state,
+    consume_panel_action,
 )
 from config import settings
 from data_source.local_data_service import LocalDataService
-from playwright.async_api import Page, async_playwright
 from submission.assistant import SubmissionAssistant
 
 AI_FIXABLE_STATUSES = {
@@ -78,6 +81,10 @@ async def update_ai_state(
     )
 
     if not result:
+        await set_panel_state(
+            page,
+            "ready",
+        )
         await update_panel_status(
             page,
             "No submission result is available.",
@@ -94,19 +101,24 @@ async def update_ai_state(
                 "Validation error detected.",
             )
         )
-
+        
+        await set_panel_state(page, "ai")
         await update_panel_status(
             page,
             f"{first_error} AI Fix is available.",
         )
 
+        return
+
     elif ai_mode == "CONSULT":
+        await set_panel_state(page, "ai")
         await update_panel_status(
             page,
             "Submission result is unclear. AI Consultant is available.",
         )
 
     elif result.get("success"):
+        await set_panel_state(page, "ready")
         await update_panel_status(
             page,
             result.get(
@@ -116,6 +128,7 @@ async def update_ai_state(
         )
 
     else:
+        await set_panel_state(page, "ai")
         await update_panel_status(
             page,
             result.get(
@@ -156,10 +169,10 @@ async def handle_ai_action(
 
         return await assistant.ai_fix_and_resubmit(page)
 
-    await update_panel_status(
-        page,
-        "AI Consultant is analysing the current issue...",
-    )
+    # await update_panel_status(
+    #     page,
+    #     "AI Consultant is analysing the current issue...",
+    # )
 
     consultant_method = getattr(
         assistant,
@@ -178,6 +191,30 @@ async def handle_ai_action(
         }
 
     return await consultant_method(page)
+
+
+async def prepare_all_pages(page_manager: ActivePageManager) -> None:
+    for page in page_manager.pages():
+        await safely_install_panel(page)
+        
+        security_status = await detect_security_page(page)
+        if security_status:
+            await set_panel_state(page,"blocked")
+            await set_ai_fix_enabled(page, False)
+            await update_panel_status(
+                page,
+                f"Security challenge detected: {security_status}. ")
+
+
+async def find_clicked_action(
+    page_number:ActivePageManager
+)-> tuple[Page | None, str | None]:
+    for page in page_number.pages():
+        action = await consume_panel_action(page)
+        if action:
+            page_number.mark_interacted(page)
+            return page, action
+    return None, None   
 
 
 async def main() -> None:
@@ -200,17 +237,17 @@ async def main() -> None:
                 initial_page,
             )
 
-            browser_mode = (
-                getattr(
-                    settings,
-                    "browser_mode",
-                    "cdp",
-                )
-                .strip()
-                .lower()
-            )
+            # browser_mode = (
+            #     getattr(
+            #         settings,
+            #         "browser_mode",
+            #         "cdp",
+            #     )
+            #     .strip()
+            #     .lower()
+            # )
 
-            if browser_mode == "playwright":
+            if settings.browser_mode == "playwright":
                 await initial_page.goto(
                     settings.start_url,
                     wait_until="domcontentloaded",
@@ -232,11 +269,8 @@ async def main() -> None:
 
             while True:
                 try:
-                    page = page_manager.get_current_page()
-
-                    if page.is_closed():
-                        await asyncio.sleep(0.5)
-                        continue
+                    await prepare_all_pages(page_manager)
+                    page,action = await find_clicked_action(page_manager)
 
                     security_status = await detect_security_page(page)
 
@@ -256,50 +290,19 @@ async def main() -> None:
                     #     await asyncio.sleep(2)
                     #     continue
 
-                    if paused_status:
-                        print(
-                            "Security challenge cleared. WebAgent resumed:",
-                            page.url,
-                        )
-                        paused_status = None
-                        paused_url = None
-
-                    installed = await safely_install_panel(page)
-
-                    if not installed:
-                        await asyncio.sleep(1)
-                        continue
-
-                    if security_status:
-                        print(
-                            "Security challenge detected:",
-                            security_status,
-                            page.url,
-                        )
-                        await update_panel_status(
-                            page,
-                            f"Security challenge detected: {security_status}. "
-                            "Please resolve it manually.",
-                        )
-                        await set_ai_fix_enabled(
-                            page,
-                            False,
-                        )
-
-                    action = await wait_for_panel_action(page)
-
-                    if action in {
-                        None,
-                        "",
-                        "NO_ACTION",
-                    }:
-                        await asyncio.sleep(0.2)
-                        continue
+                    # if paused_status:
+                    #     print(
+                    #         "Security challenge cleared. WebAgent resumed:",
+                    #         page.url,
+                    #     )
+                    #     paused_status = None
+                    #     paused_url = None
 
                     if action == "FILL":
-                        security_status = await detect_security_page(page)
 
-                        if security_status == "CLOUDFLARE_REQUIRED":
+                        if security_status in {"CLOUDFLARE_REQUIRED","MANUAL_LOGIN_REQUIRED"}:
+                            await set_panel_state(
+                                page,"blocked")
                             await update_panel_status(
                                 page,
                                 "Cloudflare verification must be completed manually.",
@@ -345,6 +348,12 @@ async def main() -> None:
                                 [],
                             )
                         )
+                        
+                        await set_ai_fix_enabled(page,False)
+                        await set_panel_state(
+                            page,
+                            "error" if failed_count else "ready"
+                        )
 
                         await update_panel_status(
                             page,
@@ -356,26 +365,27 @@ async def main() -> None:
                             ),
                         )
 
-                        await set_ai_fix_enabled(
-                            page,
-                            False,
-                        )
-
-                        print(
-                            "Fill result:",
-                            result,
-                        )
 
                     elif action == "SUBMIT":
-                        result = await assistant.submit_current_page(page)
+                        # result = await assistant.submit_current_page(page)
 
-                        security_status = await detect_security_page(page)
+                        # security_status = await detect_security_page(page)
 
                         if security_status:
+                            await set_panel_state(
+                                page,
+                                "blocked",
+                            )
                             await update_panel_status(
                                 page,
                                 "Security verification appeared. Complete it manually.",
                             )
+                            print(
+                                "Security challenge detected:",
+                                security_status,
+                                page.url,
+                            )
+                            continue
 
                         await update_panel_status(
                             page,
@@ -384,38 +394,74 @@ async def main() -> None:
 
                         result = await assistant.submit_current_page(page)
 
+                        # print(
+                        #     "Submit result:",
+                        #     result,
+                        # )
+                        
+                        post_submit_security= await detect_security_page(page)
+                        
+                        if post_submit_security:
+                            await safely_install_panel(page)
+                            await set_panel_state(page, "blocked")
+                            await set_ai_fix_enabled(page, False)
+                            await update_panel_status(
+                                page,
+                                "Security verification appeared. Complete it manually.",
+                            )
+                            print(
+                                "Security verification appeared after submission:",
+                                post_submit_security,
+                            )
+                            continue
+                            
+
+                        # try:
+                        #     await page.wait_for_load_state(
+                        #         "domcontentloaded",
+                        #         timeout=10_000,
+                        #     )
+                        # except Exception:
+                        #     pass
+
+                        # page = page_manager.get_current_page()
                         print(
                             "Submit result:",
                             result,
                         )
-
-                        try:
-                            await page.wait_for_load_state(
-                                "domcontentloaded",
-                                timeout=10_000,
-                            )
-                        except Exception:
-                            pass
-
-                        page = page_manager.get_current_page()
-
                         await safely_install_panel(page)
                         await update_ai_state(
                             page,
                             result,
                         )
 
-                        result = await assistant.submit_current_page(page)
+                        # result = await assistant.submit_current_page(page)
 
-                        security_status = await detect_security_page(page)
+                        # security_status = await detect_security_page(page)
 
+                        # if security_status:
+                        #     await update_panel_status(
+                        #         page,
+                        #         "Security verification appeared. Complete it manually.",
+                        #     )
+
+                    elif action == "AI_FIX":
                         if security_status:
+                            await set_panel_state(
+                                page,
+                                "blocked",
+                            )
                             await update_panel_status(
                                 page,
                                 "Security verification appeared. Complete it manually.",
                             )
-
-                    elif action == "AI_FIX":
+                            print(
+                                "Security challenge detected:",
+                                security_status,
+                                page.url,
+                            )
+                            continue
+                        
                         result = await handle_ai_action(
                             page,
                             assistant,
@@ -426,16 +472,6 @@ async def main() -> None:
                             result,
                         )
 
-                        try:
-                            await page.wait_for_load_state(
-                                "domcontentloaded",
-                                timeout=10_000,
-                            )
-                        except Exception:
-                            pass
-
-                        page = page_manager.get_current_page()
-
                         await safely_install_panel(page)
                         await update_ai_state(
                             page,
@@ -444,7 +480,8 @@ async def main() -> None:
 
                     elif action == "REFRESH":
                         await safely_install_panel(page)
-
+                        await set_panel_state(
+                            page,"ready")
                         await update_panel_status(
                             page,
                             "Agent refreshed.",
@@ -469,3 +506,36 @@ async def main() -> None:
 
 if __name__ == "__main__":
     asyncio.run(main())
+
+
+                    # installed = await safely_install_panel(page)
+
+                    # if not installed:
+                    #     await asyncio.sleep(1)
+                    #     continue
+
+                    # if security_status:
+                    #     print(
+                    #         "Security challenge detected:",
+                    #         security_status,
+                    #         page.url,
+                    #     )
+                    #     await update_panel_status(
+                    #         page,
+                    #         f"Security challenge detected: {security_status}. "
+                    #         "Please resolve it manually.",
+                    #     )
+                    #     await set_ai_fix_enabled(
+                    #         page,
+                    #         False,
+                    #     )
+
+                    # action = await wait_for_panel_action(page)
+
+                    # if action in {
+                    #     None,
+                    #     "",
+                    #     "NO_ACTION",
+                    # }:
+                    #     await asyncio.sleep(0.2)
+                    #     continue

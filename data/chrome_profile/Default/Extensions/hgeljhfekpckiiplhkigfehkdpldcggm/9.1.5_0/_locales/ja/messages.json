@@ -1,0 +1,2186 @@
+{
+   "action_on_detection": {
+      "message": "検出時のアクション"
+   },
+   "action_report_bug_feedback": {
+      "message": "バグ報告 / フィードバック"
+   },
+   "action_stop_refresh": {
+      "message": "更新を停止"
+   },
+   "active_tabs_alerts_help": {
+      "message": "モニターアラートが発生したタブ。個別に閉じるか、すべてクリアできます。"
+   },
+   "active_tabs_alerts_title": {
+      "message": "アラート"
+   },
+   "active_tabs_clear_all": {
+      "message": "すべてクリア"
+   },
+   "active_tabs_paused": {
+      "message": "一時停止"
+   },
+   "active_tabs_refreshing_help": {
+      "message": "自動更新中のタブ。ホバーで一時停止、再開、停止。"
+   },
+   "active_tabs_refreshing_title": {
+      "message": "更新中"
+   },
+   "active_tabs_stop_all": {
+      "message": "すべて停止"
+   },
+   "active_tabs_time_day_ago": {
+      "message": "%1日前"
+   },
+   "active_tabs_time_days_ago": {
+      "message": "%1日前"
+   },
+   "active_tabs_time_hour_ago": {
+      "message": "%1時間前"
+   },
+   "active_tabs_time_hours_ago": {
+      "message": "%1時間前"
+   },
+   "active_tabs_time_just_now": {
+      "message": "たった今"
+   },
+   "active_tabs_time_min_ago": {
+      "message": "%1分前"
+   },
+   "active_tabs_time_sec_ago": {
+      "message": "%1秒前"
+   },
+   "add": {
+      "message": "追加"
+   },
+   "add_email": {
+      "message": "メール追加"
+   },
+   "add_email_tooltip": {
+      "message": "アラート受信用のメールアドレスを追加"
+   },
+   "add_keywords": {
+      "message": "デフォルトターゲットキーワードを追加"
+   },
+   "add_new": {
+      "message": "新規追加"
+   },
+   "added": {
+      "message": "追加済み"
+   },
+   "alert_settings": {
+      "message": "アラート設定"
+   },
+   "alert_when_any_change_detected": {
+      "message": "Auto Refresh Plus は、このウェブページで変更が検出されたときにアラートを表示します"
+   },
+   "alert_when_keyword_appears": {
+      "message": "キーワードが表示されたら通知を受け取ります。"
+   },
+   "alert_when_keyword_disappears": {
+      "message": "キーワードが消失したら通知を受け取ります。"
+   },
+   "all_days": {
+      "message": "毎日"
+   },
+   "any": {
+      "message": "任意"
+   },
+   "app_description": {
+      "description": "The description of extension",
+      "message": "強力なページ監視機能を備えたページの自動更新。"
+   },
+   "app_name": {
+      "description": "The extension name",
+      "message": "Auto Refresh Plus | Page Monitor"
+   },
+   "appearance": {
+      "message": "外観"
+   },
+   "apply": {
+      "message": "適用"
+   },
+   "are_you_sure": {
+      "message": "削除してもよろしいですか？"
+   },
+   "ast": {
+      "message": "カウントダウンタイマー"
+   },
+   "auto_click_element_aria": {
+      "message": "自動クリック要素セレクター"
+   },
+   "auto_click_element_label": {
+      "message": "自動クリック要素"
+   },
+   "auto_click_help": {
+      "message": "監視対象のキーワードにリンクが含まれている場合、自動的にリンクをクリックします。"
+   },
+   "auto_click_targets_desc": {
+      "message": "各更新後またはキーワード一致時に要素をクリック"
+   },
+   "auto_click_targets_label": {
+      "message": "自動クリック対象"
+   },
+   "auto_clicker": {
+      "message": "自動クリッカー"
+   },
+   "auto_clicker_msg1": {
+      "message": "監視キーワードを自動クリック"
+   },
+   "auto_disable_on_first": {
+      "message": "初回実行後に自動無効化"
+   },
+   "auto_disable_on_first_desc": {
+      "message": "このスケジュールを1回実行後に無効化"
+   },
+   "auto_stop_schedule": {
+      "message": "自動停止"
+   },
+   "auto_stop_schedule_desc": {
+      "message": "例：10〜11時の間に更新"
+   },
+   "auto_tasks_add_another": {
+      "message": "クリックを追加"
+   },
+   "auto_tasks_add_element": {
+      "message": "要素を追加"
+   },
+   "auto_tasks_empty": {
+      "message": "まだ要素が追加されていません"
+   },
+   "auto_tasks_help": {
+      "message": "ページ上の選択した要素を自動的にクリックします。"
+   },
+   "auto_tasks_label": {
+      "message": "追加要素をクリック"
+   },
+   "auto_tasks_new_tab_short": {
+      "message": "新しいタブ"
+   },
+   "auto_tasks_open_in_new_tab": {
+      "message": "リンクの場合は新しいタブで開く"
+   },
+   "auto_tasks_open_new_tab_aria": {
+      "message": "クリック %1 を新しいタブで開く"
+   },
+   "auto_tasks_options": {
+      "message": "オプション"
+   },
+   "auto_tasks_pick": {
+      "message": "選択"
+   },
+   "auto_tasks_remove": {
+      "message": "削除"
+   },
+   "auto_tasks_remove_target_aria": {
+      "message": "クリックターゲット %1 を削除"
+   },
+   "auto_tasks_selector_aria": {
+      "message": "クリックターゲット %1 の CSS セレクター"
+   },
+   "auto_tasks_set_selector": {
+      "message": "セレクターを設定…"
+   },
+   "auto_tasks_toggle_target_aria": {
+      "message": "クリックターゲット %1 を切り替え"
+   },
+   "auto_tasks_trigger": {
+      "message": "トリガー"
+   },
+   "auto_tasks_trigger_each_refresh": {
+      "message": "更新のたび"
+   },
+   "auto_tasks_trigger_on_detection": {
+      "message": "アラート発生時"
+   },
+   "auto_tasks_trigger_on_detection_short": {
+      "message": "検出時"
+   },
+   "auto_tasks_trigger_refresh_short": {
+      "message": "更新"
+   },
+   "bad": {
+      "message": "悪い"
+   },
+   "behavior_on_interaction": {
+      "message": "操作時の動作"
+   },
+   "bulk_keywords_results": {
+      "message": "一括キーワード結果"
+   },
+   "calendar_weekday_fri": {
+      "message": "金"
+   },
+   "calendar_weekday_mon": {
+      "message": "月"
+   },
+   "calendar_weekday_sat": {
+      "message": "土"
+   },
+   "calendar_weekday_sun": {
+      "message": "日"
+   },
+   "calendar_weekday_thu": {
+      "message": "木"
+   },
+   "calendar_weekday_tue": {
+      "message": "火"
+   },
+   "calendar_weekday_wed": {
+      "message": "水"
+   },
+   "cancel": {
+      "message": "キャンセル"
+   },
+   "captcha_detection": {
+      "message": "CAPTCHA 検出"
+   },
+   "caution_badge": {
+      "message": "注意"
+   },
+   "choose_interval": {
+      "message": "時間間隔を選択"
+   },
+   "clear": {
+      "message": "クリア"
+   },
+   "clear_all": {
+      "message": "すべてクリア"
+   },
+   "clear_all_keywords": {
+      "message": "すべてのキーワードをクリア"
+   },
+   "clear_all_keywords_desc": {
+      "message": "すべてのキーワードをクリアしてもよろしいですか？"
+   },
+   "click_automation_title": {
+      "message": "クリック自動化"
+   },
+   "close": {
+      "message": "閉じる"
+   },
+   "continue": {
+      "message": "続行"
+   },
+   "continue_refreshing_after_alert": {
+      "message": "アラート後も更新を続行"
+   },
+   "continue_refreshing_help": {
+      "message": "キーワード検出時にアラートをトリガーしますが、通常通り更新を続けます。"
+   },
+   "continue_refreshing_switch_desc": {
+      "message": "アラート後も更新を続行"
+   },
+   "copy_expression": {
+      "message": "式をコピー"
+   },
+   "copy_to_clipboard": {
+      "message": "クリップボードにコピー"
+   },
+   "countdown_decrease_hours": {
+      "message": "時間を減らす"
+   },
+   "countdown_decrease_min": {
+      "message": "分を減らす"
+   },
+   "countdown_decrease_sec": {
+      "message": "秒を減らす"
+   },
+   "countdown_duration_label": {
+      "message": "カウントダウン時間"
+   },
+   "countdown_fires_after": {
+      "message": "%1後に発火"
+   },
+   "countdown_hms_header": {
+      "message": "時 : 分 : 秒"
+   },
+   "countdown_hours_value": {
+      "message": "時間の値"
+   },
+   "countdown_increase_hours": {
+      "message": "時間を増やす"
+   },
+   "countdown_increase_min": {
+      "message": "分を増やす"
+   },
+   "countdown_increase_sec": {
+      "message": "秒を増やす"
+   },
+   "countdown_min_value": {
+      "message": "分の値"
+   },
+   "countdown_sec_value": {
+      "message": "秒の値"
+   },
+   "countdown_target_date_time": {
+      "message": "目標の日時"
+   },
+   "countdown_timer_modes_help": {
+      "message": "タイマーの動作を選択：時間は時/分/秒からカウントダウン；日時は指定した瞬間に1回だけ発火します。"
+   },
+   "countdown_triggers_once": {
+      "message": "選択した時刻に一度だけ実行されます"
+   },
+   "countdown_unit_hours": {
+      "message": "時間"
+   },
+   "countdown_unit_min": {
+      "message": "分"
+   },
+   "countdown_unit_sec": {
+      "message": "秒"
+   },
+   "css_selector": {
+      "message": "CSS セレクター"
+   },
+   "css_selector_aria": {
+      "message": "CSSセレクター"
+   },
+   "css_selector_placeholder": {
+      "message": "例: button または a[href=\"/login\"]"
+   },
+   "custom": {
+      "message": "カスタム"
+   },
+   "custom_expression": {
+      "message": "カスタム式"
+   },
+   "custom_expression_desc": {
+      "message": "2 つの ## シンボルで初期化され、OR 演算子と AND 演算子のブール文です。括弧で囲む必要があります（合計 4 つの括弧）。"
+   },
+   "custom_expression_example_1_desc": {
+      "message": "「in stock」または「available」かつ「add to cart」または「buy now」を検索"
+   },
+   "custom_expression_example_2_desc": {
+      "message": "「sale」または「discount」かつ「50%」または「30%」を検索"
+   },
+   "custom_expression_example_3_desc": {
+      "message": "括弧を使用した OR（|）および AND 演算子のブール式"
+   },
+   "custom_interval": {
+      "message": "カスタム間隔"
+   },
+   "custom_interval_desc": {
+      "message": "正確な時間、分、秒を設定"
+   },
+   "custom_monitor": {
+      "message": "カスタム監視"
+   },
+   "custom_time_interval": {
+      "message": "カスタム時間間隔"
+   },
+   "date_picker_next_month": {
+      "message": "次の月"
+   },
+   "date_picker_previous_month": {
+      "message": "前の月"
+   },
+   "date_time_desc": {
+      "message": "特定の日付と時刻でトリガーするカウントダウンを設定します。"
+   },
+   "date_time_mode": {
+      "message": "日時モード"
+   },
+   "date_time_target": {
+      "message": "ターゲット日時"
+   },
+   "day_abbr_fri": {
+      "message": "金"
+   },
+   "day_abbr_mon": {
+      "message": "月"
+   },
+   "day_abbr_sat": {
+      "message": "土"
+   },
+   "day_abbr_sun": {
+      "message": "日"
+   },
+   "day_abbr_thu": {
+      "message": "木"
+   },
+   "day_abbr_tue": {
+      "message": "火"
+   },
+   "day_abbr_wed": {
+      "message": "水"
+   },
+   "decrease_aria": {
+      "message": "減らす"
+   },
+   "default_help_description": {
+      "message": "一般設定で '%1' を設定して、すべてのウェブサイトに適用することもできます。"
+   },
+   "default_interval": {
+      "message": "デフォルト時間間隔"
+   },
+   "delay_before_scanning": {
+      "message": "スキャン前の遅延"
+   },
+   "detect_any_change": {
+      "message": "Auto Refresh Plus がこのウェブサイトの変更を検出しました。"
+   },
+   "detect_any_change_title": {
+      "message": "ページ監視"
+   },
+   "detect_captcha_on_page": {
+      "message": "ページ上の CAPTCHA を検出"
+   },
+   "detect_error_on_page": {
+      "message": "エラーページを検出（例：404）"
+   },
+   "detection_behavior": {
+      "message": "検出動作"
+   },
+   "developer_mode_msg": {
+      "message": "セキュリティと安定性の理由から、開発者モードは許可されていません。\u003Cbr>最新で最も安全なバージョンを確認するために、公式ストアから拡張機能をダウンロードしてインストールしてください。"
+   },
+   "dismiss": {
+      "message": "閉じる"
+   },
+   "dismiss_alert": {
+      "message": "アラートを閉じる"
+   },
+   "donation_msg2": {
+      "message": "既に実施済みです。"
+   },
+   "download_in_store": {
+      "message": "ウェブストアからインストール"
+   },
+   "duplicates": {
+      "message": "重複"
+   },
+   "duration_desc": {
+      "message": "時間、分、秒を使用してカウントダウンを設定します。"
+   },
+   "duration_help": {
+      "message": "このアクションを使用して、時間、分、秒で指定された期間に基づくカウントダウンを設定します"
+   },
+   "duration_mode": {
+      "message": "期間モード"
+   },
+   "email_alert_help": {
+      "message": "メールアラートは、特定の変更またはイベントが発生したときに通知を送信します。メールアドレスを追加して、これらの通知の受信を開始します。"
+   },
+   "email_alerts_switch_desc": {
+      "message": "モニターが発動したらメール通知"
+   },
+   "email_daily_limit": {
+      "message": "%1 / %2 日次上限"
+   },
+   "email_disconnect": {
+      "message": "切断"
+   },
+   "email_limit_reached": {
+      "message": "メール制限に達しました"
+   },
+   "email_limit_toast_description": {
+      "message": "毎日のメール制限に達しました。メールアラートの送信を続けるにはアップグレードしてください。"
+   },
+   "email_remaining_count": {
+      "message": "残り %1 件"
+   },
+   "email_sent_today": {
+      "message": "本日 %1 件送信"
+   },
+   "email_usage_count": {
+      "message": "本日送信されたメール数: %1 / %2"
+   },
+   "emails_remaining": {
+      "message": "メール残数"
+   },
+   "enable_captcha_detection_help": {
+      "message": "CAPTCHA チャレンジが表示されたときに検出するために有効にします。"
+   },
+   "enable_error_detection_help": {
+      "message": "失敗したページまたは壊れたページを検出するために有効にします。"
+   },
+   "enter_custom_interval": {
+      "message": "カスタム間隔を秒単位で入力してください。"
+   },
+   "enter_time_duration": {
+      "message": "時間の長さを入力"
+   },
+   "error_page_detection": {
+      "message": "エラーページ検出"
+   },
+   "error_save_preferences": {
+      "message": "設定の保存に失敗しました。もう一度お試しください。"
+   },
+   "error_schedule_one_day": {
+      "message": "少なくとも1つの曜日を選択する必要があります。"
+   },
+   "error_stop_time": {
+      "message": "停止時刻は開始時刻より後である必要があります。"
+   },
+   "example": {
+      "message": "例"
+   },
+   "expression_templates": {
+      "message": "式テンプレート"
+   },
+   "ext_action_failed": {
+      "message": "アクションに失敗しました"
+   },
+   "ext_applying": {
+      "message": "適用中..."
+   },
+   "ext_approve_action": {
+      "message": "承認"
+   },
+   "ext_approve_apply": {
+      "message": "承認して適用"
+   },
+   "ext_auto_generated": {
+      "message": "（自動生成）"
+   },
+   "ext_blacklist": {
+      "message": "ブラックリスト"
+   },
+   "ext_changes_merged": {
+      "message": "ローカルオプションにマージされる変更。"
+   },
+   "ext_code": {
+      "message": "コード"
+   },
+   "ext_completed": {
+      "message": "完了"
+   },
+   "ext_configuration_review": {
+      "message": "設定の確認"
+   },
+   "ext_created": {
+      "message": "作成日時"
+   },
+   "ext_current": {
+      "message": "現在"
+   },
+   "ext_custom_script": {
+      "message": "カスタムスクリプト"
+   },
+   "ext_custom_script_add_new": {
+      "message": "カスタムスクリプト（新規追加）"
+   },
+   "ext_custom_script_add_only": {
+      "message": "この操作は新しいスクリプトを追加するのみで、既存のスクリプトを静かに上書きすることはありません。"
+   },
+   "ext_domain_config": {
+      "message": "ドメイン設定"
+   },
+   "ext_domain_configuration": {
+      "message": "ドメイン設定"
+   },
+   "ext_empty": {
+      "message": "（空）"
+   },
+   "ext_enabled": {
+      "message": "有効"
+   },
+   "ext_error_action": {
+      "message": "リクエストの%1に失敗しました。"
+   },
+   "ext_error_storage": {
+      "message": "拡張機能のストレージから保留中のレビューを読み取れませんでした。"
+   },
+   "ext_error_sync": {
+      "message": "ストレージの同期エラーのため、リクエストの%1に失敗しました。"
+   },
+   "ext_execution_timing": {
+      "message": "実行タイミング"
+   },
+   "ext_expires": {
+      "message": "有効期限"
+   },
+   "ext_extension_wide_settings": {
+      "message": "拡張機能全体の設定"
+   },
+   "ext_field": {
+      "message": "フィールド"
+   },
+   "ext_global_options": {
+      "message": "グローバルオプション"
+   },
+   "ext_global_options_changes": {
+      "message": "グローバルオプションの変更"
+   },
+   "ext_id": {
+      "message": "ID"
+   },
+   "ext_injection_type": {
+      "message": "挿入タイプ"
+   },
+   "ext_name": {
+      "message": "名前"
+   },
+   "ext_new": {
+      "message": "新規"
+   },
+   "ext_new_script_injection": {
+      "message": "新しいスクリプトの挿入"
+   },
+   "ext_no_changes_detected": {
+      "message": "有効な変更は検出されませんでした。"
+   },
+   "ext_no_pending_description": {
+      "message": "確認する保留中の変更はありません。外部ソースが設定の更新をリクエストすると、このページが表示されます。"
+   },
+   "ext_no_pending_request": {
+      "message": "保留中のリクエストはありません"
+   },
+   "ext_proposed_changes": {
+      "message": "提案された変更"
+   },
+   "ext_refresh": {
+      "message": "更新"
+   },
+   "ext_reject": {
+      "message": "拒否"
+   },
+   "ext_reject_action": {
+      "message": "拒否"
+   },
+   "ext_rejecting": {
+      "message": "拒否中..."
+   },
+   "ext_request": {
+      "message": "リクエスト"
+   },
+   "ext_review_description": {
+      "message": "提案された変更を確認し、意図に一致する場合のみ承認してください。確認するまで何も適用されません。"
+   },
+   "ext_review_pending_changes": {
+      "message": "保留中の変更を確認"
+   },
+   "ext_site_specific_rules": {
+      "message": "サイト固有のルール"
+   },
+   "ext_source": {
+      "message": "ソース"
+   },
+   "ext_target": {
+      "message": "ターゲット"
+   },
+   "ext_type": {
+      "message": "タイプ"
+   },
+   "ext_unknown": {
+      "message": "不明"
+   },
+   "ext_url_pattern": {
+      "message": "URLパターン"
+   },
+   "ext_whitelist": {
+      "message": "ホワイトリスト"
+   },
+   "extension_settings": {
+      "message": "拡張機能設定"
+   },
+   "extension_update_dismiss_aria": {
+      "message": "更新通知を閉じる"
+   },
+   "extension_update_notification_aria": {
+      "message": "拡張機能の更新通知"
+   },
+   "extension_updated_to_version": {
+      "message": "拡張機能をv%1に更新しました"
+   },
+   "feature_is_premium": {
+      "message": "%1 はプレミアム機能です。アップグレードして、すべてのプレミアムツールにアクセスし、エクスペリエンスを向上させてください。"
+   },
+   "find_mtr_msg": {
+      "message": "監視テキストを次から検索"
+   },
+   "follow_all_redirects": {
+      "message": "すべてのリダイレクトに従う"
+   },
+   "follow_all_redirects_desc": {
+      "message": "ページが別の URL にリダイレクトされても更新を続けます。"
+   },
+   "follow_canonical_url": {
+      "message": "正規 URL に従う"
+   },
+   "follow_canonical_url_desc": {
+      "message": "ページの正規（元の）URL を使用します。"
+   },
+   "found": {
+      "message": "発見"
+   },
+   "frozen_tab_noti_message": {
+      "message": "ブラウザがメモリ節約のため、このタブをバックグラウンドで凍結しました。タブに戻ると自動更新が再開されます。"
+   },
+   "frozen_tab_noti_title": {
+      "message": "自動更新を一時停止"
+   },
+   "full_documentation": {
+      "message": "完全ドキュメント"
+   },
+   "full_page": {
+      "message": "ページ全体の更新"
+   },
+   "full_page_type_desc": {
+      "message": "変更を確認するためにページ全体を再読み込み"
+   },
+   "full_page_type_help": {
+      "message": "通常の更新により、すべてのコンテンツとリソースを含む、ページ全体の変更を確認できます。"
+   },
+   "go_premium_full_access": {
+      "message": "プレミアムにアップグレード - フルアクセス"
+   },
+   "go_to_top": {
+      "description": "Accessible label for scroll-to-top button",
+      "message": "先頭へ"
+   },
+   "go_top": {
+      "message": "トップ"
+   },
+   "good": {
+      "message": "良い"
+   },
+   "grace_period_banner": {
+      "message": "猶予期間は7月1日に終了します。プレミアム機能は無効になります"
+   },
+   "grace_period_consent_body": {
+      "message": "プレミアム機能へのアクセスを失おうとしています。無料プランで続行してもよろしいですか？"
+   },
+   "grace_period_consent_title": {
+      "message": "プレミアムなしで続けますか？"
+   },
+   "grace_period_dismiss_aria": {
+      "message": "猶予期間の通知を閉じる"
+   },
+   "grace_period_expired_data_safe": {
+      "message": "設定とデータは安全で、保存されたままです。"
+   },
+   "grace_period_expired_description": {
+      "message": "プレミアム機能はアカウントで無効になりました。"
+   },
+   "grace_period_expired_disable_button": {
+      "message": "プレミアム機能を無効にする"
+   },
+   "grace_period_expired_title": {
+      "message": "猶予期間が終了しました"
+   },
+   "grace_period_expired_upgrade_button": {
+      "message": "プレミアムにアップグレード"
+   },
+   "grace_period_expired_upgrade_hint": {
+      "message": "いつでもアップグレードして、すべてのプレミアム機能を復元できます。"
+   },
+   "grace_period_ok_with_free": {
+      "message": "無料で続行"
+   },
+   "grace_period_upgrade_button": {
+      "message": "プレミアムを維持"
+   },
+   "great": {
+      "message": "最高！"
+   },
+   "handle_redirects": {
+      "message": "リダイレクトの処理"
+   },
+   "hard_refresh": {
+      "message": "ハード更新"
+   },
+   "hard_refresh_desc": {
+      "message": "毎回の再読み込みでキャッシュを回避"
+   },
+   "hard_refresh_help": {
+      "message": "キャッシュされたデータに依存せずにページを再読み込みします。"
+   },
+   "highlight_element": {
+      "message": "ページ上の要素をハイライト"
+   },
+   "highlight_keyword": {
+      "message": "ページ上のキーワードをハイライト"
+   },
+   "highlight_keyword_desc": {
+      "message": "一致したキーワードを強調表示"
+   },
+   "highlight_keyword_help": {
+      "message": "キーワードが検出されると、ページ上で視覚的にハイライトされます。"
+   },
+   "hotkeys_label": {
+      "message": "ホットキー"
+   },
+   "hour": {
+      "message": "時"
+   },
+   "hours": {
+      "message": "時間"
+   },
+   "increase_aria": {
+      "message": "増やす"
+   },
+   "individual_plan": {
+      "message": "個別プラン"
+   },
+   "individual_plan_starts_at": {
+      "message": "個別プランは $2.99 から"
+   },
+   "interaction_help": {
+      "message": "ユーザーがページと対話したときに自動的に更新を停止します。"
+   },
+   "interactions_switch_desc": {
+      "message": "ページ操作時の動作"
+   },
+   "interactions_title_opt": {
+      "message": "ユーザーインタラクション時の更新動作"
+   },
+   "interval": {
+      "message": "間隔"
+   },
+   "interval_card_custom_duration": {
+      "message": "カスタム時間"
+   },
+   "interval_card_interval": {
+      "message": "間隔"
+   },
+   "interval_card_random_range": {
+      "message": "ランダム範囲"
+   },
+   "interval_custom_summary": {
+      "message": "%1時間%2分%3秒ごと"
+   },
+   "interval_decrease_by": {
+      "message": "%1減らす"
+   },
+   "interval_edit_custom_aria": {
+      "message": "カスタム間隔を編集"
+   },
+   "interval_in_seconds_aria": {
+      "message": "秒単位の間隔"
+   },
+   "interval_increase_by": {
+      "message": "%1増やす"
+   },
+   "interval_max_sec": {
+      "message": "最大 (秒)"
+   },
+   "interval_max_sec_aria": {
+      "message": "最大秒数"
+   },
+   "interval_min_sec": {
+      "message": "最小 (秒)"
+   },
+   "interval_min_sec_aria": {
+      "message": "最小秒数"
+   },
+   "interval_modes_help": {
+      "message": "固定：N秒ごとに更新。ランダム：範囲内で間隔を変動。カスタム：時/分/秒で正確な時間を設定。"
+   },
+   "interval_preset_minutes": {
+      "message": "%1分"
+   },
+   "interval_preset_seconds": {
+      "message": "%1秒"
+   },
+   "interval_random_summary": {
+      "message": "%1–%2秒ごとに更新"
+   },
+   "interval_range_to": {
+      "message": "〜"
+   },
+   "interval_tab_custom": {
+      "message": "カスタム"
+   },
+   "interval_tab_fixed": {
+      "message": "固定"
+   },
+   "interval_tab_random": {
+      "message": "ランダム"
+   },
+   "interval_unit_hrs": {
+      "message": "時間"
+   },
+   "interval_unit_min": {
+      "message": "分"
+   },
+   "interval_unit_sec": {
+      "message": "秒"
+   },
+   "interval_unit_seconds_header": {
+      "message": "秒"
+   },
+   "keyword_input_placeholder": {
+      "message": "キーワード、正規表現、XPath、または CSS セレクターを入力してください（複数の場合はコンマで区切ってください）..."
+   },
+   "keywords_to_monitor": {
+      "message": "監視するキーワード"
+   },
+   "kill_notification": {
+      "message": "通知アラームを終了"
+   },
+   "kill_successfully": {
+      "message": "正常に終了しました"
+   },
+   "lang_code": {
+      "message": "ja"
+   },
+   "language": {
+      "message": "言語"
+   },
+   "lost": {
+      "message": "消失"
+   },
+   "loved": {
+      "message": "大好き！"
+   },
+   "match_html_source_desc": {
+      "message": "生のソースをスキャン — 遅いため注意して使用"
+   },
+   "match_html_source_label": {
+      "message": "HTMLソースを照合"
+   },
+   "match_visible_text_desc": {
+      "message": "画面上のレンダリング済みテキストをスキャン"
+   },
+   "match_visible_text_label": {
+      "message": "表示テキストを照合"
+   },
+   "maximum": {
+      "message": "最大"
+   },
+   "minimum": {
+      "message": "最小"
+   },
+   "minute": {
+      "message": "分"
+   },
+   "minutes": {
+      "message": "分"
+   },
+   "monitor": {
+      "message": "監視"
+   },
+   "monitor_area_select": {
+      "message": "選択"
+   },
+   "monitor_area_selector_desc": {
+      "message": "CSSセレクターを入力するか、ページ上の要素を選択してください。"
+   },
+   "monitor_area_switch_desc": {
+      "message": "検索を1つの領域に限定"
+   },
+   "monitor_area_switch_label": {
+      "message": "監視エリア"
+   },
+   "monitor_custom_area": {
+      "message": "ページのカスタム領域で検索"
+   },
+   "monitor_custom_area_help": {
+      "message": "有効にすると、ページの特定の領域を監視または検索できます。"
+   },
+   "monitor_full_page": {
+      "message": "ページ全体を監視"
+   },
+   "monitor_full_page_help": {
+      "message": "有効にすると、ウェブページ全体の変更を監視します。"
+   },
+   "monitor_page_for_any_changes": {
+      "message": "ページの変更を自動的に追跡します。"
+   },
+   "monitored_area": {
+      "message": "監視対象領域"
+   },
+   "monitoring_active": {
+      "message": "監視中"
+   },
+   "monitoring_auto_click_label": {
+      "message": "キーワード一致時に自動クリック"
+   },
+   "monitoring_engine_advanced": {
+      "message": "アドバンス"
+   },
+   "monitoring_engine_aria": {
+      "message": "モニタリングエンジンバージョン"
+   },
+   "monitoring_engine_basic": {
+      "message": "ベーシック"
+   },
+   "monitoring_engine_beta": {
+      "message": "ベータ"
+   },
+   "monitoring_engine_tooltip_desc": {
+      "message": "検出・消失・カスタムのすべての選択で、より高速でスマートな検出が可能です。"
+   },
+   "monitoring_engine_tooltip_title": {
+      "message": "新しいベータコア"
+   },
+   "monitoring_keyword_input_aria": {
+      "message": "監視するキーワード"
+   },
+   "monitoring_keywords_empty": {
+      "message": "キーワードがまだありません — 監視を開始するには少なくとも1つ追加してください。"
+   },
+   "monitoring_mode": {
+      "message": "監視モード"
+   },
+   "monitoring_mode_custom_info_highlight": {
+      "message": "変更"
+   },
+   "monitoring_mode_custom_info_prefix": {
+      "message": "カスタムモードは、このページで"
+   },
+   "monitoring_mode_custom_info_suffix": {
+      "message": "が検出されるたびに通知します — キーワードは不要です。"
+   },
+   "monitoring_mode_custom_intro": {
+      "message": "ページの変更を自動的に追跡します。"
+   },
+   "monitoring_mode_custom_short": {
+      "message": "カスタム"
+   },
+   "monitoring_mode_found_desc": {
+      "message": "キーワードが表示されたときに通知を受け取ります。"
+   },
+   "monitoring_mode_found_short": {
+      "message": "検出"
+   },
+   "monitoring_mode_help": {
+      "message": "Auto Refresh Plusが通知するタイミングを選択"
+   },
+   "monitoring_mode_lost_desc": {
+      "message": "キーワードが消えたときに通知を受け取ります。"
+   },
+   "monitoring_mode_lost_short": {
+      "message": "消失"
+   },
+   "monitoring_remove_keyword_aria": {
+      "message": "%1を削除"
+   },
+   "monitoring_tip_banner": {
+      "message": "もっとアクションが必要ですか？マルチクリック自動化をお試しください。"
+   },
+   "monitoring_tip_label": {
+      "message": "ヒント:"
+   },
+   "new_badge": {
+      "message": "新規"
+   },
+   "no_active_tabs": {
+      "message": "アクティブなタブなし"
+   },
+   "no_active_tabs_desc": {
+      "message": "現在、監視または更新されているタブはありません。タブの更新を開始して、ここに表示されるようにしてください。"
+   },
+   "no_keyword": {
+      "message": "まだキーワードが追加されていません。監視するキーワードを追加してください。"
+   },
+   "no_tabs_refreshing": {
+      "message": "更新中のタブはありません"
+   },
+   "no_templates_match": {
+      "message": "検索条件に一致するテンプレートはありません。"
+   },
+   "normal_expression": {
+      "message": "通常の式"
+   },
+   "normal_expression_desc": {
+      "message": "ウェブページ上のキーワードを検索し、シンボルで初期化する必要はありません。各キーワードの後に Enter キーを押すだけです。"
+   },
+   "normal_expression_example_1_desc": {
+      "message": "ウェブページ上で「In Stock」というテキストを検索します"
+   },
+   "normal_expression_example_2_desc": {
+      "message": "複数のキーワードを検索し、各キーワードの後に Enter キーを押します"
+   },
+   "normal_expression_example_3_desc": {
+      "message": "ページ上の「Add to Cart」ボタンまたはテキストを検索します"
+   },
+   "not_allowed": {
+      "message": "ここでの使用は許可されていません。"
+   },
+   "noti_msg": {
+      "message": "Auto Refresh Plus が %1 ターゲットテキストを検出しました。"
+   },
+   "noti_msg_title": {
+      "message": "ターゲットテキスト！"
+   },
+   "notification_domain_info": {
+      "message": "%1 上"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "okay": {
+      "message": "まあまあ"
+   },
+   "open_link_help": {
+      "message": "クリックされたリンクを新しいブラウザタブで開きます。"
+   },
+   "open_link_tab": {
+      "message": "新しいタブでリンクを開く"
+   },
+   "options": {
+      "message": "オプション"
+   },
+   "partial_page_desc": {
+      "message": "AJAX/XHRリクエストのみを監視"
+   },
+   "pause": {
+      "message": "一時停止"
+   },
+   "pause_on_interact": {
+      "message": "操作時に一時停止"
+   },
+   "pause_refreshing": {
+      "message": "更新を一時停止"
+   },
+   "permissions_attention": {
+      "message": "注意"
+   },
+   "permissions_btn_grant": {
+      "message": "ダッシュボードホストのサイトアクセスを許可"
+   },
+   "permissions_btn_opening_dialog": {
+      "message": "権限ダイアログを開いています…"
+   },
+   "permissions_btn_refresh": {
+      "message": "状態を更新"
+   },
+   "permissions_config_missing_body": {
+      "message": "がビルド環境で定義されていません。ダッシュボードのホスト名を設定して再ビルドしてください。"
+   },
+   "permissions_config_missing_title": {
+      "message": "設定がありません"
+   },
+   "permissions_error_denied": {
+      "message": "権限が拒否されました。同期やインジェクト機能が確実に動作するよう、ダッシュボードのホストへのアクセスを許可してください。"
+   },
+   "permissions_error_dialog": {
+      "message": "権限ダイアログを開く際に問題が発生しました。再試行するか、ブラウザの設定を確認してください。"
+   },
+   "permissions_error_read_state": {
+      "message": "サイト権限の状態を読み取れませんでした。このページを再読み込みするか、後でもう一度お試しください。"
+   },
+   "permissions_go_to_options": {
+      "message": "オプションへ"
+   },
+   "permissions_granted_body": {
+      "message": "この拡張機能にはプラットフォームに対応するホスト権限がすでに付与されています。このタブを閉じても構いません。"
+   },
+   "permissions_granted_ok": {
+      "message": "OK"
+   },
+   "permissions_granted_title": {
+      "message": "サイトへのアクセスが有効です"
+   },
+   "permissions_heading_dashboard": {
+      "message": "ダッシュボードホストの権限"
+   },
+   "permissions_intro_dashboard": {
+      "message": "Auto Refresh Plus ダッシュボードのドメインで拡張機能を実行できるかどうかを制御します（コンテンツスクリプトとプラットフォーム連携）。"
+   },
+   "permissions_label_dashboard_host": {
+      "message": "ダッシュボードホスト"
+   },
+   "permissions_revoke_hint": {
+      "message": "後から取り消す場合は、ブラウザ設定の拡張機能サイトアクセス一覧からこのサイトを削除してください。"
+   },
+   "permissions_subtitle": {
+      "message": "プラットフォームサイトへのアクセス"
+   },
+   "permissions_warn_body_prefix": {
+      "message": "ダッシュボードへのインジェクト、設定の反映、拡張機能との連携のためにアクセスを許可してください（コンテンツスクリプトと同じホストパターン："
+   },
+   "permissions_warn_body_suffix": {
+      "message": "）。"
+   },
+   "permissions_warn_title": {
+      "message": "サイトへのアクセスはまだ許可されていません"
+   },
+   "play_alarm_on_captcha_detection": {
+      "message": "CAPTCHA 検出時にアラームを再生"
+   },
+   "play_alarm_on_captcha_detection_help": {
+      "message": "CAPTCHA が検出されたときに音声アラートを再生します。"
+   },
+   "play_alarm_on_error_detection": {
+      "message": "エラー検出時にアラームを再生"
+   },
+   "play_alarm_on_error_detection_help": {
+      "message": "エラーページが検出されたときに音声アラートを再生します。"
+   },
+   "please_add_email_first": {
+      "message": "まずメールを追加してください。"
+   },
+   "please_add_webhooks_first": {
+      "message": "まずウェブフックを追加してください。"
+   },
+   "please_rateus": {
+      "message": "評価してください"
+   },
+   "popup_on_keyword_found": {
+      "message": "キーワード発見時にアラート"
+   },
+   "popup_on_keyword_lost": {
+      "message": "キーワード消失時にアラート"
+   },
+   "predefined_interval": {
+      "message": "定義済み間隔"
+   },
+   "predefined_interval_desc": {
+      "message": "プリセットまたはデフォルト時間値を使用"
+   },
+   "premium_benefits": {
+      "message": "プレミアムの利点："
+   },
+   "premium_device_sync": {
+      "message": "最大 3 台のデバイスを管理"
+   },
+   "premium_full_access": {
+      "message": "すべてのプレミアム機能"
+   },
+   "premium_priority_support": {
+      "message": "異なる設定プロファイル"
+   },
+   "premium_tag_aria": {
+      "message": "プレミアム機能: %1。お知らせを開く。"
+   },
+   "premium_tag_default_feature": {
+      "message": "機能"
+   },
+   "premium_tag_tooltip_click": {
+      "message": "クリックして詳細"
+   },
+   "premium_usage_body": {
+      "message": "無料プランでプレミアム機能が有効です。"
+   },
+   "premium_usage_dismiss": {
+      "message": "通知を閉じる"
+   },
+   "premium_usage_status_label": {
+      "message": "プレミアム機能を使用中"
+   },
+   "preset_interval": {
+      "message": "プリセット間隔"
+   },
+   "pricing": {
+      "message": "価格"
+   },
+   "pro_announcement_body": {
+      "message": "Auto Refresh Plusは、長期的な開発、高度な機能、クラウド同期、より賢い監視、複数デバイス管理を支えるため、段階的にPROを導入します。基本的な更新機能は引き続き無料です。"
+   },
+   "pro_announcement_close_aria": {
+      "message": "ダイアログを閉じる"
+   },
+   "pro_announcement_days_label": {
+      "message": "日"
+   },
+   "pro_announcement_days_remaining_aria": {
+      "message": "残り%1日"
+   },
+   "pro_announcement_fresh_install_body": {
+      "message": "%1とPROの完全なプレミアム体験を利用できます。高度なツール、よりスマートなモニター、クラウド同期、マルチデバイスアクセスです。"
+   },
+   "pro_announcement_fresh_install_title_suffix": {
+      "message": "プレミアム機能です"
+   },
+   "pro_announcement_fresh_install_trial": {
+      "message": "15日間無料トライアル"
+   },
+   "pro_announcement_important_badge": {
+      "message": "重要"
+   },
+   "pro_announcement_important_notice_aria": {
+      "message": "重要なお知らせ"
+   },
+   "pro_announcement_moving_to_pro": {
+      "message": "PROへ移行します"
+   },
+   "pro_announcement_premium_badge": {
+      "message": "PREMIUM"
+   },
+   "pro_announcement_premium_badge_aria": {
+      "message": "プレミアム"
+   },
+   "pro_announcement_rollout_date": {
+      "message": "6月1日"
+   },
+   "pro_announcement_rollout_intro": {
+      "message": "提供開始は"
+   },
+   "pro_announcement_rollout_outro": {
+      "message": "から。"
+   },
+   "pro_announcement_view_pricing": {
+      "message": "料金を見る — 月額2.99ドルから"
+   },
+   "random_interval": {
+      "message": "ランダム間隔"
+   },
+   "random_interval_desc": {
+      "message": "最小～最大の間でランダムに更新"
+   },
+   "random_interval_help": {
+      "message": "現在の設定では、ページは %1 秒から %2 秒の間でランダムに更新されます。"
+   },
+   "random_time_interval": {
+      "message": "ランダム更新範囲"
+   },
+   "rate_us": {
+      "message": "評価する"
+   },
+   "rateus_title": {
+      "message": "この拡張機能を評価"
+   },
+   "ready_expressions_load_error": {
+      "message": "テンプレートを読み込めませんでした。後でもう一度お試しください。"
+   },
+   "real_time_detection_during_refresh": {
+      "message": "リアルタイム検出"
+   },
+   "real_time_detection_switch_desc": {
+      "message": "完全リロードなしで継続的にチェック"
+   },
+   "realtime_help": {
+      "message": "間隔の終了時だけでなく、更新中に継続的に変更を検出します。"
+   },
+   "receive_emails_alerts": {
+      "message": "メールアラートを受け取る"
+   },
+   "receive_webhook_alerts": {
+      "message": "ウェブフックアラートを受け取る"
+   },
+   "redirection_behavior": {
+      "message": "リダイレクト動作"
+   },
+   "redirection_behavior_desc": {
+      "message": "更新中のリダイレクトを処理"
+   },
+   "redirection_behavior_help": {
+      "message": "Auto Refresh Plus が URL の変更をどのように処理するかを選択します。元のドメインにロックするか、リダイレクトに従うことができます。"
+   },
+   "refresh_cycles_completed": {
+      "message": "完了した更新サイクル"
+   },
+   "refresh_interval_mode": {
+      "message": "更新間隔モード"
+   },
+   "refresh_limit": {
+      "message": "更新回数の上限"
+   },
+   "refresh_limit_times": {
+      "message": "回"
+   },
+   "refresh_number": {
+      "message": "更新回数を設定"
+   },
+   "refresh_number_desc": {
+      "message": "固定回数後に停止"
+   },
+   "refresh_number_help": {
+      "message": "ページを更新する回数を設定します。"
+   },
+   "refresh_position_hint_body": {
+      "message": "このメニューから更新ボタンやその他のUI設定を変更できます。"
+   },
+   "refresh_position_hint_understand": {
+      "message": "わかりました"
+   },
+   "refresh_top_pause": {
+      "message": "一時停止"
+   },
+   "refresh_top_resume": {
+      "message": "再開"
+   },
+   "refresh_top_start": {
+      "message": "開始"
+   },
+   "refresh_top_stop": {
+      "message": "停止"
+   },
+   "refresh_type": {
+      "message": "更新タイプ"
+   },
+   "refresh_type_help": {
+      "message": "各スキャンの前にページをどのように再読み込みするか。フルページは更新ボタンのようにURL全体を再読み込みします—信頼性が高いですが負荷が大きいです。XHRはバックグラウンドのAJAX/XHRリクエストのみを実行します（フルリロードなし）—より高速で軽量、再読み込みなしでコンテンツを更新する動的ページに最適です。"
+   },
+   "regex": {
+      "message": "正規表現"
+   },
+   "regex_expression": {
+      "message": "正規表現式"
+   },
+   "regex_expression_desc": {
+      "message": "Auto Refresh Plus は正規表現もサポートしており、$ シンボルで初期化してから正規表現式を続ける必要があります。"
+   },
+   "regex_expression_example_1_desc": {
+      "message": "「product」の後に 1 つ以上の数字が続くものを照合します（product1、product42 など）"
+   },
+   "regex_expression_example_2_desc": {
+      "message": "正規表現フラグを使用して「in stock」を大文字小文字を区別せずに照合"
+   },
+   "regex_expression_example_3_desc": {
+      "message": "「$19.99」「$299.00」などの価格形式を照合"
+   },
+   "remove_email": {
+      "message": "メール削除"
+   },
+   "restart": {
+      "message": "再スタート"
+   },
+   "restart_wait_seconds_desc": {
+      "message": "更新が再度開始される前に待機する秒数を設定"
+   },
+   "resume": {
+      "message": "再開"
+   },
+   "resume_refreshing": {
+      "message": "更新を再開"
+   },
+   "save": {
+      "message": "保存"
+   },
+   "scan_method_title": {
+      "message": "スキャン方法"
+   },
+   "sch_description": {
+      "message": "選択した日時に自動実行します。"
+   },
+   "schedule_add": {
+      "message": "スケジュールを追加"
+   },
+   "schedule_auto_disable_aria": {
+      "message": "自動無効化"
+   },
+   "schedule_auto_stop_aria": {
+      "message": "自動停止"
+   },
+   "schedule_delete_aria": {
+      "message": "スケジュールを削除"
+   },
+   "schedule_disconnected": {
+      "message": "スケジュールが切断されました"
+   },
+   "schedule_edit_aria": {
+      "message": "スケジュールを編集"
+   },
+   "schedule_enable_aria": {
+      "message": "スケジュールを有効にする"
+   },
+   "schedule_help": {
+      "message": "スケジュールでは、特定の時刻と曜日に自動更新できます。各スケジュールには開始時刻、選択した曜日、自動停止、自動無効化のオプションを設定できます。"
+   },
+   "schedule_options_label": {
+      "message": "オプション"
+   },
+   "schedule_select_days": {
+      "message": "曜日を選択"
+   },
+   "schedule_start_time_label": {
+      "message": "開始時刻"
+   },
+   "schedules": {
+      "message": "スケジュール"
+   },
+   "schedules_active_count": {
+      "message": "%1件有効"
+   },
+   "schedules_empty": {
+      "message": "スケジュールはまだありません"
+   },
+   "search_templates": {
+      "message": "テンプレートを検索..."
+   },
+   "seconds": {
+      "message": "秒"
+   },
+   "select_area": {
+      "message": "領域を選択"
+   },
+   "select_area_desc": {
+      "message": "検索領域を制限するには、CSS セレクターを入力してください"
+   },
+   "select_css_selector": {
+      "message": "要素を選択して領域セレクタを設定"
+   },
+   "select_date_time": {
+      "message": "日時を選択"
+   },
+   "select_days": {
+      "message": "曜日を選択"
+   },
+   "select_element": {
+      "message": "要素を選択"
+   },
+   "select_language": {
+      "message": "言語を選択"
+   },
+   "select_time": {
+      "message": "時間を選択"
+   },
+   "session_expired": {
+      "message": "セッションが期限切れです。もう一度ログインしてください。"
+   },
+   "settings_card_collapse_aria": {
+      "message": "%1を折りたたむ"
+   },
+   "settings_card_expand_aria": {
+      "message": "%1を展開"
+   },
+   "show_tab": {
+      "message": "タブを表示"
+   },
+   "signup_requirement_body": {
+      "message": "まもなく続行にアカウントが必要になります。"
+   },
+   "signup_requirement_countdown_days": {
+      "message": "アカウント必須まであと%1日"
+   },
+   "signup_requirement_countdown_one_day": {
+      "message": "アカウント必須まであと1日"
+   },
+   "signup_requirement_days_abbr": {
+      "message": "日"
+   },
+   "signup_requirement_dismiss": {
+      "message": "通知を閉じる"
+   },
+   "signup_requirement_sign_up": {
+      "message": "無料登録 →"
+   },
+   "signup_requirement_status_label": {
+      "message": "アカウント必須のお知らせ"
+   },
+   "skip_repeated_keyword": {
+      "message": "繰り返されたキーワードをスキップ"
+   },
+   "skip_repeated_keyword_desc": {
+      "message": "既に検出されたキーワードを無視"
+   },
+   "skip_repeated_keyword_help": {
+      "message": "次の更新で既に検出されたキーワードを無視します。"
+   },
+   "slave_device_alert_body": {
+      "message": "この拡張機能はリンク済みのセカンダリデバイスとして設定されています。設定と更新の制御はプライマリデバイスに合わせる場合があります。"
+   },
+   "slave_device_alert_dismiss": {
+      "message": "通知を閉じる"
+   },
+   "slave_device_alert_read_more": {
+      "message": "詳しく見る"
+   },
+   "slave_device_alert_status_label": {
+      "message": "セカンダリデバイス"
+   },
+   "slave_message_alert": {
+      "message": "スレーブユーザーであるため、このオプションを変更することはできません。"
+   },
+   "source_find_text": {
+      "message": "ソース（HTML ソース）"
+   },
+   "source_find_text_caution": {
+      "message": "このオプションは主に開発者向けです。生のHTMLソースをスキャンすると、非表示または画面上に見えないマークアップにも一致する場合があり、誤検知の原因になることがよくあります。処理が遅く、日常的な監視には推奨されません。表示テキストの一致だけでは不十分な場合にのみ有効にしてください。"
+   },
+   "source_find_text_help": {
+      "message": "HTML ソースコードから直接テキストを抽出します。非表示または動的なコンテンツが含まれる場合があります。"
+   },
+   "start_countdown": {
+      "message": "カウントダウン開始"
+   },
+   "start_msg": {
+      "message": "開始"
+   },
+   "start_refreshing": {
+      "message": "更新を開始"
+   },
+   "start_time": {
+      "message": "開始時刻"
+   },
+   "stop": {
+      "message": "停止"
+   },
+   "stop_countdown": {
+      "message": "カウントダウン停止"
+   },
+   "stop_refreshing": {
+      "message": "更新を停止"
+   },
+   "stop_time": {
+      "message": "停止時刻"
+   },
+   "subscription": {
+      "message": "サブスクリプション"
+   },
+   "success": {
+      "message": "設定を正常に保存しました"
+   },
+   "support_ticket": {
+      "message": "サポートチケット"
+   },
+   "supported_expressions": {
+      "message": "サポートされている式"
+   },
+   "supported_expressions_msg_monitor": {
+      "message": "ページ監視でサポートされている式"
+   },
+   "syntax_css_desc": {
+      "message": "標準CSSセレクターで要素をターゲット — id、クラス、属性、階層別。"
+   },
+   "syntax_css_ex1_desc": {
+      "message": "id「price」の要素を選択"
+   },
+   "syntax_css_ex1_title": {
+      "message": "idで"
+   },
+   "syntax_css_ex2_desc": {
+      "message": "クラス「stock-status」の要素を選択"
+   },
+   "syntax_css_ex2_title": {
+      "message": "クラスで"
+   },
+   "syntax_css_ex3_desc": {
+      "message": "data-testid が「add-to-cart」の要素を選択"
+   },
+   "syntax_css_ex3_title": {
+      "message": "属性で"
+   },
+   "syntax_css_title": {
+      "message": "CSSセレクター"
+   },
+   "syntax_custom_desc": {
+      "message": "## で始まり、Boolean AND / OR / NOT ロジックでキーワードを組み合わせます。"
+   },
+   "syntax_custom_ex1_desc": {
+      "message": "「In Stock」と「Add to Cart」が両方表示されたときのみ発動"
+   },
+   "syntax_custom_ex1_title": {
+      "message": "AND条件"
+   },
+   "syntax_custom_ex2_desc": {
+      "message": "いずれかのキーワードが表示されたとき発動"
+   },
+   "syntax_custom_ex2_title": {
+      "message": "OR条件"
+   },
+   "syntax_custom_ex3_desc": {
+      "message": "「In Stock」はあるが「Sold Out」がないとき発動"
+   },
+   "syntax_custom_ex3_title": {
+      "message": "NOT条件"
+   },
+   "syntax_custom_title": {
+      "message": "カスタム式"
+   },
+   "syntax_norm_ex1_desc": {
+      "message": "ページ上のどこでも正確なテキスト「In Stock」に一致"
+   },
+   "syntax_norm_ex1_title": {
+      "message": "In Stock"
+   },
+   "syntax_norm_ex2_desc": {
+      "message": "複数キーワード — 各キーワードの後にEnter"
+   },
+   "syntax_norm_ex2_title": {
+      "message": "Available, Out of Stock"
+   },
+   "syntax_norm_ex3_desc": {
+      "message": "ページの「Add to Cart」ボタンまたはテキストに一致"
+   },
+   "syntax_norm_ex3_title": {
+      "message": "Add to Cart"
+   },
+   "syntax_regex_desc": {
+      "message": "スラッシュ /.../ でテキストパターンに一致。価格、SKU、柔軟なマッチに便利。"
+   },
+   "syntax_regex_ex1_desc": {
+      "message": "$19.99 や $1,299.00 のようなドル金額に一致"
+   },
+   "syntax_regex_ex1_title": {
+      "message": "価格マッチ"
+   },
+   "syntax_regex_ex2_desc": {
+      "message": "「In Stock」または「in stock」に一致（大文字小文字を区別しない）"
+   },
+   "syntax_regex_ex2_title": {
+      "message": "在庫ステータス"
+   },
+   "syntax_regex_ex3_desc": {
+      "message": "SKU-12345 のような製品SKUに一致"
+   },
+   "syntax_regex_ex3_title": {
+      "message": "SKUコード"
+   },
+   "syntax_regex_title": {
+      "message": "正規表現"
+   },
+   "syntax_text_matching_desc": {
+      "message": "ページ上のプレーンキーワードを検索。記号不要 — 各キーワードの後にEnterを押してください。"
+   },
+   "syntax_text_matching_title": {
+      "message": "テキストマッチング"
+   },
+   "syntax_xpath_desc": {
+      "message": "// で始まり、HTML構造内の位置で要素をターゲットします。"
+   },
+   "syntax_xpath_ex1_desc": {
+      "message": "クラス「price」を持つ任意の要素を選択"
+   },
+   "syntax_xpath_ex1_title": {
+      "message": "クラスで"
+   },
+   "syntax_xpath_ex2_desc": {
+      "message": "テキストが「Add to Cart」のボタンを選択"
+   },
+   "syntax_xpath_ex2_title": {
+      "message": "テキストでボタン"
+   },
+   "syntax_xpath_ex3_desc": {
+      "message": "id「availability」の要素を選択"
+   },
+   "syntax_xpath_ex3_title": {
+      "message": "idで"
+   },
+   "syntax_xpath_title": {
+      "message": "XPath式"
+   },
+   "tabs": {
+      "message": "タブ"
+   },
+   "tabs_alerts": {
+      "message": "アラート付きタブ"
+   },
+   "tabs_refreshing": {
+      "message": "アクティブタブの更新"
+   },
+   "template_add_to_cart_button": {
+      "message": "カートに追加ボタン"
+   },
+   "template_add_to_cart_button_desc": {
+      "message": "test id でカートボタンに一致"
+   },
+   "template_any_stock_term": {
+      "message": "任意の在庫語"
+   },
+   "template_any_stock_term_desc": {
+      "message": "いずれかの在庫キーワードで発動"
+   },
+   "template_buy_button": {
+      "message": "購入ボタン"
+   },
+   "template_buy_button_desc": {
+      "message": "購入またはご購入ボタンを検索"
+   },
+   "template_email_address": {
+      "message": "メールアドレス"
+   },
+   "template_email_address_desc": {
+      "message": "メールアドレスと一致させる"
+   },
+   "template_expression_description": {
+      "message": "ページ監視用のテンプレート式"
+   },
+   "template_in_stock_buyable": {
+      "message": "在庫あり＆購入可能"
+   },
+   "template_in_stock_buyable_desc": {
+      "message": "在庫ありかつ購入可能なときのみアラート"
+   },
+   "template_in_stock_not_sold_out": {
+      "message": "在庫あり・売り切れでない"
+   },
+   "template_in_stock_not_sold_out_desc": {
+      "message": "売り切れテキストを除く在庫あり"
+   },
+   "template_input_field_value": {
+      "message": "入力フィールド値"
+   },
+   "template_input_field_value_desc": {
+      "message": "検索値を含む入力を検索"
+   },
+   "template_phone_number": {
+      "message": "電話番号"
+   },
+   "template_phone_number_desc": {
+      "message": "電話形式（123）456-7890 と一致させる"
+   },
+   "template_price_changes": {
+      "message": "価格変動"
+   },
+   "template_price_changes_desc": {
+      "message": "価格関連のキーワードを監視"
+   },
+   "template_price_detector": {
+      "message": "価格検出"
+   },
+   "template_price_detector_desc": {
+      "message": "$19.99 のようなドル価格に一致"
+   },
+   "template_price_element": {
+      "message": "価格要素"
+   },
+   "template_price_element_desc": {
+      "message": "価格クラスを持つ要素を検索"
+   },
+   "template_price_format": {
+      "message": "価格形式"
+   },
+   "template_price_format_desc": {
+      "message": "$19.99 などの価格と一致させる"
+   },
+   "template_product_availability": {
+      "message": "商品在庫"
+   },
+   "template_product_availability_desc": {
+      "message": "商品の在庫状況を監視"
+   },
+   "template_product_id_pattern": {
+      "message": "商品 ID パターン"
+   },
+   "template_product_id_pattern_desc": {
+      "message": "product-123 のような商品 ID を一致させる"
+   },
+   "template_product_status": {
+      "message": "商品ステータス"
+   },
+   "template_product_status_desc": {
+      "message": "新製品または限定版の商品"
+   },
+   "template_restock_alert": {
+      "message": "再入荷アラート"
+   },
+   "template_restock_alert_desc": {
+      "message": "商品が戻った瞬間をキャッチ"
+   },
+   "template_shipping_options": {
+      "message": "配送オプション"
+   },
+   "template_shipping_options_desc": {
+      "message": "高速配送オプションが利用可能"
+   },
+   "template_shopping_actions": {
+      "message": "ショッピングアクション"
+   },
+   "template_shopping_actions_desc": {
+      "message": "ショッピングボタンの利用可能性を追跡"
+   },
+   "template_stock_and_price": {
+      "message": "在庫と価格"
+   },
+   "template_stock_and_price_desc": {
+      "message": "在庫ありかつセール中の商品"
+   },
+   "template_stock_status_element": {
+      "message": "在庫ステータス要素"
+   },
+   "template_stock_status_element_desc": {
+      "message": "クラスで要素をターゲット"
+   },
+   "template_stock_status_text": {
+      "message": "在庫ステータステキスト"
+   },
+   "template_stock_status_text_desc": {
+      "message": "「In Stock」を含むテキストを検索"
+   },
+   "template_ticket_availability": {
+      "message": "チケット在庫"
+   },
+   "template_ticket_availability_desc": {
+      "message": "チケット販売開始を監視"
+   },
+   "templates": {
+      "message": "テンプレート"
+   },
+   "templates_add_to_keywords": {
+      "message": "キーワードに追加"
+   },
+   "templates_ai_aria": {
+      "message": "AI式ジェネレーター"
+   },
+   "templates_ai_label": {
+      "message": "AI"
+   },
+   "templates_back_to_templates": {
+      "message": "テンプレートに戻る"
+   },
+   "templates_close_aria": {
+      "message": "ダイアログを閉じる"
+   },
+   "templates_copy_aria": {
+      "message": "式 %1 をコピー"
+   },
+   "templates_header_templates_aria": {
+      "message": "テンプレートに戻る"
+   },
+   "templates_ready_made": {
+      "message": "既製テンプレート"
+   },
+   "templates_syntax_aria": {
+      "message": "構文ヘルプ"
+   },
+   "templates_syntax_button": {
+      "message": "構文"
+   },
+   "templates_tooltip": {
+      "message": "監視用のテンプレートを閲覧"
+   },
+   "templates_type_css": {
+      "message": "CSS"
+   },
+   "templates_type_custom": {
+      "message": "カスタム"
+   },
+   "templates_type_normal": {
+      "message": "通常"
+   },
+   "templates_type_regex": {
+      "message": "Regex"
+   },
+   "templates_type_xpath": {
+      "message": "XPath"
+   },
+   "text": {
+      "message": "テキスト"
+   },
+   "thankyou_msg": {
+      "message": "ご意見をいただきありがとうございます"
+   },
+   "this_is_not_valid_css_selector": {
+      "message": "これは有効な CSS セレクターではありません。"
+   },
+   "thnakyou_desc": {
+      "message": "ご意見は、私たちの改善に役立ちます"
+   },
+   "time": {
+      "message": "時間"
+   },
+   "time_has_passed": {
+      "message": "時間が経過しました"
+   },
+   "time_is_invalid": {
+      "message": "無効な時刻が選択されました"
+   },
+   "timer": {
+      "message": "タイマー"
+   },
+   "timer_position": {
+      "message": "タイマーの位置"
+   },
+   "timer_position_bottom_left": {
+      "message": "左下"
+   },
+   "timer_position_bottom_right": {
+      "message": "右下"
+   },
+   "timer_position_center": {
+      "message": "中央"
+   },
+   "timer_position_top_left": {
+      "message": "左上"
+   },
+   "timer_position_top_right": {
+      "message": "右上"
+   },
+   "upgrade": {
+      "message": "アップグレード"
+   },
+   "use_default": {
+      "message": "デフォルトキーワードを使用"
+   },
+   "user_menu_account_aria": {
+      "message": "アカウントメニュー"
+   },
+   "user_menu_avatar_alt": {
+      "message": "ユーザーアバター"
+   },
+   "user_menu_classic_view": {
+      "message": "Classic"
+   },
+   "user_menu_classic_view_aria": {
+      "message": "Classic表示"
+   },
+   "user_menu_command_view": {
+      "message": "Command"
+   },
+   "user_menu_command_view_aria": {
+      "message": "Command表示"
+   },
+   "user_menu_focus_mode": {
+      "message": "フォーカスモード"
+   },
+   "user_menu_focus_mode_aria": {
+      "message": "フォーカスモードを切り替え"
+   },
+   "user_menu_focus_mode_tooltip": {
+      "message": "余分なUI要素を非表示"
+   },
+   "user_menu_refresh_position": {
+      "message": "上部にボタン"
+   },
+   "user_menu_refresh_position_aria": {
+      "message": "更新ボタンを上部に表示"
+   },
+   "user_menu_refresh_position_tooltip": {
+      "message": "ヘッダーに更新ボタンを表示"
+   },
+   "user_menu_theme_dark_aria": {
+      "message": "ダークテーマ"
+   },
+   "user_menu_theme_light_aria": {
+      "message": "ライトテーマ"
+   },
+   "user_menu_theme_system_aria": {
+      "message": "システムテーマ"
+   },
+   "user_menu_ui_cosmetics": {
+      "message": "UIカスタマイズ"
+   },
+   "user_menu_view": {
+      "message": "表示"
+   },
+   "user_menu_view_aria": {
+      "message": "表示モードを選択"
+   },
+   "view_pricing_plans": {
+      "message": "価格設定プランを表示"
+   },
+   "visual_find_text": {
+      "message": "ビジュアル（画面テキスト）"
+   },
+   "visual_find_text_help": {
+      "message": "人間が見るように、画面から表示されるテキストを抽出します。"
+   },
+   "visual_timer_desc": {
+      "message": "ページにカウントダウンを表示"
+   },
+   "visual_timer_done": {
+      "message": "回完了"
+   },
+   "visual_timer_help": {
+      "message": "ビジュアルタイマーはウェブページに直接カウントダウンを表示します。次の更新までの残り時間を表示し、タイマーを一時停止、再開、またはリセットするためのコントロールが含まれています。"
+   },
+   "visual_timer_live_monitor": {
+      "message": "ライブモニター"
+   },
+   "visual_timer_msg": {
+      "message": "ビジュアルタイマーを表示"
+   },
+   "visual_timer_next_refresh_in": {
+      "message": "次の更新まで"
+   },
+   "visual_timer_pause_aria": {
+      "message": "タイマーを一時停止"
+   },
+   "visual_timer_paused": {
+      "message": "一時停止"
+   },
+   "visual_timer_restart_tooltip": {
+      "message": "カウントダウンを再開"
+   },
+   "visual_timer_resume_aria": {
+      "message": "タイマーを開始"
+   },
+   "visual_timer_running": {
+      "message": "実行中"
+   },
+   "visual_timer_stop_aria": {
+      "message": "タイマーを停止"
+   },
+   "wait_content_load": {
+      "message": "コンテンツの読み込みを待機"
+   },
+   "wait_content_load_desc": {
+      "message": "各更新後にスキャンを遅延"
+   },
+   "wait_content_load_help": {
+      "message": "コンテンツが完全に読み込まれるまで検出前に待機します。"
+   },
+   "warning_random_interval": {
+      "message": "ランダム間隔が正常に機能するには、最大値が最小値より大きい必要があります。"
+   },
+   "webhook_alert_help": {
+      "message": "ウェブフックにより、変更が検出されたときに他のアプリケーションまたはサービスにアラートを送信できます。"
+   },
+   "webhook_alerts_switch_desc": {
+      "message": "エンドポイントにペイロードを送信"
+   },
+   "webhooks": {
+      "message": "ウェブフック"
+   },
+   "webhooks_tooltip": {
+      "message": "アラート用のWebhook設定を開く"
+   },
+   "whats_new": {
+      "message": "新機能"
+   },
+   "whats_new_close_aria": {
+      "message": "新機能を閉じる"
+   },
+   "whats_new_latest": {
+      "message": "最新"
+   },
+   "whats_new_load_error": {
+      "message": "リリースノートを読み込めませんでした。後でもう一度お試しください。"
+   },
+   "whats_new_subtitle": {
+      "message": "Auto Refresh Plus リリースノート"
+   },
+   "whats_new_thank_you": {
+      "message": "Auto Refresh Plus をご利用いただきありがとうございます"
+   },
+   "window_focus_on_detection": {
+      "message": "キーワード検出時にウィンドウをフォーカス"
+   },
+   "window_focus_on_detection_desc": {
+      "message": "一致時にタブを前面に表示"
+   },
+   "window_focus_on_detection_help": {
+      "message": "ページ監視でキーワードが発見または消失したときにウィンドウをフォーカスします。この機能により、指定されたキーワードが検出または消失されるたびに、ウィンドウが自動的に画面の最前面に移動します。"
+   },
+   "without_full": {
+      "message": "XHR 更新"
+   },
+   "xhr_page_help": {
+      "message": "ページ全体を更新せずに URL からデータを取得します。ウェブページはユーザーの作業を中断することなく、ページの一部だけを更新できます。"
+   },
+   "xhr_request_autoclick": {
+      "message": "要素を自動クリック"
+   },
+   "xhr_request_autoclick_desc": {
+      "message": "自動クリックしたいページ要素をクリックしてください。"
+   },
+   "xpath": {
+      "message": "XPath"
+   },
+   "xpath_expression": {
+      "message": "XPath 式"
+   },
+   "xpath_expression_desc": {
+      "message": "XML パス言語は、ドキュメントのさまざまな部分にアドレスを指定する柔軟な方法を提供します。2 つの @@ シンボルで初期化する必要があります。"
+   },
+   "xpath_expression_example_1_desc": {
+      "message": "「In Stock」というテキストを含む任意の要素を検索"
+   },
+   "xpath_expression_example_2_desc": {
+      "message": "「Search」を含む値属性を持つ input 要素を検索"
+   },
+   "xpath_expression_example_3_desc": {
+      "message": "「$」シンボルを含む「price」クラスを持つ div 要素を検索"
+   },
+   "your_expressions": {
+      "message": "あなたの式"
+   },
+   "your_expressions_add_new": {
+      "message": "新規追加"
+   },
+   "your_expressions_define_placeholder": {
+      "message": "式を定義（例：在庫あり または ##在庫あり AND カートに追加）"
+   },
+   "your_expressions_delete_aria": {
+      "message": "%1 を削除"
+   },
+   "your_expressions_edit_aria": {
+      "message": "%1 を編集"
+   },
+   "your_expressions_empty": {
+      "message": "保存された式はまだありません。「新規追加」をタップして作成してください。"
+   },
+   "your_expressions_name_placeholder": {
+      "message": "式の名前（例：在庫補充アラート）"
+   },
+   "your_expressions_yours_badge": {
+      "message": "自分用"
+   }
+}

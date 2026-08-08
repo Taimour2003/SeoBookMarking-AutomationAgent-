@@ -1,0 +1,5 @@
+"use strict";
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="e7a23921-6ae4-5822-a9d9-5d7227b77113")}catch(e){}}();
+(self.webpackChunk_loomhq_chrome_extension=self.webpackChunk_loomhq_chrome_extension||[]).push([[4289],{261293:(e,l,a)=>{Object.defineProperty(l,"__esModule",{value:!0}),l.default=void 0;var o=t(a(792860)),n=t(a(843443));function t(e){return e&&e.__esModule?e:{default:e}}const u=e=>o.default.createElement(n.default,Object.assign({name:"FileIcon",dangerouslySetGlyph:'<path fill="currentcolor" fill-rule="evenodd" d="M2 14a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V5.25c0-.52-.206-1.017-.573-1.384L10.134.573A1.96 1.96 0 0 0 8.75 0H4a2 2 0 0 0-2 2zm2 .5a.5.5 0 0 1-.5-.5V2a.5.5 0 0 1 .5-.5h4v3.75c0 .414.336.75.75.75h3.75v8a.5.5 0 0 1-.5.5zm7.94-10H9.5V2.06z" clip-rule="evenodd"/>'},e));u.displayName="FileIcon",l.default=u}}]);
+//# sourceMappingURL=@atlaskit-internal_glyphTemplate.js.map
+//# debugId=e7a23921-6ae4-5822-a9d9-5d7227b77113

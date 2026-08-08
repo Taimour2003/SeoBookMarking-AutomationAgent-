@@ -1,0 +1,2186 @@
+{
+   "action_on_detection": {
+      "message": "การดำเนินการเมื่อตรวจพบ"
+   },
+   "action_report_bug_feedback": {
+      "message": "รายงานบั๊ก / ข้อเสนอแนะ"
+   },
+   "action_stop_refresh": {
+      "message": "หยุดการรีเฟรช"
+   },
+   "active_tabs_alerts_help": {
+      "message": "แท็บที่เกิดการแจ้งเตือนจากมอนิเตอร์ ปิดทีละรายการหรือล้างทั้งหมด"
+   },
+   "active_tabs_alerts_title": {
+      "message": "การแจ้งเตือน"
+   },
+   "active_tabs_clear_all": {
+      "message": "ล้างทั้งหมด"
+   },
+   "active_tabs_paused": {
+      "message": "หยุดชั่วคราว"
+   },
+   "active_tabs_refreshing_help": {
+      "message": "แท็บที่รีเฟรชอัตโนมัติ โฮเวอร์เพื่อหยุดชั่วคราว เริ่มใหม่ หรือหยุด"
+   },
+   "active_tabs_refreshing_title": {
+      "message": "กำลังรีเฟรช"
+   },
+   "active_tabs_stop_all": {
+      "message": "หยุดทั้งหมด"
+   },
+   "active_tabs_time_day_ago": {
+      "message": "%1 วันที่แล้ว"
+   },
+   "active_tabs_time_days_ago": {
+      "message": "%1 วันที่แล้ว"
+   },
+   "active_tabs_time_hour_ago": {
+      "message": "%1 ชั่วโมงที่แล้ว"
+   },
+   "active_tabs_time_hours_ago": {
+      "message": "%1 ชั่วโมงที่แล้ว"
+   },
+   "active_tabs_time_just_now": {
+      "message": "เมื่อสักครู่"
+   },
+   "active_tabs_time_min_ago": {
+      "message": "%1 นาทีที่แล้ว"
+   },
+   "active_tabs_time_sec_ago": {
+      "message": "%1 วินาทีที่แล้ว"
+   },
+   "add": {
+      "message": "เพิ่ม"
+   },
+   "add_email": {
+      "message": "เพิ่มอีเมล"
+   },
+   "add_email_tooltip": {
+      "message": "เพิ่มอีเมลเพื่อรับการแจ้งเตือน"
+   },
+   "add_keywords": {
+      "message": "เพิ่มคำหลักเป้าหมายเริ่มต้น"
+   },
+   "add_new": {
+      "message": "เพิ่มใหม่"
+   },
+   "added": {
+      "message": "เพิ่มแล้ว"
+   },
+   "alert_settings": {
+      "message": "การตั้งค่าการแจ้งเตือน"
+   },
+   "alert_when_any_change_detected": {
+      "message": "Auto Refresh Plus จะแจ้งให้คุณทราบเมื่อตรวจพบการเปลี่ยนแปลงใด ๆ บนหน้าเว็บนี้"
+   },
+   "alert_when_keyword_appears": {
+      "message": "รับการแจ้งเตือนเมื่อคำหลักของคุณปรากฏขึ้น"
+   },
+   "alert_when_keyword_disappears": {
+      "message": "รับการแจ้งเตือนเมื่อคำหลักของคุณหายไป"
+   },
+   "all_days": {
+      "message": "ทุกวัน"
+   },
+   "any": {
+      "message": "ใด ๆ"
+   },
+   "app_description": {
+      "description": "The description of extension",
+      "message": "รีเฟรชหน้าเว็บโดยอัตโนมัติพร้อมฟีเจอร์การจำลองหน้าเว็บที่ทรงพลัง"
+   },
+   "app_name": {
+      "description": "The extension name",
+      "message": "Auto Refresh Plus | Page Monitor"
+   },
+   "appearance": {
+      "message": "รูปลักษณ์"
+   },
+   "apply": {
+      "message": "นำไปใช้"
+   },
+   "are_you_sure": {
+      "message": "คุณแน่ใจหรือว่าต้องการลบ"
+   },
+   "ast": {
+      "message": "ตัวจับเวลาถอยหลัง"
+   },
+   "auto_click_element_aria": {
+      "message": "ตัวเลือกองค์ประกอบคลิกอัตโนมัติ"
+   },
+   "auto_click_element_label": {
+      "message": "องค์ประกอบคลิกอัตโนมัติ"
+   },
+   "auto_click_help": {
+      "message": "คลิกลิงก์โดยอัตโนมัติหากคำหลักที่ติดตามมีลิงก์"
+   },
+   "auto_click_targets_desc": {
+      "message": "คลิกองค์ประกอบหลังรีเฟรชหรือเมื่อคำหลักตรงกัน"
+   },
+   "auto_click_targets_label": {
+      "message": "เป้าหมายคลิกอัตโนมัติ"
+   },
+   "auto_clicker": {
+      "message": "ตัวคลิกอัตโนมัติ"
+   },
+   "auto_clicker_msg1": {
+      "message": "คลิกอัตโนมัติบนคำหลักที่ตรวจสอบ"
+   },
+   "auto_disable_on_first": {
+      "message": "ปิดใช้งานอัตโนมัติหลังรันครั้งแรก"
+   },
+   "auto_disable_on_first_desc": {
+      "message": "ปิดใช้งานตารางเวลานี้หลังจากทำงานครั้งเดียว"
+   },
+   "auto_stop_schedule": {
+      "message": "หยุดอัตโนมัติ"
+   },
+   "auto_stop_schedule_desc": {
+      "message": "เช่น รีเฟรชระหว่าง 10–11 น."
+   },
+   "auto_tasks_add_another": {
+      "message": "เพิ่มการคลิกอีกครั้ง"
+   },
+   "auto_tasks_add_element": {
+      "message": "เพิ่มองค์ประกอบ"
+   },
+   "auto_tasks_empty": {
+      "message": "ยังไม่ได้เพิ่มองค์ประกอบ"
+   },
+   "auto_tasks_help": {
+      "message": "คลิกองค์ประกอบที่เลือกบนหน้าโดยอัตโนมัติ"
+   },
+   "auto_tasks_label": {
+      "message": "คลิกองค์ประกอบเพิ่มเติม"
+   },
+   "auto_tasks_new_tab_short": {
+      "message": "แท็บใหม่"
+   },
+   "auto_tasks_open_in_new_tab": {
+      "message": "เปิดในแท็บใหม่หากเป็นลิงก์"
+   },
+   "auto_tasks_open_new_tab_aria": {
+      "message": "เปิดคลิก %1 ในแท็บใหม่"
+   },
+   "auto_tasks_options": {
+      "message": "ตัวเลือก"
+   },
+   "auto_tasks_pick": {
+      "message": "เลือก"
+   },
+   "auto_tasks_remove": {
+      "message": "ลบ"
+   },
+   "auto_tasks_remove_target_aria": {
+      "message": "ลบเป้าหมายคลิก %1"
+   },
+   "auto_tasks_selector_aria": {
+      "message": "ตัวเลือก CSS สำหรับเป้าหมายคลิก %1"
+   },
+   "auto_tasks_set_selector": {
+      "message": "ตั้งค่าตัวเลือก…"
+   },
+   "auto_tasks_toggle_target_aria": {
+      "message": "สลับเป้าหมายคลิก %1"
+   },
+   "auto_tasks_trigger": {
+      "message": "ทริกเกอร์"
+   },
+   "auto_tasks_trigger_each_refresh": {
+      "message": "ทุกครั้งที่รีเฟรช"
+   },
+   "auto_tasks_trigger_on_detection": {
+      "message": "เมื่อแจ้งเตือนทำงาน"
+   },
+   "auto_tasks_trigger_on_detection_short": {
+      "message": "เมื่อตรวจพบ"
+   },
+   "auto_tasks_trigger_refresh_short": {
+      "message": "รีเฟรช"
+   },
+   "bad": {
+      "message": "ไม่ดี"
+   },
+   "behavior_on_interaction": {
+      "message": "พฤติกรรมเมื่อมีการโต้ตอบ"
+   },
+   "bulk_keywords_results": {
+      "message": "ผลการค้นหาคำหลักจำนวนมาก"
+   },
+   "calendar_weekday_fri": {
+      "message": "ศ"
+   },
+   "calendar_weekday_mon": {
+      "message": "จ"
+   },
+   "calendar_weekday_sat": {
+      "message": "ส"
+   },
+   "calendar_weekday_sun": {
+      "message": "อา"
+   },
+   "calendar_weekday_thu": {
+      "message": "พฤ"
+   },
+   "calendar_weekday_tue": {
+      "message": "อ"
+   },
+   "calendar_weekday_wed": {
+      "message": "พ"
+   },
+   "cancel": {
+      "message": "ยกเลิก"
+   },
+   "captcha_detection": {
+      "message": "การตรวจพบ Captcha"
+   },
+   "caution_badge": {
+      "message": "คำเตือน"
+   },
+   "choose_interval": {
+      "message": "เลือกช่วงเวลา"
+   },
+   "clear": {
+      "message": "ล้าง"
+   },
+   "clear_all": {
+      "message": "ล้างทั้งหมด"
+   },
+   "clear_all_keywords": {
+      "message": "ล้างคำหลักทั้งหมด"
+   },
+   "clear_all_keywords_desc": {
+      "message": "คุณแน่ใจหรือว่าต้องการล้างคำหลักทั้งหมด"
+   },
+   "click_automation_title": {
+      "message": "ระบบคลิกอัตโนมัติ"
+   },
+   "close": {
+      "message": "ปิด"
+   },
+   "continue": {
+      "message": "ดำเนินการต่อ"
+   },
+   "continue_refreshing_after_alert": {
+      "message": "ดำเนินการรีเฟรชต่อหลังการแจ้งเตือน"
+   },
+   "continue_refreshing_help": {
+      "message": "ทำให้การแจ้งเตือนทำงานเมื่อตรวจพบคำหลัก แต่ยังคงรีเฟรชตามปกติต่อไป"
+   },
+   "continue_refreshing_switch_desc": {
+      "message": "รีเฟรชต่อหลังแจ้งเตือน"
+   },
+   "copy_expression": {
+      "message": "คัดลอกนิพจน์"
+   },
+   "copy_to_clipboard": {
+      "message": "คัดลอกไปยังคลิปบอร์ด"
+   },
+   "countdown_decrease_hours": {
+      "message": "ลดชั่วโมง"
+   },
+   "countdown_decrease_min": {
+      "message": "ลดนาที"
+   },
+   "countdown_decrease_sec": {
+      "message": "ลดวินาที"
+   },
+   "countdown_duration_label": {
+      "message": "ระยะเวลานับถอยหลัง"
+   },
+   "countdown_fires_after": {
+      "message": "ทำงานหลัง %1"
+   },
+   "countdown_hms_header": {
+      "message": "ชม : น : วิ"
+   },
+   "countdown_hours_value": {
+      "message": "ค่าชั่วโมง"
+   },
+   "countdown_increase_hours": {
+      "message": "เพิ่มชั่วโมง"
+   },
+   "countdown_increase_min": {
+      "message": "เพิ่มนาที"
+   },
+   "countdown_increase_sec": {
+      "message": "เพิ่มวินาที"
+   },
+   "countdown_min_value": {
+      "message": "ค่านาที"
+   },
+   "countdown_sec_value": {
+      "message": "ค่าวินาที"
+   },
+   "countdown_target_date_time": {
+      "message": "วันที่และเวลาเป้าหมาย"
+   },
+   "countdown_timer_modes_help": {
+      "message": "เลือกวิธีทำงานของตัวจับเวลา: ระยะเวลานับถอยหลังจากชั่วโมง/นาที/วินาที วันที่และเวลาทำงานครั้งเดียวในช่วงเวลาที่เลือก"
+   },
+   "countdown_triggers_once": {
+      "message": "ทำงานครั้งเดียวตามเวลาที่เลือก"
+   },
+   "countdown_unit_hours": {
+      "message": "ชั่วโมง"
+   },
+   "countdown_unit_min": {
+      "message": "นาที"
+   },
+   "countdown_unit_sec": {
+      "message": "วินาที"
+   },
+   "css_selector": {
+      "message": "ตัวเลือก CSS"
+   },
+   "css_selector_aria": {
+      "message": "ตัวเลือก CSS"
+   },
+   "css_selector_placeholder": {
+      "message": "เช่น button หรือ a[href=\"/login\"]"
+   },
+   "custom": {
+      "message": "กำหนดเอง"
+   },
+   "custom_expression": {
+      "message": "นิพจน์กำหนดเอง"
+   },
+   "custom_expression_desc": {
+      "message": "เริ่มต้นด้วยสัญลักษณ์ ## สองตัว และเป็นคำสั่ง Boolean สำหรับตัวดำเนินการ OR และ AND จะต้องอยู่ในวงเล็บ (รวม 4 วงเล็บ)"
+   },
+   "custom_expression_example_1_desc": {
+      "message": "ค้นหา \"มีสต็อก\" หรือ \"พร้อมใช้งาน\" และ \"เพิ่มลงในรถเข็น\" หรือ \"ซื้อเดี๋ยวนี้\""
+   },
+   "custom_expression_example_2_desc": {
+      "message": "ค้นหา \"ลดราคา\" หรือ \"ส่วนลด\" และ \"50%\" หรือ \"30%\""
+   },
+   "custom_expression_example_3_desc": {
+      "message": "นิพจน์ Boolean โดยใช้ตัวดำเนินการ OR (|) และ AND กับวงเล็บ"
+   },
+   "custom_interval": {
+      "message": "ช่วงเวลาแบบกำหนดเอง"
+   },
+   "custom_interval_desc": {
+      "message": "ตั้งค่าชั่วโมง นาที และวินาทีที่แน่นอน"
+   },
+   "custom_monitor": {
+      "message": "การจำลองแบบกำหนดเอง"
+   },
+   "custom_time_interval": {
+      "message": "ช่วงเวลากำหนดเอง"
+   },
+   "date_picker_next_month": {
+      "message": "เดือนถัดไป"
+   },
+   "date_picker_previous_month": {
+      "message": "เดือนก่อนหน้า"
+   },
+   "date_time_desc": {
+      "message": "ตั้งค่าการนับถอยหลังให้ทำงานในวันที่และเวลาที่เฉพาะเจาะจง"
+   },
+   "date_time_mode": {
+      "message": "โหมดวันที่และเวลา"
+   },
+   "date_time_target": {
+      "message": "วันที่และเวลาเป้าหมาย"
+   },
+   "day_abbr_fri": {
+      "message": "ศ."
+   },
+   "day_abbr_mon": {
+      "message": "จ."
+   },
+   "day_abbr_sat": {
+      "message": "ส."
+   },
+   "day_abbr_sun": {
+      "message": "อา."
+   },
+   "day_abbr_thu": {
+      "message": "พฤ."
+   },
+   "day_abbr_tue": {
+      "message": "อ."
+   },
+   "day_abbr_wed": {
+      "message": "พ."
+   },
+   "decrease_aria": {
+      "message": "ลด"
+   },
+   "default_help_description": {
+      "message": "คุณยังสามารถกำหนดค่า \"%1\" ในการตั้งค่าทั่วไปเพื่อนำไปใช้กับเว็บไซต์ทั้งหมด"
+   },
+   "default_interval": {
+      "message": "ช่วงเวลาเริ่มต้น"
+   },
+   "delay_before_scanning": {
+      "message": "หน่วงเวลาก่อนสแกน"
+   },
+   "detect_any_change": {
+      "message": "Auto Refresh Plus ได้ตรวจพบการเปลี่ยนแปลงบนเว็บไซต์นี้"
+   },
+   "detect_any_change_title": {
+      "message": "ตัวจำลองหน้าเว็บ"
+   },
+   "detect_captcha_on_page": {
+      "message": "ตรวจพบ Captcha บนหน้าเว็บ"
+   },
+   "detect_error_on_page": {
+      "message": "ตรวจพบหน้าข้อผิดพลาด (เช่น 404)"
+   },
+   "detection_behavior": {
+      "message": "พฤติกรรมการตรวจพบ"
+   },
+   "developer_mode_msg": {
+      "message": "ด้วยเหตุผลด้านความปลอดภัยและเสถียรภาพ โหมดนักพัฒนาจึงไม่อนุญาต\u003Cbr> โปรดดาวน์โหลดและติดตั้งส่วนขยายจากร้านค้าอย่างเป็นทางการเพื่อให้แน่ใจว่าคุณมีเวอร์ชันล่าสุดและปลอดภัยที่สุด"
+   },
+   "dismiss": {
+      "message": "ปิด"
+   },
+   "dismiss_alert": {
+      "message": "ปิดการแจ้งเตือน"
+   },
+   "donation_msg2": {
+      "message": "ฉันทำไปแล้ว"
+   },
+   "download_in_store": {
+      "message": "ติดตั้งจาก Webstore"
+   },
+   "duplicates": {
+      "message": "ซ้ำซ้อน"
+   },
+   "duration_desc": {
+      "message": "ตั้งค่าการนับถอยหลังโดยใช้ชั่วโมง นาที และวินาที"
+   },
+   "duration_help": {
+      "message": "ใช้การดำเนินการนี้เพื่อตั้งค่าการนับถอยหลังตามระยะเวลาที่กำหนดเป็นชั่วโมง นาที และวินาที"
+   },
+   "duration_mode": {
+      "message": "โหมดระยะเวลา"
+   },
+   "email_alert_help": {
+      "message": "การแจ้งเตือนผ่านอีเมลแจ้งให้คุณทราบเมื่อมีการเปลี่ยนแปลงหรือเหตุการณ์เฉพาะ เพิ่มที่อยู่อีเมลเพื่อเริ่มรับการแจ้งเตือนเหล่านี้"
+   },
+   "email_alerts_switch_desc": {
+      "message": "ส่งอีเมลเมื่อมอนิเตอร์ทำงาน"
+   },
+   "email_daily_limit": {
+      "message": "%1 / %2 ขีดจำกัดรายวัน"
+   },
+   "email_disconnect": {
+      "message": "ยกเลิกการเชื่อมต่อ"
+   },
+   "email_limit_reached": {
+      "message": "ถึงขีดจำกัดอีเมล"
+   },
+   "email_limit_toast_description": {
+      "message": "คุณถึงขีดจำกัดอีเมลรายวันแล้ว อัปเกรดเพื่อส่งการแจ้งเตือนอีเมลต่อ"
+   },
+   "email_remaining_count": {
+      "message": "เหลือ %1"
+   },
+   "email_sent_today": {
+      "message": "ส่งวันนี้ %1"
+   },
+   "email_usage_count": {
+      "message": "อีเมลที่ส่งวันนี้: %1 / %2"
+   },
+   "emails_remaining": {
+      "message": "อีเมลคงเหลือ"
+   },
+   "enable_captcha_detection_help": {
+      "message": "เปิดใช้เพื่อตรวจพบเมื่อมี captcha ปรากฏขึ้น"
+   },
+   "enable_error_detection_help": {
+      "message": "เปิดใช้เพื่อตรวจพบหน้าเว็บที่ล้มเหลวหรือเสีย"
+   },
+   "enter_custom_interval": {
+      "message": "ป้อนช่วงเวลากำหนดเองเป็นวินาที"
+   },
+   "enter_time_duration": {
+      "message": "ป้อนระยะเวลา"
+   },
+   "error_page_detection": {
+      "message": "การตรวจพบหน้าข้อผิดพลาด"
+   },
+   "error_save_preferences": {
+      "message": "ไม่สามารถบันทึกการตั้งค่าได้ กรุณาลองอีกครั้ง"
+   },
+   "error_schedule_one_day": {
+      "message": "คุณต้องเลือกอย่างน้อยหนึ่งวัน"
+   },
+   "error_stop_time": {
+      "message": "เวลาหยุดจะต้องหลังจากเวลาเริ่มต้น"
+   },
+   "example": {
+      "message": "ตัวอย่าง"
+   },
+   "expression_templates": {
+      "message": "เทมเพลตนิพจน์"
+   },
+   "ext_action_failed": {
+      "message": "การดำเนินการล้มเหลว"
+   },
+   "ext_applying": {
+      "message": "กำลังนำไปใช้..."
+   },
+   "ext_approve_action": {
+      "message": "อนุมัติ"
+   },
+   "ext_approve_apply": {
+      "message": "อนุมัติและนำไปใช้"
+   },
+   "ext_auto_generated": {
+      "message": "(สร้างอัตโนมัติ)"
+   },
+   "ext_blacklist": {
+      "message": "รายการห้าม"
+   },
+   "ext_changes_merged": {
+      "message": "การเปลี่ยนแปลงที่จะรวมเข้ากับตัวเลือกท้องถิ่น"
+   },
+   "ext_code": {
+      "message": "โค้ด"
+   },
+   "ext_completed": {
+      "message": "เสร็จสิ้น"
+   },
+   "ext_configuration_review": {
+      "message": "ตรวจสอบการกำหนดค่า"
+   },
+   "ext_created": {
+      "message": "สร้างเมื่อ"
+   },
+   "ext_current": {
+      "message": "ปัจจุบัน"
+   },
+   "ext_custom_script": {
+      "message": "สคริปต์กำหนดเอง"
+   },
+   "ext_custom_script_add_new": {
+      "message": "สคริปต์กำหนดเอง (เพิ่มใหม่)"
+   },
+   "ext_custom_script_add_only": {
+      "message": "การดำเนินการนี้เพิ่มเฉพาะสคริปต์ใหม่เท่านั้น และจะไม่เขียนทับสคริปต์ที่มีอยู่โดยไม่แจ้ง"
+   },
+   "ext_domain_config": {
+      "message": "การกำหนดค่าโดเมน"
+   },
+   "ext_domain_configuration": {
+      "message": "การกำหนดค่าโดเมน"
+   },
+   "ext_empty": {
+      "message": "(ว่าง)"
+   },
+   "ext_enabled": {
+      "message": "เปิดใช้งาน"
+   },
+   "ext_error_action": {
+      "message": "ไม่สามารถ %1 คำขอได้"
+   },
+   "ext_error_storage": {
+      "message": "ไม่สามารถอ่านการตรวจสอบที่รอดำเนินการจากที่เก็บส่วนขยายได้"
+   },
+   "ext_error_sync": {
+      "message": "ไม่สามารถ %1 คำขอได้เนื่องจากข้อผิดพลาดในการซิงค์ที่เก็บ"
+   },
+   "ext_execution_timing": {
+      "message": "เวลาดำเนินการ"
+   },
+   "ext_expires": {
+      "message": "หมดอายุ"
+   },
+   "ext_extension_wide_settings": {
+      "message": "การตั้งค่าส่วนขยาย"
+   },
+   "ext_field": {
+      "message": "ฟิลด์"
+   },
+   "ext_global_options": {
+      "message": "ตัวเลือกส่วนกลาง"
+   },
+   "ext_global_options_changes": {
+      "message": "การเปลี่ยนแปลงตัวเลือกส่วนกลาง"
+   },
+   "ext_id": {
+      "message": "ID"
+   },
+   "ext_injection_type": {
+      "message": "ประเภทการฉีด"
+   },
+   "ext_name": {
+      "message": "ชื่อ"
+   },
+   "ext_new": {
+      "message": "ใหม่"
+   },
+   "ext_new_script_injection": {
+      "message": "การฉีดสคริปต์ใหม่"
+   },
+   "ext_no_changes_detected": {
+      "message": "ไม่พบการเปลี่ยนแปลงที่มีผล"
+   },
+   "ext_no_pending_description": {
+      "message": "ไม่มีการเปลี่ยนแปลงที่รอดำเนินการให้ตรวจสอบ หน้านี้จะปรากฏเมื่อแหล่งภายนอกขอการอัปเดตการกำหนดค่า"
+   },
+   "ext_no_pending_request": {
+      "message": "ไม่มีคำขอที่รอดำเนินการ"
+   },
+   "ext_proposed_changes": {
+      "message": "การเปลี่ยนแปลงที่เสนอ"
+   },
+   "ext_refresh": {
+      "message": "รีเฟรช"
+   },
+   "ext_reject": {
+      "message": "ปฏิเสธ"
+   },
+   "ext_reject_action": {
+      "message": "ปฏิเสธ"
+   },
+   "ext_rejecting": {
+      "message": "กำลังปฏิเสธ..."
+   },
+   "ext_request": {
+      "message": "คำขอ"
+   },
+   "ext_review_description": {
+      "message": "ตรวจสอบการเปลี่ยนแปลงที่เสนอและอนุมัติเฉพาะเมื่อตรงกับความตั้งใจของคุณ ไม่มีอะไรถูกนำไปใช้จนกว่าคุณจะยืนยัน"
+   },
+   "ext_review_pending_changes": {
+      "message": "ตรวจสอบการเปลี่ยนแปลงที่รอดำเนินการ"
+   },
+   "ext_site_specific_rules": {
+      "message": "กฎเฉพาะไซต์"
+   },
+   "ext_source": {
+      "message": "แหล่งที่มา"
+   },
+   "ext_target": {
+      "message": "เป้าหมาย"
+   },
+   "ext_type": {
+      "message": "ประเภท"
+   },
+   "ext_unknown": {
+      "message": "ไม่ทราบ"
+   },
+   "ext_url_pattern": {
+      "message": "รูปแบบ URL"
+   },
+   "ext_whitelist": {
+      "message": "รายการอนุญาต"
+   },
+   "extension_settings": {
+      "message": "การตั้งค่าส่วนขยาย"
+   },
+   "extension_update_dismiss_aria": {
+      "message": "ปิดการแจ้งเตือนอัปเดต"
+   },
+   "extension_update_notification_aria": {
+      "message": "การแจ้งเตือนอัปเดตส่วนขยาย"
+   },
+   "extension_updated_to_version": {
+      "message": "อัปเดตส่วนขยายเป็น v%1 แล้ว"
+   },
+   "feature_is_premium": {
+      "message": "%1 เป็นคุณสมบัติพรีเมียม อัปเกรดเพื่อเข้าถึงเครื่องมือพรีเมียมทั้งหมดและปรับปรุงประสบการณ์ของคุณ"
+   },
+   "find_mtr_msg": {
+      "message": "ค้นหาข้อความการจำลองใน"
+   },
+   "follow_all_redirects": {
+      "message": "ติดตามการเปลี่ยนเส้นทางทั้งหมด"
+   },
+   "follow_all_redirects_desc": {
+      "message": "ดำเนินการรีเฟรชต่อแม้ว่าหน้าเว็บจะเปลี่ยนเส้นทางไปยัง URL อื่น"
+   },
+   "follow_canonical_url": {
+      "message": "ติดตาม URL ที่ยอมรับได้"
+   },
+   "follow_canonical_url_desc": {
+      "message": "ใช้ URL ที่ยอมรับได้ (ต้นฉบับ) ของหน้าเว็บ"
+   },
+   "found": {
+      "message": "พบ"
+   },
+   "frozen_tab_noti_message": {
+      "message": "เบราว์เซอร์แช่แข็งแท็บนี้ในพื้นหลังเพื่อประหยัดหน่วยความจำ การรีเฟรชอัตโนมัติจะดำเนินต่อเมื่อคุณกลับมาที่แท็บนี้"
+   },
+   "frozen_tab_noti_title": {
+      "message": "หยุดการรีเฟรชอัตโนมัติชั่วคราว"
+   },
+   "full_documentation": {
+      "message": "เอกสารฉบับสมบูรณ์"
+   },
+   "full_page": {
+      "message": "รีเฟรชหน้าเต็มจอ"
+   },
+   "full_page_type_desc": {
+      "message": "โหลดหน้าทั้งหมดใหม่เพื่อตรวจสอบการเปลี่ยนแปลง"
+   },
+   "full_page_type_help": {
+      "message": "การรีเฟรชแบบปกติช่วยให้คุณสามารถตรวจสอบการเปลี่ยนแปลงบนหน้าทั้งหมด รวมถึงเนื้อหาและทรัพยากรทั้งหมด"
+   },
+   "go_premium_full_access": {
+      "message": "อัปเกรดเป็นพรีเมียม – การเข้าถึงแบบเต็ม"
+   },
+   "go_to_top": {
+      "description": "Accessible label for scroll-to-top button",
+      "message": "ไปด้านบน"
+   },
+   "go_top": {
+      "message": "บน"
+   },
+   "good": {
+      "message": "ดี"
+   },
+   "grace_period_banner": {
+      "message": "ระยะเวลาผ่อนผันของคุณสิ้นสุดในวันที่ 1 ก.ค. ฟีเจอร์พรีเมียมจะถูกปิดใช้งาน"
+   },
+   "grace_period_consent_body": {
+      "message": "คุณกำลังจะสูญเสียการเข้าถึงฟีเจอร์พรีเมียม คุณแน่ใจหรือไม่ว่าต้องการดำเนินการต่อด้วยแผนฟรี?"
+   },
+   "grace_period_consent_title": {
+      "message": "ดำเนินการต่อโดยไม่มีพรีเมียม?"
+   },
+   "grace_period_dismiss_aria": {
+      "message": "ปิดแจ้งเตือนช่วงผ่อนผัน"
+   },
+   "grace_period_expired_data_safe": {
+      "message": "การตั้งค่าและข้อมูลของคุณปลอดภัยและจะยังคงถูกบันทึกไว้"
+   },
+   "grace_period_expired_description": {
+      "message": "ฟีเจอร์พรีเมียมไม่ได้ใช้งานในบัญชีของคุณอีกต่อไป"
+   },
+   "grace_period_expired_disable_button": {
+      "message": "ปิดใช้งานฟีเจอร์พรีเมียม"
+   },
+   "grace_period_expired_title": {
+      "message": "ระยะเวลาผ่อนผันสิ้นสุดแล้ว"
+   },
+   "grace_period_expired_upgrade_button": {
+      "message": "อัปเกรดเป็น Premium"
+   },
+   "grace_period_expired_upgrade_hint": {
+      "message": "คุณสามารถอัปเกรดได้ทุกเมื่อเพื่อกู้คืนฟีเจอร์พรีเมียมทั้งหมด"
+   },
+   "grace_period_ok_with_free": {
+      "message": "ดำเนินการต่อด้วยฟรี"
+   },
+   "grace_period_upgrade_button": {
+      "message": "คงพรีเมียมไว้"
+   },
+   "great": {
+      "message": "ยอดเยี่ยม!"
+   },
+   "handle_redirects": {
+      "message": "จัดการการเปลี่ยนเส้นทาง"
+   },
+   "hard_refresh": {
+      "message": "รีเฟรชแบบเต็ม"
+   },
+   "hard_refresh_desc": {
+      "message": "ข้ามแคชทุกครั้งที่รีโหลด"
+   },
+   "hard_refresh_help": {
+      "message": "โหลดหน้าเว็บใหม่โดยไม่ต้องพึ่งพาข้อมูลที่แคช"
+   },
+   "highlight_element": {
+      "message": "เน้นองค์ประกอบบนหน้าเว็บ"
+   },
+   "highlight_keyword": {
+      "message": "เน้นคำหลักบนหน้าเว็บ"
+   },
+   "highlight_keyword_desc": {
+      "message": "เน้นคำหลักที่ตรงกัน"
+   },
+   "highlight_keyword_help": {
+      "message": "เมื่อตรวจพบคำหลัก จะเน้นทางสายตาบนหน้าเว็บ"
+   },
+   "hotkeys_label": {
+      "message": "ปุ่มลัด"
+   },
+   "hour": {
+      "message": "ชั่วโมง"
+   },
+   "hours": {
+      "message": "ชั่วโมง"
+   },
+   "increase_aria": {
+      "message": "เพิ่ม"
+   },
+   "individual_plan": {
+      "message": "แผนรายบุคคล"
+   },
+   "individual_plan_starts_at": {
+      "message": "แผนรายบุคคลเริ่มต้นที่ $2.99"
+   },
+   "interaction_help": {
+      "message": "หยุดการรีเฟรชโดยอัตโนมัติเมื่อผู้ใช้โต้ตอบกับหน้าเว็บ"
+   },
+   "interactions_switch_desc": {
+      "message": "สิ่งที่เกิดขึ้นเมื่อใช้หน้าเว็บ"
+   },
+   "interactions_title_opt": {
+      "message": "พฤติกรรมการรีเฟรชในการโต้ตอบของผู้ใช้"
+   },
+   "interval": {
+      "message": "ช่วงเวลา"
+   },
+   "interval_card_custom_duration": {
+      "message": "ระยะเวลากำหนดเอง"
+   },
+   "interval_card_interval": {
+      "message": "ช่วงเวลา"
+   },
+   "interval_card_random_range": {
+      "message": "ช่วงสุ่ม"
+   },
+   "interval_custom_summary": {
+      "message": "ทุก %1ชม %2น %3วิ"
+   },
+   "interval_decrease_by": {
+      "message": "ลด %1"
+   },
+   "interval_edit_custom_aria": {
+      "message": "แก้ไขช่วงเวลาที่กำหนดเอง"
+   },
+   "interval_in_seconds_aria": {
+      "message": "ช่วงเวลาเป็นวินาที"
+   },
+   "interval_increase_by": {
+      "message": "เพิ่ม %1"
+   },
+   "interval_max_sec": {
+      "message": "สูงสุด (วิ)"
+   },
+   "interval_max_sec_aria": {
+      "message": "วินาทีสูงสุด"
+   },
+   "interval_min_sec": {
+      "message": "ต่ำสุด (วิ)"
+   },
+   "interval_min_sec_aria": {
+      "message": "วินาทีต่ำสุด"
+   },
+   "interval_modes_help": {
+      "message": "คงที่: รีเฟรชทุก N วินาที สุ่ม: เปลี่ยนช่วงเวลาในช่วงที่กำหนด กำหนดเอง: ตั้งระยะเวลาแบบชั่วโมง/นาที/วินาที"
+   },
+   "interval_preset_minutes": {
+      "message": "%1น"
+   },
+   "interval_preset_seconds": {
+      "message": "%1ว"
+   },
+   "interval_random_summary": {
+      "message": "รีเฟรชทุก %1–%2 วิ"
+   },
+   "interval_range_to": {
+      "message": "ถึง"
+   },
+   "interval_tab_custom": {
+      "message": "กำหนดเอง"
+   },
+   "interval_tab_fixed": {
+      "message": "คงที่"
+   },
+   "interval_tab_random": {
+      "message": "สุ่ม"
+   },
+   "interval_unit_hrs": {
+      "message": "ชม."
+   },
+   "interval_unit_min": {
+      "message": "นาที"
+   },
+   "interval_unit_sec": {
+      "message": "วิ"
+   },
+   "interval_unit_seconds_header": {
+      "message": "วินาที"
+   },
+   "keyword_input_placeholder": {
+      "message": "ป้อนคำหลัก regex XPath หรือตัวเลือก CSS (แยกหลายรายการด้วยเครื่องหมายจุลภาค)..."
+   },
+   "keywords_to_monitor": {
+      "message": "คำหลักที่ต้องติดตาม"
+   },
+   "kill_notification": {
+      "message": "ปิดเสียงการแจ้งเตือน"
+   },
+   "kill_successfully": {
+      "message": "ปิดสำเร็จ"
+   },
+   "lang_code": {
+      "message": "th"
+   },
+   "language": {
+      "message": "ภาษา"
+   },
+   "lost": {
+      "message": "หาย"
+   },
+   "loved": {
+      "message": "ชอบมาก!"
+   },
+   "match_html_source_desc": {
+      "message": "สแกนโค้ดดิบ — ช้ากว่า ใช้ด้วยความระมัดระวัง"
+   },
+   "match_html_source_label": {
+      "message": "จับคู่แหล่ง HTML"
+   },
+   "match_visible_text_desc": {
+      "message": "สแกนข้อความที่แสดงบนหน้าจอ"
+   },
+   "match_visible_text_label": {
+      "message": "จับคู่ข้อความที่มองเห็น"
+   },
+   "maximum": {
+      "message": "สูงสุด"
+   },
+   "minimum": {
+      "message": "ต่ำสุด"
+   },
+   "minute": {
+      "message": "นาที"
+   },
+   "minutes": {
+      "message": "นาที"
+   },
+   "monitor": {
+      "message": "จำลอง"
+   },
+   "monitor_area_select": {
+      "message": "เลือก"
+   },
+   "monitor_area_selector_desc": {
+      "message": "ป้อนตัวเลือก CSS หรือเลือกองค์ประกอบบนหน้าเว็บ"
+   },
+   "monitor_area_switch_desc": {
+      "message": "จำกัดการค้นหาในพื้นที่เดียว"
+   },
+   "monitor_area_switch_label": {
+      "message": "พื้นที่ตรวจสอบ"
+   },
+   "monitor_custom_area": {
+      "message": "ค้นหาในพื้นที่กำหนดเองของหน้าเว็บ"
+   },
+   "monitor_custom_area_help": {
+      "message": "เปิดใช้เพื่อระบุพื้นที่กำหนดเองของหน้าเว็บสำหรับการจำลองหรือการค้นหา"
+   },
+   "monitor_full_page": {
+      "message": "จำลองหน้าเต็มจอ"
+   },
+   "monitor_full_page_help": {
+      "message": "เปิดใช้เพื่อจำลองการเปลี่ยนแปลงทั่วทั้งหน้าเว็บ"
+   },
+   "monitor_page_for_any_changes": {
+      "message": "ติดตามการเปลี่ยนแปลงหน้าเว็บใด ๆ โดยอัตโนมัติ"
+   },
+   "monitored_area": {
+      "message": "พื้นที่ที่ติดตาม"
+   },
+   "monitoring_active": {
+      "message": "การตรวจสอบใช้งานอยู่"
+   },
+   "monitoring_auto_click_label": {
+      "message": "คลิกอัตโนมัติเมื่อคำสำคัญตรงกัน"
+   },
+   "monitoring_engine_advanced": {
+      "message": "ขั้นสูง"
+   },
+   "monitoring_engine_aria": {
+      "message": "เวอร์ชันเอนจิ้นการตรวจสอบ"
+   },
+   "monitoring_engine_basic": {
+      "message": "พื้นฐาน"
+   },
+   "monitoring_engine_beta": {
+      "message": "เบต้า"
+   },
+   "monitoring_engine_tooltip_desc": {
+      "message": "ใช้งานได้กับทุกตัวเลือก — พบ หาย และกำหนดเอง — ด้วยการตรวจจับที่เร็วและฉลาดขึ้น"
+   },
+   "monitoring_engine_tooltip_title": {
+      "message": "แกนเบต้าใหม่"
+   },
+   "monitoring_keyword_input_aria": {
+      "message": "คำสำคัญที่จะตรวจสอบ"
+   },
+   "monitoring_keywords_empty": {
+      "message": "ยังไม่มีคำสำคัญ — เพิ่มอย่างน้อยหนึ่งคำเพื่อเริ่มการตรวจสอบ"
+   },
+   "monitoring_mode": {
+      "message": "โหมดการจำลอง"
+   },
+   "monitoring_mode_custom_info_highlight": {
+      "message": "การเปลี่ยนแปลงใดๆ"
+   },
+   "monitoring_mode_custom_info_prefix": {
+      "message": "โหมดกำหนดเองจะแจ้งเตือนเมื่อตรวจพบ"
+   },
+   "monitoring_mode_custom_info_suffix": {
+      "message": " ในหน้านี้ — ไม่ต้องใช้คำสำคัญ"
+   },
+   "monitoring_mode_custom_intro": {
+      "message": "ติดตามการเปลี่ยนแปลงหน้าเว็บโดยอัตโนมัติ"
+   },
+   "monitoring_mode_custom_short": {
+      "message": "กำหนดเอง"
+   },
+   "monitoring_mode_found_desc": {
+      "message": "รับการแจ้งเตือนเมื่อคำสำคัญของคุณปรากฏ"
+   },
+   "monitoring_mode_found_short": {
+      "message": "พบ"
+   },
+   "monitoring_mode_help": {
+      "message": "เลือกว่า Auto Refresh Plus ควรแจ้งเตือนคุณเมื่อใด"
+   },
+   "monitoring_mode_lost_desc": {
+      "message": "รับการแจ้งเตือนเมื่อคำสำคัญของคุณหายไป"
+   },
+   "monitoring_mode_lost_short": {
+      "message": "หาย"
+   },
+   "monitoring_remove_keyword_aria": {
+      "message": "ลบ %1"
+   },
+   "monitoring_tip_banner": {
+      "message": "ต้องการการทำงานเพิ่มเติม? ลองระบบอัตโนมัติคลิกหลายครั้ง"
+   },
+   "monitoring_tip_label": {
+      "message": "เคล็ดลับ:"
+   },
+   "new_badge": {
+      "message": "ใหม่"
+   },
+   "no_active_tabs": {
+      "message": "ไม่มีแท็บที่ใช้งาน"
+   },
+   "no_active_tabs_desc": {
+      "message": "ปัจจุบันไม่มีแท็บที่ถูกติดตามหรือรีเฟรช เริ่มรีเฟรชแท็บเพื่อดูที่นี่"
+   },
+   "no_keyword": {
+      "message": "ยังไม่ได้เพิ่มคำหลัก เพิ่มคำหลักเพื่อติดตาม"
+   },
+   "no_tabs_refreshing": {
+      "message": "ไม่มีแท็บที่กำลังรีเฟรช"
+   },
+   "no_templates_match": {
+      "message": "ไม่มีเทมเพลตที่ตรงกับเกณฑ์การค้นหาของคุณ"
+   },
+   "normal_expression": {
+      "message": "นิพจน์ปกติ"
+   },
+   "normal_expression_desc": {
+      "message": "ค้นหาคำหลักบนหน้าเว็บและไม่จำเป็นต้องเริ่มต้นด้วยสัญลักษณ์ใด ๆ เพียงแค่กด Enter บนแต่ละคำหลัก"
+   },
+   "normal_expression_example_1_desc": {
+      "message": "ค้นหาข้อความที่แน่นอน \"มีสต็อก\" บนหน้าเว็บ"
+   },
+   "normal_expression_example_2_desc": {
+      "message": "ค้นหาคำหลักหลายคำ กด Enter หลังจากแต่ละคำหลัก"
+   },
+   "normal_expression_example_3_desc": {
+      "message": "ค้นหาปุ่ม \"เพิ่มลงในรถเข็น\" หรือข้อความบนหน้า"
+   },
+   "not_allowed": {
+      "message": "ไม่อนุญาตให้ใช้ที่นี่"
+   },
+   "noti_msg": {
+      "message": "Auto Refresh Plus ได้ %1 ข้อความเป้าหมายของคุณ"
+   },
+   "noti_msg_title": {
+      "message": "ข้อความเป้าหมาย!"
+   },
+   "notification_domain_info": {
+      "message": "บน %1"
+   },
+   "ok": {
+      "message": "ตกลง"
+   },
+   "okay": {
+      "message": "ตกลง"
+   },
+   "open_link_help": {
+      "message": "เปิดลิงก์ที่คลิกในแท็บเบราว์เซอร์ใหม่"
+   },
+   "open_link_tab": {
+      "message": "เปิดลิงก์ในแท็บใหม่"
+   },
+   "options": {
+      "message": "ตัวเลือก"
+   },
+   "partial_page_desc": {
+      "message": "ตรวจสอบเฉพาะคำขอ AJAX/XHR"
+   },
+   "pause": {
+      "message": "หยุดชั่วคราว"
+   },
+   "pause_on_interact": {
+      "message": "หยุดชั่วคราวเมื่อโต้ตอบ"
+   },
+   "pause_refreshing": {
+      "message": "หยุดรีเฟรชชั่วคราว"
+   },
+   "permissions_attention": {
+      "message": "คำเตือน"
+   },
+   "permissions_btn_grant": {
+      "message": "อนุญาตการเข้าถึงไซต์สำหรับโฮสต์แดชบอร์ด"
+   },
+   "permissions_btn_opening_dialog": {
+      "message": "กำลังเปิดกล่องโต้ตอบสิทธิ์..."
+   },
+   "permissions_btn_refresh": {
+      "message": "รีเฟรชสถานะ"
+   },
+   "permissions_config_missing_body": {
+      "message": "ไม่ได้ระบุในสภาพแวดล้อมการสร้าง สร้างใหม่โดยตั้งเป็นชื่อโฮสต์แดชบอร์ดของคุณ"
+   },
+   "permissions_config_missing_title": {
+      "message": "ไม่มีการกำหนดค่า"
+   },
+   "permissions_error_denied": {
+      "message": "สิทธิ์ถูกปฏิเสธ อนุญาตการเข้าถึงโฮสต์แดชบอร์ดเพื่อให้การซิงค์และฟีเจอร์ที่ฉีดทำงานได้อย่างน่าเชื่อถือ"
+   },
+   "permissions_error_dialog": {
+      "message": "เกิดข้อผิดพลาดขณะเปิดกล่องโต้ตอบสิทธิ์ ลองอีกครั้งหรือตรวจสอบการตั้งค่าเบราว์เซอร์"
+   },
+   "permissions_error_read_state": {
+      "message": "อ่านสถานะสิทธิ์ไซต์ไม่ได้ โหลดหน้านี้ใหม่หรือลองอีกครั้งภายหลัง"
+   },
+   "permissions_go_to_options": {
+      "message": "ไปที่ตัวเลือก"
+   },
+   "permissions_granted_body": {
+      "message": "ส่วนขยายนี้มีสิทธิ์โฮสต์ที่ตรงกับแพลตฟอร์มของคุณแล้ว คุณสามารถปิดแท็บนี้ได้"
+   },
+   "permissions_granted_ok": {
+      "message": "ตกลง"
+   },
+   "permissions_granted_title": {
+      "message": "เปิดการเข้าถึงไซต์แล้ว"
+   },
+   "permissions_heading_dashboard": {
+      "message": "สิทธิ์โฮสต์แดชบอร์ด"
+   },
+   "permissions_intro_dashboard": {
+      "message": "ควบคุมว่าส่วนขยายทำงานบนโดเมนแดชบอร์ด Auto Refresh Plus ได้หรือไม่ (สคริปต์เนื้อหาและการเชื่อมแพลตฟอร์ม)"
+   },
+   "permissions_label_dashboard_host": {
+      "message": "โฮสต์แดชบอร์ด"
+   },
+   "permissions_revoke_hint": {
+      "message": "หากต้องการเพิกถอนภายหลัง ให้ลบไซต์นี้ออกจากรายการการเข้าถึงไซต์ของส่วนขยายในการตั้งค่าเบราว์เซอร์"
+   },
+   "permissions_subtitle": {
+      "message": "การเข้าถึงไซต์แพลตฟอร์ม"
+   },
+   "permissions_warn_body_prefix": {
+      "message": "อนุญาตการเข้าถึงเพื่อให้ส่วนขยายฉีดเข้าแดชบอร์ด สะท้อนค่ากำหนด และรักษาประสบการณ์ให้สอดคล้องกับส่วนขยาย (รูปแบบโฮสต์เดียวกับสคริปต์เนื้อหา:"
+   },
+   "permissions_warn_body_suffix": {
+      "message": ")."
+   },
+   "permissions_warn_title": {
+      "message": "ยังไม่ได้อนุญาตการเข้าถึงไซต์"
+   },
+   "play_alarm_on_captcha_detection": {
+      "message": "เล่นสัญญาณเตือนเมื่อตรวจพบ Captcha"
+   },
+   "play_alarm_on_captcha_detection_help": {
+      "message": "เล่นสัญญาณเสียงเมื่อตรวจพบ captcha"
+   },
+   "play_alarm_on_error_detection": {
+      "message": "เล่นสัญญาณเตือนเมื่อตรวจพบข้อผิดพลาด"
+   },
+   "play_alarm_on_error_detection_help": {
+      "message": "เล่นสัญญาณเสียงเมื่อตรวจพบหน้าข้อผิดพลาด"
+   },
+   "please_add_email_first": {
+      "message": "โปรดเพิ่มอีเมลก่อน"
+   },
+   "please_add_webhooks_first": {
+      "message": "โปรดเพิ่ม Webhooks ก่อน"
+   },
+   "please_rateus": {
+      "message": "โปรดให้คะแนนเรา"
+   },
+   "popup_on_keyword_found": {
+      "message": "การแจ้งเตือนเมื่อพบคำหลัก"
+   },
+   "popup_on_keyword_lost": {
+      "message": "การแจ้งเตือนเมื่อคำหลักหาย"
+   },
+   "predefined_interval": {
+      "message": "ช่วงเวลาที่กำหนดไว้ล่วงหน้า"
+   },
+   "predefined_interval_desc": {
+      "message": "ใช้ค่าเวลาที่ตั้งไว้ล่วงหน้าหรือค่าเริ่มต้น"
+   },
+   "premium_benefits": {
+      "message": "สิทธิประโยชน์พรีเมียม:"
+   },
+   "premium_device_sync": {
+      "message": "จัดการอุปกรณ์ได้ถึง 3 เครื่อง"
+   },
+   "premium_full_access": {
+      "message": "คุณสมบัติพรีเมียมทั้งหมด"
+   },
+   "premium_priority_support": {
+      "message": "โปรไฟล์การตั้งค่าที่แตกต่าง"
+   },
+   "premium_tag_aria": {
+      "message": "ฟีเจอร์พรีเมียม: %1 เปิดประกาศ"
+   },
+   "premium_tag_default_feature": {
+      "message": "ฟีเจอร์"
+   },
+   "premium_tag_tooltip_click": {
+      "message": "คลิกเพื่อดูรายละเอียด"
+   },
+   "premium_usage_body": {
+      "message": "ฟีเจอร์พรีเมียมเปิดใช้งานในแผนฟรี"
+   },
+   "premium_usage_dismiss": {
+      "message": "ปิดการแจ้งเตือน"
+   },
+   "premium_usage_status_label": {
+      "message": "กำลังใช้ฟีเจอร์พรีเมียม"
+   },
+   "preset_interval": {
+      "message": "ช่วงเวลาที่ตั้งไว้ล่วงหน้า"
+   },
+   "pricing": {
+      "message": "ราคา"
+   },
+   "pro_announcement_body": {
+      "message": "Auto Refresh Plus กำลังเปิดตัว PRO ทีละขั้นเพื่อสนับสนุนการพัฒนาระยะยาว ฟีเจอร์ขั้นสูง การซิงค์คลาวด์ การตรวจสอบที่ฉลาดขึ้น และการจัดการหลายอุปกรณ์ โดยยังคงฟีเจอร์รีเฟรชหลักให้ใช้ฟรีสำหรับทุกคน"
+   },
+   "pro_announcement_close_aria": {
+      "message": "ปิดกล่องโต้ตอบ"
+   },
+   "pro_announcement_days_label": {
+      "message": "วัน"
+   },
+   "pro_announcement_days_remaining_aria": {
+      "message": "เหลืออีก %1 วัน"
+   },
+   "pro_announcement_fresh_install_body": {
+      "message": "ปลดล็อก %1 และประสบการณ์พรีเมียมครบครันกับ PRO รวมเครื่องมือขั้นสูง การมอนิเตอร์ที่ฉลาดขึ้น ซิงก์ระบบคลาวด์ และใช้งานข้ามอุปกรณ์"
+   },
+   "pro_announcement_fresh_install_title_suffix": {
+      "message": "เป็น Premium Feature"
+   },
+   "pro_announcement_fresh_install_trial": {
+      "message": "ทดลองฟรี 15 วัน"
+   },
+   "pro_announcement_important_badge": {
+      "message": "สำคัญ"
+   },
+   "pro_announcement_important_notice_aria": {
+      "message": "ประกาศสำคัญ"
+   },
+   "pro_announcement_moving_to_pro": {
+      "message": "กำลังย้ายไป PRO"
+   },
+   "pro_announcement_premium_badge": {
+      "message": "PREMIUM"
+   },
+   "pro_announcement_premium_badge_aria": {
+      "message": "พรีเมียม"
+   },
+   "pro_announcement_rollout_date": {
+      "message": "1 มิถุนายน"
+   },
+   "pro_announcement_rollout_intro": {
+      "message": "เริ่มใช้ตั้งแต่วันที่"
+   },
+   "pro_announcement_rollout_outro": {
+      "message": "."
+   },
+   "pro_announcement_view_pricing": {
+      "message": "ดูราคา — เริ่ม $2.99/เดือน"
+   },
+   "random_interval": {
+      "message": "ช่วงเวลาแบบสุ่ม"
+   },
+   "random_interval_desc": {
+      "message": "รีเฟรชแบบสุ่มระหว่างค่าต่ำสุด–สูงสุด"
+   },
+   "random_interval_help": {
+      "message": "ด้วยการตั้งค่าปัจจุบัน หน้าเว็บจะรีเฟรชแบบสุ่มทุก %1 ถึง %2 วินาที"
+   },
+   "random_time_interval": {
+      "message": "ช่วงการรีเฟรชแบบสุ่ม"
+   },
+   "rate_us": {
+      "message": "ให้คะแนนเรา"
+   },
+   "rateus_title": {
+      "message": "ให้คะแนนส่วนขยายนี้"
+   },
+   "ready_expressions_load_error": {
+      "message": "ไม่สามารถโหลดเทมเพลตได้ โปรดลองอีกครั้งในภายหลัง"
+   },
+   "real_time_detection_during_refresh": {
+      "message": "การตรวจพบแบบเรียลไทม์"
+   },
+   "real_time_detection_switch_desc": {
+      "message": "ตรวจสอบอย่างต่อเนื่องโดยไม่รีโหลดทั้งหมด"
+   },
+   "realtime_help": {
+      "message": "ตรวจพบการเปลี่ยนแปลงอย่างต่อเนื่องระหว่างการรีเฟรช ไม่ใช่เพียงแค่สิ้นสุดช่วงเวลา"
+   },
+   "receive_emails_alerts": {
+      "message": "รับการแจ้งเตือนผ่านอีเมล"
+   },
+   "receive_webhook_alerts": {
+      "message": "รับการแจ้งเตือน Webhook"
+   },
+   "redirection_behavior": {
+      "message": "พฤติกรรมการเปลี่ยนเส้นทาง"
+   },
+   "redirection_behavior_desc": {
+      "message": "จัดการการเปลี่ยนเส้นทางระหว่างรีเฟรช"
+   },
+   "redirection_behavior_help": {
+      "message": "เลือกวิธีที่ Auto Refresh Plus จัดการการเปลี่ยนแปลง URL คุณสามารถล็อกไปยังโดเมนเดิมหรือติดตามการเปลี่ยนเส้นทาง"
+   },
+   "refresh_cycles_completed": {
+      "message": "รอบรีเฟรชที่เสร็จสิ้น"
+   },
+   "refresh_interval_mode": {
+      "message": "โหมดช่วงเวลาการรีเฟรช"
+   },
+   "refresh_limit": {
+      "message": "ขีดจำกัดการรีเฟรช"
+   },
+   "refresh_limit_times": {
+      "message": "ครั้ง"
+   },
+   "refresh_number": {
+      "message": "ตั้งค่าจำนวนการรีเฟรช"
+   },
+   "refresh_number_desc": {
+      "message": "หยุดหลังจำนวนคงที่"
+   },
+   "refresh_number_help": {
+      "message": "ตั้งค่าจำนวนครั้งที่คุณต้องการรีเฟรชหน้าเว็บ"
+   },
+   "refresh_position_hint_body": {
+      "message": "คุณสามารถเปลี่ยนปุ่มรีเฟรชและการตั้งค่า UI อื่นๆ ได้จากเมนูนี้"
+   },
+   "refresh_position_hint_understand": {
+      "message": "เข้าใจแล้ว"
+   },
+   "refresh_top_pause": {
+      "message": "พัก"
+   },
+   "refresh_top_resume": {
+      "message": "ต่อ"
+   },
+   "refresh_top_start": {
+      "message": "เริ่ม"
+   },
+   "refresh_top_stop": {
+      "message": "หยุด"
+   },
+   "refresh_type": {
+      "message": "ประเภทการรีเฟรช"
+   },
+   "refresh_type_help": {
+      "message": "วิธีที่หน้าเว็บถูกโหลดใหม่ก่อนการสแกนแต่ละครั้ง หน้าเต็มโหลด URL ทั้งหมดเหมือนกดรีเฟรช — เชื่อถือได้แต่หนักกว่า XHR เรียกเฉพาะคำขอ AJAX/XHR ในพื้นหลัง (ไม่รีโหลดทั้งหน้า) — เร็วกว่าและเบากว่า เหมาะกับหน้าไดนามิกที่อัปเดตเนื้อหาโดยไม่รีโหลด"
+   },
+   "regex": {
+      "message": "Regex"
+   },
+   "regex_expression": {
+      "message": "นิพจน์ Regex"
+   },
+   "regex_expression_desc": {
+      "message": "Auto Refresh Plus ยังสนับสนุนนิพจน์ Regex และต้องเริ่มต้นด้วยสัญลักษณ์ $ ตามด้วยนิพจน์ regex"
+   },
+   "regex_expression_example_1_desc": {
+      "message": "ตรงกับ \"ผลิตภัณฑ์\" ตามด้วยหลายหลักหรือมากกว่า (product1, product42 ฯลฯ)"
+   },
+   "regex_expression_example_2_desc": {
+      "message": "ตรงกับ \"มีสต็อก\" โดยไม่คำนึงถึงขนาดตัวอักษรโดยใช้แฟล็ก regex"
+   },
+   "regex_expression_example_3_desc": {
+      "message": "ตรงกับรูปแบบราคาเช่น \"$19.99\", \"$299.00\" เป็นต้น"
+   },
+   "remove_email": {
+      "message": "ลบอีเมล"
+   },
+   "restart": {
+      "message": "เริ่มใหม่"
+   },
+   "restart_wait_seconds_desc": {
+      "message": "ตั้งค่าจำนวนวินาทีที่ต้องรอให้การรีเฟรชเริ่มต้นใหม่"
+   },
+   "resume": {
+      "message": "ดำเนินการต่อ"
+   },
+   "resume_refreshing": {
+      "message": "ดำเนินการรีเฟรชต่อ"
+   },
+   "save": {
+      "message": "บันทึก"
+   },
+   "scan_method_title": {
+      "message": "วิธีสแกน"
+   },
+   "sch_description": {
+      "message": "ทำงานอัตโนมัติตามเวลาและวันที่เลือก"
+   },
+   "schedule_add": {
+      "message": "เพิ่มตารางเวลา"
+   },
+   "schedule_auto_disable_aria": {
+      "message": "ปิดใช้งานอัตโนมัติ"
+   },
+   "schedule_auto_stop_aria": {
+      "message": "หยุดอัตโนมัติ"
+   },
+   "schedule_delete_aria": {
+      "message": "ลบตารางเวลา"
+   },
+   "schedule_disconnected": {
+      "message": "ตารางเวลาถูกตัดการเชื่อมต่อ"
+   },
+   "schedule_edit_aria": {
+      "message": "แก้ไขตารางเวลา"
+   },
+   "schedule_enable_aria": {
+      "message": "เปิดใช้งานตารางเวลา"
+   },
+   "schedule_help": {
+      "message": "ตารางเวลาช่วยให้รีเฟรชอัตโนมัติในเวลาและวันที่กำหนด แต่ละตารางสามารถตั้งเวลาเริ่มต้น วันในสัปดาห์ หยุดอัตโนมัติ และปิดใช้งานอัตโนมัติได้"
+   },
+   "schedule_options_label": {
+      "message": "ตัวเลือก"
+   },
+   "schedule_select_days": {
+      "message": "เลือกวัน"
+   },
+   "schedule_start_time_label": {
+      "message": "เวลาเริ่มต้น"
+   },
+   "schedules": {
+      "message": "ตารางเวลา"
+   },
+   "schedules_active_count": {
+      "message": "ใช้งาน %1 รายการ"
+   },
+   "schedules_empty": {
+      "message": "ยังไม่มีตารางเวลา"
+   },
+   "search_templates": {
+      "message": "ค้นหาเทมเพลต..."
+   },
+   "seconds": {
+      "message": "วินาที"
+   },
+   "select_area": {
+      "message": "เลือกพื้นที่"
+   },
+   "select_area_desc": {
+      "message": "ป้อนตัวเลือก CSS เพื่อจำกัดพื้นที่การค้นหา"
+   },
+   "select_css_selector": {
+      "message": "เลือกองค์ประกอบเพื่อตั้งค่าตัวเลือกพื้นที่"
+   },
+   "select_date_time": {
+      "message": "เลือกวันที่และเวลา"
+   },
+   "select_days": {
+      "message": "เลือกวัน"
+   },
+   "select_element": {
+      "message": "เลือกองค์ประกอบ"
+   },
+   "select_language": {
+      "message": "เลือกภาษาของคุณ"
+   },
+   "select_time": {
+      "message": "เลือกเวลา"
+   },
+   "session_expired": {
+      "message": "เซชันของคุณหมดอายุแล้ว โปรดเข้าสู่ระบบอีกครั้ง"
+   },
+   "settings_card_collapse_aria": {
+      "message": "ยุบ %1"
+   },
+   "settings_card_expand_aria": {
+      "message": "ขยาย %1"
+   },
+   "show_tab": {
+      "message": "แสดงแท็บ"
+   },
+   "signup_requirement_body": {
+      "message": "ในไม่ช้าจะต้องมีบัญชีเพื่อใช้งานต่อ"
+   },
+   "signup_requirement_countdown_days": {
+      "message": "เหลือ %1 วันก่อนต้องมีบัญชี"
+   },
+   "signup_requirement_countdown_one_day": {
+      "message": "เหลือ 1 วันก่อนต้องมีบัญชี"
+   },
+   "signup_requirement_days_abbr": {
+      "message": "วัน"
+   },
+   "signup_requirement_dismiss": {
+      "message": "ปิดการแจ้งเตือน"
+   },
+   "signup_requirement_sign_up": {
+      "message": "สมัครฟรี →"
+   },
+   "signup_requirement_status_label": {
+      "message": "การแจ้งเตือนเกี่ยวกับบัญชีที่จำเป็น"
+   },
+   "skip_repeated_keyword": {
+      "message": "ข้ามคำหลักที่ซ้ำ"
+   },
+   "skip_repeated_keyword_desc": {
+      "message": "ละเว้นคำหลักที่ตรวจพบแล้ว"
+   },
+   "skip_repeated_keyword_help": {
+      "message": "ข้ามคำหลักที่ตรวจพบแล้วในการรีเฟรชครั้งต่อไป"
+   },
+   "slave_device_alert_body": {
+      "message": "ส่วนขยายนี้ถูกตั้งค่าเป็นอุปกรณ์รองที่เชื่อมโยง การตั้งค่าและการควบคุมการรีเฟรชอาจสอดคล้องกับอุปกรณ์หลักของคุณ"
+   },
+   "slave_device_alert_dismiss": {
+      "message": "ปิดการแจ้งเตือน"
+   },
+   "slave_device_alert_read_more": {
+      "message": "อ่านเพิ่มเติม"
+   },
+   "slave_device_alert_status_label": {
+      "message": "อุปกรณ์รอง"
+   },
+   "slave_message_alert": {
+      "message": "คุณไม่สามารถแก้ไขตัวเลือกนี้เนื่องจากคุณเป็นผู้ใช้รายย่อย"
+   },
+   "source_find_text": {
+      "message": "แหล่งที่มา (ต้นฉบับ HTML)"
+   },
+   "source_find_text_caution": {
+      "message": "ตัวเลือกนี้มีไว้สำหรับนักพัฒนาเป็นหลัก การสแกน HTML ดิบอาจตรงกับมาร์กอัปที่ซ่อนหรือมองไม่เห็น ซึ่งมักทำให้เกิดการแจ้งเตือนผิดพลาด ช้ากว่าและไม่แนะนำสำหรับการตรวจสอบประจำวัน — เปิดใช้เมื่อการจับคู่ข้อความที่มองเห็นไม่เพียงพอเท่านั้น"
+   },
+   "source_find_text_help": {
+      "message": "แยกข้อความโดยตรงจากซอร์สโค้ด HTML อาจมีเนื้อหาที่ซ่อนหรือแบบไดนามิก"
+   },
+   "start_countdown": {
+      "message": "เริ่มการนับถอยหลัง"
+   },
+   "start_msg": {
+      "message": "เริ่มต้น"
+   },
+   "start_refreshing": {
+      "message": "เริ่มรีเฟรช"
+   },
+   "start_time": {
+      "message": "เวลาเริ่มต้น"
+   },
+   "stop": {
+      "message": "หยุด"
+   },
+   "stop_countdown": {
+      "message": "หยุดการนับถอยหลัง"
+   },
+   "stop_refreshing": {
+      "message": "หยุดรีเฟรช"
+   },
+   "stop_time": {
+      "message": "เวลาหยุด"
+   },
+   "subscription": {
+      "message": "ซับสคริปชัน"
+   },
+   "success": {
+      "message": "บันทึกการตั้งค่าเรียบร้อยแล้ว"
+   },
+   "support_ticket": {
+      "message": "ตั๋วการสนับสนุน"
+   },
+   "supported_expressions": {
+      "message": "นิพจน์ที่รองรับ"
+   },
+   "supported_expressions_msg_monitor": {
+      "message": "นิพจน์ที่รองรับสำหรับการติดตามหน้าเว็บ"
+   },
+   "syntax_css_desc": {
+      "message": "กำหนดเป้าหมายองค์ประกอบด้วยตัวเลือก CSS มาตรฐาน — ตาม id คลาส แอตทริบิวต์ หรือลำดับชั้น"
+   },
+   "syntax_css_ex1_desc": {
+      "message": "เลือกองค์ประกอบที่มี id \"price\""
+   },
+   "syntax_css_ex1_title": {
+      "message": "ตาม id"
+   },
+   "syntax_css_ex2_desc": {
+      "message": "เลือกองค์ประกอบที่มีคลาส \"stock-status\""
+   },
+   "syntax_css_ex2_title": {
+      "message": "ตามคลาส"
+   },
+   "syntax_css_ex3_desc": {
+      "message": "เลือกองค์ประกอบที่ data-testid เป็น \"add-to-cart\""
+   },
+   "syntax_css_ex3_title": {
+      "message": "ตามแอตทริบิวต์"
+   },
+   "syntax_css_title": {
+      "message": "ตัวเลือก CSS"
+   },
+   "syntax_custom_desc": {
+      "message": "เริ่มด้วย ## และรวมคำสำคัญด้วยตรรกะ Boolean AND / OR / NOT"
+   },
+   "syntax_custom_ex1_desc": {
+      "message": "ทริกเกอร์เมื่อ \"In Stock\" และ \"Add to Cart\" ปรากฏทั้งคู่"
+   },
+   "syntax_custom_ex1_title": {
+      "message": "เงื่อนไข AND"
+   },
+   "syntax_custom_ex2_desc": {
+      "message": "ทริกเกอร์เมื่อคำสำคัญใดคำหนึ่งปรากฏ"
+   },
+   "syntax_custom_ex2_title": {
+      "message": "เงื่อนไข OR"
+   },
+   "syntax_custom_ex3_desc": {
+      "message": "ทริกเกอร์เมื่อมี \"In Stock\" แต่ไม่มี \"Sold Out\""
+   },
+   "syntax_custom_ex3_title": {
+      "message": "เงื่อนไข NOT"
+   },
+   "syntax_custom_title": {
+      "message": "นิพจน์กำหนดเอง"
+   },
+   "syntax_norm_ex1_desc": {
+      "message": "ตรงกับข้อความ \"In Stock\" ที่แน่นอนทุกที่บนหน้า"
+   },
+   "syntax_norm_ex1_title": {
+      "message": "In Stock"
+   },
+   "syntax_norm_ex2_desc": {
+      "message": "หลายคำสำคัญ — กด Enter หลังแต่ละคำ"
+   },
+   "syntax_norm_ex2_title": {
+      "message": "Available, Out of Stock"
+   },
+   "syntax_norm_ex3_desc": {
+      "message": "ตรงกับปุ่มหรือข้อความ \"Add to Cart\" บนหน้า"
+   },
+   "syntax_norm_ex3_title": {
+      "message": "Add to Cart"
+   },
+   "syntax_regex_desc": {
+      "message": "ห่อด้วย /.../ เพื่อจับคู่รูปแบบข้อความ เหมาะกับราคา SKU และการจับคู่ยืดหยุ่น"
+   },
+   "syntax_regex_ex1_desc": {
+      "message": "ตรงกับจำนวนดอลลาร์เช่น $19.99 หรือ $1,299.00"
+   },
+   "syntax_regex_ex1_title": {
+      "message": "จับคู่ราคา"
+   },
+   "syntax_regex_ex2_desc": {
+      "message": "ตรงกับ \"In Stock\" หรือ \"in stock\" (ไม่สนตัวพิมพ์)"
+   },
+   "syntax_regex_ex2_title": {
+      "message": "สถานะสต็อก"
+   },
+   "syntax_regex_ex3_desc": {
+      "message": "ตรงกับ SKU ผลิตภัณฑ์เช่น SKU-12345"
+   },
+   "syntax_regex_ex3_title": {
+      "message": "รหัส SKU"
+   },
+   "syntax_regex_title": {
+      "message": "นิพจน์ปกติ"
+   },
+   "syntax_text_matching_desc": {
+      "message": "ค้นหาคำสำคัญธรรมดาบนหน้าเว็บ ไม่ต้องใช้สัญลักษณ์ — กด Enter หลังแต่ละคำ"
+   },
+   "syntax_text_matching_title": {
+      "message": "การจับคู่ข้อความ"
+   },
+   "syntax_xpath_desc": {
+      "message": "เริ่มด้วย // เพื่อกำหนดเป้าหมายองค์ประกอบตามตำแหน่งในโครงสร้าง HTML"
+   },
+   "syntax_xpath_ex1_desc": {
+      "message": "เลือกองค์ประกอบใดก็ได้ที่มีคลาส \"price\""
+   },
+   "syntax_xpath_ex1_title": {
+      "message": "ตามคลาส"
+   },
+   "syntax_xpath_ex2_desc": {
+      "message": "เลือกปุ่มที่มีข้อความ \"Add to Cart\""
+   },
+   "syntax_xpath_ex2_title": {
+      "message": "ปุ่มตามข้อความ"
+   },
+   "syntax_xpath_ex3_desc": {
+      "message": "เลือกองค์ประกอบที่มี id \"availability\""
+   },
+   "syntax_xpath_ex3_title": {
+      "message": "ตาม id"
+   },
+   "syntax_xpath_title": {
+      "message": "นิพจน์ XPath"
+   },
+   "tabs": {
+      "message": "แท็บ"
+   },
+   "tabs_alerts": {
+      "message": "แท็บที่มีการแจ้งเตือน"
+   },
+   "tabs_refreshing": {
+      "message": "แท็บที่ใช้งานกำลังรีเฟรช"
+   },
+   "template_add_to_cart_button": {
+      "message": "ปุ่มเพิ่มลงตะกร้า"
+   },
+   "template_add_to_cart_button_desc": {
+      "message": "ตรงกับปุ่มตะกร้าผ่าน test id"
+   },
+   "template_any_stock_term": {
+      "message": "คำสต็อกใดก็ได้"
+   },
+   "template_any_stock_term_desc": {
+      "message": "ทริกเกอร์เมื่อมีคำสำคัญสต็อกใดคำหนึ่ง"
+   },
+   "template_buy_button": {
+      "message": "ปุ่มซื้อ"
+   },
+   "template_buy_button_desc": {
+      "message": "ค้นหาปุ่มซื้อหรือซื้อ"
+   },
+   "template_email_address": {
+      "message": "ที่อยู่อีเมล"
+   },
+   "template_email_address_desc": {
+      "message": "ตรงกับที่อยู่อีเมล"
+   },
+   "template_expression_description": {
+      "message": "นิพจน์เทมเพลตสำหรับการติดตามหน้าเว็บ"
+   },
+   "template_in_stock_buyable": {
+      "message": "มีสต็อกและซื้อได้"
+   },
+   "template_in_stock_buyable_desc": {
+      "message": "แจ้งเตือนเมื่อมีสต็อกและซื้อได้เท่านั้น"
+   },
+   "template_in_stock_not_sold_out": {
+      "message": "มีสต็อก ไม่หมด"
+   },
+   "template_in_stock_not_sold_out_desc": {
+      "message": "มีสต็อกโดยไม่รวมข้อความหมด"
+   },
+   "template_input_field_value": {
+      "message": "ค่าฟิลด์ป้อนข้อมูล"
+   },
+   "template_input_field_value_desc": {
+      "message": "ค้นหาป้อนข้อมูลกับค่าการค้นหา"
+   },
+   "template_phone_number": {
+      "message": "หมายเลขโทรศัพท์"
+   },
+   "template_phone_number_desc": {
+      "message": "ตรงกับรูปแบบโทรศัพท์ (123) 456-7890"
+   },
+   "template_price_changes": {
+      "message": "การเปลี่ยนแปลงราคา"
+   },
+   "template_price_changes_desc": {
+      "message": "ติดตามคำหลักที่เกี่ยวข้องกับราคา"
+   },
+   "template_price_detector": {
+      "message": "ตรวจจับราคา"
+   },
+   "template_price_detector_desc": {
+      "message": "ตรงกับราคาเป็นดอลลาร์เช่น $19.99"
+   },
+   "template_price_element": {
+      "message": "องค์ประกอบราคา"
+   },
+   "template_price_element_desc": {
+      "message": "ค้นหาองค์ประกอบที่มีคลาสราคา"
+   },
+   "template_price_format": {
+      "message": "รูปแบบราคา"
+   },
+   "template_price_format_desc": {
+      "message": "ตรงกับราคาเช่น $19.99"
+   },
+   "template_product_availability": {
+      "message": "ความพร้อมใช้งานของผลิตภัณฑ์"
+   },
+   "template_product_availability_desc": {
+      "message": "ติดตามสถานะความพร้อมใช้งานของผลิตภัณฑ์"
+   },
+   "template_product_id_pattern": {
+      "message": "รูปแบบ ID ผลิตภัณฑ์"
+   },
+   "template_product_id_pattern_desc": {
+      "message": "ตรงกับ ID ผลิตภัณฑ์เช่น product-123"
+   },
+   "template_product_status": {
+      "message": "สถานะผลิตภัณฑ์"
+   },
+   "template_product_status_desc": {
+      "message": "ผลิตภัณฑ์ใหม่หรือรุ่นจำกัด"
+   },
+   "template_restock_alert": {
+      "message": "แจ้งเตือนเติมสต็อก"
+   },
+   "template_restock_alert_desc": {
+      "message": "จับช่วงเวลาที่สินค้ากลับมา"
+   },
+   "template_shipping_options": {
+      "message": "ตัวเลือกการจัดส่ง"
+   },
+   "template_shipping_options_desc": {
+      "message": "ตัวเลือกการจัดส่งที่รวดเร็วพร้อมใช้งาน"
+   },
+   "template_shopping_actions": {
+      "message": "การดำเนินการช้อปปิ้ง"
+   },
+   "template_shopping_actions_desc": {
+      "message": "ติดตามความพร้อมใช้งานของปุ่มช้อปปิ้ง"
+   },
+   "template_stock_and_price": {
+      "message": "สต็อก และราคา"
+   },
+   "template_stock_and_price_desc": {
+      "message": "สินค้าที่มีสต็อก และลดราคา"
+   },
+   "template_stock_status_element": {
+      "message": "องค์ประกอบสถานะสต็อก"
+   },
+   "template_stock_status_element_desc": {
+      "message": "กำหนดเป้าหมายองค์ประกอบตามคลาส"
+   },
+   "template_stock_status_text": {
+      "message": "ข้อความสถานะสต็อก"
+   },
+   "template_stock_status_text_desc": {
+      "message": "ค้นหาข้อความที่มี \"มีสต็อก\""
+   },
+   "template_ticket_availability": {
+      "message": "ความพร้อมตั๋ว"
+   },
+   "template_ticket_availability_desc": {
+      "message": "เฝ้าดูเมื่อตั๋วเปิดขาย"
+   },
+   "templates": {
+      "message": "เทมเพลต"
+   },
+   "templates_add_to_keywords": {
+      "message": "เพิ่มในคำสำคัญ"
+   },
+   "templates_ai_aria": {
+      "message": "ตัวสร้างนิพจน์ AI"
+   },
+   "templates_ai_label": {
+      "message": "AI"
+   },
+   "templates_back_to_templates": {
+      "message": "กลับไปเทมเพลต"
+   },
+   "templates_close_aria": {
+      "message": "ปิดกล่องโต้ตอบ"
+   },
+   "templates_copy_aria": {
+      "message": "คัดลอกนิพจน์ %1"
+   },
+   "templates_header_templates_aria": {
+      "message": "กลับไปเทมเพลต"
+   },
+   "templates_ready_made": {
+      "message": "สำเร็จรูป"
+   },
+   "templates_syntax_aria": {
+      "message": "ความช่วยเหลือไวยากรณ์"
+   },
+   "templates_syntax_button": {
+      "message": "ไวยากรณ์"
+   },
+   "templates_tooltip": {
+      "message": "ดูเทมเพลตการมอนิเตอร์สำเร็จรูป"
+   },
+   "templates_type_css": {
+      "message": "CSS"
+   },
+   "templates_type_custom": {
+      "message": "กำหนดเอง"
+   },
+   "templates_type_normal": {
+      "message": "ปกติ"
+   },
+   "templates_type_regex": {
+      "message": "Regex"
+   },
+   "templates_type_xpath": {
+      "message": "XPath"
+   },
+   "text": {
+      "message": "ข้อความ"
+   },
+   "thankyou_msg": {
+      "message": "ขอบคุณสำหรับคำติชม"
+   },
+   "this_is_not_valid_css_selector": {
+      "message": "นี่ไม่ใช่ตัวเลือก CSS ที่ถูกต้อง"
+   },
+   "thnakyou_desc": {
+      "message": "คำติชมของคุณช่วยให้เราปรับปรุง"
+   },
+   "time": {
+      "message": "เวลา"
+   },
+   "time_has_passed": {
+      "message": "เวลาผ่านไป"
+   },
+   "time_is_invalid": {
+      "message": "เวลาที่เลือกไม่ถูกต้อง"
+   },
+   "timer": {
+      "message": "ตัวจับเวลา"
+   },
+   "timer_position": {
+      "message": "ตำแหน่งตัวจับเวลา"
+   },
+   "timer_position_bottom_left": {
+      "message": "ล่างซ้าย"
+   },
+   "timer_position_bottom_right": {
+      "message": "ล่างขวา"
+   },
+   "timer_position_center": {
+      "message": "กลาง"
+   },
+   "timer_position_top_left": {
+      "message": "บนซ้าย"
+   },
+   "timer_position_top_right": {
+      "message": "บนขวา"
+   },
+   "upgrade": {
+      "message": "อัปเกรด"
+   },
+   "use_default": {
+      "message": "ใช้คำหลักเริ่มต้น"
+   },
+   "user_menu_account_aria": {
+      "message": "เมนูบัญชี"
+   },
+   "user_menu_avatar_alt": {
+      "message": "อวตารผู้ใช้"
+   },
+   "user_menu_classic_view": {
+      "message": "Classic"
+   },
+   "user_menu_classic_view_aria": {
+      "message": "มุมมอง Classic"
+   },
+   "user_menu_command_view": {
+      "message": "Command"
+   },
+   "user_menu_command_view_aria": {
+      "message": "มุมมอง Command"
+   },
+   "user_menu_focus_mode": {
+      "message": "โหมดโฟกัส"
+   },
+   "user_menu_focus_mode_aria": {
+      "message": "สลับโหมดโฟกัส"
+   },
+   "user_menu_focus_mode_tooltip": {
+      "message": "ซ่อนองค์ประกอบ UI เพิ่มเติม"
+   },
+   "user_menu_refresh_position": {
+      "message": "ปุ่มด้านบน"
+   },
+   "user_menu_refresh_position_aria": {
+      "message": "แสดงปุ่มรีเฟรชด้านบน"
+   },
+   "user_menu_refresh_position_tooltip": {
+      "message": "แสดงปุ่มรีเฟรชในส่วนหัว"
+   },
+   "user_menu_theme_dark_aria": {
+      "message": "ธีมมืด"
+   },
+   "user_menu_theme_light_aria": {
+      "message": "ธีมสว่าง"
+   },
+   "user_menu_theme_system_aria": {
+      "message": "ธีมระบบ"
+   },
+   "user_menu_ui_cosmetics": {
+      "message": "ปรับแต่ง UI"
+   },
+   "user_menu_view": {
+      "message": "มุมมอง"
+   },
+   "user_menu_view_aria": {
+      "message": "เลือกโหมดมุมมอง"
+   },
+   "view_pricing_plans": {
+      "message": "ดูแผนราคา"
+   },
+   "visual_find_text": {
+      "message": "ทางสายตา (ข้อความหน้าจอ)"
+   },
+   "visual_find_text_help": {
+      "message": "แยกข้อความที่มองเห็นได้บนหน้าจออย่างที่มนุษย์เห็น"
+   },
+   "visual_timer_desc": {
+      "message": "แสดงนับถอยหลังบนหน้า"
+   },
+   "visual_timer_done": {
+      "message": "เสร็จแล้ว"
+   },
+   "visual_timer_help": {
+      "message": "ตัวจับเวลาแสดงภาพแสดงการนับถอยหลังโดยตรงบนหน้าเว็บ ซึ่งแสดงเวลาคงเหลือจนถึงการรีเฟรชครั้งถัดไปและมีส่วนควบคุมเพื่อหยุดชั่วคราว ดำเนินการต่อ หรือตั้งค่าตัวจับเวลาใหม่"
+   },
+   "visual_timer_live_monitor": {
+      "message": "มอนิเตอร์สด"
+   },
+   "visual_timer_msg": {
+      "message": "แสดงตัวจับเวลาแสดงภาพ"
+   },
+   "visual_timer_next_refresh_in": {
+      "message": "รีเฟรชครั้งถัดไปใน"
+   },
+   "visual_timer_pause_aria": {
+      "message": "หยุดตัวจับเวลาชั่วคราว"
+   },
+   "visual_timer_paused": {
+      "message": "หยุดชั่วคราว"
+   },
+   "visual_timer_restart_tooltip": {
+      "message": "เริ่มนับถอยหลังใหม่"
+   },
+   "visual_timer_resume_aria": {
+      "message": "เริ่มตัวจับเวลา"
+   },
+   "visual_timer_running": {
+      "message": "กำลังทำงาน"
+   },
+   "visual_timer_stop_aria": {
+      "message": "หยุดตัวจับเวลา"
+   },
+   "wait_content_load": {
+      "message": "รอให้เนื้อหาโหลด"
+   },
+   "wait_content_load_desc": {
+      "message": "หน่วงการสแกนหลังรีเฟรชแต่ละครั้ง"
+   },
+   "wait_content_load_help": {
+      "message": "รอก่อนการตรวจพบเพื่ออนุญาตให้เนื้อหาโหลดเต็มที่"
+   },
+   "warning_random_interval": {
+      "message": "ค่าสูงสุดต้องมากกว่าค่าต่ำสุดสำหรับช่วงเวลาแบบสุ่มที่จะทำงานอย่างถูกต้อง"
+   },
+   "webhook_alert_help": {
+      "message": "Webhooks อนุญาตให้คุณส่งการแจ้งเตือนไปยังแอปพลิเคชันหรือบริการอื่นเมื่อตรวจพบการเปลี่ยนแปลง"
+   },
+   "webhook_alerts_switch_desc": {
+      "message": "ส่ง payload ไปยัง endpoint ของคุณ"
+   },
+   "webhooks": {
+      "message": "Webhooks"
+   },
+   "webhooks_tooltip": {
+      "message": "เปิดการตั้งค่า webhook สำหรับการแจ้งเตือน"
+   },
+   "whats_new": {
+      "message": "มีอะไรใหม่"
+   },
+   "whats_new_close_aria": {
+      "message": "ปิดมีอะไรใหม่"
+   },
+   "whats_new_latest": {
+      "message": "ล่าสุด"
+   },
+   "whats_new_load_error": {
+      "message": "ไม่สามารถโหลดบันทึกการเผยแพร่ได้ โปรดลองอีกครั้งในภายหลัง"
+   },
+   "whats_new_subtitle": {
+      "message": "บันทึกการเผยแพร่ Auto Refresh Plus"
+   },
+   "whats_new_thank_you": {
+      "message": "ขอบคุณที่ใช้ Auto Refresh Plus"
+   },
+   "window_focus_on_detection": {
+      "message": "โฟกัสหน้าต่างเมื่อตรวจพบคำหลัก"
+   },
+   "window_focus_on_detection_desc": {
+      "message": "นำแท็บมาด้านหน้าเมื่อตรงกัน"
+   },
+   "window_focus_on_detection_help": {
+      "message": "เปิดใช้โฟกัสหน้าต่างเมื่อ Page Monitor พบหรือสูญเสียคำหลัก ฟีเจอร์นี้ช่วยให้หน้าต่างโดยอัตโนมัติมาอยู่ด้านหน้าของหน้าจออย่างอัตโนมัติเมื่อตรวจพบหรือสูญเสียคำหลักที่ระบุ"
+   },
+   "without_full": {
+      "message": "การรีเฟรช XHR"
+   },
+   "xhr_page_help": {
+      "message": "ดึงข้อมูลจาก URL โดยไม่ต้องรีเฟรชหน้าเต็มจอ ซึ่งช่วยให้หน้าเว็บอัปเดตเฉพาะส่วนหนึ่งของหน้าโดยไม่ขัดขวางการทำงานของผู้ใช้"
+   },
+   "xhr_request_autoclick": {
+      "message": "องค์ประกอบคลิกอัตโนมัติ"
+   },
+   "xhr_request_autoclick_desc": {
+      "message": "คลิกองค์ประกอบหน้าเว็บที่คุณต้องการให้คลิกอัตโนมัติ"
+   },
+   "xpath": {
+      "message": "XPath"
+   },
+   "xpath_expression": {
+      "message": "นิพจน์ XPath"
+   },
+   "xpath_expression_desc": {
+      "message": "ภาษา XML Paths ให้วิธีที่ยืดหยุ่นในการกล่าวถึงส่วนต่างๆ ของเอกสาร จะต้องเริ่มต้นด้วยสัญลักษณ์ @@ สองตัว"
+   },
+   "xpath_expression_example_1_desc": {
+      "message": "ค้นหาองค์ประกอบใด ๆ ที่มีข้อความ \"มีสต็อก\""
+   },
+   "xpath_expression_example_2_desc": {
+      "message": "ค้นหาองค์ประกอบป้อนข้อมูลที่มีแอตทริบิวต์ค่ามี \"ค้นหา\""
+   },
+   "xpath_expression_example_3_desc": {
+      "message": "ค้นหาองค์ประกอบ div ที่มีคลาส \"ราคา\" ซึ่งมีสัญลักษณ์ \"$\""
+   },
+   "your_expressions": {
+      "message": "นิพจน์ของคุณ"
+   },
+   "your_expressions_add_new": {
+      "message": "เพิ่มใหม่"
+   },
+   "your_expressions_define_placeholder": {
+      "message": "กำหนดนิพจน์ (เช่น มีสินค้า หรือ ##มีสินค้า AND เพิ่มลงตะกร้า)"
+   },
+   "your_expressions_delete_aria": {
+      "message": "ลบ %1"
+   },
+   "your_expressions_edit_aria": {
+      "message": "แก้ไข %1"
+   },
+   "your_expressions_empty": {
+      "message": "ยังไม่มีนิพจน์ที่บันทึกไว้ แตะ \"เพิ่มใหม่\" เพื่อสร้าง"
+   },
+   "your_expressions_name_placeholder": {
+      "message": "ชื่อนิพจน์ (เช่น การแจ้งเตือนสินค้าเข้า)"
+   },
+   "your_expressions_yours_badge": {
+      "message": "ของคุณ"
+   }
+}

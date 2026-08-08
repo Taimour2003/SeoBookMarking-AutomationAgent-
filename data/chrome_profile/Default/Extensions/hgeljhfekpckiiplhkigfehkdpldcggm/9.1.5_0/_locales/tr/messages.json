@@ -1,0 +1,2186 @@
+{
+   "action_on_detection": {
+      "message": "Algılamada İşlem"
+   },
+   "action_report_bug_feedback": {
+      "message": "Hata bildir / Geri bildirim"
+   },
+   "action_stop_refresh": {
+      "message": "Yenilemeyi Durdur"
+   },
+   "active_tabs_alerts_help": {
+      "message": "Monitör uyarısı tetikleyen sekmeler. Tek tek kapatın veya tümünü temizleyin."
+   },
+   "active_tabs_alerts_title": {
+      "message": "Uyarılar"
+   },
+   "active_tabs_clear_all": {
+      "message": "tümünü temizle"
+   },
+   "active_tabs_paused": {
+      "message": "duraklatıldı"
+   },
+   "active_tabs_refreshing_help": {
+      "message": "Otomatik yenilenen sekmeler. Duraklatmak, yeniden başlatmak veya durdurmak için üzerine gelin."
+   },
+   "active_tabs_refreshing_title": {
+      "message": "Yenileniyor"
+   },
+   "active_tabs_stop_all": {
+      "message": "tümünü durdur"
+   },
+   "active_tabs_time_day_ago": {
+      "message": "%1 gün önce"
+   },
+   "active_tabs_time_days_ago": {
+      "message": "%1 gün önce"
+   },
+   "active_tabs_time_hour_ago": {
+      "message": "%1 saat önce"
+   },
+   "active_tabs_time_hours_ago": {
+      "message": "%1 saat önce"
+   },
+   "active_tabs_time_just_now": {
+      "message": "Az önce"
+   },
+   "active_tabs_time_min_ago": {
+      "message": "%1 dk önce"
+   },
+   "active_tabs_time_sec_ago": {
+      "message": "%1 sn önce"
+   },
+   "add": {
+      "message": "Ekle"
+   },
+   "add_email": {
+      "message": "E-posta Ekle"
+   },
+   "add_email_tooltip": {
+      "message": "Uyarı almak için e-posta ekleyin"
+   },
+   "add_keywords": {
+      "message": "Varsayılan Hedef Anahtar Kelimeler Ekle"
+   },
+   "add_new": {
+      "message": "Yeni Ekle"
+   },
+   "added": {
+      "message": "Eklendi"
+   },
+   "alert_settings": {
+      "message": "Uyarı Ayarları"
+   },
+   "alert_when_any_change_detected": {
+      "message": "Bu web sayfasında herhangi bir değişiklik algılandığında Auto Refresh Plus sizi uyaracaktır"
+   },
+   "alert_when_keyword_appears": {
+      "message": "Anahtar kelimeniz göründüğünde bildirim alın."
+   },
+   "alert_when_keyword_disappears": {
+      "message": "Anahtar kelimeniz kaybolduğunda bildirim alın."
+   },
+   "all_days": {
+      "message": "Tüm Günler"
+   },
+   "any": {
+      "message": "Herhangi Biri"
+   },
+   "app_description": {
+      "description": "The description of extension",
+      "message": "Sayfayı otomatik olarak güçlü sayfa izleme özellikleri ile yenileyin."
+   },
+   "app_name": {
+      "description": "The extension name",
+      "message": "Auto Refresh Plus | Page Monitor"
+   },
+   "appearance": {
+      "message": "Görünüm"
+   },
+   "apply": {
+      "message": "Uygula"
+   },
+   "are_you_sure": {
+      "message": "Silmek istediğinizden emin misiniz?"
+   },
+   "ast": {
+      "message": "Geri Sayım Zamanlayıcısı"
+   },
+   "auto_click_element_aria": {
+      "message": "Otomatik tıklama öğesi seçicisi"
+   },
+   "auto_click_element_label": {
+      "message": "otomatik tıklama öğesi"
+   },
+   "auto_click_help": {
+      "message": "İzlenen anahtar kelime bir bağlantı içeriyorsa bağlantıya otomatik olarak tıklayın."
+   },
+   "auto_click_targets_desc": {
+      "message": "Her yenilemeden sonra veya anahtar kelime eşleşince öğelere tıkla"
+   },
+   "auto_click_targets_label": {
+      "message": "Otomatik tıklama hedefleri"
+   },
+   "auto_clicker": {
+      "message": "Otomatik Tıklayıcı"
+   },
+   "auto_clicker_msg1": {
+      "message": "İzleme anahtar kelimesine otomatik tıklama"
+   },
+   "auto_disable_on_first": {
+      "message": "İlk çalıştırmadan sonra otomatik devre dışı bırak"
+   },
+   "auto_disable_on_first_desc": {
+      "message": "Bu zamanlama bir kez çalıştıktan sonra devre dışı bırakın"
+   },
+   "auto_stop_schedule": {
+      "message": "Otomatik Durdur"
+   },
+   "auto_stop_schedule_desc": {
+      "message": "örn. 10–11 arası yenileme"
+   },
+   "auto_tasks_add_another": {
+      "message": "Başka tıklama ekle"
+   },
+   "auto_tasks_add_element": {
+      "message": "Öğe ekle"
+   },
+   "auto_tasks_empty": {
+      "message": "Henüz öğe eklenmedi"
+   },
+   "auto_tasks_help": {
+      "message": "Sayfadaki seçili öğelere otomatik olarak tıklar."
+   },
+   "auto_tasks_label": {
+      "message": "Ek öğelere tıkla"
+   },
+   "auto_tasks_new_tab_short": {
+      "message": "Yeni sekme"
+   },
+   "auto_tasks_open_in_new_tab": {
+      "message": "Bağlantıysa yeni sekmede aç"
+   },
+   "auto_tasks_open_new_tab_aria": {
+      "message": "Tıklama %1 yeni sekmede aç"
+   },
+   "auto_tasks_options": {
+      "message": "Seçenekler"
+   },
+   "auto_tasks_pick": {
+      "message": "Seç"
+   },
+   "auto_tasks_remove": {
+      "message": "Kaldır"
+   },
+   "auto_tasks_remove_target_aria": {
+      "message": "Tıklama hedefi %1 kaldır"
+   },
+   "auto_tasks_selector_aria": {
+      "message": "Tıklama hedefi %1 için CSS seçici"
+   },
+   "auto_tasks_set_selector": {
+      "message": "Seçici ayarla…"
+   },
+   "auto_tasks_toggle_target_aria": {
+      "message": "Tıklama hedefi %1 aç/kapat"
+   },
+   "auto_tasks_trigger": {
+      "message": "Tetikleyici"
+   },
+   "auto_tasks_trigger_each_refresh": {
+      "message": "Her yenilemede"
+   },
+   "auto_tasks_trigger_on_detection": {
+      "message": "Uyarı tetiklendiğinde"
+   },
+   "auto_tasks_trigger_on_detection_short": {
+      "message": "Algılandığında"
+   },
+   "auto_tasks_trigger_refresh_short": {
+      "message": "Yenile"
+   },
+   "bad": {
+      "message": "Kötü"
+   },
+   "behavior_on_interaction": {
+      "message": "Etkileşimde Davranış"
+   },
+   "bulk_keywords_results": {
+      "message": "Toplu Anahtar Kelimeler Sonuçları"
+   },
+   "calendar_weekday_fri": {
+      "message": "Cu"
+   },
+   "calendar_weekday_mon": {
+      "message": "Pt"
+   },
+   "calendar_weekday_sat": {
+      "message": "Ct"
+   },
+   "calendar_weekday_sun": {
+      "message": "Pz"
+   },
+   "calendar_weekday_thu": {
+      "message": "Pe"
+   },
+   "calendar_weekday_tue": {
+      "message": "Sa"
+   },
+   "calendar_weekday_wed": {
+      "message": "Ça"
+   },
+   "cancel": {
+      "message": "İptal"
+   },
+   "captcha_detection": {
+      "message": "Captcha Tespiti"
+   },
+   "caution_badge": {
+      "message": "Dikkat"
+   },
+   "choose_interval": {
+      "message": "Zaman Aralığı Seçin"
+   },
+   "clear": {
+      "message": "Temizle"
+   },
+   "clear_all": {
+      "message": "Tümünü Temizle"
+   },
+   "clear_all_keywords": {
+      "message": "Tüm Anahtar Kelimeleri Temizle"
+   },
+   "clear_all_keywords_desc": {
+      "message": "Tüm anahtar kelimeleri temizlemek istediğinizden emin misiniz?"
+   },
+   "click_automation_title": {
+      "message": "Tıklama otomasyonu"
+   },
+   "close": {
+      "message": "Kapat"
+   },
+   "continue": {
+      "message": "Devam Et"
+   },
+   "continue_refreshing_after_alert": {
+      "message": "Uyarıdan Sonra Yenilemeye Devam Et"
+   },
+   "continue_refreshing_help": {
+      "message": "Anahtar kelime algılaması üzerine uyarı tetikleyin ancak her zamanki gibi yenilemeye devam edin."
+   },
+   "continue_refreshing_switch_desc": {
+      "message": "Uyarıdan sonra yenilemeye devam et"
+   },
+   "copy_expression": {
+      "message": "İfadeyi Kopyala"
+   },
+   "copy_to_clipboard": {
+      "message": "Panoya Kopyala"
+   },
+   "countdown_decrease_hours": {
+      "message": "Saati azalt"
+   },
+   "countdown_decrease_min": {
+      "message": "Dakikayı azalt"
+   },
+   "countdown_decrease_sec": {
+      "message": "Saniyeyi azalt"
+   },
+   "countdown_duration_label": {
+      "message": "geri sayım süresi"
+   },
+   "countdown_fires_after": {
+      "message": "%1 sonra çalışır"
+   },
+   "countdown_hms_header": {
+      "message": "s : d : sn"
+   },
+   "countdown_hours_value": {
+      "message": "Saat değeri"
+   },
+   "countdown_increase_hours": {
+      "message": "Saati artır"
+   },
+   "countdown_increase_min": {
+      "message": "Dakikayı artır"
+   },
+   "countdown_increase_sec": {
+      "message": "Saniyeyi artır"
+   },
+   "countdown_min_value": {
+      "message": "Dakika değeri"
+   },
+   "countdown_sec_value": {
+      "message": "Saniye değeri"
+   },
+   "countdown_target_date_time": {
+      "message": "hedef tarih ve saat"
+   },
+   "countdown_timer_modes_help": {
+      "message": "Zamanlayıcının nasıl çalışacağını seçin: Süre saat/dakika/saniyeden geri sayar; Tarih ve Saat seçtiğiniz anda bir kez çalışır."
+   },
+   "countdown_triggers_once": {
+      "message": "seçilen anda bir kez tetiklenir"
+   },
+   "countdown_unit_hours": {
+      "message": "Saat"
+   },
+   "countdown_unit_min": {
+      "message": "Dk"
+   },
+   "countdown_unit_sec": {
+      "message": "Sn"
+   },
+   "css_selector": {
+      "message": "CSS Seçicisi"
+   },
+   "css_selector_aria": {
+      "message": "CSS seçici"
+   },
+   "css_selector_placeholder": {
+      "message": "örn. button veya a[href=\"/login\"]"
+   },
+   "custom": {
+      "message": "Özel"
+   },
+   "custom_expression": {
+      "message": "Özel İfade"
+   },
+   "custom_expression_desc": {
+      "message": "İki ## sembolü ile başlatılır ve VEYA ile VE operatörleri için Boole ifadeleridir. Parantez içine alınmalıdır (toplam 4 parantez)."
+   },
+   "custom_expression_example_1_desc": {
+      "message": "\"Stokta\" VEYA \"Kullanılabilir\" VE \"Sepete Ekle\" VEYA \"Şimdi Satın Al\" araması"
+   },
+   "custom_expression_example_2_desc": {
+      "message": "\"İndirim\" VEYA \"Indirim\" VE \"%50\" VEYA \"%30\" araması"
+   },
+   "custom_expression_example_3_desc": {
+      "message": "VEYA (|) ve VE operatörleri ve parantezler kullanan Boole ifadesi"
+   },
+   "custom_interval": {
+      "message": "Özel Aralık"
+   },
+   "custom_interval_desc": {
+      "message": "Tam saati, dakikayı ve saniyeyi ayarlayın"
+   },
+   "custom_monitor": {
+      "message": "Özel İzleme"
+   },
+   "custom_time_interval": {
+      "message": "Özel Zaman Aralığı"
+   },
+   "date_picker_next_month": {
+      "message": "Sonraki ay"
+   },
+   "date_picker_previous_month": {
+      "message": "Önceki ay"
+   },
+   "date_time_desc": {
+      "message": "Belirli bir tarih ve saatte tetiklemek için geri sayımı ayarlayın."
+   },
+   "date_time_mode": {
+      "message": "Tarih Saat Modu"
+   },
+   "date_time_target": {
+      "message": "Hedef Tarih ve Saat"
+   },
+   "day_abbr_fri": {
+      "message": "Cum"
+   },
+   "day_abbr_mon": {
+      "message": "Pzt"
+   },
+   "day_abbr_sat": {
+      "message": "Cmt"
+   },
+   "day_abbr_sun": {
+      "message": "Paz"
+   },
+   "day_abbr_thu": {
+      "message": "Per"
+   },
+   "day_abbr_tue": {
+      "message": "Sal"
+   },
+   "day_abbr_wed": {
+      "message": "Çar"
+   },
+   "decrease_aria": {
+      "message": "Azalt"
+   },
+   "default_help_description": {
+      "message": "Genel Ayarlar'da \"%1\" öğesini yapılandırarak tüm web sitelerine uygulanmasını sağlayabilirsiniz."
+   },
+   "default_interval": {
+      "message": "Varsayılan Zaman Aralığı"
+   },
+   "delay_before_scanning": {
+      "message": "Tarama öncesi gecikme"
+   },
+   "detect_any_change": {
+      "message": "Auto Refresh Plus bu web sitesinde bir değişiklik tespit etti."
+   },
+   "detect_any_change_title": {
+      "message": "Sayfa İzleme"
+   },
+   "detect_captcha_on_page": {
+      "message": "Sayfada Captcha Algıla"
+   },
+   "detect_error_on_page": {
+      "message": "Hata Sayfalarını Algıla (örn., 404)"
+   },
+   "detection_behavior": {
+      "message": "Algılama Davranışı"
+   },
+   "developer_mode_msg": {
+      "message": "Güvenlik ve stabilite nedenleriyle geliştirici modu izin verilmez.\u003Cbr> Lütfen uzantıyı resmi mağazadan indirip yükleyin ve en son ve en güvenli sürüme sahip olduğunuzdan emin olun"
+   },
+   "dismiss": {
+      "message": "Kapat"
+   },
+   "dismiss_alert": {
+      "message": "Uyarıyı kapat"
+   },
+   "donation_msg2": {
+      "message": "Bunu zaten yaptım."
+   },
+   "download_in_store": {
+      "message": "Web Mağazasından Yükle"
+   },
+   "duplicates": {
+      "message": "Kopyalar"
+   },
+   "duration_desc": {
+      "message": "Saatler, dakikalar ve saniyeler kullanarak geri sayımı ayarlayın."
+   },
+   "duration_help": {
+      "message": "Saatler, dakikalar ve saniyeler cinsinden belirli bir süreye dayalı geri sayımı ayarlamak için bu işlemi kullanın"
+   },
+   "duration_mode": {
+      "message": "Süre Modu"
+   },
+   "email_alert_help": {
+      "message": "E-posta uyarıları, belirli değişiklikler veya olaylar oluştuğunda sizi bilgilendirir. Bu bildirimleri almaya başlamak için bir e-posta adresi ekleyin"
+   },
+   "email_alerts_switch_desc": {
+      "message": "Monitör tetiklendiğinde e-posta gönder"
+   },
+   "email_daily_limit": {
+      "message": "%1 / %2 günlük limit"
+   },
+   "email_disconnect": {
+      "message": "Bağlantıyı kes"
+   },
+   "email_limit_reached": {
+      "message": "E-posta Sınırına Ulaşıldı"
+   },
+   "email_limit_toast_description": {
+      "message": "Günlük e-posta sınırınıza ulaştınız. E-posta uyarıları göndermeye devam etmek için yükseltin."
+   },
+   "email_remaining_count": {
+      "message": "%1 kaldı"
+   },
+   "email_sent_today": {
+      "message": "bugün %1 gönderildi"
+   },
+   "email_usage_count": {
+      "message": "Bugün gönderilen e-postalar: %1 / %2"
+   },
+   "emails_remaining": {
+      "message": "kalan e-postalar"
+   },
+   "enable_captcha_detection_help": {
+      "message": "Bir captcha sorusu göründüğünü tespit etmek için etkinleştirin."
+   },
+   "enable_error_detection_help": {
+      "message": "Başarısız veya bozuk sayfaları algılamak için etkinleştirin."
+   },
+   "enter_custom_interval": {
+      "message": "Saniye cinsinden özel bir aralık girin."
+   },
+   "enter_time_duration": {
+      "message": "Zaman Süresini Girin"
+   },
+   "error_page_detection": {
+      "message": "Hata Sayfası Algılama"
+   },
+   "error_save_preferences": {
+      "message": "Tercihler kaydedilemedi. Lütfen tekrar deneyin."
+   },
+   "error_schedule_one_day": {
+      "message": "En az bir gün seçmelisiniz."
+   },
+   "error_stop_time": {
+      "message": "Durdurma süresi başlangıç süresinden sonra olmalıdır."
+   },
+   "example": {
+      "message": "Örnek"
+   },
+   "expression_templates": {
+      "message": "İfade Şablonları"
+   },
+   "ext_action_failed": {
+      "message": "İşlem başarısız"
+   },
+   "ext_applying": {
+      "message": "Uygulanıyor..."
+   },
+   "ext_approve_action": {
+      "message": "onaylamak"
+   },
+   "ext_approve_apply": {
+      "message": "Onayla ve Uygula"
+   },
+   "ext_auto_generated": {
+      "message": "(otomatik oluşturuldu)"
+   },
+   "ext_blacklist": {
+      "message": "Kara liste"
+   },
+   "ext_changes_merged": {
+      "message": "Yerel seçeneklere birleştirilecek değişiklikler."
+   },
+   "ext_code": {
+      "message": "Kod"
+   },
+   "ext_completed": {
+      "message": "Tamamlandı"
+   },
+   "ext_configuration_review": {
+      "message": "Yapılandırma incelemesi"
+   },
+   "ext_created": {
+      "message": "Oluşturuldu"
+   },
+   "ext_current": {
+      "message": "Mevcut"
+   },
+   "ext_custom_script": {
+      "message": "Özel betik"
+   },
+   "ext_custom_script_add_new": {
+      "message": "Özel betik (Yeni ekle)"
+   },
+   "ext_custom_script_add_only": {
+      "message": "Bu işlem yalnızca yeni bir betik ekler ve mevcut betikleri asla sessizce üzerine yazmaz."
+   },
+   "ext_domain_config": {
+      "message": "Alan yapılandırması"
+   },
+   "ext_domain_configuration": {
+      "message": "Alan yapılandırması"
+   },
+   "ext_empty": {
+      "message": "(boş)"
+   },
+   "ext_enabled": {
+      "message": "Etkin"
+   },
+   "ext_error_action": {
+      "message": "İstek %1 başarısız."
+   },
+   "ext_error_storage": {
+      "message": "Uzantı depolama alanından bekleyen inceleme okunamadı."
+   },
+   "ext_error_sync": {
+      "message": "Depolama senkronizasyon hatası nedeniyle istek %1 başarısız."
+   },
+   "ext_execution_timing": {
+      "message": "Yürütme zamanlaması"
+   },
+   "ext_expires": {
+      "message": "Süresi doluyor"
+   },
+   "ext_extension_wide_settings": {
+      "message": "Uzantı genelinde ayarlar"
+   },
+   "ext_field": {
+      "message": "Alan"
+   },
+   "ext_global_options": {
+      "message": "Genel seçenekler"
+   },
+   "ext_global_options_changes": {
+      "message": "Genel seçenek değişiklikleri"
+   },
+   "ext_id": {
+      "message": "ID"
+   },
+   "ext_injection_type": {
+      "message": "Enjeksiyon türü"
+   },
+   "ext_name": {
+      "message": "Ad"
+   },
+   "ext_new": {
+      "message": "Yeni"
+   },
+   "ext_new_script_injection": {
+      "message": "Yeni betik enjeksiyonu"
+   },
+   "ext_no_changes_detected": {
+      "message": "Etkili değişiklik tespit edilmedi."
+   },
+   "ext_no_pending_description": {
+      "message": "İncelenecek bekleyen değişiklik yok. Bu sayfa, harici bir kaynak yapılandırma güncellemesi istediğinde görünecektir."
+   },
+   "ext_no_pending_request": {
+      "message": "Bekleyen istek yok"
+   },
+   "ext_proposed_changes": {
+      "message": "Önerilen değişiklikler"
+   },
+   "ext_refresh": {
+      "message": "Yenile"
+   },
+   "ext_reject": {
+      "message": "Reddet"
+   },
+   "ext_reject_action": {
+      "message": "reddetmek"
+   },
+   "ext_rejecting": {
+      "message": "Reddediliyor..."
+   },
+   "ext_request": {
+      "message": "İstek"
+   },
+   "ext_review_description": {
+      "message": "Önerilen değişiklikleri inceleyin ve yalnızca niyetinizle eşleşiyorsa onaylayın. Onaylayana kadar hiçbir şey uygulanmaz."
+   },
+   "ext_review_pending_changes": {
+      "message": "Bekleyen değişiklikleri incele"
+   },
+   "ext_site_specific_rules": {
+      "message": "Siteye özel kurallar"
+   },
+   "ext_source": {
+      "message": "Kaynak"
+   },
+   "ext_target": {
+      "message": "Hedef"
+   },
+   "ext_type": {
+      "message": "Tür"
+   },
+   "ext_unknown": {
+      "message": "Bilinmiyor"
+   },
+   "ext_url_pattern": {
+      "message": "URL deseni"
+   },
+   "ext_whitelist": {
+      "message": "Beyaz liste"
+   },
+   "extension_settings": {
+      "message": "Uzantı Ayarları"
+   },
+   "extension_update_dismiss_aria": {
+      "message": "Güncelleme bildirimini kapat"
+   },
+   "extension_update_notification_aria": {
+      "message": "Uzantı güncelleme bildirimi"
+   },
+   "extension_updated_to_version": {
+      "message": "Uzantı v%1 sürümüne güncellendi"
+   },
+   "feature_is_premium": {
+      "message": "%1 premium özelliğidir. Tüm premium araçlara erişmek ve deneyiminizi geliştirmek için yükseltin."
+   },
+   "find_mtr_msg": {
+      "message": "İzleme Metnini Bul"
+   },
+   "follow_all_redirects": {
+      "message": "Tüm Yeniden Yönlendirmeleri Takip Et"
+   },
+   "follow_all_redirects_desc": {
+      "message": "Sayfa farklı bir URL'ye yeniden yönlendirilse bile yenilemeyi devam ettirin."
+   },
+   "follow_canonical_url": {
+      "message": "Kanonik URL'yi Takip Et"
+   },
+   "follow_canonical_url_desc": {
+      "message": "Sayfanın kanonik (orijinal) URL'sini kullanın."
+   },
+   "found": {
+      "message": "Bulundu"
+   },
+   "frozen_tab_noti_message": {
+      "message": "Tarayıcı, bellek tasarrufu için bu sekmeyi arka planda dondurdu. Sekmeye geri döndüğünüzde otomatik yenileme devam edecektir."
+   },
+   "frozen_tab_noti_title": {
+      "message": "Otomatik yenileme duraklatıldı"
+   },
+   "full_documentation": {
+      "message": "Tam Belgeler"
+   },
+   "full_page": {
+      "message": "Tam Sayfa Yenileme"
+   },
+   "full_page_type_desc": {
+      "message": "Değişiklikleri kontrol etmek için tüm sayfayı yeniden yükle"
+   },
+   "full_page_type_help": {
+      "message": "Normal yenileme, tüm sayfa, içerik ve kaynaklar dahil olmak üzere değişiklikleri kontrol etmenize izin verir."
+   },
+   "go_premium_full_access": {
+      "message": "Premeye Yüksel – Tam Erişim"
+   },
+   "go_to_top": {
+      "description": "Accessible label for scroll-to-top button",
+      "message": "Yukarı git"
+   },
+   "go_top": {
+      "message": "Yukarı"
+   },
+   "good": {
+      "message": "İyi"
+   },
+   "grace_period_banner": {
+      "message": "Ek süreniz 1 Temmuz'da sona eriyor. Premium özellikler devre dışı bırakılacak"
+   },
+   "grace_period_consent_body": {
+      "message": "Premium özelliklere erişiminizi kaybetmek üzeresiniz. Ücretsiz planla devam etmek istediğinizden emin misiniz?"
+   },
+   "grace_period_consent_title": {
+      "message": "Premium olmadan devam edilsin mi?"
+   },
+   "grace_period_dismiss_aria": {
+      "message": "Ek süre bildirimini kapat"
+   },
+   "grace_period_expired_data_safe": {
+      "message": "Ayarlarınız ve verileriniz güvende ve kayıtlı kalacak."
+   },
+   "grace_period_expired_description": {
+      "message": "Premium özellikler hesabınızda artık aktif değil."
+   },
+   "grace_period_expired_disable_button": {
+      "message": "Premium özellikleri devre dışı bırak"
+   },
+   "grace_period_expired_title": {
+      "message": "Ek süre sona erdi"
+   },
+   "grace_period_expired_upgrade_button": {
+      "message": "Premium'a yükselt"
+   },
+   "grace_period_expired_upgrade_hint": {
+      "message": "Tüm Premium özelliklerini geri yüklemek için istediğiniz zaman yükseltebilirsiniz."
+   },
+   "grace_period_ok_with_free": {
+      "message": "Ücretsiz ile devam et"
+   },
+   "grace_period_upgrade_button": {
+      "message": "Premium'u koru"
+   },
+   "great": {
+      "message": "Harika!"
+   },
+   "handle_redirects": {
+      "message": "Yönlendirmeleri yönet"
+   },
+   "hard_refresh": {
+      "message": "Sıkı Yenileme"
+   },
+   "hard_refresh_desc": {
+      "message": "Her yenilemede önbelleği atla"
+   },
+   "hard_refresh_help": {
+      "message": "Sayfayı önbelleğe alınan verilere bağlı olmadan yeniden yükleyin."
+   },
+   "highlight_element": {
+      "message": "Sayfada Öğeyi Vurgula"
+   },
+   "highlight_keyword": {
+      "message": "Sayfada Anahtar Kelimeyi Vurgula"
+   },
+   "highlight_keyword_desc": {
+      "message": "Eşleşen anahtar kelimeyi vurgula"
+   },
+   "highlight_keyword_help": {
+      "message": "Bir anahtar kelime algılandığında, sayfada görsel olarak vurgulanacaktır."
+   },
+   "hotkeys_label": {
+      "message": "Klavye kısayolları"
+   },
+   "hour": {
+      "message": "Saat"
+   },
+   "hours": {
+      "message": "Saatler"
+   },
+   "increase_aria": {
+      "message": "Artır"
+   },
+   "individual_plan": {
+      "message": "bireysel plan"
+   },
+   "individual_plan_starts_at": {
+      "message": "Bireysel plan $2.99'dan başlar"
+   },
+   "interaction_help": {
+      "message": "Kullanıcı sayfayla etkileşim kurduğunda otomatik olarak yenilemeyi durdurun."
+   },
+   "interactions_switch_desc": {
+      "message": "Sayfayı kullanırken ne olur"
+   },
+   "interactions_title_opt": {
+      "message": "Kullanıcı Etkileşiminde Yenileme Davranışı"
+   },
+   "interval": {
+      "message": "Aralık"
+   },
+   "interval_card_custom_duration": {
+      "message": "özel süre"
+   },
+   "interval_card_interval": {
+      "message": "Aralık"
+   },
+   "interval_card_random_range": {
+      "message": "rastgele aralık"
+   },
+   "interval_custom_summary": {
+      "message": "her %1s %2d %3sn"
+   },
+   "interval_decrease_by": {
+      "message": "%1 azalt"
+   },
+   "interval_edit_custom_aria": {
+      "message": "Özel aralığı düzenle"
+   },
+   "interval_in_seconds_aria": {
+      "message": "Saniye cinsinden aralık"
+   },
+   "interval_increase_by": {
+      "message": "%1 artır"
+   },
+   "interval_max_sec": {
+      "message": "maks (sn)"
+   },
+   "interval_max_sec_aria": {
+      "message": "maksimum saniye"
+   },
+   "interval_min_sec": {
+      "message": "min (sn)"
+   },
+   "interval_min_sec_aria": {
+      "message": "minimum saniye"
+   },
+   "interval_modes_help": {
+      "message": "Sabit: her N saniyede yenile. Rastgele: aralığı bir aralıkta değiştir. Özel: saat/dakika/saniye olarak kesin süre belirle."
+   },
+   "interval_preset_minutes": {
+      "message": "%1d"
+   },
+   "interval_preset_seconds": {
+      "message": "%1s"
+   },
+   "interval_random_summary": {
+      "message": "her %1–%2 sn yeniler"
+   },
+   "interval_range_to": {
+      "message": "ile"
+   },
+   "interval_tab_custom": {
+      "message": "Özel"
+   },
+   "interval_tab_fixed": {
+      "message": "Sabit"
+   },
+   "interval_tab_random": {
+      "message": "Rastgele"
+   },
+   "interval_unit_hrs": {
+      "message": "sa"
+   },
+   "interval_unit_min": {
+      "message": "dk"
+   },
+   "interval_unit_sec": {
+      "message": "sn"
+   },
+   "interval_unit_seconds_header": {
+      "message": "saniye"
+   },
+   "keyword_input_placeholder": {
+      "message": "Anahtar kelime, regex, XPath veya CSS seçicisini girin (birden çok tanesini virgülle ayırın)..."
+   },
+   "keywords_to_monitor": {
+      "message": "İzlenecek Anahtar Kelimeler"
+   },
+   "kill_notification": {
+      "message": "Bildirim Alarmını Kapat"
+   },
+   "kill_successfully": {
+      "message": "Başarıyla Kapatıldı"
+   },
+   "lang_code": {
+      "message": "tr"
+   },
+   "language": {
+      "message": "Dil"
+   },
+   "lost": {
+      "message": "Kayıp"
+   },
+   "loved": {
+      "message": "Çok Beğendim!"
+   },
+   "match_html_source_desc": {
+      "message": "Ham kaynağı tara — daha yavaş, dikkatli kullan"
+   },
+   "match_html_source_label": {
+      "message": "HTML kaynağını eşleştir"
+   },
+   "match_visible_text_desc": {
+      "message": "Ekranda görünen metni tara"
+   },
+   "match_visible_text_label": {
+      "message": "Görünür metni eşleştir"
+   },
+   "maximum": {
+      "message": "Maksimum"
+   },
+   "minimum": {
+      "message": "Minimum"
+   },
+   "minute": {
+      "message": "Dakika"
+   },
+   "minutes": {
+      "message": "Dakika"
+   },
+   "monitor": {
+      "message": "İzle"
+   },
+   "monitor_area_select": {
+      "message": "Seç"
+   },
+   "monitor_area_selector_desc": {
+      "message": "Bir CSS seçici girin veya sayfada bir öğe seçin."
+   },
+   "monitor_area_switch_desc": {
+      "message": "Aramayı tek bir bölgeyle sınırla"
+   },
+   "monitor_area_switch_label": {
+      "message": "İzleme alanı"
+   },
+   "monitor_custom_area": {
+      "message": "Sayfanın Özel Alanında Ara"
+   },
+   "monitor_custom_area_help": {
+      "message": "Sayfanın özel bir alanını izleme veya arama için belirtmek üzere etkinleştirin."
+   },
+   "monitor_full_page": {
+      "message": "Tam Sayfayı İzle"
+   },
+   "monitor_full_page_help": {
+      "message": "Tüm web sayfasındaki değişiklikleri izlemek için etkinleştirin."
+   },
+   "monitor_page_for_any_changes": {
+      "message": "Herhangi bir sayfa değişikliğini otomatik olarak izleyin."
+   },
+   "monitored_area": {
+      "message": "İzlenen Alan"
+   },
+   "monitoring_active": {
+      "message": "İzleme etkin"
+   },
+   "monitoring_auto_click_label": {
+      "message": "Anahtar kelime eşleşmesinde otomatik tıklama"
+   },
+   "monitoring_engine_advanced": {
+      "message": "Gelişmiş"
+   },
+   "monitoring_engine_aria": {
+      "message": "İzleme motoru sürümü"
+   },
+   "monitoring_engine_basic": {
+      "message": "Temel"
+   },
+   "monitoring_engine_beta": {
+      "message": "beta"
+   },
+   "monitoring_engine_tooltip_desc": {
+      "message": "Tüm seçimlerde çalışır — Bulundu, Kayıp ve Özel — daha hızlı, daha akıllı algılama ile."
+   },
+   "monitoring_engine_tooltip_title": {
+      "message": "Yeni beta çekirdek"
+   },
+   "monitoring_keyword_input_aria": {
+      "message": "İzlenecek anahtar kelime"
+   },
+   "monitoring_keywords_empty": {
+      "message": "Henüz anahtar kelime yok — izlemeye başlamak için en az bir tane ekleyin."
+   },
+   "monitoring_mode": {
+      "message": "İzleme Modu"
+   },
+   "monitoring_mode_custom_info_highlight": {
+      "message": "herhangi bir değişiklik"
+   },
+   "monitoring_mode_custom_info_prefix": {
+      "message": "Özel mod, bu sayfada "
+   },
+   "monitoring_mode_custom_info_suffix": {
+      "message": " algılandığında sizi uyarır — anahtar kelime gerekmez."
+   },
+   "monitoring_mode_custom_intro": {
+      "message": "Sayfa değişikliklerini otomatik olarak izleyin."
+   },
+   "monitoring_mode_custom_short": {
+      "message": "Özel"
+   },
+   "monitoring_mode_found_desc": {
+      "message": "Anahtar kelimeniz göründüğünde bildirim alın."
+   },
+   "monitoring_mode_found_short": {
+      "message": "Bulundu"
+   },
+   "monitoring_mode_help": {
+      "message": "Auto Refresh Plus'un sizi ne zaman uyarması gerektiğini seçin"
+   },
+   "monitoring_mode_lost_desc": {
+      "message": "Anahtar kelimeniz kaybolduğunda bildirim alın."
+   },
+   "monitoring_mode_lost_short": {
+      "message": "Kayıp"
+   },
+   "monitoring_remove_keyword_aria": {
+      "message": "%1 kaldır"
+   },
+   "monitoring_tip_banner": {
+      "message": "Daha fazla işlem mi gerekiyor? Çoklu Tıklama Otomasyonunu deneyin."
+   },
+   "monitoring_tip_label": {
+      "message": "İpucu:"
+   },
+   "new_badge": {
+      "message": "Yeni"
+   },
+   "no_active_tabs": {
+      "message": "Etkin Sekme Yok"
+   },
+   "no_active_tabs_desc": {
+      "message": "Şu anda izlenen veya yenilenen sekme yok. Bir sekmeyi yenilemeye başlayarak buraya bakın."
+   },
+   "no_keyword": {
+      "message": "Henüz anahtar kelime eklenmedi. İzlenecek anahtar kelimeler ekleyin."
+   },
+   "no_tabs_refreshing": {
+      "message": "Yenilenen sekme yok"
+   },
+   "no_templates_match": {
+      "message": "Arama kriterlerinizle eşleşen şablon yok."
+   },
+   "normal_expression": {
+      "message": "Normal İfade"
+   },
+   "normal_expression_desc": {
+      "message": "Web sayfasında anahtar kelimeleri arar ve herhangi bir sembolle başlatılması gerekmez. Her anahtar kelimede Enter tuşuna basmanız yeterlidir."
+   },
+   "normal_expression_example_1_desc": {
+      "message": "Web sayfasında tam \"Stokta\" metnini arar"
+   },
+   "normal_expression_example_2_desc": {
+      "message": "Birden fazla anahtar kelimeyi arar, her anahtar kelimeden sonra Enter'a basın"
+   },
+   "normal_expression_example_3_desc": {
+      "message": "Sayfada \"Sepete Ekle\" düğmesini veya metni arar"
+   },
+   "not_allowed": {
+      "message": "Burада kullanmanıza izin verilmiyor."
+   },
+   "noti_msg": {
+      "message": "Auto Refresh Plus, hedef metninizi %1 etmiştir."
+   },
+   "noti_msg_title": {
+      "message": "Hedef Metin!"
+   },
+   "notification_domain_info": {
+      "message": "%1 üzerinde"
+   },
+   "ok": {
+      "message": "Tamam"
+   },
+   "okay": {
+      "message": "Tamam"
+   },
+   "open_link_help": {
+      "message": "Tıklanan bağlantıyı yeni bir tarayıcı sekmesinde açar."
+   },
+   "open_link_tab": {
+      "message": "Bağlantıyı Yeni Sekmede Aç"
+   },
+   "options": {
+      "message": "Seçenekler"
+   },
+   "partial_page_desc": {
+      "message": "Yalnızca AJAX/XHR isteklerini izle"
+   },
+   "pause": {
+      "message": "Duraklat"
+   },
+   "pause_on_interact": {
+      "message": "Etkileşimde Duraklat"
+   },
+   "pause_refreshing": {
+      "message": "Yenilemeyi duraklat"
+   },
+   "permissions_attention": {
+      "message": "Dikkat"
+   },
+   "permissions_btn_grant": {
+      "message": "Kontrol paneli ana bilgisayarları için site erişimi ver"
+   },
+   "permissions_btn_opening_dialog": {
+      "message": "İzin iletişim kutusu açılıyor..."
+   },
+   "permissions_btn_refresh": {
+      "message": "Durumu yenile"
+   },
+   "permissions_config_missing_body": {
+      "message": "derleme ortamında tanımlı değil. Kontrol paneli ana bilgisayar adınızla yeniden derleyin."
+   },
+   "permissions_config_missing_title": {
+      "message": "Yapılandırma eksik"
+   },
+   "permissions_error_denied": {
+      "message": "İzinler reddedildi. Senkronizasyon ve enjekte edilen özelliklerin güvenilir çalışması için kontrol paneli ana bilgisayarına erişim verin."
+   },
+   "permissions_error_dialog": {
+      "message": "İzin iletişim kutusu açılırken bir sorun oluştu. Tekrar deneyin veya tarayıcı ayarlarını kontrol edin."
+   },
+   "permissions_error_read_state": {
+      "message": "Site izin durumu okunamadı. Sayfayı yeniden yükleyin veya daha sonra tekrar deneyin."
+   },
+   "permissions_go_to_options": {
+      "message": "Seçeneklere git"
+   },
+   "permissions_granted_body": {
+      "message": "Bu uzantının platformunuz için eşleşen ana bilgisayar izni zaten var. Bu sekmeyi kapatabilirsiniz."
+   },
+   "permissions_granted_ok": {
+      "message": "Tamam"
+   },
+   "permissions_granted_title": {
+      "message": "Site erişimi etkin"
+   },
+   "permissions_heading_dashboard": {
+      "message": "Kontrol paneli ana bilgisayarı izinleri"
+   },
+   "permissions_intro_dashboard": {
+      "message": "Uzantının Auto Refresh Plus kontrol paneli alan adlarında çalışıp çalışmayacağını yönetin (içerik komut dosyaları ve platform entegrasyonu)."
+   },
+   "permissions_label_dashboard_host": {
+      "message": "Kontrol paneli ana bilgisayarı"
+   },
+   "permissions_revoke_hint": {
+      "message": "Daha sonra iptal etmek için tarayıcı ayarlarındaki uzantı site erişim listesinden bu siteyi kaldırın."
+   },
+   "permissions_subtitle": {
+      "message": "Platform site erişimi"
+   },
+   "permissions_warn_body_prefix": {
+      "message": "Uzantının kontrol panelinize enjekte olması, tercihleri yansıtması ve deneyimi uzantıyla uyumlu tutması için erişim verin (içerik komut dosyasıyla aynı ana bilgisayar deseni:"
+   },
+   "permissions_warn_body_suffix": {
+      "message": ")."
+   },
+   "permissions_warn_title": {
+      "message": "Site erişimi henüz verilmedi"
+   },
+   "play_alarm_on_captcha_detection": {
+      "message": "Captcha Algılandığında Alarm Çal"
+   },
+   "play_alarm_on_captcha_detection_help": {
+      "message": "Captcha algılandığında ses uyarısı çal."
+   },
+   "play_alarm_on_error_detection": {
+      "message": "Hata Algılandığında Alarm Çal"
+   },
+   "play_alarm_on_error_detection_help": {
+      "message": "Hata sayfası algılandığında ses uyarısı çal."
+   },
+   "please_add_email_first": {
+      "message": "Lütfen önce bir e-posta ekleyin."
+   },
+   "please_add_webhooks_first": {
+      "message": "Lütfen önce web kancaları ekleyin."
+   },
+   "please_rateus": {
+      "message": "Lütfen Bizi Değerlendirin"
+   },
+   "popup_on_keyword_found": {
+      "message": "Anahtar Kelime Bulunduğunda Uyarı"
+   },
+   "popup_on_keyword_lost": {
+      "message": "Anahtar Kelime Kaybolduğunda Uyarı"
+   },
+   "predefined_interval": {
+      "message": "Önceden Tanımlanmış Aralık"
+   },
+   "predefined_interval_desc": {
+      "message": "Önceden ayarlanmış veya varsayılan zaman değerlerini kullanın"
+   },
+   "premium_benefits": {
+      "message": "Premium avantajları:"
+   },
+   "premium_device_sync": {
+      "message": "3 cihaza kadar yönet"
+   },
+   "premium_full_access": {
+      "message": "Tüm Premium Özellikler"
+   },
+   "premium_priority_support": {
+      "message": "Farklı ayar profilleri"
+   },
+   "premium_tag_aria": {
+      "message": "Premium özellik: %1. Duyuruyu aç."
+   },
+   "premium_tag_default_feature": {
+      "message": "Özellik"
+   },
+   "premium_tag_tooltip_click": {
+      "message": "Ayrıntılar için tıklayın"
+   },
+   "premium_usage_body": {
+      "message": "Ücretsiz planda premium özellikler aktif."
+   },
+   "premium_usage_dismiss": {
+      "message": "Bildirimi kapat"
+   },
+   "premium_usage_status_label": {
+      "message": "Premium özellikler kullanılıyor"
+   },
+   "preset_interval": {
+      "message": "Önceden Ayarlanmış Aralıklar"
+   },
+   "pricing": {
+      "message": "Fiyatlandırma"
+   },
+   "pro_announcement_body": {
+      "message": "Auto Refresh Plus, uzun vadeli gelişimi, gelişmiş özellikleri, bulut eşitlemesini, daha akıllı izlemeyi ve çoklu cihaz yönetimini desteklemek için PRO’yu kademeli olarak sunuyor; temel yenileme özellikleri herkes için ücretsiz kalıyor."
+   },
+   "pro_announcement_close_aria": {
+      "message": "İletişim kutusunu kapat"
+   },
+   "pro_announcement_days_label": {
+      "message": "gün"
+   },
+   "pro_announcement_days_remaining_aria": {
+      "message": "%1 gün kaldı"
+   },
+   "pro_announcement_fresh_install_body": {
+      "message": "%1 ve PRO ile tam premium deneyiminin kilidini açın: gelişmiş araçlar, daha akıllı izleme, bulut senkronizasyonu ve çoklu cihaz erişimi dahil."
+   },
+   "pro_announcement_fresh_install_title_suffix": {
+      "message": "Premium bir özelliktir"
+   },
+   "pro_announcement_fresh_install_trial": {
+      "message": "15 günlük ücretsiz deneme"
+   },
+   "pro_announcement_important_badge": {
+      "message": "Önemli"
+   },
+   "pro_announcement_important_notice_aria": {
+      "message": "Önemli uyarı"
+   },
+   "pro_announcement_moving_to_pro": {
+      "message": "PRO’ya geçiyor"
+   },
+   "pro_announcement_premium_badge": {
+      "message": "PREMIUM"
+   },
+   "pro_announcement_premium_badge_aria": {
+      "message": "Premium"
+   },
+   "pro_announcement_rollout_date": {
+      "message": "1 Haziran"
+   },
+   "pro_announcement_rollout_intro": {
+      "message": "Yaygınlaştırma"
+   },
+   "pro_announcement_rollout_outro": {
+      "message": " tarihinden başlar."
+   },
+   "pro_announcement_view_pricing": {
+      "message": "Fiyatları gör — aylık 2,99 $’dan"
+   },
+   "random_interval": {
+      "message": "Rastgele Aralık"
+   },
+   "random_interval_desc": {
+      "message": "Min–maks arasında rastgele yenileme"
+   },
+   "random_interval_help": {
+      "message": "Mevcut ayarlarla, sayfa %1 ile %2 saniye arasında rastgele yenilenir."
+   },
+   "random_time_interval": {
+      "message": "Rastgele Yenileme Aralığı"
+   },
+   "rate_us": {
+      "message": "Bizi Değerlendirin"
+   },
+   "rateus_title": {
+      "message": "Bu Uzantıyı Değerlendirin"
+   },
+   "ready_expressions_load_error": {
+      "message": "Şablonlar yüklenemedi. Lütfen daha sonra tekrar deneyin."
+   },
+   "real_time_detection_during_refresh": {
+      "message": "Gerçek Zamanlı Algılama"
+   },
+   "real_time_detection_switch_desc": {
+      "message": "Tam yenileme olmadan sürekli kontrol et"
+   },
+   "realtime_help": {
+      "message": "Değişiklikleri yenileme sırasında sürekli olarak algılayın, sadece aralığın sonunda değil."
+   },
+   "receive_emails_alerts": {
+      "message": "E-posta Uyarıları Al"
+   },
+   "receive_webhook_alerts": {
+      "message": "Web Kancası Uyarıları Al"
+   },
+   "redirection_behavior": {
+      "message": "Yeniden Yönlendirme Davranışı"
+   },
+   "redirection_behavior_desc": {
+      "message": "Yenileme sırasında yönlendirmeleri yönet"
+   },
+   "redirection_behavior_help": {
+      "message": "Auto Refresh Plus'ın URL değişikliklerini nasıl işlediğini seçin. Orijinal etki alanına kilitleyebilir veya yeniden yönlendirmeleri takip edebilirsiniz."
+   },
+   "refresh_cycles_completed": {
+      "message": "Tamamlanan yenileme döngüleri"
+   },
+   "refresh_interval_mode": {
+      "message": "Yenileme Aralığı Modu"
+   },
+   "refresh_limit": {
+      "message": "Yenileme limiti"
+   },
+   "refresh_limit_times": {
+      "message": "kez"
+   },
+   "refresh_number": {
+      "message": "Yenileme Sayısını Ayarla"
+   },
+   "refresh_number_desc": {
+      "message": "Sabit sayıdan sonra dur"
+   },
+   "refresh_number_help": {
+      "message": "Sayfayı kaç kez yenilemek istediğinizi ayarlayın."
+   },
+   "refresh_position_hint_body": {
+      "message": "Yenileme düğmesini ve diğer arayüz özelleştirmelerini bu menüden değiştirebilirsiniz."
+   },
+   "refresh_position_hint_understand": {
+      "message": "Anladım"
+   },
+   "refresh_top_pause": {
+      "message": "Duraklat"
+   },
+   "refresh_top_resume": {
+      "message": "Sürdür"
+   },
+   "refresh_top_start": {
+      "message": "Başlat"
+   },
+   "refresh_top_stop": {
+      "message": "Durdur"
+   },
+   "refresh_type": {
+      "message": "Yenileme Türü"
+   },
+   "refresh_type_help": {
+      "message": "Her taramadan önce sayfanın nasıl yeniden yüklendiği. Tam Sayfa, yenilemeye basmak gibi tüm URL'yi yeniden yükler — güvenilir ancak daha ağırdır. XHR yalnızca arka plan AJAX/XHR isteklerini tetikler (tam yenileme yok) — daha hızlı ve hafif, yenilemeden içerik güncelleyen dinamik sayfalar için idealdir."
+   },
+   "regex": {
+      "message": "Regex"
+   },
+   "regex_expression": {
+      "message": "Regex İfadesi"
+   },
+   "regex_expression_desc": {
+      "message": "Auto Refresh Plus ayrıca Regex ifadelerini destekler ve $ sembolü ile başlatılmalı ve ardından regex ifadesi gelmelidir."
+   },
+   "regex_expression_example_1_desc": {
+      "message": "\"ürün\"ün ardından bir veya daha fazla rakam (product1, product42, vb.) ile eşleşir"
+   },
+   "regex_expression_example_2_desc": {
+      "message": "Regex bayrakları kullanarak \"Stokta\" ile eşleşir"
+   },
+   "regex_expression_example_3_desc": {
+      "message": "\"$19.99\", \"$299.00\" vb. gibi fiyat formatı ile eşleşir"
+   },
+   "remove_email": {
+      "message": "E-postayı Kaldır"
+   },
+   "restart": {
+      "message": "Yeniden Başlat"
+   },
+   "restart_wait_seconds_desc": {
+      "message": "Yenileme yeniden başlamadan önce beklenecek saniye sayısını ayarlayın"
+   },
+   "resume": {
+      "message": "Devam Et"
+   },
+   "resume_refreshing": {
+      "message": "Yenilemeye devam et"
+   },
+   "save": {
+      "message": "Kaydet"
+   },
+   "scan_method_title": {
+      "message": "Tarama yöntemi"
+   },
+   "sch_description": {
+      "message": "Seçilen saatlerde ve günlerde otomatik çalışır."
+   },
+   "schedule_add": {
+      "message": "Zamanlama ekle"
+   },
+   "schedule_auto_disable_aria": {
+      "message": "Otomatik devre dışı bırak"
+   },
+   "schedule_auto_stop_aria": {
+      "message": "Otomatik durdur"
+   },
+   "schedule_delete_aria": {
+      "message": "Zamanlamayı sil"
+   },
+   "schedule_disconnected": {
+      "message": "Zamanlama bağlantısı kesildi"
+   },
+   "schedule_edit_aria": {
+      "message": "Zamanlamayı düzenle"
+   },
+   "schedule_enable_aria": {
+      "message": "Zamanlamayı etkinleştir"
+   },
+   "schedule_help": {
+      "message": "Zamanlamalar belirli saat ve günlerde otomatik yenileme yapmanızı sağlar. Her zamanlama başlangıç saati, seçili hafta günleri, otomatik durdurma ve otomatik devre dışı bırakma seçeneklerine sahip olabilir."
+   },
+   "schedule_options_label": {
+      "message": "seçenekler"
+   },
+   "schedule_select_days": {
+      "message": "günleri seç"
+   },
+   "schedule_start_time_label": {
+      "message": "başlangıç saati"
+   },
+   "schedules": {
+      "message": "Zamanlamalar"
+   },
+   "schedules_active_count": {
+      "message": "%1 aktif"
+   },
+   "schedules_empty": {
+      "message": "Henüz zamanlama yok"
+   },
+   "search_templates": {
+      "message": "Şablonları Ara..."
+   },
+   "seconds": {
+      "message": "Saniye"
+   },
+   "select_area": {
+      "message": "Alan Seçin"
+   },
+   "select_area_desc": {
+      "message": "Arama alanını sınırlandırmak için bir CSS seçicisi girin"
+   },
+   "select_css_selector": {
+      "message": "Alan seçiciyi ayarlamak için bir öğe seçin"
+   },
+   "select_date_time": {
+      "message": "Tarih ve saat seç"
+   },
+   "select_days": {
+      "message": "Günleri Seçin"
+   },
+   "select_element": {
+      "message": "Öğe Seçin"
+   },
+   "select_language": {
+      "message": "Dilinizi Seçin"
+   },
+   "select_time": {
+      "message": "Zaman Seçin"
+   },
+   "session_expired": {
+      "message": "Oturumunuzun süresi doldu. Lütfen yeniden giriş yapın."
+   },
+   "settings_card_collapse_aria": {
+      "message": "%1 daralt"
+   },
+   "settings_card_expand_aria": {
+      "message": "%1 genişlet"
+   },
+   "show_tab": {
+      "message": "Sekmeyi Göster"
+   },
+   "signup_requirement_body": {
+      "message": "Devam etmek için yakında hesap gerekecek."
+   },
+   "signup_requirement_countdown_days": {
+      "message": "Hesap gerekliliğine %1 gün kaldı"
+   },
+   "signup_requirement_countdown_one_day": {
+      "message": "Hesap gerekliliğine 1 gün kaldı"
+   },
+   "signup_requirement_days_abbr": {
+      "message": "gün"
+   },
+   "signup_requirement_dismiss": {
+      "message": "Bildirimi kapat"
+   },
+   "signup_requirement_sign_up": {
+      "message": "Ücretsiz kayıt ol →"
+   },
+   "signup_requirement_status_label": {
+      "message": "Hesap gerekliliği bildirimi"
+   },
+   "skip_repeated_keyword": {
+      "message": "Yinelenen Anahtar Kelimeyi Atla"
+   },
+   "skip_repeated_keyword_desc": {
+      "message": "Zaten algılanan anahtar kelimeleri yoksay"
+   },
+   "skip_repeated_keyword_help": {
+      "message": "Sonraki yenileme sırasında zaten algılanan anahtar kelimeleri yoksayın."
+   },
+   "slave_device_alert_body": {
+      "message": "Bu uzantı bağlı ikincil bir cihaz olarak yapılandırılmıştır. Ayarlar ve yenileme denetimi ana cihazınızla aynı olabilir."
+   },
+   "slave_device_alert_dismiss": {
+      "message": "Bildirimi kapat"
+   },
+   "slave_device_alert_read_more": {
+      "message": "Devamını oku"
+   },
+   "slave_device_alert_status_label": {
+      "message": "İkincil cihaz"
+   },
+   "slave_message_alert": {
+      "message": "Siz bir köle kullanıcı olduğunuz için bu seçeneği değiştiremezsiniz."
+   },
+   "source_find_text": {
+      "message": "Kaynak (HTML Kaynağı)"
+   },
+   "source_find_text_caution": {
+      "message": "Bu seçenek esas olarak geliştiriciler içindir. Ham HTML kaynağını taramak gizli veya görünmeyen işaretlemeyle eşleşebilir ve bu genellikle yanlış pozitiflere yol açar. Daha yavaştır ve günlük izleme için önerilmez — yalnızca görünür metin eşleştirmesi yeterli olmadığında etkinleştirin."
+   },
+   "source_find_text_help": {
+      "message": "Metni doğrudan HTML kaynak kodundan ayıklar. Gizli veya dinamik içerik içerebilir."
+   },
+   "start_countdown": {
+      "message": "Geri Sayımı Başlat"
+   },
+   "start_msg": {
+      "message": "Başlat"
+   },
+   "start_refreshing": {
+      "message": "Yenilemeyi başlat"
+   },
+   "start_time": {
+      "message": "Başlangıç Zamanı"
+   },
+   "stop": {
+      "message": "Durdur"
+   },
+   "stop_countdown": {
+      "message": "Geri Sayımı Durdur"
+   },
+   "stop_refreshing": {
+      "message": "Yenilemeyi durdur"
+   },
+   "stop_time": {
+      "message": "Durdurma Süresi"
+   },
+   "subscription": {
+      "message": "Abonelik"
+   },
+   "success": {
+      "message": "Ayarlar Başarıyla Kaydedildi"
+   },
+   "support_ticket": {
+      "message": "Destek Bileti"
+   },
+   "supported_expressions": {
+      "message": "Desteklenen İfadeler"
+   },
+   "supported_expressions_msg_monitor": {
+      "message": "Sayfa izleme için desteklenen ifadeler"
+   },
+   "syntax_css_desc": {
+      "message": "Standart CSS seçicileriyle öğeleri hedefleyin — kimlik, sınıf, öznitelik veya hiyerarşiye göre."
+   },
+   "syntax_css_ex1_desc": {
+      "message": "\"price\" kimliğine sahip öğeyi seçer"
+   },
+   "syntax_css_ex1_title": {
+      "message": "Kimliğe göre"
+   },
+   "syntax_css_ex2_desc": {
+      "message": "\"stock-status\" sınıfına sahip öğeleri seçer"
+   },
+   "syntax_css_ex2_title": {
+      "message": "Sınıfa göre"
+   },
+   "syntax_css_ex3_desc": {
+      "message": "data-testid \"add-to-cart\" olan öğeyi seçer"
+   },
+   "syntax_css_ex3_title": {
+      "message": "Özniteliğe göre"
+   },
+   "syntax_css_title": {
+      "message": "CSS seçicileri"
+   },
+   "syntax_custom_desc": {
+      "message": "## ile başlar ve Boolean AND / OR / NOT mantığıyla anahtar kelimeleri birleştirir."
+   },
+   "syntax_custom_ex1_desc": {
+      "message": "Yalnızca \"In Stock\" ve \"Add to Cart\" göründüğünde tetiklenir"
+   },
+   "syntax_custom_ex1_title": {
+      "message": "AND koşulu"
+   },
+   "syntax_custom_ex2_desc": {
+      "message": "Anahtar kelimelerden biri göründüğünde tetiklenir"
+   },
+   "syntax_custom_ex2_title": {
+      "message": "OR koşulu"
+   },
+   "syntax_custom_ex3_desc": {
+      "message": "\"In Stock\" varken \"Sold Out\" yokken tetiklenir"
+   },
+   "syntax_custom_ex3_title": {
+      "message": "NOT koşulu"
+   },
+   "syntax_custom_title": {
+      "message": "Özel ifadeler"
+   },
+   "syntax_norm_ex1_desc": {
+      "message": "Sayfada her yerde tam \"In Stock\" metniyle eşleşir"
+   },
+   "syntax_norm_ex1_title": {
+      "message": "In Stock"
+   },
+   "syntax_norm_ex2_desc": {
+      "message": "Birden fazla anahtar kelime — her birinden sonra Enter"
+   },
+   "syntax_norm_ex2_title": {
+      "message": "Available, Out of Stock"
+   },
+   "syntax_norm_ex3_desc": {
+      "message": "Sayfadaki \"Add to Cart\" düğmesi veya metniyle eşleşir"
+   },
+   "syntax_norm_ex3_title": {
+      "message": "Add to Cart"
+   },
+   "syntax_regex_desc": {
+      "message": "Metin kalıplarıyla eşleşmek için /.../ arasında. Fiyatlar, SKU'lar ve esnek eşleşmeler için kullanışlı."
+   },
+   "syntax_regex_ex1_desc": {
+      "message": "$19.99 veya $1,299.00 gibi dolar tutarıyla eşleşir"
+   },
+   "syntax_regex_ex1_title": {
+      "message": "Fiyat eşleşmesi"
+   },
+   "syntax_regex_ex2_desc": {
+      "message": "\"In Stock\" veya \"in stock\" ile eşleşir (büyük/küçük harf duyarsız)"
+   },
+   "syntax_regex_ex2_title": {
+      "message": "Stok durumu"
+   },
+   "syntax_regex_ex3_desc": {
+      "message": "SKU-12345 gibi ürün SKU'suyla eşleşir"
+   },
+   "syntax_regex_ex3_title": {
+      "message": "SKU kodu"
+   },
+   "syntax_regex_title": {
+      "message": "Düzenli ifadeler"
+   },
+   "syntax_text_matching_desc": {
+      "message": "Web sayfasında düz anahtar kelimeler arar. Sembol gerekmez — her kelimeden sonra Enter'a basın."
+   },
+   "syntax_text_matching_title": {
+      "message": "Metin eşleştirme"
+   },
+   "syntax_xpath_desc": {
+      "message": "// ile başlayarak HTML yapısındaki konuma göre öğeleri hedefler."
+   },
+   "syntax_xpath_ex1_desc": {
+      "message": "\"price\" sınıfına sahip herhangi bir öğeyi seçer"
+   },
+   "syntax_xpath_ex1_title": {
+      "message": "Sınıfa göre"
+   },
+   "syntax_xpath_ex2_desc": {
+      "message": "Metni \"Add to Cart\" olan düğmeyi seçer"
+   },
+   "syntax_xpath_ex2_title": {
+      "message": "Metne göre düğme"
+   },
+   "syntax_xpath_ex3_desc": {
+      "message": "\"availability\" kimliğine sahip öğeyi seçer"
+   },
+   "syntax_xpath_ex3_title": {
+      "message": "Kimliğe göre"
+   },
+   "syntax_xpath_title": {
+      "message": "XPath ifadeleri"
+   },
+   "tabs": {
+      "message": "Sekmeler"
+   },
+   "tabs_alerts": {
+      "message": "Uyarıları Olan Sekmeler"
+   },
+   "tabs_refreshing": {
+      "message": "Yenilenen Etkin Sekmeler"
+   },
+   "template_add_to_cart_button": {
+      "message": "Sepete ekle düğmesi"
+   },
+   "template_add_to_cart_button_desc": {
+      "message": "Test id ile sepet düğmesiyle eşleşir"
+   },
+   "template_any_stock_term": {
+      "message": "Herhangi bir stok terimi"
+   },
+   "template_any_stock_term_desc": {
+      "message": "Herhangi bir stok anahtar kelimesinde tetiklenir"
+   },
+   "template_buy_button": {
+      "message": "Satın Al Düğmesi"
+   },
+   "template_buy_button_desc": {
+      "message": "Satın al veya satın alma düğmelerini bul"
+   },
+   "template_email_address": {
+      "message": "E-posta Adresi"
+   },
+   "template_email_address_desc": {
+      "message": "E-posta adreslerini eşleştir"
+   },
+   "template_expression_description": {
+      "message": "Sayfa izleme için şablon ifadesi"
+   },
+   "template_in_stock_buyable": {
+      "message": "Stokta ve satın alınabilir"
+   },
+   "template_in_stock_buyable_desc": {
+      "message": "Yalnızca stokta VE satın alınabilirken uyar"
+   },
+   "template_in_stock_not_sold_out": {
+      "message": "Stokta, tükenmemiş"
+   },
+   "template_in_stock_not_sold_out_desc": {
+      "message": "Tükenmiş metni hariç stokta"
+   },
+   "template_input_field_value": {
+      "message": "Giriş Alanı Değeri"
+   },
+   "template_input_field_value_desc": {
+      "message": "Arama değeri ile giriş bul"
+   },
+   "template_phone_number": {
+      "message": "Telefon Numarası"
+   },
+   "template_phone_number_desc": {
+      "message": "(123) 456-7890 telefon biçimi ile eşleştir"
+   },
+   "template_price_changes": {
+      "message": "Fiyat Değişiklikleri"
+   },
+   "template_price_changes_desc": {
+      "message": "Fiyatla ilgili anahtar kelimeleri izle"
+   },
+   "template_price_detector": {
+      "message": "Fiyat algılayıcı"
+   },
+   "template_price_detector_desc": {
+      "message": "$19.99 gibi herhangi bir dolar fiyatıyla eşleşir"
+   },
+   "template_price_element": {
+      "message": "Fiyat Öğesi"
+   },
+   "template_price_element_desc": {
+      "message": "Fiyat sınıfına sahip öğeleri bul"
+   },
+   "template_price_format": {
+      "message": "Fiyat Biçimi"
+   },
+   "template_price_format_desc": {
+      "message": "$19.99 gibi fiyatları eşleştir"
+   },
+   "template_product_availability": {
+      "message": "Ürün Mevcudiyeti"
+   },
+   "template_product_availability_desc": {
+      "message": "Ürün mevcudiyet durumunu izle"
+   },
+   "template_product_id_pattern": {
+      "message": "Ürün Kimliği Modeli"
+   },
+   "template_product_id_pattern_desc": {
+      "message": "Ürün-123 gibi ürün kimliklerini eşleştir"
+   },
+   "template_product_status": {
+      "message": "Ürün Durumu"
+   },
+   "template_product_status_desc": {
+      "message": "Yeni veya sınırlı baskı ürünler"
+   },
+   "template_restock_alert": {
+      "message": "Yeniden stok uyarısı"
+   },
+   "template_restock_alert_desc": {
+      "message": "Ürün geri geldiği anı yakalayın"
+   },
+   "template_shipping_options": {
+      "message": "Gönderim Seçenekleri"
+   },
+   "template_shipping_options_desc": {
+      "message": "Hızlı gönderim seçenekleri mevcuttur"
+   },
+   "template_shopping_actions": {
+      "message": "Alışveriş İşlemleri"
+   },
+   "template_shopping_actions_desc": {
+      "message": "Alışveriş düğmesi mevcudiyetini takip et"
+   },
+   "template_stock_and_price": {
+      "message": "Stok VE Fiyat"
+   },
+   "template_stock_and_price_desc": {
+      "message": "Stokta olan ürünler VE satışta"
+   },
+   "template_stock_status_element": {
+      "message": "Stok durumu öğesi"
+   },
+   "template_stock_status_element_desc": {
+      "message": "Sınıfına göre bir öğeyi hedefleyin"
+   },
+   "template_stock_status_text": {
+      "message": "Stok Durumu Metni"
+   },
+   "template_stock_status_text_desc": {
+      "message": "\"Stokta\" içeren metni bul"
+   },
+   "template_ticket_availability": {
+      "message": "Bilet müsaitliği"
+   },
+   "template_ticket_availability_desc": {
+      "message": "Biletlerin satışa çıkmasını izleyin"
+   },
+   "templates": {
+      "message": "Şablonlar"
+   },
+   "templates_add_to_keywords": {
+      "message": "Anahtar kelimelere ekle"
+   },
+   "templates_ai_aria": {
+      "message": "AI ifade oluşturucu"
+   },
+   "templates_ai_label": {
+      "message": "AI"
+   },
+   "templates_back_to_templates": {
+      "message": "Şablonlara dön"
+   },
+   "templates_close_aria": {
+      "message": "İletişim kutusunu kapat"
+   },
+   "templates_copy_aria": {
+      "message": "%1 ifadesini kopyala"
+   },
+   "templates_header_templates_aria": {
+      "message": "Şablonlara dön"
+   },
+   "templates_ready_made": {
+      "message": "Hazır şablonlar"
+   },
+   "templates_syntax_aria": {
+      "message": "Sözdizimi yardımı"
+   },
+   "templates_syntax_button": {
+      "message": "Sözdizimi"
+   },
+   "templates_tooltip": {
+      "message": "Hazır izleme şablonlarına göz atın"
+   },
+   "templates_type_css": {
+      "message": "CSS"
+   },
+   "templates_type_custom": {
+      "message": "Özel"
+   },
+   "templates_type_normal": {
+      "message": "Normal"
+   },
+   "templates_type_regex": {
+      "message": "Regex"
+   },
+   "templates_type_xpath": {
+      "message": "XPath"
+   },
+   "text": {
+      "message": "Metin"
+   },
+   "thankyou_msg": {
+      "message": "Geri bildiriminiz için teşekkürler"
+   },
+   "this_is_not_valid_css_selector": {
+      "message": "Bu geçerli bir CSS seçicisi değildir."
+   },
+   "thnakyou_desc": {
+      "message": "Geri bildiriminiz bizi iyileştirmemize yardımcı oluyor"
+   },
+   "time": {
+      "message": "Zaman"
+   },
+   "time_has_passed": {
+      "message": "Zaman geçti"
+   },
+   "time_is_invalid": {
+      "message": "Seçilen zaman geçersiz"
+   },
+   "timer": {
+      "message": "Zamanlayıcı"
+   },
+   "timer_position": {
+      "message": "Zamanlayıcı Konumu"
+   },
+   "timer_position_bottom_left": {
+      "message": "Sol alt"
+   },
+   "timer_position_bottom_right": {
+      "message": "Sağ alt"
+   },
+   "timer_position_center": {
+      "message": "Orta"
+   },
+   "timer_position_top_left": {
+      "message": "Sol üst"
+   },
+   "timer_position_top_right": {
+      "message": "Sağ üst"
+   },
+   "upgrade": {
+      "message": "Yüksel"
+   },
+   "use_default": {
+      "message": "Varsayılan Anahtar Kelimeleri Kullan"
+   },
+   "user_menu_account_aria": {
+      "message": "Hesap menüsü"
+   },
+   "user_menu_avatar_alt": {
+      "message": "Kullanıcı avatarı"
+   },
+   "user_menu_classic_view": {
+      "message": "Classic"
+   },
+   "user_menu_classic_view_aria": {
+      "message": "Classic görünümü"
+   },
+   "user_menu_command_view": {
+      "message": "Command"
+   },
+   "user_menu_command_view_aria": {
+      "message": "Command görünümü"
+   },
+   "user_menu_focus_mode": {
+      "message": "Odak modu"
+   },
+   "user_menu_focus_mode_aria": {
+      "message": "Odak modunu aç/kapat"
+   },
+   "user_menu_focus_mode_tooltip": {
+      "message": "Ekstra arayüz öğelerini gizle"
+   },
+   "user_menu_refresh_position": {
+      "message": "Üstte düğmeler"
+   },
+   "user_menu_refresh_position_aria": {
+      "message": "Yenile düğmesini üstte göster"
+   },
+   "user_menu_refresh_position_tooltip": {
+      "message": "Yenile düğmelerini üst barda göster"
+   },
+   "user_menu_theme_dark_aria": {
+      "message": "Koyu tema"
+   },
+   "user_menu_theme_light_aria": {
+      "message": "Açık tema"
+   },
+   "user_menu_theme_system_aria": {
+      "message": "Sistem teması"
+   },
+   "user_menu_ui_cosmetics": {
+      "message": "UI Kozmetiği"
+   },
+   "user_menu_view": {
+      "message": "Görünüm"
+   },
+   "user_menu_view_aria": {
+      "message": "Görünüm modunu seç"
+   },
+   "view_pricing_plans": {
+      "message": "Fiyatlandırma Planlarını Görüntüle"
+   },
+   "visual_find_text": {
+      "message": "Görsel (Ekran Metni)"
+   },
+   "visual_find_text_help": {
+      "message": "Ekranda bir insan tarafından görüldüğü gibi görünür metni ayıklar."
+   },
+   "visual_timer_desc": {
+      "message": "Sayfada geri sayım göster"
+   },
+   "visual_timer_done": {
+      "message": "tamamlandı"
+   },
+   "visual_timer_help": {
+      "message": "Görsel zamanlayıcı, web sayfasında doğrudan bir geri sayımı görüntüler. Sonraki yenilemeye kadar kalan süreyi gösterir ve zamanlayıcıyı duraklatma, devam ettirme veya sıfırlama denetimlerini içerir."
+   },
+   "visual_timer_live_monitor": {
+      "message": "Canlı İzleyici"
+   },
+   "visual_timer_msg": {
+      "message": "Görsel zamanlayıcıyı göster"
+   },
+   "visual_timer_next_refresh_in": {
+      "message": "Sonraki yenileme"
+   },
+   "visual_timer_pause_aria": {
+      "message": "Zamanlayıcıyı duraklat"
+   },
+   "visual_timer_paused": {
+      "message": "DURAKLATILDI"
+   },
+   "visual_timer_restart_tooltip": {
+      "message": "Geri sayımı yeniden başlat"
+   },
+   "visual_timer_resume_aria": {
+      "message": "Zamanlayıcıyı başlat"
+   },
+   "visual_timer_running": {
+      "message": "ÇALIŞIYOR"
+   },
+   "visual_timer_stop_aria": {
+      "message": "Zamanlayıcıyı durdur"
+   },
+   "wait_content_load": {
+      "message": "İçerik Yüklenmesini Bekle"
+   },
+   "wait_content_load_desc": {
+      "message": "Her yenilemeden sonra taramayı geciktir"
+   },
+   "wait_content_load_help": {
+      "message": "İçeğin tam olarak yüklenmesine izin vermek için algılamadan önce bekleyin."
+   },
+   "warning_random_interval": {
+      "message": "Rastgele aralıkların düzgün çalışması için maksimum değer minimum değerden büyük olmalıdır."
+   },
+   "webhook_alert_help": {
+      "message": "Web kancaları, değişiklikler algılandığında diğer uygulamalara veya hizmetlere uyarı göndermenize izin verir."
+   },
+   "webhook_alerts_switch_desc": {
+      "message": "Uç noktanıza payload gönder"
+   },
+   "webhooks": {
+      "message": "Web Kancaları"
+   },
+   "webhooks_tooltip": {
+      "message": "Uyarılar için webhook ayarlarını açın"
+   },
+   "whats_new": {
+      "message": "Yenilikler"
+   },
+   "whats_new_close_aria": {
+      "message": "Yenilikleri kapat"
+   },
+   "whats_new_latest": {
+      "message": "En son"
+   },
+   "whats_new_load_error": {
+      "message": "Sürüm notları yüklenemedi. Lütfen daha sonra tekrar deneyin."
+   },
+   "whats_new_subtitle": {
+      "message": "Auto Refresh Plus sürüm notları"
+   },
+   "whats_new_thank_you": {
+      "message": "Auto Refresh Plus kullandığınız için teşekkürler"
+   },
+   "window_focus_on_detection": {
+      "message": "Anahtar Kelime Algılamasında Pencere Odağı"
+   },
+   "window_focus_on_detection_desc": {
+      "message": "Eşleşmede sekmeyi öne getir"
+   },
+   "window_focus_on_detection_help": {
+      "message": "Sayfa İzleme bir anahtar kelimeyi bulduğunda veya kaybettiğinde pencere odağını etkinleştirin. Bu özellik, belirtilen anahtar kelime algılandığında veya kaybolduğunda pencerenin otomatik olarak ekranınızın ön tarafına gelmesini sağlar."
+   },
+   "without_full": {
+      "message": "XHR Yenileme"
+   },
+   "xhr_page_help": {
+      "message": "Tam sayfa yenileme yapmadan bir URL'den veri alın. Bu, bir web sayfasının kullanıcının yaptığını kesintiye uğratmadan sayfanın yalnızca bir bölümünü güncellemesini sağlar."
+   },
+   "xhr_request_autoclick": {
+      "message": "Öğeyi Otomatik Tıkla"
+   },
+   "xhr_request_autoclick_desc": {
+      "message": "Otomatik tıklamak istediğiniz sayfa öğesine tıklayın."
+   },
+   "xpath": {
+      "message": "XPath"
+   },
+   "xpath_expression": {
+      "message": "XPath İfadesi"
+   },
+   "xpath_expression_desc": {
+      "message": "XML Yolları Dili, bir belgenin farklı bölümlerine hitap etmenin esnek bir yolunu sağlar. İki @@ sembolü ile başlatılmalıdır."
+   },
+   "xpath_expression_example_1_desc": {
+      "message": "\"Stokta\" metnini içeren herhangi bir öğeyi arar"
+   },
+   "xpath_expression_example_2_desc": {
+      "message": "\"Ara\" içeren değer özniteliğine sahip giriş öğelerini arar"
+   },
+   "xpath_expression_example_3_desc": {
+      "message": "\"fiyat\" sınıfına sahip div öğelerini ve \"$\" simgesini içerenleri arar"
+   },
+   "your_expressions": {
+      "message": "İfadeleriniz"
+   },
+   "your_expressions_add_new": {
+      "message": "Yeni ekle"
+   },
+   "your_expressions_define_placeholder": {
+      "message": "İfade tanımla (örn. Stokta veya ##Stokta AND Sepete Ekle)"
+   },
+   "your_expressions_delete_aria": {
+      "message": "%1 sil"
+   },
+   "your_expressions_edit_aria": {
+      "message": "%1 düzenle"
+   },
+   "your_expressions_empty": {
+      "message": "Henüz kayıtlı ifade yok. Oluşturmak için \"Yeni ekle\"ye dokunun."
+   },
+   "your_expressions_name_placeholder": {
+      "message": "İfade adı (örn. Stok Uyarım)"
+   },
+   "your_expressions_yours_badge": {
+      "message": "Sizin"
+   }
+}
