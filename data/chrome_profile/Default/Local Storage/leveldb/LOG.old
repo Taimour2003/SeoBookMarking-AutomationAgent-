@@ -1,9 +1,0 @@
-2026/08/06-19:45:29.049 7428 Reusing MANIFEST D:\ComputerXperts\WebAgent\newSolution\data\chrome_profile\Default\Local Storage\leveldb/MANIFEST-000001
-2026/08/06-19:45:29.062 7428 Recovering log #3
-2026/08/06-19:45:29.067 7428 Reusing old log D:\ComputerXperts\WebAgent\newSolution\data\chrome_profile\Default\Local Storage\leveldb/000003.log 
-2026/08/07-05:36:48.155 54e8 Level-0 table #5: started
-2026/08/07-05:36:48.166 54e8 Level-0 table #5: 29571 bytes OK
-2026/08/07-05:36:48.169 54e8 Delete type=0 #3
-2026/08/07-14:20:39.670 54e8 Level-0 table #7: started
-2026/08/07-14:20:39.679 54e8 Level-0 table #7: 22125 bytes OK
-2026/08/07-14:20:39.683 54e8 Delete type=0 #4
