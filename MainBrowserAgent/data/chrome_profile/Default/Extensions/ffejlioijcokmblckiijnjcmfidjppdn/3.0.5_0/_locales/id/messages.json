@@ -1,0 +1,38 @@
+{
+   "acceptButton": {
+      "message": "Terima"
+   },
+   "appTitle": {
+      "message": "Auto Refresh Plus"
+   },
+   "consentText": {
+      "message": "Untuk meningkatkan Auto Refresh Plus, ekstensi ini mengumpulkan alamat web (URL) halaman yang Anda kunjungi dan halaman asal Anda (URL perujuk), yang ditautkan ke ID anonim acak. Kami menggunakannya untuk mengukur cara ekstensi digunakan dan menemukan halaman tempat refresh otomatis tidak berfungsi. Data ini dikirim ke server kami, tidak pernah dijual, dan tidak pernah dibagikan dengan pihak ketiga. Anda dapat menolak dan tetap menggunakan ekstensi ini. Anda dapat mempelajari lebih lanjut dalam"
+   },
+   "declineButton": {
+      "message": "Tolak"
+   },
+   "enterTimeText": {
+      "message": "Masukkan waktu dalam detik"
+   },
+   "extensionDescription": {
+      "message": "Auto Refresh Plus secara otomatis menyegarkan dan memuat ulang halaman atau tab apa pun setelah jumlah detik yang ditentukan"
+   },
+   "extensionName": {
+      "message": "Auto Refresh Plus"
+   },
+   "extensionTitle": {
+      "message": "Auto Refresh Plus"
+   },
+   "privacyPolicy": {
+      "message": "Kebijakan Privasi"
+   },
+   "secondsText": {
+      "message": "detik"
+   },
+   "startButton": {
+      "message": "MULAI"
+   },
+   "stopButton": {
+      "message": "BERHENTI"
+   }
+}

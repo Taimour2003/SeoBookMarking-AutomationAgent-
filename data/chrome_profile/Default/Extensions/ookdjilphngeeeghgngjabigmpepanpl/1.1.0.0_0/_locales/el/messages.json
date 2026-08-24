@@ -1,0 +1,539 @@
+{
+   "about_content_1": {
+      "message": "Είμαι προγραμματιστής και μου αρέσει να δημιουργώ επεκτάσεις για το Chrome. Σας βοηθώ να αναπτύξετε και να προωθήσετε την επικοινωνία στα μέσα κοινωνικής δικτύωσης."
+   },
+   "about_content_2": {
+      "message": " Μπορείτε να μάθετε περισσότερα για εμένα και να επικοινωνήσετε μέσω των παρακάτω κοινωνικών πλατφορμών."
+   },
+   "about_title": {
+      "message": "Σχετικά με τον ThanhBui"
+   },
+   "account_type_free": {
+      "message": "Δωρεάν"
+   },
+   "account_type_premium": {
+      "message": "Premium"
+   },
+   "alert_add_cookie_error": {
+      "message": "Σφάλμα κατά την προσθήκη cookie"
+   },
+   "alert_add_cookie_success": {
+      "message": "Επιτυχής προσθήκη cookie"
+   },
+   "alert_copy_cookie_success": {
+      "message": "Επιτυχής αντιγραφή"
+   },
+   "alert_delete_cookie_success": {
+      "message": "Επιτυχής διαγραφή cookie"
+   },
+   "alert_edit_cookie_success": {
+      "message": "Επιτυχής επεξεργασία cookie"
+   },
+   "alert_import_cookie_error": {
+      "message": "Σφάλμα κατά την εισαγωγή cookies"
+   },
+   "alert_import_cookie_success": {
+      "message": "Επιτυχής εισαγωγή cookies"
+   },
+   "bottom_message_upgrade": {
+      "message": " Εξοικονομήστε 25% αναβαθμίζοντας σε ετήσιο πρόγραμμα σήμερα!"
+   },
+   "btn_add": {
+      "message": "Προσθήκη"
+   },
+   "btn_cancel": {
+      "message": "Ακύρωση"
+   },
+   "btn_copy": {
+      "message": "Αντιγραφή"
+   },
+   "btn_delete": {
+      "message": "Διαγραφή"
+   },
+   "btn_edit": {
+      "message": "Επεξεργασία"
+   },
+   "btn_export": {
+      "message": "Εξαγωγή"
+   },
+   "btn_import": {
+      "message": "Εισαγωγή"
+   },
+   "btn_remove": {
+      "message": "Καθαρισμός όλων"
+   },
+   "btn_upgrade_month": {
+      "message": "Ξεκινά από ___price___/μήνα"
+   },
+   "btn_upgrade_year": {
+      "message": "Ξεκινά από ___price___/έτος"
+   },
+   "button_clear_browser": {
+      "message": "Εκκαθάριση δεδομένων περιήγησης"
+   },
+   "button_loading": {
+      "message": "Φόρτωση..."
+   },
+   "button_remove_all": {
+      "message": "Αφαίρεση όλων"
+   },
+   "button_select_all": {
+      "message": "Επιλογή όλων"
+   },
+   "button_suggest": {
+      "message": "Πρόταση"
+   },
+   "buy_coffee_content_1": {
+      "message": "Η συντήρηση λογισμικού απαιτεί πολύ χρόνο και αργά βράδια, ειδικά όταν δουλεύω σε αυτό μετά την κανονική εργασία."
+   },
+   "buy_coffee_content_2": {
+      "message": "Αν απολαμβάνετε τη δουλειά μου και θέλετε να δείξετε την εκτίμησή σας, υπάρχουν αρκετοί τρόποι να με υποστηρίξετε."
+   },
+   "choice_24h": {
+      "message": "Τελευταίες 24 ώρες"
+   },
+   "choice_all_time": {
+      "message": "Όλος ο χρόνος"
+   },
+   "choice_last_30days": {
+      "message": "Τελευταίες 30 ημέρες"
+   },
+   "choice_last_7days": {
+      "message": "Τελευταίες 7 ημέρες"
+   },
+   "clear_browser_description": {
+      "message": "Διαγράψτε όλα τα δεδομένα περιήγησης με ένα απλό κλικ."
+   },
+   "clear_browser_option_appcache": {
+      "message": "Appcache ιστοσελίδων"
+   },
+   "clear_browser_option_cache": {
+      "message": "Προσωρινή μνήμη του προγράμματος περιήγησης"
+   },
+   "clear_browser_option_cacheStorage": {
+      "message": "Αποθήκευση προσωρινής μνήμης"
+   },
+   "clear_browser_option_cookies": {
+      "message": "Cookies"
+   },
+   "clear_browser_option_downloads": {
+      "message": "Λίστα λήψεων του προγράμματος περιήγησης"
+   },
+   "clear_browser_option_fileSystems": {
+      "message": "Συστήματα αρχείων ιστοσελίδων"
+   },
+   "clear_browser_option_formData": {
+      "message": "Αποθηκευμένα δεδομένα φορμών"
+   },
+   "clear_browser_option_history": {
+      "message": "Ιστορικό περιήγησης"
+   },
+   "clear_browser_option_indexedDB": {
+      "message": "Δεδομένα IndexedDB ιστοσελίδων"
+   },
+   "clear_browser_option_localStorage": {
+      "message": "Δεδομένα τοπικής αποθήκευσης ιστοσελίδων"
+   },
+   "clear_browser_option_serviceWorkers": {
+      "message": "Service Workers"
+   },
+   "clear_browser_option_webSQL": {
+      "message": "Δεδομένα WebSQL ιστοσελίδων"
+   },
+   "clear_browser_title": {
+      "message": "ΕΚΚΑΘΑΡΙΣΗ ΔΕΔΟΜΕΝΩΝ ΠΕΡΙΗΓΗΣΗΣ"
+   },
+   "copy_setting_description": {
+      "message": "Προεπιλεγμένη μορφή κατά την αντιγραφή cookies"
+   },
+   "copy_setting_title": {
+      "message": "ΡΥΘΜΙΣΕΙΣ ΑΝΤΙΓΡΑΦΗΣ"
+   },
+   "created_at": {
+      "message": "Ημερομηνία δημιουργίας"
+   },
+   "cta_convert_share_link": {
+      "message": "Κοινοποιήστε μέσω συνδέσμου"
+   },
+   "description_add_cookie": {
+      "message": "Θέλετε να προσθέσετε το cookie;"
+   },
+   "description_buy_me_a_coffee": {
+      "message": "Αν σας αρέσει, σκεφτείτε να με υποστηρίξετε "
+   },
+   "description_clear_cookie": {
+      "message": "Θέλετε να αφαιρέσετε όλα τα cookies αυτής της ιστοσελίδας;"
+   },
+   "description_confirm_delete_browser_data": {
+      "message": "Τα δεδομένα περιήγησης θα διαγραφούν και δεν θα μπορούν να ανακτηθούν."
+   },
+   "description_copy_cookie": {
+      "message": "Σε ποια μορφή θέλετε να αντιγράψετε το cookie;"
+   },
+   "description_delete_cookie": {
+      "message": "Θέλετε να διαγράψετε το cookie;"
+   },
+   "description_edit_cooke": {
+      "message": "Θέλετε να επεξεργαστείτε το cookie;"
+   },
+   "description_export_cookie": {
+      "message": "Σε ποια μορφή θέλετε να εξάγετε το cookie;"
+   },
+   "description_import_cookie": {
+      "message": "Πώς θέλετε να εισάγετε;"
+   },
+   "description_password": {
+      "message": "Εισάγετε έναν κωδικό πρόσβασης εάν θέλετε το cookie να κρυπτογραφηθεί πριν από την εξαγωγή (προαιρετικό)."
+   },
+   "description_password_decrypt": {
+      "message": "Εισάγετε τον κωδικό αποκρυπτογράφησης εάν τα cookies προστατεύονται με κρυπτογράφηση (προαιρετικό)."
+   },
+   "description_upgrade_no_ads": {
+      "message": "Τέλος οι διαφημίσεις για πάντα. Πλήρωσε μία φορά, απόλαυσε για πάντα."
+   },
+   "display_setting_description": {
+      "message": "Ρυθμίσεις λειτουργίας εμφάνισης για προβολή cookies"
+   },
+   "display_setting_option_compact": {
+      "message": "Συμπαγής λειτουργία"
+   },
+   "display_setting_option_custom": {
+      "message": "Προσαρμοσμένη λειτουργία"
+   },
+   "display_setting_option_default": {
+      "message": "Προεπιλεγμένη λειτουργία"
+   },
+   "display_setting_title": {
+      "message": "ΡΥΘΜΙΣΕΙΣ ΕΜΦΑΝΙΣΗΣ"
+   },
+   "email": {
+      "message": "Ηλεκτρονικό ταχυδρομείο"
+   },
+   "exp_custom": {
+      "message": "Προσαρμοσμένο"
+   },
+   "expiration_time": {
+      "message": "Χρόνος λήξης"
+   },
+   "expiry_date": {
+      "message": "Ημερομηνία λήξης"
+   },
+   "export_setting_description": {
+      "message": "Προεπιλεγμένη μορφή κατά την εξαγωγή cookies"
+   },
+   "export_setting_title": {
+      "message": "ΡΥΘΜΙΣΕΙΣ ΕΞΑΓΩΓΗΣ"
+   },
+   "ext_description": {
+      "message": "Simple yet powerful Cookie Editor that allow you to quickly create, edit and delete cookies without leaving your tab."
+   },
+   "ext_name": {
+      "message": "Cookie Editor"
+   },
+   "feature_suggest_description": {
+      "message": "Προτείνετε μια απαραίτητη λειτουργία εάν θέλετε να την αναπτύξουμε περαιτέρω."
+   },
+   "feature_suggest_title": {
+      "message": "Ποια λειτουργία θέλετε να προσθέσουμε;"
+   },
+   "fs_email_description": {
+      "message": "Εισάγετε τη διεύθυνση email σας. Ενδέχεται να επικοινωνήσουμε μαζί σας για διευκρινίσεις. (προαιρετικό)"
+   },
+   "import_setting_description": {
+      "message": "Επιλογές για ρυθμίσεις εισαγωγής cookies"
+   },
+   "import_setting_format": {
+      "message": "Προεπιλεγμένη επιλογή εισαγωγής"
+   },
+   "import_setting_format_file": {
+      "message": "Χρήση αρχείου"
+   },
+   "import_setting_format_text": {
+      "message": "Χρήση κειμένου"
+   },
+   "import_setting_option_reload_page": {
+      "message": "Επαναφόρτωση ιστοσελίδας μετά την εισαγωγή"
+   },
+   "import_setting_title": {
+      "message": "ΡΥΘΜΙΣΕΙΣ ΕΙΣΑΓΩΓΗΣ"
+   },
+   "label_fs": {
+      "message": " Πρόταση λειτουργίας"
+   },
+   "label_password_decrypt": {
+      "message": "Κωδικός πρόσβασης για αποκρυπτογράφηση cookies"
+   },
+   "label_password_encrypt": {
+      "message": "Κωδικός πρόσβασης για κρυπτογράφηση cookies"
+   },
+   "label_select_file_import": {
+      "message": "Επιλέξτε αρχείο για εισαγωγή"
+   },
+   "lable_link_import": {
+      "message": "Σύνδεσμος για εισαγωγή cookies"
+   },
+   "link_exp": {
+      "message": "Χρόνος λήξης του συνδέσμου"
+   },
+   "link_exp_description": {
+      "message": "Εισάγετε χρόνο λήξης αν θέλετε ο σύνδεσμος να είναι διαθέσιμος για συγκεκριμένο διάστημα. Αφήστε κενό για απεριόριστη διάρκεια."
+   },
+   "logout": {
+      "message": "Αποσύνδεση"
+   },
+   "message_copy_link_error": {
+      "message": "Αποτυχία αντιγραφής του συνδέσμου"
+   },
+   "message_copy_link_success": {
+      "message": "Ο σύνδεσμος αντιγράφηκε με επιτυχία"
+   },
+   "message_select_time_clear_browser_data": {
+      "message": "Για ποια χρονική περίοδο θέλετε να διαγράψετε τα δεδομένα;"
+   },
+   "msg_cookie_error": {
+      "message": "Μη έγκυρες πληροφορίες cookie. Παρακαλώ συνδεθείτε ξανά."
+   },
+   "msg_error": {
+      "message": "Παρουσιάστηκε σφάλμα συστήματος."
+   },
+   "msg_import_error": {
+      "message": "Αποτυχία εισαγωγής cookies."
+   },
+   "msg_link_exp": {
+      "message": "Ο σύνδεσμος έχει λήξει."
+   },
+   "msg_link_not_found": {
+      "message": "Αυτός ο σύνδεσμος δεν υπάρχει."
+   },
+   "msg_no_cookies": {
+      "message": "Δεν υπάρχουν cookies."
+   },
+   "msg_no_permission": {
+      "message": "Δεν έχετε τα απαραίτητα δικαιώματα."
+   },
+   "msg_password_empty": {
+      "message": "Ο κωδικός δεν πρέπει να είναι κενός."
+   },
+   "msg_password_error": {
+      "message": "Ο κωδικός αποκρυπτογράφησης είναι λανθασμένος."
+   },
+   "msg_password_length": {
+      "message": "Ο κωδικός πρέπει να έχει τουλάχιστον 8 χαρακτήρες."
+   },
+   "msg_share_error": {
+      "message": "Η κοινοποίηση απέτυχε."
+   },
+   "msg_title_empty": {
+      "message": "Ο τίτλος δεν πρέπει να είναι κενός."
+   },
+   "msg_upgrade": {
+      "message": "Κερδίστε 25% έκπτωση — πληρώστε μόνο ___sale___/έτος αντί για ___price___"
+   },
+   "no_cookie_description": {
+      "message": "Η ιστοσελίδα δεν έχει cookies."
+   },
+   "no_support": {
+      "message": "Δεν θέλω να υποστηρίξω."
+   },
+   "owner": {
+      "message": "Ιδιοκτήτης"
+   },
+   "page_import_description": {
+      "message": "Χρησιμοποιείτε τη λειτουργία εισαγωγής cookie μέσω κοινοποιημένου συνδέσμου."
+   },
+   "password_encrypt": {
+      "message": "Κωδικός για αποκρυπτογράφηση των cookies"
+   },
+   "password_encrypt_description": {
+      "message": "Εισάγετε έναν κωδικό για να κρυπτογραφήσετε το cookie πριν το κοινοποιήσετε. Αυτό εξασφαλίζει ότι ούτε εμείς μπορούμε να το διαβάσουμε χωρίς τον κωδικό. (Απαιτείται)"
+   },
+   "payment_fs": {
+      "message": "Θα πληρώνατε για αυτήν τη λειτουργία;"
+   },
+   "pl_fs_input": {
+      "message": "Μια λειτουργία που θέλετε να αναπτύξουμε"
+   },
+   "pl_password": {
+      "message": "Κωδικός πρόσβασης για κρυπτογράφηση/αποκρυπτογράφηση cookies"
+   },
+   "placeholder_search": {
+      "message": "Αναζήτηση ονόματος cookie"
+   },
+   "public_link_cookie": {
+      "message": "Ο καθένας μπορεί να έχει πρόσβαση στον σύνδεσμο που κοινοποιήσατε."
+   },
+   "remind_login": {
+      "message": " Πρέπει να δημιουργήσετε λογαριασμό πριν κοινοποιήσετε το cookie μέσω συνδέσμου."
+   },
+   "remind_login_btn": {
+      "message": "Εγγραφή τώρα"
+   },
+   "remind_upgrade_btn": {
+      "message": "Αναβάθμιση τώρα"
+   },
+   "remind_upgrade_description": {
+      "message": "Αυτή η προχωρημένη λειτουργία είναι διαθέσιμη μόνο για επί πληρωμή λογαριασμούς. Αναβαθμίστε τώρα για πρόσβαση."
+   },
+   "remind_upgrade_title": {
+      "message": "Αναβαθμίστε για να χρησιμοποιήσετε αυτήν τη λειτουργία."
+   },
+   "setting_confirm_dialog": {
+      "message": "ΠΑΡΑΘΥΡΟ ΕΠΙΒΕΒΑΙΩΣΗΣ"
+   },
+   "setting_confirm_dialog_description": {
+      "message": "Εμφάνιση παραθύρου επιβεβαίωσης κατά τη χρήση της επέκτασης"
+   },
+   "setting_customize_display_cookie": {
+      "message": "Προσαρμογή εμφάνισης cookies"
+   },
+   "setting_description": {
+      "message": "Προσαρμόστε τον τρόπο λειτουργίας της επέκτασης σύμφωνα με τις προτιμήσεις σας."
+   },
+   "setting_dialog_copy": {
+      "message": "Εμφάνιση παραθύρου επιβεβαίωσης κατά την αντιγραφή των τρεχουσών cookies"
+   },
+   "setting_dialog_delete": {
+      "message": "Εμφάνιση παραθύρου επιβεβαίωσης κατά τη διαγραφή των τρεχουσών cookies"
+   },
+   "setting_dialog_delete_all": {
+      "message": "Εμφάνιση παραθύρου επιβεβαίωσης κατά τη διαγραφή όλων των τρεχουσών cookies"
+   },
+   "setting_enable_context_menus": {
+      "message": "Επιλογές μενού περιβάλλοντος"
+   },
+   "setting_title": {
+      "message": "ΒΑΣΙΚΕΣ ΡΥΘΜΙΣΕΙΣ"
+   },
+   "share_cookie_description": {
+      "message": "Θέλετε να κοινοποιήσετε το cookie;"
+   },
+   "share_cookie_title": {
+      "message": "ΚΟΙΝΟΠΟΙΗΣΗ COOKIE"
+   },
+   "sidebar_buy_coffee": {
+      "message": "Κεράστε μου έναν καφέ"
+   },
+   "sidebar_buy_me_a_coffee": {
+      "message": "Αγόρασέ μου έναν καφέ"
+   },
+   "sidebar_clear_browser": {
+      "message": "Εκκαθάριση δεδομένων περιήγησης"
+   },
+   "sidebar_export": {
+      "message": "Εξαγωγή"
+   },
+   "sidebar_feature_suggestion": {
+      "message": "Πρόταση λειτουργίας"
+   },
+   "sidebar_import": {
+      "message": "Εισαγωγή"
+   },
+   "sidebar_link": {
+      "message": "Σύνδεσμοι"
+   },
+   "sidebar_open_source": {
+      "message": "Ανοιχτός Κώδικας"
+   },
+   "sidebar_reviews": {
+      "message": "Κριτικές"
+   },
+   "sidebar_setting": {
+      "message": "Ρυθμίσεις"
+   },
+   "sidebar_upgrade": {
+      "message": "Αναβάθμιση"
+   },
+   "str_convert_share_link": {
+      "message": "Θέλεις να μοιραστείς αυτό το cookie με κάποιον;"
+   },
+   "str_example": {
+      "message": "Παράδειγμα"
+   },
+   "time_option_1h": {
+      "message": "1 ώρα"
+   },
+   "title": {
+      "message": "Τίτλος"
+   },
+   "title_add_cookie": {
+      "message": "ΠΡΟΣΘΗΚΗ COOKIE"
+   },
+   "title_clear_cookie": {
+      "message": "ΚΑΘΑΡΙΣΜΟΣ COOKIES"
+   },
+   "title_confirm_delete_browser_data": {
+      "message": "ΕΠΙΒΕΒΑΙΩΣΗ ΔΙΑΓΡΑΦΗΣ ΔΕΔΟΜΕΝΩΝ ΠΕΡΙΗΓΗΣΗΣ"
+   },
+   "title_copy_cookie": {
+      "message": "ΑΝΤΙΓΡΑΦΗ COOKIE"
+   },
+   "title_delete": {
+      "message": "Θέλετε να αφαιρέσετε όλα τα cookies αυτής της ιστοσελίδας;"
+   },
+   "title_delete_cookie": {
+      "message": "ΔΙΑΓΡΑΦΗ COOKIE"
+   },
+   "title_description": {
+      "message": " Ένα όνομα που να σας βοηθά να αναγνωρίσετε σε ποιον ιστότοπο ανήκει ο σύνδεσμος του cookie. (Απαιτείται)"
+   },
+   "title_edit_cookie": {
+      "message": "ΕΠΕΞΕΡΓΑΣΙΑ COOKIE"
+   },
+   "title_export": {
+      "message": "Προσπαθείτε να εξάγετε cookies;"
+   },
+   "title_export_cookie": {
+      "message": "ΕΞΑΓΩΓΗ COOKIE"
+   },
+   "title_import": {
+      "message": "Προσπαθείτε να εισάγετε cookies;"
+   },
+   "title_import_cookie": {
+      "message": "ΕΙΣΑΓΩΓΗ COOKIES"
+   },
+   "title_upgrade": {
+      "message": "Απλή τιμολόγηση"
+   },
+   "title_upgrade_no_ads": {
+      "message": "Κατάργηση διαφημίσεων – Εφάπαξ ___price___"
+   },
+   "tooltip_top_action_share": {
+      "message": "Κοινοποίηση"
+   },
+   "type_option_exp_d": {
+      "message": "Ημέρες"
+   },
+   "type_option_exp_h": {
+      "message": "Ώρες"
+   },
+   "type_option_exp_m": {
+      "message": "Μήνες"
+   },
+   "type_option_exp_y": {
+      "message": "Έτη"
+   },
+   "unlimited": {
+      "message": "Απεριόριστο"
+   },
+   "upgrade_description": {
+      "message": "Απλή και διαφανής τιμολόγηση με απεριόριστους συνδρομητές. Αλλαγή ή ακύρωση ανά πάσα στιγμή."
+   },
+   "upgrade_fs_1": {
+      "message": "Διαχείριση Cookies"
+   },
+   "upgrade_fs_2": {
+      "message": "Κρυπτογράφηση και αποκρυπτογράφηση"
+   },
+   "upgrade_fs_3": {
+      "message": " Κοινοποίηση Cookies"
+   },
+   "upgrade_fs_4": {
+      "message": " Χωρίς διαφημίσεις"
+   },
+   "upgrade_fs_5": {
+      "message": " Υποστήριξη"
+   },
+   "website": {
+      "message": "Ιστότοπος"
+   }
+}

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll Test</title>
+    <link rel="stylesheet" href="pricingPopup.css">
+    <style>
+        body {
+            background: #222;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        
+        button {
+            background: #00d4ff;
+            color: black;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+        }
+        
+        button:hover {
+            background: #00b8e6;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: white;">Modal Scroll Test</h1>
+    <button onclick="openTestModal()">Open Test Modal</button>
+    <button onclick="openTestModalWithLongContent()">Open Modal with Long Content</button>
+    
+    <script>
+        // Test modal with normal content
+        function openTestModal() {
+            const modelData = {
+                icon: '🌟',
+                name: 'GPT-5',
+                description: 'OpenAI\'s most advanced and powerful language model with unprecedented reasoning capabilities.',
+                bestFor: ['Complex reasoning tasks', 'Advanced problem solving', 'Cutting-edge research'],
+                strengths: 'State-of-the-art reasoning, breakthrough performance',
+                examples: ['Advanced scientific research', 'Complex strategic planning'],
+                pricing: 'Premium next-generation model'
+            };
+            
+            createTestModal(modelData, false);
+        }
+        
+        // Test modal with long content to force scrolling
+        function openTestModalWithLongContent() {
+            const modelData = {
+                icon: '🌟',
+                name: 'GPT-5 Extended Test',
+                description: 'This is a test modal with extended content to verify scrolling functionality works properly. '.repeat(5),
+                bestFor: [
+                    'Complex reasoning tasks', 'Advanced problem solving', 'Cutting-edge research',
+                    'Professional consulting', 'Next-generation AI applications', 'Data analysis',
+                    'Content creation', 'Code generation', 'Research assistance', 'Problem solving'
+                ],
+                strengths: 'State-of-the-art reasoning, breakthrough performance, revolutionary capabilities, excellent for complex tasks',
+                examples: [
+                    'Advanced scientific research', 'Complex strategic planning', 'Breakthrough problem solving',
+                    'Professional AI consulting', 'Academic research papers', 'Complex creative writing',
+                    'Advanced data analysis', 'Technical documentation', 'Code review and optimization',
+                    'Multi-step problem solving', 'Strategic business planning', 'Research methodology design'
+                ],
+                pricing: 'Premium next-generation model with advanced capabilities'
+            };
+            
+            createTestModal(modelData, true);
+        }
+        
+        function createTestModal(modelData, addExtraContent = false) {
+            // Remove existing modal if any
+            const existing = document.getElementById('aitopia-model-modal');
+            if (existing) existing.remove();
+            
+            const modal = document.createElement('div');
+            modal.id = 'aitopia-model-modal';
+            modal.className = 'aitopia-model-modal';
+            
+            modal.innerHTML = `
+                <div class="aitopia-modal-content">
+                    <div class="aitopia-modal-header">
+                        <div class="aitopia-modal-icon">${modelData.icon}</div>
+                        <h3>${modelData.name}</h3>
+                        <button class="aitopia-modal-close" onclick="closeTestModal()">×</button>
+                    </div>
+                    
+                    <div class="aitopia-modal-body">
+                        <div class="aitopia-modal-section">
+                            <h4>Description</h4>
+                            <p>${modelData.description}</p>
+                        </div>
+                        
+                        <div class="aitopia-modal-section">
+                            <h4>Best For</h4>
+                            <ul class="aitopia-modal-list">
+                                ${modelData.bestFor.map(item => `<li>${item}</li>`).join('')}
+                            </ul>
+                        </div>
+                        
+                        <div class="aitopia-modal-section">
+                            <h4>Key Strengths</h4>
+                            <p class="aitopia-modal-strengths">${modelData.strengths}</p>
+                        </div>
+                        
+                        <div class="aitopia-modal-section">
+                            <h4>Example Use Cases</h4>
+                            <ul class="aitopia-modal-list aitopia-modal-examples">
+                                ${modelData.examples.map(item => `<li>${item}</li>`).join('')}
+                            </ul>
+                        </div>
+                        
+                        <div class="aitopia-modal-section aitopia-modal-pricing">
+                            <h4>Pricing</h4>
+                            <p>${modelData.pricing}</p>
+                        </div>
+                        
+                        ${addExtraContent ? `
+                        <div class="aitopia-modal-section" style="background: rgba(0,255,0,0.1); padding: 20px; margin: 20px 0; border: 1px solid rgba(0,255,0,0.3); border-radius: 8px;">
+                            <h4 style="color: #00ff00;">Scroll Test Content</h4>
+                            <p>This content should make the modal scrollable. Try using your mouse wheel or scrollbar to scroll through this content.</p>
+                            ${Array(30).fill(0).map((_, i) => `<p>Test line ${i + 1}: This is additional content to test scrolling functionality. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>`).join('')}
+                            <p style="color: #00ff00; font-weight: bold;">END OF SCROLL TEST - You should be able to scroll back to the top!</p>
+                        </div>
+                        ` : ''}
+                    </div>
+                    
+                    <div class="aitopia-modal-footer">
+                        <button class="aitopia-modal-cta" onclick="alert('CTA clicked!')">
+                            Try ${modelData.name} on AITOPIA
+                        </button>
+                    </div>
+                </div>
+            `;
+            
+            document.body.appendChild(modal);
+            document.body.style.overflow = 'hidden';
+            
+            setTimeout(() => {
+                modal.classList.add('aitopia-modal-visible');
+                
+                // Setup scrolling using the same logic as in the extension
+                setupTestModalScrolling(modal);
+            }, 10);
+        }
+        
+        function closeTestModal() {
+            const modal = document.getElementById('aitopia-model-modal');
+            if (!modal) return;
+            
+            modal.classList.remove('aitopia-modal-visible');
+            
+            setTimeout(() => {
+                if (modal && modal.parentNode) {
+                    modal.remove();
+                    document.body.style.overflow = '';
+                }
+            }, 300);
+        }
+        
+        function setupTestModalScrolling(modal) {
+            console.log('Setting up test modal scrolling');
+            const modalBody = modal.querySelector('.aitopia-modal-body');
+            
+            if (modalBody) {
+                console.log('Modal body found, configuring scrolling');
+                
+                // Ensure proper scrolling styles are set
+                modalBody.style.overflowY = 'auto';
+                modalBody.style.overflowX = 'hidden';
+                modalBody.style.scrollBehavior = 'smooth';
+                modalBody.style.webkitOverflowScrolling = 'touch';
+                modalBody.style.position = 'relative';
+                
+                modalBody.setAttribute('tabindex', '0');
+                
+                // Add debug logging to verify scroll events
+                modalBody.addEventListener('scroll', function() {
+                    console.log('Modal body scroll event fired:', {
+                        scrollTop: modalBody.scrollTop,
+                        scrollHeight: modalBody.scrollHeight,
+                        clientHeight: modalBody.clientHeight
+                    });
+                });
+                
+                // Test scroll functionality
+                setTimeout(() => {
+                    const isScrollable = modalBody.scrollHeight > modalBody.clientHeight;
+                    console.log('Modal scroll test:', {
+                        scrollHeight: modalBody.scrollHeight,
+                        clientHeight: modalBody.clientHeight,
+                        isScrollable: isScrollable,
+                        computedOverflowY: window.getComputedStyle(modalBody).overflowY
+                    });
+                    
+                    if (isScrollable) {
+                        console.log('✅ Modal should be scrollable!');
+                    } else {
+                        console.log('ℹ️ Modal content fits in viewport, no scrolling needed');
+                    }
+                }, 100);
+                
+                console.log('Modal scrolling setup complete - natural scrolling enabled');
+            }
+        }
+        
+        // Close modal when clicking outside
+        document.addEventListener('click', function(e) {
+            if (e.target.classList.contains('aitopia-model-modal')) {
+                closeTestModal();
+            }
+        });
+        
+        // Close modal with Escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeTestModal();
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+<script src="/aitopia/marketplace/js/extension-config.js"></script>
+  <script src="/aitopia/marketplace/js/shared/pre-auth.js"></script>
+
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <base href="/aitopia/marketplace/home.html">
+  <title> Smart Sidebar (AITOPIA)</title>
+  <meta name="description" content="Track partner earnings, escrow, and payout status.">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <link rel="icon" type="image/svg+xml" href="/aitopia/marketplace/favicon.svg">
+  <link href="/aitopia/marketplace/css/vendor/css2.css" rel="stylesheet">
+  <script src="/aitopia/marketplace/js/vendor/tailwindcss.min.js"></script>
+  <script src="/aitopia/marketplace/store/tailwind-config.js"></script>
+  <link rel="stylesheet" href="/aitopia/marketplace/store/shared.css">
+  <script src="/aitopia/marketplace/js/inline/developers-earnings-inline-1.js"></script>
+  <script src="/aitopia/marketplace/js/inline/developers-earnings-inline-2.js"></script>
+</head>
+<body data-page="developers-earnings" class="min-h-screen font-sans antialiased bg-white dark:bg-neutral-950 text-gray-900 dark:text-white transition-colors aifnmjmchg aifnmjmchg-marketplace">
+  <div id="navbar-container"></div>
+  <script src="/aitopia/marketplace/js/shared/cache.js"></script>
+  <script src="/aitopia/marketplace/js/components/navbar.js"></script>
+
+  <main class="max-w-[1600px] mx-auto px-3 sm:px-4 lg:px-6 py-8">
+    <div class="grid grid-cols-1 lg:grid-cols-[260px_minmax(0,1fr)] gap-6">
+      <aside id="developerSidebar"></aside>
+
+      <section class="space-y-6 min-w-0">
+        <div>
+          <h1 class="text-3xl font-bold tracking-tight">Earnings</h1>
+          <p class="mt-2 text-sm text-muted-foreground">Credits are shown across available, escrowed, and pending-cost states.</p>
+        </div>
+
+        <div id="earningsMessage" class="hidden rounded-xl border px-4 py-3 text-sm"></div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4">
+          <div class="rounded-ios-2xl border border-border bg-card p-5"><div class="text-xs text-muted-foreground">Today</div><div id="earningsToday" class="mt-1 text-lg font-bold">0</div></div>
+          <div class="rounded-ios-2xl border border-border bg-card p-5"><div class="text-xs text-muted-foreground">This Week</div><div id="earningsWeek" class="mt-1 text-lg font-bold">0</div></div>
+          <div class="rounded-ios-2xl border border-border bg-card p-5"><div class="text-xs text-muted-foreground">This Month</div><div id="earningsMonth" class="mt-1 text-lg font-bold">0</div></div>
+          <div class="rounded-ios-2xl border border-border bg-card p-5"><div class="text-xs text-muted-foreground">All Time</div><div id="earningsAllTime" class="mt-1 text-lg font-bold">0</div></div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          <div class="rounded-ios-2xl border border-border bg-card p-5"><div class="text-xs text-muted-foreground">Available</div><div id="balanceAvailable" class="mt-1 text-lg font-bold text-emerald-500">0</div></div>
+          <div class="rounded-ios-2xl border border-border bg-card p-5"><div class="text-xs text-muted-foreground">Escrowed</div><div id="balanceEscrowed" class="mt-1 text-lg font-bold">0</div></div>
+          <div class="rounded-ios-2xl border border-border bg-card p-5"><div class="text-xs text-muted-foreground">Pending Cost</div><div id="balancePending" class="mt-1 text-lg font-bold">0</div></div>
+        </div>
+
+        <div class="rounded-ios-2xl border border-border bg-card p-6">
+          <h2 class="font-semibold">By Agent</h2>
+          <div id="byAgentList" class="mt-4 space-y-3"></div>
+        </div>
+
+        <div class="rounded-ios-2xl border border-border bg-card p-6">
+          <h2 class="font-semibold">History</h2>
+          <div id="historyList" class="mt-4 space-y-3"></div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script type="module" src="/aitopia/marketplace/js/developers/earnings.js"></script>
+  <script src="/aitopia/marketplace/js/shared/global-nav.js"></script>
+<script src="/aitopia/marketplace/js/shared/footer.js"></script>
+</body>
+</html>

@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+<script src="/aitopia/marketplace/js/extension-config.js"></script>
+
+  <script src="/aitopia/marketplace/js/shared/pre-auth.js"></script>
+  
+
+  
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title> Smart Sidebar (AITOPIA)</title>
+  <meta name="description" content="Convert rough sketches into photorealistic images with AI">
+  
+  <link rel="canonical" href="https://aitopia.ai/agents/draw-to-edit">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="AITOPIA - AI App Store">
+  <meta property="og:title" content="Draw to Edit - AITOPIA AI App Store">
+  <meta property="og:description" content="Convert rough sketches into photorealistic images with AI">
+  <meta property="og:image" content="https://aitopia.ai/agent-images/draw-to-edit-1.webp">
+  <meta property="og:url" content="https://aitopia.ai/agents/draw-to-edit">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Draw to Edit - AITOPIA AI App Store">
+  <meta name="twitter:description" content="Convert rough sketches into photorealistic images with AI">
+  <meta name="twitter:image" content="https://aitopia.ai/agent-images/draw-to-edit-1.webp">
+
+  <!-- Favicon & Theme -->
+  <link rel="icon" type="image/x-icon" href="/aitopia/marketplace/favicon.ico">
+  <meta name="theme-color" content="#7C3AED">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <!-- Structured Data -->
+  <script src="/aitopia/marketplace/js/inline/agent-draw-to-edit-inline-2.js" type="application/ld+json"></script>
+
+  <!-- Fonts -->
+  <link href="/aitopia/marketplace/css/vendor/css2.css" rel="stylesheet">
+
+  <!-- Tailwind CSS -->
+  <script src="/aitopia/marketplace/js/vendor/tailwindcss.min.js"></script>
+  <script src="/aitopia/marketplace/store/tailwind-config.js"></script>
+  
+  <!-- Theme System (from store.html) -->
+  <script src="/aitopia/marketplace/js/inline/agent-draw-to-edit-inline-3.js"></script>
+
+  <script src="/aitopia/marketplace/js/inline/agent-draw-to-edit-inline-4.js"></script>
+
+  <!-- Shared Styles -->
+  <link rel="stylesheet" href="/aitopia/marketplace/store/shared.css">
+  
+  <style>
+    /* CSS Variables for light theme */
+    :root {
+      --aifnmjmchg-m-background: 0 0% 100%;
+      --aifnmjmchg-m-foreground: 0 0% 3.9%;
+      --aifnmjmchg-m-card: 0 0% 100%;
+      --aifnmjmchg-m-card-foreground: 0 0% 3.9%;
+      --aifnmjmchg-m-popover: 0 0% 100%;
+      --aifnmjmchg-m-popover-foreground: 0 0% 3.9%;
+      --aifnmjmchg-m-primary: 0 0% 0%;
+      --aifnmjmchg-m-primary-foreground: 210 40% 98%;
+      --aifnmjmchg-m-secondary: 0 0% 100%;
+      --aifnmjmchg-m-secondary-foreground: 222.2 47.4% 11.2%;
+      --aifnmjmchg-m-muted: 210 40% 96.1%;
+      --aifnmjmchg-m-muted-foreground: 215.4 16.3% 46.9%;
+      --aifnmjmchg-m-accent: 210 40% 96.1%;
+      --aifnmjmchg-m-accent-foreground: 222.2 47.4% 11.2%;
+      --aifnmjmchg-m-destructive: 0 84.2% 60.2%;
+      --aifnmjmchg-m-border: 214.3 31.8% 91.4%;
+      --aifnmjmchg-m-input: 214.3 31.8% 91.4%;
+      --aifnmjmchg-m-ring: 260 79% 59%;
+    }
+
+    /* CSS Variables for dark theme */
+    .dark {
+      --aifnmjmchg-m-background: 0 0% 3.9%;
+      --aifnmjmchg-m-foreground: 0 0% 98%;
+      --aifnmjmchg-m-card: 0 0% 7%;
+      --aifnmjmchg-m-card-foreground: 0 0% 98%;
+      --aifnmjmchg-m-popover: 0 0% 7%;
+      --aifnmjmchg-m-popover-foreground: 0 0% 98%;
+      --aifnmjmchg-m-primary: 0 0% 100%;
+      --aifnmjmchg-m-primary-foreground: 0 0% 0%;
+      --aifnmjmchg-m-secondary: 0 0% 0%;
+      --aifnmjmchg-m-secondary-foreground: 210 40% 98%;
+      --aifnmjmchg-m-muted: 217.2 32.6% 17.5%;
+      --aifnmjmchg-m-muted-foreground: 215 20.2% 65.1%;
+      --aifnmjmchg-m-accent: 217.2 32.6% 17.5%;
+      --aifnmjmchg-m-accent-foreground: 210 40% 98%;
+      --aifnmjmchg-m-destructive: 0 62.8% 30.6%;
+      --aifnmjmchg-m-border: 217.2 32.6% 17.5%;
+      --aifnmjmchg-m-input: 217.2 32.6% 17.5%;
+      --aifnmjmchg-m-ring: 260 79% 59%;
+    }
+
+    * {
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: hsl(var(--aifnmjmchg-m-muted-foreground) / 0.3);
+      border-radius: 4px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: hsl(var(--aifnmjmchg-m-muted-foreground) / 0.5);
+    }
+
+    /* Glassmorphism - Match store.html exactly */
+    .glass {
+      background: rgba(255, 255, 255, 0.72);
+      backdrop-filter: saturate(180%) blur(20px);
+      -webkit-backdrop-filter: saturate(180%) blur(20px);
+    }
+
+    .dark .glass {
+      background: rgba(28, 28, 30, 0.72);
+    }
+
+    .scrollbar-hide::-webkit-scrollbar {
+      display: none;
+    }
+  </style>
+
+</head>
+<body class="min-h-screen font-sans antialiased bg-white dark:bg-neutral-950 text-gray-900 dark:text-white transition-colors aifnmjmchg aifnmjmchg-marketplace">
+
+
+  <!-- Navbar Component -->
+  <div id="navbar-container"></div>
+  <script src="/aitopia/marketplace/js/shared/cache.js"></script>
+  <script src="/aitopia/marketplace/js/components/navbar.js"></script>
+
+<main>
+  <div class="max-w-[1600px] mx-auto px-3 sm:px-4 lg:px-6 pt-2 pb-2">
+    <div class="flex flex-col gap-2 w-full lg:grid lg:grid-cols-[1fr_auto_1fr] lg:gap-4 lg:items-center">
+      <div class="min-w-0 flex items-center">
+  <nav class="flex-1 min-w-0 py-0" aria-label="Breadcrumb">
+    <script src="/aitopia/marketplace/js/inline/agent-draw-to-edit-inline-5.js" type="application/ld+json"></script>
+    <ol class="flex items-center gap-2 text-sm text-muted-foreground overflow-x-auto pb-2">
+      <li><a href="/aitopia/marketplace/home.html" class="hover:text-primary transition-colors">Home</a></li>
+      
+        <li class="flex items-center gap-2">
+          <svg class="w-4 h-4 flex-shrink-0 text-muted-foreground/50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-width="2" stroke-linecap="round" d="M9 5l7 7-7 7"/>
+          </svg>
+          <a href="/aitopia/marketplace/agents.html" class="hover:text-primary transition-colors truncate">Agents</a>
+        </li>
+      
+        <li class="flex items-center gap-2">
+          <svg class="w-4 h-4 flex-shrink-0 text-muted-foreground/50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-width="2" stroke-linecap="round" d="M9 5l7 7-7 7"/>
+          </svg>
+          <a href="/aitopia/marketplace/category/image.html" class="hover:text-primary transition-colors truncate">Image</a>
+        </li>
+      
+        <li class="flex items-center gap-2">
+          <svg class="w-4 h-4 flex-shrink-0 text-muted-foreground/50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-width="2" stroke-linecap="round" d="M9 5l7 7-7 7"/>
+          </svg>
+          <span class="text-foreground font-medium truncate">Draw to Edit</span>
+        </li>
+      
+    </ol>
+  </nav></div>
+      <div class="w-full flex flex-wrap items-center justify-center gap-2 lg:justify-center lg:items-center">
+        <div class="inline-flex h-10 p-1 bg-[#F2F5F9] dark:bg-[#121212] border border-[#D9D9D9]/20 dark:border-[#D9D9D9]/[4%] rounded-[24px] gap-0.5 min-w-0 overflow-x-auto scrollbar-hide" style="-ms-overflow-style: none; scrollbar-width: none;">
+          <button
+            data-agent-run-tab="create"
+            aria-selected="true"
+            class="lg:hidden px-4 h-8 rounded-2xl text-[13px] font-semibold transition-all bg-white dark:bg-[#272727] text-[#0D0D0D] dark:text-foreground shadow-sm whitespace-nowrap"
+          >
+            Create
+          </button>
+          <button
+            data-agent-run-tab="about"
+            aria-selected="false"
+            class="px-4 h-8 rounded-2xl text-[13px] font-semibold transition-all lg:bg-white lg:dark:bg-[#272727] lg:text-[#0D0D0D] lg:dark:text-foreground lg:shadow-sm text-[#898A8B] dark:text-muted-foreground hover:text-[#0D0D0D] dark:hover:text-foreground hover:bg-white/50 dark:hover:bg-[#272727]/50 whitespace-nowrap"
+          >
+            Details
+          </button>
+          <button
+            data-agent-run-tab="history"
+            aria-selected="false"
+            class="px-4 h-8 rounded-2xl text-[13px] font-semibold transition-all text-[#898A8B] dark:text-muted-foreground hover:text-[#0D0D0D] dark:hover:text-foreground hover:bg-white/50 dark:hover:bg-[#272727]/50 whitespace-nowrap"
+          >
+            Creation History
+          </button>
+          <button
+            data-agent-run-tab="similar"
+            aria-selected="false"
+            class="px-4 h-8 rounded-2xl text-[13px] font-semibold transition-all text-[#898A8B] dark:text-muted-foreground hover:text-[#0D0D0D] dark:hover:text-foreground hover:bg-white/50 dark:hover:bg-[#272727]/50 whitespace-nowrap"
+          >
+            Similar
+          </button>
+        </div>
+      </div>
+      <div class="hidden lg:flex lg:justify-end lg:items-center lg:gap-1.5">
+        <div id="agent-tab-row-share-more" class="flex items-center gap-1.5">
+        <div class="relative flex-shrink-0" id="agent-share-menu">
+          <button type="button" data-agent-share-toggle class="agent-tab-row-btn w-8 h-8 rounded-2xl flex items-center justify-center text-[#898A8B] dark:text-muted-foreground hover:text-[#0D0D0D] dark:hover:text-foreground hover:bg-white dark:hover:bg-[#272727] transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/50" aria-label="Share" aria-haspopup="menu" aria-expanded="false">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"/>
+            </svg>
+          </button>
+          <div class="hidden absolute right-0 top-full mt-2 w-52 bg-card border border-border rounded-ios-lg shadow-xl z-50 py-1 text-sm" role="menu">
+            <button type="button" data-agent-share="copy" class="w-full px-4 py-2.5 text-left hover:bg-secondary transition-colors flex items-center gap-3">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"/></svg>
+              Copy Link
+            </button>
+            <button type="button" data-agent-share="email" class="w-full px-4 py-2.5 text-left hover:bg-secondary transition-colors flex items-center gap-3">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+              Email
+            </button>
+            <div class="border-t border-border my-1"></div>
+            <button type="button" data-agent-share="x" class="w-full px-4 py-2.5 text-left hover:bg-secondary transition-colors flex items-center gap-3">
+              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+              X (Twitter)
+            </button>
+            <button type="button" data-agent-share="facebook" class="w-full px-4 py-2.5 text-left hover:bg-secondary transition-colors flex items-center gap-3">
+              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+              Facebook
+            </button>
+            <button type="button" data-agent-share="linkedin" class="w-full px-4 py-2.5 text-left hover:bg-secondary transition-colors flex items-center gap-3">
+              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              LinkedIn
+            </button>
+            <button type="button" data-agent-share="whatsapp" class="w-full px-4 py-2.5 text-left hover:bg-secondary transition-colors flex items-center gap-3">
+              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              WhatsApp
+            </button>
+          </div>
+        </div>
+        <!-- Agent remix menu - temporarily disabled
+        <div class="relative flex-shrink-0" id="agent-more-menu">
+          <button type="button" class="toggle-next-hidden agent-tab-row-btn w-8 h-8 rounded-2xl flex items-center justify-center text-[#898A8B] dark:text-muted-foreground hover:text-[#0D0D0D] dark:hover:text-foreground hover:bg-white dark:hover:bg-[#272727] transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/50" aria-label="More options" aria-haspopup="menu">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M6 12c0 1.1-.9 2-2 2s-2-.9-2-2 .9-2 2-2 2 .9 2 2zm8 0c0 1.1-.9 2-2 2s-2-.9-2-2 .9-2 2-2 2 .9 2 2zm8 0c0 1.1-.9 2-2 2s-2-.9-2-2 .9-2 2-2 2 .9 2 2z"/>
+            </svg>
+          </button>
+          <div class="hidden absolute right-0 top-full mt-2 w-52 bg-card border border-border rounded-ios-lg shadow-xl z-50 py-1 text-sm" data-agent-more-dropdown role="menu">
+            <a href="/aitopia/marketplace/create?fromAgent=draw-to-edit" data-action="agent-remix" class="w-full px-4 py-2.5 text-left hover:bg-secondary transition-colors flex items-center gap-3" role="menuitem">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
+              </svg>
+              Remix Agent
+            </a>
+            <button type="button" data-action="agent-run-via-api" class="w-full px-4 py-2.5 text-left hover:bg-secondary transition-colors flex items-center gap-3" role="menuitem">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
+              </svg>
+              Run via API
+            </button>
+          </div>
+        </div>
+        -->
+        </div>
+        <div id="history-controls" class="hidden lg:flex items-center gap-6">
+          <input
+            type="range"
+            id="preview-size-slider"
+            min="0"
+            max="100"
+            value="100"
+            class="size-slider hidden lg:block"
+            aria-label="Preview size"
+          />
+          <div class="view-toggle-container">
+            <button type="button" data-view-mode="list" class="view-toggle-btn active" aria-label="List view">
+              <svg class="w-4 h-4" viewBox="0 0 16 16" fill="none">
+                <g opacity="0.7">
+                  <path d="M7.16016 11.3333H9.29349" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M6 8H10.4533" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M7.16016 4.66675H9.29349" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M14.6673 10.0001V6.00008C14.6673 2.66675 13.334 1.33342 10.0007 1.33342H6.00065C2.66732 1.33342 1.33398 2.66675 1.33398 6.00008L1.33398 10.0001C1.33398 13.3334 2.66732 14.6667 6.00065 14.6667H10.0007C13.334 14.6667 14.6673 13.3334 14.6673 10.0001Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </g>
+              </svg>
+            </button>
+            <button type="button" data-view-mode="grid" class="view-toggle-btn" aria-label="Grid view">
+              <svg class="w-4 h-4" viewBox="0 0 16 16" fill="none">
+                <path d="M3.33398 6.66659H4.66732C6.00065 6.66659 6.66732 5.99992 6.66732 4.66659V3.33325C6.66732 1.99992 6.00065 1.33325 4.66732 1.33325H3.33398C2.00065 1.33325 1.33398 1.99992 1.33398 3.33325V4.66659C1.33398 5.99992 2.00065 6.66659 3.33398 6.66659Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M11.334 6.66659H12.6673C14.0007 6.66659 14.6673 5.99992 14.6673 4.66659V3.33325C14.6673 1.99992 14.0007 1.33325 12.6673 1.33325H11.334C10.0007 1.33325 9.33398 1.99992 9.33398 3.33325V4.66659C9.33398 5.99992 10.0007 6.66659 11.334 6.66659Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M11.334 14.6666H12.6673C14.0007 14.6666 14.6673 13.9999 14.6673 12.6666V11.3333C14.6673 9.99992 14.0007 9.33325 12.6673 9.33325H11.334C10.0007 9.33325 9.33398 9.99992 9.33398 11.3333V12.6666C9.33398 13.9999 10.0007 14.6666 11.334 14.6666Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M3.33398 14.6666H4.66732C6.00065 14.6666 6.66732 13.9999 6.66732 12.6666V11.3333C6.66732 9.99992 6.00065 9.33325 4.66732 9.33325H3.33398C2.00065 9.33325 1.33398 9.99992 1.33398 11.3333V12.6666C1.33398 13.9999 2.00065 14.6666 3.33398 14.6666Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <article class="max-w-[1600px] mx-auto px-3 sm:px-4 lg:px-6 pt-1 pb-4 overflow-x-hidden" data-agent-run-root>
+    <div class="flex flex-col lg:grid lg:grid-cols-[320px_minmax(0,1fr)] gap-3 lg:gap-4 items-start">
+
+      <!-- Left Panel - Hidden on mobile unless Create tab is active, always visible on desktop -->
+      <div data-agent-run-panel="create" data-agent-run-left class="hidden lg:block lg:order-1 self-start w-full">
+        <div class="rounded-ios-2xl border border-[#D9D9D9]/20 dark:border-[#D9D9D9]/[4%] bg-[#F2F5F9] dark:bg-[#131517] overflow-hidden sticky top-4">
+          <div class="relative aspect-[23/10] overflow-hidden">
+            <img src="https://aitopia.ai/agent-images/draw-to-edit-1.webp" alt="Draw to Edit" class="w-full h-full object-cover" data-fallback="https://aitopia.ai/agent-images/draw-to-edit-1.webp">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+            <button id="change-agent-btn" class="absolute top-3 right-3 flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-white text-xs font-medium hover:opacity-90 transition-all cursor-pointer" style="background-color: rgba(27, 27, 27, 0.3);">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 011.13-1.897l8.932-8.931zm0 0L19.5 7.125"/>
+              </svg>
+              Change
+            </button>
+            <div class="absolute bottom-3 left-4 right-4">
+              <h1 class="text-lg font-bold text-white leading-tight">Draw to Edit</h1>
+              <p class="text-xs text-white/70 mt-0.5 line-clamp-1">Convert rough sketches into photorealistic images with AI</p>
+            </div>
+          </div>
+
+          <div class="p-3 space-y-3">
+            
+            <!-- Form + inputs inline on mobile -->
+            <div data-run-panel-backdrop class="run-panel-backdrop" aria-hidden="true"></div>
+
+            <div data-run-panel class="run-panel">
+              <div class="run-panel-header">
+                <div class="run-panel-header-title">
+                  <button type="button" class="agent-picker-trigger" aria-expanded="false" aria-haspopup="true" data-agent-picker-trigger >
+                    <span class="agent-picker-label">Draw to Edit</span>
+                    
+                    <svg class="agent-picker-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M6 9l6 6 6-6"/>
+                    </svg>
+                    
+                  </button>
+                  <div class="agent-picker-dropdown" hidden data-agent-picker-dropdown role="menu">
+                    
+                    <a href="/aitopia/marketplace/agent/background-remover.html" class="agent-picker-item" role="menuitem">Background Remover</a>
+                    
+                    <a href="/aitopia/marketplace/agent/face-swap.html" class="agent-picker-item" role="menuitem">Face Swap</a>
+                    
+                    <a href="/aitopia/marketplace/agent/ai-model-swap.html" class="agent-picker-item" role="menuitem">AI Model Swap</a>
+                    
+                    <a href="/aitopia/marketplace/agent/image-generator.html" class="agent-picker-item" role="menuitem">Image Generator</a>
+                    
+                    <a href="/aitopia/marketplace/agent/headshot-generator.html" class="agent-picker-item" role="menuitem">Headshot Generator</a>
+                    
+                    <a href="/aitopia/marketplace/agent/character-creator.html" class="agent-picker-item" role="menuitem">Character Creator</a>
+                    
+                    <a href="/aitopia/marketplace/agent/image-upscaler.html" class="agent-picker-item" role="menuitem">Image Upscaler</a>
+                    
+                    <a href="/aitopia/marketplace/agent/object-remover.html" class="agent-picker-item" role="menuitem">Object Remover</a>
+                    
+                    <a href="/aitopia/marketplace/agent/expand-image.html" class="agent-picker-item" role="menuitem">Image Expander</a>
+                    
+                    <a href="/aitopia/marketplace/agent/relight.html" class="agent-picker-item" role="menuitem">Relight</a>
+                    
+                    <a href="/aitopia/marketplace/agent/outfit-swap.html" class="agent-picker-item" role="menuitem">Outfit Swap</a>
+                    
+                    <a href="/aitopia/marketplace/agent/angles-v2.html" class="agent-picker-item" role="menuitem">Angles 2.0</a>
+                    
+                    <a href="/aitopia/marketplace/agent/shots-v2.html" class="agent-picker-item" role="menuitem">Camera Shots 2.0</a>
+                    
+                    <a href="/aitopia/marketplace/agent/zooms-v2.html" class="agent-picker-item" role="menuitem">Zoom Variations 2.0</a>
+                    
+                    <a href="/aitopia/marketplace/agent/style-transfer.html" class="agent-picker-item" role="menuitem">Style Transfer</a>
+                    
+                    <a href="/aitopia/marketplace/agent/background-replacer.html" class="agent-picker-item" role="menuitem">Background Replacer</a>
+                    
+                    <a href="/aitopia/marketplace/agent/scene-generator.html" class="agent-picker-item" role="menuitem">Scene Generator</a>
+                    
+                    <a href="/aitopia/marketplace/agent/product-photographer.html" class="agent-picker-item" role="menuitem">Product Photographer</a>
+                    
+                    <a href="/aitopia/marketplace/agent/portrait-enhancer.html" class="agent-picker-item" role="menuitem">Portrait Enhancer</a>
+                    
+                    <a href="/aitopia/marketplace/agent/sketch-to-image.html" class="agent-picker-item" role="menuitem">Sketch to Image</a>
+                    
+                  </div>
+                </div>
+                <button type="button" data-run-panel-close class="run-panel-close" aria-label="Close">
+                  <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+                  </svg>
+                </button>
+              </div>
+
+              <div class="run-panel-body">
+                <div data-agent-run-model class="hidden"></div>
+
+                <div data-agent-run-form class="space-y-3">
+                  <div class="animate-pulse space-y-2">
+                    <div class="h-10 bg-muted rounded-ios-lg"></div>
+                    <div class="h-10 bg-muted rounded-ios-lg"></div>
+                  </div>
+                </div>
+
+                <div class="desktop-generate-wrapper">
+                  <button
+                    data-agent-run-button
+                    disabled
+                    class="w-full h-12 px-4 rounded-2xl text-[13px] font-semibold text-primary-foreground bg-primary hover:bg-primary/60 disabled:opacity-50 disabled:cursor-not-allowed transition-colors flex items-center justify-center"
+                  >
+                    Generate
+                  </button>
+                  <p data-agent-run-credits class="text-xs text-muted-foreground text-center mt-2"></p>
+                  <p data-agent-run-hint class="text-xs text-muted-foreground text-center hidden mt-2"></p>
+                </div>
+              </div>
+
+              <div class="run-panel-footer">
+                <button
+                  data-agent-run-button-mobile
+                  disabled
+                  class="w-full h-12 px-4 rounded-2xl text-[13px] font-semibold text-primary-foreground bg-primary hover:bg-primary/60 disabled:opacity-50 disabled:cursor-not-allowed transition-colors flex items-center justify-center"
+                >
+                  Generate
+                </button>
+                <p data-agent-run-credits-mobile class="text-xs text-muted-foreground text-center mt-2"></p>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Panel -->
+      <div data-agent-run-right class="lg:order-2 w-full self-start">
+        <!-- Details Panel (Hero + Remix)-->
+        <div data-agent-run-panel="about" class="hidden">
+          <!-- Mobile Hero Layout -->
+          <div class="lg:hidden rounded-ios-2xl border border-[#D9D9D9]/20 dark:border-[#D9D9D9]/[4%] bg-[#F2F5F9] dark:bg-[#131517] overflow-hidden">
+            <div class="p-4 pb-2">
+              <h2 class="text-2xl font-bold leading-tight">Draw to Edit</h2>
+              <div class="flex items-center gap-1.5 mt-1.5">
+                <svg class="w-4 h-4 text-ios-orange" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                </svg>
+                <span class="text-sm font-medium">4.8</span>
+                <span class="text-sm text-muted-foreground">(1.2K)</span>
+              </div>
+              <p class="text-sm text-muted-foreground mt-2 line-clamp-2">Convert rough sketches into photorealistic images with AI</p>
+            </div>
+            <div class="px-4">
+              
+              <div id="hero-media-main-mobile" class="aspect-[16/9] rounded-ios-xl overflow-hidden">
+                <img src="https://aitopia.ai/agent-images/draw-to-edit-1.webp" alt="" class="w-full h-full object-cover">
+              </div>
+            </div>
+            <div class="p-4 pt-3 flex justify-center">
+              
+            </div>
+          </div>
+
+          <!-- Desktop Hero Layout -->
+          <div class="hidden lg:block rounded-ios-2xl border border-[#D9D9D9]/20 dark:border-[#D9D9D9]/[4%] bg-[#F2F5F9] dark:bg-[#131517] overflow-hidden h-[260px]">
+            <div class="grid grid-cols-[1fr_1fr] gap-0 h-full">
+              <div class="relative h-full">
+                <div class="pl-4 pr-4 pt-10">
+                  <h2 class="text-4xl font-bold leading-tight">Draw to Edit</h2>
+                  <div class="flex items-center gap-1.5 mt-2">
+                    <svg class="w-4 h-4 text-ios-orange" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                    </svg>
+                    <span class="text-sm font-medium">4.8</span>
+                    <span class="text-sm text-muted-foreground">(1.2K)</span>
+                  </div>
+                  <p class="text-base text-muted-foreground mt-3 line-clamp-2">Convert rough sketches into photorealistic images with AI</p>
+                </div>
+                <div class="absolute left-24 right-0 top-[190px] flex justify-center">
+                  
+                </div>
+              </div>
+              <div class="relative h-full overflow-hidden flex items-center justify-center">
+                
+    <div id="hero-media-main" class="w-full h-full flex items-center justify-end">
+      <img src="https://aitopia.ai/agent-images/draw-to-edit-1.webp" alt="" class="w-[439px] h-[247px] object-cover rounded-2xl">
+    </div>
+  
+              </div>
+            </div>
+          </div>
+
+          <!-- Remix Area -->
+          <div id="remix-area" data-agent-run-creations class="mt-3 lg:mt-4 flex rounded-ios-2xl border border-[#D9D9D9]/20 dark:border-[#D9D9D9]/[4%] bg-[#F2F5F9] dark:bg-[#131517] overflow-hidden min-h-[260px] flex-col">
+            <!-- Header with title and tabs -->
+            <div class="p-3">
+              <div class="flex items-center justify-between">
+                <h3 class="text-[14px] font-semibold">Remix area</h3>
+                <div class="flex gap-1 p-1 bg-[#DFE4EC] dark:bg-[#121212] border border-transparent dark:border-[#D9D9D9]/[4%] rounded-full">
+                  <button data-remix-tab="community" class="px-4 py-2 rounded-full text-[13px] font-medium bg-white dark:bg-[#272727] text-[#0D0D0D] dark:text-foreground shadow-sm transition-colors">Community</button>
+                  <button data-remix-tab="mine" class="px-4 py-2 rounded-full text-[13px] font-medium text-[#898A8B] dark:text-muted-foreground hover:text-[#0D0D0D] dark:hover:text-foreground hover:bg-white/50 dark:hover:bg-[#272727]/50 transition-colors">Mine</button>
+                </div>
+              </div>
+            </div>
+            <div data-remix-content class="p-3 pt-0 flex-1 flex items-center justify-center">
+              <div class="remix-grid w-full">
+                <div class="w-full text-center py-10 text-[#898A8B]">
+                  <img src="https://aitopia.ai/icons/gallery.svg" alt="" class="w-9 h-9 mx-auto mb-3">
+                  <p class="text-sm">No shared posts yet.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Creation History Panel -->
+        <div data-agent-run-panel="history" class="hidden h-full">
+          <!-- Generating State Container (shown during generation) -->
+          <div data-agent-run-output class="hidden rounded-2xl bg-[#F2F5F9] dark:bg-[#0F0F0F] overflow-hidden mb-4"></div>
+          <!-- List View - all creations as cards -->
+          <div data-history-list-view data-agent-run-history class="flex flex-col gap-3 lg:gap-4 overflow-hidden min-h-[400px]">
+            <!-- Initial loading state - JS will replace this -->
+            <div class="flex items-center justify-center py-16 min-h-[350px]">
+              <div class="animate-spin w-8 h-8 border-2 border-primary/90 border-t-transparent rounded-full"></div>
+            </div>
+          </div>
+          <!-- Grid View (multiple creations with hover overlay) -->
+          <div data-history-grid-view class="hidden grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            <!-- Grid items will be rendered by JS -->
+          </div>
+        </div>
+
+        <!-- Similar Panel -->
+        <div data-agent-run-panel="similar" class="hidden">
+          <div class="text-center py-16">
+            <p class="text-sm text-[#898A8B]">Coming soon...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+</main>
+
+
+  <footer class="border-t border-white/10 mt-8">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
+        <a href="/aitopia/marketplace/home.html" class="text-primary/90 hover:text-primary/90 transition-colors">
+          &larr; Back to AI App Store
+        </a>
+        <p class="text-sm text-gray-500">&copy; 2026 AITOPIA. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+<style>
+  .hide-scrollbar::-webkit-scrollbar { display: none; }
+  .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+  .line-clamp-3 { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+
+  /* History output height matches left panel */
+  .history-output-height {
+    min-height: calc(100vh - 180px);
+  }
+  @media (min-width: 1024px) {
+    .history-output-height {
+      min-height: 0;
+      height: var(--left-panel-height, 589px);
+    }
+  }
+
+  /* Size Slider */
+  .size-slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100px;
+    height: 4px;
+    background: #404040;
+    border-radius: 9999px;
+    cursor: pointer;
+    outline: none;
+  }
+  .size-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #9335EC;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 2px 8px rgba(147, 53, 236, 0.5);
+    margin-top: 0;
+  }
+  .size-slider::-moz-range-thumb {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #9335EC;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 2px 8px rgba(147, 53, 236, 0.5);
+  }
+  .size-slider::-moz-range-track {
+    background: #404040;
+    height: 4px;
+    border-radius: 9999px;
+  }
+
+  /* View Toggle Container */
+  .view-toggle-container {
+    display: flex;
+    align-items: center;
+    width: 94px;
+    padding: 5px;
+    background: #262626;
+    border-radius: 24px;
+    gap: 2px;
+  }
+  .view-toggle-btn {
+    flex: 1;
+    height: 30px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #737373;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+  .view-toggle-btn:hover {
+    color: #a3a3a3;
+  }
+  .view-toggle-btn.active {
+    background: #404040;
+    color: #ffffff;
+  }
+
+  /* Light mode adjustments */
+  :root:not(.dark) .size-slider {
+    background: #D9D9D9;
+  }
+  :root:not(.dark) .size-slider::-moz-range-track {
+    background: #D9D9D9;
+  }
+  :root:not(.dark) .view-toggle-container {
+    background: #DFE4EC;
+  }
+  :root:not(.dark) .view-toggle-btn {
+    color: #898A8B;
+  }
+  :root:not(.dark) .view-toggle-btn:hover {
+    color: #0D0D0D;
+  }
+
+  /* List View - Slider controlled sizing (desktop only) */
+  @media (min-width: 1024px) {
+    .history-list-card {
+      max-width: 100%;
+    }
+    .history-list-media {
+      flex: var(--list-media-flex, 1) 1 var(--list-media-basis, 0);
+      min-width: 0;
+      overflow: hidden;
+    }
+    .history-list-info {
+      flex: var(--list-info-flex, 0) 0 var(--list-info-basis, 280px);
+      max-width: var(--list-info-basis, 280px);
+      overflow: hidden;
+    }
+  }
+
+  /* Grid View Items with Hover Overlay */
+  .history-grid-item {
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+    aspect-ratio: 1;
+    background: #1a1a1a;
+  }
+  .history-grid-item img,
+  .history-grid-item video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .history-grid-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.4) 50%, transparent 100%);
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+  }
+  .history-grid-item:hover .history-grid-overlay {
+    opacity: 1;
+  }
+  .history-grid-menu {
+    align-self: flex-end;
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .history-grid-menu:hover {
+    background: rgba(0,0,0,0.7);
+  }
+  .history-grid-prompt {
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  :root:not(.dark) .view-toggle-btn.active {
+    background: #ffffff;
+    color: #0D0D0D;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+
+  /* Creation History Grid sizing based on slider */
+  /* Reference ratios (from design): 560x413 ≈ 1.356:1 (width:height) */
+  .history-grid {
+    display: grid;
+    grid-template-columns: repeat(var(--cols), minmax(0, 1fr));
+    gap: 12px;
+    justify-content: start;
+    align-content: start;
+    align-items: start;
+    width: 100%;
+  }
+  .history-grid.cols-4 { --cols: 4; }
+  .history-grid.cols-3 { --cols: 3; }
+  .history-grid.cols-2 { --cols: 2; }
+
+  /* History card with overlay */
+  .history-card {
+    position: relative;
+    width: 100%;
+    border-radius: 16px;
+    overflow: hidden;
+    background: hsl(var(--aifnmjmchg-m-card));
+    border: 1px solid hsl(var(--aifnmjmchg-m-border));
+  }
+
+  /* IMPORTANT: ensure grid rows size correctly even though media is absolutely positioned */
+  .history-grid .history-card {
+    align-self: start;
+  }
+  /* Use padding-bottom on the card itself (more robust than ::before in grid sizing) */
+  .history-grid .history-card {
+    height: 0;
+    /* 413 / 560 = 0.7375 */
+    padding-bottom: 73.75%;
+  }
+  .history-card-media {
+    position: absolute;
+    inset: 0;
+    background: hsl(var(--aifnmjmchg-m-secondary));
+  }
+  .history-card-media-el {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .history-media-video { object-fit: cover; }
+  .history-media-image { object-fit: contain; background: rgba(0,0,0,0.04); }
+  .history-media-placeholder { background: hsl(var(--aifnmjmchg-m-secondary)); }
+
+  /* Back-compat: if media isn't wrapped for any reason */
+  .history-card > img,
+  .history-card > video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .history-card-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%, transparent 40%, transparent 60%, rgba(0,0,0,0.8) 100%);
+    opacity: 0;
+    transition: opacity 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 12px;
+  }
+  .history-card:hover .history-card-overlay,
+  .history-card.show-overlay .history-card-overlay {
+    opacity: 1;
+  }
+  .history-card-actions {
+    display: flex;
+    gap: 8px;
+  }
+  .history-card-action {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(8px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .history-card-action:hover {
+    background: rgba(255,255,255,0.25);
+  }
+  .history-card-text {
+    color: white;
+    font-size: 13px;
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .history-card-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+  }
+  .history-card-badge {
+    padding: 6px 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    line-height: 1;
+    background: rgba(255,255,255,0.15);
+    color: white;
+    backdrop-filter: blur(8px);
+  }
+
+  /* List view for history */
+  .history-list .history-card {
+    aspect-ratio: auto;
+    display: grid;
+    grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+    gap: 16px;
+    padding: 12px;
+    border-radius: 16px;
+    align-items: start;
+  }
+  .history-list .history-card-media {
+    position: relative;
+    inset: auto;
+    border-radius: 12px;
+    overflow: hidden;
+    aspect-ratio: 4 / 3;
+    background: hsl(var(--aifnmjmchg-m-secondary));
+  }
+  .history-list .history-card-media-el {
+    position: absolute;
+    inset: 0;
+  }
+  .history-list .history-card-overlay {
+    position: static;
+    opacity: 1;
+    background: none;
+    padding: 4px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .history-list .history-card-text {
+    color: hsl(var(--aifnmjmchg-m-foreground));
+    -webkit-line-clamp: 8;
+  }
+  .history-list .history-card-actions {
+    justify-content: flex-end;
+    gap: 8px;
+  }
+  .history-list .history-card-badge {
+    background: hsl(var(--aifnmjmchg-m-secondary));
+    color: hsl(var(--aifnmjmchg-m-foreground));
+    backdrop-filter: none;
+  }
+
+  /* Text-only creations (JSON/markdown/HTML): no image column, content full width */
+  .history-list .history-card.history-card-text-only {
+    grid-template-columns: 1fr;
+  }
+  .history-list .history-card.history-card-text-only .history-card-media {
+    display: none;
+  }
+  .history-list .history-card.history-card-text-only .history-card-text {
+    font-family: ui-monospace, monospace;
+    font-size: 12px;
+    white-space: pre-wrap;
+    word-break: break-word;
+    -webkit-line-clamp: 6;
+  }
+</style>
+
+<!-- Runner Configuration -->
+<script src="/aitopia/marketplace/js/inline/agent-draw-to-edit-inline-6.js"></script>
+
+<script src="/aitopia/marketplace/js/inline/agent-draw-to-edit-inline-7.js"></script>
+
+<!-- Mobile Run Panel -->
+<script src="/aitopia/marketplace/js/inline/agent-draw-to-edit-inline-8.js"></script>
+
+<!-- Agent picker dropdown (same category) -->
+<script src="/aitopia/marketplace/js/inline/agent-draw-to-edit-inline-9.js"></script>
+
+<script src="/aitopia/marketplace/js/inline/agent-draw-to-edit-inline-10.js"></script>
+
+<!-- Agent Page (Run via API modal, showcase hydration, menus) -->
+<script src="/aitopia/marketplace/js/shared/agent-page.js"></script>
+
+<!-- Credits Module -->
+<script type="module" src="/aitopia/marketplace/js/runner/credits.js"></script>
+
+<!-- Embed Runner (loads form, handles execution) -->
+<script type="module" src="/aitopia/marketplace/js/runner/embed-runner.js"></script>
+
+<script src="/aitopia/marketplace/js/shared/global-nav.js"></script>
+<script src="/aitopia/marketplace/js/shared/footer.js"></script>
+
+</body>
+</html>

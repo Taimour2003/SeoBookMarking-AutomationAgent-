@@ -1,0 +1,38 @@
+{
+   "acceptButton": {
+      "message": "Aceitar"
+   },
+   "appTitle": {
+      "message": "Auto Refresh Plus"
+   },
+   "consentText": {
+      "message": "Para melhorar o Auto Refresh Plus, esta extensão recolhe os endereços web (URLs) das páginas que visita e a página de onde veio (URL de referência), associados a um identificador anónimo aleatório. Utilizamos estes dados para medir como a extensão é utilizada e para encontrar páginas onde a atualização automática não está a funcionar. Estes dados são enviados para os nossos servidores, nunca são vendidos e nunca são partilhados com terceiros. Pode recusar e continuar a utilizar a extensão. Pode saber mais na nossa"
+   },
+   "declineButton": {
+      "message": "Recusar"
+   },
+   "enterTimeText": {
+      "message": "Introduza o tempo em segundos"
+   },
+   "extensionDescription": {
+      "message": "Auto Refresh Plus atualiza e recarrega automaticamente qualquer página ou separador após um número especificado de segundos"
+   },
+   "extensionName": {
+      "message": "Auto Refresh Plus"
+   },
+   "extensionTitle": {
+      "message": "Auto Refresh Plus"
+   },
+   "privacyPolicy": {
+      "message": "Política de Privacidade"
+   },
+   "secondsText": {
+      "message": "segundos"
+   },
+   "startButton": {
+      "message": "INICIAR"
+   },
+   "stopButton": {
+      "message": "PARAR"
+   }
+}

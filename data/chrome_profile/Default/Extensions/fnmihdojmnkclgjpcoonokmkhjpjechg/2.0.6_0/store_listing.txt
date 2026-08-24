@@ -1,0 +1,37 @@
+🚀 Smart Sidebar (AITOPIA): Powered by GPT-5, o4 & Claude 4.5
+
+Supercharge your browser with the Smart Sidebar, powered by AITOPIA. Access the world's most advanced AI models—including the new GPT-5 series, Claude 4.5 Opus, Gemini 3, and Grok 3. Whether you’re browsing websites, reading articles, or coding, Smart Sidebar is your intelligent assistant that seamlessly integrates into your browsing experience. 🧠 Find the best AI Agent for your needs and save hundreds of hours on daily tasks.
+
+🌟 Now featuring OpenAI’s next-gen reasoning models (o3-mini, o4-mini) and DeepSeek V3! Smart Sidebar revolutionizes how you work in Chrome. 🖥️ Upload PDFs or documents for in-depth analysis and leverage GPT-5 Vision to understand charts, graphs, and images. 🌍 With our Web Access feature, you can browse real-time data without limitations.
+
+📍 Features and Advantages:
+
+Next-Gen AI Models (All in One Place):
+• OpenAI: GPT-5 (Flagship), GPT-5.2 (General Purpose), GPT-5.1 (Instant), GPT-4o, o1/o3/o4-Mini
+• Anthropic: Claude 4.5 Opus (State-of-the-Art), Claude 4.5 Sonnet, Claude 4.5 Haiku
+• Google: Gemini 3 Flash, Gemini 2.5 Pro & Flash
+• xAI: Grok 3 (Enterprise Scale)
+• Meta: Llama 4 Scout & Maverick (Multimodal)
+• DeepSeek: R1 & V3 (Advanced Reasoning)
+
+📍 Powerful AI Capabilities:
+• Web Access: Real-time data retrieval with no cutoff dates.
+• Group Chat: Compare answers from GPT-5, Claude 4.5, and Gemini 3 simultaneously.
+• Vision Analysis: Analyze images, graphs, and charts with GPT-4o and GPT-5 Vision.
+• File Handling: Chat with PDFs, Word docs, and Excel files directly.
+
+📍 AI Agent Marketplace:
+• Discover specialized Agents for coding, writing, and analysis.
+• Create custom agents with your own knowledge bases.
+
+📍 Universal Assistance:
+• Summarization & Translation: Summarize YouTube videos and translate text into 50+ languages.
+• Search Integration: AI replies alongside Google, Bing, and DuckDuckGo results.
+• Writing Helper: Rewrite emails, fix grammar, and change tone with the power of GPT-5.
+• Email Assistant: Generate instant, context-aware email replies.
+
+📍 Full Screen & WebApp:
+• Expanded interface for complex projects.
+• Dark Mode included.
+
+⚠️ Disclaimer: This extension and AITOPIA are independent third-party AI services and are not affiliated with OpenAI, Anthropic, or Google.

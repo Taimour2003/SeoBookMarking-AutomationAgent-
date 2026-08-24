@@ -1,0 +1,15 @@
+2026/08/24-14:28:04.422 b728 Reusing MANIFEST D:\ComputerXperts\WebAgent\newSolution\MainBrowserAgent\data\chrome_profile\Default\Sync Data\LevelDB/MANIFEST-000001
+2026/08/24-14:28:04.424 b728 Recovering log #68
+2026/08/24-14:28:04.425 b728 Reusing old log D:\ComputerXperts\WebAgent\newSolution\MainBrowserAgent\data\chrome_profile\Default\Sync Data\LevelDB/000068.log 
+2026/08/24-15:55:12.288 c1c0 Level-0 table #72: started
+2026/08/24-15:55:12.295 c1c0 Level-0 table #72: 85973 bytes OK
+2026/08/24-15:55:12.296 c1c0 Delete type=0 #68
+2026/08/24-15:55:12.297 c1c0 Compacting 4@0 + 1@1 files
+2026/08/24-15:55:12.309 c1c0 Generated table #73@0: 565 keys, 94972 bytes
+2026/08/24-15:55:12.310 c1c0 Compacted 4@0 + 1@1 files => 94972 bytes
+2026/08/24-15:55:12.310 c1c0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/08/24-15:55:12.312 c1c0 Delete type=2 #62
+2026/08/24-15:55:12.312 c1c0 Delete type=2 #64
+2026/08/24-15:55:12.312 c1c0 Delete type=2 #67
+2026/08/24-15:55:12.312 c1c0 Delete type=2 #69
+2026/08/24-15:55:12.312 c1c0 Delete type=2 #72

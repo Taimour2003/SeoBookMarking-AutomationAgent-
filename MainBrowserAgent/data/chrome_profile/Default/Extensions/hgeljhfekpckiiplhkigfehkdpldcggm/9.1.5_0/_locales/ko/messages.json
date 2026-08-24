@@ -1,0 +1,2186 @@
+{
+   "action_on_detection": {
+      "message": "감지 시 작업"
+   },
+   "action_report_bug_feedback": {
+      "message": "버그 신고 / 피드백"
+   },
+   "action_stop_refresh": {
+      "message": "새로고침 중지"
+   },
+   "active_tabs_alerts_help": {
+      "message": "모니터 알림이 발생한 탭입니다. 개별 알림을 닫거나 모두 지울 수 있습니다."
+   },
+   "active_tabs_alerts_title": {
+      "message": "알림"
+   },
+   "active_tabs_clear_all": {
+      "message": "모두 지우기"
+   },
+   "active_tabs_paused": {
+      "message": "일시정지됨"
+   },
+   "active_tabs_refreshing_help": {
+      "message": "자동 새로고침 중인 탭입니다. 마우스를 올려 일시정지, 재시작 또는 중지하세요."
+   },
+   "active_tabs_refreshing_title": {
+      "message": "새로고침 중"
+   },
+   "active_tabs_stop_all": {
+      "message": "모두 중지"
+   },
+   "active_tabs_time_day_ago": {
+      "message": "%1일 전"
+   },
+   "active_tabs_time_days_ago": {
+      "message": "%1일 전"
+   },
+   "active_tabs_time_hour_ago": {
+      "message": "%1시간 전"
+   },
+   "active_tabs_time_hours_ago": {
+      "message": "%1시간 전"
+   },
+   "active_tabs_time_just_now": {
+      "message": "방금"
+   },
+   "active_tabs_time_min_ago": {
+      "message": "%1분 전"
+   },
+   "active_tabs_time_sec_ago": {
+      "message": "%1초 전"
+   },
+   "add": {
+      "message": "추가"
+   },
+   "add_email": {
+      "message": "이메일 추가"
+   },
+   "add_email_tooltip": {
+      "message": "알림을 받을 이메일 주소 추가"
+   },
+   "add_keywords": {
+      "message": "기본 대상 키워드 추가"
+   },
+   "add_new": {
+      "message": "새로 추가"
+   },
+   "added": {
+      "message": "추가됨"
+   },
+   "alert_settings": {
+      "message": "알림 설정"
+   },
+   "alert_when_any_change_detected": {
+      "message": "Auto Refresh Plus는 이 웹페이지에서 변경 사항이 감지될 때마다 알림을 제공합니다"
+   },
+   "alert_when_keyword_appears": {
+      "message": "키워드가 나타나면 알림을 받으세요."
+   },
+   "alert_when_keyword_disappears": {
+      "message": "키워드가 사라지면 알림을 받으세요."
+   },
+   "all_days": {
+      "message": "모든 요일"
+   },
+   "any": {
+      "message": "모두"
+   },
+   "app_description": {
+      "description": "The description of extension",
+      "message": "강력한 페이지 모니터링 기능으로 자동 새로고침."
+   },
+   "app_name": {
+      "description": "The extension name",
+      "message": "Auto Refresh Plus | Page Monitor"
+   },
+   "appearance": {
+      "message": "모양"
+   },
+   "apply": {
+      "message": "적용"
+   },
+   "are_you_sure": {
+      "message": "정말 삭제하시겠습니까?"
+   },
+   "ast": {
+      "message": "카운트다운 타이머"
+   },
+   "auto_click_element_aria": {
+      "message": "자동 클릭 요소 선택기"
+   },
+   "auto_click_element_label": {
+      "message": "자동 클릭 요소"
+   },
+   "auto_click_help": {
+      "message": "모니터링되는 키워드에 링크가 포함된 경우 자동으로 링크를 클릭합니다."
+   },
+   "auto_click_targets_desc": {
+      "message": "각 새로고침 후 또는 키워드 일치 시 요소 클릭"
+   },
+   "auto_click_targets_label": {
+      "message": "자동 클릭 대상"
+   },
+   "auto_clicker": {
+      "message": "자동 클릭"
+   },
+   "auto_clicker_msg1": {
+      "message": "모니터 키워드 자동 클릭"
+   },
+   "auto_disable_on_first": {
+      "message": "첫 실행 후 자동 비활성화"
+   },
+   "auto_disable_on_first_desc": {
+      "message": "이 일정을 한 번 실행한 후 비활성화"
+   },
+   "auto_stop_schedule": {
+      "message": "자동 중지"
+   },
+   "auto_stop_schedule_desc": {
+      "message": "예: 오전 10–11시 사이 새로고침"
+   },
+   "auto_tasks_add_another": {
+      "message": "클릭 추가"
+   },
+   "auto_tasks_add_element": {
+      "message": "요소 추가"
+   },
+   "auto_tasks_empty": {
+      "message": "아직 추가된 요소가 없습니다"
+   },
+   "auto_tasks_help": {
+      "message": "페이지에서 선택한 요소를 자동으로 클릭합니다."
+   },
+   "auto_tasks_label": {
+      "message": "추가 요소 클릭"
+   },
+   "auto_tasks_new_tab_short": {
+      "message": "새 탭"
+   },
+   "auto_tasks_open_in_new_tab": {
+      "message": "링크인 경우 새 탭에서 열기"
+   },
+   "auto_tasks_open_new_tab_aria": {
+      "message": "클릭 %1을 새 탭에서 열기"
+   },
+   "auto_tasks_options": {
+      "message": "옵션"
+   },
+   "auto_tasks_pick": {
+      "message": "선택"
+   },
+   "auto_tasks_remove": {
+      "message": "제거"
+   },
+   "auto_tasks_remove_target_aria": {
+      "message": "클릭 대상 %1 제거"
+   },
+   "auto_tasks_selector_aria": {
+      "message": "클릭 대상 %1의 CSS 선택자"
+   },
+   "auto_tasks_set_selector": {
+      "message": "선택자 설정…"
+   },
+   "auto_tasks_toggle_target_aria": {
+      "message": "클릭 대상 %1 토글"
+   },
+   "auto_tasks_trigger": {
+      "message": "트리거"
+   },
+   "auto_tasks_trigger_each_refresh": {
+      "message": "새로고침마다"
+   },
+   "auto_tasks_trigger_on_detection": {
+      "message": "알림 발생 시"
+   },
+   "auto_tasks_trigger_on_detection_short": {
+      "message": "감지 시"
+   },
+   "auto_tasks_trigger_refresh_short": {
+      "message": "새로고침"
+   },
+   "bad": {
+      "message": "나쁨"
+   },
+   "behavior_on_interaction": {
+      "message": "상호작용 시 동작"
+   },
+   "bulk_keywords_results": {
+      "message": "대량 키워드 결과"
+   },
+   "calendar_weekday_fri": {
+      "message": "금"
+   },
+   "calendar_weekday_mon": {
+      "message": "월"
+   },
+   "calendar_weekday_sat": {
+      "message": "토"
+   },
+   "calendar_weekday_sun": {
+      "message": "일"
+   },
+   "calendar_weekday_thu": {
+      "message": "목"
+   },
+   "calendar_weekday_tue": {
+      "message": "화"
+   },
+   "calendar_weekday_wed": {
+      "message": "수"
+   },
+   "cancel": {
+      "message": "취소"
+   },
+   "captcha_detection": {
+      "message": "캡차 감지"
+   },
+   "caution_badge": {
+      "message": "주의"
+   },
+   "choose_interval": {
+      "message": "시간 간격 선택"
+   },
+   "clear": {
+      "message": "지우기"
+   },
+   "clear_all": {
+      "message": "모두 지우기"
+   },
+   "clear_all_keywords": {
+      "message": "모든 키워드 지우기"
+   },
+   "clear_all_keywords_desc": {
+      "message": "모든 키워드를 정말 지우시겠습니까?"
+   },
+   "click_automation_title": {
+      "message": "클릭 자동화"
+   },
+   "close": {
+      "message": "닫기"
+   },
+   "continue": {
+      "message": "계속"
+   },
+   "continue_refreshing_after_alert": {
+      "message": "알림 후 새로고침 계속"
+   },
+   "continue_refreshing_help": {
+      "message": "키워드 감지 시 알림을 트리거하지만 평소대로 새로고침을 계속합니다."
+   },
+   "continue_refreshing_switch_desc": {
+      "message": "알림 후에도 새로고침 계속"
+   },
+   "copy_expression": {
+      "message": "표현식 복사"
+   },
+   "copy_to_clipboard": {
+      "message": "클립보드에 복사"
+   },
+   "countdown_decrease_hours": {
+      "message": "시간 감소"
+   },
+   "countdown_decrease_min": {
+      "message": "분 감소"
+   },
+   "countdown_decrease_sec": {
+      "message": "초 감소"
+   },
+   "countdown_duration_label": {
+      "message": "카운트다운 시간"
+   },
+   "countdown_fires_after": {
+      "message": "%1 후 실행"
+   },
+   "countdown_hms_header": {
+      "message": "시 : 분 : 초"
+   },
+   "countdown_hours_value": {
+      "message": "시간 값"
+   },
+   "countdown_increase_hours": {
+      "message": "시간 증가"
+   },
+   "countdown_increase_min": {
+      "message": "분 증가"
+   },
+   "countdown_increase_sec": {
+      "message": "초 증가"
+   },
+   "countdown_min_value": {
+      "message": "분 값"
+   },
+   "countdown_sec_value": {
+      "message": "초 값"
+   },
+   "countdown_target_date_time": {
+      "message": "목표 날짜 및 시간"
+   },
+   "countdown_timer_modes_help": {
+      "message": "타이머 작동 방식 선택: 시간은 시/분/초부터 카운트다운; 날짜 및 시간은 선택한 정확한 순간에 한 번 실행됩니다."
+   },
+   "countdown_triggers_once": {
+      "message": "선택한 시점에 한 번 실행됩니다"
+   },
+   "countdown_unit_hours": {
+      "message": "시간"
+   },
+   "countdown_unit_min": {
+      "message": "분"
+   },
+   "countdown_unit_sec": {
+      "message": "초"
+   },
+   "css_selector": {
+      "message": "CSS 선택기"
+   },
+   "css_selector_aria": {
+      "message": "CSS 선택자"
+   },
+   "css_selector_placeholder": {
+      "message": "예: button 또는 a[href=\"/login\"]"
+   },
+   "custom": {
+      "message": "사용자 정의"
+   },
+   "custom_expression": {
+      "message": "사용자 정의 표현식"
+   },
+   "custom_expression_desc": {
+      "message": "두 개의 ## 기호로 초기화되며, OR 및 AND 연산자에 대한 부울 문입니다. 괄호로 묶어야 합니다(총 4개의 괄호)."
+   },
+   "custom_expression_example_1_desc": {
+      "message": "\"in stock\" 또는 \"available\" AND \"add to cart\" 또는 \"buy now\"를 검색합니다"
+   },
+   "custom_expression_example_2_desc": {
+      "message": "\"sale\" 또는 \"discount\" AND \"50%\" 또는 \"30%\"를 검색합니다"
+   },
+   "custom_expression_example_3_desc": {
+      "message": "괄호가 있는 OR(|) 및 AND 연산자를 사용한 부울 표현식"
+   },
+   "custom_interval": {
+      "message": "사용자 정의 간격"
+   },
+   "custom_interval_desc": {
+      "message": "정확한 시간, 분, 초를 설정합니다"
+   },
+   "custom_monitor": {
+      "message": "사용자 정의 모니터링"
+   },
+   "custom_time_interval": {
+      "message": "사용자 정의 시간 간격"
+   },
+   "date_picker_next_month": {
+      "message": "다음 달"
+   },
+   "date_picker_previous_month": {
+      "message": "이전 달"
+   },
+   "date_time_desc": {
+      "message": "특정 날짜 및 시간에서 트리거할 카운트다운을 설정합니다."
+   },
+   "date_time_mode": {
+      "message": "날짜 시간 모드"
+   },
+   "date_time_target": {
+      "message": "대상 날짜 및 시간"
+   },
+   "day_abbr_fri": {
+      "message": "금"
+   },
+   "day_abbr_mon": {
+      "message": "월"
+   },
+   "day_abbr_sat": {
+      "message": "토"
+   },
+   "day_abbr_sun": {
+      "message": "일"
+   },
+   "day_abbr_thu": {
+      "message": "목"
+   },
+   "day_abbr_tue": {
+      "message": "화"
+   },
+   "day_abbr_wed": {
+      "message": "수"
+   },
+   "decrease_aria": {
+      "message": "감소"
+   },
+   "default_help_description": {
+      "message": "일반 설정에서 '%1'을(를) 구성하여 모든 웹사이트에 적용할 수도 있습니다."
+   },
+   "default_interval": {
+      "message": "기본 시간 간격"
+   },
+   "delay_before_scanning": {
+      "message": "스캔 전 지연"
+   },
+   "detect_any_change": {
+      "message": "Auto Refresh Plus에서 이 웹사이트의 변경 사항을 감지했습니다."
+   },
+   "detect_any_change_title": {
+      "message": "페이지 모니터"
+   },
+   "detect_captcha_on_page": {
+      "message": "페이지에서 캡차 감지"
+   },
+   "detect_error_on_page": {
+      "message": "오류 페이지 감지(예: 404)"
+   },
+   "detection_behavior": {
+      "message": "감지 동작"
+   },
+   "developer_mode_msg": {
+      "message": "보안 및 안정성 이유로 개발자 모드는 허용되지 않습니다.\u003Cbr>최신 및 가장 안전한 버전을 보유하도록 공식 스토어에서 확장 프로그램을 다운로드하고 설치하세요."
+   },
+   "dismiss": {
+      "message": "닫기"
+   },
+   "dismiss_alert": {
+      "message": "알림 닫기"
+   },
+   "donation_msg2": {
+      "message": "이미 완료했습니다."
+   },
+   "download_in_store": {
+      "message": "웹스토어에서 설치"
+   },
+   "duplicates": {
+      "message": "중복"
+   },
+   "duration_desc": {
+      "message": "시간, 분, 초를 사용하여 카운트다운을 설정합니다."
+   },
+   "duration_help": {
+      "message": "이 작업을 사용하여 특정 기간(시간, 분, 초)에 따른 카운트다운을 설정합니다"
+   },
+   "duration_mode": {
+      "message": "기간 모드"
+   },
+   "email_alert_help": {
+      "message": "이메일 알림은 특정 변경 사항이나 이벤트가 발생할 때 알려줍니다. 이메일 주소를 추가하여 이러한 알림을 받기 시작하세요"
+   },
+   "email_alerts_switch_desc": {
+      "message": "모니터가 트리거되면 이메일 전송"
+   },
+   "email_daily_limit": {
+      "message": "%1 / %2 일일 한도"
+   },
+   "email_disconnect": {
+      "message": "연결 해제"
+   },
+   "email_limit_reached": {
+      "message": "이메일 한도에 도달했습니다"
+   },
+   "email_limit_toast_description": {
+      "message": "일일 이메일 한도에 도달했습니다. 이메일 알림을 계속 보내려면 업그레이드하세요."
+   },
+   "email_remaining_count": {
+      "message": "%1개 남음"
+   },
+   "email_sent_today": {
+      "message": "오늘 %1개 전송"
+   },
+   "email_usage_count": {
+      "message": "오늘 전송된 이메일: %1 / %2"
+   },
+   "emails_remaining": {
+      "message": "남은 이메일"
+   },
+   "enable_captcha_detection_help": {
+      "message": "캡차 문제가 나타날 때 감지하도록 활성화합니다."
+   },
+   "enable_error_detection_help": {
+      "message": "실패했거나 손상된 페이지를 감지하도록 활성화합니다."
+   },
+   "enter_custom_interval": {
+      "message": "사용자 정의 간격을 초 단위로 입력하세요."
+   },
+   "enter_time_duration": {
+      "message": "시간 길이를 입력하세요"
+   },
+   "error_page_detection": {
+      "message": "오류 페이지 감지"
+   },
+   "error_save_preferences": {
+      "message": "설정을 저장하지 못했습니다. 다시 시도해 주세요."
+   },
+   "error_schedule_one_day": {
+      "message": "최소한 하나의 요일을 선택해야 합니다."
+   },
+   "error_stop_time": {
+      "message": "종료 시간은 시작 시간보다 나중이어야 합니다."
+   },
+   "example": {
+      "message": "예"
+   },
+   "expression_templates": {
+      "message": "표현식 템플릿"
+   },
+   "ext_action_failed": {
+      "message": "작업 실패"
+   },
+   "ext_applying": {
+      "message": "적용 중..."
+   },
+   "ext_approve_action": {
+      "message": "승인"
+   },
+   "ext_approve_apply": {
+      "message": "승인 및 적용"
+   },
+   "ext_auto_generated": {
+      "message": "(자동 생성)"
+   },
+   "ext_blacklist": {
+      "message": "차단 목록"
+   },
+   "ext_changes_merged": {
+      "message": "로컬 옵션에 병합될 변경 사항."
+   },
+   "ext_code": {
+      "message": "코드"
+   },
+   "ext_completed": {
+      "message": "완료"
+   },
+   "ext_configuration_review": {
+      "message": "구성 검토"
+   },
+   "ext_created": {
+      "message": "생성됨"
+   },
+   "ext_current": {
+      "message": "현재"
+   },
+   "ext_custom_script": {
+      "message": "사용자 지정 스크립트"
+   },
+   "ext_custom_script_add_new": {
+      "message": "사용자 지정 스크립트 (새로 추가)"
+   },
+   "ext_custom_script_add_only": {
+      "message": "이 작업은 새 스크립트만 추가하며 기존 스크립트를 자동으로 덮어쓰지 않습니다."
+   },
+   "ext_domain_config": {
+      "message": "도메인 구성"
+   },
+   "ext_domain_configuration": {
+      "message": "도메인 구성"
+   },
+   "ext_empty": {
+      "message": "(비어 있음)"
+   },
+   "ext_enabled": {
+      "message": "사용"
+   },
+   "ext_error_action": {
+      "message": "요청 %1에 실패했습니다."
+   },
+   "ext_error_storage": {
+      "message": "확장 프로그램 저장소에서 보류 중인 검토를 읽을 수 없습니다."
+   },
+   "ext_error_sync": {
+      "message": "저장소 동기화 오류로 인해 요청 %1에 실패했습니다."
+   },
+   "ext_execution_timing": {
+      "message": "실행 시점"
+   },
+   "ext_expires": {
+      "message": "만료"
+   },
+   "ext_extension_wide_settings": {
+      "message": "확장 프로그램 전체 설정"
+   },
+   "ext_field": {
+      "message": "필드"
+   },
+   "ext_global_options": {
+      "message": "전역 옵션"
+   },
+   "ext_global_options_changes": {
+      "message": "전역 옵션 변경"
+   },
+   "ext_id": {
+      "message": "ID"
+   },
+   "ext_injection_type": {
+      "message": "삽입 유형"
+   },
+   "ext_name": {
+      "message": "이름"
+   },
+   "ext_new": {
+      "message": "새로운"
+   },
+   "ext_new_script_injection": {
+      "message": "새 스크립트 삽입"
+   },
+   "ext_no_changes_detected": {
+      "message": "유효한 변경 사항이 감지되지 않았습니다."
+   },
+   "ext_no_pending_description": {
+      "message": "검토할 보류 중인 변경 사항이 없습니다. 외부 소스가 구성 업데이트를 요청하면 이 페이지가 나타납니다."
+   },
+   "ext_no_pending_request": {
+      "message": "보류 중인 요청 없음"
+   },
+   "ext_proposed_changes": {
+      "message": "제안된 변경 사항"
+   },
+   "ext_refresh": {
+      "message": "새로고침"
+   },
+   "ext_reject": {
+      "message": "거부"
+   },
+   "ext_reject_action": {
+      "message": "거부"
+   },
+   "ext_rejecting": {
+      "message": "거부 중..."
+   },
+   "ext_request": {
+      "message": "요청"
+   },
+   "ext_review_description": {
+      "message": "제안된 변경 사항을 검토하고 의도와 일치하는 경우에만 승인하세요. 확인할 때까지 적용되지 않습니다."
+   },
+   "ext_review_pending_changes": {
+      "message": "보류 중인 변경 사항 검토"
+   },
+   "ext_site_specific_rules": {
+      "message": "사이트별 규칙"
+   },
+   "ext_source": {
+      "message": "소스"
+   },
+   "ext_target": {
+      "message": "대상"
+   },
+   "ext_type": {
+      "message": "유형"
+   },
+   "ext_unknown": {
+      "message": "알 수 없음"
+   },
+   "ext_url_pattern": {
+      "message": "URL 패턴"
+   },
+   "ext_whitelist": {
+      "message": "허용 목록"
+   },
+   "extension_settings": {
+      "message": "확장 프로그램 설정"
+   },
+   "extension_update_dismiss_aria": {
+      "message": "업데이트 알림 닫기"
+   },
+   "extension_update_notification_aria": {
+      "message": "확장 프로그램 업데이트 알림"
+   },
+   "extension_updated_to_version": {
+      "message": "확장 프로그램이 v%1(으)로 업데이트됨"
+   },
+   "feature_is_premium": {
+      "message": "%1은(는) 프리미엄 기능입니다. 업그레이드하여 모든 프리미엄 도구에 액세스하고 경험을 향상하세요."
+   },
+   "find_mtr_msg": {
+      "message": "모니터링 텍스트 찾기"
+   },
+   "follow_all_redirects": {
+      "message": "모든 리디렉션 따르기"
+   },
+   "follow_all_redirects_desc": {
+      "message": "페이지가 다른 URL로 리디렉션되어도 새로고침을 계속합니다."
+   },
+   "follow_canonical_url": {
+      "message": "정규 URL 따르기"
+   },
+   "follow_canonical_url_desc": {
+      "message": "페이지의 정규(원래) URL을 사용합니다."
+   },
+   "found": {
+      "message": "발견"
+   },
+   "frozen_tab_noti_message": {
+      "message": "브라우저가 메모리 절약을 위해 이 탭을 백그라운드에서 동결했습니다. 탭으로 돌아가면 자동 새로고침이 재개됩니다."
+   },
+   "frozen_tab_noti_title": {
+      "message": "자동 새로고침 일시 중지"
+   },
+   "full_documentation": {
+      "message": "전체 문서"
+   },
+   "full_page": {
+      "message": "전체 페이지 새로고침"
+   },
+   "full_page_type_desc": {
+      "message": "변경 사항을 확인하려면 전체 페이지를 다시 로드"
+   },
+   "full_page_type_help": {
+      "message": "정상적인 새로고침을 통해 모든 콘텐츠와 리소스를 포함하여 전체 페이지의 변경 사항을 확인할 수 있습니다."
+   },
+   "go_premium_full_access": {
+      "message": "프리미엄으로 업그레이드 – 전체 액세스"
+   },
+   "go_to_top": {
+      "description": "Accessible label for scroll-to-top button",
+      "message": "맨 위로 이동"
+   },
+   "go_top": {
+      "message": "맨 위"
+   },
+   "good": {
+      "message": "좋음"
+   },
+   "grace_period_banner": {
+      "message": "유예 기간은 7월 1일에 종료됩니다. 프리미엄 기능이 비활성화됩니다"
+   },
+   "grace_period_consent_body": {
+      "message": "프리미엄 기능에 대한 액세스를 잃게 됩니다. 무료 플랜으로 계속하시겠습니까?"
+   },
+   "grace_period_consent_title": {
+      "message": "프리미엄 없이 계속하시겠습니까?"
+   },
+   "grace_period_dismiss_aria": {
+      "message": "유예 기간 알림 닫기"
+   },
+   "grace_period_expired_data_safe": {
+      "message": "설정과 데이터는 안전하며 계속 저장됩니다."
+   },
+   "grace_period_expired_description": {
+      "message": "프리미엄 기능이 계정에서 더 이상 활성화되지 않습니다."
+   },
+   "grace_period_expired_disable_button": {
+      "message": "프리미엄 기능 비활성화"
+   },
+   "grace_period_expired_title": {
+      "message": "유예 기간이 만료되었습니다"
+   },
+   "grace_period_expired_upgrade_button": {
+      "message": "Premium으로 업그레이드"
+   },
+   "grace_period_expired_upgrade_hint": {
+      "message": "언제든지 업그레이드하여 모든 프리미엄 기능을 복원할 수 있습니다."
+   },
+   "grace_period_ok_with_free": {
+      "message": "무료로 계속"
+   },
+   "grace_period_upgrade_button": {
+      "message": "프리미엄 유지"
+   },
+   "great": {
+      "message": "훌륭함!"
+   },
+   "handle_redirects": {
+      "message": "리디렉션 처리"
+   },
+   "hard_refresh": {
+      "message": "강제 새로고침"
+   },
+   "hard_refresh_desc": {
+      "message": "매번 새로고침 시 캐시 우회"
+   },
+   "hard_refresh_help": {
+      "message": "캐시된 데이터에 의존하지 않고 페이지를 다시 로드합니다."
+   },
+   "highlight_element": {
+      "message": "페이지에서 요소 강조"
+   },
+   "highlight_keyword": {
+      "message": "페이지에서 키워드 강조"
+   },
+   "highlight_keyword_desc": {
+      "message": "일치한 키워드 강조"
+   },
+   "highlight_keyword_help": {
+      "message": "키워드가 감지되면 페이지에서 시각적으로 강조됩니다."
+   },
+   "hotkeys_label": {
+      "message": "단축키"
+   },
+   "hour": {
+      "message": "시간"
+   },
+   "hours": {
+      "message": "시간"
+   },
+   "increase_aria": {
+      "message": "증가"
+   },
+   "individual_plan": {
+      "message": "개별 플랜"
+   },
+   "individual_plan_starts_at": {
+      "message": "개별 플랜은 $2.99부터"
+   },
+   "interaction_help": {
+      "message": "사용자가 페이지와 상호 작용할 때 자동으로 새로고침을 중지합니다."
+   },
+   "interactions_switch_desc": {
+      "message": "페이지 사용 시 동작"
+   },
+   "interactions_title_opt": {
+      "message": "사용자 상호작용 시 새로고침 동작"
+   },
+   "interval": {
+      "message": "간격"
+   },
+   "interval_card_custom_duration": {
+      "message": "사용자 지정 시간"
+   },
+   "interval_card_interval": {
+      "message": "간격"
+   },
+   "interval_card_random_range": {
+      "message": "무작위 범위"
+   },
+   "interval_custom_summary": {
+      "message": "%1시간 %2분 %3초마다"
+   },
+   "interval_decrease_by": {
+      "message": "%1 감소"
+   },
+   "interval_edit_custom_aria": {
+      "message": "사용자 지정 간격 편집"
+   },
+   "interval_in_seconds_aria": {
+      "message": "초 단위 간격"
+   },
+   "interval_increase_by": {
+      "message": "%1 증가"
+   },
+   "interval_max_sec": {
+      "message": "최대 (초)"
+   },
+   "interval_max_sec_aria": {
+      "message": "최대 초"
+   },
+   "interval_min_sec": {
+      "message": "최소 (초)"
+   },
+   "interval_min_sec_aria": {
+      "message": "최소 초"
+   },
+   "interval_modes_help": {
+      "message": "고정: N초마다 새로고침. 무작위: 범위 내에서 간격 변경. 사용자 지정: 시/분/초로 정확한 시간 설정."
+   },
+   "interval_preset_minutes": {
+      "message": "%1분"
+   },
+   "interval_preset_seconds": {
+      "message": "%1초"
+   },
+   "interval_random_summary": {
+      "message": "%1–%2초마다 새로고침"
+   },
+   "interval_range_to": {
+      "message": "~"
+   },
+   "interval_tab_custom": {
+      "message": "사용자 지정"
+   },
+   "interval_tab_fixed": {
+      "message": "고정"
+   },
+   "interval_tab_random": {
+      "message": "무작위"
+   },
+   "interval_unit_hrs": {
+      "message": "시간"
+   },
+   "interval_unit_min": {
+      "message": "분"
+   },
+   "interval_unit_sec": {
+      "message": "초"
+   },
+   "interval_unit_seconds_header": {
+      "message": "초"
+   },
+   "keyword_input_placeholder": {
+      "message": "키워드, 정규식, XPath 또는 CSS 선택기를 입력하세요(여러 개는 쉼표로 구분)..."
+   },
+   "keywords_to_monitor": {
+      "message": "모니터링할 키워드"
+   },
+   "kill_notification": {
+      "message": "알림 알람 종료"
+   },
+   "kill_successfully": {
+      "message": "성공적으로 종료되었습니다"
+   },
+   "lang_code": {
+      "message": "ko"
+   },
+   "language": {
+      "message": "언어"
+   },
+   "lost": {
+      "message": "손실"
+   },
+   "loved": {
+      "message": "최고!"
+   },
+   "match_html_source_desc": {
+      "message": "원시 소스 스캔 — 느리므로 주의해서 사용"
+   },
+   "match_html_source_label": {
+      "message": "HTML 소스 일치"
+   },
+   "match_visible_text_desc": {
+      "message": "화면에 렌더링된 텍스트 스캔"
+   },
+   "match_visible_text_label": {
+      "message": "표시 텍스트 일치"
+   },
+   "maximum": {
+      "message": "최대"
+   },
+   "minimum": {
+      "message": "최소"
+   },
+   "minute": {
+      "message": "분"
+   },
+   "minutes": {
+      "message": "분"
+   },
+   "monitor": {
+      "message": "모니터"
+   },
+   "monitor_area_select": {
+      "message": "선택"
+   },
+   "monitor_area_selector_desc": {
+      "message": "CSS 선택자를 입력하거나 페이지에서 요소를 선택하세요."
+   },
+   "monitor_area_switch_desc": {
+      "message": "검색을 한 영역으로 제한"
+   },
+   "monitor_area_switch_label": {
+      "message": "모니터 영역"
+   },
+   "monitor_custom_area": {
+      "message": "페이지의 사용자 정의 영역에서 검색"
+   },
+   "monitor_custom_area_help": {
+      "message": "활성화하면 페이지의 특정 영역을 모니터링하거나 검색할 수 있습니다."
+   },
+   "monitor_full_page": {
+      "message": "전체 페이지 모니터링"
+   },
+   "monitor_full_page_help": {
+      "message": "활성화하면 전체 웹페이지의 변경 사항을 모니터링합니다."
+   },
+   "monitor_page_for_any_changes": {
+      "message": "페이지 변경 사항을 자동으로 추적합니다."
+   },
+   "monitored_area": {
+      "message": "모니터링된 영역"
+   },
+   "monitoring_active": {
+      "message": "모니터링 활성"
+   },
+   "monitoring_auto_click_label": {
+      "message": "키워드 일치 시 자동 클릭"
+   },
+   "monitoring_engine_advanced": {
+      "message": "고급"
+   },
+   "monitoring_engine_aria": {
+      "message": "모니터링 엔진 버전"
+   },
+   "monitoring_engine_basic": {
+      "message": "기본"
+   },
+   "monitoring_engine_beta": {
+      "message": "베타"
+   },
+   "monitoring_engine_tooltip_desc": {
+      "message": "발견, 소실 및 사용자 지정 모든 선택에서 더 빠르고 스마트한 감지가 가능합니다."
+   },
+   "monitoring_engine_tooltip_title": {
+      "message": "새 베타 코어"
+   },
+   "monitoring_keyword_input_aria": {
+      "message": "모니터링할 키워드"
+   },
+   "monitoring_keywords_empty": {
+      "message": "아직 키워드가 없습니다 — 모니터링을 시작하려면 하나 이상 추가하세요."
+   },
+   "monitoring_mode": {
+      "message": "모니터링 모드"
+   },
+   "monitoring_mode_custom_info_highlight": {
+      "message": "변경 사항"
+   },
+   "monitoring_mode_custom_info_prefix": {
+      "message": "사용자 지정 모드는 이 페이지에서 "
+   },
+   "monitoring_mode_custom_info_suffix": {
+      "message": "이 감지될 때마다 알림을 보냅니다 — 키워드가 필요하지 않습니다."
+   },
+   "monitoring_mode_custom_intro": {
+      "message": "페이지 변경 사항을 자동으로 추적합니다."
+   },
+   "monitoring_mode_custom_short": {
+      "message": "사용자 지정"
+   },
+   "monitoring_mode_found_desc": {
+      "message": "키워드가 나타나면 알림을 받습니다."
+   },
+   "monitoring_mode_found_short": {
+      "message": "발견"
+   },
+   "monitoring_mode_help": {
+      "message": "Auto Refresh Plus가 알림을 보낼 시점을 선택하세요"
+   },
+   "monitoring_mode_lost_desc": {
+      "message": "키워드가 사라지면 알림을 받습니다."
+   },
+   "monitoring_mode_lost_short": {
+      "message": "소실"
+   },
+   "monitoring_remove_keyword_aria": {
+      "message": "%1 제거"
+   },
+   "monitoring_tip_banner": {
+      "message": "더 많은 작업이 필요하신가요? 멀티 클릭 자동화를 사용해 보세요."
+   },
+   "monitoring_tip_label": {
+      "message": "팁:"
+   },
+   "new_badge": {
+      "message": "신규"
+   },
+   "no_active_tabs": {
+      "message": "활성 탭 없음"
+   },
+   "no_active_tabs_desc": {
+      "message": "현재 모니터링되거나 새로고쳐지는 탭이 없습니다. 탭 새로고침을 시작하면 여기에 표시됩니다."
+   },
+   "no_keyword": {
+      "message": "추가된 키워드가 없습니다. 모니터링할 키워드를 추가하세요."
+   },
+   "no_tabs_refreshing": {
+      "message": "새로고침 중인 탭 없음"
+   },
+   "no_templates_match": {
+      "message": "검색 조건과 일치하는 템플릿이 없습니다."
+   },
+   "normal_expression": {
+      "message": "일반 표현식"
+   },
+   "normal_expression_desc": {
+      "message": "웹 페이지에서 키워드를 검색하며 기호로 초기화할 필요가 없습니다. 각 키워드 후에 Enter를 누르기만 하면 됩니다."
+   },
+   "normal_expression_example_1_desc": {
+      "message": "웹 페이지에서 정확한 텍스트 \"In Stock\"을 검색합니다"
+   },
+   "normal_expression_example_2_desc": {
+      "message": "여러 키워드를 검색하고 각 키워드 후에 Enter를 누릅니다"
+   },
+   "normal_expression_example_3_desc": {
+      "message": "페이지에서 \"Add to Cart\" 버튼 또는 텍스트를 검색합니다"
+   },
+   "not_allowed": {
+      "message": "여기서는 사용할 수 없습니다."
+   },
+   "noti_msg": {
+      "message": "Auto Refresh Plus가 %1 대상 텍스트를 감지했습니다."
+   },
+   "noti_msg_title": {
+      "message": "대상 텍스트!"
+   },
+   "notification_domain_info": {
+      "message": "%1 위"
+   },
+   "ok": {
+      "message": "확인"
+   },
+   "okay": {
+      "message": "괜찮음"
+   },
+   "open_link_help": {
+      "message": "클릭된 링크를 새 브라우저 탭에서 엽니다."
+   },
+   "open_link_tab": {
+      "message": "새 탭에서 링크 열기"
+   },
+   "options": {
+      "message": "옵션"
+   },
+   "partial_page_desc": {
+      "message": "AJAX/XHR 요청만 모니터링"
+   },
+   "pause": {
+      "message": "일시 중지"
+   },
+   "pause_on_interact": {
+      "message": "상호작용 시 일시 정지"
+   },
+   "pause_refreshing": {
+      "message": "새로고침 일시정지"
+   },
+   "permissions_attention": {
+      "message": "주의"
+   },
+   "permissions_btn_grant": {
+      "message": "대시보드 호스트에 대한 사이트 액세스 허용"
+   },
+   "permissions_btn_opening_dialog": {
+      "message": "권한 대화 상자 여는 중..."
+   },
+   "permissions_btn_refresh": {
+      "message": "상태 새로 고침"
+   },
+   "permissions_config_missing_body": {
+      "message": "이 빌드 환경에 정의되어 있지 않습니다. 대시보드 호스트 이름으로 설정하여 다시 빌드하세요."
+   },
+   "permissions_config_missing_title": {
+      "message": "구성 누락"
+   },
+   "permissions_error_denied": {
+      "message": "권한이 거부되었습니다. 동기화 및 주입 기능이 안정적으로 작동하도록 대시보드 호스트에 대한 액세스를 허용하세요."
+   },
+   "permissions_error_dialog": {
+      "message": "권한 대화 상자를 여는 중 오류가 발생했습니다. 다시 시도하거나 브라우저 설정을 확인하세요."
+   },
+   "permissions_error_read_state": {
+      "message": "사이트 권한 상태를 읽을 수 없습니다. 페이지를 새로 고치거나 나중에 다시 시도하세요."
+   },
+   "permissions_go_to_options": {
+      "message": "옵션으로 이동"
+   },
+   "permissions_granted_body": {
+      "message": "이 확장 프로그램에는 플랫폼에 대한 일치하는 호스트 권한이 이미 있습니다. 이 탭을 닫아도 됩니다."
+   },
+   "permissions_granted_ok": {
+      "message": "확인"
+   },
+   "permissions_granted_title": {
+      "message": "사이트 액세스 사용함"
+   },
+   "permissions_heading_dashboard": {
+      "message": "대시보드 호스트 권한"
+   },
+   "permissions_intro_dashboard": {
+      "message": "확장 프로그램이 Auto Refresh Plus 대시보드 도메인에서 실행될 수 있는지 제어합니다(콘텐츠 스크립트 및 플랫폼 연동)."
+   },
+   "permissions_label_dashboard_host": {
+      "message": "대시보드 호스트"
+   },
+   "permissions_revoke_hint": {
+      "message": "나중에 해제하려면 브라우저 설정에서 확장 프로그램 사이트 액세스 목록에서 이 사이트를 제거하세요."
+   },
+   "permissions_subtitle": {
+      "message": "플랫폼 사이트 액세스"
+   },
+   "permissions_warn_body_prefix": {
+      "message": "대시보드에 주입하고 설정을 반영하며 확장 프로그램과 경험을 맞추려면 액세스를 허용하세요(콘텐츠 스크립트와 동일한 호스트 패턴:"
+   },
+   "permissions_warn_body_suffix": {
+      "message": ")."
+   },
+   "permissions_warn_title": {
+      "message": "아직 사이트 액세스가 허용되지 않았습니다"
+   },
+   "play_alarm_on_captcha_detection": {
+      "message": "캡차 감지 시 알람 재생"
+   },
+   "play_alarm_on_captcha_detection_help": {
+      "message": "캡차가 감지되면 음성 알람을 재생합니다."
+   },
+   "play_alarm_on_error_detection": {
+      "message": "오류 감지 시 알람 재생"
+   },
+   "play_alarm_on_error_detection_help": {
+      "message": "오류 페이지가 감지되면 음성 알람을 재생합니다."
+   },
+   "please_add_email_first": {
+      "message": "먼저 이메일을 추가하세요."
+   },
+   "please_add_webhooks_first": {
+      "message": "먼저 웹훅을 추가하세요."
+   },
+   "please_rateus": {
+      "message": "평가해 주세요"
+   },
+   "popup_on_keyword_found": {
+      "message": "키워드 발견 시 알림"
+   },
+   "popup_on_keyword_lost": {
+      "message": "키워드 손실 시 알림"
+   },
+   "predefined_interval": {
+      "message": "미리 정의된 간격"
+   },
+   "predefined_interval_desc": {
+      "message": "사전 설정 또는 기본 시간 값 사용"
+   },
+   "premium_benefits": {
+      "message": "프리미엄 혜택:"
+   },
+   "premium_device_sync": {
+      "message": "최대 3개 기기 관리"
+   },
+   "premium_full_access": {
+      "message": "모든 프리미엄 기능"
+   },
+   "premium_priority_support": {
+      "message": "다양한 설정 프로필"
+   },
+   "premium_tag_aria": {
+      "message": "프리미엄 기능: %1. 공지 열기."
+   },
+   "premium_tag_default_feature": {
+      "message": "기능"
+   },
+   "premium_tag_tooltip_click": {
+      "message": "자세히 보려면 클릭"
+   },
+   "premium_usage_body": {
+      "message": "무료 플랜에서 프리미엄 기능이 활성화됨."
+   },
+   "premium_usage_dismiss": {
+      "message": "알림 닫기"
+   },
+   "premium_usage_status_label": {
+      "message": "프리미엄 기능 사용 중"
+   },
+   "preset_interval": {
+      "message": "사전 설정 간격"
+   },
+   "pricing": {
+      "message": "가격 책정"
+   },
+   "pro_announcement_body": {
+      "message": "Auto Refresh Plus는 장기 개발, 고급 기능, 클라우드 동기화, 더 똑똑한 모니터링, 여러 기기 관리를 지원하기 위해 PRO를 단계적으로 도입합니다. 핵심 새로 고침 기능은 모든 사용자에게 무료로 유지됩니다."
+   },
+   "pro_announcement_close_aria": {
+      "message": "대화상자 닫기"
+   },
+   "pro_announcement_days_label": {
+      "message": "일"
+   },
+   "pro_announcement_days_remaining_aria": {
+      "message": "%1일 남음"
+   },
+   "pro_announcement_fresh_install_body": {
+      "message": "%1 및 PRO만의 모든 프리미엄 기능을 활용할 수 있습니다. 고급 도구, 더 똑똑한 모니터링, 클라우드 동기화, 여러 기기에서의 접속까지 지원합니다."
+   },
+   "pro_announcement_fresh_install_title_suffix": {
+      "message": "프리미엄 기능입니다"
+   },
+   "pro_announcement_fresh_install_trial": {
+      "message": "15일 무료 체험"
+   },
+   "pro_announcement_important_badge": {
+      "message": "중요"
+   },
+   "pro_announcement_important_notice_aria": {
+      "message": "중요 안내"
+   },
+   "pro_announcement_moving_to_pro": {
+      "message": "PRO로 전환됩니다"
+   },
+   "pro_announcement_premium_badge": {
+      "message": "PREMIUM"
+   },
+   "pro_announcement_premium_badge_aria": {
+      "message": "프리미엄"
+   },
+   "pro_announcement_rollout_date": {
+      "message": "6월 1일"
+   },
+   "pro_announcement_rollout_intro": {
+      "message": "배포 시작:"
+   },
+   "pro_announcement_rollout_outro": {
+      "message": "."
+   },
+   "pro_announcement_view_pricing": {
+      "message": "요금 보기 — 월 $2.99부터"
+   },
+   "random_interval": {
+      "message": "무작위 간격"
+   },
+   "random_interval_desc": {
+      "message": "최소–최대 사이의 무작위 새로고침"
+   },
+   "random_interval_help": {
+      "message": "현재 설정에서 페이지는 %1초에서 %2초 사이의 무작위 간격으로 새로고쳐집니다."
+   },
+   "random_time_interval": {
+      "message": "무작위 새로고침 범위"
+   },
+   "rate_us": {
+      "message": "평가하기"
+   },
+   "rateus_title": {
+      "message": "이 확장 프로그램 평가"
+   },
+   "ready_expressions_load_error": {
+      "message": "템플릿을 불러올 수 없습니다. 나중에 다시 시도해 주세요."
+   },
+   "real_time_detection_during_refresh": {
+      "message": "실시간 감지"
+   },
+   "real_time_detection_switch_desc": {
+      "message": "전체 새로고침 없이 지속적으로 확인"
+   },
+   "realtime_help": {
+      "message": "간격이 끝날 때뿐만 아니라 새로고침 중에 변경 사항을 지속적으로 감지합니다."
+   },
+   "receive_emails_alerts": {
+      "message": "이메일 알림 수신"
+   },
+   "receive_webhook_alerts": {
+      "message": "웹훅 알림 수신"
+   },
+   "redirection_behavior": {
+      "message": "리디렉션 동작"
+   },
+   "redirection_behavior_desc": {
+      "message": "새로고침 중 리디렉션 처리"
+   },
+   "redirection_behavior_help": {
+      "message": "Auto Refresh Plus가 URL 변경을 처리하는 방식을 선택합니다. 원래 도메인에 잠글 수도 있고 리디렉션을 따를 수도 있습니다."
+   },
+   "refresh_cycles_completed": {
+      "message": "완료된 새로고침 주기"
+   },
+   "refresh_interval_mode": {
+      "message": "새로고침 간격 모드"
+   },
+   "refresh_limit": {
+      "message": "새로고침 제한"
+   },
+   "refresh_limit_times": {
+      "message": "회"
+   },
+   "refresh_number": {
+      "message": "새로고침 횟수 설정"
+   },
+   "refresh_number_desc": {
+      "message": "고정 횟수 후 중지"
+   },
+   "refresh_number_help": {
+      "message": "페이지를 새로고칠 횟수를 설정합니다."
+   },
+   "refresh_position_hint_body": {
+      "message": "이 메뉴에서 새로고침 버튼 및 기타 UI 설정을 변경할 수 있습니다."
+   },
+   "refresh_position_hint_understand": {
+      "message": "이해했습니다"
+   },
+   "refresh_top_pause": {
+      "message": "일시정지"
+   },
+   "refresh_top_resume": {
+      "message": "재개"
+   },
+   "refresh_top_start": {
+      "message": "시작"
+   },
+   "refresh_top_stop": {
+      "message": "중지"
+   },
+   "refresh_type": {
+      "message": "새로고침 유형"
+   },
+   "refresh_type_help": {
+      "message": "각 스캔 전에 페이지를 다시 로드하는 방법입니다. 전체 페이지는 새로고침처럼 전체 URL을 다시 로드합니다—안정적이지만 부담이 큽니다. XHR은 백그라운드 AJAX/XHR 요청만 실행합니다(전체 새로고침 없음)—더 빠르고 가볍으며, 새로고침 없이 콘텐츠를 업데이트하는 동적 페이지에 이상적입니다."
+   },
+   "regex": {
+      "message": "정규식"
+   },
+   "regex_expression": {
+      "message": "정규식 표현식"
+   },
+   "regex_expression_desc": {
+      "message": "Auto Refresh Plus는 정규식도 지원하며 $ 기호로 초기화한 후 정규식이 뒤따라야 합니다."
+   },
+   "regex_expression_example_1_desc": {
+      "message": "하나 이상의 숫자가 뒤따르는 \"product\"를 일치시킵니다(product1, product42 등)"
+   },
+   "regex_expression_example_2_desc": {
+      "message": "정규식 플래그를 사용하여 \"in stock\"을 대소문자 구분 없이 일치시킵니다"
+   },
+   "regex_expression_example_3_desc": {
+      "message": "\"$19.99\", \"$299.00\" 등과 같은 가격 형식을 일치시킵니다"
+   },
+   "remove_email": {
+      "message": "이메일 제거"
+   },
+   "restart": {
+      "message": "다시 시작"
+   },
+   "restart_wait_seconds_desc": {
+      "message": "새로고침이 다시 시작되기 전에 대기할 초 수를 설정합니다"
+   },
+   "resume": {
+      "message": "재개"
+   },
+   "resume_refreshing": {
+      "message": "새로고침 재개"
+   },
+   "save": {
+      "message": "저장"
+   },
+   "scan_method_title": {
+      "message": "스캔 방법"
+   },
+   "sch_description": {
+      "message": "선택한 시간과 요일에 자동으로 실행됩니다."
+   },
+   "schedule_add": {
+      "message": "일정 추가"
+   },
+   "schedule_auto_disable_aria": {
+      "message": "자동 비활성화"
+   },
+   "schedule_auto_stop_aria": {
+      "message": "자동 중지"
+   },
+   "schedule_delete_aria": {
+      "message": "일정 삭제"
+   },
+   "schedule_disconnected": {
+      "message": "일정이 연결 해제되었습니다"
+   },
+   "schedule_edit_aria": {
+      "message": "일정 편집"
+   },
+   "schedule_enable_aria": {
+      "message": "일정 활성화"
+   },
+   "schedule_help": {
+      "message": "일정을 사용하면 특정 시간과 요일에 자동 새로고침할 수 있습니다. 각 일정에는 시작 시간, 선택한 요일, 자동 중지 및 자동 비활성화 옵션을 설정할 수 있습니다."
+   },
+   "schedule_options_label": {
+      "message": "옵션"
+   },
+   "schedule_select_days": {
+      "message": "요일 선택"
+   },
+   "schedule_start_time_label": {
+      "message": "시작 시간"
+   },
+   "schedules": {
+      "message": "일정"
+   },
+   "schedules_active_count": {
+      "message": "%1개 활성"
+   },
+   "schedules_empty": {
+      "message": "아직 일정이 없습니다"
+   },
+   "search_templates": {
+      "message": "템플릿 검색..."
+   },
+   "seconds": {
+      "message": "초"
+   },
+   "select_area": {
+      "message": "영역 선택"
+   },
+   "select_area_desc": {
+      "message": "검색 영역을 제한하려면 CSS 선택기를 입력하세요"
+   },
+   "select_css_selector": {
+      "message": "영역 선택기를 설정할 요소를 선택하세요"
+   },
+   "select_date_time": {
+      "message": "날짜 및 시간 선택"
+   },
+   "select_days": {
+      "message": "요일 선택"
+   },
+   "select_element": {
+      "message": "요소 선택"
+   },
+   "select_language": {
+      "message": "언어 선택"
+   },
+   "select_time": {
+      "message": "시간 선택"
+   },
+   "session_expired": {
+      "message": "세션이 만료되었습니다. 다시 로그인하세요."
+   },
+   "settings_card_collapse_aria": {
+      "message": "%1 접기"
+   },
+   "settings_card_expand_aria": {
+      "message": "%1 펼치기"
+   },
+   "show_tab": {
+      "message": "탭 표시"
+   },
+   "signup_requirement_body": {
+      "message": "곧 계속하려면 계정이 필요합니다."
+   },
+   "signup_requirement_countdown_days": {
+      "message": "계정 필요까지 %1일 남음"
+   },
+   "signup_requirement_countdown_one_day": {
+      "message": "계정 필요까지 하루 남음"
+   },
+   "signup_requirement_days_abbr": {
+      "message": "일"
+   },
+   "signup_requirement_dismiss": {
+      "message": "알림 닫기"
+   },
+   "signup_requirement_sign_up": {
+      "message": "무료 가입 →"
+   },
+   "signup_requirement_status_label": {
+      "message": "계정 필요 알림"
+   },
+   "skip_repeated_keyword": {
+      "message": "반복된 키워드 건너뛰기"
+   },
+   "skip_repeated_keyword_desc": {
+      "message": "이미 감지된 키워드 무시"
+   },
+   "skip_repeated_keyword_help": {
+      "message": "다음 새로고침에서 이미 감지된 키워드를 무시합니다."
+   },
+   "slave_device_alert_body": {
+      "message": "이 확장 프로그램은 연결된 보조 기기로 구성되어 있습니다. 설정 및 새로고침 제어가 주 기기와 동일하게 동작할 수 있습니다."
+   },
+   "slave_device_alert_dismiss": {
+      "message": "알림 닫기"
+   },
+   "slave_device_alert_read_more": {
+      "message": "자세히 보기"
+   },
+   "slave_device_alert_status_label": {
+      "message": "보조 기기"
+   },
+   "slave_message_alert": {
+      "message": "슬레이브 사용자이므로 이 옵션을 수정할 수 없습니다."
+   },
+   "source_find_text": {
+      "message": "소스(HTML 소스)"
+   },
+   "source_find_text_caution": {
+      "message": "이 옵션은 주로 개발자를 위한 것입니다. 원시 HTML 소스를 스캔하면 숨겨지거나 화면에 보이지 않는 마크업과도 일치할 수 있어 종종 오탐이 발생합니다. 더 느리며 일상적인 모니터링에는 권장되지 않습니다. 표시 텍스트 일치만으로 충분하지 않을 때만 활성화하세요."
+   },
+   "source_find_text_help": {
+      "message": "HTML 소스 코드에서 직접 텍스트를 추출합니다. 숨겨진 또는 동적 콘텐츠를 포함할 수 있습니다."
+   },
+   "start_countdown": {
+      "message": "카운트다운 시작"
+   },
+   "start_msg": {
+      "message": "시작"
+   },
+   "start_refreshing": {
+      "message": "새로고침 시작"
+   },
+   "start_time": {
+      "message": "시작 시간"
+   },
+   "stop": {
+      "message": "정지"
+   },
+   "stop_countdown": {
+      "message": "카운트다운 중지"
+   },
+   "stop_refreshing": {
+      "message": "새로고침 중지"
+   },
+   "stop_time": {
+      "message": "종료 시간"
+   },
+   "subscription": {
+      "message": "구독"
+   },
+   "success": {
+      "message": "설정이 성공적으로 저장되었습니다"
+   },
+   "support_ticket": {
+      "message": "지원 티켓"
+   },
+   "supported_expressions": {
+      "message": "지원되는 표현식"
+   },
+   "supported_expressions_msg_monitor": {
+      "message": "페이지 모니터링을 위한 지원되는 표현식"
+   },
+   "syntax_css_desc": {
+      "message": "표준 CSS 선택자로 요소 타겟팅 — id, 클래스, 속성 또는 계층별."
+   },
+   "syntax_css_ex1_desc": {
+      "message": "id \"price\"인 요소 선택"
+   },
+   "syntax_css_ex1_title": {
+      "message": "id별"
+   },
+   "syntax_css_ex2_desc": {
+      "message": "클래스 \"stock-status\"인 요소 선택"
+   },
+   "syntax_css_ex2_title": {
+      "message": "클래스별"
+   },
+   "syntax_css_ex3_desc": {
+      "message": "data-testid가 \"add-to-cart\"인 요소 선택"
+   },
+   "syntax_css_ex3_title": {
+      "message": "속성별"
+   },
+   "syntax_css_title": {
+      "message": "CSS 선택자"
+   },
+   "syntax_custom_desc": {
+      "message": "##로 시작하며 Boolean AND / OR / NOT 논리로 키워드를 결합합니다."
+   },
+   "syntax_custom_ex1_desc": {
+      "message": "\"In Stock\"과 \"Add to Cart\"가 모두 나타날 때만 트리거"
+   },
+   "syntax_custom_ex1_title": {
+      "message": "AND 조건"
+   },
+   "syntax_custom_ex2_desc": {
+      "message": "키워드 중 하나가 나타날 때 트리거"
+   },
+   "syntax_custom_ex2_title": {
+      "message": "OR 조건"
+   },
+   "syntax_custom_ex3_desc": {
+      "message": "\"In Stock\"은 있지만 \"Sold Out\"은 없을 때 트리거"
+   },
+   "syntax_custom_ex3_title": {
+      "message": "NOT 조건"
+   },
+   "syntax_custom_title": {
+      "message": "사용자 지정 표현"
+   },
+   "syntax_norm_ex1_desc": {
+      "message": "페이지 어디에서나 정확한 텍스트 \"In Stock\"과 일치"
+   },
+   "syntax_norm_ex1_title": {
+      "message": "In Stock"
+   },
+   "syntax_norm_ex2_desc": {
+      "message": "여러 키워드 — 각각 후 Enter"
+   },
+   "syntax_norm_ex2_title": {
+      "message": "Available, Out of Stock"
+   },
+   "syntax_norm_ex3_desc": {
+      "message": "페이지의 \"Add to Cart\" 버튼 또는 텍스트와 일치"
+   },
+   "syntax_norm_ex3_title": {
+      "message": "Add to Cart"
+   },
+   "syntax_regex_desc": {
+      "message": "슬래시 /.../로 텍스트 패턴과 일치. 가격, SKU, 유연한 매칭에 유용."
+   },
+   "syntax_regex_ex1_desc": {
+      "message": "$19.99 또는 $1,299.00 같은 달러 금액과 일치"
+   },
+   "syntax_regex_ex1_title": {
+      "message": "가격 매칭"
+   },
+   "syntax_regex_ex2_desc": {
+      "message": "\"In Stock\" 또는 \"in stock\"과 일치(대소문자 구분 없음)"
+   },
+   "syntax_regex_ex2_title": {
+      "message": "재고 상태"
+   },
+   "syntax_regex_ex3_desc": {
+      "message": "SKU-12345 같은 제품 SKU와 일치"
+   },
+   "syntax_regex_ex3_title": {
+      "message": "SKU 코드"
+   },
+   "syntax_regex_title": {
+      "message": "정규 표현식"
+   },
+   "syntax_text_matching_desc": {
+      "message": "웹 페이지에서 일반 키워드를 검색합니다. 기호 불필요 — 각 키워드 후 Enter를 누르세요."
+   },
+   "syntax_text_matching_title": {
+      "message": "텍스트 매칭"
+   },
+   "syntax_xpath_desc": {
+      "message": "//로 시작하여 HTML 구조에서 요소 위치로 타겟팅합니다."
+   },
+   "syntax_xpath_ex1_desc": {
+      "message": "클래스 \"price\"를 가진 모든 요소 선택"
+   },
+   "syntax_xpath_ex1_title": {
+      "message": "클래스별"
+   },
+   "syntax_xpath_ex2_desc": {
+      "message": "텍스트가 \"Add to Cart\"인 버튼 선택"
+   },
+   "syntax_xpath_ex2_title": {
+      "message": "텍스트로 버튼"
+   },
+   "syntax_xpath_ex3_desc": {
+      "message": "id \"availability\"인 요소 선택"
+   },
+   "syntax_xpath_ex3_title": {
+      "message": "id별"
+   },
+   "syntax_xpath_title": {
+      "message": "XPath 표현"
+   },
+   "tabs": {
+      "message": "탭"
+   },
+   "tabs_alerts": {
+      "message": "알림이 있는 탭"
+   },
+   "tabs_refreshing": {
+      "message": "활성 탭 새로고침"
+   },
+   "template_add_to_cart_button": {
+      "message": "장바구니 추가 버튼"
+   },
+   "template_add_to_cart_button_desc": {
+      "message": "test id로 장바구니 버튼 일치"
+   },
+   "template_any_stock_term": {
+      "message": "임의 재고 용어"
+   },
+   "template_any_stock_term_desc": {
+      "message": "재고 키워드 하나로 트리거"
+   },
+   "template_buy_button": {
+      "message": "구매 버튼"
+   },
+   "template_buy_button_desc": {
+      "message": "구매 또는 구매 버튼 찾기"
+   },
+   "template_email_address": {
+      "message": "이메일 주소"
+   },
+   "template_email_address_desc": {
+      "message": "이메일 주소 일치"
+   },
+   "template_expression_description": {
+      "message": "페이지 모니터링용 템플릿 표현식"
+   },
+   "template_in_stock_buyable": {
+      "message": "재고 있음 및 구매 가능"
+   },
+   "template_in_stock_buyable_desc": {
+      "message": "재고 있고 구매 가능할 때만 알림"
+   },
+   "template_in_stock_not_sold_out": {
+      "message": "재고 있음, 품절 아님"
+   },
+   "template_in_stock_not_sold_out_desc": {
+      "message": "품절 텍스트를 제외한 재고 있음"
+   },
+   "template_input_field_value": {
+      "message": "입력 필드 값"
+   },
+   "template_input_field_value_desc": {
+      "message": "검색 값이 있는 입력 찾기"
+   },
+   "template_phone_number": {
+      "message": "전화번호"
+   },
+   "template_phone_number_desc": {
+      "message": "전화 형식(123) 456-7890 일치"
+   },
+   "template_price_changes": {
+      "message": "가격 변동"
+   },
+   "template_price_changes_desc": {
+      "message": "가격 관련 키워드 모니터링"
+   },
+   "template_price_detector": {
+      "message": "가격 감지기"
+   },
+   "template_price_detector_desc": {
+      "message": "$19.99 같은 달러 가격과 일치"
+   },
+   "template_price_element": {
+      "message": "가격 요소"
+   },
+   "template_price_element_desc": {
+      "message": "가격 클래스를 가진 요소 찾기"
+   },
+   "template_price_format": {
+      "message": "가격 형식"
+   },
+   "template_price_format_desc": {
+      "message": "$19.99와 같은 가격 일치"
+   },
+   "template_product_availability": {
+      "message": "제품 가용성"
+   },
+   "template_product_availability_desc": {
+      "message": "제품 가용성 상태 모니터링"
+   },
+   "template_product_id_pattern": {
+      "message": "제품 ID 패턴"
+   },
+   "template_product_id_pattern_desc": {
+      "message": "product-123과 같은 제품 ID 일치"
+   },
+   "template_product_status": {
+      "message": "제품 상태"
+   },
+   "template_product_status_desc": {
+      "message": "신제품 또는 한정판 제품"
+   },
+   "template_restock_alert": {
+      "message": "재입고 알림"
+   },
+   "template_restock_alert_desc": {
+      "message": "상품이 돌아온 순간을 포착"
+   },
+   "template_shipping_options": {
+      "message": "배송 옵션"
+   },
+   "template_shipping_options_desc": {
+      "message": "빠른 배송 옵션 이용 가능"
+   },
+   "template_shopping_actions": {
+      "message": "쇼핑 작업"
+   },
+   "template_shopping_actions_desc": {
+      "message": "쇼핑 버튼 가용성 추적"
+   },
+   "template_stock_and_price": {
+      "message": "재고 및 가격"
+   },
+   "template_stock_and_price_desc": {
+      "message": "재고 있음 AND 판매 중인 항목"
+   },
+   "template_stock_status_element": {
+      "message": "재고 상태 요소"
+   },
+   "template_stock_status_element_desc": {
+      "message": "클래스로 요소 타겟팅"
+   },
+   "template_stock_status_text": {
+      "message": "재고 상태 텍스트"
+   },
+   "template_stock_status_text_desc": {
+      "message": "\"In Stock\"을 포함하는 텍스트 찾기"
+   },
+   "template_ticket_availability": {
+      "message": "티켓 가용성"
+   },
+   "template_ticket_availability_desc": {
+      "message": "티켓 판매 시작을 모니터링"
+   },
+   "templates": {
+      "message": "템플릿"
+   },
+   "templates_add_to_keywords": {
+      "message": "키워드에 추가"
+   },
+   "templates_ai_aria": {
+      "message": "AI 표현 생성기"
+   },
+   "templates_ai_label": {
+      "message": "AI"
+   },
+   "templates_back_to_templates": {
+      "message": "템플릿으로 돌아가기"
+   },
+   "templates_close_aria": {
+      "message": "대화 상자 닫기"
+   },
+   "templates_copy_aria": {
+      "message": "표현 %1 복사"
+   },
+   "templates_header_templates_aria": {
+      "message": "템플릿으로 돌아가기"
+   },
+   "templates_ready_made": {
+      "message": "기성 템플릿"
+   },
+   "templates_syntax_aria": {
+      "message": "구문 도움말"
+   },
+   "templates_syntax_button": {
+      "message": "구문"
+   },
+   "templates_tooltip": {
+      "message": "모니터링 템플릿 둘러보기"
+   },
+   "templates_type_css": {
+      "message": "CSS"
+   },
+   "templates_type_custom": {
+      "message": "사용자 지정"
+   },
+   "templates_type_normal": {
+      "message": "일반"
+   },
+   "templates_type_regex": {
+      "message": "Regex"
+   },
+   "templates_type_xpath": {
+      "message": "XPath"
+   },
+   "text": {
+      "message": "텍스트"
+   },
+   "thankyou_msg": {
+      "message": "소중한 피드백 감사합니다"
+   },
+   "this_is_not_valid_css_selector": {
+      "message": "유효한 CSS 선택기가 아닙니다."
+   },
+   "thnakyou_desc": {
+      "message": "피드백은 개선에 도움이 됩니다"
+   },
+   "time": {
+      "message": "시간"
+   },
+   "time_has_passed": {
+      "message": "시간이 지났습니다"
+   },
+   "time_is_invalid": {
+      "message": "선택된 시간이 유효하지 않습니다"
+   },
+   "timer": {
+      "message": "타이머"
+   },
+   "timer_position": {
+      "message": "타이머 위치"
+   },
+   "timer_position_bottom_left": {
+      "message": "왼쪽 아래"
+   },
+   "timer_position_bottom_right": {
+      "message": "오른쪽 아래"
+   },
+   "timer_position_center": {
+      "message": "가운데"
+   },
+   "timer_position_top_left": {
+      "message": "왼쪽 위"
+   },
+   "timer_position_top_right": {
+      "message": "오른쪽 위"
+   },
+   "upgrade": {
+      "message": "업그레이드"
+   },
+   "use_default": {
+      "message": "기본 키워드 사용"
+   },
+   "user_menu_account_aria": {
+      "message": "계정 메뉴"
+   },
+   "user_menu_avatar_alt": {
+      "message": "사용자 아바타"
+   },
+   "user_menu_classic_view": {
+      "message": "Classic"
+   },
+   "user_menu_classic_view_aria": {
+      "message": "Classic 보기"
+   },
+   "user_menu_command_view": {
+      "message": "Command"
+   },
+   "user_menu_command_view_aria": {
+      "message": "Command 보기"
+   },
+   "user_menu_focus_mode": {
+      "message": "포커스 모드"
+   },
+   "user_menu_focus_mode_aria": {
+      "message": "포커스 모드 전환"
+   },
+   "user_menu_focus_mode_tooltip": {
+      "message": "추가 UI 요소 숨기기"
+   },
+   "user_menu_refresh_position": {
+      "message": "상단에 버튼"
+   },
+   "user_menu_refresh_position_aria": {
+      "message": "새로고침 버튼을 상단에 표시"
+   },
+   "user_menu_refresh_position_tooltip": {
+      "message": "헤더에 새로고침 버튼 표시"
+   },
+   "user_menu_theme_dark_aria": {
+      "message": "다크 테마"
+   },
+   "user_menu_theme_light_aria": {
+      "message": "라이트 테마"
+   },
+   "user_menu_theme_system_aria": {
+      "message": "시스템 테마"
+   },
+   "user_menu_ui_cosmetics": {
+      "message": "UI 꾸미기"
+   },
+   "user_menu_view": {
+      "message": "보기"
+   },
+   "user_menu_view_aria": {
+      "message": "보기 모드 선택"
+   },
+   "view_pricing_plans": {
+      "message": "가격 책정 플랜 보기"
+   },
+   "visual_find_text": {
+      "message": "시각적(화면 텍스트)"
+   },
+   "visual_find_text_help": {
+      "message": "인간이 보는 방식대로 화면에서 표시된 텍스트를 추출합니다."
+   },
+   "visual_timer_desc": {
+      "message": "페이지에 카운트다운 표시"
+   },
+   "visual_timer_done": {
+      "message": "완료"
+   },
+   "visual_timer_help": {
+      "message": "시각적 타이머는 웹페이지에 직접 카운트다운을 표시합니다. 다음 새로고침까지의 남은 시간을 표시하며 타이머를 일시 중지, 재개 또는 재설정하는 컨트롤을 포함합니다."
+   },
+   "visual_timer_live_monitor": {
+      "message": "라이브 모니터"
+   },
+   "visual_timer_msg": {
+      "message": "시각적 타이머 표시"
+   },
+   "visual_timer_next_refresh_in": {
+      "message": "다음 새로고침까지"
+   },
+   "visual_timer_pause_aria": {
+      "message": "타이머 일시정지"
+   },
+   "visual_timer_paused": {
+      "message": "일시정지"
+   },
+   "visual_timer_restart_tooltip": {
+      "message": "카운트다운 다시 시작"
+   },
+   "visual_timer_resume_aria": {
+      "message": "타이머 시작"
+   },
+   "visual_timer_running": {
+      "message": "실행 중"
+   },
+   "visual_timer_stop_aria": {
+      "message": "타이머 중지"
+   },
+   "wait_content_load": {
+      "message": "콘텐츠 로드 대기"
+   },
+   "wait_content_load_desc": {
+      "message": "각 새로고침 후 스캔 지연"
+   },
+   "wait_content_load_help": {
+      "message": "콘텐츠가 완전히 로드될 때까지 감지 전에 대기합니다."
+   },
+   "warning_random_interval": {
+      "message": "무작위 간격이 제대로 작동하려면 최대값이 최소값보다 커야 합니다."
+   },
+   "webhook_alert_help": {
+      "message": "웹훅을 통해 변경 사항이 감지될 때 다른 애플리케이션이나 서비스에 알림을 보낼 수 있습니다."
+   },
+   "webhook_alerts_switch_desc": {
+      "message": "엔드포인트로 페이로드 전송"
+   },
+   "webhooks": {
+      "message": "웹훅"
+   },
+   "webhooks_tooltip": {
+      "message": "알림용 웹훅 설정 열기"
+   },
+   "whats_new": {
+      "message": "새로운 기능"
+   },
+   "whats_new_close_aria": {
+      "message": "새로운 기능 닫기"
+   },
+   "whats_new_latest": {
+      "message": "최신"
+   },
+   "whats_new_load_error": {
+      "message": "릴리스 노트를 불러올 수 없습니다. 나중에 다시 시도해 주세요."
+   },
+   "whats_new_subtitle": {
+      "message": "Auto Refresh Plus 릴리스 노트"
+   },
+   "whats_new_thank_you": {
+      "message": "Auto Refresh Plus를 이용해 주셔서 감사합니다"
+   },
+   "window_focus_on_detection": {
+      "message": "키워드 감지 시 창 포커스"
+   },
+   "window_focus_on_detection_desc": {
+      "message": "일치 시 탭을 앞으로 가져오기"
+   },
+   "window_focus_on_detection_help": {
+      "message": "페이지 모니터에서 키워드를 찾거나 잃을 때 창 포커스를 활성화합니다. 이 기능은 지정된 키워드가 감지되거나 손실될 때마다 창이 자동으로 화면 최전면으로 올 것을 보장합니다."
+   },
+   "without_full": {
+      "message": "XHR 새로고침"
+   },
+   "xhr_page_help": {
+      "message": "전체 페이지 새로고침 없이 URL에서 데이터를 검색합니다. 이를 통해 웹 페이지는 사용자의 작업을 방해하지 않고 페이지의 일부만 업데이트할 수 있습니다."
+   },
+   "xhr_request_autoclick": {
+      "message": "요소 자동 클릭"
+   },
+   "xhr_request_autoclick_desc": {
+      "message": "자동 클릭할 페이지 요소를 클릭하세요."
+   },
+   "xpath": {
+      "message": "XPath"
+   },
+   "xpath_expression": {
+      "message": "XPath 표현식"
+   },
+   "xpath_expression_desc": {
+      "message": "XML 경로 언어는 문서의 다양한 부분을 주소 지정하는 유연한 방식을 제공합니다. 두 개의 @@ 기호로 초기화해야 합니다."
+   },
+   "xpath_expression_example_1_desc": {
+      "message": "\"In Stock\" 텍스트를 포함하는 모든 요소를 검색합니다"
+   },
+   "xpath_expression_example_2_desc": {
+      "message": "\"Search\"를 포함하는 값 속성을 가진 입력 요소를 검색합니다"
+   },
+   "xpath_expression_example_3_desc": {
+      "message": "\"$\" 기호를 포함하는 \"price\" 클래스를 가진 div 요소를 검색합니다"
+   },
+   "your_expressions": {
+      "message": "내 표현식"
+   },
+   "your_expressions_add_new": {
+      "message": "새로 추가"
+   },
+   "your_expressions_define_placeholder": {
+      "message": "표현식 정의 (예: 재고 있음 또는 ##재고 있음 AND 장바구니에 추가)"
+   },
+   "your_expressions_delete_aria": {
+      "message": "%1 삭제"
+   },
+   "your_expressions_edit_aria": {
+      "message": "%1 편집"
+   },
+   "your_expressions_empty": {
+      "message": "저장된 표현식이 없습니다. \"새로 추가\"를 눌러 만드세요."
+   },
+   "your_expressions_name_placeholder": {
+      "message": "표현식 이름 (예: 재입고 알림)"
+   },
+   "your_expressions_yours_badge": {
+      "message": "내 것"
+   }
+}

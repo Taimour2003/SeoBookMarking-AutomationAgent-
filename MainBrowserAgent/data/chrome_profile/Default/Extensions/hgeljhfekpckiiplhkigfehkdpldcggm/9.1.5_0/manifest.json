@@ -1,0 +1,49 @@
+{
+   "action": {
+      "default_popup": "popup.html",
+      "default_title": "Auto Refresh Plus"
+   },
+   "author": "contact@autorefresh.io",
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "js": [ "content-scripts/arp.js", "content-scripts/script.js" ],
+      "matches": [ "*://*.autorefresh.io/*" ],
+      "run_at": "document_start",
+      "world": "ISOLATED"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_app_description__",
+   "externally_connectable": {
+      "matches": [ "*://*.autorefresh.io/*" ]
+   },
+   "homepage_url": "https://autorefresh.io",
+   "icons": {
+      "128": "icon/128.png",
+      "16": "icon/16.png",
+      "32": "icon/32.png",
+      "48": "icon/48.png",
+      "96": "icon/96.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxH9rM3n9Sep3CMfomHW2vaIa4a00JwlV78gN/XhBMt4nxWTk0s/7iUkob9nSEc9JWWjCEftikYDPWVUXbB5v89rBLukHc9MyCVFHksfez27Jgzu86lpSbfRazFE6J/v20J8Z2pcHX9cxCZaDbIlCNvJ65eRrFTLjIpECIQoYUdeC8z6VMaKw4mBlUK08TZAF9Bo7Qx/8zKHY6pewo43pCNHBqenRfMOiZSCV/mCm2kM2oE5KA3dH5wPv1zTEDDbYFL1N21TzagGm3lXYT35EMAUI52Byq/eLmT+/YM3XYpuS7J8MAur31nGH0nt7ReFW5pTJJbwGJVS1bWX4y57u8QIDAQAB",
+   "manifest_version": 3,
+   "name": "Auto Refresh Plus | Page Monitor",
+   "optional_host_permissions": [ "http://*/*", "https://*/*" ],
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "options.html"
+   },
+   "permissions": [ "notifications", "tabs", "storage", "unlimitedStorage", "contextMenus", "scripting", "alarms", "webRequest", "cookies", "sidePanel", "offscreen", "power" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "9.1.5",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "assets/*", "content-scripts/*", "_locales/*" ]
+   }, {
+      "matches": [ "*://*.autorefresh.io/*" ],
+      "resources": [ "content-scripts/script.css" ],
+      "use_dynamic_url": true
+   } ]
+}

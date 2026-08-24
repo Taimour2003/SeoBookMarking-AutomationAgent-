@@ -1,0 +1,232 @@
+/* ===== Design Tokens ===== */
+:root {
+  --bg-primary: #1a1b26;
+  --bg-card: #24253a;
+  --bg-card-hover: #2a2b42;
+  --text-primary: #e1e2e8;
+  --text-secondary: #9396a5;
+  --accent: #acff58;
+  --accent-hover: #c4ff8a;
+  --accent-glow: rgba(172, 255, 88, 0.15);
+  --toggle-bg: #3a3b50;
+  --toggle-active: #4CAF50;
+  --border-color: rgba(255, 255, 255, 0.06);
+  --radius: 14px;
+  --shadow: 0 4px 24px rgba(0, 0, 0, 0.25);
+}
+
+/* ===== Reset ===== */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== Page ===== */
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 48px 16px;
+}
+
+.options-page {
+  width: 100%;
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* ===== Header ===== */
+.header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0 4px 8px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.header-logo {
+  height: 28px;
+  filter: brightness(0) invert(1);
+}
+
+.version-badge {
+  font-size: 11px;
+  color: var(--accent);
+  background: var(--accent-glow);
+  padding: 2px 8px;
+  border-radius: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* ===== Cards ===== */
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius);
+  padding: 24px;
+  box-shadow: var(--shadow);
+  transition: background 0.2s ease;
+}
+
+.card:hover {
+  background: var(--bg-card-hover);
+}
+
+.card-title {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.card-subtitle {
+  font-size: 12px;
+  color: var(--text-secondary);
+  margin-bottom: 16px;
+}
+
+/* ===== Stars ===== */
+.stars-container {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+
+.star-icon {
+  filter: brightness(0) saturate(100%) invert(89%) sepia(47%) saturate(670%) hue-rotate(38deg) brightness(103%) contrast(104%);
+  transition: transform 0.2s ease;
+}
+
+.star-icon:hover {
+  transform: scale(1.25);
+}
+
+/* ===== Rate Button ===== */
+.rate-btn {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  border-radius: 8px;
+  background: var(--accent);
+  color: #1a1b26;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease, box-shadow 0.2s ease;
+}
+
+.rate-btn:hover {
+  background: var(--accent-hover);
+  box-shadow: 0 0 20px var(--accent-glow);
+}
+
+.rate-btn:active {
+  transform: scale(0.98);
+}
+
+/* ===== Setting Row ===== */
+.setting-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.setting-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.setting-label {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.setting-desc {
+  font-size: 11px;
+  color: var(--text-secondary);
+}
+
+/* ===== Toggle Switch ===== */
+.toggle-switch {
+  position: relative;
+  width: 44px;
+  height: 24px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.toggle-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  inset: 0;
+  background: var(--toggle-bg);
+  border-radius: 24px;
+  transition: background 0.3s ease;
+}
+
+.slider::before {
+  content: "";
+  position: absolute;
+  height: 18px;
+  width: 18px;
+  left: 3px;
+  top: 3px;
+  background: white;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.toggle-switch input:checked + .slider {
+  background: var(--toggle-active);
+}
+
+.toggle-switch input:checked + .slider::before {
+  transform: translateX(20px);
+}
+
+/* ===== Footer ===== */
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 11px;
+  color: var(--text-secondary);
+  padding-top: 8px;
+}
+
+.footer a {
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer a:hover {
+  color: var(--accent);
+}
+
+.footer-sep {
+  opacity: 0.4;
+}
+
+.footer-text {
+  opacity: 0.7;
+}

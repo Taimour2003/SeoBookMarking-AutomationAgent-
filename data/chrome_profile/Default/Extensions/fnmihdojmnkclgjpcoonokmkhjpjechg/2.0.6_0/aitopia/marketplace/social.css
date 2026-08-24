@@ -1,0 +1,23 @@
+/**
+ * Social UI helpers (Instagram-inspired)
+ *
+ * Scope: only pages that explicitly include `/social.css`.
+ * Keep this file small; prefer Tailwind utilities for layout.
+ */
+
+/* Consistent 44px touch targets for icon buttons. */
+.aifnmjmchg .social-tap {
+  min-width: 44px;
+  min-height: 44px;
+}
+
+/* Explore/profile grids: 1px separators without rounding. */
+.aifnmjmchg .social-grid {
+  background: hsl(var(--aifnmjmchg-m-border));
+  gap: 1px;
+}
+
+.aifnmjmchg .social-grid > * {
+  background: hsl(var(--aifnmjmchg-m-background));
+}
+

@@ -1,0 +1,5 @@
+"use strict";
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="270cf1d7-1123-50c2-8d52-d07377e97067")}catch(e){}}();
+(self.webpackChunk_loomhq_chrome_extension=self.webpackChunk_loomhq_chrome_extension||[]).push([[182],{164705:(e,l,o)=>{Object.defineProperty(l,"__esModule",{value:!0}),l.default=void 0;var t=a(o(792860)),n=a(o(828654));function a(e){return e&&e.__esModule?e:{default:e}}const r=e=>t.default.createElement(n.default,Object.assign({name:"PriorityMinorIcon",dangerouslySetGlyph:'<path fill="currentcolor" d="m13.913 11.251-5.5 3.625a.75.75 0 0 1-.826 0l-5.5-3.625.826-1.252L8 13.352l5.087-3.353zm0-4.5-5.5 3.625a.75.75 0 0 1-.826 0l-5.5-3.625.826-1.252L8 8.852l5.087-3.353zm0-4.5-5.5 3.625a.75.75 0 0 1-.826 0l-5.5-3.625.826-1.252L8 4.352 13.087.999z"/>'},e));r.displayName="PriorityMinorIcon",l.default=r}}]);
+//# sourceMappingURL=@atlaskit-internal_glyphPriorityMinor.js.map
+//# debugId=270cf1d7-1123-50c2-8d52-d07377e97067

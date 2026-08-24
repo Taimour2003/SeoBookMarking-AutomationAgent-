@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bluePopup.css">
+    <script defer src="blueContentScript.js"></script>
+    <script defer type="module" src="blueBackground.js"></script>    <script defer src="bluePopup.js"></script>
+</head>
+
+<body>
+    <button class="closeBtn" id="closeButton">
+        <img src="close.svg" alt="close"></img>
+    </button>
+    
+    <div class="help-info" id="help-info" style="display: none;">
+        <div class="help-content">
+            <h3>💡 Tip: Hide this popup</h3>
+            
+            <div class="help-section">
+                <p class="help-step"><span class="step-number">1.</span> Right-click extension icon</p>
+                <p class="help-step"><span class="step-number">2.</span> Select "Options"</p>
+                <p class="help-step"><span class="step-number">3.</span> Toggle "Disable small popup window"</p>
+            </div>
+            
+            <button class="help-close" id="help-close">Got it!</button>
+        </div>
+    </div>
+
+    <!-- URL Toggle Section -->
+    <div class="toggle-container">
+        <div class="toggle-inner">
+
+        <div class="toggle-label">Choose your AI experience:</div>
+
+        <div class="toggle-switch-container">
+            <span class="toggle-option" id="chatgpt-label">
+                ChatGPT
+                <small style="display: block; font-size: 9px; opacity: 0.7;">Standard</small>
+            </span>
+            <label class="toggle-switch">
+                <input type="checkbox" id="url-toggle">
+                <span class="toggle-slider"></span>
+            </label>
+            <span class="toggle-option" id="google-label">
+                AITOPIA 🤖
+                <small style="display: block; font-size: 9px; opacity: 0.7;">All AI Models</small>
+            </span>
+        </div>  
+    </div>
+
+    </div>
+
+
+
+
+
+
+
+
+   
+
+</body>
+
+</html>

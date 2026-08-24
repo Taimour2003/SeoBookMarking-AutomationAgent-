@@ -1,0 +1,38 @@
+{
+   "acceptButton": {
+      "message": "Nõustu"
+   },
+   "appTitle": {
+      "message": "Auto Refresh Plus"
+   },
+   "consentText": {
+      "message": "Auto Refresh Plus'i täiustamiseks kogub see laiendus külastatavate lehtede veebiaadressid (URL-id) ja lehe, kust te tulite (viitaja URL), mis on seotud juhusliku anonüümse ID-ga. Kasutame seda selleks, et mõõta, kuidas laiendust kasutatakse, ja leida lehti, kus automaatne värskendamine ei tööta. Need andmed saadetakse meie serveritesse, neid ei müüda kunagi ega jagata kunagi kolmandate osapooltega. Te võite keelduda ja siiski laiendust kasutada. Lisateavet leiate meie"
+   },
+   "declineButton": {
+      "message": "Keeldu"
+   },
+   "enterTimeText": {
+      "message": "Sisestage aeg sekundites"
+   },
+   "extensionDescription": {
+      "message": "Auto Refresh Plus värskendab ja laadib automaatselt üles mis tahes lehe või kaardi pärast määratud sekundite arvu"
+   },
+   "extensionName": {
+      "message": "Auto Refresh Plus"
+   },
+   "extensionTitle": {
+      "message": "Auto Refresh Plus"
+   },
+   "privacyPolicy": {
+      "message": "Privaatsuspoliitika"
+   },
+   "secondsText": {
+      "message": "sekundit"
+   },
+   "startButton": {
+      "message": "KÄIVITA"
+   },
+   "stopButton": {
+      "message": "PEATA"
+   }
+}

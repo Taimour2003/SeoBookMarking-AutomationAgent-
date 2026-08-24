@@ -1,0 +1,539 @@
+{
+   "about_content_1": {
+      "message": "እኔ አበልጻጊ ነኝ እና የChrome መስፋፋቶችን መፍጠር እወዳለሁ። ማህበራዊ ሚዲያ ግንኙነቶችን ለማዳበር እና ለገበያ ማስተዋወቅ ይረዳዎታል።"
+   },
+   "about_content_2": {
+      "message": "በሚከተሉት ማህበራዊ ሚዲያ መድረኮች ላይ ስለእኔ ተጨማሪ ማወቅ እና እንደገና ማግኘት ይችላሉ።"
+   },
+   "about_title": {
+      "message": "ስለ ታንብዩ"
+   },
+   "account_type_free": {
+      "message": "ነፃ"
+   },
+   "account_type_premium": {
+      "message": "ፕሪሚየም"
+   },
+   "alert_add_cookie_error": {
+      "message": "ኩኪ መጨመር አልተሳካም"
+   },
+   "alert_add_cookie_success": {
+      "message": "ኩኪ መጨመር ተሳክቷል"
+   },
+   "alert_copy_cookie_success": {
+      "message": "መገልበጥ ተሳክቷል"
+   },
+   "alert_delete_cookie_success": {
+      "message": "ኩኪውን ማስወገድ ተሳክቷል"
+   },
+   "alert_edit_cookie_success": {
+      "message": "ኩኪውን ማስተካከል ተሳክቷል"
+   },
+   "alert_import_cookie_error": {
+      "message": "ኩኪዎችን ማስገባት አልተሳካም"
+   },
+   "alert_import_cookie_success": {
+      "message": "ኩኪዎችን ማስገባት ተሳክቷል"
+   },
+   "bottom_message_upgrade": {
+      "message": "ዛሬ 1-ዓመት እቅድ ሲገዙ 25% ቅናሽ ያግኙ!"
+   },
+   "btn_add": {
+      "message": "ጨምር"
+   },
+   "btn_cancel": {
+      "message": "ሰርዝ"
+   },
+   "btn_copy": {
+      "message": "ኮፒ"
+   },
+   "btn_delete": {
+      "message": "ሰርዝ"
+   },
+   "btn_edit": {
+      "message": "አርትዕ"
+   },
+   "btn_export": {
+      "message": "ላክ"
+   },
+   "btn_import": {
+      "message": "አስገባ"
+   },
+   "btn_remove": {
+      "message": "ሁሉንም አጥፋ"
+   },
+   "btn_upgrade_month": {
+      "message": "መነሻ ከ ___price___/ወር"
+   },
+   "btn_upgrade_year": {
+      "message": "መነሻ ከ ___price___/ዓመት"
+   },
+   "button_clear_browser": {
+      "message": "የድረ-ገጽ መረጃ አጥፋ"
+   },
+   "button_loading": {
+      "message": "በመጫን ላይ ..."
+   },
+   "button_remove_all": {
+      "message": "ሁሉንም አስወግድ"
+   },
+   "button_select_all": {
+      "message": "ሁሉንም ምረጥ"
+   },
+   "button_suggest": {
+      "message": "አስተያየት ስጥ"
+   },
+   "buy_coffee_content_1": {
+      "message": "የሶፍትዌር ጥገና ብዙ ጊዜ �ስቶኛል እና ብዙ ሌሊት ሰዓቶችን ይወስዳል፣ በተለይም ከመደበኛ የቀን ስራዬ በኋላ ስሰራው።"
+   },
+   "buy_coffee_content_2": {
+      "message": "ስራዬን ከደስታችሁ እና ስሜታችሁን ለማሳየት ከፈለጋችሁ፣ የሚደግፉኝ ብዙ መንገዶች አሉ።"
+   },
+   "choice_24h": {
+      "message": "24 ሰዓት"
+   },
+   "choice_all_time": {
+      "message": "ሁሉም ጊዜ"
+   },
+   "choice_last_30days": {
+      "message": "ያለፉት 30 ቀናት"
+   },
+   "choice_last_7days": {
+      "message": "ያለፉት 7 ቀናት"
+   },
+   "clear_browser_description": {
+      "message": "ሁሉንም የድረ-ገጽ መረጃዎችን በአንድ ጠቅ ማድረግ አጥፋ።"
+   },
+   "clear_browser_option_appcache": {
+      "message": "የድረ-ገጽ መተግበሪያ ኬሶች።"
+   },
+   "clear_browser_option_cache": {
+      "message": "የድረ-ገጽ ኬስ"
+   },
+   "clear_browser_option_cacheStorage": {
+      "message": "ኬስ ማከማቻ"
+   },
+   "clear_browser_option_cookies": {
+      "message": "ኩኪዎች"
+   },
+   "clear_browser_option_downloads": {
+      "message": "የድረ-ገጽ የማውረጃ ዝርዝር"
+   },
+   "clear_browser_option_fileSystems": {
+      "message": "የድረ-ገጽ ፋይል ስርዓቶች"
+   },
+   "clear_browser_option_formData": {
+      "message": "የተቀማጭ ቅጽ መረጃ"
+   },
+   "clear_browser_option_history": {
+      "message": "የድረ-ገጽ ታሪክ"
+   },
+   "clear_browser_option_indexedDB": {
+      "message": "የድረ-ገጽ IndexedDB መረጃ"
+   },
+   "clear_browser_option_localStorage": {
+      "message": "የድረ-ገጽ አካባቢያዊ ማከማቻ መረጃ"
+   },
+   "clear_browser_option_serviceWorkers": {
+      "message": "አገልግሎት ሰራተኞች"
+   },
+   "clear_browser_option_webSQL": {
+      "message": "የድረ-ገጽ WebSQL መረጃ"
+   },
+   "clear_browser_title": {
+      "message": "የድረ-ገጽ መረጃ ማጥፋት"
+   },
+   "copy_setting_description": {
+      "message": "ኩኪዎችን �ቅቀው ሲገልብጡ ነባሪ ቅርጸት"
+   },
+   "copy_setting_title": {
+      "message": "የመገልበጥ ማስተካከያ"
+   },
+   "created_at": {
+      "message": "በተፈጠረበት ጊዜ"
+   },
+   "cta_convert_share_link": {
+      "message": "በአገናኝ እንዲሁ ካፍሉ"
+   },
+   "description_add_cookie": {
+      "message": "ኩኪውን ማክበር ይፈልጋሉ?"
+   },
+   "description_buy_me_a_coffee": {
+      "message": "ከወደዱት, እኔን ለመደገፍ አስቡ"
+   },
+   "description_clear_cookie": {
+      "message": "የዚህ ድረ-ገጽ ሁሉንም ኩኪዎች ማስወገድ ይፈልጋሉ?"
+   },
+   "description_confirm_delete_browser_data": {
+      "message": "የድረ-ገጽ መረጃ ይጠፋል እና መመለስ አይቻልም።"
+   },
+   "description_copy_cookie": {
+      "message": "ኩኪውን በየትኛው ቅርጸት ለቅቀው መገልበጥ ይፈልጋሉ?"
+   },
+   "description_delete_cookie": {
+      "message": "ኩኪውን ማስወገድ ይፈልጋሉ?"
+   },
+   "description_edit_cooke": {
+      "message": "ኩኪውን ማስተካከል ይፈልጋሉ?"
+   },
+   "description_export_cookie": {
+      "message": "ኩኪዎችን በየትኛው ቅርጸት ማስወገድ ይፈልጋሉ?"
+   },
+   "description_import_cookie": {
+      "message": "ኩኪዎችን እንዴት ማስገባት ይፈልጋሉ?"
+   },
+   "description_password": {
+      "message": "ኩኪውን ከማስወገድዎ በፊት ለመመስጠር የይለፍ ቃል ያስገቡ (አማራጭ)።"
+   },
+   "description_password_decrypt": {
+      "message": "ኩኪዎች በመመስጠር የተጠበቁ ከሆነ የመፍታት የይለፍ ቃል ያስገቡ (አማራጭ)።"
+   },
+   "description_upgrade_no_ads": {
+      "message": "ማስታወቂያ አልቀርም። አንዴ ክፍያ አድርጉ፣ ለዘላለም ደስ ይበላችሁ።"
+   },
+   "display_setting_description": {
+      "message": "ኩኪዎችን ለማየት የማሳያ ሁኔታ ማስተካከያዎች"
+   },
+   "display_setting_option_compact": {
+      "message": "አጭር ሁኔታ"
+   },
+   "display_setting_option_custom": {
+      "message": "ብጁ ሁኔታ"
+   },
+   "display_setting_option_default": {
+      "message": "ነባሪ ሁኔታ"
+   },
+   "display_setting_title": {
+      "message": "የማሳያ ማስተካከያ"
+   },
+   "email": {
+      "message": "ኢሜይል"
+   },
+   "exp_custom": {
+      "message": "ብጁ"
+   },
+   "expiration_time": {
+      "message": "የማብቃት ጊዜ"
+   },
+   "expiry_date": {
+      "message": "የማብቂያ ቀን"
+   },
+   "export_setting_description": {
+      "message": "ኩኪዎችን ሲያስወግዱ ነባሪ ቅርጸት"
+   },
+   "export_setting_title": {
+      "message": "የማስወገድ ማስተካከያ"
+   },
+   "ext_description": {
+      "message": "Simple yet powerful Cookie Editor that allow you to quickly create, edit and delete cookies without leaving your tab."
+   },
+   "ext_name": {
+      "message": "Cookie Editor"
+   },
+   "feature_suggest_description": {
+      "message": "ተጨማሪ ለማዳበር ከፈለጉ አስፈላጊ ባህሪ ያቅርቡ።"
+   },
+   "feature_suggest_title": {
+      "message": "ምን ዓይነት ባህሪ ማከል ይፈልጋሉ?"
+   },
+   "fs_email_description": {
+      "message": "ኢሜይል አድራሻዎን ያስገቡ። ጥያቄዎን ለማብራራት ከፈለግን እናግኝዎታለን። (አማራጭ)"
+   },
+   "import_setting_description": {
+      "message": "ኩኪዎችን ለማስገባት ማስተካከያዎች"
+   },
+   "import_setting_format": {
+      "message": "ነባሪ የማስገባት አማራጭ"
+   },
+   "import_setting_format_file": {
+      "message": "ፋይል ተጠቀም"
+   },
+   "import_setting_format_text": {
+      "message": "ጽሑፍ ተጠቀም"
+   },
+   "import_setting_option_reload_page": {
+      "message": "ከማስገባት በኋላ ድረ-ገጹን እንደገና ጫን"
+   },
+   "import_setting_title": {
+      "message": "የማስገባት ማስተካከያ"
+   },
+   "label_fs": {
+      "message": "የባህሪ አስተያየት"
+   },
+   "label_password_decrypt": {
+      "message": "ኩኪዎችን ለመፍታት የይለፍ ቃል"
+   },
+   "label_password_encrypt": {
+      "message": "ኩኪዎችን ለመመስጠር የይለፍ ቃል"
+   },
+   "label_select_file_import": {
+      "message": "ለማስገባት ፋይል ምረጥ"
+   },
+   "lable_link_import": {
+      "message": "ኩኪዎችን ለማስገባት አገናኝ"
+   },
+   "link_exp": {
+      "message": "የአገናኝ የማብቃት ጊዜ"
+   },
+   "link_exp_description": {
+      "message": "አገናኙን ለተወሰነ ጊዜ ማጋራት ከፈለጉ የማብቃት ጊዜ ያስገቡ። የማብቃት ጊዜ ካልፈለጉ ባዶ ይተዉት።"
+   },
+   "logout": {
+      "message": "ውጣ"
+   },
+   "message_copy_link_error": {
+      "message": "አገናኝ ማቅዳት አልተቻለም"
+   },
+   "message_copy_link_success": {
+      "message": "አገናኝ በተሳካ ሁኔታ ተቀድቷል"
+   },
+   "message_select_time_clear_browser_data": {
+      "message": "ለምን ያህል ጊዜ መረጃ ማጥፋት ይፈልጋሉ?"
+   },
+   "msg_cookie_error": {
+      "message": "የማያገለግል የኩኪ መረጃ። እባክዎ እንደገና ይግቡ።"
+   },
+   "msg_error": {
+      "message": "የስርዓት ስህተት ተከስቷል።"
+   },
+   "msg_import_error": {
+      "message": "ኩኪዎችን ማስገባት አልተሳካም።"
+   },
+   "msg_link_exp": {
+      "message": "አገናኙ ጊዜው አልፎበታል።"
+   },
+   "msg_link_not_found": {
+      "message": "ይህ አገናኝ የለም።"
+   },
+   "msg_no_cookies": {
+      "message": "ኩኪዎች የሉም።"
+   },
+   "msg_no_permission": {
+      "message": "አስፈላጊ ፈቃዶች የሉዎትም።"
+   },
+   "msg_password_empty": {
+      "message": "የይለፍ ቃሉ ባዶ ሊሆን አይችልም።"
+   },
+   "msg_password_error": {
+      "message": "የሚስጥር የይለፍ ቃሉ �ስትኳኪ ነው።"
+   },
+   "msg_password_length": {
+      "message": "የይለፍ ቃሉ ቢያንስ 8 ቁምፊዎች ሊኖሩት ይገባል።"
+   },
+   "msg_share_error": {
+      "message": "ማጋራቱ አልተሳካም።"
+   },
+   "msg_title_empty": {
+      "message": "ርዕሱ ባዶ ሊሆን አይችልም።"
+   },
+   "msg_upgrade": {
+      "message": "25% ቅናሽ ያግኙ — ከ ___price___ በኋላ ___sale___/ዓመት ብቻ ይክፈሉ"
+   },
+   "no_cookie_description": {
+      "message": "ድረ-ገጹ ምንም ኩኪዎች የሉትም።"
+   },
+   "no_support": {
+      "message": "ድጋፍ ማድረግ አልፈልግም።"
+   },
+   "owner": {
+      "message": "ባለቤት"
+   },
+   "page_import_description": {
+      "message": "እርስዎ የኩኪ አገናኝ በጋራ አገናኝ በመጠቀም የማስገባት ባህሪን እየተጠቀሙ ነው።"
+   },
+   "password_encrypt": {
+      "message": "ኩኪዎችን ለመፍታት የይለፍ ቃል"
+   },
+   "password_encrypt_description": {
+      "message": "ኩኪውን ከመጋራትዎ በፊት �መጠቅለል የይለፍ ቃል ያስገቡ። ይህ የይለፍ ቃሉ ሳይኖር እኛ እንኳን ይዘቱን ማንበብ እንደማንችል ያረጋግጣል። (ያስፈልጋል)"
+   },
+   "payment_fs": {
+      "message": "ለዚያ ባህሪ ክፍያ መፈጸም ይፈልጋሉ?"
+   },
+   "pl_fs_input": {
+      "message": "ቀጥሎ የምንዘጋጅበትን ባህሪ"
+   },
+   "pl_password": {
+      "message": "ኩኪዎችን ለመመስጠር/ለመፍታት የይለፍ ቃል"
+   },
+   "placeholder_search": {
+      "message": "የኩኪ ስም ፈልግ"
+   },
+   "public_link_cookie": {
+      "message": "ሁሉም ሰው ያጋራኸውን አገናኝ መድረስ ይችላል።"
+   },
+   "remind_login": {
+      "message": "ኩኪውን በአገናኝ ከመጋራትዎ በፊት መለያ መፍጠር አለብዎት።"
+   },
+   "remind_login_btn": {
+      "message": "አሁን ይመዝገቡ"
+   },
+   "remind_upgrade_btn": {
+      "message": "አሁን ይሻሽሉ"
+   },
+   "remind_upgrade_description": {
+      "message": "ይህ የላቀ ባህሪ �ንደ ለክፍያ የሚያደርጉ መለያዎች ብቻ ይገኛል። አሁን ለመድረስ ይሻሽሉ።"
+   },
+   "remind_upgrade_title": {
+      "message": "ይህን ባህሪ ለመጠቀም እባክዎ ይሻሽሉ።"
+   },
+   "setting_confirm_dialog": {
+      "message": "ማረጋገጫ ንግግር"
+   },
+   "setting_confirm_dialog_description": {
+      "message": "ኤክስቴንሽኑን ሲጠቀሙ ማረጋገጫ ንግግርን ማሰናጃ"
+   },
+   "setting_customize_display_cookie": {
+      "message": "ኩኪ ማሳያ አርትዕ"
+   },
+   "setting_description": {
+      "message": "ኤክስቴንሽኑ እንዴት እንደሚሰራ ማስተካከያ"
+   },
+   "setting_dialog_copy": {
+      "message": "የአሁኑን ኩኪዎች ሲወስዱ ማረጋገጫ ንግግር አሳይ"
+   },
+   "setting_dialog_delete": {
+      "message": "የአሁኑን ኩኪዎች ሲሰሩ ማረጋገጫ ንግግር አሳይ"
+   },
+   "setting_dialog_delete_all": {
+      "message": "ሁሉንም ያሉትን ኩኪዎች ሲሰሩ ማረጋገጫ ንግግር አሳይ"
+   },
+   "setting_enable_context_menus": {
+      "message": "የአይነት ምናሌ ምርጫዎች"
+   },
+   "setting_title": {
+      "message": "መቼት ቅንብሮች"
+   },
+   "share_cookie_description": {
+      "message": "ኩኪውን ማጋራት ይፈልጋሉ?"
+   },
+   "share_cookie_title": {
+      "message": "ኩኪ አጋራ"
+   },
+   "sidebar_buy_coffee": {
+      "message": "ቡና ይግዙልኝ"
+   },
+   "sidebar_buy_me_a_coffee": {
+      "message": "ካፌ ይግዙልኝ"
+   },
+   "sidebar_clear_browser": {
+      "message": "የድረ-ገጽ መረጃ አጥፋ"
+   },
+   "sidebar_export": {
+      "message": "ላክ"
+   },
+   "sidebar_feature_suggestion": {
+      "message": "የባህሪ አስተያየት"
+   },
+   "sidebar_import": {
+      "message": "አስገባ"
+   },
+   "sidebar_link": {
+      "message": "አገናኞች"
+   },
+   "sidebar_open_source": {
+      "message": "ክፍት ምንጭ"
+   },
+   "sidebar_reviews": {
+      "message": "ግምገማዎች"
+   },
+   "sidebar_setting": {
+      "message": "ማስተካከያ"
+   },
+   "sidebar_upgrade": {
+      "message": "አሻሽል"
+   },
+   "str_convert_share_link": {
+      "message": "ይህን ኩኪ ከአንድ ሰው ጋር መካፈል ትፈልጋለህ?"
+   },
+   "str_example": {
+      "message": "ምሳሌ"
+   },
+   "time_option_1h": {
+      "message": "1 ሰዓት"
+   },
+   "title": {
+      "message": "ርዕስ"
+   },
+   "title_add_cookie": {
+      "message": "ኩኪ ጨምር"
+   },
+   "title_clear_cookie": {
+      "message": "ኩኪዎችን አጥፋ"
+   },
+   "title_confirm_delete_browser_data": {
+      "message": "የድረ-ገጽ መረጃ ማጥፋት አረጋግጥ"
+   },
+   "title_copy_cookie": {
+      "message": "ኩኪውን ለቅቀው ገልብጥ"
+   },
+   "title_delete": {
+      "message": "የዚህ ድረ-ገጽ ሁሉንም ኩኪዎች ማስወገድ ይፈልጋሉ?"
+   },
+   "title_delete_cookie": {
+      "message": "ኩኪውን ሰርዝ"
+   },
+   "title_description": {
+      "message": "የኩኪ አገናኙ ለማንኛውም ድረ-ገጽ እንደሚዛመድ ለማወቅ የሚረዳ የማስታወሻ ስም። (ያስፈልጋል)"
+   },
+   "title_edit_cookie": {
+      "message": "ኩኪውን አርትዕ"
+   },
+   "title_export": {
+      "message": "ኩኪዎችን ማስወገድ ይፈልጋሉ?"
+   },
+   "title_export_cookie": {
+      "message": "ኩኪዎችን ላክ"
+   },
+   "title_import": {
+      "message": "ኩኪዎችን ማስገባት ይፈልጋሉ?"
+   },
+   "title_import_cookie": {
+      "message": "ኩኪዎችን አስገባ"
+   },
+   "title_upgrade": {
+      "message": "ቀላል የዋጋ አሰጣጥ"
+   },
+   "title_upgrade_no_ads": {
+      "message": "ማስታወቂያዎችን ያስወግዱ – አንድ ጊዜ ___price___"
+   },
+   "tooltip_top_action_share": {
+      "message": "አጋራ"
+   },
+   "type_option_exp_d": {
+      "message": "ቀናት"
+   },
+   "type_option_exp_h": {
+      "message": "ሰዓታት"
+   },
+   "type_option_exp_m": {
+      "message": "ወራት"
+   },
+   "type_option_exp_y": {
+      "message": "ዓመታት"
+   },
+   "unlimited": {
+      "message": "ያልተገደበ"
+   },
+   "upgrade_description": {
+      "message": "ቀላል፣ ግልጽ የዋጋ አሰጣጥ ያለምንም ገደብ የደንበኞች። እቅዶችን መቀየር ወይም በማንኛውም ጊዜ ማቆም ይችላሉ።"
+   },
+   "upgrade_fs_1": {
+      "message": "ኩኪ አስተዳደር"
+   },
+   "upgrade_fs_2": {
+      "message": "ምስጢር እና መፍታት"
+   },
+   "upgrade_fs_3": {
+      "message": "ኩኪዎችን አጋራ"
+   },
+   "upgrade_fs_4": {
+      "message": "ማስታወቂያ የለም"
+   },
+   "upgrade_fs_5": {
+      "message": "ድጋፍ"
+   },
+   "website": {
+      "message": "ድረ-ገጽ"
+   }
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Leaf: Simple Notes</title>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="perfect-scrollbar/css/perfect-scrollbar.css">
+    <link rel="stylesheet" href="popup_style.css">
+</head>
+
+
+
+<body style="min-height:300px;min-width:700px">
+    <span class="glyphicon glyphicon-remove" id="exitBtn"></span>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-5 instruction-header">
+                <!--
+                <button type="button" class="btn btn-default" style="height:25px;"><span class="glyphicon glyphicon-pencil" style="position:relative; top: -2px;"></span> <span style="position:relative; top: -4px;">Create a new Note</span>
+                </button>
+-->
+                <span class="glyphicon glyphicon-pencil" style="position:relative; top: 4px;"></span> <span style="position:relative; top: 2px;">Create a new Note</span>
+
+            </div>
+            <div class="col-xs-7 instruction-header">
+                <div class="btn-group">
+                    <input type="text" id="searchBar" placeholder="Search" title="Search Notes" class="form-control" style="float: none; outline:none; width:250px">
+                    <span id="searchclear" class="glyphicon glyphicon-remove"></span>
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </div>
+    <div class="container trans-background" style="margin-top: 5px;">
+        <div class="row trans-background">
+
+
+            <div class="col-xs-5" style="padding-right:5px;">
+                <div id="add-thought-section">
+                    <div class="input-group" style="width:100%;">
+                        <input class="form-control" type="text" placeholder="Ex. Todays tasks, Unicorn Idea, etc." id="thought-text" autofocus>
+                    </div>
+
+
+                    <div class="input-group input-group-sm" style="width:100%;">
+                        <textarea class="form-control" type="text" id="thought-details"></textarea>
+                    </div>
+                    <button type="button" id="export-btn" class="btn btn-success">Export data</button>
+
+                    <button type="button" id="store-thought-btn" class="btn btn-default"><span class="glyphicon glyphicon-check"></span>&#32;Add Note</button>
+                </div>
+                <div>
+                    <div id="migrate-notification" class="alert alert-success" role="alert">
+                                                <div>
+                            <p>
+                                Try  <u><a href="https://chromewebstore.google.com/detail/boost-task-management-mad/jeoeplaeienbiolajhbpjojcjpjljode" target="_blank">Boost: Task Management</a></u> for free! (promo code: 'LEAFPROMO')
+                                
+                            </p>
+                        </div>
+                    </div>
+
+                    <div id="jobspider-notification" class="alert alert-info" role="alert">
+                        <p>
+                            Looking for a job? Try <u><a href="https://chromewebstore.google.com/detail/jobspider-your-personaliz/cgjpamaaclegaphnojponljpncgdgobl?authuser=2&hl=en" target="_blank">JobSpider: AI Powered Job Search</a></u>
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+            <div class="col-xs-7" style="padding-left:5px;padding-right:0px;">
+                <div id="browse-thoughts" data-simplebar>
+                    <ul id="browse-thoughts-list"></ul>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <p style="position: absolute; bottom: -12px; right: 5px; font-size: 10px;">Version 1.3.5</p>
+
+
+
+
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="perfect-scrollbar/js/perfect-scrollbar.js"></script>
+    <script src="autosize-master/dist/autosize.js"></script>
+    <script src="Sortable-master/Sortable.min.js"></script>
+    <script src="popup.js"></script>
+</body>
+
+</html>

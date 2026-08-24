@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Volume di ricerca keyword, CPC e insight sulle ricerche. Disponibile per Google, YouTube e Amazon. Strumento SEO di Neil Patel."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Ubersuggest - analisi SEO e ricerca keyword"
+   }
+}

@@ -1,0 +1,539 @@
+{
+   "about_content_1": {
+      "message": "Jestem deweloperem i lubię tworzyć rozszerzenia do Chrome. Pomagam w rozwoju i promocji komunikacji w mediach społecznościowych."
+   },
+   "about_content_2": {
+      "message": "Dowiedz się więcej o mnie i skontaktuj się z pomocą poniższych platform społecznościowych."
+   },
+   "about_title": {
+      "message": "O ThanhBui"
+   },
+   "account_type_free": {
+      "message": "Darmowe"
+   },
+   "account_type_premium": {
+      "message": "Premium"
+   },
+   "alert_add_cookie_error": {
+      "message": "Błąd podczas dodawania ciasteczka"
+   },
+   "alert_add_cookie_success": {
+      "message": "Pomyślnie dodano ciasteczko"
+   },
+   "alert_copy_cookie_success": {
+      "message": "Kopiowanie zakończone sukcesem"
+   },
+   "alert_delete_cookie_success": {
+      "message": "Pomyślnie usunięto ciasteczko"
+   },
+   "alert_edit_cookie_success": {
+      "message": "Pomyślnie edytowano ciasteczko"
+   },
+   "alert_import_cookie_error": {
+      "message": "Błąd podczas importowania ciasteczek"
+   },
+   "alert_import_cookie_success": {
+      "message": "Pomyślnie zaimportowano ciasteczka"
+   },
+   "bottom_message_upgrade": {
+      "message": "Skorzystaj z 25 % rabatu, aktualizując plan roczny już dziś!"
+   },
+   "btn_add": {
+      "message": "Dodaj"
+   },
+   "btn_cancel": {
+      "message": "Anuluj"
+   },
+   "btn_copy": {
+      "message": "Kopiuj"
+   },
+   "btn_delete": {
+      "message": "Usuń"
+   },
+   "btn_edit": {
+      "message": "Edytuj"
+   },
+   "btn_export": {
+      "message": "Eksportuj"
+   },
+   "btn_import": {
+      "message": "Importuj"
+   },
+   "btn_remove": {
+      "message": "Wyczyść wszystko"
+   },
+   "btn_upgrade_month": {
+      "message": "Od ___price___/miesiąc"
+   },
+   "btn_upgrade_year": {
+      "message": "Od ___price___/rok"
+   },
+   "button_clear_browser": {
+      "message": "Wyczyść dane"
+   },
+   "button_loading": {
+      "message": "Ładowanie..."
+   },
+   "button_remove_all": {
+      "message": "Usuń wszystko"
+   },
+   "button_select_all": {
+      "message": "Zaznacz wszystko"
+   },
+   "button_suggest": {
+      "message": "Wyślij sugestię"
+   },
+   "buy_coffee_content_1": {
+      "message": "Utrzymanie oprogramowania wymaga dużo czasu i wielu bezsennych nocy, zwłaszcza gdy pracuję nad tym po godzinach."
+   },
+   "buy_coffee_content_2": {
+      "message": "Jeśli cenisz moją pracę i chcesz mnie wesprzeć, masz kilka opcji."
+   },
+   "choice_24h": {
+      "message": "Ostatnie 24 godziny"
+   },
+   "choice_all_time": {
+      "message": "Cały czas"
+   },
+   "choice_last_30days": {
+      "message": "Ostatnie 30 dni"
+   },
+   "choice_last_7days": {
+      "message": "Ostatnie 7 dni"
+   },
+   "clear_browser_description": {
+      "message": "Usuń wszystkie dane przeglądania jednym kliknięciem."
+   },
+   "clear_browser_option_appcache": {
+      "message": "Pamięć podręczna aplikacji (appcache)"
+   },
+   "clear_browser_option_cache": {
+      "message": "Pamięć podręczna przeglądarki"
+   },
+   "clear_browser_option_cacheStorage": {
+      "message": "Cache Storage"
+   },
+   "clear_browser_option_cookies": {
+      "message": "Ciasteczka"
+   },
+   "clear_browser_option_downloads": {
+      "message": "Lista pobrań"
+   },
+   "clear_browser_option_fileSystems": {
+      "message": "Systemy plików witryn"
+   },
+   "clear_browser_option_formData": {
+      "message": "Zapisane dane formularzy"
+   },
+   "clear_browser_option_history": {
+      "message": "Historia przeglądania"
+   },
+   "clear_browser_option_indexedDB": {
+      "message": "Dane IndexedDB witryn"
+   },
+   "clear_browser_option_localStorage": {
+      "message": "Dane localStorage witryn"
+   },
+   "clear_browser_option_serviceWorkers": {
+      "message": "Service Workers"
+   },
+   "clear_browser_option_webSQL": {
+      "message": "Dane WebSQL witryn"
+   },
+   "clear_browser_title": {
+      "message": "WYCZYŚĆ DANE PRZEGLĄDARKI"
+   },
+   "copy_setting_description": {
+      "message": "Domyślny format podczas kopiowania ciasteczek"
+   },
+   "copy_setting_title": {
+      "message": "USTAWIENIA KOPIOWANIA"
+   },
+   "created_at": {
+      "message": "Utworzono"
+   },
+   "cta_convert_share_link": {
+      "message": "Udostępnij zamiast tego przez link"
+   },
+   "description_add_cookie": {
+      "message": "Czy chcesz dodać ciasteczko?"
+   },
+   "description_buy_me_a_coffee": {
+      "message": "Jeśli ci się podoba, rozważ wsparcie mnie"
+   },
+   "description_clear_cookie": {
+      "message": "Czy chcesz usunąć wszystkie ciasteczka tej witryny?"
+   },
+   "description_confirm_delete_browser_data": {
+      "message": "Dane przeglądarki zostaną usunięte i nie będzie można ich odzyskać."
+   },
+   "description_copy_cookie": {
+      "message": "W jakim formacie chcesz skopiować ciasteczko?"
+   },
+   "description_delete_cookie": {
+      "message": "Czy chcesz usunąć ciasteczko?"
+   },
+   "description_edit_cooke": {
+      "message": "Czy chcesz edytować ciasteczko?"
+   },
+   "description_export_cookie": {
+      "message": "W jakim formacie chcesz wyeksportować ciasteczko?"
+   },
+   "description_import_cookie": {
+      "message": "Jak chcesz zaimportować ciasteczka?"
+   },
+   "description_password": {
+      "message": "Wprowadź hasło, jeśli chcesz zaszyfrować ciasteczko przed eksportem (opcjonalnie)."
+   },
+   "description_password_decrypt": {
+      "message": "Wprowadź hasło odszyfrowujące, jeśli ciasteczka są chronione szyfrowaniem (opcjonalnie)."
+   },
+   "description_upgrade_no_ads": {
+      "message": "Nigdy więcej reklam. Zapłać raz, ciesz się na zawsze."
+   },
+   "display_setting_description": {
+      "message": "Ustawienia trybu wyświetlania ciasteczek"
+   },
+   "display_setting_option_compact": {
+      "message": "Tryb kompaktowy"
+   },
+   "display_setting_option_custom": {
+      "message": "Tryb niestandardowy"
+   },
+   "display_setting_option_default": {
+      "message": "Tryb domyślny"
+   },
+   "display_setting_title": {
+      "message": "USTAWIENIA WYŚWIETLANIA"
+   },
+   "email": {
+      "message": "E‑mail"
+   },
+   "exp_custom": {
+      "message": "Niestandardowy"
+   },
+   "expiration_time": {
+      "message": "Czas wygaśnięcia"
+   },
+   "expiry_date": {
+      "message": "Data wygaśnięcia"
+   },
+   "export_setting_description": {
+      "message": "Domyślny format podczas eksportowania ciasteczek"
+   },
+   "export_setting_title": {
+      "message": "USTAWIENIA EKSPORTU"
+   },
+   "ext_description": {
+      "message": "Prosty, ale potężny edytor ciasteczek, który pozwala szybko tworzyć, edytować i usuwać ciasteczka bez opuszczania karty."
+   },
+   "ext_name": {
+      "message": "Edytor Ciasteczek"
+   },
+   "feature_suggest_description": {
+      "message": "Podaj przydatną funkcję, którą chciałbyś, abyśmy rozwijali dalej."
+   },
+   "feature_suggest_title": {
+      "message": "Jaką funkcję chciałbyś, żebyśmy dodali?"
+   },
+   "fs_email_description": {
+      "message": "Podaj swój e‑mail. Możemy skontaktować się w celu wyjaśnienia. (opcjonalnie)"
+   },
+   "import_setting_description": {
+      "message": "Opcje ustawień importu ciasteczek"
+   },
+   "import_setting_format": {
+      "message": "Domyślna opcja importu"
+   },
+   "import_setting_format_file": {
+      "message": "Użyj pliku"
+   },
+   "import_setting_format_text": {
+      "message": "Użyj tekstu"
+   },
+   "import_setting_option_reload_page": {
+      "message": "Przeładuj stronę po imporcie"
+   },
+   "import_setting_title": {
+      "message": "USTAWIENIA IMPORTU"
+   },
+   "label_fs": {
+      "message": " Sugestia funkcji"
+   },
+   "label_password_decrypt": {
+      "message": "Hasło do odszyfrowania ciasteczek"
+   },
+   "label_password_encrypt": {
+      "message": "Hasło do szyfrowania ciasteczek"
+   },
+   "label_select_file_import": {
+      "message": "Wybierz plik do zaimportowania"
+   },
+   "lable_link_import": {
+      "message": "Link do importowania ciasteczek"
+   },
+   "link_exp": {
+      "message": "Link wygasa"
+   },
+   "link_exp_description": {
+      "message": "Podaj datę wygaśnięcia, jeśli chcesz, aby link był dostępny tylko przez określony czas. Zostaw puste, aby nie wygasał."
+   },
+   "logout": {
+      "message": "Wyloguj się"
+   },
+   "message_copy_link_error": {
+      "message": "Nie udało się skopiować linku"
+   },
+   "message_copy_link_success": {
+      "message": "Link został skopiowany pomyślnie"
+   },
+   "message_select_time_clear_browser_data": {
+      "message": "Z jakiego okresu chcesz usunąć dane?"
+   },
+   "msg_cookie_error": {
+      "message": "Nieprawidłowe dane cookie. Zaloguj się ponownie."
+   },
+   "msg_error": {
+      "message": "Wystąpił błąd systemowy."
+   },
+   "msg_import_error": {
+      "message": "Nie udało się zaimportować ciasteczek."
+   },
+   "msg_link_exp": {
+      "message": "Link wygasł."
+   },
+   "msg_link_not_found": {
+      "message": "Ten link nie istnieje."
+   },
+   "msg_no_cookies": {
+      "message": "Brak ciasteczek."
+   },
+   "msg_no_permission": {
+      "message": "Nie masz wymaganych uprawnień."
+   },
+   "msg_password_empty": {
+      "message": "Hasło nie może być puste."
+   },
+   "msg_password_error": {
+      "message": "Nieprawidłowe hasło."
+   },
+   "msg_password_length": {
+      "message": "Hasło musi mieć co najmniej 8 znaków."
+   },
+   "msg_share_error": {
+      "message": "Udostępnianie nie powiodło się."
+   },
+   "msg_title_empty": {
+      "message": "Tytuł nie może być pusty."
+   },
+   "msg_upgrade": {
+      "message": "Otrzymaj 25% zniżki — zapłać tylko ___sale___/rok zamiast ___price___"
+   },
+   "no_cookie_description": {
+      "message": "Witryna nie ma ciasteczek."
+   },
+   "no_support": {
+      "message": "Nie chcę wspierać."
+   },
+   "owner": {
+      "message": "Właściciel"
+   },
+   "page_import_description": {
+      "message": "Używasz funkcji importu cookie przez udostępniony link."
+   },
+   "password_encrypt": {
+      "message": "Hasło do odszyfrowania cookie"
+   },
+   "password_encrypt_description": {
+      "message": "Wprowadź hasło do zaszyfrowania cookie przed udostępnieniem. Nawet my nie możemy odczytać zawartości bez hasła. (Wymagane)"
+   },
+   "payment_fs": {
+      "message": "Czy zapłaciłbyś za tę funkcję?"
+   },
+   "pl_fs_input": {
+      "message": "Funkcja, którą chcesz zobaczyć"
+   },
+   "pl_password": {
+      "message": "Hasło do szyfrowania/odszyfrowywania ciasteczek"
+   },
+   "placeholder_search": {
+      "message": "Wyszukaj nazwę ciasteczka"
+   },
+   "public_link_cookie": {
+      "message": "Każdy może uzyskać dostęp do udostępnionego linku."
+   },
+   "remind_login": {
+      "message": "Musisz mieć konto, zanim udostępnisz cookie przez link."
+   },
+   "remind_login_btn": {
+      "message": "Zarejestruj się teraz"
+   },
+   "remind_upgrade_btn": {
+      "message": "Uaktualnij teraz"
+   },
+   "remind_upgrade_description": {
+      "message": "Ta zaawansowana funkcja jest dostępna tylko dla kont płatnych. Zyskaj dostęp, uaktualniając teraz."
+   },
+   "remind_upgrade_title": {
+      "message": "Zaktualizuj, aby użyć tej funkcji."
+   },
+   "setting_confirm_dialog": {
+      "message": "OKNO POTWIERDZENIA"
+   },
+   "setting_confirm_dialog_description": {
+      "message": "Wyświetlaj okno potwierdzenia przy użyciu rozszerzenia"
+   },
+   "setting_customize_display_cookie": {
+      "message": "Dostosuj wyświetlanie ciasteczek"
+   },
+   "setting_description": {
+      "message": "Dostosuj działanie rozszerzenia do swoich potrzeb"
+   },
+   "setting_dialog_copy": {
+      "message": "Wyświetl okno potwierdzenia przy kopiowaniu obecnych ciasteczek"
+   },
+   "setting_dialog_delete": {
+      "message": "Wyświetl okno potwierdzenia przy usuwaniu obecnych ciasteczek"
+   },
+   "setting_dialog_delete_all": {
+      "message": "Wyświetl okno potwierdzenia przy usuwaniu wszystkich obecnych ciasteczek"
+   },
+   "setting_enable_context_menus": {
+      "message": "Opcje menu kontekstowego"
+   },
+   "setting_title": {
+      "message": "USTAWIENIA PODSTAWOWE"
+   },
+   "share_cookie_description": {
+      "message": "Czy chcesz udostępnić to cookie?"
+   },
+   "share_cookie_title": {
+      "message": "UDOSTĘPNIJ COOKIE"
+   },
+   "sidebar_buy_coffee": {
+      "message": "Postaw mi kawę"
+   },
+   "sidebar_buy_me_a_coffee": {
+      "message": "Kup mi kawę"
+   },
+   "sidebar_clear_browser": {
+      "message": "Wyczyść dane przeglądarki"
+   },
+   "sidebar_export": {
+      "message": "Eksportuj"
+   },
+   "sidebar_feature_suggestion": {
+      "message": "Sugestia funkcji"
+   },
+   "sidebar_import": {
+      "message": "Importuj"
+   },
+   "sidebar_link": {
+      "message": "Linki"
+   },
+   "sidebar_open_source": {
+      "message": "Open Source"
+   },
+   "sidebar_reviews": {
+      "message": "Recenzje"
+   },
+   "sidebar_setting": {
+      "message": "Ustawienia"
+   },
+   "sidebar_upgrade": {
+      "message": "Uaktualnij"
+   },
+   "str_convert_share_link": {
+      "message": "Chcesz udostępnić to ciasteczko komuś?"
+   },
+   "str_example": {
+      "message": "Przykład"
+   },
+   "time_option_1h": {
+      "message": "1 godzina"
+   },
+   "title": {
+      "message": "Tytuł"
+   },
+   "title_add_cookie": {
+      "message": "DODAJ CIASTECZKO"
+   },
+   "title_clear_cookie": {
+      "message": "WYCZYŚĆ CIASTECZKA"
+   },
+   "title_confirm_delete_browser_data": {
+      "message": "POTWIERDŹ USUNIĘCIE DANYCH"
+   },
+   "title_copy_cookie": {
+      "message": "KOPIUJ CIASTECZKO"
+   },
+   "title_delete": {
+      "message": "Czy chcesz usunąć wszystkie ciasteczka tej witryny?"
+   },
+   "title_delete_cookie": {
+      "message": "USUŃ CIASTECZKO"
+   },
+   "title_description": {
+      "message": "Zapadająca w pamięć nazwa pomagająca zidentyfikować, której stronie dotyczy ten link cookie. (Wymagane)"
+   },
+   "title_edit_cookie": {
+      "message": "EDYTUJ CIASTECZKO"
+   },
+   "title_export": {
+      "message": "Czy próbujesz wyeksportować ciasteczka?"
+   },
+   "title_export_cookie": {
+      "message": "EKSPORTUJ CIASTECZKO"
+   },
+   "title_import": {
+      "message": "Czy próbujesz zaimportować ciasteczka?"
+   },
+   "title_import_cookie": {
+      "message": "IMPORTUJ CIASTECZKA"
+   },
+   "title_upgrade": {
+      "message": "Proste ceny"
+   },
+   "title_upgrade_no_ads": {
+      "message": "Usuń reklamy – Jednorazowo ___price___"
+   },
+   "tooltip_top_action_share": {
+      "message": "Udostępnij"
+   },
+   "type_option_exp_d": {
+      "message": "Dni"
+   },
+   "type_option_exp_h": {
+      "message": "Godziny"
+   },
+   "type_option_exp_m": {
+      "message": "Miesiące"
+   },
+   "type_option_exp_y": {
+      "message": "Lata"
+   },
+   "unlimited": {
+      "message": "Nieograniczony"
+   },
+   "upgrade_description": {
+      "message": "Proste, transparentne ceny z nieograniczoną liczbą subskrybentów. Zmień plan lub anuluj w dowolnym momencie."
+   },
+   "upgrade_fs_1": {
+      "message": "Zarządzanie cookie"
+   },
+   "upgrade_fs_2": {
+      "message": "Szyfrowanie i odszyfrowanie"
+   },
+   "upgrade_fs_3": {
+      "message": " Udostępnij cookie"
+   },
+   "upgrade_fs_4": {
+      "message": " Brak reklam"
+   },
+   "upgrade_fs_5": {
+      "message": " Wsparcie"
+   },
+   "website": {
+      "message": "Strona internetowa"
+   }
+}

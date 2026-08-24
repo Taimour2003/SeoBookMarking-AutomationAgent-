@@ -1,0 +1,38 @@
+{
+   "acceptButton": {
+      "message": "Accepteren"
+   },
+   "appTitle": {
+      "message": "Auto Refresh Plus"
+   },
+   "consentText": {
+      "message": "Om Auto Refresh Plus te verbeteren, verzamelt deze extensie de webadressen (URL's) van de pagina's die u bezoekt en de pagina waar u vandaan kwam (referrer-URL), gekoppeld aan een willekeurige anonieme ID. We gebruiken dit om te meten hoe de extensie wordt gebruikt en om pagina's te vinden waar automatisch vernieuwen niet werkt. Deze gegevens worden naar onze servers verzonden, worden nooit verkocht en worden nooit gedeeld met derden. U kunt weigeren en de extensie toch blijven gebruiken. U kunt meer lezen in ons"
+   },
+   "declineButton": {
+      "message": "Weigeren"
+   },
+   "enterTimeText": {
+      "message": "Voer tijd in seconden in"
+   },
+   "extensionDescription": {
+      "message": "Auto Refresh Plus vernieuwt en herlaadt automatisch elke pagina of tabblad na een opgegeven aantal seconden"
+   },
+   "extensionName": {
+      "message": "Auto Refresh Plus"
+   },
+   "extensionTitle": {
+      "message": "Auto Refresh Plus"
+   },
+   "privacyPolicy": {
+      "message": "Privacybeleid"
+   },
+   "secondsText": {
+      "message": "seconden"
+   },
+   "startButton": {
+      "message": "STARTEN"
+   },
+   "stopButton": {
+      "message": "STOPPEN"
+   }
+}

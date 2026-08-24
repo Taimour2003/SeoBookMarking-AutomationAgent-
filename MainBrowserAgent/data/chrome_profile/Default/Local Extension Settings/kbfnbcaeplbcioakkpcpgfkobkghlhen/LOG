@@ -1,0 +1,10 @@
+2026/08/24-14:28:07.444 680 Reusing MANIFEST D:\ComputerXperts\WebAgent\newSolution\MainBrowserAgent\data\chrome_profile\Default\Local Extension Settings\kbfnbcaeplbcioakkpcpgfkobkghlhen/MANIFEST-000001
+2026/08/24-14:28:07.445 680 Recovering log #28
+2026/08/24-14:28:07.457 680 Reusing old log D:\ComputerXperts\WebAgent\newSolution\MainBrowserAgent\data\chrome_profile\Default\Local Extension Settings\kbfnbcaeplbcioakkpcpgfkobkghlhen/000028.log 
+2026/08/24-20:16:26.233 680 Level-0 table #33: started
+2026/08/24-20:16:26.245 680 Level-0 table #33: 645245 bytes OK
+2026/08/24-20:16:26.246 680 Delete type=0 #28
+2026/08/24-20:21:06.477 680 Compacting 1@1 + 1@2 files
+2026/08/24-20:21:06.480 680 Generated table #34@1: 32 keys, 40668 bytes
+2026/08/24-20:21:06.480 680 Compacted 1@1 + 1@2 files => 40668 bytes
+2026/08/24-20:21:06.481 680 compacted to: files[ 0 0 1 0 0 0 0 ]

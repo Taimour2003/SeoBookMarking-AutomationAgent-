@@ -1,0 +1,38 @@
+{
+   "acceptButton": {
+      "message": "قبول"
+   },
+   "appTitle": {
+      "message": "Auto Refresh Plus"
+   },
+   "consentText": {
+      "message": "لتحسين Auto Refresh Plus، تجمع هذه الإضافة عناوين الويب (URLs) للصفحات التي تزورها والصفحة التي أتيت منها (عنوان URL المُحيل)، مرتبطةً بمعرّف عشوائي مجهول الهوية. نستخدم هذا لقياس كيفية استخدام الإضافة ولاكتشاف الصفحات التي لا يعمل فيها التحديث التلقائي. تُرسَل هذه البيانات إلى خوادمنا، ولا تُباع أبداً، ولا تُشارَك أبداً مع أطراف ثالثة. يمكنك الرفض ومواصلة استخدام الإضافة. يمكنك معرفة المزيد في"
+   },
+   "declineButton": {
+      "message": "رفض"
+   },
+   "enterTimeText": {
+      "message": "أدخل الوقت بالثواني"
+   },
+   "extensionDescription": {
+      "message": "Auto Refresh Plus يقوم بتحديث وإعادة تحميل أي صفحة أو علامة تبويب تلقائياً بعد عدد محدد من الثواني"
+   },
+   "extensionName": {
+      "message": "Auto Refresh Plus"
+   },
+   "extensionTitle": {
+      "message": "Auto Refresh Plus"
+   },
+   "privacyPolicy": {
+      "message": "سياسة الخصوصية"
+   },
+   "secondsText": {
+      "message": "ثانية"
+   },
+   "startButton": {
+      "message": "بدء"
+   },
+   "stopButton": {
+      "message": "إيقاف"
+   }
+}

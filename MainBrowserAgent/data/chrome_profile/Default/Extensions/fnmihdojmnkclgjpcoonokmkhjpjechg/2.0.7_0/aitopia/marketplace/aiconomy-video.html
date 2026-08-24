@@ -1,0 +1,880 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<script src="/aitopia/marketplace/js/extension-config.js"></script>
+  <script src="/aitopia/marketplace/js/shared/pre-auth.js"></script>
+
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Smart Sidebar (AITOPIA)</title>
+    <script src="/aitopia/marketplace/agenticai/gate.js"></script>
+    <style>
+      :root {
+        --white: #ffffff;
+        --gray-50: #f9fafb;
+        --gray-100: #f3f4f6;
+        --gray-200: #e5e7eb;
+        --gray-300: #d1d5db;
+        --gray-400: #9ca3af;
+        --gray-500: #6b7280;
+        --gray-600: #4b5563;
+        --gray-700: #374151;
+        --gray-800: #1f2937;
+        --gray-900: #111827;
+        --purple-50: #f5f3ff;
+        --purple-100: #ede9fe;
+        --purple-200: #ddd6fe;
+        --purple-300: #c4b5fd;
+        --purple-400: #a78bfa;
+        --purple-500: #8b5cf6;
+        --purple-600: #7c3aed;
+        --purple-700: #6d28d9;
+        --purple-800: #5b21b6;
+        --radius-lg: 16px;
+        --radius-md: 12px;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji",
+          "Segoe UI Emoji";
+        background: linear-gradient(180deg, var(--gray-50) 0%, #ffffff 50%, var(--purple-50) 100%);
+        color: var(--gray-900);
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 1.25rem;
+      }
+
+      .topbar {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        background: rgba(255, 255, 255, 0.78);
+        backdrop-filter: blur(12px);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+      }
+
+      .topbar-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        padding: 0.9rem 0;
+      }
+
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        font-weight: 900;
+        letter-spacing: -0.02em;
+      }
+
+      .brand-badge {
+        width: 36px;
+        height: 36px;
+        border-radius: 12px;
+        display: grid;
+        place-items: center;
+        background: linear-gradient(135deg, var(--purple-600) 0%, var(--purple-800) 100%);
+        color: white;
+        font-weight: 900;
+      }
+
+      .nav {
+        display: flex;
+        gap: 1rem;
+        color: var(--gray-600);
+        font-weight: 800;
+        font-size: 0.9rem;
+      }
+
+      .nav a {
+        padding: 0.5rem 0.75rem;
+        border-radius: 999px;
+        border: 1px solid transparent;
+      }
+
+      .nav a:hover {
+        border-color: var(--purple-200);
+        background: var(--purple-50);
+        color: var(--purple-700);
+      }
+
+      .hero {
+        padding: 2.5rem 0 1.25rem;
+      }
+
+      .hero-title {
+        font-size: clamp(1.9rem, 2.6vw, 2.6rem);
+        font-weight: 950;
+        letter-spacing: -0.03em;
+        margin: 0;
+      }
+
+      .hero-sub {
+        margin-top: 0.6rem;
+        color: var(--gray-600);
+        font-size: 1.05rem;
+        font-weight: 600;
+        line-height: 1.5;
+      }
+
+      .pill-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-top: 1rem;
+      }
+
+      .pill {
+        border: 1px solid var(--gray-200);
+        background: var(--white);
+        border-radius: 999px;
+        padding: 0.45rem 0.75rem;
+        font-size: 0.85rem;
+        font-weight: 800;
+        color: var(--gray-700);
+      }
+
+      .pill.purple {
+        border-color: var(--purple-200);
+        background: var(--purple-50);
+        color: var(--purple-700);
+      }
+
+      .section {
+        padding: 1.25rem 0 2.25rem;
+      }
+
+      .section-header {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 1rem;
+        flex-wrap: wrap;
+        margin-bottom: 0.9rem;
+      }
+
+      .section-title {
+        font-size: 1.25rem;
+        font-weight: 950;
+        letter-spacing: -0.02em;
+        margin: 0;
+      }
+
+      .badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        padding: 0.25rem 0.6rem;
+        border-radius: 999px;
+        border: 1px solid var(--gray-200);
+        background: var(--gray-50);
+        color: var(--gray-700);
+        font-weight: 900;
+        font-size: 0.75rem;
+      }
+
+      .card {
+        background: var(--white);
+        border: 1px solid var(--gray-200);
+        border-radius: var(--radius-lg);
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+      }
+
+      .card-header {
+        padding: 1rem 1.25rem;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        flex-wrap: wrap;
+      }
+
+      .card-title {
+        font-weight: 950;
+        letter-spacing: -0.01em;
+      }
+
+      .card-body {
+        padding: 1.25rem;
+      }
+
+      .grid-2 {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1rem;
+      }
+
+      .grid-3 {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 1rem;
+      }
+
+      .muted {
+        color: var(--gray-600);
+      }
+
+      .callout {
+        background: var(--gray-50);
+        border: 1px solid var(--gray-200);
+        border-radius: var(--radius-md);
+        padding: 1rem 1.1rem;
+        color: var(--gray-700);
+        font-weight: 600;
+        line-height: 1.5;
+      }
+
+      .mode-tabs {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+      }
+
+      .tab {
+        appearance: none;
+        border: 1px solid var(--gray-200);
+        background: var(--white);
+        border-radius: 999px;
+        padding: 0.55rem 0.85rem;
+        font-weight: 900;
+        color: var(--gray-700);
+        cursor: pointer;
+      }
+
+      .tab[aria-selected="true"] {
+        background: var(--purple-600);
+        border-color: var(--purple-600);
+        color: white;
+      }
+
+      .controls {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 0.75rem;
+      }
+
+      .control {
+        border: 1px solid var(--gray-200);
+        border-radius: var(--radius-md);
+        padding: 0.8rem 0.9rem;
+        background: var(--white);
+      }
+
+      .control label {
+        display: block;
+        font-size: 0.75rem;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: var(--gray-500);
+        font-weight: 900;
+        margin-bottom: 0.35rem;
+      }
+
+      .control input,
+      .control select {
+        width: 100%;
+        padding: 0.6rem 0.7rem;
+        border-radius: 10px;
+        border: 1px solid var(--gray-200);
+        font-size: 0.95rem;
+        font-weight: 800;
+        color: var(--gray-900);
+        background: var(--white);
+      }
+
+      .control small {
+        display: block;
+        margin-top: 0.35rem;
+        color: var(--gray-500);
+        font-weight: 700;
+        font-size: 0.8rem;
+      }
+
+      .kpi-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 0.75rem;
+      }
+
+      .kpi {
+        border: 1px solid var(--gray-200);
+        border-radius: var(--radius-md);
+        padding: 0.9rem 1rem;
+        background: var(--white);
+      }
+
+      .kpi-value {
+        font-size: 1.55rem;
+        font-weight: 950;
+        letter-spacing: -0.02em;
+      }
+
+      .kpi-value.purple {
+        color: var(--purple-700);
+      }
+
+      .kpi-label {
+        margin-top: 0.25rem;
+        font-size: 0.75rem;
+        font-weight: 900;
+        color: var(--gray-500);
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+
+      .kpi-sub {
+        margin-top: 0.35rem;
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        font-size: 0.85rem;
+        font-weight: 800;
+        color: var(--gray-600);
+      }
+
+      .waterfall {
+        overflow-x: auto;
+        padding-bottom: 0.25rem;
+      }
+
+      .waterfall-track {
+        min-width: 860px;
+        display: flex;
+        gap: 0.75rem;
+      }
+
+      .seg {
+        flex: 1 1 0;
+        min-width: 180px;
+        border-radius: var(--radius-md);
+        border: 1px solid var(--gray-200);
+        padding: 0.9rem 1rem;
+        background: var(--white);
+        position: relative;
+        overflow: hidden;
+      }
+
+      .seg::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        height: 4px;
+      }
+
+      .seg.content {
+        background: linear-gradient(135deg, var(--purple-50) 0%, var(--purple-100) 100%);
+      }
+
+      .seg.tool {
+        background: linear-gradient(135deg, #ecfeff 0%, #cffafe 100%);
+      }
+
+      .seg.platform {
+        background: var(--gray-50);
+      }
+
+      .seg.growth {
+        background: var(--gray-50);
+      }
+
+      .seg.content::before {
+        background: linear-gradient(90deg, var(--purple-500) 0%, var(--purple-700) 100%);
+      }
+
+      .seg.tool::before {
+        background: linear-gradient(90deg, #06b6d4 0%, #0ea5e9 100%);
+      }
+
+      .seg.platform::before {
+        background: var(--gray-400);
+      }
+
+      .seg.growth::before {
+        background: var(--gray-300);
+      }
+
+      .seg-top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.75rem;
+      }
+
+      .seg-label {
+        font-weight: 950;
+        color: var(--gray-900);
+      }
+
+      .seg-pct {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        font-weight: 950;
+        color: var(--gray-700);
+      }
+
+      .seg-values {
+        margin-top: 0.55rem;
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        font-weight: 900;
+        color: var(--gray-700);
+        font-size: 0.9rem;
+      }
+
+      .table-wrap {
+        overflow-x: auto;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      th {
+        text-align: left;
+        padding: 0.8rem 1rem;
+        font-size: 0.75rem;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: var(--gray-500);
+        font-weight: 900;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+        background: var(--gray-50);
+      }
+
+      td {
+        padding: 0.8rem 1rem;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+        font-weight: 700;
+        color: var(--gray-800);
+      }
+
+      .td-muted {
+        color: var(--gray-600);
+        font-weight: 700;
+      }
+
+      .td-purple {
+        color: var(--purple-700);
+        font-weight: 900;
+      }
+
+      .level-pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.35rem;
+        border-radius: 999px;
+        padding: 0.25rem 0.55rem;
+        font-weight: 950;
+        font-size: 0.75rem;
+        border: 1px solid var(--gray-200);
+        background: var(--white);
+      }
+
+      .level-pill.l0 {
+        border-color: var(--purple-200);
+        background: var(--purple-50);
+        color: var(--purple-700);
+      }
+
+      .level-pill.l1 {
+        border-color: var(--purple-200);
+        background: var(--purple-50);
+        color: var(--purple-700);
+        opacity: 0.9;
+      }
+
+      .level-pill.l2,
+      .level-pill.l3,
+      .level-pill.l4 {
+        color: var(--gray-700);
+        background: var(--gray-50);
+      }
+
+      .scenario-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 1rem;
+      }
+
+      .scenario {
+        border: 1px solid var(--gray-200);
+        border-radius: var(--radius-lg);
+        padding: 1rem;
+        background: var(--white);
+        cursor: pointer;
+        transition: border-color 0.15s ease, box-shadow 0.15s ease;
+      }
+
+      .scenario:hover {
+        border-color: var(--purple-300);
+        box-shadow: 0 6px 16px rgba(124, 58, 237, 0.08);
+      }
+
+      .scenario-title {
+        font-weight: 950;
+        letter-spacing: -0.01em;
+      }
+
+      .scenario-desc {
+        margin-top: 0.35rem;
+        color: var(--gray-600);
+        font-weight: 650;
+        line-height: 1.45;
+        font-size: 0.93rem;
+      }
+
+      .scenario-tags {
+        margin-top: 0.7rem;
+        display: flex;
+        gap: 0.4rem;
+        flex-wrap: wrap;
+      }
+
+      .tag {
+        font-size: 0.72rem;
+        font-weight: 900;
+        border-radius: 999px;
+        padding: 0.2rem 0.5rem;
+        border: 1px solid var(--gray-200);
+        background: var(--gray-50);
+        color: var(--gray-700);
+      }
+
+      .tag.purple {
+        border-color: var(--purple-200);
+        background: var(--purple-50);
+        color: var(--purple-700);
+      }
+
+      .chart-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1rem;
+      }
+
+      .chart-wrap {
+        height: 220px;
+      }
+
+      .footer {
+        padding: 2.25rem 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.06);
+        color: var(--gray-600);
+      }
+
+      @media (max-width: 1024px) {
+        .grid-2,
+        .chart-grid {
+          grid-template-columns: 1fr;
+        }
+        .controls {
+          grid-template-columns: 1fr;
+        }
+        .kpi-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        .scenario-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body class="aifnmjmchg aifnmjmchg-marketplace">
+    <div class="topbar">
+      <div class="container">
+        <div class="topbar-inner">
+          <div class="brand">
+            <div class="brand-badge">A</div>
+            <div>AITOPIA — AIconomy</div>
+          </div>
+          <nav class="nav">
+            <a href="#playground">Playground</a>
+            <a href="#rules">Rules</a>
+            <a href="#scenarios">Scenarios</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <main class="container">
+      <section class="hero">
+        <h1 class="hero-title">Video + Provenance Royalties (Visual Simulator)</h1>
+        <div class="hero-sub">
+          A YouTube-like viewing layer for <strong>AI-generated-only</strong> content where both <strong>publishers</strong> and
+          <strong>tool/agent creators</strong> earn — plus <strong>5-level remix ancestry</strong> without farming.
+        </div>
+        <div class="pill-row">
+          <span class="pill purple">Spend vs Earn credits</span>
+          <span class="pill purple">Net-based splits (after costs)</span>
+          <span class="pill">Open embeds (payouts require domain registration)</span>
+          <span class="pill">Cash-out tiers (anti-fraud)</span>
+        </div>
+      </section>
+
+      <section class="section" id="playground">
+        <div class="section-header">
+          <h2 class="section-title">Scenario Playground</h2>
+          <span class="badge">interactive • no backend</span>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <span class="card-title">Choose a revenue event</span>
+            <span class="badge" id="modeBadge">—</span>
+          </div>
+          <div class="card-body">
+            <div class="mode-tabs" role="tablist" aria-label="Revenue event modes">
+              <button class="tab" type="button" role="tab" aria-selected="true" data-mode="ads">Views (Ads)</button>
+              <button class="tab" type="button" role="tab" aria-selected="false" data-mode="premium">
+                Premium Pool (Ad-free)
+              </button>
+              <button class="tab" type="button" role="tab" aria-selected="false" data-mode="generation">
+                Generation Run (Compute + Fee)
+              </button>
+            </div>
+
+            <div style="margin-top: 1rem" class="grid-2">
+              <div class="card" style="border-radius: var(--radius-md)">
+                <div class="card-header">
+                  <span class="card-title">Inputs</span>
+                  <span class="badge">edit → see payouts</span>
+                </div>
+                <div class="card-body">
+                  <div class="controls">
+                    <div class="control">
+                      <label for="usdPerCredit">USD per Earn Credit</label>
+                      <input id="usdPerCredit" type="number" step="0.001" value="0.02" />
+                      <small>Earn credits minting rate (not purchase price)</small>
+                    </div>
+                    <div class="control">
+                      <label for="cashoutTier">Cash-out tier</label>
+                      <select id="cashoutTier"></select>
+                      <small>Earn credits → cash with hold discount</small>
+                    </div>
+                    <div class="control">
+                      <label for="preset">Preset</label>
+                      <select id="preset"></select>
+                      <small>Updates splits & defaults</small>
+                    </div>
+                  </div>
+
+                  <div id="modeControls" style="margin-top: 0.75rem"></div>
+                </div>
+              </div>
+
+              <div class="card" style="border-radius: var(--radius-md)">
+                <div class="card-header">
+                  <span class="card-title">Key Outputs</span>
+                  <span class="badge">spend vs earn</span>
+                </div>
+                <div class="card-body">
+                  <div class="kpi-grid">
+                    <div class="kpi">
+                      <div class="kpi-value purple" id="kpiNetCredits">—</div>
+                      <div class="kpi-label">Earn Credits Minted</div>
+                      <div class="kpi-sub" id="kpiNetUsd">—</div>
+                    </div>
+                    <div class="kpi">
+                      <div class="kpi-value" id="kpiContentCredits">—</div>
+                      <div class="kpi-label">Content Pool</div>
+                      <div class="kpi-sub" id="kpiContentUsd">—</div>
+                    </div>
+                    <div class="kpi">
+                      <div class="kpi-value" id="kpiToolCredits">—</div>
+                      <div class="kpi-label">Tool Pool</div>
+                      <div class="kpi-sub" id="kpiToolUsd">—</div>
+                    </div>
+                    <div class="kpi">
+                      <div class="kpi-value" id="kpiCashUsd">—</div>
+                      <div class="kpi-label">Cash-out Value</div>
+                      <div class="kpi-sub" id="kpiCashNote">—</div>
+                    </div>
+                  </div>
+
+                  <div style="margin-top: 0.9rem" class="callout" id="kpiCallout">—</div>
+                </div>
+              </div>
+            </div>
+
+            <div style="margin-top: 1rem" class="grid-2">
+              <div class="card" style="border-radius: var(--radius-md)">
+                <div class="card-header">
+                  <span class="card-title">Net Split (One-row Waterfall)</span>
+                  <span class="badge">content / tool / growth / platform</span>
+                </div>
+                <div class="card-body">
+                  <div class="callout" id="netCalcLine">—</div>
+                  <div style="margin-top: 0.85rem" class="waterfall">
+                    <div class="waterfall-track">
+                      <div class="seg content" id="segContent">
+                        <div class="seg-top">
+                          <span class="seg-label">Content</span>
+                          <span class="seg-pct" id="segContentPct">—%</span>
+                        </div>
+                        <div class="seg-values" id="segContentVal">—</div>
+                      </div>
+                      <div class="seg tool" id="segTool">
+                        <div class="seg-top">
+                          <span class="seg-label">Tool</span>
+                          <span class="seg-pct" id="segToolPct">—%</span>
+                        </div>
+                        <div class="seg-values" id="segToolVal">—</div>
+                      </div>
+                      <div class="seg growth" id="segGrowth">
+                        <div class="seg-top">
+                          <span class="seg-label">Growth</span>
+                          <span class="seg-pct" id="segGrowthPct">—%</span>
+                        </div>
+                        <div class="seg-values" id="segGrowthVal">—</div>
+                      </div>
+                      <div class="seg platform" id="segPlatform">
+                        <div class="seg-top">
+                          <span class="seg-label">Platform</span>
+                          <span class="seg-pct" id="segPlatformPct">—%</span>
+                        </div>
+                        <div class="seg-values" id="segPlatformVal">—</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="margin-top: 0.85rem" class="muted" id="waterfallNote">—</div>
+                </div>
+              </div>
+
+              <div class="card" style="border-radius: var(--radius-md)">
+                <div class="card-header">
+                  <span class="card-title">Lineage Payouts (5 levels)</span>
+                  <span class="badge">50% decay</span>
+                </div>
+                <div class="card-body">
+                  <div class="table-wrap">
+                    <table>
+                      <thead>
+                        <tr>
+                          <th>Pool</th>
+                          <th>Level</th>
+                          <th>Recipient</th>
+                          <th>Credits</th>
+                        </tr>
+                      </thead>
+                      <tbody id="payoutRows"></tbody>
+                    </table>
+                  </div>
+                  <div style="margin-top: 0.85rem" class="muted" id="payoutNote">—</div>
+                </div>
+              </div>
+            </div>
+
+            <div style="margin-top: 1rem" class="chart-grid">
+              <div class="card" style="border-radius: var(--radius-md)">
+                <div class="card-header">
+                  <span class="card-title">Split (Credits)</span>
+                  <span class="badge" id="chartSplitCaption">—</span>
+                </div>
+                <div class="card-body">
+                  <div class="chart-wrap">
+                    <canvas id="chartSplit"></canvas>
+                  </div>
+                </div>
+              </div>
+              <div class="card" style="border-radius: var(--radius-md)">
+                <div class="card-header">
+                  <span class="card-title">Ancestry (Content vs Tool)</span>
+                  <span class="badge">L0 → L4</span>
+                </div>
+                <div class="card-body">
+                  <div class="chart-wrap">
+                    <canvas id="chartLevels"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="rules">
+        <div class="section-header">
+          <h2 class="section-title">Core Rules (Anti-fraud)</h2>
+          <span class="badge">why this works</span>
+        </div>
+
+        <div class="grid-3">
+          <div class="card">
+            <div class="card-header">
+              <span class="card-title">Spend vs Earn</span>
+              <span class="badge">mandatory</span>
+            </div>
+            <div class="card-body">
+              <div class="callout">
+                <strong>Spend credits</strong> run generation and unlock ad-free viewing (not cashable).<br /><br />
+                <strong>Earn credits</strong> are minted from ads/premium/remix events and can be cashed out with holds.
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <span class="card-title">Net-based splits</span>
+              <span class="badge">after costs</span>
+            </div>
+            <div class="card-body">
+              <div class="callout">
+                Payouts are calculated on <strong>net value</strong> (ad fees + CDN + reserves removed). This prevents negative margins and
+                keeps the platform sustainable.
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <span class="card-title">Embeds</span>
+              <span class="badge">viral + safe</span>
+            </div>
+            <div class="card-body">
+              <div class="callout">
+                Embeds can be <strong>open for playback</strong>, but payouts require <strong>registered/verified domains</strong>. Unknown domains get
+                views, but <strong>no earnings</strong>.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="scenarios">
+        <div class="section-header">
+          <h2 class="section-title">Preset Library</h2>
+          <span class="badge">click to load</span>
+        </div>
+
+        <div class="scenario-grid" id="scenarioCards"></div>
+      </section>
+
+      <footer class="footer">
+        <div class="muted">
+          New visual page: <strong>/aiconomy-video.html</strong> • Client-only simulator • No backend changes
+        </div>
+      </footer>
+    </main>
+
+    <script src="/aitopia/marketplace/js/vendor/chart.umd.min.js"></script>
+    <script type="module" src="/aitopia/marketplace/js/aiconomy/aiconomy-video.js"></script>
+  <script src="/aitopia/marketplace/js/inline/aiconomy-video-inline-1.js"></script>
+</body>
+</html>
+

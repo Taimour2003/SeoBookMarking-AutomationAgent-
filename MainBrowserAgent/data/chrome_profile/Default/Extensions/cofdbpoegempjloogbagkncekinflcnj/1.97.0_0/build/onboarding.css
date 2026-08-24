@@ -1,0 +1,1989 @@
+.dl-steps-navigation-wrapper.svelte-zulkya.svelte-zulkya{position:fixed;left:0px;right:0px;background-color:#f5f7f8}.dl-steps-navigation.svelte-zulkya.svelte-zulkya{display:flex;flex-direction:row;align-items:center;max-width:580px;margin:0 auto}.dl-steps-navigation.svelte-zulkya .back-button.svelte-zulkya,.dl-steps-navigation.svelte-zulkya .next-button.svelte-zulkya{width:fit-content;min-width:70px}.dl-steps-navigation.svelte-zulkya .dl-navigation.svelte-zulkya{flex-grow:1;text-align:center}.dl-steps-navigation.svelte-zulkya .dl-navigation li.svelte-zulkya{display:inline-block;height:10px;width:10px;margin-inline-start:8px;margin-inline-end:8px}.dl-steps-navigation.svelte-zulkya .dl-navigation li a.svelte-zulkya,.dl-steps-navigation.svelte-zulkya .dl-navigation li span.svelte-zulkya{display:block;height:10px;width:10px;background-color:#dae1e8;border-radius:50%}.dl-steps-navigation.svelte-zulkya .dl-navigation li.active a.svelte-zulkya,.dl-steps-navigation.svelte-zulkya .dl-navigation li.active span.svelte-zulkya{background-color:#0f2b46}.dl-btn.svelte-zulkya.svelte-zulkya{text-align:center;cursor:pointer;border-radius:4px;padding:8px 16px;line-height:1em}.dl-btn-primary.svelte-zulkya.svelte-zulkya{border:0 none;background:#0f2b46;color:White;font-weight:400;transition:background-color 0.1s ease-in-out}.dl-btn-primary.svelte-zulkya.svelte-zulkya:hover{background:#006494}.dl-btn-ghost.svelte-zulkya.svelte-zulkya{border:1px solid #0f2b46;color:#0f2b46;font-weight:400;transition:border-color 0.1s ease-in-out}.dl-btn-ghost.svelte-zulkya.svelte-zulkya:hover{border-color:#006494}
+img.svelte-1rkiqjb{width:24px;height:24px}.dl-logo-with-text.svelte-1rkiqjb{width:24px;height:24px;background-image:url(../images/deepl-logo.svg);background-position:center;background-repeat:no-repeat;cursor:pointer;background-size:cover}.dl-logo.svelte-1rkiqjb{width:24px;height:24px;background-image:url(../images/deepl-logo-no-text.svg);background-position:center;background-repeat:no-repeat;cursor:pointer;background-size:cover}.dl-logo.disabled.svelte-1rkiqjb{background-image:url(../images/deepl-logo-no-text-disabled.svg)}button.dl-logo-with-text.svelte-1rkiqjb,button.dl-logo.svelte-1rkiqjb{border:none;background-color:transparent;padding:0px}
+:host{font-family:system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"}button{font-size:14px;color:#292c32}body{font-size:14px;color:#292c32;background-color:#f5f7f8}*{padding:0;margin:0}a{text-decoration:none;color:#006494}.dl-pin.svelte-pqoc0y.svelte-pqoc0y{position:absolute;inset-inline-end:80px;width:234px;padding-top:64px;background-image:url("../images/graphics/onboarding/pin-extension.svg");background-position:right top;background-repeat:no-repeat}.dl-logo-container.svelte-pqoc0y.svelte-pqoc0y{height:45px;width:122px;position:absolute;top:35px;inset-inline-start:150px}.dl-logo-container.isFirefox.svelte-pqoc0y.svelte-pqoc0y{display:flex;align-items:center;width:auto}.dl-container.svelte-pqoc0y.svelte-pqoc0y{margin:0 auto;max-width:580px;padding-top:38px;font-size:16px}@media(max-width: 1625px){.dl-container.svelte-pqoc0y.svelte-pqoc0y{position:initial;width:100%;padding-top:100px}}.dl-container.wideMode.svelte-pqoc0y.svelte-pqoc0y{max-width:985px}@media(max-width: 1400px){.dl-container.wideMode.svelte-pqoc0y.svelte-pqoc0y{max-width:700px}}.dl-container.svelte-pqoc0y .dl-content.svelte-pqoc0y{height:500px}@media(max-width: 1400px){.dl-container.svelte-pqoc0y .dl-content.svelte-pqoc0y{padding:8px}}[dir=rtl].dl-pin.svelte-pqoc0y.svelte-pqoc0y{background-position:left top}
+.dl-apps-container.svelte-4mkkcy.svelte-4mkkcy{display:flex;flex-direction:row;color:#242b34;padding-top:42px}.dl-apps-bottom-row.svelte-4mkkcy.svelte-4mkkcy{background-color:white;height:fit-content;display:flex;border:1px solid #dae1e8;box-shadow:0px 2px 8px rgba(0, 0, 0, 0.1);border-radius:8px;cursor:pointer;transition:all 0.3s ease-in-out}.dl-apps-bottom-row.svelte-4mkkcy.svelte-4mkkcy:hover{border-color:#449ac4;box-shadow:none}.dl-apps-description.svelte-4mkkcy.svelte-4mkkcy{width:50%;word-wrap:break-word;text-align:start}@media(max-width: 1400px){.dl-apps-description.svelte-4mkkcy.svelte-4mkkcy{width:35%;margin-inline-end:5%}}.dl-apps-description.svelte-4mkkcy .title.svelte-4mkkcy{font-size:40px;font-weight:600;margin-bottom:20px}@media(max-width: 1400px){.dl-apps-description.svelte-4mkkcy .title.svelte-4mkkcy{font-size:24px}}.dl-apps-description.svelte-4mkkcy p.svelte-4mkkcy{font-size:20px;font-weight:400}@media(max-width: 1400px){.dl-apps-description.svelte-4mkkcy p.svelte-4mkkcy{font-size:14px}}.dl-apps-description.svelte-4mkkcy p.first.svelte-4mkkcy{margin-bottom:20px}.dl-apps-tiles.svelte-4mkkcy.svelte-4mkkcy{width:50%;display:flex;flex-direction:column}@media(max-width: 1400px){.dl-apps-tiles.svelte-4mkkcy.svelte-4mkkcy{width:60%}}.dl-apps-tiles.svelte-4mkkcy .img-container.svelte-4mkkcy{padding:8px;width:50%;display:flex;align-items:center}.dl-apps-tiles.svelte-4mkkcy .img-container img.svelte-4mkkcy{width:100%;height:fit-content}@media(max-width: 1400px){.dl-apps-tiles.svelte-4mkkcy .img-container.svelte-4mkkcy{width:60%}}.dl-apps-tiles.svelte-4mkkcy .content.svelte-4mkkcy{width:50%;padding:14px;display:flex;flex-direction:column;justify-content:space-between}@media(max-width: 1400px){.dl-apps-tiles.svelte-4mkkcy .content.svelte-4mkkcy{width:40%}}.dl-apps-tiles.svelte-4mkkcy .content .content-title.svelte-4mkkcy{font-size:16px;font-weight:600;text-align:start;align-self:flex-start;margin-bottom:8px}.dl-apps-tiles.svelte-4mkkcy .content p.svelte-4mkkcy{text-align:start;font-size:12px;margin-bottom:8px;align-self:flex-start}.dl-apps-tiles.svelte-4mkkcy .content .cta.svelte-4mkkcy{font-size:12px;font-weight:590;letter-spacing:0em;text-align:end;color:#0177a9;margin-top:auto}.dl-apps-tiles.svelte-4mkkcy .all-integrations.svelte-4mkkcy{background-color:#f5f7f8;text-align:end;padding-top:10px;color:#0177a9;cursor:pointer}.dl-apps-top-row.svelte-4mkkcy.svelte-4mkkcy{display:flex;flex-direction:row;justify-content:space-between;gap:8px}.dl-app.svelte-4mkkcy.svelte-4mkkcy{background-color:white;border:1px solid #dae1e8;box-shadow:0px 2px 8px rgba(0, 0, 0, 0.1);border-radius:8px;font-size:12px;height:160px;width:100%;box-sizing:border-box;text-align:center;margin-bottom:5px;color:#727a83;cursor:pointer;transition:all 0.3s ease-in-out;background-size:auto;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:4px}@media(max-width: 1400px){.dl-app.svelte-4mkkcy.svelte-4mkkcy{height:130px}}.dl-app.svelte-4mkkcy.svelte-4mkkcy:hover{border-color:#449ac4;box-shadow:none}.dl-app.svelte-4mkkcy .dl-app-cta.svelte-4mkkcy{font-size:14px;font-weight:590;text-align:center;color:#0177a9}.dl-app.svelte-4mkkcy .dl-app-image.svelte-4mkkcy{height:78px;width:100%;margin-bottom:12px}.dl-app.svelte-4mkkcy .dl-app-image img.svelte-4mkkcy{height:100%;width:auto}@media(max-width: 1400px){.dl-app.svelte-4mkkcy .dl-app-image.svelte-4mkkcy{height:40px;width:40px;margin-bottom:8px}}
+.dl-deepl-pro.svelte-lgp0fx.svelte-lgp0fx{box-sizing:border-box;border:1px solid #dae1e8;border-radius:4px;padding:40px 24px 32px 24px;max-width:248px;margin:0 auto;font-size:12px}.btn-deepl-pro.svelte-lgp0fx.svelte-lgp0fx{background:none;background-color:#f46f52;width:100%;font-size:16px;line-height:16px;text-align:center;color:white;border:0 none;border-radius:4px;margin-bottom:24px;padding:12px 0;cursor:pointer;transition:background-color 0.3s ease-in-out}.btn-deepl-pro.svelte-lgp0fx.svelte-lgp0fx:hover{background-color:#da5e5c}.cta-legend.svelte-lgp0fx.svelte-lgp0fx{margin-bottom:32px;color:#037171;line-height:16px}.deepl-pro-benefits.svelte-lgp0fx.svelte-lgp0fx{border-top:1px solid #dae1e8;padding-top:24px;text-align:start;line-height:18px}.deepl-pro-benefits.svelte-lgp0fx p.svelte-lgp0fx{margin-bottom:9px}.deepl-pro-benefits.svelte-lgp0fx ul li.svelte-lgp0fx{display:flex;margin-bottom:6px}.deepl-pro-benefits.svelte-lgp0fx ul li .check-icon.svelte-lgp0fx{background-image:url("../images/checkmark.svg");background-position:center;background-repeat:no-repeat;background-size:80%;width:16px;margin-inline-end:12px}.deepl-pro-benefits.svelte-lgp0fx .read-more.svelte-lgp0fx{border:0 none;margin-inline-start:28px;background:none;font-size:12px;line-height:18px;color:#449ac4;text-decoration:underline;text-align:start;cursor:pointer}.deepl-pro-benefits.svelte-lgp0fx .read-more.svelte-lgp0fx:hover{color:#05668d}
+.dl-step.svelte-komuik.svelte-komuik{text-align:center}.dl-step.svelte-komuik .dl-step-title.svelte-komuik{font-size:32px;font-weight:600;line-height:48px;margin-bottom:16px}.dl-step.svelte-komuik .dl-step-title .badge.svelte-komuik{font-size:16px;background-color:#037171;border-radius:4px;color:white;padding:4px 8px;line-height:48px;margin-top:-10px;vertical-align:middle}.dl-step.svelte-komuik .dl-step-description-wrapper.svelte-komuik{margin-bottom:32px}.dl-step.svelte-komuik .dl-step-description.svelte-komuik{line-height:24px}.dl-step.svelte-komuik .dl-step-illustration.svelte-komuik{background-position:center top;background-repeat:no-repeat;width:100%;height:370px}.dl-step.svelte-komuik .dl-step-illustration.dl-step-illustration-1.svelte-komuik{background-image:url("../images/graphics/onboarding/step-1.svg")}.dl-step.svelte-komuik .dl-step-illustration.dl-step-illustration-2.svelte-komuik{background-image:url("../images/graphics/onboarding/step-2.svg")}.dl-step.svelte-komuik .dl-step-illustration.dl-step-illustration-3.svelte-komuik{background-image:url("../images/graphics/onboarding/step-3.svg")}.dl-step.svelte-komuik .dl-step-illustration.dl-step-illustration-5.svelte-komuik{background-image:url("../images/graphics/onboarding/step-5.svg")}
+.container.svelte-1dicgbw{cursor:pointer}
+.container.svelte-1dicgbw{cursor:pointer}
+.container.svelte-1dicgbw{cursor:pointer}
+.container.svelte-1dicgbw{cursor:pointer}
+.dl-account-created.svelte-nuwktw{font-size:14px;margin-left:-16px;padding-left:32px;background-image:url("../images/checkmark.svg");background-position:left 5px;background-repeat:no-repeat}
+.dl-account-created.svelte-nuwktw{font-size:14px;margin-left:-16px;padding-left:32px;background-image:url("../images/checkmark.svg");background-position:left 5px;background-repeat:no-repeat}
+.main-text.svelte-18of7gm{font-weight:700}
+.dl-ads-for-addins.svelte-rs2k84{font-size:14px;margin-left:-16px;padding-left:50px;background-image:url("../images/deepl-logo-white.svg");background-position:left 5px;background-repeat:no-repeat;line-height:20px;color:#ffffff}.dl-ads-for-addins_headline.svelte-rs2k84{font-size:14px;font-weight:700;text-align:left;padding-bottom:4px}.dl-ads-for-addins_wrapper.svelte-rs2k84{display:flex;justify-content:flex-end}.dl-ads-for-addins_button.svelte-rs2k84{padding:5px 16px 7px 16px;border-radius:4px;border:1px solid #dbe0e5;background-color:#ffffff;cursor:pointer;width:fit-content;color:#242b34;margin-top:24px}
+.container.svelte-6i0lgn.svelte-6i0lgn{padding:16px 32px;width:350px;background-color:#ffffff;border:1px solid #dde3e9;box-sizing:border-box;box-shadow:0px 4px 16px rgba(0, 0, 0, 0.12);border-radius:4px}.container.green_theme.svelte-6i0lgn.svelte-6i0lgn{background-color:#b8dbd3}.container.ads_theme.svelte-6i0lgn.svelte-6i0lgn{background-color:#0f2b46;width:450px;border-radius:6px;border:1px solid #0f2b46}.container.success.svelte-6i0lgn.svelte-6i0lgn{color:#008563;background-color:#b8dbd3;width:300px;cursor:default}.container.warning_theme.svelte-6i0lgn.svelte-6i0lgn{color:#622700;background-color:#fff9ee;border:1px solid #ffe9bc;padding-left:16px}.container.svelte-6i0lgn .header .dl-close-icon.svelte-6i0lgn{border:0 none;background-color:transparent;cursor:pointer;height:24px;width:24px;border-radius:12px;background-repeat:no-repeat;background-position:center;transition:background-color 0.3s ease-in-out;background-image:url("../images/buttons/close.svg")}.container.svelte-6i0lgn .header .dl-close-icon.svelte-6i0lgn:hover{background-color:#f2f4f7}.container.svelte-6i0lgn .header .dl-close-icon.svelte-6i0lgn{position:absolute;top:5px;inset-inline-end:5px}.container.svelte-6i0lgn .header .dl-close-icon.green_theme.svelte-6i0lgn:hover{background-color:#a8c6bf}.container.svelte-6i0lgn .body.svelte-6i0lgn{line-height:20px;font-size:12px;font-style:normal;font-weight:400;color:#292c32}.container.svelte-6i0lgn .body.green_theme.svelte-6i0lgn{color:#006c51}.container.svelte-6i0lgn .body.warning_theme.svelte-6i0lgn{color:#622700;display:flex;gap:12px}
+.notification-container.svelte-c0mafs{position:fixed;right:200px;top:10px;display:flex;z-index:1999999999}
+/* stylelint-disable ecss/align-display, ecss/flex-prop, ecss/component-dimensions, ecss/class-combined-prefix, plugin/file-max-lines -- Responsive utilities compose onto the .Spacer--flex class which is the flex container, while the base .Spacer is block-level so flex is opt-in via flex props. ECSS cannot see the composition across selectors. width/height/max-width fall back to `auto`/`none` until a prop is set, so sizing is opt-in via props. Two parallel sets of breakpoint rules are declared — viewport media queries for the default `scope='page'` and `@container component` queries for `scope='component'`. The latter compounds two `Spacer--*` classes on the same element (e.g. `.Spacer--scope-component.Spacer--direction-md-row`) which trips `ecss/class-combined-prefix` — both classes are Spacer block modifiers, and the compound is the intended way to gate the breakpoint utility on the chosen scope. See Container.css for the query-host primitive that pairs with the latter. */
+
+/* Spacer — token-aware layout primitive. Vars are isolated per-instance via @property so that a child Spacer never silently inherits its parent's responsive overrides. */
+
+@property --spacer-p {
+  syntax: '*';
+  inherits: false;
+  initial-value: 0;
+}
+/* No `initial-value` on the axis vars: `var()` is invalid in `@property`
+ * initial-value, so they default to `--spacer-p` via the fallback chain on
+ * the padding declarations below instead. */
+@property --spacer-pi {
+  syntax: '*';
+  inherits: false;
+}
+@property --spacer-pb {
+  syntax: '*';
+  inherits: false;
+}
+@property --spacer-gap {
+  syntax: '*';
+  inherits: false;
+  initial-value: 0;
+}
+
+@property --spacer-w {
+  syntax: '*';
+  inherits: false;
+}
+@property --spacer-maxw {
+  syntax: '*';
+  inherits: false;
+}
+@property --spacer-h {
+  syntax: '*';
+  inherits: false;
+}
+
+@property --spacer-p-xs {
+  syntax: '*';
+  inherits: false;
+}
+@property --spacer-p-sm {
+  syntax: '*';
+  inherits: false;
+}
+@property --spacer-p-md {
+  syntax: '*';
+  inherits: false;
+}
+@property --spacer-p-lg {
+  syntax: '*';
+  inherits: false;
+}
+@property --spacer-p-xl {
+  syntax: '*';
+  inherits: false;
+}
+
+@property --spacer-pi-xs {
+  syntax: '*';
+  inherits: false;
+}
+@property --spacer-pi-sm {
+  syntax: '*';
+  inherits: false;
+}
+@property --spacer-pi-md {
+  syntax: '*';
+  inherits: false;
+}
+@property --spacer-pi-lg {
+  syntax: '*';
+  inherits: false;
+}
+@property --spacer-pi-xl {
+  syntax: '*';
+  inherits: false;
+}
+
+@property --spacer-pb-xs {
+  syntax: '*';
+  inherits: false;
+}
+@property --spacer-pb-sm {
+  syntax: '*';
+  inherits: false;
+}
+@property --spacer-pb-md {
+  syntax: '*';
+  inherits: false;
+}
+@property --spacer-pb-lg {
+  syntax: '*';
+  inherits: false;
+}
+@property --spacer-pb-xl {
+  syntax: '*';
+  inherits: false;
+}
+
+@property --spacer-gap-xs {
+  syntax: '*';
+  inherits: false;
+}
+@property --spacer-gap-sm {
+  syntax: '*';
+  inherits: false;
+}
+@property --spacer-gap-md {
+  syntax: '*';
+  inherits: false;
+}
+@property --spacer-gap-lg {
+  syntax: '*';
+  inherits: false;
+}
+@property --spacer-gap-xl {
+  syntax: '*';
+  inherits: false;
+}
+
+@property --spacer-w-xs {
+  syntax: '*';
+  inherits: false;
+}
+@property --spacer-w-sm {
+  syntax: '*';
+  inherits: false;
+}
+@property --spacer-w-md {
+  syntax: '*';
+  inherits: false;
+}
+@property --spacer-w-lg {
+  syntax: '*';
+  inherits: false;
+}
+@property --spacer-w-xl {
+  syntax: '*';
+  inherits: false;
+}
+
+@property --spacer-maxw-xs {
+  syntax: '*';
+  inherits: false;
+}
+@property --spacer-maxw-sm {
+  syntax: '*';
+  inherits: false;
+}
+@property --spacer-maxw-md {
+  syntax: '*';
+  inherits: false;
+}
+@property --spacer-maxw-lg {
+  syntax: '*';
+  inherits: false;
+}
+@property --spacer-maxw-xl {
+  syntax: '*';
+  inherits: false;
+}
+
+@property --spacer-h-xs {
+  syntax: '*';
+  inherits: false;
+}
+@property --spacer-h-sm {
+  syntax: '*';
+  inherits: false;
+}
+@property --spacer-h-md {
+  syntax: '*';
+  inherits: false;
+}
+@property --spacer-h-lg {
+  syntax: '*';
+  inherits: false;
+}
+@property --spacer-h-xl {
+  syntax: '*';
+  inherits: false;
+}
+
+@property --spacer-debug-color {
+  syntax: '<color>';
+  inherits: false;
+  initial-value: red;
+}
+
+.Spacer {
+  --spacer-p-base: var(--spacer-p);
+  --spacer-pi-base: var(--spacer-pi);
+  --spacer-pb-base: var(--spacer-pb);
+  --spacer-gap-base: var(--spacer-gap);
+  --spacer-w-base: var(--spacer-w);
+  --spacer-maxw-base: var(--spacer-maxw);
+  --spacer-h-base: var(--spacer-h);
+
+  display: block;
+  position: relative;
+  /* Axis padding defaults to the all-sides `--spacer-p` when no per-axis
+   * override (`paddingInline` / `paddingBlock`) is set. */
+  padding-inline: var(--spacer-pi, var(--spacer-p, 0));
+  padding-block: var(--spacer-pb, var(--spacer-p, 0));
+  width: var(--spacer-w, auto);
+  max-width: var(--spacer-maxw, none);
+  height: var(--spacer-h, auto);
+}
+
+/*
+ * Flex is opt-in: only applied when a flex prop (direction, align, justify,
+ * gap, wrap) is set. Keeps a Spacer used purely for token-aware padding from
+ * silently changing its child layout context.
+ */
+.Spacer--flex {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacer-gap);
+}
+
+/*
+ * Responsive overrides — promote the matching breakpoint var to the active
+ * var. The cascade falls through to `*-base` (the scalar value emitted from
+ * props) when no per-breakpoint var has been set.
+ *
+ * Two parallel sets of rules:
+ *  - Default scope (`scope='page'`, no class modifier) — viewport media queries.
+ *  - `scope='component'` — `@container component (...)` queries that resolve
+ *    against the nearest `<Container>` ancestor (which declares the
+ *    `component` container-query host, see Container.css).
+ */
+
+/* ----- Default scope: viewport media queries ----- */
+
+@media (min-width: 22rem) {
+  .Spacer {
+    --spacer-p: var(--spacer-p-xs, var(--spacer-p-base));
+    --spacer-pi: var(--spacer-pi-xs, var(--spacer-pi-base));
+    --spacer-pb: var(--spacer-pb-xs, var(--spacer-pb-base));
+    --spacer-gap: var(--spacer-gap-xs, var(--spacer-gap-base));
+    --spacer-w: var(--spacer-w-xs, var(--spacer-w-base));
+    --spacer-maxw: var(--spacer-maxw-xs, var(--spacer-maxw-base));
+    --spacer-h: var(--spacer-h-xs, var(--spacer-h-base));
+  }
+}
+
+@media (min-width: 40rem) {
+  .Spacer {
+    --spacer-p: var(--spacer-p-sm, var(--spacer-p-base));
+    --spacer-pi: var(--spacer-pi-sm, var(--spacer-pi-base));
+    --spacer-pb: var(--spacer-pb-sm, var(--spacer-pb-base));
+    --spacer-gap: var(--spacer-gap-sm, var(--spacer-gap-base));
+    --spacer-w: var(--spacer-w-sm, var(--spacer-w-base));
+    --spacer-maxw: var(--spacer-maxw-sm, var(--spacer-maxw-base));
+    --spacer-h: var(--spacer-h-sm, var(--spacer-h-base));
+  }
+}
+
+@media (min-width: 60rem) {
+  .Spacer {
+    --spacer-p: var(--spacer-p-md, var(--spacer-p-base));
+    --spacer-pi: var(--spacer-pi-md, var(--spacer-pi-base));
+    --spacer-pb: var(--spacer-pb-md, var(--spacer-pb-base));
+    --spacer-gap: var(--spacer-gap-md, var(--spacer-gap-base));
+    --spacer-w: var(--spacer-w-md, var(--spacer-w-base));
+    --spacer-maxw: var(--spacer-maxw-md, var(--spacer-maxw-base));
+    --spacer-h: var(--spacer-h-md, var(--spacer-h-base));
+  }
+}
+
+@media (min-width: 80rem) {
+  .Spacer {
+    --spacer-p: var(--spacer-p-lg, var(--spacer-p-base));
+    --spacer-pi: var(--spacer-pi-lg, var(--spacer-pi-base));
+    --spacer-pb: var(--spacer-pb-lg, var(--spacer-pb-base));
+    --spacer-gap: var(--spacer-gap-lg, var(--spacer-gap-base));
+    --spacer-w: var(--spacer-w-lg, var(--spacer-w-base));
+    --spacer-maxw: var(--spacer-maxw-lg, var(--spacer-maxw-base));
+    --spacer-h: var(--spacer-h-lg, var(--spacer-h-base));
+  }
+}
+
+@media (min-width: 103rem) {
+  .Spacer {
+    --spacer-p: var(--spacer-p-xl, var(--spacer-p-base));
+    --spacer-pi: var(--spacer-pi-xl, var(--spacer-pi-base));
+    --spacer-pb: var(--spacer-pb-xl, var(--spacer-pb-base));
+    --spacer-gap: var(--spacer-gap-xl, var(--spacer-gap-base));
+    --spacer-w: var(--spacer-w-xl, var(--spacer-w-base));
+    --spacer-maxw: var(--spacer-maxw-xl, var(--spacer-maxw-base));
+    --spacer-h: var(--spacer-h-xl, var(--spacer-h-base));
+  }
+}
+
+/* ----- Component scope: container queries against nearest <Container> ----- */
+
+@container component (min-width: 22rem) {
+  .Spacer--scope-component {
+    --spacer-p: var(--spacer-p-xs, var(--spacer-p-base));
+    --spacer-pi: var(--spacer-pi-xs, var(--spacer-pi-base));
+    --spacer-pb: var(--spacer-pb-xs, var(--spacer-pb-base));
+    --spacer-gap: var(--spacer-gap-xs, var(--spacer-gap-base));
+    --spacer-w: var(--spacer-w-xs, var(--spacer-w-base));
+    --spacer-maxw: var(--spacer-maxw-xs, var(--spacer-maxw-base));
+    --spacer-h: var(--spacer-h-xs, var(--spacer-h-base));
+  }
+}
+
+@container component (min-width: 40rem) {
+  .Spacer--scope-component {
+    --spacer-p: var(--spacer-p-sm, var(--spacer-p-base));
+    --spacer-pi: var(--spacer-pi-sm, var(--spacer-pi-base));
+    --spacer-pb: var(--spacer-pb-sm, var(--spacer-pb-base));
+    --spacer-gap: var(--spacer-gap-sm, var(--spacer-gap-base));
+    --spacer-w: var(--spacer-w-sm, var(--spacer-w-base));
+    --spacer-maxw: var(--spacer-maxw-sm, var(--spacer-maxw-base));
+    --spacer-h: var(--spacer-h-sm, var(--spacer-h-base));
+  }
+}
+
+@container component (min-width: 60rem) {
+  .Spacer--scope-component {
+    --spacer-p: var(--spacer-p-md, var(--spacer-p-base));
+    --spacer-pi: var(--spacer-pi-md, var(--spacer-pi-base));
+    --spacer-pb: var(--spacer-pb-md, var(--spacer-pb-base));
+    --spacer-gap: var(--spacer-gap-md, var(--spacer-gap-base));
+    --spacer-w: var(--spacer-w-md, var(--spacer-w-base));
+    --spacer-maxw: var(--spacer-maxw-md, var(--spacer-maxw-base));
+    --spacer-h: var(--spacer-h-md, var(--spacer-h-base));
+  }
+}
+
+@container component (min-width: 80rem) {
+  .Spacer--scope-component {
+    --spacer-p: var(--spacer-p-lg, var(--spacer-p-base));
+    --spacer-pi: var(--spacer-pi-lg, var(--spacer-pi-base));
+    --spacer-pb: var(--spacer-pb-lg, var(--spacer-pb-base));
+    --spacer-gap: var(--spacer-gap-lg, var(--spacer-gap-base));
+    --spacer-w: var(--spacer-w-lg, var(--spacer-w-base));
+    --spacer-maxw: var(--spacer-maxw-lg, var(--spacer-maxw-base));
+    --spacer-h: var(--spacer-h-lg, var(--spacer-h-base));
+  }
+}
+
+@container component (min-width: 103rem) {
+  .Spacer--scope-component {
+    --spacer-p: var(--spacer-p-xl, var(--spacer-p-base));
+    --spacer-pi: var(--spacer-pi-xl, var(--spacer-pi-base));
+    --spacer-pb: var(--spacer-pb-xl, var(--spacer-pb-base));
+    --spacer-gap: var(--spacer-gap-xl, var(--spacer-gap-base));
+    --spacer-w: var(--spacer-w-xl, var(--spacer-w-base));
+    --spacer-maxw: var(--spacer-maxw-xl, var(--spacer-maxw-base));
+    --spacer-h: var(--spacer-h-xl, var(--spacer-h-base));
+  }
+}
+
+/* Direction / align / justify — base + responsive */
+
+.Spacer--direction-row {
+  flex-direction: row;
+}
+.Spacer--direction-column {
+  flex-direction: column;
+}
+
+.Spacer--align-start {
+  align-items: flex-start;
+}
+.Spacer--align-center {
+  align-items: center;
+}
+.Spacer--align-end {
+  align-items: flex-end;
+}
+.Spacer--align-stretch {
+  align-items: stretch;
+}
+.Spacer--align-baseline {
+  align-items: baseline;
+}
+
+.Spacer--justify-start {
+  justify-content: flex-start;
+}
+.Spacer--justify-center {
+  justify-content: center;
+}
+.Spacer--justify-end {
+  justify-content: flex-end;
+}
+.Spacer--justify-between {
+  justify-content: space-between;
+}
+.Spacer--justify-around {
+  justify-content: space-around;
+}
+.Spacer--justify-evenly {
+  justify-content: space-evenly;
+}
+
+.Spacer--wrap {
+  flex-wrap: wrap;
+}
+
+/* ----- Responsive direction/align/justify — default scope (viewport) ----- */
+
+@media (min-width: 22rem) {
+  .Spacer--direction-xs-row {
+    flex-direction: row;
+  }
+  .Spacer--direction-xs-column {
+    flex-direction: column;
+  }
+  .Spacer--align-xs-start {
+    align-items: flex-start;
+  }
+  .Spacer--align-xs-center {
+    align-items: center;
+  }
+  .Spacer--align-xs-end {
+    align-items: flex-end;
+  }
+  .Spacer--align-xs-stretch {
+    align-items: stretch;
+  }
+  .Spacer--align-xs-baseline {
+    align-items: baseline;
+  }
+  .Spacer--justify-xs-start {
+    justify-content: flex-start;
+  }
+  .Spacer--justify-xs-center {
+    justify-content: center;
+  }
+  .Spacer--justify-xs-end {
+    justify-content: flex-end;
+  }
+  .Spacer--justify-xs-between {
+    justify-content: space-between;
+  }
+  .Spacer--justify-xs-around {
+    justify-content: space-around;
+  }
+  .Spacer--justify-xs-evenly {
+    justify-content: space-evenly;
+  }
+}
+
+@media (min-width: 40rem) {
+  .Spacer--direction-sm-row {
+    flex-direction: row;
+  }
+  .Spacer--direction-sm-column {
+    flex-direction: column;
+  }
+  .Spacer--align-sm-start {
+    align-items: flex-start;
+  }
+  .Spacer--align-sm-center {
+    align-items: center;
+  }
+  .Spacer--align-sm-end {
+    align-items: flex-end;
+  }
+  .Spacer--align-sm-stretch {
+    align-items: stretch;
+  }
+  .Spacer--align-sm-baseline {
+    align-items: baseline;
+  }
+  .Spacer--justify-sm-start {
+    justify-content: flex-start;
+  }
+  .Spacer--justify-sm-center {
+    justify-content: center;
+  }
+  .Spacer--justify-sm-end {
+    justify-content: flex-end;
+  }
+  .Spacer--justify-sm-between {
+    justify-content: space-between;
+  }
+  .Spacer--justify-sm-around {
+    justify-content: space-around;
+  }
+  .Spacer--justify-sm-evenly {
+    justify-content: space-evenly;
+  }
+}
+
+@media (min-width: 60rem) {
+  .Spacer--direction-md-row {
+    flex-direction: row;
+  }
+  .Spacer--direction-md-column {
+    flex-direction: column;
+  }
+  .Spacer--align-md-start {
+    align-items: flex-start;
+  }
+  .Spacer--align-md-center {
+    align-items: center;
+  }
+  .Spacer--align-md-end {
+    align-items: flex-end;
+  }
+  .Spacer--align-md-stretch {
+    align-items: stretch;
+  }
+  .Spacer--align-md-baseline {
+    align-items: baseline;
+  }
+  .Spacer--justify-md-start {
+    justify-content: flex-start;
+  }
+  .Spacer--justify-md-center {
+    justify-content: center;
+  }
+  .Spacer--justify-md-end {
+    justify-content: flex-end;
+  }
+  .Spacer--justify-md-between {
+    justify-content: space-between;
+  }
+  .Spacer--justify-md-around {
+    justify-content: space-around;
+  }
+  .Spacer--justify-md-evenly {
+    justify-content: space-evenly;
+  }
+}
+
+@media (min-width: 80rem) {
+  .Spacer--direction-lg-row {
+    flex-direction: row;
+  }
+  .Spacer--direction-lg-column {
+    flex-direction: column;
+  }
+  .Spacer--align-lg-start {
+    align-items: flex-start;
+  }
+  .Spacer--align-lg-center {
+    align-items: center;
+  }
+  .Spacer--align-lg-end {
+    align-items: flex-end;
+  }
+  .Spacer--align-lg-stretch {
+    align-items: stretch;
+  }
+  .Spacer--align-lg-baseline {
+    align-items: baseline;
+  }
+  .Spacer--justify-lg-start {
+    justify-content: flex-start;
+  }
+  .Spacer--justify-lg-center {
+    justify-content: center;
+  }
+  .Spacer--justify-lg-end {
+    justify-content: flex-end;
+  }
+  .Spacer--justify-lg-between {
+    justify-content: space-between;
+  }
+  .Spacer--justify-lg-around {
+    justify-content: space-around;
+  }
+  .Spacer--justify-lg-evenly {
+    justify-content: space-evenly;
+  }
+}
+
+@media (min-width: 103rem) {
+  .Spacer--direction-xl-row {
+    flex-direction: row;
+  }
+  .Spacer--direction-xl-column {
+    flex-direction: column;
+  }
+  .Spacer--align-xl-start {
+    align-items: flex-start;
+  }
+  .Spacer--align-xl-center {
+    align-items: center;
+  }
+  .Spacer--align-xl-end {
+    align-items: flex-end;
+  }
+  .Spacer--align-xl-stretch {
+    align-items: stretch;
+  }
+  .Spacer--align-xl-baseline {
+    align-items: baseline;
+  }
+  .Spacer--justify-xl-start {
+    justify-content: flex-start;
+  }
+  .Spacer--justify-xl-center {
+    justify-content: center;
+  }
+  .Spacer--justify-xl-end {
+    justify-content: flex-end;
+  }
+  .Spacer--justify-xl-between {
+    justify-content: space-between;
+  }
+  .Spacer--justify-xl-around {
+    justify-content: space-around;
+  }
+  .Spacer--justify-xl-evenly {
+    justify-content: space-evenly;
+  }
+}
+
+/* ----- Responsive direction/align/justify — component scope ----- */
+
+@container component (min-width: 22rem) {
+  .Spacer--scope-component.Spacer--direction-xs-row {
+    flex-direction: row;
+  }
+  .Spacer--scope-component.Spacer--direction-xs-column {
+    flex-direction: column;
+  }
+  .Spacer--scope-component.Spacer--align-xs-start {
+    align-items: flex-start;
+  }
+  .Spacer--scope-component.Spacer--align-xs-center {
+    align-items: center;
+  }
+  .Spacer--scope-component.Spacer--align-xs-end {
+    align-items: flex-end;
+  }
+  .Spacer--scope-component.Spacer--align-xs-stretch {
+    align-items: stretch;
+  }
+  .Spacer--scope-component.Spacer--align-xs-baseline {
+    align-items: baseline;
+  }
+  .Spacer--scope-component.Spacer--justify-xs-start {
+    justify-content: flex-start;
+  }
+  .Spacer--scope-component.Spacer--justify-xs-center {
+    justify-content: center;
+  }
+  .Spacer--scope-component.Spacer--justify-xs-end {
+    justify-content: flex-end;
+  }
+  .Spacer--scope-component.Spacer--justify-xs-between {
+    justify-content: space-between;
+  }
+  .Spacer--scope-component.Spacer--justify-xs-around {
+    justify-content: space-around;
+  }
+  .Spacer--scope-component.Spacer--justify-xs-evenly {
+    justify-content: space-evenly;
+  }
+}
+
+@container component (min-width: 40rem) {
+  .Spacer--scope-component.Spacer--direction-sm-row {
+    flex-direction: row;
+  }
+  .Spacer--scope-component.Spacer--direction-sm-column {
+    flex-direction: column;
+  }
+  .Spacer--scope-component.Spacer--align-sm-start {
+    align-items: flex-start;
+  }
+  .Spacer--scope-component.Spacer--align-sm-center {
+    align-items: center;
+  }
+  .Spacer--scope-component.Spacer--align-sm-end {
+    align-items: flex-end;
+  }
+  .Spacer--scope-component.Spacer--align-sm-stretch {
+    align-items: stretch;
+  }
+  .Spacer--scope-component.Spacer--align-sm-baseline {
+    align-items: baseline;
+  }
+  .Spacer--scope-component.Spacer--justify-sm-start {
+    justify-content: flex-start;
+  }
+  .Spacer--scope-component.Spacer--justify-sm-center {
+    justify-content: center;
+  }
+  .Spacer--scope-component.Spacer--justify-sm-end {
+    justify-content: flex-end;
+  }
+  .Spacer--scope-component.Spacer--justify-sm-between {
+    justify-content: space-between;
+  }
+  .Spacer--scope-component.Spacer--justify-sm-around {
+    justify-content: space-around;
+  }
+  .Spacer--scope-component.Spacer--justify-sm-evenly {
+    justify-content: space-evenly;
+  }
+}
+
+@container component (min-width: 60rem) {
+  .Spacer--scope-component.Spacer--direction-md-row {
+    flex-direction: row;
+  }
+  .Spacer--scope-component.Spacer--direction-md-column {
+    flex-direction: column;
+  }
+  .Spacer--scope-component.Spacer--align-md-start {
+    align-items: flex-start;
+  }
+  .Spacer--scope-component.Spacer--align-md-center {
+    align-items: center;
+  }
+  .Spacer--scope-component.Spacer--align-md-end {
+    align-items: flex-end;
+  }
+  .Spacer--scope-component.Spacer--align-md-stretch {
+    align-items: stretch;
+  }
+  .Spacer--scope-component.Spacer--align-md-baseline {
+    align-items: baseline;
+  }
+  .Spacer--scope-component.Spacer--justify-md-start {
+    justify-content: flex-start;
+  }
+  .Spacer--scope-component.Spacer--justify-md-center {
+    justify-content: center;
+  }
+  .Spacer--scope-component.Spacer--justify-md-end {
+    justify-content: flex-end;
+  }
+  .Spacer--scope-component.Spacer--justify-md-between {
+    justify-content: space-between;
+  }
+  .Spacer--scope-component.Spacer--justify-md-around {
+    justify-content: space-around;
+  }
+  .Spacer--scope-component.Spacer--justify-md-evenly {
+    justify-content: space-evenly;
+  }
+}
+
+@container component (min-width: 80rem) {
+  .Spacer--scope-component.Spacer--direction-lg-row {
+    flex-direction: row;
+  }
+  .Spacer--scope-component.Spacer--direction-lg-column {
+    flex-direction: column;
+  }
+  .Spacer--scope-component.Spacer--align-lg-start {
+    align-items: flex-start;
+  }
+  .Spacer--scope-component.Spacer--align-lg-center {
+    align-items: center;
+  }
+  .Spacer--scope-component.Spacer--align-lg-end {
+    align-items: flex-end;
+  }
+  .Spacer--scope-component.Spacer--align-lg-stretch {
+    align-items: stretch;
+  }
+  .Spacer--scope-component.Spacer--align-lg-baseline {
+    align-items: baseline;
+  }
+  .Spacer--scope-component.Spacer--justify-lg-start {
+    justify-content: flex-start;
+  }
+  .Spacer--scope-component.Spacer--justify-lg-center {
+    justify-content: center;
+  }
+  .Spacer--scope-component.Spacer--justify-lg-end {
+    justify-content: flex-end;
+  }
+  .Spacer--scope-component.Spacer--justify-lg-between {
+    justify-content: space-between;
+  }
+  .Spacer--scope-component.Spacer--justify-lg-around {
+    justify-content: space-around;
+  }
+  .Spacer--scope-component.Spacer--justify-lg-evenly {
+    justify-content: space-evenly;
+  }
+}
+
+@container component (min-width: 103rem) {
+  .Spacer--scope-component.Spacer--direction-xl-row {
+    flex-direction: row;
+  }
+  .Spacer--scope-component.Spacer--direction-xl-column {
+    flex-direction: column;
+  }
+  .Spacer--scope-component.Spacer--align-xl-start {
+    align-items: flex-start;
+  }
+  .Spacer--scope-component.Spacer--align-xl-center {
+    align-items: center;
+  }
+  .Spacer--scope-component.Spacer--align-xl-end {
+    align-items: flex-end;
+  }
+  .Spacer--scope-component.Spacer--align-xl-stretch {
+    align-items: stretch;
+  }
+  .Spacer--scope-component.Spacer--align-xl-baseline {
+    align-items: baseline;
+  }
+  .Spacer--scope-component.Spacer--justify-xl-start {
+    justify-content: flex-start;
+  }
+  .Spacer--scope-component.Spacer--justify-xl-center {
+    justify-content: center;
+  }
+  .Spacer--scope-component.Spacer--justify-xl-end {
+    justify-content: flex-end;
+  }
+  .Spacer--scope-component.Spacer--justify-xl-between {
+    justify-content: space-between;
+  }
+  .Spacer--scope-component.Spacer--justify-xl-around {
+    justify-content: space-around;
+  }
+  .Spacer--scope-component.Spacer--justify-xl-evenly {
+    justify-content: space-evenly;
+  }
+}
+
+/* Debug */
+
+.Spacer--debug {
+  outline: 1px solid var(--spacer-debug-color);
+}
+
+.Spacer--debug::before {
+  content: 'Spacer';
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(-4px, -100%);
+  font-family: monospace;
+  font-size: 10px;
+  padding: 0 4px;
+  color: white;
+  background: var(--spacer-debug-color);
+  pointer-events: none;
+}
+
+.Logo {
+  flex-shrink: 0;
+
+  /* Brand color per scheme: navy in light, white in dark. This is the only
+   * --dui-* token with that flip (--dui-color-text-brand stays navy in both
+   * schemes) — nearest semantic match until a dedicated logo/brand-mark
+   * token ships in @deepl/theme. */
+  &.as-color-brand {
+    color: var(--dui-color-background-action-brand);
+  }
+
+  /* Defers to currentColor from the parent, e.g. always-white on
+   * brand-navy chrome. */
+  &.as-color-inherit {
+    color: inherit;
+  }
+}
+
+/*
+ * Sidebar — V5 navigation rail (deepl/deeplatform/nav-revamp-react).
+ * Expanded 256px column ↔ 60px icon-only rail. The width animates on
+ * `.is-collapsed`; the icon-only layout (`.is-icon-only`) is applied by the
+ * component only after the animation settles, so labels clip away cleanly.
+ */
+
+.Sidebar {
+  /* stylelint-disable-next-line ecss/component-dimensions -- Sidebar is a layout component; the expanded/collapsed column widths are its identity (256px keeps the rail above icon-hiding thresholds, 60px centres a 32px icon button on the expanded icon column) */
+  width: 256px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  background: var(--dui-color-background-surface);
+  border-inline-end: var(--dui-spacing-px) solid var(--dui-color-border-default);
+  /* Clips full-width content while the width animates. */
+  /* stylelint-disable-next-line ecss/overflow-hidden -- required for the width animation to clip labels instead of popping layouts */
+  overflow: hidden;
+  font-size: var(--dui-typography-body-s-font-size);
+  line-height: var(--dui-typography-body-s-line-height);
+  transition: width 0.2s ease-in-out;
+}
+
+.Sidebar.is-collapsed {
+  width: 60px;
+}
+
+/* Once icon-only, keep overflow visible so the rail's tooltips and flyouts
+   aren't clipped (the short rail doesn't need to scroll). */
+.Sidebar.is-icon-only {
+  overflow: visible;
+}
+
+.Sidebar .SidebarHeader {
+  display: flex;
+  align-items: center;
+  padding: var(--dui-spacing-l) var(--dui-spacing-xl) var(--dui-spacing-m);
+}
+
+.Sidebar .SidebarNav {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.Sidebar .SidebarNav .__scroll {
+  display: flex;
+  flex-direction: column;
+  gap: var(--dui-spacing-xs);
+  height: 100%;
+  overflow-y: auto;
+  padding-inline: var(--dui-spacing-m);
+}
+
+.Sidebar.is-icon-only .SidebarNav .__scroll {
+  overflow: visible;
+}
+
+.Sidebar .SidebarFooter {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--dui-spacing-xs);
+  padding: var(--dui-spacing-m);
+}
+
+/* ─── Rows ──────────────────────────────────────────────────── */
+
+.Sidebar .SidebarItem {
+  display: flex;
+  align-items: center;
+  gap: var(--dui-spacing-m);
+  min-height: var(--dui-spacing-4xl);
+  padding-block: var(--dui-spacing-s);
+  padding-inline: var(--dui-spacing-l);
+  border: 0;
+  border-radius: var(--dui-radius-m);
+  background: none;
+  color: var(--dui-color-text-default);
+  font: inherit;
+  font-weight: var(--dui-typography-font-weight-regular);
+  text-align: start;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+
+  &:hover {
+    background: var(--dui-color-background-action-ghost-hover);
+  }
+
+  &:focus-visible {
+    outline: var(--dui-spacing-xs) solid var(--dui-color-border-focus);
+    outline-offset: calc(-1 * var(--dui-spacing-xs));
+  }
+
+  /* Blue "you are on this page/section" state (wayfinding). */
+  &.is-active {
+    background: var(--dui-color-background-action-active);
+    color: var(--dui-color-text-action-active);
+    font-weight: var(--dui-typography-font-weight-semibold);
+  }
+
+  /* Neutral gray pressed state for menu/flyout triggers — a menu row, not
+     the blue page state. */
+  &.is-current {
+    background: var(--dui-color-background-action-ghost-pressed);
+    color: var(--dui-color-text-default);
+  }
+}
+
+/* Foldable wrapper stretches its trigger to the full column, the way plain
+   items already stretch as direct flex children of the scroll area. Without a
+   layout context here the nested trigger button shrinks to its content, so its
+   pill and trailing chevron stop short of the edge. A column flex hands the
+   default stretch alignment down to the button. */
+.Sidebar .SidebarFoldable {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Trailing chevron on inline foldable triggers; rotates 180° clockwise in
+   sync with the disclosure slide. */
+.Sidebar .SidebarItem .__chevron {
+  display: flex;
+  align-items: center;
+  margin-inline-start: auto;
+  color: var(--dui-color-text-muted);
+  transition: transform 0.2s ease-out;
+}
+
+.Sidebar .SidebarItem[aria-expanded='true'] .__chevron {
+  transform: rotate(-180deg);
+}
+
+/* Icon-only rail: full-width rows with the same 12px padding as expanded, so
+   a collapsed item reads as an expanded button minus its label — identical
+   margins, icon column, and pill highlight. The label text node hides via
+   font-size: 0 (keeps the SVG icon visible for any children shape). */
+.Sidebar.is-icon-only .SidebarItem {
+  display: flex;
+  justify-content: center;
+  gap: 0;
+  font-size: 0;
+}
+
+.Sidebar.is-icon-only .SidebarItem .__chevron {
+  display: none;
+}
+
+/* ─── Inline disclosure (foldable) ──────────────────────────── */
+
+/* The grid row transitions 0fr→1fr, sliding the children to their natural
+   height — no max-height guess. */
+.Sidebar .SidebarFoldable-disclosure {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.2s ease-out;
+}
+
+.Sidebar .SidebarFoldable-disclosure.is-open {
+  grid-template-rows: 1fr;
+}
+
+.Sidebar .SidebarFoldable-disclosure .__clip {
+  /* stylelint-disable-next-line ecss/overflow-hidden -- what lets the grid row collapse to zero during the slide */
+  overflow: hidden;
+}
+
+/* Children indented with a vertical guide line aligned to the parent icon's
+   centre: item padding-inline (12px) + half the 20px "small" icon. */
+.Sidebar .SidebarFoldable-disclosure .__children {
+  display: flex;
+  flex-direction: column;
+  margin-block-start: var(--dui-spacing-xs);
+  margin-inline-start: calc(var(--dui-spacing-l) + var(--dui-spacing-2xl) / 2);
+  padding-inline-start: calc(var(--dui-spacing-s) + var(--dui-spacing-px));
+  border-inline-start: var(--dui-spacing-px) solid
+    var(--dui-color-border-default);
+}
+
+.Sidebar.is-icon-only .SidebarFoldable-disclosure {
+  display: none;
+}
+
+/* ─── Sub items ─────────────────────────────────────────────── */
+
+.SidebarSubItem {
+  display: flex;
+  align-items: center;
+  gap: var(--dui-spacing-m);
+  min-height: var(--dui-spacing-4xl);
+  padding-block: var(--dui-spacing-s);
+  padding-inline: var(--dui-spacing-l);
+  border: 0;
+  border-radius: var(--dui-radius-m);
+  background: none;
+  color: var(--dui-color-text-default);
+  font: inherit;
+  font-weight: var(--dui-typography-font-weight-regular);
+  text-align: start;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    background: var(--dui-color-background-action-ghost-hover);
+  }
+
+  &:focus-visible {
+    outline: var(--dui-spacing-xs) solid var(--dui-color-border-focus);
+    outline-offset: calc(-1 * var(--dui-spacing-xs));
+  }
+
+  /* Neutral gray "current menu row" state — deliberately not the blue page
+     state: gray = menu/flyout row, blue = page/section (wayfinding). */
+  &.is-current {
+    background: var(--dui-color-background-action-ghost-pressed);
+    color: var(--dui-color-text-default);
+    font-weight: var(--dui-typography-font-weight-semibold);
+  }
+}
+
+/* ─── Flyout body (collapsed rail + bottom zone) ────────────── */
+
+.SidebarFlyout {
+  /* Flyout identity width from the V5 handoff — wide enough for typical
+     two-word sub-item labels; no --dui-* step exists at 176px. */
+  min-width: 176px;
+  padding-block: var(--dui-spacing-m);
+  display: flex;
+  flex-direction: column;
+}
+
+.SidebarFlyout .__label {
+  margin: 0;
+  padding: var(--dui-spacing-s) var(--dui-spacing-l) 0.375rem;
+  font-size: var(--dui-typography-body-xs-font-size);
+  line-height: var(--dui-typography-body-xs-line-height);
+  color: var(--dui-color-text-muted);
+}
+
+/* ─── Collapse control ──────────────────────────────────────── */
+
+.Sidebar .SidebarCollapseButton {
+  align-self: flex-end;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--dui-spacing-4xl);
+  height: var(--dui-spacing-4xl);
+  padding: 0;
+  border: 0;
+  border-radius: var(--dui-radius-m);
+  background: none;
+  color: var(--dui-color-text-muted);
+  cursor: pointer;
+
+  &:hover {
+    background: var(--dui-color-background-action-ghost-hover);
+  }
+
+  &:focus-visible {
+    outline: var(--dui-spacing-xs) solid var(--dui-color-border-focus);
+    outline-offset: calc(-1 * var(--dui-spacing-xs));
+  }
+}
+
+.Sidebar.is-icon-only .SidebarCollapseButton {
+  align-self: center;
+}
+
+.Sidebar.is-icon-only .SidebarFooter {
+  display: flex;
+  align-items: center;
+}
+
+.Sidebar.is-icon-only .SidebarFooter > * {
+  width: 100%;
+}
+
+/*
+ * Container — single-purpose primitive that declares a container-query
+ * boundary named `component`. Pair with `<Spacer scope="component">` to
+ * drive a descendant Spacer's responsive props off this element's inline
+ * size instead of the viewport. No visual styling.
+ */
+
+.Container {
+  container-type: inline-size;
+  container-name: component;
+}
+
+/* stylelint-disable ecss/selector-filename, plugin/z-index-value-constraint -- DS-wide debug overlay (DUI-1734). The selectors target the cross-cutting `data-dui-component` attribute emitted by every visual DS component (see packages/ui/docs/component-taxonomy.md), so the per-component-file selector convention does not apply. The z-index value on the corner label is intentionally above the documented `--dui-z-index-*` scale because the debug overlay must paint above every real UI layer including tooltips. */
+
+/*
+ * DS-wide debug overlay (DUI-1734).
+ *
+ * Activated by DesignSystemProvider when `debug={true}`. The provider sets
+ * `data-dui-debug="true"` on <html>; every rule below is gated on that
+ * attribute, so when debug is off there is zero visual change.
+ *
+ * Layout: a 1px dashed outline on every element carrying
+ * `data-dui-component`, plus a small absolutely-positioned name-label tag
+ * in the top-left corner showing the component's name. Container-like
+ * components (Card, Dialog, Popover, Layout, SidePanel, Navbar, Tabs,
+ * Accordion, DropdownMenu, Container) get a larger more prominent label.
+ *
+ * Colour palette is keyed by the taxonomy category from
+ * `packages/ui/docs/component-taxonomy.md`: primitive (cyan),
+ * native-wrapper (amber), composite (purple), component (green). The
+ * per-component-to-category mapping is hard-coded as attribute-selector
+ * lists below — the category set is closed (4 buckets) and stable. The
+ * source of truth for each component's category is its Storybook story
+ * (`parameters.dui.category` + `dui:category:*` tag), so keep these lists
+ * in sync with the stories when a new component lands.
+ *
+ * Anything not listed below falls through to a neutral "uncategorised"
+ * red, making the gap visible during development.
+ */
+
+[data-dui-debug] {
+  /* Debug palette — picked to be high-contrast on both light and dark
+   * surfaces. Tuned to be readable but not so saturated that it overwhelms
+   * the real UI underneath. */
+  --dui-debug-primitive: #06b6d4; /* cyan-500   — layout glue */
+  --dui-debug-native-wrapper: #f59e0b; /* amber-500 — native elements */
+  --dui-debug-composite: #a855f7; /* purple-500 — orchestration */
+  --dui-debug-component: #10b981; /* emerald-500 — fully-fledged components */
+  --dui-debug-uncategorised: #ef4444; /* red-500   — missing from mapping */
+
+  /* Default — everything starts here, then category rules override. */
+  --dui-debug-color: var(--dui-debug-uncategorised);
+}
+
+/* ---------- Outline + label scaffolding ------------------------------- */
+
+[data-dui-debug] [data-dui-component] {
+  outline: 1px dashed var(--dui-debug-color);
+  outline-offset: -1px;
+  position: relative;
+}
+
+/* The corner name-label. `attr(data-dui-component)` reads the component name
+ * directly from the DOM, so we don't have to spell every component twice. */
+[data-dui-debug] [data-dui-component]::before {
+  content: attr(data-dui-component);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2147483646; /* one below the highest reserved overlay layer */
+  padding: 1px 4px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 9px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: white;
+  background: var(--dui-debug-color);
+  pointer-events: none;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  white-space: nowrap;
+}
+
+/* Container components — larger, more prominent label so structural pieces
+ * stand out from leaf components in a dense screen. Per the ticket: the
+ * larger structural components.
+ *
+ * NB: these still inherit their category colour from the rules below.
+ */
+[data-dui-debug] [data-dui-component='Card']::before,
+[data-dui-debug] [data-dui-component='Dialog']::before,
+[data-dui-debug] [data-dui-component='Popover']::before,
+[data-dui-debug] [data-dui-component='Layout']::before,
+[data-dui-debug] [data-dui-component='Sidebar']::before,
+[data-dui-debug] [data-dui-component='SidePanel']::before,
+[data-dui-debug] [data-dui-component='Navbar']::before,
+[data-dui-debug] [data-dui-component='Tabs']::before,
+[data-dui-debug] [data-dui-component='Accordion']::before,
+[data-dui-debug] [data-dui-component='DropdownMenu']::before,
+[data-dui-debug] [data-dui-component='Container']::before {
+  padding: 2px 6px;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+/* ---------- Category colour mapping ----------------------------------- *
+ * Approach (b) from the ticket: hard-code component-to-category mapping
+ * here. Keep these lists in sync with each component's Storybook meta —
+ * `parameters.dui.category` is the source of truth.
+ * --------------------------------------------------------------------- */
+
+/* Primitive — layout glue / scaffolding. */
+[data-dui-debug] [data-dui-component='Container'],
+[data-dui-debug] [data-dui-component='Spacer'] {
+  --dui-debug-color: var(--dui-debug-primitive);
+}
+
+/* Native wrapper — preserves a real native HTML element for its
+ * irreplaceable behaviour (form participation, IME, autofill, etc). */
+[data-dui-debug] [data-dui-component='Button'],
+[data-dui-debug] [data-dui-component='Textarea'],
+[data-dui-debug] [data-dui-component='Textfield'] {
+  --dui-debug-color: var(--dui-debug-native-wrapper);
+}
+
+/* Composite — orchestrates standalone components, no concept of its own. */
+[data-dui-debug] [data-dui-component='AvatarGroup'],
+[data-dui-debug] [data-dui-component='ButtonGroup'],
+[data-dui-debug] [data-dui-component='DataTable'],
+[data-dui-debug] [data-dui-component='RadioGroup'],
+[data-dui-debug] [data-dui-component='ToggleGroup'] {
+  --dui-debug-color: var(--dui-debug-composite);
+}
+
+/* Component — the default, fully-fledged DS components. */
+[data-dui-debug] [data-dui-component='Accordion'],
+[data-dui-debug] [data-dui-component='Alert'],
+[data-dui-debug] [data-dui-component='Avatar'],
+[data-dui-debug] [data-dui-component='Badge'],
+[data-dui-debug] [data-dui-component='Caption'],
+[data-dui-debug] [data-dui-component='Card'],
+[data-dui-debug] [data-dui-component='Checkbox'],
+[data-dui-debug] [data-dui-component='Collapsible'],
+[data-dui-debug] [data-dui-component='Dialog'],
+[data-dui-debug] [data-dui-component='Divider'],
+[data-dui-debug] [data-dui-component='DropdownMenu'],
+[data-dui-debug] [data-dui-component='Frame'],
+[data-dui-debug] [data-dui-component='Icon'],
+[data-dui-debug] [data-dui-component='Label'],
+[data-dui-debug] [data-dui-component='Layout'],
+[data-dui-debug] [data-dui-component='LoadingIndicator'],
+[data-dui-debug] [data-dui-component='Logo'],
+[data-dui-debug] [data-dui-component='Navbar'],
+[data-dui-debug] [data-dui-component='Popover'],
+[data-dui-debug] [data-dui-component='ProgressBar'],
+[data-dui-debug] [data-dui-component='Select'],
+[data-dui-debug] [data-dui-component='Sidebar'],
+[data-dui-debug] [data-dui-component='SidePanel'],
+[data-dui-debug] [data-dui-component='Switch'],
+[data-dui-debug] [data-dui-component='Table'],
+[data-dui-debug] [data-dui-component='Tabs'],
+[data-dui-debug] [data-dui-component='Tag'],
+[data-dui-debug] [data-dui-component='Text'],
+[data-dui-debug] [data-dui-component='Toast'],
+[data-dui-debug] [data-dui-component='Tooltip'],
+[data-dui-debug] [data-dui-component='VideoPlayer'] {
+  --dui-debug-color: var(--dui-debug-component);
+}
+
+.onboarding-notification-container {
+  position: fixed;
+  right: 200px;
+  top: 10px;
+  display: flex;
+  z-index: 1999999999;
+}
+:host {
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+button {
+  font-size: 14px;
+  color: #292c32;
+}
+
+body {
+  font-size: 14px;
+  color: #292c32;
+  background-color: #f5f7f8;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #006494;
+}
+
+.dl-pin {
+  position: absolute;
+  inset-inline-end: 80px;
+  width: 234px;
+  padding-top: 64px;
+  background-image: url("../images/graphics/onboarding/pin-extension.svg");
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+.dl-logo-container {
+  height: 45px;
+  width: 122px;
+  position: absolute;
+  top: 35px;
+  inset-inline-start: 150px;
+}
+.dl-logo-container.isFirefox {
+  display: flex;
+  align-items: center;
+  width: auto;
+}
+
+.dl-onboarding-container {
+  margin: 0 auto;
+  max-width: 580px;
+  padding-top: 38px;
+  font-size: 16px;
+}
+@media (max-width: 1625px) {
+  .dl-onboarding-container {
+    position: initial;
+    width: 100%;
+    padding-top: 100px;
+  }
+}
+.dl-onboarding-container.wideMode {
+  max-width: 985px;
+}
+@media (max-width: 1400px) {
+  .dl-onboarding-container.wideMode {
+    max-width: 700px;
+  }
+}
+.dl-onboarding-container .dl-content {
+  height: 500px;
+}
+@media (max-width: 1400px) {
+  .dl-onboarding-container .dl-content {
+    padding: 8px;
+  }
+}
+
+[dir=rtl].dl-pin {
+  background-position: left top;
+}
+.dl-logo-img {
+  width: 24px;
+  height: 24px;
+}
+
+.dl-logo-with-text {
+  width: 24px;
+  height: 24px;
+  background-image: url(../images/deepl-logo.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-size: cover;
+}
+
+.dl-logo {
+  width: 24px;
+  height: 24px;
+  background-image: url(../images/deepl-logo-no-text.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-size: cover;
+}
+.dl-logo.disabled {
+  background-image: url(../images/deepl-logo-no-text-disabled.svg);
+}
+
+.dl-logo-with-text,
+.dl-logo {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+.dl-steps-navigation-wrapper {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  background-color: #f5f7f8;
+}
+.dl-steps-navigation-wrapper .dl-steps-navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 580px;
+  margin: 0 auto;
+}
+.dl-steps-navigation-wrapper .dl-steps-navigation .back-button,
+.dl-steps-navigation-wrapper .dl-steps-navigation .next-button {
+  width: fit-content;
+  min-width: 70px;
+}
+.dl-steps-navigation-wrapper .dl-steps-navigation .dl-navigation {
+  flex-grow: 1;
+  text-align: center;
+}
+.dl-steps-navigation-wrapper .dl-steps-navigation .dl-navigation li {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  margin-inline-start: 8px;
+  margin-inline-end: 8px;
+}
+.dl-steps-navigation-wrapper .dl-steps-navigation .dl-navigation li a,
+.dl-steps-navigation-wrapper .dl-steps-navigation .dl-navigation li span {
+  display: block;
+  height: 10px;
+  width: 10px;
+  background-color: #dae1e8;
+  border-radius: 50%;
+}
+.dl-steps-navigation-wrapper .dl-steps-navigation .dl-navigation li a:focus-visible {
+  outline: 2px solid #0f2b46;
+  outline-offset: 2px;
+}
+.dl-steps-navigation-wrapper .dl-steps-navigation .dl-navigation li.active a,
+.dl-steps-navigation-wrapper .dl-steps-navigation .dl-navigation li.active span {
+  background-color: #0f2b46;
+}
+.dl-steps-navigation-wrapper .dl-btn {
+  text-align: center;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 8px 16px;
+  line-height: 1em;
+}
+.dl-steps-navigation-wrapper .dl-btn:focus-visible {
+  outline: 2px solid #0f2b46;
+  outline-offset: 2px;
+}
+.dl-steps-navigation-wrapper .dl-btn-primary {
+  border: 0 none;
+  background: #0f2b46;
+  color: White;
+  font-weight: 400;
+  transition: background-color 0.1s ease-in-out;
+}
+.dl-steps-navigation-wrapper .dl-btn-primary:hover {
+  background: #006494;
+}
+.dl-steps-navigation-wrapper .dl-btn-ghost {
+  border: 1px solid #0f2b46;
+  color: #0f2b46;
+  font-weight: 400;
+  transition: border-color 0.1s ease-in-out;
+}
+.dl-steps-navigation-wrapper .dl-btn-ghost:hover {
+  border-color: #006494;
+}
+.dl-step {
+  text-align: center;
+}
+.dl-step .dl-step-title {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  margin-bottom: 16px;
+}
+.dl-step .dl-step-title .badge {
+  font-size: 16px;
+  background-color: #037171;
+  border-radius: 4px;
+  color: white;
+  padding: 4px 8px;
+  line-height: 48px;
+  margin-top: -10px;
+  vertical-align: middle;
+}
+.dl-step .dl-step-description-wrapper {
+  margin-bottom: 32px;
+}
+.dl-step .dl-step-description {
+  line-height: 24px;
+}
+.dl-step .dl-step-illustration {
+  background-position: center top;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 370px;
+}
+.dl-step .dl-step-illustration.dl-step-illustration-1 {
+  background-image: url("../images/graphics/onboarding/step-1.svg");
+}
+.dl-step .dl-step-illustration.dl-step-illustration-2 {
+  background-image: url("../images/graphics/onboarding/step-2.svg");
+}
+.dl-step .dl-step-illustration.dl-step-illustration-3 {
+  background-image: url("../images/graphics/onboarding/step-3.svg");
+}
+.dl-step .dl-step-illustration.dl-step-illustration-5 {
+  background-image: url("../images/graphics/onboarding/step-5.svg");
+}
+.dl-deepl-pro {
+  box-sizing: border-box;
+  border: 1px solid #dae1e8;
+  border-radius: 4px;
+  padding: 40px 24px 32px 24px;
+  max-width: 248px;
+  margin: 0 auto;
+  font-size: 12px;
+}
+.dl-deepl-pro .btn-deepl-pro {
+  background: none;
+  background-color: #f46f52;
+  width: 100%;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: white;
+  border: 0 none;
+  border-radius: 4px;
+  margin-bottom: 24px;
+  padding: 12px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+.dl-deepl-pro .btn-deepl-pro:hover {
+  background-color: #da5e5c;
+}
+.dl-deepl-pro .btn-deepl-pro:focus-visible {
+  outline: 2px solid #0177a9;
+  outline-offset: 2px;
+}
+.dl-deepl-pro .cta-legend {
+  margin-bottom: 32px;
+  color: #037171;
+  line-height: 16px;
+}
+.dl-deepl-pro .deepl-pro-benefits {
+  border-top: 1px solid #dae1e8;
+  padding-top: 24px;
+  text-align: start;
+  line-height: 18px;
+}
+.dl-deepl-pro .deepl-pro-benefits p {
+  margin-bottom: 9px;
+}
+.dl-deepl-pro .deepl-pro-benefits ul li {
+  display: flex;
+  margin-bottom: 6px;
+}
+.dl-deepl-pro .deepl-pro-benefits .read-more {
+  border: 0 none;
+  margin-inline-start: 28px;
+  background: none;
+  font-size: 12px;
+  line-height: 18px;
+  color: #449ac4;
+  text-decoration: underline;
+  text-align: start;
+  cursor: pointer;
+}
+.dl-deepl-pro .deepl-pro-benefits .read-more:hover {
+  color: #05668d;
+}
+.dl-deepl-pro .deepl-pro-benefits .read-more:focus-visible {
+  outline: 2px solid #0177a9;
+  outline-offset: 2px;
+}
+.dl-apps-container {
+  display: flex;
+  flex-direction: row;
+  color: #242b34;
+  padding-top: 42px;
+}
+.dl-apps-container .dl-apps-bottom-row {
+  background-color: white;
+  height: fit-content;
+  display: flex;
+  border: 1px solid #dae1e8;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.dl-apps-container .dl-apps-bottom-row:hover {
+  border-color: #449ac4;
+  box-shadow: none;
+}
+.dl-apps-container .dl-apps-description {
+  width: 50%;
+  word-wrap: break-word;
+  text-align: start;
+}
+@media (max-width: 1400px) {
+  .dl-apps-container .dl-apps-description {
+    width: 35%;
+    margin-inline-end: 5%;
+  }
+}
+.dl-apps-container .dl-apps-description .title {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+@media (max-width: 1400px) {
+  .dl-apps-container .dl-apps-description .title {
+    font-size: 24px;
+  }
+}
+.dl-apps-container .dl-apps-description p {
+  font-size: 20px;
+  font-weight: 400;
+}
+@media (max-width: 1400px) {
+  .dl-apps-container .dl-apps-description p {
+    font-size: 14px;
+  }
+}
+.dl-apps-container .dl-apps-description p.first {
+  margin-bottom: 20px;
+}
+.dl-apps-container .dl-apps-tiles {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 1400px) {
+  .dl-apps-container .dl-apps-tiles {
+    width: 60%;
+  }
+}
+.dl-apps-container .dl-apps-tiles .img-container {
+  padding: 8px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.dl-apps-container .dl-apps-tiles .img-container img {
+  width: 100%;
+  height: fit-content;
+}
+@media (max-width: 1400px) {
+  .dl-apps-container .dl-apps-tiles .img-container {
+    width: 60%;
+  }
+}
+.dl-apps-container .dl-apps-tiles .content {
+  width: 50%;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media (max-width: 1400px) {
+  .dl-apps-container .dl-apps-tiles .content {
+    width: 40%;
+  }
+}
+.dl-apps-container .dl-apps-tiles .content .content-title {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: start;
+  align-self: flex-start;
+  margin-bottom: 8px;
+}
+.dl-apps-container .dl-apps-tiles .content p {
+  text-align: start;
+  font-size: 12px;
+  margin-bottom: 8px;
+  align-self: flex-start;
+}
+.dl-apps-container .dl-apps-tiles .content .cta {
+  border: none;
+  background: none;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 590;
+  letter-spacing: 0em;
+  text-align: end;
+  color: #0177a9;
+  margin-top: auto;
+  cursor: pointer;
+}
+.dl-apps-container .dl-apps-tiles .content .cta:focus-visible {
+  outline: 2px solid #0177a9;
+  outline-offset: 2px;
+}
+.dl-apps-container .dl-apps-tiles .all-integrations {
+  border: none;
+  width: 100%;
+  background-color: #f5f7f8;
+  font-family: inherit;
+  text-align: end;
+  padding-top: 10px;
+  color: #0177a9;
+  cursor: pointer;
+}
+.dl-apps-container .dl-apps-tiles .all-integrations:focus-visible {
+  outline: 2px solid #0177a9;
+  outline-offset: 2px;
+}
+.dl-apps-container .dl-apps-top-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 8px;
+}
+.dl-apps-container .dl-app {
+  background-color: white;
+  border: 1px solid #dae1e8;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  font-size: 12px;
+  height: 160px;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  margin-bottom: 5px;
+  color: #727a83;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  background-size: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+}
+@media (max-width: 1400px) {
+  .dl-apps-container .dl-app {
+    height: 130px;
+  }
+}
+.dl-apps-container .dl-app:hover {
+  border-color: #449ac4;
+  box-shadow: none;
+}
+.dl-apps-container .dl-app:focus-visible {
+  outline: 2px solid #0177a9;
+  outline-offset: 2px;
+}
+.dl-apps-container .dl-app .dl-app-cta {
+  font-size: 14px;
+  font-weight: 590;
+  text-align: center;
+  color: #0177a9;
+}
+.dl-apps-container .dl-app .dl-app-image {
+  height: 78px;
+  width: 100%;
+  margin-bottom: 12px;
+}
+.dl-apps-container .dl-app .dl-app-image img {
+  height: 100%;
+  width: auto;
+}
+@media (max-width: 1400px) {
+  .dl-apps-container .dl-app .dl-app-image {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 8px;
+  }
+}
+@keyframes dl-notification-fly-in {
+  from {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes dl-notification-fly-out {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+}
+.dl-notification-container {
+  padding: 16px 32px;
+  width: 350px;
+  background-color: #ffffff;
+  border: 1px solid #dde3e9;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.dl-notification-container.dl-visible {
+  animation: dl-notification-fly-in 1000ms ease;
+}
+.dl-notification-container.dl-exiting {
+  animation: dl-notification-fly-out 1000ms ease forwards;
+}
+.dl-notification-container.green_theme {
+  background-color: #b8dbd3;
+}
+.dl-notification-container.ads_theme {
+  background-color: #0f2b46;
+  width: 450px;
+  border-radius: 6px;
+  border: 1px solid #0f2b46;
+}
+.dl-notification-container.success {
+  color: #008563;
+  background-color: #b8dbd3;
+  width: 300px;
+  cursor: default;
+}
+.dl-notification-container.warning_theme {
+  color: #622700;
+  background-color: #fff9ee;
+  border: 1px solid #ffe9bc;
+  padding-left: 16px;
+}
+.dl-notification-container .header .dl-close-icon {
+  border: 0 none;
+  background-color: transparent;
+  cursor: pointer;
+  height: 24px;
+  width: 24px;
+  border-radius: 12px;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: background-color 0.3s ease-in-out;
+  background-image: url("../images/buttons/close.svg");
+}
+.dl-notification-container .header .dl-close-icon:hover {
+  background-color: #f2f4f7;
+}
+.dl-notification-container .header .dl-close-icon {
+  position: absolute;
+  top: 5px;
+  inset-inline-end: 5px;
+}
+.dl-notification-container .header .dl-close-icon.green_theme:hover {
+  background-color: #a8c6bf;
+}
+.dl-notification-container .body {
+  line-height: 20px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  color: #292c32;
+}
+.dl-notification-container .body.green_theme {
+  color: #006c51;
+}
+.dl-notification-container .body.warning_theme {
+  color: #622700;
+  display: flex;
+  gap: 12px;
+}
+.dl-notification-account-created {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  margin-left: -16px;
+}
+.dl-notification-loggedin {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  margin-left: -16px;
+}
+.dl-notification-keyboard-shortcut {
+  cursor: pointer;
+}
+.dl-notification-inline-translation {
+  cursor: pointer;
+}
+.dl-notification-input-translation {
+  cursor: pointer;
+}
+.dl-notification-gslides-main-text {
+  font-weight: 700;
+}
+.dl-notifications-fpt {
+  cursor: pointer;
+}
+.dl-ads-for-addins {
+  font-size: 14px;
+  margin-left: -16px;
+  padding-left: 50px;
+  background-image: url("../images/deepl-logo-white.svg");
+  background-position: left 5px;
+  background-repeat: no-repeat;
+  line-height: 20px;
+  color: #ffffff;
+}
+.dl-ads-for-addins_headline {
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+  padding-bottom: 4px;
+}
+.dl-ads-for-addins_wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+.dl-ads-for-addins_button {
+  padding: 5px 16px 7px 16px;
+  border-radius: 4px;
+  border: 1px solid #dbe0e5;
+  background-color: #ffffff;
+  cursor: pointer;
+  width: fit-content;
+  color: #242b34;
+  margin-top: 24px;
+}

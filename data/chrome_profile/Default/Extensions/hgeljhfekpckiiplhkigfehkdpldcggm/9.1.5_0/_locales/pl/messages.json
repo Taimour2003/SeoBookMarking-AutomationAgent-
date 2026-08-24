@@ -1,0 +1,2186 @@
+{
+   "action_on_detection": {
+      "message": "Akcja przy detekcji"
+   },
+   "action_report_bug_feedback": {
+      "message": "Zgłoś błąd / Opinia"
+   },
+   "action_stop_refresh": {
+      "message": "Zatrzymaj odświeżanie"
+   },
+   "active_tabs_alerts_help": {
+      "message": "Karty z alertem monitora. Odrzuć pojedyncze alerty lub wyczyść wszystko."
+   },
+   "active_tabs_alerts_title": {
+      "message": "Alerty"
+   },
+   "active_tabs_clear_all": {
+      "message": "wyczyść wszystko"
+   },
+   "active_tabs_paused": {
+      "message": "wstrzymane"
+   },
+   "active_tabs_refreshing_help": {
+      "message": "Karty z automatycznym odświeżaniem. Najedź, aby wstrzymać, uruchomić ponownie lub zatrzymać."
+   },
+   "active_tabs_refreshing_title": {
+      "message": "Odświeżanie"
+   },
+   "active_tabs_stop_all": {
+      "message": "zatrzymaj wszystko"
+   },
+   "active_tabs_time_day_ago": {
+      "message": "%1 dzień temu"
+   },
+   "active_tabs_time_days_ago": {
+      "message": "%1 dni temu"
+   },
+   "active_tabs_time_hour_ago": {
+      "message": "%1 godz. temu"
+   },
+   "active_tabs_time_hours_ago": {
+      "message": "%1 godz. temu"
+   },
+   "active_tabs_time_just_now": {
+      "message": "Przed chwilą"
+   },
+   "active_tabs_time_min_ago": {
+      "message": "%1 min temu"
+   },
+   "active_tabs_time_sec_ago": {
+      "message": "%1 s temu"
+   },
+   "add": {
+      "message": "Dodaj"
+   },
+   "add_email": {
+      "message": "Dodaj email"
+   },
+   "add_email_tooltip": {
+      "message": "Dodaj adres e-mail, aby otrzymywać alerty"
+   },
+   "add_keywords": {
+      "message": "Dodaj domyślne słowa kluczowe docelowe"
+   },
+   "add_new": {
+      "message": "Dodaj nowy"
+   },
+   "added": {
+      "message": "Dodano"
+   },
+   "alert_settings": {
+      "message": "Ustawienia alertu"
+   },
+   "alert_when_any_change_detected": {
+      "message": "Auto Refresh Plus powiadomi Cię o wszelkich zmianach wykrytych na tej stronie"
+   },
+   "alert_when_keyword_appears": {
+      "message": "Otrzymaj powiadomienie, gdy pojawi się Twoje słowo kluczowe."
+   },
+   "alert_when_keyword_disappears": {
+      "message": "Otrzymaj powiadomienie, gdy Twoje słowo kluczowe znika."
+   },
+   "all_days": {
+      "message": "Wszystkie dni"
+   },
+   "any": {
+      "message": "Jakikolwiek"
+   },
+   "app_description": {
+      "description": "The description of extension",
+      "message": "Automatycznie odświeżaj stronę dzięki zaawansowanym funkcjom monitorowania strony."
+   },
+   "app_name": {
+      "description": "The extension name",
+      "message": "Auto Refresh Plus | Page Monitor"
+   },
+   "appearance": {
+      "message": "Wygląd"
+   },
+   "apply": {
+      "message": "Zastosuj"
+   },
+   "are_you_sure": {
+      "message": "Czy na pewno chcesz usunąć?"
+   },
+   "ast": {
+      "message": "Czasomierz odliczania"
+   },
+   "auto_click_element_aria": {
+      "message": "Selektor elementu auto-kliknięcia"
+   },
+   "auto_click_element_label": {
+      "message": "element auto-kliknięcia"
+   },
+   "auto_click_help": {
+      "message": "Automatycznie klikaj link, jeśli monitorowane słowo kluczowe zawiera link."
+   },
+   "auto_click_targets_desc": {
+      "message": "Klikaj elementy po każdym odświeżeniu lub przy dopasowaniu słowa kluczowego"
+   },
+   "auto_click_targets_label": {
+      "message": "Cele automatycznych kliknięć"
+   },
+   "auto_clicker": {
+      "message": "Automatyczne klikanie"
+   },
+   "auto_clicker_msg1": {
+      "message": "Automatyczne klikanie słowa kluczowego monitora"
+   },
+   "auto_disable_on_first": {
+      "message": "Automatycznie wyłącz przy pierwszym uruchomieniu"
+   },
+   "auto_disable_on_first_desc": {
+      "message": "Wyłącz ten harmonogram po pierwszym uruchomieniu"
+   },
+   "auto_stop_schedule": {
+      "message": "Automatyczny stop"
+   },
+   "auto_stop_schedule_desc": {
+      "message": "np. odświeżanie między 10–11"
+   },
+   "auto_tasks_add_another": {
+      "message": "Dodaj kolejne kliknięcie"
+   },
+   "auto_tasks_add_element": {
+      "message": "Dodaj element"
+   },
+   "auto_tasks_empty": {
+      "message": "Nie dodano jeszcze żadnych elementów"
+   },
+   "auto_tasks_help": {
+      "message": "Automatycznie klika wybrane elementy na stronie."
+   },
+   "auto_tasks_label": {
+      "message": "Klikaj dodatkowe elementy"
+   },
+   "auto_tasks_new_tab_short": {
+      "message": "Nowa karta"
+   },
+   "auto_tasks_open_in_new_tab": {
+      "message": "Otwórz w nowej karcie, jeśli to link"
+   },
+   "auto_tasks_open_new_tab_aria": {
+      "message": "Otwórz kliknięcie %1 w nowej karcie"
+   },
+   "auto_tasks_options": {
+      "message": "Opcje"
+   },
+   "auto_tasks_pick": {
+      "message": "Wybierz"
+   },
+   "auto_tasks_remove": {
+      "message": "Usuń"
+   },
+   "auto_tasks_remove_target_aria": {
+      "message": "Usuń cel kliknięcia %1"
+   },
+   "auto_tasks_selector_aria": {
+      "message": "Selektor CSS dla celu kliknięcia %1"
+   },
+   "auto_tasks_set_selector": {
+      "message": "Ustaw selektor…"
+   },
+   "auto_tasks_toggle_target_aria": {
+      "message": "Przełącz cel kliknięcia %1"
+   },
+   "auto_tasks_trigger": {
+      "message": "Wyzwalacz"
+   },
+   "auto_tasks_trigger_each_refresh": {
+      "message": "Przy każdym odświeżeniu"
+   },
+   "auto_tasks_trigger_on_detection": {
+      "message": "Gdy uruchamia się alert"
+   },
+   "auto_tasks_trigger_on_detection_short": {
+      "message": "Przy wykryciu"
+   },
+   "auto_tasks_trigger_refresh_short": {
+      "message": "Odśwież"
+   },
+   "bad": {
+      "message": "Złe"
+   },
+   "behavior_on_interaction": {
+      "message": "Zachowanie przy interakcji"
+   },
+   "bulk_keywords_results": {
+      "message": "Wyniki słów kluczowych hurtowo"
+   },
+   "calendar_weekday_fri": {
+      "message": "Pt"
+   },
+   "calendar_weekday_mon": {
+      "message": "Pn"
+   },
+   "calendar_weekday_sat": {
+      "message": "So"
+   },
+   "calendar_weekday_sun": {
+      "message": "Nd"
+   },
+   "calendar_weekday_thu": {
+      "message": "Cz"
+   },
+   "calendar_weekday_tue": {
+      "message": "Wt"
+   },
+   "calendar_weekday_wed": {
+      "message": "Śr"
+   },
+   "cancel": {
+      "message": "Anuluj"
+   },
+   "captcha_detection": {
+      "message": "Detekcja Captcha"
+   },
+   "caution_badge": {
+      "message": "Uwaga"
+   },
+   "choose_interval": {
+      "message": "Wybierz interwał czasu"
+   },
+   "clear": {
+      "message": "Wyczyść"
+   },
+   "clear_all": {
+      "message": "Wyczyść wszystko"
+   },
+   "clear_all_keywords": {
+      "message": "Wyczyść wszystkie słowa kluczowe"
+   },
+   "clear_all_keywords_desc": {
+      "message": "Czy na pewno chcesz wyczyścić wszystkie słowa kluczowe?"
+   },
+   "click_automation_title": {
+      "message": "Automatyzacja kliknięć"
+   },
+   "close": {
+      "message": "Zamknij"
+   },
+   "continue": {
+      "message": "Kontynuuj"
+   },
+   "continue_refreshing_after_alert": {
+      "message": "Kontynuuj odświeżanie po alercie"
+   },
+   "continue_refreshing_help": {
+      "message": "Wyzwól alert po detekcji słowa kluczowego, ale kontynuuj normalne odświeżanie."
+   },
+   "continue_refreshing_switch_desc": {
+      "message": "Kontynuuj odświeżanie po alarmie"
+   },
+   "copy_expression": {
+      "message": "Skopiuj wyrażenie"
+   },
+   "copy_to_clipboard": {
+      "message": "Skopiuj do schowka"
+   },
+   "countdown_decrease_hours": {
+      "message": "Zmniejsz godziny"
+   },
+   "countdown_decrease_min": {
+      "message": "Zmniejsz min"
+   },
+   "countdown_decrease_sec": {
+      "message": "Zmniejsz sek"
+   },
+   "countdown_duration_label": {
+      "message": "czas odliczania"
+   },
+   "countdown_fires_after": {
+      "message": "uruchamia się po %1"
+   },
+   "countdown_hms_header": {
+      "message": "h : m : s"
+   },
+   "countdown_hours_value": {
+      "message": "Wartość godzin"
+   },
+   "countdown_increase_hours": {
+      "message": "Zwiększ godziny"
+   },
+   "countdown_increase_min": {
+      "message": "Zwiększ min"
+   },
+   "countdown_increase_sec": {
+      "message": "Zwiększ sek"
+   },
+   "countdown_min_value": {
+      "message": "Wartość minut"
+   },
+   "countdown_sec_value": {
+      "message": "Wartość sekund"
+   },
+   "countdown_target_date_time": {
+      "message": "docelowa data i godzina"
+   },
+   "countdown_timer_modes_help": {
+      "message": "Wybierz sposób działania timera: Czas odlicza od ustawionych godzin/minut/sekund; Data i godzina uruchamia się raz w wybranym momencie."
+   },
+   "countdown_triggers_once": {
+      "message": "uruchamia się raz w wybranym momencie"
+   },
+   "countdown_unit_hours": {
+      "message": "Godz"
+   },
+   "countdown_unit_min": {
+      "message": "Min"
+   },
+   "countdown_unit_sec": {
+      "message": "Sek"
+   },
+   "css_selector": {
+      "message": "Selektor CSS"
+   },
+   "css_selector_aria": {
+      "message": "Selektor CSS"
+   },
+   "css_selector_placeholder": {
+      "message": "np. button lub a[href=\"/login\"]"
+   },
+   "custom": {
+      "message": "Niestandardowy"
+   },
+   "custom_expression": {
+      "message": "Wyrażenie niestandardowe"
+   },
+   "custom_expression_desc": {
+      "message": "Jest inicjalizowany dwoma symbolami ##, są to oświadczenia logiczne dla operatorów OR i AND. Musi być zamknięty w nawiasach (łącznie 4 nawiasy)."
+   },
+   "custom_expression_example_1_desc": {
+      "message": "Wyszukuje \"W magazynie\" LUB \"dostępne\" I \"Dodaj do koszyka\" LUB \"Kup teraz\""
+   },
+   "custom_expression_example_2_desc": {
+      "message": "Wyszukuje \"sprzedaż\" LUB \"zniżka\" I \"50%\" LUB \"30%\""
+   },
+   "custom_expression_example_3_desc": {
+      "message": "Wyrażenie logiczne przy użyciu operatorów OR (|) i AND z nawiasami"
+   },
+   "custom_interval": {
+      "message": "Niestandardowy interwał"
+   },
+   "custom_interval_desc": {
+      "message": "Ustaw dokładne godziny, minuty i sekundy"
+   },
+   "custom_monitor": {
+      "message": "Niestandardowe monitorowanie"
+   },
+   "custom_time_interval": {
+      "message": "Niestandardowy interwał czasowy"
+   },
+   "date_picker_next_month": {
+      "message": "Następny miesiąc"
+   },
+   "date_picker_previous_month": {
+      "message": "Poprzedni miesiąc"
+   },
+   "date_time_desc": {
+      "message": "Ustaw odliczanie do wyzwolenia w określonym dniu i godzinie."
+   },
+   "date_time_mode": {
+      "message": "Tryb daty i godziny"
+   },
+   "date_time_target": {
+      "message": "Docelowa data i godzina"
+   },
+   "day_abbr_fri": {
+      "message": "Pt"
+   },
+   "day_abbr_mon": {
+      "message": "Pn"
+   },
+   "day_abbr_sat": {
+      "message": "Sb"
+   },
+   "day_abbr_sun": {
+      "message": "Nd"
+   },
+   "day_abbr_thu": {
+      "message": "Cz"
+   },
+   "day_abbr_tue": {
+      "message": "Wt"
+   },
+   "day_abbr_wed": {
+      "message": "Śr"
+   },
+   "decrease_aria": {
+      "message": "Zmniejsz"
+   },
+   "default_help_description": {
+      "message": "Możesz również skonfigurować \"%1\" w Ustawieniach ogólnych, aby zastosować to do wszystkich stron internetowych."
+   },
+   "default_interval": {
+      "message": "Domyślny interwał czasu"
+   },
+   "delay_before_scanning": {
+      "message": "Opóźnienie przed skanowaniem"
+   },
+   "detect_any_change": {
+      "message": "Auto Refresh Plus wykrył zmianę na tej stronie."
+   },
+   "detect_any_change_title": {
+      "message": "Monitor strony"
+   },
+   "detect_captcha_on_page": {
+      "message": "Wykryj Captcha na stronie"
+   },
+   "detect_error_on_page": {
+      "message": "Wykryj strony błędów (np. 404)"
+   },
+   "detection_behavior": {
+      "message": "Zachowanie detekcji"
+   },
+   "developer_mode_msg": {
+      "message": "Ze względów bezpieczeństwa i stabilności tryb dewelopera nie jest dozwolony.\u003Cbr> Pobierz i zainstaluj rozszerzenie z oficjalnego sklepu, aby upewnić się, że masz najnowszą i najbardziej bezpieczną wersję"
+   },
+   "dismiss": {
+      "message": "Odrzuć"
+   },
+   "dismiss_alert": {
+      "message": "Odrzuć alert"
+   },
+   "donation_msg2": {
+      "message": "Już to zrobiłem."
+   },
+   "download_in_store": {
+      "message": "Zainstaluj ze sklepu internetowego"
+   },
+   "duplicates": {
+      "message": "Duplikaty"
+   },
+   "duration_desc": {
+      "message": "Ustaw odliczanie przy użyciu godzin, minut i sekund."
+   },
+   "duration_help": {
+      "message": "Użyj tej akcji, aby ustawić odliczanie na podstawie określonego czasu trwania w godzinach, minutach i sekundach"
+   },
+   "duration_mode": {
+      "message": "Tryb czasu trwania"
+   },
+   "email_alert_help": {
+      "message": "Alerty e-mail powiadamiają Cię, gdy zachodzą określone zmiany lub zdarzenia. Dodaj adres e-mail, aby rozpocząć odbieranie tych powiadomień"
+   },
+   "email_alerts_switch_desc": {
+      "message": "Wyślij e-mail, gdy monitor się uruchomi"
+   },
+   "email_daily_limit": {
+      "message": "%1 / %2 dzienny limit"
+   },
+   "email_disconnect": {
+      "message": "Odłącz"
+   },
+   "email_limit_reached": {
+      "message": "Osiągnięto limit e-maili"
+   },
+   "email_limit_toast_description": {
+      "message": "Osiągnąłeś dzienny limit e-maili. Uaktualnij, aby kontynuować wysyłanie alertów e-mail."
+   },
+   "email_remaining_count": {
+      "message": "%1 pozostało"
+   },
+   "email_sent_today": {
+      "message": "%1 wysłane dziś"
+   },
+   "email_usage_count": {
+      "message": "E-maile wysłane dzisiaj: %1 / %2"
+   },
+   "emails_remaining": {
+      "message": "pozostałe e-maile"
+   },
+   "enable_captcha_detection_help": {
+      "message": "Włącz, aby wykryć, gdy pojawia się wyzwanie captcha."
+   },
+   "enable_error_detection_help": {
+      "message": "Włącz, aby wykryć nieudane lub uszkodzone strony."
+   },
+   "enter_custom_interval": {
+      "message": "Wprowadź niestandardowy interwał w sekundach."
+   },
+   "enter_time_duration": {
+      "message": "Wprowadź czas trwania"
+   },
+   "error_page_detection": {
+      "message": "Detekcja strony błędu"
+   },
+   "error_save_preferences": {
+      "message": "Nie udało się zapisać preferencji. Spróbuj ponownie."
+   },
+   "error_schedule_one_day": {
+      "message": "Musisz wybrać co najmniej jeden dzień."
+   },
+   "error_stop_time": {
+      "message": "Czas zatrzymania musi być później niż czas rozpoczęcia."
+   },
+   "example": {
+      "message": "Przykład"
+   },
+   "expression_templates": {
+      "message": "Szablony wyrażeń"
+   },
+   "ext_action_failed": {
+      "message": "Akcja nie powiodła się"
+   },
+   "ext_applying": {
+      "message": "Stosowanie..."
+   },
+   "ext_approve_action": {
+      "message": "zatwierdzić"
+   },
+   "ext_approve_apply": {
+      "message": "Zatwierdź i zastosuj"
+   },
+   "ext_auto_generated": {
+      "message": "(wygenerowany automatycznie)"
+   },
+   "ext_blacklist": {
+      "message": "Czarna lista"
+   },
+   "ext_changes_merged": {
+      "message": "Zmiany, które zostaną scalone z opcjami lokalnymi."
+   },
+   "ext_code": {
+      "message": "Kod"
+   },
+   "ext_completed": {
+      "message": "Zakończono"
+   },
+   "ext_configuration_review": {
+      "message": "Przegląd konfiguracji"
+   },
+   "ext_created": {
+      "message": "Utworzono"
+   },
+   "ext_current": {
+      "message": "Aktualne"
+   },
+   "ext_custom_script": {
+      "message": "Skrypt niestandardowy"
+   },
+   "ext_custom_script_add_new": {
+      "message": "Skrypt niestandardowy (Dodaj nowy)"
+   },
+   "ext_custom_script_add_only": {
+      "message": "Ta operacja tylko dodaje nowy skrypt i nigdy nie nadpisuje w ciszy istniejących skryptów."
+   },
+   "ext_domain_config": {
+      "message": "Konfig. domeny"
+   },
+   "ext_domain_configuration": {
+      "message": "Konfiguracja domeny"
+   },
+   "ext_empty": {
+      "message": "(pusty)"
+   },
+   "ext_enabled": {
+      "message": "Włączone"
+   },
+   "ext_error_action": {
+      "message": "Nie udało się %1 żądania."
+   },
+   "ext_error_storage": {
+      "message": "Nie udało się odczytać oczekującej recenzji z magazynu rozszerzenia."
+   },
+   "ext_error_sync": {
+      "message": "Nie udało się %1 żądania z powodu błędu synchronizacji magazynu."
+   },
+   "ext_execution_timing": {
+      "message": "Czas wykonania"
+   },
+   "ext_expires": {
+      "message": "Wygasa"
+   },
+   "ext_extension_wide_settings": {
+      "message": "Ustawienia rozszerzenia"
+   },
+   "ext_field": {
+      "message": "Pole"
+   },
+   "ext_global_options": {
+      "message": "Opcje globalne"
+   },
+   "ext_global_options_changes": {
+      "message": "Zmiany opcji globalnych"
+   },
+   "ext_id": {
+      "message": "ID"
+   },
+   "ext_injection_type": {
+      "message": "Typ iniekcji"
+   },
+   "ext_name": {
+      "message": "Nazwa"
+   },
+   "ext_new": {
+      "message": "Nowe"
+   },
+   "ext_new_script_injection": {
+      "message": "Nowa iniekcja skryptu"
+   },
+   "ext_no_changes_detected": {
+      "message": "Nie wykryto skutecznych zmian."
+   },
+   "ext_no_pending_description": {
+      "message": "Brak oczekujących zmian do przejrzenia. Ta strona pojawi się, gdy zewnętrzne źródło zażąda aktualizacji konfiguracji."
+   },
+   "ext_no_pending_request": {
+      "message": "Brak oczekujących żądań"
+   },
+   "ext_proposed_changes": {
+      "message": "Proponowane zmiany"
+   },
+   "ext_refresh": {
+      "message": "Odśwież"
+   },
+   "ext_reject": {
+      "message": "Odrzuć"
+   },
+   "ext_reject_action": {
+      "message": "odrzucić"
+   },
+   "ext_rejecting": {
+      "message": "Odrzucanie..."
+   },
+   "ext_request": {
+      "message": "Żądanie"
+   },
+   "ext_review_description": {
+      "message": "Przejrzyj proponowane zmiany i zatwierdź tylko, jeśli odpowiadają Twoim zamiarom. Nic nie zostanie zastosowane, dopóki nie potwierdzisz."
+   },
+   "ext_review_pending_changes": {
+      "message": "Przejrzyj oczekujące zmiany"
+   },
+   "ext_site_specific_rules": {
+      "message": "Reguły specyficzne dla witryny"
+   },
+   "ext_source": {
+      "message": "Źródło"
+   },
+   "ext_target": {
+      "message": "Cel"
+   },
+   "ext_type": {
+      "message": "Typ"
+   },
+   "ext_unknown": {
+      "message": "Nieznane"
+   },
+   "ext_url_pattern": {
+      "message": "Wzorzec URL"
+   },
+   "ext_whitelist": {
+      "message": "Biała lista"
+   },
+   "extension_settings": {
+      "message": "Ustawienia rozszerzenia"
+   },
+   "extension_update_dismiss_aria": {
+      "message": "Zamknij powiadomienie o aktualizacji"
+   },
+   "extension_update_notification_aria": {
+      "message": "Powiadomienie o aktualizacji rozszerzenia"
+   },
+   "extension_updated_to_version": {
+      "message": "Rozszerzenie zaktualizowane do v%1"
+   },
+   "feature_is_premium": {
+      "message": "%1 to funkcja premium. Uaktualnij, aby uzyskać dostęp do wszystkich narzędzi premium i ulepsz swoje doświadczenie."
+   },
+   "find_mtr_msg": {
+      "message": "Znajdź tekst monitorowania w"
+   },
+   "follow_all_redirects": {
+      "message": "Śledź wszystkie przekierowania"
+   },
+   "follow_all_redirects_desc": {
+      "message": "Kontynuuj odświeżanie, nawet jeśli strona jest przekierowana na inny adres URL."
+   },
+   "follow_canonical_url": {
+      "message": "Śledź kanoniczny adres URL"
+   },
+   "follow_canonical_url_desc": {
+      "message": "Użyj kanonicznego (oryginalnego) adresu URL strony."
+   },
+   "found": {
+      "message": "Znalezione"
+   },
+   "frozen_tab_noti_message": {
+      "message": "Przeglądarka zamroziła tę kartę w tle, aby zaoszczędzić pamięć. Automatyczne odświeżanie wznowi się po powrocie do tej karty."
+   },
+   "frozen_tab_noti_title": {
+      "message": "Automatyczne odświeżanie wstrzymane"
+   },
+   "full_documentation": {
+      "message": "Pełna dokumentacja"
+   },
+   "full_page": {
+      "message": "Pełne odświeżenie strony"
+   },
+   "full_page_type_desc": {
+      "message": "Przeładuj całą stronę, aby sprawdzić zmiany"
+   },
+   "full_page_type_help": {
+      "message": "Normalne odświeżenie pozwala sprawdzić zmiany na całej stronie, w tym całą zawartość i zasoby."
+   },
+   "go_premium_full_access": {
+      "message": "Przejdź na Premium – Pełny dostęp"
+   },
+   "go_to_top": {
+      "description": "Accessible label for scroll-to-top button",
+      "message": "Do góry"
+   },
+   "go_top": {
+      "message": "Góra"
+   },
+   "good": {
+      "message": "Dobrze"
+   },
+   "grace_period_banner": {
+      "message": "Okres karencji wygasa 1 lipca. Funkcje premium zostaną wyłączone"
+   },
+   "grace_period_consent_body": {
+      "message": "Za chwilę utracisz dostęp do funkcji Premium. Czy na pewno chcesz kontynuować z darmowym planem?"
+   },
+   "grace_period_consent_title": {
+      "message": "Kontynuować bez Premium?"
+   },
+   "grace_period_dismiss_aria": {
+      "message": "Zamknij powiadomienie o karencji"
+   },
+   "grace_period_expired_data_safe": {
+      "message": "Twoje ustawienia i dane są bezpieczne i pozostaną zapisane."
+   },
+   "grace_period_expired_description": {
+      "message": "Funkcje Premium nie są już aktywne na Twoim koncie."
+   },
+   "grace_period_expired_disable_button": {
+      "message": "Wyłącz funkcje Premium"
+   },
+   "grace_period_expired_title": {
+      "message": "Okres karencji wygasł"
+   },
+   "grace_period_expired_upgrade_button": {
+      "message": "Przejdź na Premium"
+   },
+   "grace_period_expired_upgrade_hint": {
+      "message": "Możesz w każdej chwili przejść na Premium, aby przywrócić wszystkie funkcje Premium."
+   },
+   "grace_period_ok_with_free": {
+      "message": "Kontynuuj z darmową wersją"
+   },
+   "grace_period_upgrade_button": {
+      "message": "Zachowaj Premium"
+   },
+   "great": {
+      "message": "Świetnie!"
+   },
+   "handle_redirects": {
+      "message": "Obsługa przekierowań"
+   },
+   "hard_refresh": {
+      "message": "Twarde odświeżenie"
+   },
+   "hard_refresh_desc": {
+      "message": "Pomijaj pamięć podręczną przy każdym przeładowaniu"
+   },
+   "hard_refresh_help": {
+      "message": "Przeładuj stronę bez polegania na buforowanych danych."
+   },
+   "highlight_element": {
+      "message": "Wyróżnij element na stronie"
+   },
+   "highlight_keyword": {
+      "message": "Wyróżnij słowo kluczowe na stronie"
+   },
+   "highlight_keyword_desc": {
+      "message": "Podświetl dopasowane słowo kluczowe"
+   },
+   "highlight_keyword_help": {
+      "message": "Po wykryciu słowa kluczowego będzie ono wizualnie wyróżnione na stronie."
+   },
+   "hotkeys_label": {
+      "message": "Skróty klawiszowe"
+   },
+   "hour": {
+      "message": "Godzina"
+   },
+   "hours": {
+      "message": "Godziny"
+   },
+   "increase_aria": {
+      "message": "Zwiększ"
+   },
+   "individual_plan": {
+      "message": "plan indywidualny"
+   },
+   "individual_plan_starts_at": {
+      "message": "Plan indywidualny zaczyna się od $2.99"
+   },
+   "interaction_help": {
+      "message": "Automatycznie zatrzymaj odświeżanie, gdy użytkownik wchodzi w interakcję ze stroną."
+   },
+   "interactions_switch_desc": {
+      "message": "Co się dzieje podczas korzystania ze strony"
+   },
+   "interactions_title_opt": {
+      "message": "Zachowanie odświeżania podczas interakcji użytkownika"
+   },
+   "interval": {
+      "message": "Interwał"
+   },
+   "interval_card_custom_duration": {
+      "message": "niestandardowy czas"
+   },
+   "interval_card_interval": {
+      "message": "Interwał"
+   },
+   "interval_card_random_range": {
+      "message": "zakres losowy"
+   },
+   "interval_custom_summary": {
+      "message": "co %1h %2m %3s"
+   },
+   "interval_decrease_by": {
+      "message": "Zmniejsz o %1"
+   },
+   "interval_edit_custom_aria": {
+      "message": "Edytuj niestandardowy interwał"
+   },
+   "interval_in_seconds_aria": {
+      "message": "Interwał w sekundach"
+   },
+   "interval_increase_by": {
+      "message": "Zwiększ o %1"
+   },
+   "interval_max_sec": {
+      "message": "max (sek)"
+   },
+   "interval_max_sec_aria": {
+      "message": "maksymalne sekundy"
+   },
+   "interval_min_sec": {
+      "message": "min (sek)"
+   },
+   "interval_min_sec_aria": {
+      "message": "minimalne sekundy"
+   },
+   "interval_modes_help": {
+      "message": "Stały: odświeżaj co N sekund. Losowy: zmieniaj interwał w zakresie. Niestandardowy: ustaw dokładny czas w godzinach/minutach/sekundach."
+   },
+   "interval_preset_minutes": {
+      "message": "%1m"
+   },
+   "interval_preset_seconds": {
+      "message": "%1s"
+   },
+   "interval_random_summary": {
+      "message": "odświeża co %1–%2 s"
+   },
+   "interval_range_to": {
+      "message": "do"
+   },
+   "interval_tab_custom": {
+      "message": "Własny"
+   },
+   "interval_tab_fixed": {
+      "message": "Stały"
+   },
+   "interval_tab_random": {
+      "message": "Losowy"
+   },
+   "interval_unit_hrs": {
+      "message": "godz"
+   },
+   "interval_unit_min": {
+      "message": "min"
+   },
+   "interval_unit_sec": {
+      "message": "sek"
+   },
+   "interval_unit_seconds_header": {
+      "message": "sekundy"
+   },
+   "keyword_input_placeholder": {
+      "message": "Wprowadź słowo kluczowe, regex, XPath lub selektor CSS (oddziel wiele przecinkami)..."
+   },
+   "keywords_to_monitor": {
+      "message": "Słowa kluczowe do monitorowania"
+   },
+   "kill_notification": {
+      "message": "Wyłącz alarm powiadomienia"
+   },
+   "kill_successfully": {
+      "message": "Pomyślnie wyłączono"
+   },
+   "lang_code": {
+      "message": "pl"
+   },
+   "language": {
+      "message": "Język"
+   },
+   "lost": {
+      "message": "Utracone"
+   },
+   "loved": {
+      "message": "Uwielbiam!"
+   },
+   "match_html_source_desc": {
+      "message": "Skanuj surowy kod źródłowy — wolniej, używaj ostrożnie"
+   },
+   "match_html_source_label": {
+      "message": "Dopasuj kod HTML"
+   },
+   "match_visible_text_desc": {
+      "message": "Skanuj renderowany tekst na ekranie"
+   },
+   "match_visible_text_label": {
+      "message": "Dopasuj widoczny tekst"
+   },
+   "maximum": {
+      "message": "Maksimum"
+   },
+   "minimum": {
+      "message": "Minimum"
+   },
+   "minute": {
+      "message": "Minuta"
+   },
+   "minutes": {
+      "message": "Minuty"
+   },
+   "monitor": {
+      "message": "Monitor"
+   },
+   "monitor_area_select": {
+      "message": "Wybierz"
+   },
+   "monitor_area_selector_desc": {
+      "message": "Wpisz selektor CSS lub wybierz element na stronie."
+   },
+   "monitor_area_switch_desc": {
+      "message": "Ogranicz wyszukiwanie do jednego regionu"
+   },
+   "monitor_area_switch_label": {
+      "message": "Obszar monitorowania"
+   },
+   "monitor_custom_area": {
+      "message": "Wyszukuj w niestandardowym obszarze strony"
+   },
+   "monitor_custom_area_help": {
+      "message": "Włącz, aby określić niestandardowy obszar strony do monitorowania lub wyszukiwania."
+   },
+   "monitor_full_page": {
+      "message": "Monitoruj pełną stronę"
+   },
+   "monitor_full_page_help": {
+      "message": "Włącz, aby monitorować zmiany na całej stronie internetowej."
+   },
+   "monitor_page_for_any_changes": {
+      "message": "Automatycznie śledź wszelkie zmiany strony."
+   },
+   "monitored_area": {
+      "message": "Monitorowany obszar"
+   },
+   "monitoring_active": {
+      "message": "Monitorowanie aktywne"
+   },
+   "monitoring_auto_click_label": {
+      "message": "Automatyczne kliknięcie przy dopasowaniu słowa kluczowego"
+   },
+   "monitoring_engine_advanced": {
+      "message": "Zaawansowany"
+   },
+   "monitoring_engine_aria": {
+      "message": "Wersja silnika monitorowania"
+   },
+   "monitoring_engine_basic": {
+      "message": "Podstawowy"
+   },
+   "monitoring_engine_beta": {
+      "message": "beta"
+   },
+   "monitoring_engine_tooltip_desc": {
+      "message": "Działa we wszystkich wyborach — Znaleziono, Utracono i Niestandardowy — z szybszym, inteligentniejszym wykrywaniem."
+   },
+   "monitoring_engine_tooltip_title": {
+      "message": "Nowe jądro beta"
+   },
+   "monitoring_keyword_input_aria": {
+      "message": "Słowo kluczowe do monitorowania"
+   },
+   "monitoring_keywords_empty": {
+      "message": "Brak słów kluczowych — dodaj co najmniej jedno, aby rozpocząć monitorowanie."
+   },
+   "monitoring_mode": {
+      "message": "Tryb monitorowania"
+   },
+   "monitoring_mode_custom_info_highlight": {
+      "message": "jakakolwiek zmiana"
+   },
+   "monitoring_mode_custom_info_prefix": {
+      "message": "Tryb niestandardowy powiadamia Cię, gdy zostanie wykryta "
+   },
+   "monitoring_mode_custom_info_suffix": {
+      "message": " na tej stronie — słowa kluczowe nie są wymagane."
+   },
+   "monitoring_mode_custom_intro": {
+      "message": "Automatycznie śledź wszystkie zmiany na stronie."
+   },
+   "monitoring_mode_custom_short": {
+      "message": "Niestandardowy"
+   },
+   "monitoring_mode_found_desc": {
+      "message": "Otrzymuj powiadomienia, gdy pojawi się Twoje słowo kluczowe."
+   },
+   "monitoring_mode_found_short": {
+      "message": "Znaleziono"
+   },
+   "monitoring_mode_help": {
+      "message": "Wybierz, kiedy Auto Refresh Plus ma Cię powiadamiać"
+   },
+   "monitoring_mode_lost_desc": {
+      "message": "Otrzymuj powiadomienia, gdy zniknie Twoje słowo kluczowe."
+   },
+   "monitoring_mode_lost_short": {
+      "message": "Utracono"
+   },
+   "monitoring_remove_keyword_aria": {
+      "message": "Usuń %1"
+   },
+   "monitoring_tip_banner": {
+      "message": "Potrzebujesz więcej akcji? Wypróbuj automatyzację wieloklików."
+   },
+   "monitoring_tip_label": {
+      "message": "Wskazówka:"
+   },
+   "new_badge": {
+      "message": "Nowe"
+   },
+   "no_active_tabs": {
+      "message": "Brak aktywnych kart"
+   },
+   "no_active_tabs_desc": {
+      "message": "Aktualnie nie ma monitorowanych lub odświeżanych kart. Zacznij odświeżać kartę, aby ją tutaj zobaczyć."
+   },
+   "no_keyword": {
+      "message": "Nie dodano jeszcze słów kluczowych. Dodaj słowa kluczowe do monitorowania."
+   },
+   "no_tabs_refreshing": {
+      "message": "Brak kart w trakcie odświeżania"
+   },
+   "no_templates_match": {
+      "message": "Brak szablonów pasujących do kryteriów wyszukiwania."
+   },
+   "normal_expression": {
+      "message": "Normalne wyrażenie"
+   },
+   "normal_expression_desc": {
+      "message": "Wyszukuje słowa kluczowe na stronie internetowej i nie musi być inicjalizowane żadnym symbolem. Po prostu naciśnij Enter na każdym słowie kluczowym."
+   },
+   "normal_expression_example_1_desc": {
+      "message": "Wyszukuje dokładny tekst \"W magazynie\" na stronie internetowej"
+   },
+   "normal_expression_example_2_desc": {
+      "message": "Wyszukuje wiele słów kluczowych, naciśnij Enter po każdym słowie kluczowym"
+   },
+   "normal_expression_example_3_desc": {
+      "message": "Wyszukuje przycisk \"Dodaj do koszyka\" lub tekst na stronie"
+   },
+   "not_allowed": {
+      "message": "Nie możesz tego tutaj użyć."
+   },
+   "noti_msg": {
+      "message": "Auto Refresh Plus %1 Twój tekst docelowy."
+   },
+   "noti_msg_title": {
+      "message": "Tekst docelowy!"
+   },
+   "notification_domain_info": {
+      "message": "na %1"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "okay": {
+      "message": "OK"
+   },
+   "open_link_help": {
+      "message": "Otwiera kliknięty link w nowej karcie przeglądarki."
+   },
+   "open_link_tab": {
+      "message": "Otwórz link w nowej karcie"
+   },
+   "options": {
+      "message": "Opcje"
+   },
+   "partial_page_desc": {
+      "message": "Monitoruj tylko żądania AJAX/XHR"
+   },
+   "pause": {
+      "message": "Wstrzymaj"
+   },
+   "pause_on_interact": {
+      "message": "Wstrzymaj przy interakcji"
+   },
+   "pause_refreshing": {
+      "message": "Wstrzymaj odświeżanie"
+   },
+   "permissions_attention": {
+      "message": "Uwaga"
+   },
+   "permissions_btn_grant": {
+      "message": "Przyznaj dostęp do witryny dla hostów pulpitu"
+   },
+   "permissions_btn_opening_dialog": {
+      "message": "Otwieranie okna uprawnień..."
+   },
+   "permissions_btn_refresh": {
+      "message": "Odśwież stan"
+   },
+   "permissions_config_missing_body": {
+      "message": "nie jest zdefiniowane w środowisku kompilacji. Zbuduj ponownie, ustawiając nazwę hosta pulpitu."
+   },
+   "permissions_config_missing_title": {
+      "message": "Brak konfiguracji"
+   },
+   "permissions_error_denied": {
+      "message": "Odmówiono uprawnień. Przyznaj dostęp dla hosta pulpitu, aby synchronizacja i wstrzykiwane funkcje działały niezawodnie."
+   },
+   "permissions_error_dialog": {
+      "message": "Wystąpił błąd podczas otwierania okna uprawnień. Spróbuj ponownie lub sprawdź ustawienia przeglądarki."
+   },
+   "permissions_error_read_state": {
+      "message": "Nie można odczytać stanu uprawnień witryny. Załaduj ponownie tę stronę lub spróbuj później."
+   },
+   "permissions_go_to_options": {
+      "message": "Przejdź do opcji"
+   },
+   "permissions_granted_body": {
+      "message": "To rozszerzenie ma już pasujące uprawnienie hosta dla Twojej platformy. Możesz zamknąć tę kartę."
+   },
+   "permissions_granted_ok": {
+      "message": "OK"
+   },
+   "permissions_granted_title": {
+      "message": "Dostęp do witryny włączony"
+   },
+   "permissions_heading_dashboard": {
+      "message": "Uprawnienia hosta pulpitu"
+   },
+   "permissions_intro_dashboard": {
+      "message": "Kontroluj, czy rozszerzenie może działać w domenach pulpitu Auto Refresh Plus (skrypty treści i integracja platformy)."
+   },
+   "permissions_label_dashboard_host": {
+      "message": "Host pulpitu"
+   },
+   "permissions_revoke_hint": {
+      "message": "Aby później cofnąć, usuń tę witrynę z listy dostępu do witryn rozszerzeń w ustawieniach przeglądarki."
+   },
+   "permissions_subtitle": {
+      "message": "Dostęp do witryny platformy"
+   },
+   "permissions_warn_body_prefix": {
+      "message": "Przyznaj dostęp, aby rozszerzenie mogło wstrzykiwać się do pulpitu, odzwierciedlać preferencje i utrzymywać spójność z rozszerzeniem (ten sam wzorzec hosta co skrypt treści:"
+   },
+   "permissions_warn_body_suffix": {
+      "message": ")."
+   },
+   "permissions_warn_title": {
+      "message": "Dostęp do witryny nie został jeszcze przyznany"
+   },
+   "play_alarm_on_captcha_detection": {
+      "message": "Odtwórz alarm przy detekcji Captcha"
+   },
+   "play_alarm_on_captcha_detection_help": {
+      "message": "Odtwórz alert dźwiękowy po wykryciu captcha."
+   },
+   "play_alarm_on_error_detection": {
+      "message": "Odtwórz alarm przy detekcji błędu"
+   },
+   "play_alarm_on_error_detection_help": {
+      "message": "Odtwórz alert dźwiękowy po wykryciu strony błędu."
+   },
+   "please_add_email_first": {
+      "message": "Najpierw dodaj email."
+   },
+   "please_add_webhooks_first": {
+      "message": "Najpierw dodaj webhooks."
+   },
+   "please_rateus": {
+      "message": "Proszę oceń nas"
+   },
+   "popup_on_keyword_found": {
+      "message": "Alert po znalezieniu słowa kluczowego"
+   },
+   "popup_on_keyword_lost": {
+      "message": "Alert po utracie słowa kluczowego"
+   },
+   "predefined_interval": {
+      "message": "Wstępnie zdefiniowany interwał"
+   },
+   "predefined_interval_desc": {
+      "message": "Użyj wstępnie ustawionych lub domyślnych wartości czasu"
+   },
+   "premium_benefits": {
+      "message": "Korzyści premium:"
+   },
+   "premium_device_sync": {
+      "message": "Zarządzaj do 3 urządzeniami"
+   },
+   "premium_full_access": {
+      "message": "Wszystkie funkcje Premium"
+   },
+   "premium_priority_support": {
+      "message": "Różne profile ustawień"
+   },
+   "premium_tag_aria": {
+      "message": "Funkcja Premium: %1. Otwórz ogłoszenie."
+   },
+   "premium_tag_default_feature": {
+      "message": "Funkcja"
+   },
+   "premium_tag_tooltip_click": {
+      "message": "Kliknij po szczegóły"
+   },
+   "premium_usage_body": {
+      "message": "Funkcje premium aktywne w planie darmowym."
+   },
+   "premium_usage_dismiss": {
+      "message": "Zamknij powiadomienie"
+   },
+   "premium_usage_status_label": {
+      "message": "Funkcje premium w użyciu"
+   },
+   "preset_interval": {
+      "message": "Wstępnie ustawione interwały"
+   },
+   "pricing": {
+      "message": "Ceny"
+   },
+   "pro_announcement_body": {
+      "message": "Auto Refresh Plus wprowadza PRO stopniowo, aby wspierać długoterminowy rozwój, zaawansowane funkcje, synchronizację w chmurze, inteligentniejszy monitoring i obsługę wielu urządzeń, zachowując podstawowe odświeżanie za darmo dla wszystkich."
+   },
+   "pro_announcement_close_aria": {
+      "message": "Zamknij okno"
+   },
+   "pro_announcement_days_label": {
+      "message": "dni"
+   },
+   "pro_announcement_days_remaining_aria": {
+      "message": "Pozostało %1 dni"
+   },
+   "pro_announcement_fresh_install_body": {
+      "message": "Odblokuj %1 i pełne doświadczenie premium z PRO, w tym zaawansowane narzędzia, inteligentniejsze monitorowanie, synchronizację w chmurze i dostęp na wielu urządzeniach."
+   },
+   "pro_announcement_fresh_install_title_suffix": {
+      "message": "to funkcja Premium"
+   },
+   "pro_announcement_fresh_install_trial": {
+      "message": "Bezpłatny okres próbny 15 dni"
+   },
+   "pro_announcement_important_badge": {
+      "message": "Ważne"
+   },
+   "pro_announcement_important_notice_aria": {
+      "message": "Ważna informacja"
+   },
+   "pro_announcement_moving_to_pro": {
+      "message": "Przechodzi do PRO"
+   },
+   "pro_announcement_premium_badge": {
+      "message": "PREMIUM"
+   },
+   "pro_announcement_premium_badge_aria": {
+      "message": "Premium"
+   },
+   "pro_announcement_rollout_date": {
+      "message": "1 czerwca"
+   },
+   "pro_announcement_rollout_intro": {
+      "message": "Wdrożenie od"
+   },
+   "pro_announcement_rollout_outro": {
+      "message": "."
+   },
+   "pro_announcement_view_pricing": {
+      "message": "Zobacz cennik — od 2,99 $/mies."
+   },
+   "random_interval": {
+      "message": "Losowy interwał"
+   },
+   "random_interval_desc": {
+      "message": "Losowe odświeżenie między min.–maks."
+   },
+   "random_interval_help": {
+      "message": "Z bieżącymi ustawieniami strona będzie odświeżana losowo co %1 do %2 sekund."
+   },
+   "random_time_interval": {
+      "message": "Losowy zakres odświeżania"
+   },
+   "rate_us": {
+      "message": "Oceń nas"
+   },
+   "rateus_title": {
+      "message": "Oceń to rozszerzenie"
+   },
+   "ready_expressions_load_error": {
+      "message": "Nie udało się załadować szablonów. Spróbuj ponownie później."
+   },
+   "real_time_detection_during_refresh": {
+      "message": "Detekcja w czasie rzeczywistym"
+   },
+   "real_time_detection_switch_desc": {
+      "message": "Sprawdzaj ciągle bez pełnych przeładowań"
+   },
+   "realtime_help": {
+      "message": "Wykrywaj zmiany ciągle podczas odświeżania, a nie tylko na końcu interwału."
+   },
+   "receive_emails_alerts": {
+      "message": "Otrzymuj powiadomienia e-mail"
+   },
+   "receive_webhook_alerts": {
+      "message": "Otrzymuj alerty Webhook"
+   },
+   "redirection_behavior": {
+      "message": "Zachowanie przekierowania"
+   },
+   "redirection_behavior_desc": {
+      "message": "Obsługuj przekierowania podczas odświeżania"
+   },
+   "redirection_behavior_help": {
+      "message": "Wybierz, jak Auto Refresh Plus obsługuje zmiany adresów URL. Możesz zablokować oryginalną domenę lub śledzić przekierowania."
+   },
+   "refresh_cycles_completed": {
+      "message": "Ukończone cykle odświeżania"
+   },
+   "refresh_interval_mode": {
+      "message": "Tryb interwału odświeżania"
+   },
+   "refresh_limit": {
+      "message": "Limit odświeżeń"
+   },
+   "refresh_limit_times": {
+      "message": "razy"
+   },
+   "refresh_number": {
+      "message": "Ustaw liczbę odświeżeń"
+   },
+   "refresh_number_desc": {
+      "message": "Zatrzymaj po stałej liczbie"
+   },
+   "refresh_number_help": {
+      "message": "Ustaw ile razy chcesz odświeżyć stronę."
+   },
+   "refresh_position_hint_body": {
+      "message": "Możesz zmienić przycisk odświeżania i inne elementy interfejsu w tym menu."
+   },
+   "refresh_position_hint_understand": {
+      "message": "Rozumiem"
+   },
+   "refresh_top_pause": {
+      "message": "Pauza"
+   },
+   "refresh_top_resume": {
+      "message": "Wznów"
+   },
+   "refresh_top_start": {
+      "message": "Start"
+   },
+   "refresh_top_stop": {
+      "message": "Stop"
+   },
+   "refresh_type": {
+      "message": "Typ odświeżenia"
+   },
+   "refresh_type_help": {
+      "message": "Jak strona jest przeładowywana przed każdym skanem. Pełna strona przeładowuje cały URL jak przy odświeżeniu — niezawodnie, ale ciężej. XHR uruchamia tylko żądania AJAX/XHR w tle (bez pełnego przeładowania) — szybciej i lżej, idealne dla dynamicznych stron aktualizujących treść bez przeładowania."
+   },
+   "regex": {
+      "message": "Regex"
+   },
+   "regex_expression": {
+      "message": "Wyrażenie regularne"
+   },
+   "regex_expression_desc": {
+      "message": "Auto Refresh Plus obsługuje również wyrażenia Regex i musi być inicjalizowany symbolem $ i następującym wyrażeniem regex."
+   },
+   "regex_expression_example_1_desc": {
+      "message": "Pasuje do \"produktu\" poprzedzonego jedną lub więcej cyframi (product1, product42, itp.)"
+   },
+   "regex_expression_example_2_desc": {
+      "message": "Pasuje do \"W magazynie\" bez względu na wielkość liter przy użyciu flag regex"
+   },
+   "regex_expression_example_3_desc": {
+      "message": "Pasuje do formatu ceny, takiego jak \"$19.99\", \"$299.00\", itp."
+   },
+   "remove_email": {
+      "message": "Usuń email"
+   },
+   "restart": {
+      "message": "Uruchom ponownie"
+   },
+   "restart_wait_seconds_desc": {
+      "message": "Ustaw liczbę sekund oczekiwania przed ponownym rozpoczęciem odświeżania"
+   },
+   "resume": {
+      "message": "Wznów"
+   },
+   "resume_refreshing": {
+      "message": "Wznów odświeżanie"
+   },
+   "save": {
+      "message": "Zapisz"
+   },
+   "scan_method_title": {
+      "message": "Metoda skanowania"
+   },
+   "sch_description": {
+      "message": "Automatyczne uruchamianie o wybranych godzinach i dniach."
+   },
+   "schedule_add": {
+      "message": "Dodaj harmonogram"
+   },
+   "schedule_auto_disable_aria": {
+      "message": "Automatyczne wyłączenie"
+   },
+   "schedule_auto_stop_aria": {
+      "message": "Automatyczne zatrzymanie"
+   },
+   "schedule_delete_aria": {
+      "message": "Usuń harmonogram"
+   },
+   "schedule_disconnected": {
+      "message": "Harmonogram został rozłączony"
+   },
+   "schedule_edit_aria": {
+      "message": "Edytuj harmonogram"
+   },
+   "schedule_enable_aria": {
+      "message": "Włącz harmonogram"
+   },
+   "schedule_help": {
+      "message": "Harmonogramy umożliwiają automatyczne odświeżanie o określonych godzinach i dniach. Każdy harmonogram może mieć godzinę rozpoczęcia, wybrane dni tygodnia, automatyczne zatrzymanie i automatyczne wyłączenie."
+   },
+   "schedule_options_label": {
+      "message": "opcje"
+   },
+   "schedule_select_days": {
+      "message": "wybierz dni"
+   },
+   "schedule_start_time_label": {
+      "message": "godzina rozpoczęcia"
+   },
+   "schedules": {
+      "message": "Harmonogramy"
+   },
+   "schedules_active_count": {
+      "message": "%1 aktywnych"
+   },
+   "schedules_empty": {
+      "message": "Brak harmonogramów"
+   },
+   "search_templates": {
+      "message": "Szablony wyszukiwania..."
+   },
+   "seconds": {
+      "message": "Sekundy"
+   },
+   "select_area": {
+      "message": "Wybierz obszar"
+   },
+   "select_area_desc": {
+      "message": "Wprowadź selektor CSS, aby ograniczyć obszar wyszukiwania"
+   },
+   "select_css_selector": {
+      "message": "Wybierz element, aby ustawić selektor obszaru"
+   },
+   "select_date_time": {
+      "message": "Wybierz datę i godzinę"
+   },
+   "select_days": {
+      "message": "Wybierz dni"
+   },
+   "select_element": {
+      "message": "Wybierz element"
+   },
+   "select_language": {
+      "message": "Wybierz swój język"
+   },
+   "select_time": {
+      "message": "Wybierz czas"
+   },
+   "session_expired": {
+      "message": "Twoja sesja wygasła. Zaloguj się ponownie."
+   },
+   "settings_card_collapse_aria": {
+      "message": "Zwiń %1"
+   },
+   "settings_card_expand_aria": {
+      "message": "Rozwiń %1"
+   },
+   "show_tab": {
+      "message": "Pokaż kartę"
+   },
+   "signup_requirement_body": {
+      "message": "Wkrótce konto będzie wymagane, aby kontynuować."
+   },
+   "signup_requirement_countdown_days": {
+      "message": "Pozostało %1 dni do wymogu konta"
+   },
+   "signup_requirement_countdown_one_day": {
+      "message": "Pozostał 1 dzień do wymogu konta"
+   },
+   "signup_requirement_days_abbr": {
+      "message": "dni"
+   },
+   "signup_requirement_dismiss": {
+      "message": "Odrzuć powiadomienie"
+   },
+   "signup_requirement_sign_up": {
+      "message": "Zarejestruj się za darmo →"
+   },
+   "signup_requirement_status_label": {
+      "message": "Powiadomienie o wymogu konta"
+   },
+   "skip_repeated_keyword": {
+      "message": "Pomiń powtórzone słowo kluczowe"
+   },
+   "skip_repeated_keyword_desc": {
+      "message": "Ignoruj już wykryte słowa kluczowe"
+   },
+   "skip_repeated_keyword_help": {
+      "message": "Zignoruj już wykryte słowa kluczowe przy następnym odświeżeniu."
+   },
+   "slave_device_alert_body": {
+      "message": "To rozszerzenie jest skonfigurowane jako podłączone urządzenie wtórne. Ustawienia i kontrolę odświeżania mogą odzwierciedlać te z urządzenia głównego."
+   },
+   "slave_device_alert_dismiss": {
+      "message": "Zamknij powiadomienie"
+   },
+   "slave_device_alert_read_more": {
+      "message": "Czytaj więcej"
+   },
+   "slave_device_alert_status_label": {
+      "message": "Urządzenie wtórne"
+   },
+   "slave_message_alert": {
+      "message": "Nie możesz modyfikować tej opcji, ponieważ jesteś użytkownikiem slave."
+   },
+   "source_find_text": {
+      "message": "Źródło (źródło HTML)"
+   },
+   "source_find_text_caution": {
+      "message": "Ta opcja jest przeznaczona głównie dla deweloperów. Skanowanie surowego kodu HTML może dopasować ukryty lub niewidoczny znacznik, co często prowadzi do fałszywych alarmów. Jest wolniejsza i niezalecana do codziennego monitorowania — włącz ją tylko wtedy, gdy dopasowanie widocznego tekstu nie wystarcza."
+   },
+   "source_find_text_help": {
+      "message": "Wyodrębnia tekst bezpośrednio z kodu źródłowego HTML. Może zawierać ukrytą lub dynamiczną zawartość."
+   },
+   "start_countdown": {
+      "message": "Uruchom odliczanie"
+   },
+   "start_msg": {
+      "message": "Uruchom"
+   },
+   "start_refreshing": {
+      "message": "Rozpocznij odświeżanie"
+   },
+   "start_time": {
+      "message": "Czas rozpoczęcia"
+   },
+   "stop": {
+      "message": "Zatrzymaj"
+   },
+   "stop_countdown": {
+      "message": "Zatrzymaj odliczanie"
+   },
+   "stop_refreshing": {
+      "message": "Zatrzymaj odświeżanie"
+   },
+   "stop_time": {
+      "message": "Czas zatrzymania"
+   },
+   "subscription": {
+      "message": "Subskrypcja"
+   },
+   "success": {
+      "message": "Ustawienia zapisane pomyślnie"
+   },
+   "support_ticket": {
+      "message": "Bilet pomocy technicznej"
+   },
+   "supported_expressions": {
+      "message": "Obsługiwane wyrażenia"
+   },
+   "supported_expressions_msg_monitor": {
+      "message": "Obsługiwane wyrażenia do monitorowania strony"
+   },
+   "syntax_css_desc": {
+      "message": "Celuj w elementy standardowymi selektorami CSS — po id, klasie, atrybucie lub hierarchii."
+   },
+   "syntax_css_ex1_desc": {
+      "message": "Wybiera element z id \"price\""
+   },
+   "syntax_css_ex1_title": {
+      "message": "Po id"
+   },
+   "syntax_css_ex2_desc": {
+      "message": "Wybiera elementy z klasą \"stock-status\""
+   },
+   "syntax_css_ex2_title": {
+      "message": "Po klasie"
+   },
+   "syntax_css_ex3_desc": {
+      "message": "Wybiera element, gdzie data-testid to \"add-to-cart\""
+   },
+   "syntax_css_ex3_title": {
+      "message": "Po atrybucie"
+   },
+   "syntax_css_title": {
+      "message": "Selektory CSS"
+   },
+   "syntax_custom_desc": {
+      "message": "Rozpoczynają się od ## i łączą słowa kluczowe logiką Boolean AND / OR / NOT."
+   },
+   "syntax_custom_ex1_desc": {
+      "message": "Uruchamia się tylko gdy pojawią się \"In Stock\" i \"Add to Cart\""
+   },
+   "syntax_custom_ex1_title": {
+      "message": "Warunek AND"
+   },
+   "syntax_custom_ex2_desc": {
+      "message": "Uruchamia się gdy pojawi się którekolwiek słowo kluczowe"
+   },
+   "syntax_custom_ex2_title": {
+      "message": "Warunek OR"
+   },
+   "syntax_custom_ex3_desc": {
+      "message": "Uruchamia się gdy pojawi się \"In Stock\", ale nie \"Sold Out\""
+   },
+   "syntax_custom_ex3_title": {
+      "message": "Warunek NOT"
+   },
+   "syntax_custom_title": {
+      "message": "Wyrażenia niestandardowe"
+   },
+   "syntax_norm_ex1_desc": {
+      "message": "Dopasowuje dokładny tekst \"In Stock\" w dowolnym miejscu strony"
+   },
+   "syntax_norm_ex1_title": {
+      "message": "In Stock"
+   },
+   "syntax_norm_ex2_desc": {
+      "message": "Wiele słów kluczowych — naciśnij Enter po każdym"
+   },
+   "syntax_norm_ex2_title": {
+      "message": "Available, Out of Stock"
+   },
+   "syntax_norm_ex3_desc": {
+      "message": "Dopasowuje przycisk lub tekst \"Add to Cart\" na stronie"
+   },
+   "syntax_norm_ex3_title": {
+      "message": "Add to Cart"
+   },
+   "syntax_regex_desc": {
+      "message": "W ukośnikach /.../ do dopasowania wzorców tekstu. Przydatne dla cen, SKU i elastycznych dopasowań."
+   },
+   "syntax_regex_ex1_desc": {
+      "message": "Dopasowuje kwotę w dolarach jak $19.99 lub $1,299.00"
+   },
+   "syntax_regex_ex1_title": {
+      "message": "Dopasowanie ceny"
+   },
+   "syntax_regex_ex2_desc": {
+      "message": "Dopasowuje \"In Stock\" lub \"in stock\" (bez rozróżniania wielkości liter)"
+   },
+   "syntax_regex_ex2_title": {
+      "message": "Status magazynu"
+   },
+   "syntax_regex_ex3_desc": {
+      "message": "Dopasowuje SKU produktu jak SKU-12345"
+   },
+   "syntax_regex_ex3_title": {
+      "message": "Kod SKU"
+   },
+   "syntax_regex_title": {
+      "message": "Wyrażenia regularne"
+   },
+   "syntax_text_matching_desc": {
+      "message": "Wyszukuje proste słowa kluczowe na stronie. Bez symbolu — naciśnij Enter po każdym słowie kluczowym."
+   },
+   "syntax_text_matching_title": {
+      "message": "Dopasowanie tekstu"
+   },
+   "syntax_xpath_desc": {
+      "message": "Zaczynają się od //, aby celować w elementy według pozycji w strukturze HTML."
+   },
+   "syntax_xpath_ex1_desc": {
+      "message": "Wybiera każdy element z klasą \"price\""
+   },
+   "syntax_xpath_ex1_title": {
+      "message": "Po klasie"
+   },
+   "syntax_xpath_ex2_desc": {
+      "message": "Wybiera przycisk z tekstem \"Add to Cart\""
+   },
+   "syntax_xpath_ex2_title": {
+      "message": "Przycisk po tekście"
+   },
+   "syntax_xpath_ex3_desc": {
+      "message": "Wybiera element z id \"availability\""
+   },
+   "syntax_xpath_ex3_title": {
+      "message": "Po id"
+   },
+   "syntax_xpath_title": {
+      "message": "Wyrażenia XPath"
+   },
+   "tabs": {
+      "message": "Karty"
+   },
+   "tabs_alerts": {
+      "message": "Karty z alertami"
+   },
+   "tabs_refreshing": {
+      "message": "Aktywne karty odświeżające"
+   },
+   "template_add_to_cart_button": {
+      "message": "Przycisk Dodaj do koszyka"
+   },
+   "template_add_to_cart_button_desc": {
+      "message": "Dopasowuje przycisk koszyka po test id"
+   },
+   "template_any_stock_term": {
+      "message": "Dowolny termin magazynowy"
+   },
+   "template_any_stock_term_desc": {
+      "message": "Uruchamia się przy dowolnym słowie kluczowym magazynu"
+   },
+   "template_buy_button": {
+      "message": "Przycisk kupna"
+   },
+   "template_buy_button_desc": {
+      "message": "Znajdź przyciski kupna"
+   },
+   "template_email_address": {
+      "message": "Adres e-mail"
+   },
+   "template_email_address_desc": {
+      "message": "Dopasuj adresy e-mail"
+   },
+   "template_expression_description": {
+      "message": "Wyrażenie szablonu do monitorowania strony"
+   },
+   "template_in_stock_buyable": {
+      "message": "Na stanie i do kupienia"
+   },
+   "template_in_stock_buyable_desc": {
+      "message": "Alert tylko gdy na stanie I możliwy zakup"
+   },
+   "template_in_stock_not_sold_out": {
+      "message": "Na stanie, nie wyprzedane"
+   },
+   "template_in_stock_not_sold_out_desc": {
+      "message": "Na stanie z wykluczeniem tekstu wyprzedane"
+   },
+   "template_input_field_value": {
+      "message": "Wartość pola wejściowego"
+   },
+   "template_input_field_value_desc": {
+      "message": "Znajdź wejście z wartością wyszukiwania"
+   },
+   "template_phone_number": {
+      "message": "Numer telefonu"
+   },
+   "template_phone_number_desc": {
+      "message": "Dopasuj format telefonu (123) 456-7890"
+   },
+   "template_price_changes": {
+      "message": "Zmiany cen"
+   },
+   "template_price_changes_desc": {
+      "message": "Monitoruj słowa kluczowe związane z ceną"
+   },
+   "template_price_detector": {
+      "message": "Wykrywacz cen"
+   },
+   "template_price_detector_desc": {
+      "message": "Dopasowuje dowolną cenę w dolarach jak $19.99"
+   },
+   "template_price_element": {
+      "message": "Element ceny"
+   },
+   "template_price_element_desc": {
+      "message": "Znajdź elementy z klasą ceny"
+   },
+   "template_price_format": {
+      "message": "Format ceny"
+   },
+   "template_price_format_desc": {
+      "message": "Dopasuj ceny, takie jak $19.99"
+   },
+   "template_product_availability": {
+      "message": "Dostępność produktu"
+   },
+   "template_product_availability_desc": {
+      "message": "Monitoruj stan dostępności produktu"
+   },
+   "template_product_id_pattern": {
+      "message": "Wzór ID produktu"
+   },
+   "template_product_id_pattern_desc": {
+      "message": "Dopasuj identyfikatory produktów, takie jak product-123"
+   },
+   "template_product_status": {
+      "message": "Status produktu"
+   },
+   "template_product_status_desc": {
+      "message": "Nowe lub ograniczone edycje produktów"
+   },
+   "template_restock_alert": {
+      "message": "Alert uzupełnienia"
+   },
+   "template_restock_alert_desc": {
+      "message": "Wykryj moment powrotu produktu"
+   },
+   "template_shipping_options": {
+      "message": "Opcje wysyłki"
+   },
+   "template_shipping_options_desc": {
+      "message": "Dostępne opcje szybkiej wysyłki"
+   },
+   "template_shopping_actions": {
+      "message": "Akcje zakupowe"
+   },
+   "template_shopping_actions_desc": {
+      "message": "Śledź dostępność przycisku zakupu"
+   },
+   "template_stock_and_price": {
+      "message": "Zapas I cena"
+   },
+   "template_stock_and_price_desc": {
+      "message": "Przedmioty w magazynie I w sprzedaży"
+   },
+   "template_stock_status_element": {
+      "message": "Element statusu magazynu"
+   },
+   "template_stock_status_element_desc": {
+      "message": "Celuj w element po jego klasie"
+   },
+   "template_stock_status_text": {
+      "message": "Tekst stanu zapasu"
+   },
+   "template_stock_status_text_desc": {
+      "message": "Znajdź tekst zawierający \"W magazynie\""
+   },
+   "template_ticket_availability": {
+      "message": "Dostępność biletów"
+   },
+   "template_ticket_availability_desc": {
+      "message": "Obserwuj, kiedy bilety są w sprzedaży"
+   },
+   "templates": {
+      "message": "Szablony"
+   },
+   "templates_add_to_keywords": {
+      "message": "Dodaj do słów kluczowych"
+   },
+   "templates_ai_aria": {
+      "message": "Generator wyrażeń AI"
+   },
+   "templates_ai_label": {
+      "message": "AI"
+   },
+   "templates_back_to_templates": {
+      "message": "Powrót do szablonów"
+   },
+   "templates_close_aria": {
+      "message": "Zamknij okno dialogowe"
+   },
+   "templates_copy_aria": {
+      "message": "Kopiuj wyrażenie %1"
+   },
+   "templates_header_templates_aria": {
+      "message": "Powrót do szablonów"
+   },
+   "templates_ready_made": {
+      "message": "Gotowe szablony"
+   },
+   "templates_syntax_aria": {
+      "message": "Pomoc składni"
+   },
+   "templates_syntax_button": {
+      "message": "Składnia"
+   },
+   "templates_tooltip": {
+      "message": "Przeglądaj gotowe szablony monitorowania"
+   },
+   "templates_type_css": {
+      "message": "CSS"
+   },
+   "templates_type_custom": {
+      "message": "Niestandardowe"
+   },
+   "templates_type_normal": {
+      "message": "Normalne"
+   },
+   "templates_type_regex": {
+      "message": "Regex"
+   },
+   "templates_type_xpath": {
+      "message": "XPath"
+   },
+   "text": {
+      "message": "Tekst"
+   },
+   "thankyou_msg": {
+      "message": "Dziękujemy za twoją opinię"
+   },
+   "this_is_not_valid_css_selector": {
+      "message": "To nie jest prawidłowy selektor CSS."
+   },
+   "thnakyou_desc": {
+      "message": "Twoja opinia pomaga nam się poprawiać"
+   },
+   "time": {
+      "message": "Czas"
+   },
+   "time_has_passed": {
+      "message": "Czas minął"
+   },
+   "time_is_invalid": {
+      "message": "Wybrany czas jest nieprawidłowy"
+   },
+   "timer": {
+      "message": "Czasomierz"
+   },
+   "timer_position": {
+      "message": "Pozycja czasomierza"
+   },
+   "timer_position_bottom_left": {
+      "message": "Dół lewo"
+   },
+   "timer_position_bottom_right": {
+      "message": "Dół prawo"
+   },
+   "timer_position_center": {
+      "message": "Środek"
+   },
+   "timer_position_top_left": {
+      "message": "Góra lewo"
+   },
+   "timer_position_top_right": {
+      "message": "Góra prawo"
+   },
+   "upgrade": {
+      "message": "Uaktualnij"
+   },
+   "use_default": {
+      "message": "Użyj domyślnych słów kluczowych"
+   },
+   "user_menu_account_aria": {
+      "message": "Menu konta"
+   },
+   "user_menu_avatar_alt": {
+      "message": "Awatar użytkownika"
+   },
+   "user_menu_classic_view": {
+      "message": "Classic"
+   },
+   "user_menu_classic_view_aria": {
+      "message": "Widok Classic"
+   },
+   "user_menu_command_view": {
+      "message": "Command"
+   },
+   "user_menu_command_view_aria": {
+      "message": "Widok Command"
+   },
+   "user_menu_focus_mode": {
+      "message": "Tryb skupienia"
+   },
+   "user_menu_focus_mode_aria": {
+      "message": "Przełącz tryb skupienia"
+   },
+   "user_menu_focus_mode_tooltip": {
+      "message": "Ukryj dodatkowe elementy interfejsu"
+   },
+   "user_menu_refresh_position": {
+      "message": "Przyciski u góry"
+   },
+   "user_menu_refresh_position_aria": {
+      "message": "Pokaż przycisk odświeżania u góry"
+   },
+   "user_menu_refresh_position_tooltip": {
+      "message": "Pokaż przyciski odświeżania w nagłówku"
+   },
+   "user_menu_theme_dark_aria": {
+      "message": "Ciemny motyw"
+   },
+   "user_menu_theme_light_aria": {
+      "message": "Jasny motyw"
+   },
+   "user_menu_theme_system_aria": {
+      "message": "Motyw systemowy"
+   },
+   "user_menu_ui_cosmetics": {
+      "message": "Kosmetyka UI"
+   },
+   "user_menu_view": {
+      "message": "Widok"
+   },
+   "user_menu_view_aria": {
+      "message": "Wybierz tryb widoku"
+   },
+   "view_pricing_plans": {
+      "message": "Wyświetl plany cenowe"
+   },
+   "visual_find_text": {
+      "message": "Wizualny (tekst ekranu)"
+   },
+   "visual_find_text_help": {
+      "message": "Wyodrębnia widoczny tekst z ekranu tak, jak widzi go człowiek."
+   },
+   "visual_timer_desc": {
+      "message": "Pokaż odliczanie na stronie"
+   },
+   "visual_timer_done": {
+      "message": "wykonane"
+   },
+   "visual_timer_help": {
+      "message": "Wizualny czasomierz wyświetla odliczanie bezpośrednio na stronie internetowej. Pokazuje pozostały czas do następnego odświeżenia i zawiera elementy sterowania do wstrzymania, wznowienia lub resetowania czasomierza."
+   },
+   "visual_timer_live_monitor": {
+      "message": "Monitor na żywo"
+   },
+   "visual_timer_msg": {
+      "message": "Pokaż wizualny czasomierz"
+   },
+   "visual_timer_next_refresh_in": {
+      "message": "Następne odświeżenie za"
+   },
+   "visual_timer_pause_aria": {
+      "message": "Wstrzymaj timer"
+   },
+   "visual_timer_paused": {
+      "message": "WSTRZYMANO"
+   },
+   "visual_timer_restart_tooltip": {
+      "message": "Uruchom ponownie odliczanie"
+   },
+   "visual_timer_resume_aria": {
+      "message": "Uruchom timer"
+   },
+   "visual_timer_running": {
+      "message": "DZIAŁA"
+   },
+   "visual_timer_stop_aria": {
+      "message": "Zatrzymaj timer"
+   },
+   "wait_content_load": {
+      "message": "Czekaj na załadowanie zawartości"
+   },
+   "wait_content_load_desc": {
+      "message": "Opóźnij skan po każdym odświeżeniu"
+   },
+   "wait_content_load_help": {
+      "message": "Czekaj przed wykryciem, aby zezwolić na pełne załadowanie zawartości."
+   },
+   "warning_random_interval": {
+      "message": "Wartość maksymalna musi być większa niż wartość minimalna, aby losowe interwały działały prawidłowo."
+   },
+   "webhook_alert_help": {
+      "message": "Webhooks umożliwiają wysyłanie alertów do innych aplikacji lub usług po wykryciu zmian."
+   },
+   "webhook_alerts_switch_desc": {
+      "message": "Wyślij payload do endpointu"
+   },
+   "webhooks": {
+      "message": "Webhooks"
+   },
+   "webhooks_tooltip": {
+      "message": "Otwórz ustawienia webhooków dla alertów"
+   },
+   "whats_new": {
+      "message": "Co nowego"
+   },
+   "whats_new_close_aria": {
+      "message": "Zamknij co nowego"
+   },
+   "whats_new_latest": {
+      "message": "Najnowsza"
+   },
+   "whats_new_load_error": {
+      "message": "Nie udało się załadować informacji o wydaniu. Spróbuj ponownie później."
+   },
+   "whats_new_subtitle": {
+      "message": "Informacje o wydaniu Auto Refresh Plus"
+   },
+   "whats_new_thank_you": {
+      "message": "Dziękujemy za korzystanie z Auto Refresh Plus"
+   },
+   "window_focus_on_detection": {
+      "message": "Fokus okna przy detekcji słowa kluczowego"
+   },
+   "window_focus_on_detection_desc": {
+      "message": "Przenieś kartę na pierwszy plan po dopasowaniu"
+   },
+   "window_focus_on_detection_help": {
+      "message": "Włącz fokus okna, gdy Monitor strony znajdzie lub utraci słowo kluczowe. Ta funkcja zapewnia, że okno automatycznie przychodzi na front ekranu, gdy zostaną wykryte lub utracone określone słowa kluczowe."
+   },
+   "without_full": {
+      "message": "Odświeżenie XHR"
+   },
+   "xhr_page_help": {
+      "message": "Pobierz dane z adresu URL bez konieczności pełnego odświeżenia strony. Umożliwia to stronie internetowej aktualizację tylko części strony bez przeszkadzania użytkownikowi."
+   },
+   "xhr_request_autoclick": {
+      "message": "Element automatycznego klikania"
+   },
+   "xhr_request_autoclick_desc": {
+      "message": "Kliknij element strony, który chcesz automatycznie klikać."
+   },
+   "xpath": {
+      "message": "XPath"
+   },
+   "xpath_expression": {
+      "message": "Wyrażenie XPath"
+   },
+   "xpath_expression_desc": {
+      "message": "Język XML Paths zapewnia elastyczny sposób adresowania różnych części dokumentu. Musi być inicjalizowany dwoma symbolami @@."
+   },
+   "xpath_expression_example_1_desc": {
+      "message": "Wyszukuje dowolny element zawierający tekst \"W magazynie\""
+   },
+   "xpath_expression_example_2_desc": {
+      "message": "Wyszukuje elementy wejściowe z atrybutem wartości zawierającą \"Szukaj\""
+   },
+   "xpath_expression_example_3_desc": {
+      "message": "Wyszukuje elementy div z klasą \"cena\" zawierające symbol \"$\""
+   },
+   "your_expressions": {
+      "message": "Twoje wyrażenia"
+   },
+   "your_expressions_add_new": {
+      "message": "Dodaj nowe"
+   },
+   "your_expressions_define_placeholder": {
+      "message": "Zdefiniuj wyrażenie (np. Dostępny lub ##Dostępny AND Dodaj do koszyka)"
+   },
+   "your_expressions_delete_aria": {
+      "message": "Usuń %1"
+   },
+   "your_expressions_edit_aria": {
+      "message": "Edytuj %1"
+   },
+   "your_expressions_empty": {
+      "message": "Brak zapisanych wyrażeń. Naciśnij „Dodaj nowe”, aby utworzyć jedno."
+   },
+   "your_expressions_name_placeholder": {
+      "message": "Nazwa wyrażenia (np. Mój alert o uzupełnieniu)"
+   },
+   "your_expressions_yours_badge": {
+      "message": "Twoje"
+   }
+}

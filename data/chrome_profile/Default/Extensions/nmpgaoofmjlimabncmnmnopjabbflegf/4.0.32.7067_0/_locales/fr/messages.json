@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Volume de recherche par mot-clé, CPC, aperçu des mots-clés recherchés. Pour Google, YouTube et Amazon. Outil SEO de Neil Patel."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Ubersuggest - SEO et découverte de mots-clés"
+   }
+}

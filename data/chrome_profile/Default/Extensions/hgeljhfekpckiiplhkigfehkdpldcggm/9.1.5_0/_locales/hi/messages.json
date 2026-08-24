@@ -1,0 +1,2186 @@
+{
+   "action_on_detection": {
+      "message": "पहचान पर कार्रवाई"
+   },
+   "action_report_bug_feedback": {
+      "message": "बग रिपोर्ट / प्रतिक्रिया"
+   },
+   "action_stop_refresh": {
+      "message": "रिफ्रेश रोकें"
+   },
+   "active_tabs_alerts_help": {
+      "message": "मॉनिटर अलर्ट वाली टैब। अलग-अलग अलर्ट हटाएँ या सभी साफ़ करें।"
+   },
+   "active_tabs_alerts_title": {
+      "message": "अलर्ट"
+   },
+   "active_tabs_clear_all": {
+      "message": "सभी साफ़ करें"
+   },
+   "active_tabs_paused": {
+      "message": "रोका गया"
+   },
+   "active_tabs_refreshing_help": {
+      "message": "ऑटो-रिफ्रेश हो रही टैब। पॉज़, रीस्टार्ट या स्टॉप के लिए होवर करें।"
+   },
+   "active_tabs_refreshing_title": {
+      "message": "रिफ्रेश हो रहा है"
+   },
+   "active_tabs_stop_all": {
+      "message": "सभी रोकें"
+   },
+   "active_tabs_time_day_ago": {
+      "message": "%1 दिन पहले"
+   },
+   "active_tabs_time_days_ago": {
+      "message": "%1 दिन पहले"
+   },
+   "active_tabs_time_hour_ago": {
+      "message": "%1 घंटे पहले"
+   },
+   "active_tabs_time_hours_ago": {
+      "message": "%1 घंटे पहले"
+   },
+   "active_tabs_time_just_now": {
+      "message": "अभी"
+   },
+   "active_tabs_time_min_ago": {
+      "message": "%1 मिनट पहले"
+   },
+   "active_tabs_time_sec_ago": {
+      "message": "%1 सेकंड पहले"
+   },
+   "add": {
+      "message": "जोड़ें"
+   },
+   "add_email": {
+      "message": "ईमेल जोड़ें"
+   },
+   "add_email_tooltip": {
+      "message": "अलर्ट पाने के लिए ईमेल जोड़ें"
+   },
+   "add_keywords": {
+      "message": "डिफ़ॉल्ट लक्ष्य कीवर्ड जोड़ें"
+   },
+   "add_new": {
+      "message": "नया जोड़ें"
+   },
+   "added": {
+      "message": "जोड़ा गया"
+   },
+   "alert_settings": {
+      "message": "सतर्कता सेटिंग्स"
+   },
+   "alert_when_any_change_detected": {
+      "message": "ऑटो रिफ्रेश प्लस आपको सतर्क करेगा जब भी इस वेबपेज पर कोई परिवर्तन पहचाना जाता है"
+   },
+   "alert_when_keyword_appears": {
+      "message": "जब आपका कीवर्ड दिखाई दे तो सूचित रहें।"
+   },
+   "alert_when_keyword_disappears": {
+      "message": "जब आपका कीवर्ड गायब हो तो सूचित रहें।"
+   },
+   "all_days": {
+      "message": "सभी दिन"
+   },
+   "any": {
+      "message": "कोई भी"
+   },
+   "app_description": {
+      "description": "The description of extension",
+      "message": "शक्तिशाली पेज मॉनिटर सुविधाओं के साथ पृष्ठ को स्वचालित रूप से ताज़ा करें।"
+   },
+   "app_name": {
+      "description": "The extension name",
+      "message": "ऑटो रिफ्रेश प्लस | पेज मॉनिटर"
+   },
+   "appearance": {
+      "message": "दिखावट"
+   },
+   "apply": {
+      "message": "लागू करें"
+   },
+   "are_you_sure": {
+      "message": "क्या आप वाकई हटाना चाहते हैं?"
+   },
+   "ast": {
+      "message": "काउंटडाउन टाइमर"
+   },
+   "auto_click_element_aria": {
+      "message": "ऑटो-क्लिक तत्व चयनकर्ता"
+   },
+   "auto_click_element_label": {
+      "message": "ऑटो-क्लिक तत्व"
+   },
+   "auto_click_help": {
+      "message": "यदि निगरानी किए गए कीवर्ड में कोई लिंक है तो स्वचालित रूप से लिंक पर क्लिक करें।"
+   },
+   "auto_click_targets_desc": {
+      "message": "प्रत्येक रीफ्रेश या कीवर्ड मेल पर तत्वों पर क्लिक करें"
+   },
+   "auto_click_targets_label": {
+      "message": "ऑटो क्लिक लक्ष्य"
+   },
+   "auto_clicker": {
+      "message": "ऑटो क्लिकर"
+   },
+   "auto_clicker_msg1": {
+      "message": "मॉनिटर कीवर्ड पर स्वचालित क्लिक"
+   },
+   "auto_disable_on_first": {
+      "message": "पहली बार चलने के बाद स्वचालित रूप से अक्षम करें"
+   },
+   "auto_disable_on_first_desc": {
+      "message": "इस शेड्यूल को एक बार चलने के बाद अक्षम करें"
+   },
+   "auto_stop_schedule": {
+      "message": "ऑटो-स्टॉप"
+   },
+   "auto_stop_schedule_desc": {
+      "message": "उदा. सुबह 10–11 बजे के बीच रिफ्रेश"
+   },
+   "auto_tasks_add_another": {
+      "message": "एक और क्लिक जोड़ें"
+   },
+   "auto_tasks_add_element": {
+      "message": "तत्व जोड़ें"
+   },
+   "auto_tasks_empty": {
+      "message": "अभी तक कोई तत्व नहीं जोड़ा गया"
+   },
+   "auto_tasks_help": {
+      "message": "पृष्ठ पर चयनित तत्वों पर स्वचालित रूप से क्लिक करता है।"
+   },
+   "auto_tasks_label": {
+      "message": "अतिरिक्त तत्वों पर क्लिक करें"
+   },
+   "auto_tasks_new_tab_short": {
+      "message": "नया टैब"
+   },
+   "auto_tasks_open_in_new_tab": {
+      "message": "लिंक होने पर नई टैब में खोलें"
+   },
+   "auto_tasks_open_new_tab_aria": {
+      "message": "क्लिक %1 नए टैब में खोलें"
+   },
+   "auto_tasks_options": {
+      "message": "विकल्प"
+   },
+   "auto_tasks_pick": {
+      "message": "चुनें"
+   },
+   "auto_tasks_remove": {
+      "message": "हटाएँ"
+   },
+   "auto_tasks_remove_target_aria": {
+      "message": "क्लिक लक्ष्य %1 हटाएँ"
+   },
+   "auto_tasks_selector_aria": {
+      "message": "क्लिक लक्ष्य %1 के लिए CSS सेलेक्टर"
+   },
+   "auto_tasks_set_selector": {
+      "message": "सेलेक्टर सेट करें…"
+   },
+   "auto_tasks_toggle_target_aria": {
+      "message": "क्लिक लक्ष्य %1 टॉगल करें"
+   },
+   "auto_tasks_trigger": {
+      "message": "ट्रिगर"
+   },
+   "auto_tasks_trigger_each_refresh": {
+      "message": "प्रत्येक रिफ्रेश पर"
+   },
+   "auto_tasks_trigger_on_detection": {
+      "message": "जब अलर्ट ट्रिगर हो"
+   },
+   "auto_tasks_trigger_on_detection_short": {
+      "message": "पता चलने पर"
+   },
+   "auto_tasks_trigger_refresh_short": {
+      "message": "रीफ्रेश"
+   },
+   "bad": {
+      "message": "खराब"
+   },
+   "behavior_on_interaction": {
+      "message": "इंटरैक्शन पर व्यवहार"
+   },
+   "bulk_keywords_results": {
+      "message": "बल्क कीवर्ड परिणाम"
+   },
+   "calendar_weekday_fri": {
+      "message": "शु"
+   },
+   "calendar_weekday_mon": {
+      "message": "सो"
+   },
+   "calendar_weekday_sat": {
+      "message": "श"
+   },
+   "calendar_weekday_sun": {
+      "message": "र"
+   },
+   "calendar_weekday_thu": {
+      "message": "गु"
+   },
+   "calendar_weekday_tue": {
+      "message": "मं"
+   },
+   "calendar_weekday_wed": {
+      "message": "बु"
+   },
+   "cancel": {
+      "message": "रद्द करें"
+   },
+   "captcha_detection": {
+      "message": "कैप्चा पहचान"
+   },
+   "caution_badge": {
+      "message": "सावधानी"
+   },
+   "choose_interval": {
+      "message": "समय अंतराल चुनें"
+   },
+   "clear": {
+      "message": "साफ़ करें"
+   },
+   "clear_all": {
+      "message": "सभी को साफ़ करें"
+   },
+   "clear_all_keywords": {
+      "message": "सभी कीवर्ड साफ़ करें"
+   },
+   "clear_all_keywords_desc": {
+      "message": "क्या आप वाकई सभी कीवर्ड साफ़ करना चाहते हैं?"
+   },
+   "click_automation_title": {
+      "message": "क्लिक ऑटोमेशन"
+   },
+   "close": {
+      "message": "बंद करें"
+   },
+   "continue": {
+      "message": "जारी रखें"
+   },
+   "continue_refreshing_after_alert": {
+      "message": "सतर्कता के बाद रीफ्रेश करना जारी रखें"
+   },
+   "continue_refreshing_help": {
+      "message": "कीवर्ड पहचान पर सतर्कता ट्रिगर करें लेकिन सामान्य रूप से रीफ्रेश करना जारी रखें।"
+   },
+   "continue_refreshing_switch_desc": {
+      "message": "अलर्ट के बाद रीफ्रेश जारी रखें"
+   },
+   "copy_expression": {
+      "message": "अभिव्यक्ति कॉपी करें"
+   },
+   "copy_to_clipboard": {
+      "message": "क्लिपबोर्ड पर कॉपी करें"
+   },
+   "countdown_decrease_hours": {
+      "message": "घंटे घटाएँ"
+   },
+   "countdown_decrease_min": {
+      "message": "मिनट घटाएँ"
+   },
+   "countdown_decrease_sec": {
+      "message": "सेकंड घटाएँ"
+   },
+   "countdown_duration_label": {
+      "message": "काउंटडाउन अवधि"
+   },
+   "countdown_fires_after": {
+      "message": "%1 बाद चलेगा"
+   },
+   "countdown_hms_header": {
+      "message": "घं : मि : से"
+   },
+   "countdown_hours_value": {
+      "message": "घंटों का मान"
+   },
+   "countdown_increase_hours": {
+      "message": "घंटे बढ़ाएँ"
+   },
+   "countdown_increase_min": {
+      "message": "मिनट बढ़ाएँ"
+   },
+   "countdown_increase_sec": {
+      "message": "सेकंड बढ़ाएँ"
+   },
+   "countdown_min_value": {
+      "message": "मिनट का मान"
+   },
+   "countdown_sec_value": {
+      "message": "सेकंड का मान"
+   },
+   "countdown_target_date_time": {
+      "message": "लक्ष्य तिथि और समय"
+   },
+   "countdown_timer_modes_help": {
+      "message": "टाइमर कैसे चलेगा चुनें: अवधि घंटे/मिनट/सेकंड से उलटी गिनती करती है; दिनांक और समय चुने हुए क्षण पर एक बार चलता है।"
+   },
+   "countdown_triggers_once": {
+      "message": "चयनित समय पर एक बार ट्रिगर होता है"
+   },
+   "countdown_unit_hours": {
+      "message": "घंटे"
+   },
+   "countdown_unit_min": {
+      "message": "मिनट"
+   },
+   "countdown_unit_sec": {
+      "message": "सेकंड"
+   },
+   "css_selector": {
+      "message": "CSS सिलेक्टर"
+   },
+   "css_selector_aria": {
+      "message": "CSS सेलेक्टर"
+   },
+   "css_selector_placeholder": {
+      "message": "उदा., button या a[href=\"/login\"]"
+   },
+   "custom": {
+      "message": "कस्टम"
+   },
+   "custom_expression": {
+      "message": "कस्टम अभिव्यक्ति"
+   },
+   "custom_expression_desc": {
+      "message": "इसे दो ## प्रतीकों के साथ आरंभ किया जाता है, और वे OR और AND ऑपरेटर के लिए बूलियन विवरण हैं। इसे कोष्ठक में संलग्न होना चाहिए (कुल 4 कोष्ठक)।"
+   },
+   "custom_expression_example_1_desc": {
+      "message": "\"in stock\" OR \"available\" AND \"add to cart\" OR \"buy now\" को खोजता है"
+   },
+   "custom_expression_example_2_desc": {
+      "message": "\"sale\" OR \"discount\" AND \"50%\" OR \"30%\" को खोजता है"
+   },
+   "custom_expression_example_3_desc": {
+      "message": "कोष्ठक के साथ OR (|) और AND ऑपरेटर का उपयोग करके बूलियन अभिव्यक्ति"
+   },
+   "custom_interval": {
+      "message": "कस्टम अंतराल"
+   },
+   "custom_interval_desc": {
+      "message": "सटीक घंटे, मिनट और सेकंड सेट करें"
+   },
+   "custom_monitor": {
+      "message": "कस्टम मॉनिटर"
+   },
+   "custom_time_interval": {
+      "message": "कस्टम समय अंतराल"
+   },
+   "date_picker_next_month": {
+      "message": "अगला महीना"
+   },
+   "date_picker_previous_month": {
+      "message": "पिछला महीना"
+   },
+   "date_time_desc": {
+      "message": "विशिष्ट तारीख और समय पर ट्रिगर करने के लिए काउंटडाउन सेट करें।"
+   },
+   "date_time_mode": {
+      "message": "दिनांक समय मोड"
+   },
+   "date_time_target": {
+      "message": "लक्ष्य दिनांक और समय"
+   },
+   "day_abbr_fri": {
+      "message": "शुक्र"
+   },
+   "day_abbr_mon": {
+      "message": "सोम"
+   },
+   "day_abbr_sat": {
+      "message": "शनि"
+   },
+   "day_abbr_sun": {
+      "message": "रवि"
+   },
+   "day_abbr_thu": {
+      "message": "गुरु"
+   },
+   "day_abbr_tue": {
+      "message": "मंगल"
+   },
+   "day_abbr_wed": {
+      "message": "बुध"
+   },
+   "decrease_aria": {
+      "message": "घटाएँ"
+   },
+   "default_help_description": {
+      "message": "आप सभी वेबसाइटों पर लागू करने के लिए सामान्य सेटिंग्स में '%1' को भी कॉन्फ़िगर कर सकते हैं।"
+   },
+   "default_interval": {
+      "message": "डिफ़ॉल्ट समय अंतराल"
+   },
+   "delay_before_scanning": {
+      "message": "स्कैन से पहले विलंब"
+   },
+   "detect_any_change": {
+      "message": "ऑटो रिफ्रेश प्लस ने इस वेबसाइट पर एक परिवर्तन का पता लगाया है।"
+   },
+   "detect_any_change_title": {
+      "message": "पेज मॉनिटर"
+   },
+   "detect_captcha_on_page": {
+      "message": "पृष्ठ पर कैप्चा का पता लगाएं"
+   },
+   "detect_error_on_page": {
+      "message": "त्रुटि पृष्ठ का पता लगाएं (जैसे, 404)"
+   },
+   "detection_behavior": {
+      "message": "पहचान व्यवहार"
+   },
+   "developer_mode_msg": {
+      "message": "सुरक्षा और स्थिरता कारणों से, डेवलपर मोड की अनुमति नहीं है।\u003Cbr> नवीनतम और सबसे सुरक्षित संस्करण सुनिश्चित करने के लिए कृपया आधिकारिक स्टोर से एक्सटेंशन डाउनलोड और इंस्टॉल करें"
+   },
+   "dismiss": {
+      "message": "खारिज करें"
+   },
+   "dismiss_alert": {
+      "message": "अलर्ट हटाएँ"
+   },
+   "donation_msg2": {
+      "message": "मैंने पहले ही किया है।"
+   },
+   "download_in_store": {
+      "message": "वेबस्टोर से इंस्टॉल करें"
+   },
+   "duplicates": {
+      "message": "डुप्लिकेट"
+   },
+   "duration_desc": {
+      "message": "घंटे, मिनट और सेकंड का उपयोग करके काउंटडाउन सेट करें।"
+   },
+   "duration_help": {
+      "message": "घंटे, मिनट और सेकंड में विशिष्ट अवधि के आधार पर काउंटडाउन सेट करने के लिए इस कार्रवाई का उपयोग करें"
+   },
+   "duration_mode": {
+      "message": "अवधि मोड"
+   },
+   "email_alert_help": {
+      "message": "ईमेल सतर्कता आपको सूचित करती है जब विशिष्ट परिवर्तन या घटनाएं होती हैं। ये सूचनाएं प्राप्त करने के लिए एक ईमेल पता जोड़ें"
+   },
+   "email_alerts_switch_desc": {
+      "message": "मॉनिटर ट्रिगर होने पर ईमेल भेजें"
+   },
+   "email_daily_limit": {
+      "message": "%1 / %2 दैनिक सीमा"
+   },
+   "email_disconnect": {
+      "message": "डिस्कनेक्ट"
+   },
+   "email_limit_reached": {
+      "message": "ईमेल सीमा पहुंच गई"
+   },
+   "email_limit_toast_description": {
+      "message": "आप अपनी दैनिक ईमेल सीमा पहुंच गए हैं। ईमेल सतर्कता भेजना जारी रखने के लिए अपग्रेड करें।"
+   },
+   "email_remaining_count": {
+      "message": "%1 शेष"
+   },
+   "email_sent_today": {
+      "message": "आज %1 भेजे गए"
+   },
+   "email_usage_count": {
+      "message": "आज भेजे गए ईमेल: %1 / %2"
+   },
+   "emails_remaining": {
+      "message": "बचे हुए ईमेल"
+   },
+   "enable_captcha_detection_help": {
+      "message": "कैप्चा चुनौती दिखाई देने पर पता लगाने के लिए सक्षम करें।"
+   },
+   "enable_error_detection_help": {
+      "message": "विफल या टूटे हुए पृष्ठों का पता लगाने के लिए सक्षम करें।"
+   },
+   "enter_custom_interval": {
+      "message": "अपना कस्टम अंतराल सेकंड में दर्ज करें।"
+   },
+   "enter_time_duration": {
+      "message": "समय अवधि दर्ज करें"
+   },
+   "error_page_detection": {
+      "message": "त्रुटि पृष्ठ पहचान"
+   },
+   "error_save_preferences": {
+      "message": "प्राथमिकताएं सहेजने में विफल। कृपया पुनः प्रयास करें।"
+   },
+   "error_schedule_one_day": {
+      "message": "आपको कम से कम एक दिन चुनना होगा।"
+   },
+   "error_stop_time": {
+      "message": "स्टॉप समय शुरुआत के समय से बाद में होना चाहिए।"
+   },
+   "example": {
+      "message": "उदाहरण"
+   },
+   "expression_templates": {
+      "message": "अभिव्यक्ति टेम्पलेट"
+   },
+   "ext_action_failed": {
+      "message": "कार्रवाई विफल"
+   },
+   "ext_applying": {
+      "message": "लागू कर रहे हैं..."
+   },
+   "ext_approve_action": {
+      "message": "स्वीकृत"
+   },
+   "ext_approve_apply": {
+      "message": "स्वीकृत करें और लागू करें"
+   },
+   "ext_auto_generated": {
+      "message": "(स्वचालित-जनित)"
+   },
+   "ext_blacklist": {
+      "message": "ब्लैकलिस्ट"
+   },
+   "ext_changes_merged": {
+      "message": "स्थानीय विकल्पों में मर्ज होने वाले परिवर्तन।"
+   },
+   "ext_code": {
+      "message": "कोड"
+   },
+   "ext_completed": {
+      "message": "पूर्ण"
+   },
+   "ext_configuration_review": {
+      "message": "कॉन्फ़िगरेशन समीक्षा"
+   },
+   "ext_created": {
+      "message": "बनाया गया"
+   },
+   "ext_current": {
+      "message": "वर्तमान"
+   },
+   "ext_custom_script": {
+      "message": "कस्टम स्क्रिप्ट"
+   },
+   "ext_custom_script_add_new": {
+      "message": "कस्टम स्क्रिप्ट (नया जोड़ें)"
+   },
+   "ext_custom_script_add_only": {
+      "message": "यह ऑपरेशन केवल एक नई स्क्रिप्ट जोड़ता है और मौजूदा स्क्रिप्ट को कभी चुपचाप ओवरराइट नहीं करता।"
+   },
+   "ext_domain_config": {
+      "message": "डोमेन कॉन्फ़िग"
+   },
+   "ext_domain_configuration": {
+      "message": "डोमेन कॉन्फ़िगरेशन"
+   },
+   "ext_empty": {
+      "message": "(खाली)"
+   },
+   "ext_enabled": {
+      "message": "सक्षम"
+   },
+   "ext_error_action": {
+      "message": "अनुरोध %1 करने में विफल।"
+   },
+   "ext_error_storage": {
+      "message": "एक्सटेंशन स्टोरेज से लंबित समीक्षा पढ़ने में विफल।"
+   },
+   "ext_error_sync": {
+      "message": "स्टोरेज सिंक त्रुटि के कारण अनुरोध %1 करने में विफल।"
+   },
+   "ext_execution_timing": {
+      "message": "निष्पादन समय"
+   },
+   "ext_expires": {
+      "message": "समाप्त"
+   },
+   "ext_extension_wide_settings": {
+      "message": "एक्सटेंशन-व्यापी सेटिंग्स"
+   },
+   "ext_field": {
+      "message": "फ़ील्ड"
+   },
+   "ext_global_options": {
+      "message": "वैश्विक विकल्प"
+   },
+   "ext_global_options_changes": {
+      "message": "वैश्विक विकल्प परिवर्तन"
+   },
+   "ext_id": {
+      "message": "ID"
+   },
+   "ext_injection_type": {
+      "message": "इंजेक्शन प्रकार"
+   },
+   "ext_name": {
+      "message": "नाम"
+   },
+   "ext_new": {
+      "message": "नया"
+   },
+   "ext_new_script_injection": {
+      "message": "नई स्क्रिप्ट इंजेक्शन"
+   },
+   "ext_no_changes_detected": {
+      "message": "कोई प्रभावी परिवर्तन नहीं पाया गया।"
+   },
+   "ext_no_pending_description": {
+      "message": "समीक्षा के लिए कोई लंबित परिवर्तन नहीं है। जब कोई बाहरी स्रोत कॉन्फ़िगरेशन अपडेट का अनुरोध करेगा तो यह पेज दिखाई देगा।"
+   },
+   "ext_no_pending_request": {
+      "message": "कोई लंबित अनुरोध नहीं"
+   },
+   "ext_proposed_changes": {
+      "message": "प्रस्तावित परिवर्तन"
+   },
+   "ext_refresh": {
+      "message": "रीफ्रेश करें"
+   },
+   "ext_reject": {
+      "message": "अस्वीकार"
+   },
+   "ext_reject_action": {
+      "message": "अस्वीकार"
+   },
+   "ext_rejecting": {
+      "message": "अस्वीकार कर रहे हैं..."
+   },
+   "ext_request": {
+      "message": "अनुरोध"
+   },
+   "ext_review_description": {
+      "message": "प्रस्तावित परिवर्तनों की समीक्षा करें और केवल तभी स्वीकृत करें जब वे आपके इरादे से मेल खाते हों। आपके पुष्टि करने तक कुछ भी लागू नहीं होगा।"
+   },
+   "ext_review_pending_changes": {
+      "message": "लंबित परिवर्तनों की समीक्षा करें"
+   },
+   "ext_site_specific_rules": {
+      "message": "साइट-विशिष्ट नियम"
+   },
+   "ext_source": {
+      "message": "स्रोत"
+   },
+   "ext_target": {
+      "message": "लक्ष्य"
+   },
+   "ext_type": {
+      "message": "प्रकार"
+   },
+   "ext_unknown": {
+      "message": "अज्ञात"
+   },
+   "ext_url_pattern": {
+      "message": "URL पैटर्न"
+   },
+   "ext_whitelist": {
+      "message": "व्हाइटलिस्ट"
+   },
+   "extension_settings": {
+      "message": "एक्सटेंशन सेटिंग्स"
+   },
+   "extension_update_dismiss_aria": {
+      "message": "अपडेट सूचना बंद करें"
+   },
+   "extension_update_notification_aria": {
+      "message": "एक्सटेंशन अपडेट सूचना"
+   },
+   "extension_updated_to_version": {
+      "message": "एक्सटेंशन v%1 पर अपडेट किया गया"
+   },
+   "feature_is_premium": {
+      "message": "%1 एक प्रीमियम सुविधा है। सभी प्रीमियम उपकरण तक पहुंचने के लिए अपग्रेड करें।"
+   },
+   "find_mtr_msg": {
+      "message": "मॉनिटर टेक्स्ट खोजें"
+   },
+   "follow_all_redirects": {
+      "message": "सभी पुनर्निर्देशन का पालन करें"
+   },
+   "follow_all_redirects_desc": {
+      "message": "यहां तक कि यदि पृष्ठ किसी अन्य URL पर पुनर्निर्देशित करता है तो रीफ्रेश करना जारी रखें।"
+   },
+   "follow_canonical_url": {
+      "message": "कैनोनिकल URL का पालन करें"
+   },
+   "follow_canonical_url_desc": {
+      "message": "पृष्ठ का कैनोनिकल (मूल) URL का उपयोग करें।"
+   },
+   "found": {
+      "message": "पाया गया"
+   },
+   "frozen_tab_noti_message": {
+      "message": "ब्राउज़र ने मेमोरी बचाने के लिए इस टैब को पृष्ठभूमि में फ्रीज कर दिया है। जब आप इस टैब पर वापस आएंगे, ऑटो-रिफ्रेश फिर से शुरू होगा।"
+   },
+   "frozen_tab_noti_title": {
+      "message": "ऑटो-रिफ्रेश रोका गया"
+   },
+   "full_documentation": {
+      "message": "पूर्ण दस्तावेज़"
+   },
+   "full_page": {
+      "message": "पूर्ण पृष्ठ रीफ्रेश"
+   },
+   "full_page_type_desc": {
+      "message": "परिवर्तन जांचने के लिए पूरे पेज को रीलोड करें"
+   },
+   "full_page_type_help": {
+      "message": "सामान्य रीफ्रेश आपको संपूर्ण पृष्ठ में परिवर्तन की जांच करने की अनुमति देता है, जिसमें सभी सामग्री और संसाधन शामिल हैं।"
+   },
+   "go_premium_full_access": {
+      "message": "प्रीमियम जाएं – पूर्ण पहुंच"
+   },
+   "go_to_top": {
+      "description": "Accessible label for scroll-to-top button",
+      "message": "शीर्ष पर जाएँ"
+   },
+   "go_top": {
+      "message": "शीर्ष"
+   },
+   "good": {
+      "message": "अच्छा"
+   },
+   "grace_period_banner": {
+      "message": "आपकी ग्रेस अवधि 1 जुलाई को समाप्त होगी। प्रीमियम सुविधाएँ निष्क्रिय कर दी जाएंगी"
+   },
+   "grace_period_consent_body": {
+      "message": "आप प्रीमियम सुविधाओं तक पहुँच खोने वाले हैं। क्या आप वाकई मुफ्त योजना के साथ जारी रखना चाहते हैं?"
+   },
+   "grace_period_consent_title": {
+      "message": "प्रीमियम के बिना जारी रखें?"
+   },
+   "grace_period_dismiss_aria": {
+      "message": "ग्रेस अवधि सूचना बंद करें"
+   },
+   "grace_period_expired_data_safe": {
+      "message": "आपकी सेटिंग्स और डेटा सुरक्षित हैं और सहेजे रहेंगे।"
+   },
+   "grace_period_expired_description": {
+      "message": "आपके खाते में प्रीमियम सुविधाएँ अब सक्रिय नहीं हैं।"
+   },
+   "grace_period_expired_disable_button": {
+      "message": "प्रीमियम सुविधाएँ अक्षम करें"
+   },
+   "grace_period_expired_title": {
+      "message": "ग्रेस अवधि समाप्त हो गई"
+   },
+   "grace_period_expired_upgrade_button": {
+      "message": "Premium में अपग्रेड करें"
+   },
+   "grace_period_expired_upgrade_hint": {
+      "message": "आप किसी भी समय अपग्रेड करके सभी प्रीमियम सुविधाएँ पुनर्स्थापित कर सकते हैं।"
+   },
+   "grace_period_ok_with_free": {
+      "message": "मुफ्त के साथ जारी रखें"
+   },
+   "grace_period_upgrade_button": {
+      "message": "प्रीमियम रखें"
+   },
+   "great": {
+      "message": "बहुत अच्छा!"
+   },
+   "handle_redirects": {
+      "message": "रीडायरेक्ट प्रबंधित करें"
+   },
+   "hard_refresh": {
+      "message": "हार्ड रीफ्रेश"
+   },
+   "hard_refresh_desc": {
+      "message": "प्रत्येक रीलोड पर कैश बायपास करें"
+   },
+   "hard_refresh_help": {
+      "message": "कैश्ड डेटा पर निर्भर किए बिना पृष्ठ को पुनः लोड करें।"
+   },
+   "highlight_element": {
+      "message": "पृष्ठ पर तत्व को हाइलाइट करें"
+   },
+   "highlight_keyword": {
+      "message": "पृष्ठ पर कीवर्ड को हाइलाइट करें"
+   },
+   "highlight_keyword_desc": {
+      "message": "मेल खाते कीवर्ड को हाइलाइट करें"
+   },
+   "highlight_keyword_help": {
+      "message": "जब कीवर्ड पहचाना जाता है, तो यह पृष्ठ पर दृश्य रूप से हाइलाइट किया जाएगा।"
+   },
+   "hotkeys_label": {
+      "message": "हॉटकी"
+   },
+   "hour": {
+      "message": "घंटा"
+   },
+   "hours": {
+      "message": "घंटे"
+   },
+   "increase_aria": {
+      "message": "बढ़ाएँ"
+   },
+   "individual_plan": {
+      "message": "व्यक्तिगत योजना"
+   },
+   "individual_plan_starts_at": {
+      "message": "व्यक्तिगत योजना $2.99 से शुरू होती है"
+   },
+   "interaction_help": {
+      "message": "जब उपयोगकर्ता पृष्ठ के साथ इंटरैक्ट करता है तो स्वचालित रूप से रीफ्रेश को रोकें।"
+   },
+   "interactions_switch_desc": {
+      "message": "पेज उपयोग करने पर क्या होता है"
+   },
+   "interactions_title_opt": {
+      "message": "उपयोगकर्ता इंटरैक्शन पर रीफ्रेश व्यवहार"
+   },
+   "interval": {
+      "message": "अंतराल"
+   },
+   "interval_card_custom_duration": {
+      "message": "कस्टम अवधि"
+   },
+   "interval_card_interval": {
+      "message": "अंतराल"
+   },
+   "interval_card_random_range": {
+      "message": "रैंडम रेंज"
+   },
+   "interval_custom_summary": {
+      "message": "हर %1घं %2मि %3से"
+   },
+   "interval_decrease_by": {
+      "message": "%1 घटाएँ"
+   },
+   "interval_edit_custom_aria": {
+      "message": "कस्टम अंतराल संपादित करें"
+   },
+   "interval_in_seconds_aria": {
+      "message": "सेकंड में अंतराल"
+   },
+   "interval_increase_by": {
+      "message": "%1 बढ़ाएँ"
+   },
+   "interval_max_sec": {
+      "message": "अधिकतम (सेक)"
+   },
+   "interval_max_sec_aria": {
+      "message": "अधिकतम सेकंड"
+   },
+   "interval_min_sec": {
+      "message": "न्यूनतम (सेक)"
+   },
+   "interval_min_sec_aria": {
+      "message": "न्यूनतम सेकंड"
+   },
+   "interval_modes_help": {
+      "message": "फिक्स्ड: हर N सेकंड में रिफ्रेश। रैंडम: रेंज में अंतराल बदलें। कस्टम: घंटे/मिनट/सेकंड में सटीक अवधि सेट करें।"
+   },
+   "interval_preset_minutes": {
+      "message": "%1म"
+   },
+   "interval_preset_seconds": {
+      "message": "%1स"
+   },
+   "interval_random_summary": {
+      "message": "हर %1–%2 सेक में रिफ्रेश"
+   },
+   "interval_range_to": {
+      "message": "से"
+   },
+   "interval_tab_custom": {
+      "message": "कस्टम"
+   },
+   "interval_tab_fixed": {
+      "message": "निश्चित"
+   },
+   "interval_tab_random": {
+      "message": "यादृच्छिक"
+   },
+   "interval_unit_hrs": {
+      "message": "घंटे"
+   },
+   "interval_unit_min": {
+      "message": "मिनट"
+   },
+   "interval_unit_sec": {
+      "message": "सेकंड"
+   },
+   "interval_unit_seconds_header": {
+      "message": "सेकंड"
+   },
+   "keyword_input_placeholder": {
+      "message": "कीवर्ड, regex, XPath, या CSS सिलेक्टर दर्ज करें (अल्पविराम से अलग करें)..."
+   },
+   "keywords_to_monitor": {
+      "message": "निगरानी के लिए कीवर्ड"
+   },
+   "kill_notification": {
+      "message": "सूचना अलर्ट को बंद करें"
+   },
+   "kill_successfully": {
+      "message": "सफलतापूर्वक बंद किया गया"
+   },
+   "lang_code": {
+      "message": "hi"
+   },
+   "language": {
+      "message": "भाषा"
+   },
+   "lost": {
+      "message": "खो गया"
+   },
+   "loved": {
+      "message": "मुझे बहुत पसंद आया!"
+   },
+   "match_html_source_desc": {
+      "message": "कच्चा स्रोत स्कैन करें — धीमा, सावधानी से उपयोग करें"
+   },
+   "match_html_source_label": {
+      "message": "HTML स्रोत मिलान"
+   },
+   "match_visible_text_desc": {
+      "message": "स्क्रीन पर रेंडर किया गया पाठ स्कैन करें"
+   },
+   "match_visible_text_label": {
+      "message": "दृश्य पाठ मिलान"
+   },
+   "maximum": {
+      "message": "अधिकतम"
+   },
+   "minimum": {
+      "message": "न्यूनतम"
+   },
+   "minute": {
+      "message": "मिनट"
+   },
+   "minutes": {
+      "message": "मिनट"
+   },
+   "monitor": {
+      "message": "मॉनिटर"
+   },
+   "monitor_area_select": {
+      "message": "चुनें"
+   },
+   "monitor_area_selector_desc": {
+      "message": "CSS सेलेक्टर दर्ज करें या पेज पर एक तत्व चुनें।"
+   },
+   "monitor_area_switch_desc": {
+      "message": "खोज को एक क्षेत्र तक सीमित करें"
+   },
+   "monitor_area_switch_label": {
+      "message": "मॉनिटर क्षेत्र"
+   },
+   "monitor_custom_area": {
+      "message": "पृष्ठ के कस्टम क्षेत्र में खोजें"
+   },
+   "monitor_custom_area_help": {
+      "message": "निगरानी या खोज के लिए पृष्ठ के एक कस्टम क्षेत्र को निर्दिष्ट करने के लिए सक्षम करें।"
+   },
+   "monitor_full_page": {
+      "message": "पूर्ण पृष्ठ मॉनिटर करें"
+   },
+   "monitor_full_page_help": {
+      "message": "संपूर्ण वेबपेज में परिवर्तन की निगरानी के लिए सक्षम करें।"
+   },
+   "monitor_page_for_any_changes": {
+      "message": "किसी भी पृष्ठ परिवर्तन को स्वचालित रूप से ट्रैक करें।"
+   },
+   "monitored_area": {
+      "message": "निगरानी किया गया क्षेत्र"
+   },
+   "monitoring_active": {
+      "message": "मॉनिटरिंग सक्रिय"
+   },
+   "monitoring_auto_click_label": {
+      "message": "कीवर्ड मिलान पर ऑटो-क्लिक"
+   },
+   "monitoring_engine_advanced": {
+      "message": "एडवांस्ड"
+   },
+   "monitoring_engine_aria": {
+      "message": "मॉनिटरिंग इंजन संस्करण"
+   },
+   "monitoring_engine_basic": {
+      "message": "बेसिक"
+   },
+   "monitoring_engine_beta": {
+      "message": "बीटा"
+   },
+   "monitoring_engine_tooltip_desc": {
+      "message": "सभी चयनों में काम करता है — मिला, खोया और कस्टम — तेज़, स्मार्ट पहचान के साथ।"
+   },
+   "monitoring_engine_tooltip_title": {
+      "message": "नया बीटा कोर"
+   },
+   "monitoring_keyword_input_aria": {
+      "message": "मॉनिटर करने के लिए कीवर्ड"
+   },
+   "monitoring_keywords_empty": {
+      "message": "अभी तक कोई कीवर्ड नहीं — मॉनिटरिंग शुरू करने के लिए कम से कम एक जोड़ें।"
+   },
+   "monitoring_mode": {
+      "message": "निगरानी मोड"
+   },
+   "monitoring_mode_custom_info_highlight": {
+      "message": "कोई भी परिवर्तन"
+   },
+   "monitoring_mode_custom_info_prefix": {
+      "message": "कस्टम मोड आपको सचेत करता है जब "
+   },
+   "monitoring_mode_custom_info_suffix": {
+      "message": " इस पेज पर पता चलता है — कीवर्ड की आवश्यकता नहीं।"
+   },
+   "monitoring_mode_custom_intro": {
+      "message": "किसी भी पेज परिवर्तन को स्वचालित रूप से ट्रैक करें।"
+   },
+   "monitoring_mode_custom_short": {
+      "message": "कस्टम"
+   },
+   "monitoring_mode_found_desc": {
+      "message": "जब आपका कीवर्ड दिखाई दे तो सूचना पाएं।"
+   },
+   "monitoring_mode_found_short": {
+      "message": "मिला"
+   },
+   "monitoring_mode_help": {
+      "message": "चुनें कि Auto Refresh Plus आपको कब सचेत करे"
+   },
+   "monitoring_mode_lost_desc": {
+      "message": "जब आपका कीवर्ड गायब हो जाए तो सूचना पाएं।"
+   },
+   "monitoring_mode_lost_short": {
+      "message": "खोया"
+   },
+   "monitoring_remove_keyword_aria": {
+      "message": "%1 हटाएं"
+   },
+   "monitoring_tip_banner": {
+      "message": "और कार्य चाहिए? मल्टी-क्लिक ऑटोमेशन आज़माएं।"
+   },
+   "monitoring_tip_label": {
+      "message": "सुझाव:"
+   },
+   "new_badge": {
+      "message": "नया"
+   },
+   "no_active_tabs": {
+      "message": "कोई सक्रिय टैब नहीं"
+   },
+   "no_active_tabs_desc": {
+      "message": "वर्तमान में कोई टैब निगरानी में या रीफ्रेश नहीं है। इसे यहां देखने के लिए एक टैब रीफ्रेश करना शुरू करें।"
+   },
+   "no_keyword": {
+      "message": "अभी तक कोई कीवर्ड नहीं जोड़ा गया। निगरानी के लिए कीवर्ड जोड़ें।"
+   },
+   "no_tabs_refreshing": {
+      "message": "कोई टैब रिफ्रेश नहीं हो रही"
+   },
+   "no_templates_match": {
+      "message": "कोई भी टेम्पलेट आपकी खोज मानदंड से मेल नहीं खाता।"
+   },
+   "normal_expression": {
+      "message": "सामान्य अभिव्यक्ति"
+   },
+   "normal_expression_desc": {
+      "message": "यह वेब पेज पर कीवर्ड खोजता है और किसी भी प्रतीक के साथ आरंभ होने की आवश्यकता नहीं है। प्रत्येक कीवर्ड पर बस Enter दबाएं।"
+   },
+   "normal_expression_example_1_desc": {
+      "message": "वेब पेज पर सटीक पाठ \"In Stock\" को खोजता है"
+   },
+   "normal_expression_example_2_desc": {
+      "message": "कई कीवर्ड खोजता है, प्रत्येक कीवर्ड के बाद enter दबाएं"
+   },
+   "normal_expression_example_3_desc": {
+      "message": "पृष्ठ पर \"Add to Cart\" बटन या पाठ को खोजता है"
+   },
+   "not_allowed": {
+      "message": "आपको यहां इसका उपयोग करने की अनुमति नहीं है।"
+   },
+   "noti_msg": {
+      "message": "ऑटो रिफ्रेश प्लस ने %1 आपके लक्ष्य पाठ को।"
+   },
+   "noti_msg_title": {
+      "message": "लक्ष्य पाठ!"
+   },
+   "notification_domain_info": {
+      "message": "%1 पर"
+   },
+   "ok": {
+      "message": "ठीक है"
+   },
+   "okay": {
+      "message": "ठीक है"
+   },
+   "open_link_help": {
+      "message": "क्लिक किए गए लिंक को नए ब्राउज़र टैब में खोलता है।"
+   },
+   "open_link_tab": {
+      "message": "नए टैब में लिंक खोलें"
+   },
+   "options": {
+      "message": "विकल्प"
+   },
+   "partial_page_desc": {
+      "message": "केवल AJAX/XHR अनुरोधों की निगरानी करें"
+   },
+   "pause": {
+      "message": "पॉज़"
+   },
+   "pause_on_interact": {
+      "message": "इंटरैक्ट करने पर रोकें"
+   },
+   "pause_refreshing": {
+      "message": "रिफ्रेश रोकें"
+   },
+   "permissions_attention": {
+      "message": "ध्यान दें"
+   },
+   "permissions_btn_grant": {
+      "message": "डैशबोर्ड होस्ट के लिए साइट एक्सेस दें"
+   },
+   "permissions_btn_opening_dialog": {
+      "message": "अनुमति संवाद खुल रहा है..."
+   },
+   "permissions_btn_refresh": {
+      "message": "स्थिति ताज़ा करें"
+   },
+   "permissions_config_missing_body": {
+      "message": "बिल्ड वातावरण में परिभाषित नहीं है। अपने डैशबोर्ड होस्टनाम पर सेट करके फिर से बिल्ड करें।"
+   },
+   "permissions_config_missing_title": {
+      "message": "कॉन्फ़िगरेशन गुम"
+   },
+   "permissions_error_denied": {
+      "message": "अनुमतियाँ अस्वीकृत की गईं। डैशबोर्ड होस्ट के लिए एक्सेस दें ताकि सिंक और इंजेक्ट की गई सुविधाएँ विश्वसनीय रूप से काम करें।"
+   },
+   "permissions_error_dialog": {
+      "message": "अनुमति संवाद खोलते समय समस्या हुई। पुनः प्रयास करें या ब्राउज़र सेटिंग देखें।"
+   },
+   "permissions_error_read_state": {
+      "message": "साइट अनुमति स्थिति नहीं पढ़ सके। इस पेज को फिर से लोड करें या बाद में पुनः प्रयास करें।"
+   },
+   "permissions_go_to_options": {
+      "message": "विकल्पों पर जाएँ"
+   },
+   "permissions_granted_body": {
+      "message": "इस एक्सटेंशन के पास आपके प्लेटफ़ॉर्म के लिए मेल खाती होस्ट अनुमति पहले से है। आप इस टैब को बंद कर सकते हैं।"
+   },
+   "permissions_granted_ok": {
+      "message": "ठीक"
+   },
+   "permissions_granted_title": {
+      "message": "साइट एक्सेस सक्षम"
+   },
+   "permissions_heading_dashboard": {
+      "message": "डैशबोर्ड होस्ट अनुमतियाँ"
+   },
+   "permissions_intro_dashboard": {
+      "message": "नियंत्रित करें कि एक्सटेंशन आपके Auto Refresh Plus डैशबोर्ड डोमेन पर चल सकता है या नहीं (कंटेंट स्क्रिप्ट और प्लेटफ़ॉर्म एकीकरण)।"
+   },
+   "permissions_label_dashboard_host": {
+      "message": "डैशबोर्ड होस्ट"
+   },
+   "permissions_revoke_hint": {
+      "message": "बाद में रद्द करने के लिए, ब्राउज़र सेटिंग में एक्सटेंशन साइट एक्सेस सूची से इस साइट को हटाएँ।"
+   },
+   "permissions_subtitle": {
+      "message": "प्लेटफ़ॉर्म साइट एक्सेस"
+   },
+   "permissions_warn_body_prefix": {
+      "message": "एक्सेस दें ताकि एक्सटेंशन आपके डैशबोर्ड में इंजेक्ट हो सके, प्राथमिकताएँ दर्शा सके और अनुभव को एक्सटेंशन के साथ मेल रख सके (कंटेंट स्क्रिप्ट जैसा होस्ट पैटर्न:"
+   },
+   "permissions_warn_body_suffix": {
+      "message": ")।"
+   },
+   "permissions_warn_title": {
+      "message": "साइट एक्सेस अभी नहीं दिया गया"
+   },
+   "play_alarm_on_captcha_detection": {
+      "message": "कैप्चा पहचान पर अलर्ट बजाएं"
+   },
+   "play_alarm_on_captcha_detection_help": {
+      "message": "कैप्चा का पता चलने पर ध्वनि सतर्कता बजाएं।"
+   },
+   "play_alarm_on_error_detection": {
+      "message": "त्रुटि पहचान पर अलर्ट बजाएं"
+   },
+   "play_alarm_on_error_detection_help": {
+      "message": "त्रुटि पृष्ठ का पता चलने पर ध्वनि सतर्कता बजाएं।"
+   },
+   "please_add_email_first": {
+      "message": "कृपया पहले ईमेल जोड़ें।"
+   },
+   "please_add_webhooks_first": {
+      "message": "कृपया पहले वेबहुक जोड़ें।"
+   },
+   "please_rateus": {
+      "message": "कृपया हमें रेट करें"
+   },
+   "popup_on_keyword_found": {
+      "message": "कीवर्ड मिलने पर सतर्कता"
+   },
+   "popup_on_keyword_lost": {
+      "message": "कीवर्ड खोने पर सतर्कता"
+   },
+   "predefined_interval": {
+      "message": "पूर्वनिर्धारित अंतराल"
+   },
+   "predefined_interval_desc": {
+      "message": "पूर्वनिर्धारित या डिफ़ॉल्ट समय मान का उपयोग करें"
+   },
+   "premium_benefits": {
+      "message": "प्रीमियम लाभ:"
+   },
+   "premium_device_sync": {
+      "message": "3 डिवाइस तक प्रबंधित करें"
+   },
+   "premium_full_access": {
+      "message": "सभी प्रीमियम सुविधाएं"
+   },
+   "premium_priority_support": {
+      "message": "विभिन्न सेटिंग प्रोफाइल"
+   },
+   "premium_tag_aria": {
+      "message": "प्रीमियम सुविधा: %1. घोषणा खोलें।"
+   },
+   "premium_tag_default_feature": {
+      "message": "सुविधा"
+   },
+   "premium_tag_tooltip_click": {
+      "message": "विवरण के लिए क्लिक करें"
+   },
+   "premium_usage_body": {
+      "message": "मुफ्त प्लान पर प्रीमियम सुविधाएँ सक्रिय।"
+   },
+   "premium_usage_dismiss": {
+      "message": "सूचना बंद करें"
+   },
+   "premium_usage_status_label": {
+      "message": "प्रीमियम सुविधाएँ उपयोग में"
+   },
+   "preset_interval": {
+      "message": "प्रीसेट अंतराल"
+   },
+   "pricing": {
+      "message": "मूल्य निर्धारण"
+   },
+   "pro_announcement_body": {
+      "message": "Auto Refresh Plus लंबी अवधि के विकास, उन्नत सुविधाओं, क्लाउड सिंक, बेहतर मॉनिटरिंग और कई डिवाइस प्रबंधन के लिए постепенно PRO ला रहा है, जबकि मुख्य रिफ़्रेश सुविधाएँ सभी के लिए मुफ़्त रहेंगी।"
+   },
+   "pro_announcement_close_aria": {
+      "message": "संवाद बंद करें"
+   },
+   "pro_announcement_days_label": {
+      "message": "दिन"
+   },
+   "pro_announcement_days_remaining_aria": {
+      "message": "%1 दिन शेष"
+   },
+   "pro_announcement_fresh_install_body": {
+      "message": "%1 और PRO के साथ पूर्ण प्रीमियम अनुभव को अनलॉक करें — उन्नत टूल, स्मार्टर मॉनिटरिंग, क्लाउड सिंक और मल्टी-डिवाइस एक्सेस शामिल है।"
+   },
+   "pro_announcement_fresh_install_title_suffix": {
+      "message": "एक प्रीमियम फीचर है"
+   },
+   "pro_announcement_fresh_install_trial": {
+      "message": "15 दिन की मुफ्त ट्रायल"
+   },
+   "pro_announcement_important_badge": {
+      "message": "महत्वपूर्ण"
+   },
+   "pro_announcement_important_notice_aria": {
+      "message": "महत्वपूर्ण सूचना"
+   },
+   "pro_announcement_moving_to_pro": {
+      "message": "PRO में जा रहा है"
+   },
+   "pro_announcement_premium_badge": {
+      "message": "PREMIUM"
+   },
+   "pro_announcement_premium_badge_aria": {
+      "message": "प्रीमियम"
+   },
+   "pro_announcement_rollout_date": {
+      "message": "1 जून"
+   },
+   "pro_announcement_rollout_intro": {
+      "message": "रोलआउट "
+   },
+   "pro_announcement_rollout_outro": {
+      "message": " से शुरू होता है।"
+   },
+   "pro_announcement_view_pricing": {
+      "message": "मूल्य देखें — 2.99 डॉलर/माह से"
+   },
+   "random_interval": {
+      "message": "यादृच्छिक अंतराल"
+   },
+   "random_interval_desc": {
+      "message": "न्यूनतम-अधिकतम के बीच यादृच्छिक रीफ्रेश"
+   },
+   "random_interval_help": {
+      "message": "वर्तमान सेटिंग्स के साथ, पृष्ठ हर %1 से %2 सेकंड में यादृच्छिक रूप से रीफ्रेश होगा।"
+   },
+   "random_time_interval": {
+      "message": "यादृच्छिक रीफ्रेश रेंज"
+   },
+   "rate_us": {
+      "message": "हमें रेट करें"
+   },
+   "rateus_title": {
+      "message": "इस एक्सटेंशन को रेट करें"
+   },
+   "ready_expressions_load_error": {
+      "message": "टेम्पलेट लोड नहीं हो सके। कृपया बाद में पुनः प्रयास करें।"
+   },
+   "real_time_detection_during_refresh": {
+      "message": "रीयल-टाइम पहचान"
+   },
+   "real_time_detection_switch_desc": {
+      "message": "पूर्ण रीलोड के बिना लगातार जाँच करें"
+   },
+   "realtime_help": {
+      "message": "अंतराल के अंत में नहीं, बल्कि रीफ्रेश के दौरान लगातार परिवर्तन की पहचान करें।"
+   },
+   "receive_emails_alerts": {
+      "message": "ईमेल सतर्कता प्राप्त करें"
+   },
+   "receive_webhook_alerts": {
+      "message": "वेबहुक सतर्कता प्राप्त करें"
+   },
+   "redirection_behavior": {
+      "message": "पुनर्निर्देशन व्यवहार"
+   },
+   "redirection_behavior_desc": {
+      "message": "रिफ्रेश के दौरान रीडायरेक्ट हैंडल करें"
+   },
+   "redirection_behavior_help": {
+      "message": "चुनें कि ऑटो रिफ्रेश प्लस URL परिवर्तन कैसे संभालता है। आप मूल डोमेन पर लॉक कर सकते हैं या पुनर्निर्देशन का पालन कर सकते हैं।"
+   },
+   "refresh_cycles_completed": {
+      "message": "पूर्ण रिफ्रेश चक्र"
+   },
+   "refresh_interval_mode": {
+      "message": "रीफ्रेश अंतराल मोड"
+   },
+   "refresh_limit": {
+      "message": "रीफ्रेश सीमा"
+   },
+   "refresh_limit_times": {
+      "message": "बार"
+   },
+   "refresh_number": {
+      "message": "रीफ्रेश संख्या सेट करें"
+   },
+   "refresh_number_desc": {
+      "message": "निश्चित संख्या के बाद रोकें"
+   },
+   "refresh_number_help": {
+      "message": "सेट करें कि आप पृष्ठ को कितनी बार रीफ्रेश करना चाहते हैं।"
+   },
+   "refresh_position_hint_body": {
+      "message": "आप इस मेनू से रिफ्रेश बटन और अन्य UI सेटिंग्स बदल सकते हैं।"
+   },
+   "refresh_position_hint_understand": {
+      "message": "समझ गया"
+   },
+   "refresh_top_pause": {
+      "message": "रोक"
+   },
+   "refresh_top_resume": {
+      "message": "जारी"
+   },
+   "refresh_top_start": {
+      "message": "शुरू"
+   },
+   "refresh_top_stop": {
+      "message": "रोकें"
+   },
+   "refresh_type": {
+      "message": "रीफ्रेश प्रकार"
+   },
+   "refresh_type_help": {
+      "message": "प्रत्येक स्कैन से पहले पेज कैसे रीलोड होता है। फुल पेज पूरे URL को रिफ्रेश दबाने की तरह रीलोड करता है — विश्वसनीय लेकिन भारी। XHR केवल बैकग्राउंड AJAX/XHR अनुरोध चलाता है (पूर्ण रीलोड नहीं) — तेज़ और हल्का, गतिशील पेजों के लिए आदर्श जो बिना रीलोड के सामग्री अपडेट करते हैं।"
+   },
+   "regex": {
+      "message": "Regex"
+   },
+   "regex_expression": {
+      "message": "Regex अभिव्यक्ति"
+   },
+   "regex_expression_desc": {
+      "message": "ऑटो रिफ्रेश प्लस Regex अभिव्यक्तियों का भी समर्थन करता है और $ प्रतीक के साथ आरंभ होना चाहिए और उसके बाद regex अभिव्यक्ति।"
+   },
+   "regex_expression_example_1_desc": {
+      "message": "\"product\" से मेल खाता है जिसके बाद एक या अधिक अंक हैं (product1, product42, आदि)"
+   },
+   "regex_expression_example_2_desc": {
+      "message": "\"in stock\" से मेल खाता है regex फ्लैग का उपयोग करके केस असंवेदनशील"
+   },
+   "regex_expression_example_3_desc": {
+      "message": "कीमत प्रारूप से मेल खाता है जैसे \"$19.99\", \"$299.00\", आदि"
+   },
+   "remove_email": {
+      "message": "ईमेल हटाएं"
+   },
+   "restart": {
+      "message": "पुनः आरंभ करें"
+   },
+   "restart_wait_seconds_desc": {
+      "message": "रीफ्रेश फिर से शुरू होने से पहले प्रतीक्षा करने के सेकंड की संख्या सेट करें"
+   },
+   "resume": {
+      "message": "फिर से शुरू करें"
+   },
+   "resume_refreshing": {
+      "message": "रिफ्रेश फिर शुरू करें"
+   },
+   "save": {
+      "message": "सहेजें"
+   },
+   "scan_method_title": {
+      "message": "स्कैन विधि"
+   },
+   "sch_description": {
+      "message": "चुने हुए समय और दिनों पर स्वचालित रूप से चलाएँ।"
+   },
+   "schedule_add": {
+      "message": "शेड्यूल जोड़ें"
+   },
+   "schedule_auto_disable_aria": {
+      "message": "ऑटो-डिसेबल"
+   },
+   "schedule_auto_stop_aria": {
+      "message": "ऑटो-स्टॉप"
+   },
+   "schedule_delete_aria": {
+      "message": "शेड्यूल हटाएँ"
+   },
+   "schedule_disconnected": {
+      "message": "शेड्यूल को डिस्कनेक्ट कर दिया गया है"
+   },
+   "schedule_edit_aria": {
+      "message": "शेड्यूल संपादित करें"
+   },
+   "schedule_enable_aria": {
+      "message": "शेड्यूल सक्षम करें"
+   },
+   "schedule_help": {
+      "message": "शेड्यूल आपको विशिष्ट समय और दिनों पर स्वचालित रिफ्रेश करने देते हैं। प्रत्येक शेड्यूल में प्रारंभ समय, चयनित सप्ताह के दिन, ऑटो-स्टॉप और ऑटो-डिसेबल विकल्प हो सकते हैं।"
+   },
+   "schedule_options_label": {
+      "message": "विकल्प"
+   },
+   "schedule_select_days": {
+      "message": "दिन चुनें"
+   },
+   "schedule_start_time_label": {
+      "message": "प्रारंभ समय"
+   },
+   "schedules": {
+      "message": "शेड्यूल"
+   },
+   "schedules_active_count": {
+      "message": "%1 सक्रिय"
+   },
+   "schedules_empty": {
+      "message": "अभी तक कोई शेड्यूल नहीं"
+   },
+   "search_templates": {
+      "message": "टेम्पलेट खोजें..."
+   },
+   "seconds": {
+      "message": "सेकंड"
+   },
+   "select_area": {
+      "message": "क्षेत्र चुनें"
+   },
+   "select_area_desc": {
+      "message": "खोज क्षेत्र को सीमित करने के लिए CSS सिलेक्टर दर्ज करें"
+   },
+   "select_css_selector": {
+      "message": "क्षेत्र सिलेक्टर सेट करने के लिए एक तत्व चुनें"
+   },
+   "select_date_time": {
+      "message": "तिथि और समय चुनें"
+   },
+   "select_days": {
+      "message": "दिन चुनें"
+   },
+   "select_element": {
+      "message": "तत्व चुनें"
+   },
+   "select_language": {
+      "message": "अपनी भाषा चुनें"
+   },
+   "select_time": {
+      "message": "समय चुनें"
+   },
+   "session_expired": {
+      "message": "आपका सत्र समाप्त हो गया है। कृपया फिर से लॉगिन करें।"
+   },
+   "settings_card_collapse_aria": {
+      "message": "%1 संक्षिप्त करें"
+   },
+   "settings_card_expand_aria": {
+      "message": "%1 विस्तृत करें"
+   },
+   "show_tab": {
+      "message": "टैब दिखाएं"
+   },
+   "signup_requirement_body": {
+      "message": "जारी रखने के लिए जल्द ही खाता आवश्यक होगा।"
+   },
+   "signup_requirement_countdown_days": {
+      "message": "खाता आवश्यकता तक %1 दिन शेष"
+   },
+   "signup_requirement_countdown_one_day": {
+      "message": "खाता आवश्यकता तक 1 दिन शेष"
+   },
+   "signup_requirement_days_abbr": {
+      "message": "दिन"
+   },
+   "signup_requirement_dismiss": {
+      "message": "सूचना खारिज करें"
+   },
+   "signup_requirement_sign_up": {
+      "message": "निःशुल्क साइन अप →"
+   },
+   "signup_requirement_status_label": {
+      "message": "खाता आवश्यकता सूचना"
+   },
+   "skip_repeated_keyword": {
+      "message": "दोहराए गए कीवर्ड को छोड़ें"
+   },
+   "skip_repeated_keyword_desc": {
+      "message": "पहले से पता चले कीवर्ड को अनदेखा करें"
+   },
+   "skip_repeated_keyword_help": {
+      "message": "अगली रीफ्रेश में पहले से पहचाने गए कीवर्ड को अनदेखा करें।"
+   },
+   "slave_device_alert_body": {
+      "message": "यह एक्सटेंशन लिंक किए गए द्वितीयक डिवाइस के रूप में कॉन्फ़िगर है। सेटिंग्स और रीफ़्रेश नियंत्रण आपके प्राथमिक डिवाइस से मेल खा सकते हैं।"
+   },
+   "slave_device_alert_dismiss": {
+      "message": "सूचना बंद करें"
+   },
+   "slave_device_alert_read_more": {
+      "message": "और पढ़ें"
+   },
+   "slave_device_alert_status_label": {
+      "message": "द्वितीयक डिवाइस"
+   },
+   "slave_message_alert": {
+      "message": "आप इस विकल्प को संशोधित नहीं कर सकते क्योंकि आप एक दास उपयोगकर्ता हैं।"
+   },
+   "source_find_text": {
+      "message": "स्रोत (HTML स्रोत)"
+   },
+   "source_find_text_caution": {
+      "message": "यह विकल्प मुख्य रूप से डेवलपर्स के लिए है। कच्चे HTML स्रोत को स्कैन करने से छिपे या अदृश्य मार्कअप से भी मिलान हो सकता है, जिससे अक्सर गलत अलर्ट होते हैं। यह धीमा है और रोज़मर्रा की निगरानी के लिए अनुशंसित नहीं है — केवल तभी सक्षम करें जब दृश्य पाठ मिलान पर्याप्त न हो।"
+   },
+   "source_find_text_help": {
+      "message": "HTML स्रोत कोड से सीधे पाठ निकालता है। छिपी या गतिशील सामग्री शामिल हो सकती है।"
+   },
+   "start_countdown": {
+      "message": "काउंटडाउन शुरू करें"
+   },
+   "start_msg": {
+      "message": "शुरू करें"
+   },
+   "start_refreshing": {
+      "message": "रिफ्रेश शुरू करें"
+   },
+   "start_time": {
+      "message": "शुरुआत का समय"
+   },
+   "stop": {
+      "message": "रोकें"
+   },
+   "stop_countdown": {
+      "message": "काउंटडाउन रोकें"
+   },
+   "stop_refreshing": {
+      "message": "रिफ्रेश रोकें"
+   },
+   "stop_time": {
+      "message": "समय रोकें"
+   },
+   "subscription": {
+      "message": "सदस्यता"
+   },
+   "success": {
+      "message": "सेटिंग्स सफलतापूर्वक सहेजी गईं"
+   },
+   "support_ticket": {
+      "message": "सहायता टिकट"
+   },
+   "supported_expressions": {
+      "message": "समर्थित अभिव्यक्तियां"
+   },
+   "supported_expressions_msg_monitor": {
+      "message": "पेज निगरानी के लिए समर्थित अभिव्यक्तियां"
+   },
+   "syntax_css_desc": {
+      "message": "मानक CSS सेलेक्टर से तत्व लक्षित करें — id, क्लास, एट्रिब्यूट या पदानुक्रम से।"
+   },
+   "syntax_css_ex1_desc": {
+      "message": "id \"price\" वाला तत्व चुनें"
+   },
+   "syntax_css_ex1_title": {
+      "message": "id से"
+   },
+   "syntax_css_ex2_desc": {
+      "message": "क्लास \"stock-status\" वाले तत्व चुनें"
+   },
+   "syntax_css_ex2_title": {
+      "message": "क्लास से"
+   },
+   "syntax_css_ex3_desc": {
+      "message": "जहाँ data-testid \"add-to-cart\" है वह तत्व चुनें"
+   },
+   "syntax_css_ex3_title": {
+      "message": "एट्रिब्यूट से"
+   },
+   "syntax_css_title": {
+      "message": "CSS सेलेक्टर"
+   },
+   "syntax_custom_desc": {
+      "message": "## से शुरू होती हैं और Boolean AND / OR / NOT लॉजिक से कीवर्ड जोड़ती हैं।"
+   },
+   "syntax_custom_ex1_desc": {
+      "message": "केवल जब \"In Stock\" और \"Add to Cart\" दोनों दिखें तब ट्रिगर"
+   },
+   "syntax_custom_ex1_title": {
+      "message": "AND शर्त"
+   },
+   "syntax_custom_ex2_desc": {
+      "message": "जब कोई एक कीवर्ड दिखे तब ट्रिगर"
+   },
+   "syntax_custom_ex2_title": {
+      "message": "OR शर्त"
+   },
+   "syntax_custom_ex3_desc": {
+      "message": "जब \"In Stock\" हो लेकिन \"Sold Out\" न हो तब ट्रिगर"
+   },
+   "syntax_custom_ex3_title": {
+      "message": "NOT शर्त"
+   },
+   "syntax_custom_title": {
+      "message": "कस्टम अभिव्यक्तियाँ"
+   },
+   "syntax_norm_ex1_desc": {
+      "message": "पेज पर कहीं भी सटीक टेक्स्ट \"In Stock\" से मेल"
+   },
+   "syntax_norm_ex1_title": {
+      "message": "In Stock"
+   },
+   "syntax_norm_ex2_desc": {
+      "message": "कई कीवर्ड — प्रत्येक के बाद Enter"
+   },
+   "syntax_norm_ex2_title": {
+      "message": "Available, Out of Stock"
+   },
+   "syntax_norm_ex3_desc": {
+      "message": "पेज पर \"Add to Cart\" बटन या टेक्स्ट से मेल"
+   },
+   "syntax_norm_ex3_title": {
+      "message": "Add to Cart"
+   },
+   "syntax_regex_desc": {
+      "message": "टेक्स्ट पैटर्न से मेल के लिए /.../ में। कीमत, SKU और लचीले मिलान के लिए उपयोगी।"
+   },
+   "syntax_regex_ex1_desc": {
+      "message": "$19.99 या $1,299.00 जैसी डॉलर राशि से मेल"
+   },
+   "syntax_regex_ex1_title": {
+      "message": "मूल्य मिलान"
+   },
+   "syntax_regex_ex2_desc": {
+      "message": "\"In Stock\" या \"in stock\" से मेल (केस-असंवेदनशील)"
+   },
+   "syntax_regex_ex2_title": {
+      "message": "स्टॉक स्थिति"
+   },
+   "syntax_regex_ex3_desc": {
+      "message": "SKU-12345 जैसे उत्पाद SKU से मेल"
+   },
+   "syntax_regex_ex3_title": {
+      "message": "SKU कोड"
+   },
+   "syntax_regex_title": {
+      "message": "रेगुलर एक्सप्रेशन"
+   },
+   "syntax_text_matching_desc": {
+      "message": "वेब पेज पर सादे कीवर्ड खोजता है। कोई प्रतीक नहीं — प्रत्येक कीवर्ड के बाद Enter दबाएं।"
+   },
+   "syntax_text_matching_title": {
+      "message": "टेक्स्ट मिलान"
+   },
+   "syntax_xpath_desc": {
+      "message": "// से शुरू होकर HTML संरचना में स्थिति से तत्व लक्षित करें।"
+   },
+   "syntax_xpath_ex1_desc": {
+      "message": "क्लास \"price\" वाला कोई भी तत्व चुनें"
+   },
+   "syntax_xpath_ex1_title": {
+      "message": "क्लास से"
+   },
+   "syntax_xpath_ex2_desc": {
+      "message": "जिसका टेक्स्ट \"Add to Cart\" है वह बटन चुनें"
+   },
+   "syntax_xpath_ex2_title": {
+      "message": "टेक्स्ट से बटन"
+   },
+   "syntax_xpath_ex3_desc": {
+      "message": "id \"availability\" वाला तत्व चुनें"
+   },
+   "syntax_xpath_ex3_title": {
+      "message": "id से"
+   },
+   "syntax_xpath_title": {
+      "message": "XPath अभिव्यक्तियाँ"
+   },
+   "tabs": {
+      "message": "टैब"
+   },
+   "tabs_alerts": {
+      "message": "सतर्कता के साथ टैब"
+   },
+   "tabs_refreshing": {
+      "message": "सक्रिय टैब रीफ्रेश हो रहे हैं"
+   },
+   "template_add_to_cart_button": {
+      "message": "कार्ट में जोड़ें बटन"
+   },
+   "template_add_to_cart_button_desc": {
+      "message": "test id से कार्ट बटन से मेल"
+   },
+   "template_any_stock_term": {
+      "message": "कोई भी स्टॉक शब्द"
+   },
+   "template_any_stock_term_desc": {
+      "message": "किसी एक स्टॉक कीवर्ड पर ट्रिगर"
+   },
+   "template_buy_button": {
+      "message": "खरीद बटन"
+   },
+   "template_buy_button_desc": {
+      "message": "खरीद या खरीदारी बटन खोजें"
+   },
+   "template_email_address": {
+      "message": "ईमेल पता"
+   },
+   "template_email_address_desc": {
+      "message": "ईमेल पते से मेल खाएं"
+   },
+   "template_expression_description": {
+      "message": "पेज निगरानी के लिए टेम्पलेट अभिव्यक्ति"
+   },
+   "template_in_stock_buyable": {
+      "message": "स्टॉक में और खरीदने योग्य"
+   },
+   "template_in_stock_buyable_desc": {
+      "message": "केवल स्टॉक में और खरीदने योग्य होने पर अलर्ट"
+   },
+   "template_in_stock_not_sold_out": {
+      "message": "स्टॉक में, बिका नहीं"
+   },
+   "template_in_stock_not_sold_out_desc": {
+      "message": "बिक चुका टेक्स्ट को छोड़कर स्टॉक में"
+   },
+   "template_input_field_value": {
+      "message": "इनपुट फ़ील्ड मान"
+   },
+   "template_input_field_value_desc": {
+      "message": "खोज मान के साथ इनपुट खोजें"
+   },
+   "template_phone_number": {
+      "message": "फोन नंबर"
+   },
+   "template_phone_number_desc": {
+      "message": "(123) 456-7890 प्रारूप से मेल खाएं"
+   },
+   "template_price_changes": {
+      "message": "मूल्य परिवर्तन"
+   },
+   "template_price_changes_desc": {
+      "message": "कीमत से संबंधित कीवर्ड की निगरानी करें"
+   },
+   "template_price_detector": {
+      "message": "मूल्य डिटेक्टर"
+   },
+   "template_price_detector_desc": {
+      "message": "$19.99 जैसी किसी भी डॉलर कीमत से मेल"
+   },
+   "template_price_element": {
+      "message": "कीमत तत्व"
+   },
+   "template_price_element_desc": {
+      "message": "कीमत वर्ग के साथ तत्व खोजें"
+   },
+   "template_price_format": {
+      "message": "कीमत प्रारूप"
+   },
+   "template_price_format_desc": {
+      "message": "$19.99 जैसी कीमतों से मेल खाएं"
+   },
+   "template_product_availability": {
+      "message": "उत्पाद उपलब्धता"
+   },
+   "template_product_availability_desc": {
+      "message": "उत्पाद उपलब्धता स्थिति की निगरानी करें"
+   },
+   "template_product_id_pattern": {
+      "message": "उत्पाद ID पैटर्न"
+   },
+   "template_product_id_pattern_desc": {
+      "message": "product-123 जैसे उत्पाद ID से मेल खाएं"
+   },
+   "template_product_status": {
+      "message": "उत्पाद स्थिति"
+   },
+   "template_product_status_desc": {
+      "message": "नए या सीमित संस्करण उत्पाद"
+   },
+   "template_restock_alert": {
+      "message": "रीस्टॉक अलर्ट"
+   },
+   "template_restock_alert_desc": {
+      "message": "जब आइटम वापस आए तब पकड़ें"
+   },
+   "template_shipping_options": {
+      "message": "शिपिंग विकल्प"
+   },
+   "template_shipping_options_desc": {
+      "message": "तेजी से शिपिंग विकल्प उपलब्ध हैं"
+   },
+   "template_shopping_actions": {
+      "message": "खरीदारी कार्य"
+   },
+   "template_shopping_actions_desc": {
+      "message": "खरीदारी बटन की उपलब्धता ट्रैक करें"
+   },
+   "template_stock_and_price": {
+      "message": "स्टॉक और कीमत"
+   },
+   "template_stock_and_price_desc": {
+      "message": "स्टॉक में वस्तुएं और बिक्री पर"
+   },
+   "template_stock_status_element": {
+      "message": "स्टॉक स्थिति तत्व"
+   },
+   "template_stock_status_element_desc": {
+      "message": "क्लास से तत्व को लक्षित करें"
+   },
+   "template_stock_status_text": {
+      "message": "स्टॉक स्थिति पाठ"
+   },
+   "template_stock_status_text_desc": {
+      "message": "\"In Stock\" युक्त पाठ खोजें"
+   },
+   "template_ticket_availability": {
+      "message": "टिकट उपलब्धता"
+   },
+   "template_ticket_availability_desc": {
+      "message": "टिकट लाइव होने पर नज़र रखें"
+   },
+   "templates": {
+      "message": "टेम्पलेट"
+   },
+   "templates_add_to_keywords": {
+      "message": "कीवर्ड में जोड़ें"
+   },
+   "templates_ai_aria": {
+      "message": "AI अभिव्यक्ति जनरेटर"
+   },
+   "templates_ai_label": {
+      "message": "AI"
+   },
+   "templates_back_to_templates": {
+      "message": "टेम्पलेट पर वापस"
+   },
+   "templates_close_aria": {
+      "message": "संवाद बंद करें"
+   },
+   "templates_copy_aria": {
+      "message": "अभिव्यक्ति %1 कॉपी करें"
+   },
+   "templates_header_templates_aria": {
+      "message": "टेम्पलेट पर वापस"
+   },
+   "templates_ready_made": {
+      "message": "तैयार टेम्पलेट"
+   },
+   "templates_syntax_aria": {
+      "message": "सिंटैक्स सहायता"
+   },
+   "templates_syntax_button": {
+      "message": "सिंटैक्स"
+   },
+   "templates_tooltip": {
+      "message": "तैयार मॉनिटरिंग टेम्पलेट देखें"
+   },
+   "templates_type_css": {
+      "message": "CSS"
+   },
+   "templates_type_custom": {
+      "message": "कस्टम"
+   },
+   "templates_type_normal": {
+      "message": "सामान्य"
+   },
+   "templates_type_regex": {
+      "message": "Regex"
+   },
+   "templates_type_xpath": {
+      "message": "XPath"
+   },
+   "text": {
+      "message": "पाठ"
+   },
+   "thankyou_msg": {
+      "message": "आपकी प्रतिक्रिया के लिए धन्यवाद"
+   },
+   "this_is_not_valid_css_selector": {
+      "message": "यह एक वैध CSS सिलेक्टर नहीं है।"
+   },
+   "thnakyou_desc": {
+      "message": "आपकी प्रतिक्रिया हमें सुधारने में मदद करती है"
+   },
+   "time": {
+      "message": "समय"
+   },
+   "time_has_passed": {
+      "message": "समय बीत गया"
+   },
+   "time_is_invalid": {
+      "message": "अमान्य समय चुना गया"
+   },
+   "timer": {
+      "message": "टाइमर"
+   },
+   "timer_position": {
+      "message": "टाइमर स्थिति"
+   },
+   "timer_position_bottom_left": {
+      "message": "नीचे बाएँ"
+   },
+   "timer_position_bottom_right": {
+      "message": "नीचे दाएँ"
+   },
+   "timer_position_center": {
+      "message": "केंद्र"
+   },
+   "timer_position_top_left": {
+      "message": "ऊपर बाएँ"
+   },
+   "timer_position_top_right": {
+      "message": "ऊपर दाएँ"
+   },
+   "upgrade": {
+      "message": "अपग्रेड करें"
+   },
+   "use_default": {
+      "message": "डिफ़ॉल्ट कीवर्ड का उपयोग करें"
+   },
+   "user_menu_account_aria": {
+      "message": "खाता मेनू"
+   },
+   "user_menu_avatar_alt": {
+      "message": "उपयोगकर्ता अवतार"
+   },
+   "user_menu_classic_view": {
+      "message": "Classic"
+   },
+   "user_menu_classic_view_aria": {
+      "message": "Classic दृश्य"
+   },
+   "user_menu_command_view": {
+      "message": "Command"
+   },
+   "user_menu_command_view_aria": {
+      "message": "Command दृश्य"
+   },
+   "user_menu_focus_mode": {
+      "message": "फ़ोकस मोड"
+   },
+   "user_menu_focus_mode_aria": {
+      "message": "फ़ोकस मोड टॉगल करें"
+   },
+   "user_menu_focus_mode_tooltip": {
+      "message": "अतिरिक्त UI तत्व छिपाएँ"
+   },
+   "user_menu_refresh_position": {
+      "message": "ऊपर बटन"
+   },
+   "user_menu_refresh_position_aria": {
+      "message": "रिफ्रेश बटन ऊपर दिखाएँ"
+   },
+   "user_menu_refresh_position_tooltip": {
+      "message": "हेडर में रिफ्रेश बटन दिखाएँ"
+   },
+   "user_menu_theme_dark_aria": {
+      "message": "डार्क थीम"
+   },
+   "user_menu_theme_light_aria": {
+      "message": "लाइट थीम"
+   },
+   "user_menu_theme_system_aria": {
+      "message": "सिस्टम थीम"
+   },
+   "user_menu_ui_cosmetics": {
+      "message": "UI कॉस्मेटिक्स"
+   },
+   "user_menu_view": {
+      "message": "दृश्य"
+   },
+   "user_menu_view_aria": {
+      "message": "दृश्य मोड चुनें"
+   },
+   "view_pricing_plans": {
+      "message": "मूल्य निर्धारण योजनाएं देखें"
+   },
+   "visual_find_text": {
+      "message": "विजुअल (स्क्रीन टेक्स्ट)"
+   },
+   "visual_find_text_help": {
+      "message": "स्क्रीन से दृश्यमान पाठ निकालता है जैसे एक मानव इसे देखता है।"
+   },
+   "visual_timer_desc": {
+      "message": "पेज पर काउंटडाउन दिखाएँ"
+   },
+   "visual_timer_done": {
+      "message": "पूर्ण"
+   },
+   "visual_timer_help": {
+      "message": "विजुअल टाइमर वेबपेज पर सीधे एक काउंटडाउन प्रदर्शित करता है। यह अगली रीफ्रेश तक बचे समय को दिखाता है और पॉज़, रिज्यूम या रीसेट करने के नियंत्रण शामिल करता है।"
+   },
+   "visual_timer_live_monitor": {
+      "message": "लाइव मॉनिटर"
+   },
+   "visual_timer_msg": {
+      "message": "विजुअल टाइमर दिखाएं"
+   },
+   "visual_timer_next_refresh_in": {
+      "message": "अगला रिफ्रेश"
+   },
+   "visual_timer_pause_aria": {
+      "message": "टाइमर रोकें"
+   },
+   "visual_timer_paused": {
+      "message": "रोका गया"
+   },
+   "visual_timer_restart_tooltip": {
+      "message": "काउंटडाउन पुनः प्रारंभ करें"
+   },
+   "visual_timer_resume_aria": {
+      "message": "टाइमर शुरू करें"
+   },
+   "visual_timer_running": {
+      "message": "चल रहा है"
+   },
+   "visual_timer_stop_aria": {
+      "message": "टाइमर बंद करें"
+   },
+   "wait_content_load": {
+      "message": "सामग्री लोड होने की प्रतीक्षा करें"
+   },
+   "wait_content_load_desc": {
+      "message": "प्रत्येक रीफ्रेश के बाद स्कैन में देरी"
+   },
+   "wait_content_load_help": {
+      "message": "सामग्री को पूरी तरह लोड होने के लिए अनुमति देने के लिए पहचान से पहले प्रतीक्षा करें।"
+   },
+   "warning_random_interval": {
+      "message": "यादृच्छिक अंतराल को सही ढंग से काम करने के लिए अधिकतम मान न्यूनतम मान से अधिक होना चाहिए।"
+   },
+   "webhook_alert_help": {
+      "message": "वेबहुक आपको परिवर्तन पहचाने जाने पर अन्य अनुप्रयोगों या सेवाओं को सतर्कता भेजने की अनुमति देता है।"
+   },
+   "webhook_alerts_switch_desc": {
+      "message": "अपने एंडपॉइंट पर पेलोड भेजें"
+   },
+   "webhooks": {
+      "message": "वेबहुक"
+   },
+   "webhooks_tooltip": {
+      "message": "अलर्ट के लिए webhook सेटिंग्स खोलें"
+   },
+   "whats_new": {
+      "message": "नया क्या है"
+   },
+   "whats_new_close_aria": {
+      "message": "नया क्या है बंद करें"
+   },
+   "whats_new_latest": {
+      "message": "नवीनतम"
+   },
+   "whats_new_load_error": {
+      "message": "रिलीज़ नोट्स लोड नहीं हो सके। कृपया बाद में पुनः प्रयास करें।"
+   },
+   "whats_new_subtitle": {
+      "message": "Auto Refresh Plus रिलीज़ नोट्स"
+   },
+   "whats_new_thank_you": {
+      "message": "Auto Refresh Plus उपयोग करने के लिए धन्यवाद"
+   },
+   "window_focus_on_detection": {
+      "message": "कीवर्ड पहचान पर विंडो फोकस"
+   },
+   "window_focus_on_detection_desc": {
+      "message": "मेल खाने पर टैब को सामने लाएँ"
+   },
+   "window_focus_on_detection_help": {
+      "message": "जब पेज मॉनिटर कीवर्ड खोजता या खोता है तो विंडो फोकस सक्षम करें। यह सुविधा सुनिश्चित करती है कि जब भी निर्दिष्ट कीवर्ड पहचाना या खो जाता है तो विंडो स्वचालित रूप से आपकी स्क्रीन के अग्रभाग में आता है।"
+   },
+   "without_full": {
+      "message": "XHR रीफ्रेश"
+   },
+   "xhr_page_help": {
+      "message": "पूर्ण पृष्ठ रीफ्रेश किए बिना URL से डेटा प्राप्त करें। यह एक वेब पृष्ठ को उपयोगकर्ता के काम को बाधित किए बिना केवल पृष्ठ के एक भाग को अपडेट करने में सक्षम बनाता है।"
+   },
+   "xhr_request_autoclick": {
+      "message": "ऑटो-क्लिक तत्व"
+   },
+   "xhr_request_autoclick_desc": {
+      "message": "वह पेज तत्व क्लिक करें जिसे आप ऑटो-क्लिक करना चाहते हैं।"
+   },
+   "xpath": {
+      "message": "XPath"
+   },
+   "xpath_expression": {
+      "message": "XPath अभिव्यक्ति"
+   },
+   "xpath_expression_desc": {
+      "message": "XML पथ भाषा किसी दस्तावेज़ के विभिन्न भागों को संबोधित करने का एक लचीला तरीका प्रदान करती है। इसे दो @@ प्रतीकों के साथ आरंभ किया जाना चाहिए।"
+   },
+   "xpath_expression_example_1_desc": {
+      "message": "\"In Stock\" पाठ वाले किसी भी तत्व को खोजता है"
+   },
+   "xpath_expression_example_2_desc": {
+      "message": "मान विशेषता वाले इनपुट तत्वों को खोजता है जिसमें \"Search\" है"
+   },
+   "xpath_expression_example_3_desc": {
+      "message": "div तत्वों को खोजता है जिनमें \"price\" वर्ग है जिसमें \"$\" प्रतीक है"
+   },
+   "your_expressions": {
+      "message": "आपके एक्सप्रेशन"
+   },
+   "your_expressions_add_new": {
+      "message": "नया जोड़ें"
+   },
+   "your_expressions_define_placeholder": {
+      "message": "एक्सप्रेशन परिभाषित करें (उदा. स्टॉक में या ##स्टॉक में AND कार्ट में जोड़ें)"
+   },
+   "your_expressions_delete_aria": {
+      "message": "%1 हटाएं"
+   },
+   "your_expressions_edit_aria": {
+      "message": "%1 संपादित करें"
+   },
+   "your_expressions_empty": {
+      "message": "अभी कोई सहेजा गया एक्सप्रेशन नहीं है। बनाने के लिए \"नया जोड़ें\" पर टैप करें।"
+   },
+   "your_expressions_name_placeholder": {
+      "message": "एक्सप्रेशन का नाम (उदा. मेरा रीस्टॉक अलर्ट)"
+   },
+   "your_expressions_yours_badge": {
+      "message": "आपके"
+   }
+}

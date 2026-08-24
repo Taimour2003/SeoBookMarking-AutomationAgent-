@@ -1,0 +1,20 @@
+{
+  "text": "NanoBanana 2 UNLIMITED on Premium. Nano Banana Pro 2K & Seedream 4.5K generations.",
+  "ctaText": "Personal %52 OFF",
+  "ctaHref": "/marketplace/pricing.html",
+  "durationHours": 3,
+  "badgeText": "%52 OFF",
+  "banner": {
+    "badge1": "Free Generations",
+    "badge2": "Personal 52% OFF",
+    "heading": "Nano Banana Pro & Early Access to<br>Advanced AI Models",
+    "description": "52% off on Creator plan + 7 day access to Nano Banana 2 & Pro Unlimited.",
+    "durationHours": 3
+  },
+  "ticket": {
+    "promoCode": "AITOPIA_PERSONAL_PROMO",
+    "discountPercent": 52,
+    "subText": "With limited-offer promo",
+    "durationHours": 3
+  }
+}

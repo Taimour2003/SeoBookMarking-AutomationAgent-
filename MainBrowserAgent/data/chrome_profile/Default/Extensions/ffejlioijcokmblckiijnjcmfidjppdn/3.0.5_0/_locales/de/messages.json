@@ -1,0 +1,38 @@
+{
+   "acceptButton": {
+      "message": "Akzeptieren"
+   },
+   "appTitle": {
+      "message": "Auto Refresh Plus"
+   },
+   "consentText": {
+      "message": "Um Auto Refresh Plus zu verbessern, erfasst diese Erweiterung die Webadressen (URLs) der von Ihnen besuchten Seiten sowie die Seite, von der Sie kamen (Referrer-URL), verknüpft mit einer zufälligen anonymen ID. Wir verwenden diese Daten, um zu messen, wie die Erweiterung genutzt wird, und um Seiten zu finden, auf denen die automatische Aktualisierung nicht funktioniert. Diese Daten werden an unsere Server gesendet, niemals verkauft und niemals an Dritte weitergegeben. Sie können ablehnen und die Erweiterung trotzdem nutzen. Mehr erfahren Sie in unserer"
+   },
+   "declineButton": {
+      "message": "Ablehnen"
+   },
+   "enterTimeText": {
+      "message": "Zeit in Sekunden eingeben"
+   },
+   "extensionDescription": {
+      "message": "Auto Refresh Plus aktualisiert und lädt jede Seite oder Registerkarte automatisch nach einer bestimmten Anzahl von Sekunden neu"
+   },
+   "extensionName": {
+      "message": "Auto Refresh Plus"
+   },
+   "extensionTitle": {
+      "message": "Auto Refresh Plus"
+   },
+   "privacyPolicy": {
+      "message": "Datenschutzrichtlinie"
+   },
+   "secondsText": {
+      "message": "Sekunden"
+   },
+   "startButton": {
+      "message": "STARTEN"
+   },
+   "stopButton": {
+      "message": "STOPPEN"
+   }
+}
