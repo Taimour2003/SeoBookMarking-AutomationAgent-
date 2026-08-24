@@ -1,0 +1,38 @@
+{
+   "acceptButton": {
+      "message": "동의"
+   },
+   "appTitle": {
+      "message": "Auto Refresh Plus"
+   },
+   "consentText": {
+      "message": "Auto Refresh Plus를 개선하기 위해 이 확장 프로그램은 무작위 익명 ID에 연결하여 귀하가 방문한 페이지의 웹 주소(URL)와 이전에 방문한 페이지(리퍼러 URL)를 수집합니다. 이는 확장 프로그램의 사용 방식을 측정하고 자동 새로고침이 작동하지 않는 페이지를 찾는 데 사용됩니다. 이 데이터는 당사 서버로 전송되며, 절대 판매되지 않고 제3자와 공유되지 않습니다. 거부하셔도 확장 프로그램을 계속 사용하실 수 있습니다. 자세한 내용은 당사의"
+   },
+   "declineButton": {
+      "message": "거부"
+   },
+   "enterTimeText": {
+      "message": "초 단위로 시간을 입력하세요"
+   },
+   "extensionDescription": {
+      "message": "Auto Refresh Plus는 지정된 초 수 후에 모든 페이지 또는 탭을 자동으로 새로고침하고 다시 로드합니다"
+   },
+   "extensionName": {
+      "message": "Auto Refresh Plus"
+   },
+   "extensionTitle": {
+      "message": "Auto Refresh Plus"
+   },
+   "privacyPolicy": {
+      "message": "개인정보 보호정책"
+   },
+   "secondsText": {
+      "message": "초"
+   },
+   "startButton": {
+      "message": "시작"
+   },
+   "stopButton": {
+      "message": "중지"
+   }
+}

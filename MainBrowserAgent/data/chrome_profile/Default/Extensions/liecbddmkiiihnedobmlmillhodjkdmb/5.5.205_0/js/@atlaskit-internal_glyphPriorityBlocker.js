@@ -1,0 +1,5 @@
+"use strict";
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="ee9aca7e-af99-5c66-9277-f24162ad2c67")}catch(e){}}();
+(self.webpackChunk_loomhq_chrome_extension=self.webpackChunk_loomhq_chrome_extension||[]).push([[6635],{129726:(e,o,t)=>{Object.defineProperty(o,"__esModule",{value:!0}),o.default=void 0;var l=a(t(792860)),r=a(t(828654));function a(e){return e&&e.__esModule?e:{default:e}}const n=e=>l.default.createElement(r.default,Object.assign({name:"PriorityBlockerIcon",dangerouslySetGlyph:'<path fill="currentcolor" d="M14.5 8a6.5 6.5 0 1 0-13 0 6.5 6.5 0 0 0 13 0M12 7.25v1.5H4v-1.5zM16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0"/>'},e));n.displayName="PriorityBlockerIcon",o.default=n}}]);
+//# sourceMappingURL=@atlaskit-internal_glyphPriorityBlocker.js.map
+//# debugId=ee9aca7e-af99-5c66-9277-f24162ad2c67

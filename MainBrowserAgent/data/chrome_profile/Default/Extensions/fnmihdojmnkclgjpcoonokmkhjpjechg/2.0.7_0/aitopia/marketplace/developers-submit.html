@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+<script src="/aitopia/marketplace/js/extension-config.js"></script>
+  <script src="/aitopia/marketplace/js/shared/pre-auth.js"></script>
+
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <base href="/aitopia/marketplace/home.html">
+  <title> Smart Sidebar (AITOPIA)</title>
+  <meta name="description" content="Submit a partner agent for review.">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <link rel="icon" type="image/svg+xml" href="/aitopia/marketplace/favicon.svg">
+  <link href="/aitopia/marketplace/css/vendor/css2.css" rel="stylesheet">
+  <script src="/aitopia/marketplace/js/vendor/tailwindcss.min.js"></script>
+  <script src="/aitopia/marketplace/store/tailwind-config.js"></script>
+  <link rel="stylesheet" href="/aitopia/marketplace/store/shared.css">
+  <script src="/aitopia/marketplace/js/inline/developers-submit-inline-1.js"></script>
+  <script src="/aitopia/marketplace/js/inline/developers-submit-inline-2.js"></script>
+</head>
+<body data-page="developers-submit" class="min-h-screen font-sans antialiased bg-white dark:bg-neutral-950 text-gray-900 dark:text-white transition-colors aifnmjmchg aifnmjmchg-marketplace">
+  <div id="navbar-container"></div>
+  <script src="/aitopia/marketplace/js/shared/cache.js"></script>
+  <script src="/aitopia/marketplace/js/components/navbar.js"></script>
+
+  <main class="max-w-[1600px] mx-auto px-3 sm:px-4 lg:px-6 py-8">
+    <div class="grid grid-cols-1 lg:grid-cols-[260px_minmax(0,1fr)] gap-6">
+      <aside id="developerSidebar"></aside>
+
+      <section class="space-y-6 min-w-0">
+        <div>
+          <h1 class="text-3xl font-bold tracking-tight">Submit Agent</h1>
+          <p class="mt-2 text-sm text-muted-foreground">Validation is performed before the submission enters manual review.</p>
+        </div>
+
+        <div id="submitMessage" class="hidden rounded-xl border px-4 py-3 text-sm"></div>
+
+        <form id="submissionForm" class="rounded-ios-2xl border border-border bg-card p-6 space-y-5">
+          <div>
+            <label for="agentSuffix" class="block text-sm font-semibold mb-2">Agent ID</label>
+            <div class="flex items-center rounded-full bg-secondary/80 px-4 h-11">
+              <span id="namespacePrefix" class="text-xs text-muted-foreground whitespace-nowrap">dev.namespace.</span>
+              <input id="agentSuffix" name="agentSuffix" type="text" required class="ml-2 flex-1 bg-transparent border-0 text-sm focus:outline-none" placeholder="style-transfer">
+            </div>
+            <p class="mt-2 text-xs text-muted-foreground">Preview: <span id="fullAgentIdPreview" class="font-semibold">dev.namespace.&lt;agent-id&gt;</span></p>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label for="version" class="block text-sm font-semibold mb-2">Version</label>
+              <input id="version" name="version" type="text" value="1.0.0" required class="w-full h-11 px-4 rounded-full bg-secondary/80 border-0 text-sm focus:outline-none focus:ring-2 focus:ring-primary/25">
+            </div>
+            <div>
+              <label for="fixedCreditsPerRun" class="block text-sm font-semibold mb-2">Credits per run (BYOM min 5)</label>
+              <input id="fixedCreditsPerRun" name="fixedCreditsPerRun" type="number" min="5" step="1" value="5" required class="w-full h-11 px-4 rounded-full bg-secondary/80 border-0 text-sm focus:outline-none focus:ring-2 focus:ring-primary/25">
+            </div>
+          </div>
+
+          <div>
+            <label for="endpointUrl" class="block text-sm font-semibold mb-2">Endpoint URL</label>
+            <input id="endpointUrl" name="endpointUrl" type="url" required placeholder="https://agent.example.com" class="w-full h-11 px-4 rounded-full bg-secondary/80 border-0 text-sm focus:outline-none focus:ring-2 focus:ring-primary/25">
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label for="name" class="block text-sm font-semibold mb-2">Display Name</label>
+              <input id="name" name="name" type="text" required class="w-full h-11 px-4 rounded-full bg-secondary/80 border-0 text-sm focus:outline-none focus:ring-2 focus:ring-primary/25" placeholder="Style Transfer">
+            </div>
+            <div>
+              <label for="category" class="block text-sm font-semibold mb-2">Category</label>
+              <input id="category" name="category" type="text" value="image" class="w-full h-11 px-4 rounded-full bg-secondary/80 border-0 text-sm focus:outline-none focus:ring-2 focus:ring-primary/25" placeholder="image">
+            </div>
+          </div>
+
+          <div>
+            <label for="description" class="block text-sm font-semibold mb-2">Description</label>
+            <textarea id="description" name="description" rows="3" required class="w-full p-4 rounded-ios-xl bg-secondary/80 border-0 text-sm focus:outline-none focus:ring-2 focus:ring-primary/25" placeholder="Describe the agent output and expected runtime."></textarea>
+          </div>
+
+          <div>
+            <label for="tags" class="block text-sm font-semibold mb-2">Tags (comma-separated)</label>
+            <input id="tags" name="tags" type="text" class="w-full h-11 px-4 rounded-full bg-secondary/80 border-0 text-sm focus:outline-none focus:ring-2 focus:ring-primary/25" placeholder="image, transfer, style">
+          </div>
+
+          <div class="pt-2 flex items-center gap-3">
+            <button id="submitAgentBtn" type="submit" class="h-11 px-6 rounded-full bg-primary text-primary-foreground text-sm font-semibold hover:bg-primary/90 transition-colors">Submit for Review</button>
+            <a href="/aitopia/marketplace/developers-agents.html" class="h-11 px-6 inline-flex items-center justify-center rounded-full bg-secondary hover:bg-secondary/80 text-sm font-semibold transition-colors">Cancel</a>
+          </div>
+        </form>
+      </section>
+    </div>
+  </main>
+
+  <script type="module" src="/aitopia/marketplace/js/developers/submit.js"></script>
+  <script src="/aitopia/marketplace/js/shared/global-nav.js"></script>
+<script src="/aitopia/marketplace/js/shared/footer.js"></script>
+</body>
+</html>

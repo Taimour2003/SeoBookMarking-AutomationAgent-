@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+<script src="/aitopia/marketplace/js/extension-config.js"></script>
+  <script src="/aitopia/marketplace/js/shared/pre-auth.js"></script>
+
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <base href="/aitopia/marketplace/home.html">
+  <meta name="description" content="Build AppCore apps visually (no-JSON builder).">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <title> Smart Sidebar (AITOPIA)</title>
+  <link rel="icon" type="image/x-icon" href="/aitopia/marketplace/favicon.ico">
+  <link href="/aitopia/marketplace/css/vendor/css2.css" rel="stylesheet">
+
+  <script src="/aitopia/marketplace/js/vendor/tailwindcss.min.js"></script>
+  <script src="/aitopia/marketplace/store/tailwind-config.js"></script>
+  <link rel="stylesheet" href="/aitopia/marketplace/store/shared.css">
+
+  <script src="/aitopia/marketplace/js/inline/app-studio-inline-1.js"></script>
+  <script src="/aitopia/marketplace/js/inline/app-studio-inline-2.js"></script>
+  <style>
+    .studio-header code,
+    .section code,
+    .status code,
+    dialog code,
+    pre code {
+      padding: 0.15rem 0.35rem;
+      border-radius: 0.5rem;
+      background: hsl(var(--aifnmjmchg-m-secondary) / 0.8);
+      border: 1px solid hsl(var(--aifnmjmchg-m-border));
+      font-size: 0.85em;
+    }
+
+    .field label {
+      display: block;
+      margin-bottom: 0.35rem;
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: hsl(var(--aifnmjmchg-m-muted-foreground));
+    }
+
+    .field input,
+    .field select,
+    .field textarea {
+      width: 100%;
+      min-height: 44px;
+      padding: 0.6rem 0.9rem;
+      border-radius: 20px;
+      background: hsl(var(--aifnmjmchg-m-secondary) / 0.8);
+      border: 1px solid hsl(var(--aifnmjmchg-m-border));
+      color: hsl(var(--aifnmjmchg-m-foreground));
+      outline: none;
+    }
+
+    .field textarea {
+      min-height: 110px;
+      resize: vertical;
+    }
+
+    .field input:focus,
+    .field select:focus,
+    .field textarea:focus {
+      border-color: hsl(var(--aifnmjmchg-m-primary) / 0.45);
+      box-shadow: 0 0 0 3px hsl(var(--aifnmjmchg-m-primary) / 0.16);
+    }
+
+    .btn {
+      height: 44px;
+      padding: 0 1rem;
+      border-radius: 9999px;
+      border: 1px solid hsl(var(--aifnmjmchg-m-border));
+      background: hsl(var(--aifnmjmchg-m-secondary) / 0.8);
+      color: hsl(var(--aifnmjmchg-m-foreground));
+      font-size: 0.875rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background 0.15s ease, border-color 0.15s ease, transform 0.05s ease;
+      white-space: nowrap;
+      user-select: none;
+    }
+
+    .btn:hover {
+      background: hsl(var(--aifnmjmchg-m-secondary));
+      border-color: hsl(var(--aifnmjmchg-m-primary) / 0.25);
+    }
+
+    .btn:active {
+      transform: translateY(1px);
+    }
+
+    .btn:disabled,
+    .btn[aria-disabled="true"] {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    .btn.primary {
+      background: hsl(var(--aifnmjmchg-m-primary));
+      border-color: hsl(var(--aifnmjmchg-m-primary));
+      color: hsl(var(--aifnmjmchg-m-primary-foreground));
+    }
+
+    .btn.primary:hover {
+      background: hsl(var(--aifnmjmchg-m-primary) / 0.9);
+      border-color: hsl(var(--aifnmjmchg-m-primary) / 0.9);
+    }
+
+    .btn.danger {
+      border-color: rgba(255, 59, 48, 0.35);
+      background: rgba(255, 59, 48, 0.10);
+      color: rgb(180, 40, 40);
+    }
+
+    .btn.danger:hover {
+      border-color: rgba(255, 59, 48, 0.45);
+      background: rgba(255, 59, 48, 0.14);
+    }
+
+    .dark .btn.danger {
+      color: rgb(255, 180, 180);
+    }
+
+    .btn.mini {
+      height: 34px;
+      padding: 0 0.75rem;
+      border-radius: 14px;
+      font-size: 0.8125rem;
+    }
+
+    .tabs {
+      display: flex;
+      gap: 0.5rem;
+      padding: 0.9rem 1.25rem;
+      border-bottom: 1px solid hsl(var(--aifnmjmchg-m-border));
+      background: hsl(var(--aifnmjmchg-m-secondary) / 0.25);
+    }
+
+    .tab {
+      height: 36px;
+      padding: 0 1rem;
+      border-radius: 9999px;
+      border: 1px solid hsl(var(--aifnmjmchg-m-border));
+      background: transparent;
+      color: hsl(var(--aifnmjmchg-m-muted-foreground));
+      font-weight: 700;
+      font-size: 0.875rem;
+      cursor: pointer;
+      transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+    }
+
+    .tab:hover {
+      color: hsl(var(--aifnmjmchg-m-foreground));
+      background: hsl(var(--aifnmjmchg-m-secondary) / 0.5);
+    }
+
+    .tab.active {
+      color: hsl(var(--aifnmjmchg-m-foreground));
+      background: hsl(var(--aifnmjmchg-m-secondary));
+      border-color: hsl(var(--aifnmjmchg-m-primary) / 0.25);
+    }
+
+    .hint {
+      color: hsl(var(--aifnmjmchg-m-muted-foreground));
+      font-size: 0.85rem;
+      margin-top: 0.5rem;
+    }
+
+    .row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+
+    @media (max-width: 1024px) {
+      .row {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      padding: 0.15rem 0.55rem;
+      border-radius: 9999px;
+      border: 1px solid hsl(var(--aifnmjmchg-m-border));
+      background: hsl(var(--aifnmjmchg-m-secondary) / 0.75);
+      color: hsl(var(--aifnmjmchg-m-muted-foreground));
+      font-size: 0.75rem;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .badge.req {
+      background: rgba(255, 149, 0, 0.12);
+      border-color: rgba(255, 149, 0, 0.35);
+      color: rgb(160, 95, 0);
+    }
+
+    .dark .badge.req {
+      color: rgb(255, 204, 0);
+    }
+
+    .apps-list {
+      max-height: 72vh;
+      overflow: auto;
+    }
+
+    .app-item {
+      padding: 0.9rem 1.25rem;
+      border-bottom: 1px solid hsl(var(--aifnmjmchg-m-border));
+      cursor: pointer;
+      transition: background 0.15s ease;
+    }
+
+    .app-item:hover {
+      background: hsl(var(--aifnmjmchg-m-secondary) / 0.45);
+    }
+
+    .app-item.active {
+      background: hsl(var(--aifnmjmchg-m-secondary));
+    }
+
+    .app-item .name {
+      font-weight: 750;
+    }
+
+    .app-item .meta {
+      color: hsl(var(--aifnmjmchg-m-muted-foreground));
+      font-size: 0.8rem;
+      margin-top: 0.25rem;
+    }
+
+    .status {
+      padding: 0.95rem 1rem;
+      border-radius: 20px;
+      border: 1px solid hsl(var(--aifnmjmchg-m-border));
+      background: hsl(var(--aifnmjmchg-m-secondary) / 0.25);
+      margin-bottom: 1rem;
+    }
+
+    .status.error {
+      border-color: rgba(255, 59, 48, 0.35);
+      background: rgba(255, 59, 48, 0.10);
+      color: rgb(180, 40, 40);
+    }
+
+    .status.success {
+      border-color: rgba(52, 199, 89, 0.35);
+      background: rgba(52, 199, 89, 0.10);
+      color: rgb(20, 120, 60);
+    }
+
+    .status.info {
+      border-color: rgba(90, 200, 250, 0.35);
+      background: rgba(90, 200, 250, 0.10);
+      color: rgb(20, 100, 150);
+    }
+
+    .dark .status.error {
+      color: rgb(255, 180, 180);
+    }
+
+    .dark .status.success {
+      color: rgb(180, 255, 205);
+    }
+
+    .dark .status.info {
+      color: rgb(180, 230, 255);
+    }
+
+    .section {
+      border: 1px solid hsl(var(--aifnmjmchg-m-border));
+      background: hsl(var(--aifnmjmchg-m-secondary) / 0.18);
+      border-radius: 24px;
+      padding: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .section h3 {
+      font-size: 0.95rem;
+      font-weight: 750;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .card {
+      border: 1px solid hsl(var(--aifnmjmchg-m-border));
+      background: hsl(var(--aifnmjmchg-m-card));
+      border-radius: 20px;
+      padding: 1rem;
+      margin-top: 0.75rem;
+    }
+
+    .card-header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 0.75rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .card-header .title {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    .card-actions {
+      display: flex;
+      gap: 0.5rem;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .mapping-row {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr 1.2fr 1fr auto;
+      gap: 0.75rem;
+      margin-top: 0.75rem;
+      align-items: end;
+    }
+
+    @media (max-width: 1150px) {
+      .mapping-row {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    pre {
+      white-space: pre-wrap;
+      word-break: break-word;
+      font-size: 0.85rem;
+      color: hsl(var(--aifnmjmchg-m-foreground));
+      background: hsl(var(--aifnmjmchg-m-secondary) / 0.35);
+      border: 1px solid hsl(var(--aifnmjmchg-m-border));
+      border-radius: 20px;
+      padding: 0.9rem 1rem;
+      margin-top: 0.75rem;
+    }
+
+    dialog {
+      border: 1px solid hsl(var(--aifnmjmchg-m-border));
+      border-radius: 24px;
+      background: hsl(var(--aifnmjmchg-m-card));
+      color: hsl(var(--aifnmjmchg-m-foreground));
+      padding: 1.25rem;
+      width: min(720px, calc(100vw - 24px));
+      box-shadow: 0 30px 80px rgba(0, 0, 0, 0.4);
+    }
+
+    dialog::backdrop {
+      background: rgba(0, 0, 0, 0.65);
+    }
+  </style>
+</head>
+<body class="min-h-screen font-sans antialiased bg-white dark:bg-neutral-950 text-gray-900 dark:text-white transition-colors aifnmjmchg aifnmjmchg-marketplace">
+  <div id="navbar-container"></div>
+  <script src="/aitopia/marketplace/js/shared/cache.js"></script>
+  <script src="/aitopia/marketplace/js/components/navbar.js"></script>
+
+  <main class="max-w-[1600px] mx-auto px-3 sm:px-4 lg:px-6 py-8">
+    <div class="studio-header rounded-ios-3xl border border-border bg-card p-6 shadow-sm">
+      <div class="flex items-start justify-between gap-4">
+        <div class="min-w-0">
+          <h1 class="text-2xl sm:text-3xl font-bold tracking-tight">App Studio</h1>
+          <p class="mt-2 text-sm text-muted-foreground">
+            Build AppCore apps visually (inputs + linear pipeline steps). Save to <code>/api/apps</code>, then test-run with async job polling via <code>/jobs</code>.
+          </p>
+        </div>
+        <a href="/aitopia/marketplace/create.html" class="h-11 px-5 inline-flex items-center justify-center rounded-full bg-secondary hover:bg-secondary/80 text-sm font-semibold transition-colors">
+          Create Agent
+        </a>
+      </div>
+
+      <div class="mt-6 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
+        <div class="field">
+          <label for="tenantId">Tenant</label>
+          <input id="tenantId" placeholder="public" value="public" />
+        </div>
+        <div class="field">
+          <label for="userId">User ID (optional)</label>
+          <input id="userId" placeholder="u1" />
+        </div>
+        <div class="field">
+          <label for="userTier">User Tier</label>
+          <select id="userTier">
+            <option value="free">free</option>
+            <option value="starter" selected>starter</option>
+            <option value="pro">pro</option>
+            <option value="enterprise">enterprise</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="defaultVisibility">Default Visibility</label>
+          <select id="defaultVisibility">
+            <option value="private" selected>private</option>
+            <option value="unlisted">unlisted</option>
+            <option value="public">public</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="mt-4 flex flex-wrap items-center gap-2">
+        <button id="refreshBtn" class="btn primary" type="button">Refresh</button>
+        <button id="createBtn" class="btn" type="button">Create App</button>
+        <button id="cloneBtn" class="btn" type="button">Clone Agent</button>
+      </div>
+
+      <div class="mt-3 text-xs text-muted-foreground">
+        Tip: You can also use <a href="/aitopia/marketplace/app-runner.html" target="_blank" class="text-primary hover:underline">App Runner</a> or <a href="/aitopia/marketplace/app-builder.html" target="_blank" class="text-primary hover:underline">JSON Builder</a>.
+      </div>
+    </div>
+
+    <div class="mt-6 grid grid-cols-1 lg:grid-cols-[340px,1fr] gap-6 items-start">
+      <div class="rounded-ios-2xl border border-border bg-card overflow-hidden">
+        <div class="px-5 py-4 border-b border-border flex items-center justify-between">
+          <h2 class="text-sm font-semibold">Apps</h2>
+          <span id="appsMeta" class="badge">0</span>
+        </div>
+        <div id="appsList" class="apps-list"></div>
+      </div>
+
+      <div class="rounded-ios-2xl border border-border bg-card overflow-hidden">
+        <div class="px-5 py-4 border-b border-border flex items-center justify-between gap-4">
+          <h2 id="detailTitle" class="text-sm font-semibold truncate">Select an app</h2>
+          <div class="flex items-center gap-2 flex-wrap justify-end">
+            <button id="saveBtn" class="btn primary" type="button" disabled>Save</button>
+            <button id="previewBtn" class="btn" type="button" disabled>Preview Definition</button>
+            <button id="runBtn" class="btn" type="button" disabled>Test Run</button>
+            <button id="shareBtn" class="btn" type="button" disabled>Share</button>
+            <button id="publishBtn" class="btn" type="button" disabled>Publish</button>
+          </div>
+        </div>
+
+        <div class="tabs">
+          <button id="tabBuild" class="tab active" type="button">Build</button>
+          <button id="tabRun" class="tab" type="button">Generate</button>
+        </div>
+
+        <div class="p-5 sm:p-6">
+          <div id="statusBox"></div>
+          <div id="tabBuildPanel"></div>
+          <div id="tabRunPanel" style="display:none;"></div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <dialog id="cloneDialog" aria-labelledby="cloneDialogTitle">
+    <div class="flex items-center justify-between gap-4">
+      <strong id="cloneDialogTitle" class="text-base">Clone from Agent</strong>
+      <button id="cloneCloseBtn" class="btn mini" type="button">Close</button>
+    </div>
+    <div class="hint mt-2">
+      Creates a new app with inputs inferred from the agent’s <code>inputSchema</code>, and a single Agent step wired via mapping.
+    </div>
+    <div class="row mt-4">
+      <div class="field">
+        <label for="cloneAgentId">Agent</label>
+        <input id="cloneAgentId" list="agentsDatalist" placeholder="e.g. background-remover" />
+        <datalist id="agentsDatalist"></datalist>
+      </div>
+      <div class="field">
+        <label for="cloneMode">Clone Mode</label>
+        <select id="cloneMode">
+          <option value="agent" selected>Wrap as Agent step (safe)</option>
+        </select>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="field">
+        <label for="cloneVisibility">Visibility</label>
+        <select id="cloneVisibility">
+          <option value="private" selected>private</option>
+          <option value="unlisted">unlisted</option>
+          <option value="public">public</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="cloneName">App Name (optional)</label>
+        <input id="cloneName" placeholder="Defaults to agent name" />
+      </div>
+    </div>
+    <div class="mt-5 flex justify-end gap-2">
+      <button id="cloneCreateBtn" class="btn primary" type="button">Create App</button>
+    </div>
+  </dialog>
+
+  <dialog id="previewDialog" aria-labelledby="previewDialogTitle">
+    <div class="flex items-center justify-between gap-4">
+      <strong id="previewDialogTitle" class="text-base">App Definition (read‑only)</strong>
+      <div class="flex items-center gap-2">
+        <button id="previewCopyBtn" class="btn mini" type="button">Copy JSON</button>
+        <button id="previewCloseBtn" class="btn mini" type="button">Close</button>
+      </div>
+    </div>
+    <div class="hint mt-2">
+      This is for debugging/sharing only. Edit via the visual builder (no JSON editing required).
+    </div>
+    <pre id="previewPre" class="mt-4 max-h-[60vh] overflow-auto"></pre>
+  </dialog>
+
+  <script src="/aitopia/marketplace/js/inline/app-studio-inline-3.js"></script>
+  <script src="/aitopia/marketplace/js/shared/global-nav.js"></script>
+<script src="/aitopia/marketplace/js/shared/footer.js"></script>
+</body>
+</html>

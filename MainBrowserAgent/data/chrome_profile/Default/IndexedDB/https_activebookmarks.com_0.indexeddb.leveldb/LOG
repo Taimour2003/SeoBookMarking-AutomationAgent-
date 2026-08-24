@@ -1,0 +1,7 @@
+2026/08/24-14:29:19.357 b728 Reusing MANIFEST D:\ComputerXperts\WebAgent\newSolution\MainBrowserAgent\data\chrome_profile\Default\IndexedDB\https_activebookmarks.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/08/24-14:29:19.358 b728 Recovering log #3
+2026/08/24-14:29:19.358 b728 Reusing old log D:\ComputerXperts\WebAgent\newSolution\MainBrowserAgent\data\chrome_profile\Default\IndexedDB\https_activebookmarks.com_0.indexeddb.leveldb/000003.log 
+2026/08/24-15:54:57.103 680 Level-0 table #5: started
+2026/08/24-15:54:57.105 680 Level-0 table #5: 4883 bytes OK
+2026/08/24-15:54:57.107 680 Delete type=0 #3
+2026/08/24-15:54:57.107 680 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

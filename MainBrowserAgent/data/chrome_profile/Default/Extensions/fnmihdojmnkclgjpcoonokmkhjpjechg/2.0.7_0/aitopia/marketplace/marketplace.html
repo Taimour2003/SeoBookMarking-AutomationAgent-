@@ -1,0 +1,1238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="/aitopia/marketplace/js/extension-config.js"></script>
+  <script src="/aitopia/marketplace/js/shared/pre-auth.js"></script>
+  
+
+
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title> Smart Sidebar (AITOPIA)</title>
+  <meta name="description" content="Discover amazing AI agents for image generation, video creation, face swap, and more.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="apple-touch-icon" href="/aitopia/marketplace/icon.png">
+  <style>
+    /* ============================================
+       iOS APP STORE DESIGN SYSTEM
+       Based on Apple Human Interface Guidelines
+       ============================================ */
+
+    :root {
+      /* iOS System Colors - Light Mode */
+      --ios-blue: #007AFF;
+      --ios-green: #34C759;
+      --ios-indigo: #5856D6;
+      --ios-orange: #FF9500;
+      --ios-pink: #FF2D55;
+      --ios-purple: #AF52DE;
+      --ios-red: #FF3B30;
+      --ios-teal: #5AC8FA;
+      --ios-yellow: #FFCC00;
+
+      /* Grayscale */
+      --ios-gray: #8E8E93;
+      --ios-gray-2: #AEAEB2;
+      --ios-gray-3: #C7C7CC;
+      --ios-gray-4: #D1D1D6;
+      --ios-gray-5: #E5E5EA;
+      --ios-gray-6: #F2F2F7;
+
+      /* Background Colors */
+      --ios-bg-primary: #FFFFFF;
+      --ios-bg-secondary: #F2F2F7;
+      --ios-bg-tertiary: #FFFFFF;
+      --ios-bg-grouped: #F2F2F7;
+
+      /* Text Colors */
+      --ios-label: #000000;
+      --ios-label-secondary: #3C3C43;
+      --ios-label-tertiary: rgba(60, 60, 67, 0.6);
+      --ios-label-quaternary: rgba(60, 60, 67, 0.18);
+
+      /* Separator */
+      --ios-separator: rgba(60, 60, 67, 0.29);
+      --ios-separator-opaque: #C6C6C8;
+
+      /* Fill */
+      --ios-fill: rgba(120, 120, 128, 0.2);
+      --ios-fill-secondary: rgba(120, 120, 128, 0.16);
+      --ios-fill-tertiary: rgba(118, 118, 128, 0.12);
+
+      /* Typography - SF Pro (via system font) */
+      --font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', sans-serif;
+
+      /* Typography Scale (iOS HIG) */
+      --font-large-title: 700 34px/41px var(--font-family);
+      --font-title-1: 700 28px/34px var(--font-family);
+      --font-title-2: 700 22px/28px var(--font-family);
+      --font-title-3: 600 20px/25px var(--font-family);
+      --font-headline: 600 17px/22px var(--font-family);
+      --font-body: 400 17px/22px var(--font-family);
+      --font-callout: 400 16px/21px var(--font-family);
+      --font-subheadline: 400 15px/20px var(--font-family);
+      --font-footnote: 400 13px/18px var(--font-family);
+      --font-caption-1: 400 12px/16px var(--font-family);
+      --font-caption-2: 400 11px/13px var(--font-family);
+
+      /* Corner Radii */
+      --radius-small: 6px;
+      --radius-medium: 10px;
+      --radius-large: 14px;
+      --radius-xlarge: 20px;
+      --radius-card: 24px;
+
+      /* Spacing */
+      --spacing-xs: 4px;
+      --spacing-sm: 8px;
+      --spacing-md: 16px;
+      --spacing-lg: 20px;
+      --spacing-xl: 24px;
+
+      /* Safe Areas */
+      --safe-area-top: env(safe-area-inset-top, 0px);
+      --safe-area-bottom: env(safe-area-inset-bottom, 0px);
+
+      /* Tab Bar */
+      --tab-bar-height: 83px;
+    }
+
+    /* Dark Mode */
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --ios-bg-primary: #000000;
+        --ios-bg-secondary: #1C1C1E;
+        --ios-bg-tertiary: #2C2C2E;
+        --ios-bg-grouped: #000000;
+
+        --ios-label: #FFFFFF;
+        --ios-label-secondary: #EBEBF5;
+        --ios-label-tertiary: rgba(235, 235, 245, 0.6);
+        --ios-label-quaternary: rgba(235, 235, 245, 0.18);
+
+        --ios-separator: rgba(84, 84, 88, 0.65);
+        --ios-separator-opaque: #38383A;
+
+        --ios-fill: rgba(120, 120, 128, 0.36);
+        --ios-fill-secondary: rgba(120, 120, 128, 0.32);
+        --ios-fill-tertiary: rgba(118, 118, 128, 0.24);
+
+        --ios-gray-6: #1C1C1E;
+      }
+    }
+
+    /* Reset */
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    html {
+      font: var(--font-body);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    body {
+      font-family: var(--font-family);
+      background: var(--ios-bg-grouped);
+      color: var(--ios-label);
+      min-height: 100vh;
+      padding-bottom: var(--tab-bar-height);
+      overflow-x: hidden;
+    }
+
+    /* ============================================
+       NAVIGATION BAR
+       ============================================ */
+
+    .nav-bar {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(249, 249, 249, 0.94);
+      backdrop-filter: saturate(180%) blur(20px);
+      -webkit-backdrop-filter: saturate(180%) blur(20px);
+      border-bottom: 0.5px solid var(--ios-separator);
+      padding: var(--spacing-md);
+      padding-top: calc(var(--safe-area-top) + var(--spacing-md));
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .nav-bar {
+        background: rgba(29, 29, 31, 0.94);
+      }
+    }
+
+    .nav-bar-large-title {
+      font: var(--font-large-title);
+      letter-spacing: 0.4px;
+      margin-bottom: var(--spacing-sm);
+    }
+
+    .search-bar {
+      display: flex;
+      align-items: center;
+      gap: var(--spacing-sm);
+      background: var(--ios-fill-tertiary);
+      border-radius: var(--radius-medium);
+      padding: var(--spacing-sm) var(--spacing-md);
+    }
+
+    .search-bar svg {
+      width: 18px;
+      height: 18px;
+      color: var(--ios-label-tertiary);
+      flex-shrink: 0;
+    }
+
+    .search-bar input {
+      flex: 1;
+      font: var(--font-body);
+      background: transparent;
+      border: none;
+      outline: none;
+      color: var(--ios-label);
+    }
+
+    .search-bar input::placeholder {
+      color: var(--ios-label-tertiary);
+    }
+
+    /* ============================================
+       TAB BAR (App Store Style)
+       ============================================ */
+
+    .tab-bar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      padding: var(--spacing-sm) 0;
+      padding-bottom: calc(var(--safe-area-bottom) + var(--spacing-sm));
+      background: rgba(249, 249, 249, 0.94);
+      backdrop-filter: saturate(180%) blur(20px);
+      -webkit-backdrop-filter: saturate(180%) blur(20px);
+      border-top: 0.5px solid var(--ios-separator);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .tab-bar {
+        background: rgba(29, 29, 31, 0.94);
+      }
+    }
+
+    .tab-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2px;
+      text-decoration: none;
+      color: var(--ios-gray);
+      min-width: 64px;
+      padding: var(--spacing-xs) var(--spacing-sm);
+      transition: color 0.2s;
+    }
+
+    .tab-item.active {
+      color: var(--ios-blue);
+    }
+
+    .tab-item svg {
+      width: 28px;
+      height: 28px;
+    }
+
+    .tab-item span {
+      font: var(--font-caption-2);
+    }
+
+    /* ============================================
+       MAIN CONTENT AREA
+       ============================================ */
+
+    .content {
+      padding: 0 var(--spacing-md);
+    }
+
+    .page {
+      display: none;
+    }
+
+    .page.active {
+      display: block;
+    }
+
+    /* ============================================
+       SECTION HEADERS
+       ============================================ */
+
+    .section-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      padding: var(--spacing-lg) 0 var(--spacing-md);
+    }
+
+    .section-title {
+      font: var(--font-title-2);
+      color: var(--ios-label);
+    }
+
+    .section-link {
+      font: var(--font-headline);
+      color: var(--ios-blue);
+      text-decoration: none;
+    }
+
+    /* ============================================
+       FEATURED BANNER (Today Tab Style)
+       ============================================ */
+
+    .featured-banner {
+      position: relative;
+      border-radius: var(--radius-card);
+      overflow: hidden;
+      margin-bottom: var(--spacing-lg);
+      aspect-ratio: 16/9;
+      background: linear-gradient(135deg, #1a1a2e, #16213e);
+    }
+
+    .featured-banner img,
+    .featured-banner video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .featured-banner-overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: var(--spacing-xl);
+      background: linear-gradient(transparent, rgba(0,0,0,0.8));
+    }
+
+    .featured-banner-tag {
+      font: var(--font-caption-1);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: rgba(255,255,255,0.7);
+      margin-bottom: var(--spacing-xs);
+    }
+
+    .featured-banner-title {
+      font: var(--font-title-1);
+      color: #fff;
+      margin-bottom: var(--spacing-xs);
+    }
+
+    .featured-banner-subtitle {
+      font: var(--font-subheadline);
+      color: rgba(255,255,255,0.8);
+    }
+
+    /* ============================================
+       APP CARD (App Store List Style)
+       ============================================ */
+
+    .app-list {
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-md);
+      margin-bottom: var(--spacing-lg);
+    }
+
+    .app-card {
+      display: flex;
+      align-items: center;
+      gap: var(--spacing-md);
+      padding: var(--spacing-md);
+      background: var(--ios-bg-primary);
+      border-radius: var(--radius-large);
+      text-decoration: none;
+      color: inherit;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .app-card:active {
+      transform: scale(0.98);
+    }
+
+    .app-icon {
+      width: 64px;
+      height: 64px;
+      border-radius: var(--radius-large);
+      object-fit: cover;
+      flex-shrink: 0;
+      background: var(--ios-gray-5);
+    }
+
+    .app-info {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .app-name {
+      font: var(--font-headline);
+      color: var(--ios-label);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .app-subtitle {
+      font: var(--font-subheadline);
+      color: var(--ios-label-secondary);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .app-category {
+      font: var(--font-caption-1);
+      color: var(--ios-label-tertiary);
+      margin-top: 2px;
+    }
+
+    .app-get-btn {
+      background: var(--ios-fill);
+      color: var(--ios-blue);
+      font: var(--font-headline);
+      padding: var(--spacing-sm) var(--spacing-lg);
+      border-radius: 100px;
+      border: none;
+      cursor: pointer;
+      flex-shrink: 0;
+      transition: background 0.2s;
+    }
+
+    .app-get-btn:active {
+      background: var(--ios-fill-secondary);
+    }
+
+    /* ============================================
+       HORIZONTAL SCROLL CARDS (Featured Apps)
+       ============================================ */
+
+    .horizontal-scroll {
+      display: flex;
+      gap: var(--spacing-md);
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch;
+      padding-bottom: var(--spacing-sm);
+      margin: 0 calc(-1 * var(--spacing-md));
+      padding-left: var(--spacing-md);
+      padding-right: var(--spacing-md);
+    }
+
+    .horizontal-scroll::-webkit-scrollbar {
+      display: none;
+    }
+
+    .featured-app-card {
+      flex: 0 0 300px;
+      scroll-snap-align: start;
+      background: var(--ios-bg-primary);
+      border-radius: var(--radius-card);
+      overflow: hidden;
+      text-decoration: none;
+      color: inherit;
+      transition: transform 0.2s;
+    }
+
+    .featured-app-card:active {
+      transform: scale(0.98);
+    }
+
+    .featured-app-image {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      background: var(--ios-gray-5);
+    }
+
+    .featured-app-content {
+      padding: var(--spacing-md);
+    }
+
+    .featured-app-tag {
+      font: var(--font-caption-1);
+      color: var(--ios-blue);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: var(--spacing-xs);
+    }
+
+    .featured-app-title {
+      font: var(--font-headline);
+      color: var(--ios-label);
+      margin-bottom: var(--spacing-xs);
+    }
+
+    .featured-app-subtitle {
+      font: var(--font-subheadline);
+      color: var(--ios-label-secondary);
+    }
+
+    /* ============================================
+       SCREENSHOT GALLERY (App Detail Style)
+       ============================================ */
+
+    .screenshot-gallery {
+      display: flex;
+      gap: var(--spacing-sm);
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch;
+      padding-bottom: var(--spacing-sm);
+      margin: 0 calc(-1 * var(--spacing-md));
+      padding-left: var(--spacing-md);
+      padding-right: var(--spacing-md);
+    }
+
+    .screenshot-gallery::-webkit-scrollbar {
+      display: none;
+    }
+
+    .screenshot-item {
+      flex: 0 0 auto;
+      width: 230px;
+      border-radius: var(--radius-xlarge);
+      overflow: hidden;
+      scroll-snap-align: start;
+      background: var(--ios-gray-5);
+    }
+
+    .screenshot-item img,
+    .screenshot-item video {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* ============================================
+       CATEGORY GRID
+       ============================================ */
+
+    .category-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: var(--spacing-sm);
+      margin-bottom: var(--spacing-lg);
+    }
+
+    .category-card {
+      background: var(--ios-bg-primary);
+      border-radius: var(--radius-large);
+      padding: var(--spacing-md);
+      display: flex;
+      align-items: center;
+      gap: var(--spacing-sm);
+      text-decoration: none;
+      color: inherit;
+      transition: transform 0.2s;
+    }
+
+    .category-card:active {
+      transform: scale(0.98);
+    }
+
+    .category-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: var(--radius-medium);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+    }
+
+    .category-name {
+      font: var(--font-headline);
+      color: var(--ios-label);
+    }
+
+    /* ============================================
+       APP DETAIL PAGE
+       ============================================ */
+
+    .detail-header {
+      display: flex;
+      gap: var(--spacing-md);
+      padding: var(--spacing-lg) var(--spacing-md);
+      background: var(--ios-bg-primary);
+      border-radius: 0 0 var(--radius-card) var(--radius-card);
+      margin-bottom: var(--spacing-md);
+    }
+
+    .detail-icon {
+      width: 120px;
+      height: 120px;
+      border-radius: var(--radius-xlarge);
+      object-fit: cover;
+      background: var(--ios-gray-5);
+    }
+
+    .detail-info {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .detail-name {
+      font: var(--font-title-2);
+      color: var(--ios-label);
+      margin-bottom: var(--spacing-xs);
+    }
+
+    .detail-developer {
+      font: var(--font-subheadline);
+      color: var(--ios-label-secondary);
+      margin-bottom: var(--spacing-md);
+    }
+
+    .detail-get-btn {
+      background: var(--ios-blue);
+      color: #fff;
+      font: var(--font-headline);
+      padding: var(--spacing-sm) var(--spacing-xl);
+      border-radius: 100px;
+      border: none;
+      cursor: pointer;
+      align-self: flex-start;
+      transition: opacity 0.2s;
+    }
+
+    .detail-get-btn:active {
+      opacity: 0.8;
+    }
+
+    /* Info Bar */
+    .info-bar {
+      display: flex;
+      justify-content: space-around;
+      padding: var(--spacing-md);
+      background: var(--ios-bg-primary);
+      border-radius: var(--radius-large);
+      margin-bottom: var(--spacing-md);
+    }
+
+    .info-item {
+      text-align: center;
+    }
+
+    .info-value {
+      font: var(--font-title-3);
+      color: var(--ios-label-secondary);
+    }
+
+    .info-label {
+      font: var(--font-caption-1);
+      color: var(--ios-label-tertiary);
+    }
+
+    /* Separator */
+    .info-separator {
+      width: 1px;
+      background: var(--ios-separator);
+    }
+
+    /* Description */
+    .detail-section {
+      background: var(--ios-bg-primary);
+      border-radius: var(--radius-large);
+      padding: var(--spacing-md);
+      margin-bottom: var(--spacing-md);
+    }
+
+    .detail-section-title {
+      font: var(--font-title-3);
+      color: var(--ios-label);
+      margin-bottom: var(--spacing-sm);
+    }
+
+    .detail-description {
+      font: var(--font-body);
+      color: var(--ios-label-secondary);
+      line-height: 1.5;
+    }
+
+    /* What's New */
+    .version-info {
+      font: var(--font-subheadline);
+      color: var(--ios-label-tertiary);
+      margin-bottom: var(--spacing-sm);
+    }
+
+    /* Features List */
+    .feature-list {
+      list-style: none;
+    }
+
+    .feature-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: var(--spacing-sm);
+      padding: var(--spacing-sm) 0;
+      border-bottom: 0.5px solid var(--ios-separator);
+    }
+
+    .feature-list li:last-child {
+      border-bottom: none;
+    }
+
+    .feature-icon {
+      width: 24px;
+      height: 24px;
+      color: var(--ios-blue);
+      flex-shrink: 0;
+    }
+
+    .feature-text {
+      font: var(--font-body);
+      color: var(--ios-label);
+    }
+
+    /* Rating Stars */
+    .rating {
+      display: flex;
+      align-items: center;
+      gap: var(--spacing-xs);
+    }
+
+    .stars {
+      display: flex;
+      gap: 2px;
+    }
+
+    .star {
+      width: 14px;
+      height: 14px;
+      color: var(--ios-orange);
+    }
+
+    .star.empty {
+      color: var(--ios-gray-3);
+    }
+
+    .rating-count {
+      font: var(--font-caption-1);
+      color: var(--ios-label-tertiary);
+    }
+
+    /* ============================================
+       VIDEO PREVIEW CARDS
+       ============================================ */
+
+    .video-card {
+      position: relative;
+      border-radius: var(--radius-xlarge);
+      overflow: hidden;
+      aspect-ratio: 16/9;
+      background: #000;
+    }
+
+    .video-card video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .video-overlay {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(0,0,0,0.3);
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+
+    .video-card:hover .video-overlay {
+      opacity: 1;
+    }
+
+    .play-btn {
+      width: 60px;
+      height: 60px;
+      background: rgba(255,255,255,0.9);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .play-btn svg {
+      width: 24px;
+      height: 24px;
+      margin-left: 4px;
+      color: #000;
+    }
+
+    /* ============================================
+       SKELETON LOADING
+       ============================================ */
+
+    @keyframes shimmer {
+      0% { background-position: -200% 0; }
+      100% { background-position: 200% 0; }
+    }
+
+    .skeleton {
+      background: linear-gradient(90deg, var(--ios-gray-5) 25%, var(--ios-gray-4) 50%, var(--ios-gray-5) 75%);
+      background-size: 200% 100%;
+      animation: shimmer 1.5s infinite;
+    }
+
+    /* ============================================
+       MODAL (App Detail View)
+       ============================================ */
+
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.5);
+      z-index: 200;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s, visibility 0.3s;
+    }
+
+    .modal-overlay.active {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .modal {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) scale(0.95);
+      width: calc(100% - 32px);
+      max-width: 500px;
+      max-height: calc(100vh - 100px);
+      background: var(--ios-bg-grouped);
+      border-radius: var(--radius-card);
+      overflow: hidden;
+      z-index: 201;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .modal.active {
+      opacity: 1;
+      visibility: visible;
+      transform: translate(-50%, -50%) scale(1);
+    }
+
+    .modal-content {
+      max-height: calc(100vh - 100px);
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .modal-close {
+      position: absolute;
+      top: var(--spacing-md);
+      right: var(--spacing-md);
+      width: 32px;
+      height: 32px;
+      background: var(--ios-fill);
+      border-radius: 50%;
+      border: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      z-index: 10;
+    }
+
+    .modal-close svg {
+      width: 16px;
+      height: 16px;
+      color: var(--ios-label-secondary);
+    }
+
+    /* ============================================
+       RESPONSIVE
+       ============================================ */
+
+    @media (min-width: 768px) {
+      .content {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 var(--spacing-xl);
+      }
+
+      .app-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .category-grid {
+        grid-template-columns: repeat(4, 1fr);
+      }
+
+      .featured-app-card {
+        flex: 0 0 340px;
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .app-list {
+        grid-template-columns: repeat(3, 1fr);
+      }
+
+      .category-grid {
+        grid-template-columns: repeat(6, 1fr);
+      }
+    }
+
+    /* Hidden utility */
+    .hidden {
+      display: none !important;
+    }
+  </style>
+</head>
+<body class="aifnmjmchg aifnmjmchg-marketplace">
+
+
+  <!-- Navigation Bar -->
+  <header class="nav-bar">
+    <h1 class="nav-bar-large-title">AI Agents</h1>
+    <div class="search-bar">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="11" cy="11" r="8"/>
+        <path d="M21 21l-4.35-4.35"/>
+      </svg>
+      <input type="text" placeholder="Games, Apps, Stories and More" id="searchInput">
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="content">
+    <!-- TODAY PAGE -->
+    <div class="page active" id="todayPage">
+      <!-- Featured Banner -->
+      <div class="featured-banner" data-action="showAgentDetail" data-param="video-generator">
+        <video autoplay muted loop playsinline>
+          <source src="https://static.higgsfield.ai/70e490b9-26b7-4572-8d9c-2ac8dcc9adc0.mp4" type="video/mp4">
+        </video>
+        <div class="featured-banner-overlay">
+          <div class="featured-banner-tag">Featured Agent</div>
+          <h2 class="featured-banner-title">Video Generator</h2>
+          <p class="featured-banner-subtitle">Create stunning AI videos with Runway Gen-3 Alpha</p>
+        </div>
+      </div>
+
+      <!-- Featured Apps Section -->
+      <div class="section-header">
+        <h2 class="section-title">Popular Right Now</h2>
+        <a href="#" class="section-link" data-action="showPage" data-param="appsPage">See All</a>
+      </div>
+
+      <div class="horizontal-scroll">
+        <a class="featured-app-card" href="#" data-action="showAgentDetail" data-param="virtual-try-on">
+          <img class="featured-app-image" src="https://agent-assets-prod.muleusercontent.com/agents/agent-aitopia/assets/20251111/54e2dc15-d602-40aa-9b09-0983f7a4f8b3/虚拟试衣.png" alt="Virtual Try-On">
+          <div class="featured-app-content">
+            <div class="featured-app-tag">E-Commerce</div>
+            <h3 class="featured-app-title">Virtual Try-On</h3>
+            <p class="featured-app-subtitle">Transform clothing into model shots</p>
+          </div>
+        </a>
+
+        <a class="featured-app-card" href="#" data-action="showAgentDetail" data-param="face-swap">
+          <img class="featured-app-image" src="https://agent-assets-prod.muleusercontent.com/agents/agent-aitopia/assets/20251111/3b3049b7-bc21-46a8-b445-f2e339e3e65a/换脸.png" alt="Face Swap">
+          <div class="featured-app-content">
+            <div class="featured-app-tag">Creative</div>
+            <h3 class="featured-app-title">Face Swap</h3>
+            <p class="featured-app-subtitle">Realistic face swaps with AI</p>
+          </div>
+        </a>
+
+        <a class="featured-app-card" href="#" data-action="showAgentDetail" data-param="image-generator">
+          <img class="featured-app-image" src="https://assets-01.mulerun.com/agent/311be0d7-cd68-4fa7-99bc-232e535ebb39/v2025.09.02-07.37.32/showcase-1.png" alt="Image Generator">
+          <div class="featured-app-content">
+            <div class="featured-app-tag">AI Art</div>
+            <h3 class="featured-app-title">Image Generator</h3>
+            <p class="featured-app-subtitle">Create images from text prompts</p>
+          </div>
+        </a>
+
+        <a class="featured-app-card" href="#" data-action="showAgentDetail" data-param="talking-avatar">
+          <img class="featured-app-image" src="https://cdn.higgsfield.ai/8ab53648-e4d3-41ad-900e-b38b6f33dbaf.webp" alt="Talking Avatar">
+          <div class="featured-app-content">
+            <div class="featured-app-tag">Video</div>
+            <h3 class="featured-app-title">Talking Avatar</h3>
+            <p class="featured-app-subtitle">Create talking head videos from images</p>
+          </div>
+        </a>
+      </div>
+
+      <!-- Screenshot Gallery -->
+      <div class="section-header">
+        <h2 class="section-title">See It In Action</h2>
+      </div>
+
+      <div class="screenshot-gallery">
+        <div class="screenshot-item">
+          <video autoplay muted loop playsinline>
+            <source src="https://cdn.higgsfield.ai/kling_motion/8c4795a8-e7ef-4272-8fb3-9d349192a013.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="screenshot-item">
+          <video autoplay muted loop playsinline>
+            <source src="https://cdn.higgsfield.ai/kling_motion/413e9bed-2fb7-4f61-b69f-e8c7466bfcf6.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="screenshot-item">
+          <img src="https://dqv0cqkoy5oj7.cloudfront.net/user_2vtxM3DRcDcQIjpmiCpUDF2wcAT/453bc1ba-2cf6-4897-9268-a4403f35e18e_min.webp" alt="AI Generated">
+        </div>
+        <div class="screenshot-item">
+          <video autoplay muted loop playsinline>
+            <source src="https://cdn.higgsfield.ai/minimax_hailuo_motion/382ba2da-a405-4459-89c2-c31a31469185.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="screenshot-item">
+          <img src="https://d8j0ntlcm91z4.cloudfront.net/content_user_id/83034e1a-1d32-4053-a1bc-bbcb7a9491c8.jpeg" alt="Creative Output">
+        </div>
+      </div>
+
+      <!-- Image Agents -->
+      <div class="section-header">
+        <h2 class="section-title">Image Processing</h2>
+        <a href="#" class="section-link" data-action="filterByCategory" data-param="higgsfield-image">See All</a>
+      </div>
+
+      <div class="app-list">
+        <a class="app-card" href="#" data-action="showAgentDetail" data-param="background-remover">
+          <img class="app-icon" src="https://assets-01.mulerun.com/agent/10aa0000-d27e-49f0-9ee9-0ad7d99f57b3/v1.0.3/showcase-1.webp" alt="Background Remover">
+          <div class="app-info">
+            <div class="app-name">Background Remover</div>
+            <div class="app-subtitle">Remove backgrounds instantly</div>
+            <div class="app-category">Image Processing</div>
+          </div>
+          <button class="app-get-btn">GET</button>
+        </a>
+
+        <a class="app-card" href="#" data-action="showAgentDetail" data-param="image-upscaler">
+          <img class="app-icon" src="https://assets-01.mulerun.com/agent/c55ea644-5e6f-45ca-bcb7-30135f3e984c/v1.0.1/showcase-1.webp" alt="Image Upscaler">
+          <div class="app-info">
+            <div class="app-name">Image Upscaler</div>
+            <div class="app-subtitle">Enhance to 4x resolution</div>
+            <div class="app-category">Image Processing</div>
+          </div>
+          <button class="app-get-btn">GET</button>
+        </a>
+
+        <a class="app-card" href="#" data-action="showAgentDetail" data-param="portrait-enhancer">
+          <img class="app-icon" src="https://agent-assets-prod.muleusercontent.com/agents/agent-aitopia/assets/20251111/71b89f38-5a95-496a-bdbd-2e1c30bdb993/cover-1_(10).png" alt="Portrait Enhancer">
+          <div class="app-info">
+            <div class="app-name">Portrait Enhancer</div>
+            <div class="app-subtitle">Professional retouching</div>
+            <div class="app-category">Image Processing</div>
+          </div>
+          <button class="app-get-btn">GET</button>
+        </a>
+
+        <a class="app-card" href="#" data-action="showAgentDetail" data-param="style-transfer">
+          <img class="app-icon" src="https://agent-assets-prod.muleusercontent.com/agents/agent-aitopia/assets/20251111/129840a5-8f47-4006-b9ba-ca4b0615ca62/cover_(16).png" alt="Style Transfer">
+          <div class="app-info">
+            <div class="app-name">Style Transfer</div>
+            <div class="app-subtitle">Apply artistic styles</div>
+            <div class="app-category">Creative</div>
+          </div>
+          <button class="app-get-btn">GET</button>
+        </a>
+      </div>
+
+      <!-- Video Agents -->
+      <div class="section-header">
+        <h2 class="section-title">Video Creation</h2>
+        <a href="#" class="section-link" data-action="filterByCategory" data-param="higgsfield-video">See All</a>
+      </div>
+
+      <div class="horizontal-scroll">
+        <a class="featured-app-card" href="#" data-action="showAgentDetail" data-param="lip-sync">
+          <div class="video-card">
+            <video autoplay muted loop playsinline>
+              <source src="https://cdn.higgsfield.ai/kling_motion/dbe2fcf5-9605-41ea-96ed-b5b655bbbeb0.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="featured-app-content">
+            <div class="featured-app-tag">Video</div>
+            <h3 class="featured-app-title">Lip Sync</h3>
+            <p class="featured-app-subtitle">AI-powered lip synchronization</p>
+          </div>
+        </a>
+
+        <a class="featured-app-card" href="#" data-action="showAgentDetail" data-param="image-animator">
+          <div class="video-card">
+            <video autoplay muted loop playsinline>
+              <source src="https://cdn.higgsfield.ai/wan2_2_motion/22b6f9ca-5469-4086-8956-a2deb4944307.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="featured-app-content">
+            <div class="featured-app-tag">Animation</div>
+            <h3 class="featured-app-title">Image Animator</h3>
+            <p class="featured-app-subtitle">Animate still images with AI</p>
+          </div>
+        </a>
+
+        <a class="featured-app-card" href="#" data-action="showAgentDetail" data-param="video-upscaler">
+          <img class="featured-app-image" src="https://cdn.higgsfield.ai/card/ae2180fa-cbab-47a1-b52e-bf07432f34f5.webp" alt="Video Upscaler">
+          <div class="featured-app-content">
+            <div class="featured-app-tag">Enhancement</div>
+            <h3 class="featured-app-title">Video Upscaler</h3>
+            <p class="featured-app-subtitle">Upscale videos to 4K</p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- APPS PAGE -->
+    <div class="page" id="appsPage">
+      <div class="section-header">
+        <h2 class="section-title">Categories</h2>
+      </div>
+
+      <div class="category-grid">
+        <a class="category-card" href="#" data-action="filterByCategory" data-param="higgsfield-image">
+          <div class="category-icon" style="background: linear-gradient(135deg, #FF6B6B, #FF8E53);">
+            <span>&#128247;</span>
+          </div>
+          <span class="category-name">Image</span>
+        </a>
+        <a class="category-card" href="#" data-action="filterByCategory" data-param="higgsfield-video">
+          <div class="category-icon" style="background: linear-gradient(135deg, #4ECDC4, #45B7AA);">
+            <span>&#127909;</span>
+          </div>
+          <span class="category-name">Video</span>
+        </a>
+        <a class="category-card" href="#" data-action="filterByCategory" data-param="higgsfield-audio">
+          <div class="category-icon" style="background: linear-gradient(135deg, #A18CD1, #FBC2EB);">
+            <span>&#127911;</span>
+          </div>
+          <span class="category-name">Audio</span>
+        </a>
+        <a class="category-card" href="#" data-action="filterByCategory" data-param="ecommerce">
+          <div class="category-icon" style="background: linear-gradient(135deg, #667eea, #764ba2);">
+            <span>&#128722;</span>
+          </div>
+          <span class="category-name">E-Commerce</span>
+        </a>
+        <a class="category-card" href="#" data-action="filterByCategory" data-param="productivity">
+          <div class="category-icon" style="background: linear-gradient(135deg, #11998e, #38ef7d);">
+            <span>&#128736;</span>
+          </div>
+          <span class="category-name">Productivity</span>
+        </a>
+        <a class="category-card" href="#" data-action="filterByCategory" data-param="creative">
+          <div class="category-icon" style="background: linear-gradient(135deg, #ee0979, #ff6a00);">
+            <span>&#127912;</span>
+          </div>
+          <span class="category-name">Creative</span>
+        </a>
+      </div>
+
+      <div class="section-header">
+        <h2 class="section-title">Top Agents</h2>
+      </div>
+
+      <div class="app-list" id="topAgentsList">
+        <!-- Dynamically populated -->
+      </div>
+    </div>
+
+    <!-- SEARCH PAGE -->
+    <div class="page" id="searchPage">
+      <div class="section-header">
+        <h2 class="section-title">Discover</h2>
+      </div>
+
+      <div class="category-grid" style="margin-bottom: 24px;">
+        <a class="category-card" href="#" data-action="searchAgents" data-param="face">
+          <span class="category-name">Face Tools</span>
+        </a>
+        <a class="category-card" href="#" data-action="searchAgents" data-param="video">
+          <span class="category-name">Video</span>
+        </a>
+        <a class="category-card" href="#" data-action="searchAgents" data-param="image">
+          <span class="category-name">Image</span>
+        </a>
+        <a class="category-card" href="#" data-action="searchAgents" data-param="content">
+          <span class="category-name">Content</span>
+        </a>
+      </div>
+
+      <div class="section-header">
+        <h2 class="section-title">Search Results</h2>
+      </div>
+
+      <div class="app-list" id="searchResults">
+        <p style="text-align: center; color: var(--ios-label-tertiary); padding: 40px;">
+          Start typing to search agents...
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Tab Bar -->
+  <nav class="tab-bar">
+    <a class="tab-item active" href="#" data-action="showPage" data-param="todayPage" data-page="todayPage">
+      <svg viewBox="0 0 24 24" fill="currentColor">
+        <rect x="3" y="3" width="7" height="7" rx="1"/>
+        <rect x="14" y="3" width="7" height="7" rx="1"/>
+        <rect x="3" y="14" width="7" height="7" rx="1"/>
+        <rect x="14" y="14" width="7" height="7" rx="1"/>
+      </svg>
+      <span>Today</span>
+    </a>
+    <a class="tab-item" href="#" data-action="showPage" data-param="appsPage" data-page="appsPage">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <rect x="3" y="3" width="18" height="18" rx="2"/>
+        <path d="M3 9h18"/>
+        <path d="M9 21V9"/>
+      </svg>
+      <span>Agents</span>
+    </a>
+    <a class="tab-item" href="#" data-action="showPage" data-param="searchPage" data-page="searchPage">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="11" cy="11" r="8"/>
+        <path d="M21 21l-4.35-4.35"/>
+      </svg>
+      <span>Search</span>
+    </a>
+  </nav>
+
+  <!-- Agent Detail Modal -->
+  <div class="modal-overlay" id="modalOverlay" data-action="closeModal"></div>
+  <div class="modal" id="agentModal">
+    <button class="modal-close" data-action="closeModal">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M18 6L6 18M6 6l12 12"/>
+      </svg>
+    </button>
+    <div class="modal-content" id="modalContent">
+      <!-- Dynamic content -->
+    </div>
+  </div>
+
+  <script src="/aitopia/marketplace/js/inline/marketplace-inline-2.js"></script>
+<script src="/aitopia/marketplace/js/shared/footer.js"></script>
+</body>
+</html>

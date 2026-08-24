@@ -1,0 +1,2186 @@
+{
+   "action_on_detection": {
+      "message": "Tindakan Saat Deteksi"
+   },
+   "action_report_bug_feedback": {
+      "message": "Laporkan Bug / Masukan"
+   },
+   "action_stop_refresh": {
+      "message": "Hentikan Refresh"
+   },
+   "active_tabs_alerts_help": {
+      "message": "Tab yang memicu peringatan monitor. Abaikan peringatan individual atau hapus semua."
+   },
+   "active_tabs_alerts_title": {
+      "message": "Peringatan"
+   },
+   "active_tabs_clear_all": {
+      "message": "hapus semua"
+   },
+   "active_tabs_paused": {
+      "message": "dijeda"
+   },
+   "active_tabs_refreshing_help": {
+      "message": "Tab yang dimuat ulang otomatis. Arahkan kursor untuk jeda, mulai ulang, atau hentikan."
+   },
+   "active_tabs_refreshing_title": {
+      "message": "Memuat ulang"
+   },
+   "active_tabs_stop_all": {
+      "message": "hentikan semua"
+   },
+   "active_tabs_time_day_ago": {
+      "message": "%1 hari lalu"
+   },
+   "active_tabs_time_days_ago": {
+      "message": "%1 hari lalu"
+   },
+   "active_tabs_time_hour_ago": {
+      "message": "%1 jam lalu"
+   },
+   "active_tabs_time_hours_ago": {
+      "message": "%1 jam lalu"
+   },
+   "active_tabs_time_just_now": {
+      "message": "Baru saja"
+   },
+   "active_tabs_time_min_ago": {
+      "message": "%1 mnt lalu"
+   },
+   "active_tabs_time_sec_ago": {
+      "message": "%1 dtk lalu"
+   },
+   "add": {
+      "message": "Tambah"
+   },
+   "add_email": {
+      "message": "Tambah Email"
+   },
+   "add_email_tooltip": {
+      "message": "Tambahkan email untuk menerima peringatan"
+   },
+   "add_keywords": {
+      "message": "Tambah Kata Kunci Target Standar"
+   },
+   "add_new": {
+      "message": "Tambah Baru"
+   },
+   "added": {
+      "message": "Ditambahkan"
+   },
+   "alert_settings": {
+      "message": "Pengaturan Peringatan"
+   },
+   "alert_when_any_change_detected": {
+      "message": "Auto Refresh Plus akan memperingatkan Anda kapan pun ada perubahan yang terdeteksi di halaman web ini"
+   },
+   "alert_when_keyword_appears": {
+      "message": "Dapatkan pemberitahuan saat kata kunci Anda muncul."
+   },
+   "alert_when_keyword_disappears": {
+      "message": "Dapatkan pemberitahuan saat kata kunci Anda hilang."
+   },
+   "all_days": {
+      "message": "Semua Hari"
+   },
+   "any": {
+      "message": "Apa saja"
+   },
+   "app_description": {
+      "description": "The description of extension",
+      "message": "Segarkan halaman secara otomatis dengan fitur pemantauan halaman yang canggih."
+   },
+   "app_name": {
+      "description": "The extension name",
+      "message": "Auto Refresh Plus | Monitor Halaman"
+   },
+   "appearance": {
+      "message": "Penampilan"
+   },
+   "apply": {
+      "message": "Terapkan"
+   },
+   "are_you_sure": {
+      "message": "Apakah Anda yakin ingin menghapus?"
+   },
+   "ast": {
+      "message": "Pengatur Waktu Hitung Mundur"
+   },
+   "auto_click_element_aria": {
+      "message": "Pemilih elemen klik otomatis"
+   },
+   "auto_click_element_label": {
+      "message": "elemen klik otomatis"
+   },
+   "auto_click_help": {
+      "message": "Secara otomatis mengklik tautan jika kata kunci yang dipantau berisi tautan."
+   },
+   "auto_click_targets_desc": {
+      "message": "Klik elemen setelah setiap penyegaran atau saat kata kunci cocok"
+   },
+   "auto_click_targets_label": {
+      "message": "Target klik otomatis"
+   },
+   "auto_clicker": {
+      "message": "Pengklik Otomatis"
+   },
+   "auto_clicker_msg1": {
+      "message": "Klik otomatis pada kata kunci pemantauan"
+   },
+   "auto_disable_on_first": {
+      "message": "Nonaktifkan otomatis setelah dijalankan sekali"
+   },
+   "auto_disable_on_first_desc": {
+      "message": "Nonaktifkan jadwal ini setelah dijalankan sekali"
+   },
+   "auto_stop_schedule": {
+      "message": "Henti Otomatis"
+   },
+   "auto_stop_schedule_desc": {
+      "message": "mis. refresh antara pukul 10–11"
+   },
+   "auto_tasks_add_another": {
+      "message": "Tambah klik lain"
+   },
+   "auto_tasks_add_element": {
+      "message": "Tambah elemen"
+   },
+   "auto_tasks_empty": {
+      "message": "Belum ada elemen yang ditambahkan"
+   },
+   "auto_tasks_help": {
+      "message": "Secara otomatis mengklik elemen yang dipilih di halaman."
+   },
+   "auto_tasks_label": {
+      "message": "Klik elemen tambahan"
+   },
+   "auto_tasks_new_tab_short": {
+      "message": "Tab baru"
+   },
+   "auto_tasks_open_in_new_tab": {
+      "message": "Buka di tab baru jika tautan"
+   },
+   "auto_tasks_open_new_tab_aria": {
+      "message": "Buka klik %1 di tab baru"
+   },
+   "auto_tasks_options": {
+      "message": "Opsi"
+   },
+   "auto_tasks_pick": {
+      "message": "Pilih"
+   },
+   "auto_tasks_remove": {
+      "message": "Hapus"
+   },
+   "auto_tasks_remove_target_aria": {
+      "message": "Hapus target klik %1"
+   },
+   "auto_tasks_selector_aria": {
+      "message": "Pemilih CSS untuk target klik %1"
+   },
+   "auto_tasks_set_selector": {
+      "message": "Atur pemilih…"
+   },
+   "auto_tasks_toggle_target_aria": {
+      "message": "Buka/tutup target klik %1"
+   },
+   "auto_tasks_trigger": {
+      "message": "Pemicu"
+   },
+   "auto_tasks_trigger_each_refresh": {
+      "message": "Setiap refresh"
+   },
+   "auto_tasks_trigger_on_detection": {
+      "message": "Saat peringatan terpicu"
+   },
+   "auto_tasks_trigger_on_detection_short": {
+      "message": "Saat terdeteksi"
+   },
+   "auto_tasks_trigger_refresh_short": {
+      "message": "Segarkan"
+   },
+   "bad": {
+      "message": "Buruk"
+   },
+   "behavior_on_interaction": {
+      "message": "Perilaku saat Berinteraksi"
+   },
+   "bulk_keywords_results": {
+      "message": "Hasil Kata Kunci Massal"
+   },
+   "calendar_weekday_fri": {
+      "message": "Jum"
+   },
+   "calendar_weekday_mon": {
+      "message": "Sen"
+   },
+   "calendar_weekday_sat": {
+      "message": "Sab"
+   },
+   "calendar_weekday_sun": {
+      "message": "Min"
+   },
+   "calendar_weekday_thu": {
+      "message": "Kam"
+   },
+   "calendar_weekday_tue": {
+      "message": "Sel"
+   },
+   "calendar_weekday_wed": {
+      "message": "Rab"
+   },
+   "cancel": {
+      "message": "Batal"
+   },
+   "captcha_detection": {
+      "message": "Deteksi Captcha"
+   },
+   "caution_badge": {
+      "message": "Peringatan"
+   },
+   "choose_interval": {
+      "message": "Pilih Interval Waktu"
+   },
+   "clear": {
+      "message": "Hapus"
+   },
+   "clear_all": {
+      "message": "Hapus Semua"
+   },
+   "clear_all_keywords": {
+      "message": "Hapus Semua Kata Kunci"
+   },
+   "clear_all_keywords_desc": {
+      "message": "Apakah Anda yakin ingin menghapus semua kata kunci?"
+   },
+   "click_automation_title": {
+      "message": "Otomasi klik"
+   },
+   "close": {
+      "message": "Tutup"
+   },
+   "continue": {
+      "message": "Lanjutkan"
+   },
+   "continue_refreshing_after_alert": {
+      "message": "Terus Menyegarkan Setelah Peringatan"
+   },
+   "continue_refreshing_help": {
+      "message": "Picu peringatan pada deteksi kata kunci tetapi terus menyegarkan seperti biasanya."
+   },
+   "continue_refreshing_switch_desc": {
+      "message": "Terus segarkan setelah peringatan"
+   },
+   "copy_expression": {
+      "message": "Salin ekspresi"
+   },
+   "copy_to_clipboard": {
+      "message": "Salin ke papan klip"
+   },
+   "countdown_decrease_hours": {
+      "message": "Kurangi jam"
+   },
+   "countdown_decrease_min": {
+      "message": "Kurangi menit"
+   },
+   "countdown_decrease_sec": {
+      "message": "Kurangi detik"
+   },
+   "countdown_duration_label": {
+      "message": "durasi hitung mundur"
+   },
+   "countdown_fires_after": {
+      "message": "berjalan setelah %1"
+   },
+   "countdown_hms_header": {
+      "message": "j : m : d"
+   },
+   "countdown_hours_value": {
+      "message": "Nilai jam"
+   },
+   "countdown_increase_hours": {
+      "message": "Tambah jam"
+   },
+   "countdown_increase_min": {
+      "message": "Tambah menit"
+   },
+   "countdown_increase_sec": {
+      "message": "Tambah detik"
+   },
+   "countdown_min_value": {
+      "message": "Nilai menit"
+   },
+   "countdown_sec_value": {
+      "message": "Nilai detik"
+   },
+   "countdown_target_date_time": {
+      "message": "tanggal & waktu target"
+   },
+   "countdown_timer_modes_help": {
+      "message": "Pilih cara timer berjalan: Durasi menghitung mundur dari jam/menit/detik; Tanggal & Waktu berjalan sekali pada momen yang Anda pilih."
+   },
+   "countdown_triggers_once": {
+      "message": "dipicu sekali pada waktu yang dipilih"
+   },
+   "countdown_unit_hours": {
+      "message": "Jam"
+   },
+   "countdown_unit_min": {
+      "message": "Menit"
+   },
+   "countdown_unit_sec": {
+      "message": "Detik"
+   },
+   "css_selector": {
+      "message": "Pemilih CSS"
+   },
+   "css_selector_aria": {
+      "message": "Pemilih CSS"
+   },
+   "css_selector_placeholder": {
+      "message": "mis. button atau a[href=\"/login\"]"
+   },
+   "custom": {
+      "message": "Khusus"
+   },
+   "custom_expression": {
+      "message": "Ekspresi Khusus"
+   },
+   "custom_expression_desc": {
+      "message": "Diinisialisasi dengan dua simbol ##, dan merupakan pernyataan Boolean untuk operator OR dan AND. Harus diapit dalam tanda kurung (4 tanda kurung total)."
+   },
+   "custom_expression_example_1_desc": {
+      "message": "Mencari \"in stock\" ATAU \"available\" DAN \"add to cart\" ATAU \"buy now\""
+   },
+   "custom_expression_example_2_desc": {
+      "message": "Mencari \"sale\" ATAU \"discount\" DAN \"50%\" ATAU \"30%\""
+   },
+   "custom_expression_example_3_desc": {
+      "message": "Ekspresi boolean menggunakan OR (|) dan operator AND dengan tanda kurung"
+   },
+   "custom_interval": {
+      "message": "Interval Khusus"
+   },
+   "custom_interval_desc": {
+      "message": "Atur jam, menit, dan detik yang tepat"
+   },
+   "custom_monitor": {
+      "message": "Monitor Khusus"
+   },
+   "custom_time_interval": {
+      "message": "Interval Waktu Khusus"
+   },
+   "date_picker_next_month": {
+      "message": "Bulan berikutnya"
+   },
+   "date_picker_previous_month": {
+      "message": "Bulan sebelumnya"
+   },
+   "date_time_desc": {
+      "message": "Atur hitungan mundur untuk dipicu pada tanggal dan waktu tertentu."
+   },
+   "date_time_mode": {
+      "message": "Mode Tanggal Waktu"
+   },
+   "date_time_target": {
+      "message": "Tanggal dan Waktu Target"
+   },
+   "day_abbr_fri": {
+      "message": "Jum"
+   },
+   "day_abbr_mon": {
+      "message": "Sen"
+   },
+   "day_abbr_sat": {
+      "message": "Sab"
+   },
+   "day_abbr_sun": {
+      "message": "Min"
+   },
+   "day_abbr_thu": {
+      "message": "Kam"
+   },
+   "day_abbr_tue": {
+      "message": "Sel"
+   },
+   "day_abbr_wed": {
+      "message": "Rab"
+   },
+   "decrease_aria": {
+      "message": "Kurangi"
+   },
+   "default_help_description": {
+      "message": "Anda juga dapat mengonfigurasi '%1' dalam Pengaturan Umum untuk menerapkannya di semua situs web."
+   },
+   "default_interval": {
+      "message": "Interval Waktu Default"
+   },
+   "delay_before_scanning": {
+      "message": "Penundaan sebelum pemindaian"
+   },
+   "detect_any_change": {
+      "message": "Auto Refresh Plus telah mendeteksi perubahan di situs web ini."
+   },
+   "detect_any_change_title": {
+      "message": "Monitor Halaman"
+   },
+   "detect_captcha_on_page": {
+      "message": "Deteksi Captcha di Halaman"
+   },
+   "detect_error_on_page": {
+      "message": "Deteksi Halaman Kesalahan (mis., 404)"
+   },
+   "detection_behavior": {
+      "message": "Perilaku Deteksi"
+   },
+   "developer_mode_msg": {
+      "message": "Untuk alasan keamanan dan stabilitas, mode pengembang tidak diperbolehkan.\u003Cbr> Harap unduh dan instal ekstensi dari toko resmi untuk memastikan Anda memiliki versi terbaru dan paling aman"
+   },
+   "dismiss": {
+      "message": "Hapus"
+   },
+   "dismiss_alert": {
+      "message": "Abaikan peringatan"
+   },
+   "donation_msg2": {
+      "message": "Saya sudah melakukannya."
+   },
+   "download_in_store": {
+      "message": "Instal Dari Webstore"
+   },
+   "duplicates": {
+      "message": "Duplikat"
+   },
+   "duration_desc": {
+      "message": "Atur hitungan mundur menggunakan jam, menit, dan detik."
+   },
+   "duration_help": {
+      "message": "Gunakan tindakan ini untuk mengatur hitungan mundur berdasarkan durasi tertentu dalam jam, menit, dan detik"
+   },
+   "duration_mode": {
+      "message": "Mode Durasi"
+   },
+   "email_alert_help": {
+      "message": "Peringatan email memberitahu Anda saat terjadi perubahan atau acara tertentu. Tambah alamat email untuk mulai menerima pemberitahuan ini"
+   },
+   "email_alerts_switch_desc": {
+      "message": "Kirim email saat monitor terpicu"
+   },
+   "email_daily_limit": {
+      "message": "%1 / %2 batas harian"
+   },
+   "email_disconnect": {
+      "message": "Putuskan"
+   },
+   "email_limit_reached": {
+      "message": "Batas Email Tercapai"
+   },
+   "email_limit_toast_description": {
+      "message": "Anda telah mencapai batas email harian Anda. Upgrade untuk terus mengirim peringatan email."
+   },
+   "email_remaining_count": {
+      "message": "%1 tersisa"
+   },
+   "email_sent_today": {
+      "message": "%1 dikirim hari ini"
+   },
+   "email_usage_count": {
+      "message": "Email dikirim hari ini: %1 / %2"
+   },
+   "emails_remaining": {
+      "message": "email tersisa"
+   },
+   "enable_captcha_detection_help": {
+      "message": "Aktifkan untuk mendeteksi ketika tantangan captcha muncul."
+   },
+   "enable_error_detection_help": {
+      "message": "Aktifkan untuk mendeteksi halaman yang gagal atau rusak."
+   },
+   "enter_custom_interval": {
+      "message": "Masukkan interval khusus Anda dalam detik."
+   },
+   "enter_time_duration": {
+      "message": "Masukkan Durasi Waktu"
+   },
+   "error_page_detection": {
+      "message": "Deteksi Halaman Kesalahan"
+   },
+   "error_save_preferences": {
+      "message": "Gagal menyimpan preferensi. Silakan coba lagi."
+   },
+   "error_schedule_one_day": {
+      "message": "Anda harus memilih setidaknya satu hari."
+   },
+   "error_stop_time": {
+      "message": "Waktu henti harus lebih lambat dari waktu mulai."
+   },
+   "example": {
+      "message": "Contoh"
+   },
+   "expression_templates": {
+      "message": "Templat Ekspresi"
+   },
+   "ext_action_failed": {
+      "message": "Tindakan gagal"
+   },
+   "ext_applying": {
+      "message": "Menerapkan..."
+   },
+   "ext_approve_action": {
+      "message": "menyetujui"
+   },
+   "ext_approve_apply": {
+      "message": "Setujui & Terapkan"
+   },
+   "ext_auto_generated": {
+      "message": "(dibuat otomatis)"
+   },
+   "ext_blacklist": {
+      "message": "Daftar hitam"
+   },
+   "ext_changes_merged": {
+      "message": "Perubahan yang akan digabung ke opsi lokal."
+   },
+   "ext_code": {
+      "message": "Kode"
+   },
+   "ext_completed": {
+      "message": "Selesai"
+   },
+   "ext_configuration_review": {
+      "message": "Tinjauan konfigurasi"
+   },
+   "ext_created": {
+      "message": "Dibuat"
+   },
+   "ext_current": {
+      "message": "Saat ini"
+   },
+   "ext_custom_script": {
+      "message": "Skrip kustom"
+   },
+   "ext_custom_script_add_new": {
+      "message": "Skrip kustom (Tambah baru)"
+   },
+   "ext_custom_script_add_only": {
+      "message": "Operasi ini hanya menambahkan skrip baru dan tidak pernah menimpa skrip yang ada secara diam-diam."
+   },
+   "ext_domain_config": {
+      "message": "Konfig. domain"
+   },
+   "ext_domain_configuration": {
+      "message": "Konfigurasi domain"
+   },
+   "ext_empty": {
+      "message": "(kosong)"
+   },
+   "ext_enabled": {
+      "message": "Diaktifkan"
+   },
+   "ext_error_action": {
+      "message": "Gagal %1 permintaan."
+   },
+   "ext_error_storage": {
+      "message": "Gagal membaca tinjauan tertunda dari penyimpanan ekstensi."
+   },
+   "ext_error_sync": {
+      "message": "Gagal %1 permintaan karena kesalahan sinkronisasi penyimpanan."
+   },
+   "ext_execution_timing": {
+      "message": "Waktu eksekusi"
+   },
+   "ext_expires": {
+      "message": "Kadaluarsa"
+   },
+   "ext_extension_wide_settings": {
+      "message": "Pengaturan ekstensi"
+   },
+   "ext_field": {
+      "message": "Bidang"
+   },
+   "ext_global_options": {
+      "message": "Opsi global"
+   },
+   "ext_global_options_changes": {
+      "message": "Perubahan opsi global"
+   },
+   "ext_id": {
+      "message": "ID"
+   },
+   "ext_injection_type": {
+      "message": "Tipe injeksi"
+   },
+   "ext_name": {
+      "message": "Nama"
+   },
+   "ext_new": {
+      "message": "Baru"
+   },
+   "ext_new_script_injection": {
+      "message": "Injeksi skrip baru"
+   },
+   "ext_no_changes_detected": {
+      "message": "Tidak ada perubahan efektif yang terdeteksi."
+   },
+   "ext_no_pending_description": {
+      "message": "Tidak ada perubahan tertunda untuk ditinjau. Halaman ini akan muncul ketika sumber eksternal meminta pembaruan konfigurasi."
+   },
+   "ext_no_pending_request": {
+      "message": "Tidak ada permintaan tertunda"
+   },
+   "ext_proposed_changes": {
+      "message": "Perubahan yang diusulkan"
+   },
+   "ext_refresh": {
+      "message": "Segarkan"
+   },
+   "ext_reject": {
+      "message": "Tolak"
+   },
+   "ext_reject_action": {
+      "message": "menolak"
+   },
+   "ext_rejecting": {
+      "message": "Menolak..."
+   },
+   "ext_request": {
+      "message": "Permintaan"
+   },
+   "ext_review_description": {
+      "message": "Tinjau perubahan yang diusulkan dan setujui hanya jika sesuai dengan niat Anda. Tidak ada yang diterapkan sampai Anda konfirmasi."
+   },
+   "ext_review_pending_changes": {
+      "message": "Tinjau perubahan tertunda"
+   },
+   "ext_site_specific_rules": {
+      "message": "Aturan spesifik situs"
+   },
+   "ext_source": {
+      "message": "Sumber"
+   },
+   "ext_target": {
+      "message": "Target"
+   },
+   "ext_type": {
+      "message": "Tipe"
+   },
+   "ext_unknown": {
+      "message": "Tidak diketahui"
+   },
+   "ext_url_pattern": {
+      "message": "Pola URL"
+   },
+   "ext_whitelist": {
+      "message": "Daftar putih"
+   },
+   "extension_settings": {
+      "message": "Pengaturan Ekstensi"
+   },
+   "extension_update_dismiss_aria": {
+      "message": "Tutup pemberitahuan pembaruan"
+   },
+   "extension_update_notification_aria": {
+      "message": "Pemberitahuan pembaruan ekstensi"
+   },
+   "extension_updated_to_version": {
+      "message": "Ekstensi diperbarui ke v%1"
+   },
+   "feature_is_premium": {
+      "message": "%1 adalah fitur premium. Upgrade untuk mengakses semua alat premium dan meningkatkan pengalaman Anda."
+   },
+   "find_mtr_msg": {
+      "message": "Temukan Teks Monitor Di"
+   },
+   "follow_all_redirects": {
+      "message": "Ikuti Semua Pengalihan"
+   },
+   "follow_all_redirects_desc": {
+      "message": "Terus menyegarkan bahkan jika halaman dialihkan ke URL berbeda."
+   },
+   "follow_canonical_url": {
+      "message": "Ikuti URL Kanonis"
+   },
+   "follow_canonical_url_desc": {
+      "message": "Gunakan URL kanonis (asli) halaman."
+   },
+   "found": {
+      "message": "Ditemukan"
+   },
+   "frozen_tab_noti_message": {
+      "message": "Browser membekukan tab ini di latar belakang untuk menghemat memori. Penyegaran otomatis akan dilanjutkan saat Anda kembali ke tab ini."
+   },
+   "frozen_tab_noti_title": {
+      "message": "Penyegaran otomatis dijeda"
+   },
+   "full_documentation": {
+      "message": "Dokumentasi Lengkap"
+   },
+   "full_page": {
+      "message": "Penyegaran Halaman Penuh"
+   },
+   "full_page_type_desc": {
+      "message": "Muat ulang seluruh halaman untuk memeriksa perubahan"
+   },
+   "full_page_type_help": {
+      "message": "Penyegaran normal memungkinkan Anda memeriksa perubahan di seluruh halaman, termasuk semua konten dan sumber daya."
+   },
+   "go_premium_full_access": {
+      "message": "Dapatkan Premium – Akses Penuh"
+   },
+   "go_to_top": {
+      "description": "Accessible label for scroll-to-top button",
+      "message": "Ke atas"
+   },
+   "go_top": {
+      "message": "Atas"
+   },
+   "good": {
+      "message": "Bagus"
+   },
+   "grace_period_banner": {
+      "message": "Masa tenggang Anda berakhir pada 1 Juli. Fitur premium akan dinonaktifkan"
+   },
+   "grace_period_consent_body": {
+      "message": "Anda akan kehilangan akses ke fitur Premium. Apakah Anda yakin ingin melanjutkan dengan paket gratis?"
+   },
+   "grace_period_consent_title": {
+      "message": "Lanjutkan tanpa Premium?"
+   },
+   "grace_period_dismiss_aria": {
+      "message": "Tutup pemberitahuan masa tenggang"
+   },
+   "grace_period_expired_data_safe": {
+      "message": "Pengaturan dan data Anda aman dan akan tetap tersimpan."
+   },
+   "grace_period_expired_description": {
+      "message": "Fitur Premium tidak lagi aktif di akun Anda."
+   },
+   "grace_period_expired_disable_button": {
+      "message": "Nonaktifkan fitur Premium"
+   },
+   "grace_period_expired_title": {
+      "message": "Masa tenggang berakhir"
+   },
+   "grace_period_expired_upgrade_button": {
+      "message": "Upgrade ke Premium"
+   },
+   "grace_period_expired_upgrade_hint": {
+      "message": "Anda dapat upgrade kapan saja untuk memulihkan semua fitur Premium."
+   },
+   "grace_period_ok_with_free": {
+      "message": "Lanjutkan dengan gratis"
+   },
+   "grace_period_upgrade_button": {
+      "message": "Pertahankan Premium"
+   },
+   "great": {
+      "message": "Luar Biasa!"
+   },
+   "handle_redirects": {
+      "message": "Kelola pengalihan"
+   },
+   "hard_refresh": {
+      "message": "Segarkan Paksa"
+   },
+   "hard_refresh_desc": {
+      "message": "Lewati cache pada setiap muat ulang"
+   },
+   "hard_refresh_help": {
+      "message": "Muat ulang halaman tanpa mengandalkan data yang di-cache."
+   },
+   "highlight_element": {
+      "message": "Sorot Elemen di Halaman"
+   },
+   "highlight_keyword": {
+      "message": "Sorot Kata Kunci di Halaman"
+   },
+   "highlight_keyword_desc": {
+      "message": "Sorot kata kunci yang cocok"
+   },
+   "highlight_keyword_help": {
+      "message": "Ketika kata kunci terdeteksi, itu akan disoroti secara visual di halaman."
+   },
+   "hotkeys_label": {
+      "message": "Pintasan keyboard"
+   },
+   "hour": {
+      "message": "Jam"
+   },
+   "hours": {
+      "message": "Jam"
+   },
+   "increase_aria": {
+      "message": "Tambah"
+   },
+   "individual_plan": {
+      "message": "paket individu"
+   },
+   "individual_plan_starts_at": {
+      "message": "Paket individu dimulai dari $2.99"
+   },
+   "interaction_help": {
+      "message": "Berhenti otomatis menyegarkan saat pengguna berinteraksi dengan halaman."
+   },
+   "interactions_switch_desc": {
+      "message": "Apa yang terjadi saat Anda menggunakan halaman"
+   },
+   "interactions_title_opt": {
+      "message": "Perilaku Penyegaran pada Interaksi Pengguna"
+   },
+   "interval": {
+      "message": "Interval"
+   },
+   "interval_card_custom_duration": {
+      "message": "durasi kustom"
+   },
+   "interval_card_interval": {
+      "message": "Interval"
+   },
+   "interval_card_random_range": {
+      "message": "rentang acak"
+   },
+   "interval_custom_summary": {
+      "message": "setiap %1j %2m %3d"
+   },
+   "interval_decrease_by": {
+      "message": "Kurangi %1"
+   },
+   "interval_edit_custom_aria": {
+      "message": "Edit interval kustom"
+   },
+   "interval_in_seconds_aria": {
+      "message": "Interval dalam detik"
+   },
+   "interval_increase_by": {
+      "message": "Tambah %1"
+   },
+   "interval_max_sec": {
+      "message": "maks (dtk)"
+   },
+   "interval_max_sec_aria": {
+      "message": "detik maksimum"
+   },
+   "interval_min_sec": {
+      "message": "min (dtk)"
+   },
+   "interval_min_sec_aria": {
+      "message": "detik minimum"
+   },
+   "interval_modes_help": {
+      "message": "Tetap: segarkan setiap N detik. Acak: variasikan interval dalam rentang. Kustom: atur durasi tepat dalam jam/menit/detik."
+   },
+   "interval_preset_minutes": {
+      "message": "%1m"
+   },
+   "interval_preset_seconds": {
+      "message": "%1d"
+   },
+   "interval_random_summary": {
+      "message": "segarkan setiap %1–%2 dtk"
+   },
+   "interval_range_to": {
+      "message": "sampai"
+   },
+   "interval_tab_custom": {
+      "message": "Kustom"
+   },
+   "interval_tab_fixed": {
+      "message": "Tetap"
+   },
+   "interval_tab_random": {
+      "message": "Acak"
+   },
+   "interval_unit_hrs": {
+      "message": "jam"
+   },
+   "interval_unit_min": {
+      "message": "mnt"
+   },
+   "interval_unit_sec": {
+      "message": "dtk"
+   },
+   "interval_unit_seconds_header": {
+      "message": "detik"
+   },
+   "keyword_input_placeholder": {
+      "message": "Masukkan kata kunci, regex, XPath, atau pemilih CSS (pisahkan dengan koma)..."
+   },
+   "keywords_to_monitor": {
+      "message": "Kata Kunci untuk Dipantau"
+   },
+   "kill_notification": {
+      "message": "Matikan Alarm Notifikasi"
+   },
+   "kill_successfully": {
+      "message": "Berhasil dimatikan"
+   },
+   "lang_code": {
+      "message": "id"
+   },
+   "language": {
+      "message": "Bahasa"
+   },
+   "lost": {
+      "message": "Hilang"
+   },
+   "loved": {
+      "message": "Saya Menyukainya!"
+   },
+   "match_html_source_desc": {
+      "message": "Pindai sumber mentah — lebih lambat, gunakan dengan hati-hati"
+   },
+   "match_html_source_label": {
+      "message": "Cocokkan sumber HTML"
+   },
+   "match_visible_text_desc": {
+      "message": "Pindai teks yang dirender di layar"
+   },
+   "match_visible_text_label": {
+      "message": "Cocokkan teks terlihat"
+   },
+   "maximum": {
+      "message": "Maksimum"
+   },
+   "minimum": {
+      "message": "Minimum"
+   },
+   "minute": {
+      "message": "Menit"
+   },
+   "minutes": {
+      "message": "Menit"
+   },
+   "monitor": {
+      "message": "Monitor"
+   },
+   "monitor_area_select": {
+      "message": "Pilih"
+   },
+   "monitor_area_selector_desc": {
+      "message": "Masukkan pemilih CSS atau pilih elemen di halaman."
+   },
+   "monitor_area_switch_desc": {
+      "message": "Batasi pencarian ke satu wilayah"
+   },
+   "monitor_area_switch_label": {
+      "message": "Area pemantauan"
+   },
+   "monitor_custom_area": {
+      "message": "Cari di Area Khusus Halaman"
+   },
+   "monitor_custom_area_help": {
+      "message": "Aktifkan untuk menentukan area khusus halaman untuk pemantauan atau pencarian."
+   },
+   "monitor_full_page": {
+      "message": "Pantau Halaman Penuh"
+   },
+   "monitor_full_page_help": {
+      "message": "Aktifkan untuk memantau perubahan di seluruh halaman web."
+   },
+   "monitor_page_for_any_changes": {
+      "message": "Lacak perubahan halaman apa pun secara otomatis."
+   },
+   "monitored_area": {
+      "message": "Area yang Dipantau"
+   },
+   "monitoring_active": {
+      "message": "Pemantauan aktif"
+   },
+   "monitoring_auto_click_label": {
+      "message": "Klik otomatis saat kata kunci cocok"
+   },
+   "monitoring_engine_advanced": {
+      "message": "Lanjutan"
+   },
+   "monitoring_engine_aria": {
+      "message": "Versi mesin pemantauan"
+   },
+   "monitoring_engine_basic": {
+      "message": "Dasar"
+   },
+   "monitoring_engine_beta": {
+      "message": "beta"
+   },
+   "monitoring_engine_tooltip_desc": {
+      "message": "Bekerja di semua pilihan — Ditemukan, Hilang & Kustom — dengan deteksi lebih cepat dan cerdas."
+   },
+   "monitoring_engine_tooltip_title": {
+      "message": "Inti beta baru"
+   },
+   "monitoring_keyword_input_aria": {
+      "message": "Kata kunci untuk dipantau"
+   },
+   "monitoring_keywords_empty": {
+      "message": "Belum ada kata kunci — tambahkan setidaknya satu untuk mulai memantau."
+   },
+   "monitoring_mode": {
+      "message": "Mode Pemantauan"
+   },
+   "monitoring_mode_custom_info_highlight": {
+      "message": "perubahan apa pun"
+   },
+   "monitoring_mode_custom_info_prefix": {
+      "message": "Mode kustom memberi peringatan saat "
+   },
+   "monitoring_mode_custom_info_suffix": {
+      "message": " terdeteksi di halaman ini — tidak perlu kata kunci."
+   },
+   "monitoring_mode_custom_intro": {
+      "message": "Lacak perubahan halaman apa pun secara otomatis."
+   },
+   "monitoring_mode_custom_short": {
+      "message": "Kustom"
+   },
+   "monitoring_mode_found_desc": {
+      "message": "Dapatkan notifikasi saat kata kunci Anda muncul."
+   },
+   "monitoring_mode_found_short": {
+      "message": "Ditemukan"
+   },
+   "monitoring_mode_help": {
+      "message": "Pilih kapan Auto Refresh Plus harus memberi peringatan"
+   },
+   "monitoring_mode_lost_desc": {
+      "message": "Dapatkan notifikasi saat kata kunci Anda hilang."
+   },
+   "monitoring_mode_lost_short": {
+      "message": "Hilang"
+   },
+   "monitoring_remove_keyword_aria": {
+      "message": "Hapus %1"
+   },
+   "monitoring_tip_banner": {
+      "message": "Butuh lebih banyak aksi? Coba Otomasi Multi-Klik."
+   },
+   "monitoring_tip_label": {
+      "message": "Tips:"
+   },
+   "new_badge": {
+      "message": "Baru"
+   },
+   "no_active_tabs": {
+      "message": "Tidak Ada Tab Aktif"
+   },
+   "no_active_tabs_desc": {
+      "message": "Saat ini tidak ada tab yang dipantau atau disegarkan. Mulai menyegarkan tab untuk melihatnya di sini."
+   },
+   "no_keyword": {
+      "message": "Belum ada kata kunci yang ditambahkan. Tambah kata kunci untuk dipantau."
+   },
+   "no_tabs_refreshing": {
+      "message": "Tidak ada tab yang dimuat ulang"
+   },
+   "no_templates_match": {
+      "message": "Tidak ada templat yang cocok dengan kriteria pencarian Anda."
+   },
+   "normal_expression": {
+      "message": "Ekspresi Normal"
+   },
+   "normal_expression_desc": {
+      "message": "Ini mencari kata kunci di halaman web dan tidak perlu diinisialisasi dengan simbol apa pun. Cukup tekan enter pada setiap kata kunci."
+   },
+   "normal_expression_example_1_desc": {
+      "message": "Mencari teks yang tepat \"In Stock\" di halaman web"
+   },
+   "normal_expression_example_2_desc": {
+      "message": "Mencari beberapa kata kunci, tekan enter setelah setiap kata kunci"
+   },
+   "normal_expression_example_3_desc": {
+      "message": "Mencari tombol \"Add to Cart\" atau teks di halaman"
+   },
+   "not_allowed": {
+      "message": "Anda tidak diizinkan menggunakannya di sini."
+   },
+   "noti_msg": {
+      "message": "Auto Refresh Plus telah %1 teks target Anda."
+   },
+   "noti_msg_title": {
+      "message": "Teks Target!"
+   },
+   "notification_domain_info": {
+      "message": "di %1"
+   },
+   "ok": {
+      "message": "Baik"
+   },
+   "okay": {
+      "message": "Baik"
+   },
+   "open_link_help": {
+      "message": "Membuka tautan yang diklik di tab browser baru."
+   },
+   "open_link_tab": {
+      "message": "Buka Tautan di Tab Baru"
+   },
+   "options": {
+      "message": "Opsi"
+   },
+   "partial_page_desc": {
+      "message": "Pantau hanya permintaan AJAX/XHR"
+   },
+   "pause": {
+      "message": "Jeda"
+   },
+   "pause_on_interact": {
+      "message": "Jeda saat Berinteraksi"
+   },
+   "pause_refreshing": {
+      "message": "Jeda Penyegaran"
+   },
+   "permissions_attention": {
+      "message": "Perhatian"
+   },
+   "permissions_btn_grant": {
+      "message": "Berikan akses situs untuk host dasbor"
+   },
+   "permissions_btn_opening_dialog": {
+      "message": "Membuka dialog izin..."
+   },
+   "permissions_btn_refresh": {
+      "message": "Segarkan status"
+   },
+   "permissions_config_missing_body": {
+      "message": "tidak ditentukan di lingkungan build. Bangun ulang dengan mengatur ke nama host dasbor Anda."
+   },
+   "permissions_config_missing_title": {
+      "message": "Konfigurasi tidak ada"
+   },
+   "permissions_error_denied": {
+      "message": "Izin ditolak. Berikan akses untuk host dasbor agar sinkronisasi dan fitur injeksi berjalan andal."
+   },
+   "permissions_error_dialog": {
+      "message": "Terjadi kesalahan saat membuka dialog izin. Coba lagi atau periksa pengaturan browser."
+   },
+   "permissions_error_read_state": {
+      "message": "Tidak dapat membaca status izin situs. Muat ulang halaman ini atau coba lagi nanti."
+   },
+   "permissions_go_to_options": {
+      "message": "Buka opsi"
+   },
+   "permissions_granted_body": {
+      "message": "Ekstensi ini sudah memiliki izin host yang cocok untuk platform Anda. Anda dapat menutup tab ini."
+   },
+   "permissions_granted_ok": {
+      "message": "OK"
+   },
+   "permissions_granted_title": {
+      "message": "Akses situs diaktifkan"
+   },
+   "permissions_heading_dashboard": {
+      "message": "Izin host dasbor"
+   },
+   "permissions_intro_dashboard": {
+      "message": "Atur apakah ekstensi dapat berjalan di domain dasbor Auto Refresh Plus Anda (skrip konten dan integrasi platform)."
+   },
+   "permissions_label_dashboard_host": {
+      "message": "Host dasbor"
+   },
+   "permissions_revoke_hint": {
+      "message": "Untuk mencabut nanti, hapus situs ini dari daftar akses situs ekstensi di pengaturan browser."
+   },
+   "permissions_subtitle": {
+      "message": "Akses situs platform"
+   },
+   "permissions_warn_body_prefix": {
+      "message": "Berikan akses agar ekstensi dapat menyuntikkan ke dasbor, mencerminkan preferensi, dan menyelaraskan pengalaman dengan ekstensi (pola host sama seperti skrip konten:"
+   },
+   "permissions_warn_body_suffix": {
+      "message": ")."
+   },
+   "permissions_warn_title": {
+      "message": "Akses situs belum diberikan"
+   },
+   "play_alarm_on_captcha_detection": {
+      "message": "Putar Alarm saat Deteksi Captcha"
+   },
+   "play_alarm_on_captcha_detection_help": {
+      "message": "Putar peringatan suara ketika captcha terdeteksi."
+   },
+   "play_alarm_on_error_detection": {
+      "message": "Putar Alarm saat Deteksi Kesalahan"
+   },
+   "play_alarm_on_error_detection_help": {
+      "message": "Putar peringatan suara ketika halaman kesalahan terdeteksi."
+   },
+   "please_add_email_first": {
+      "message": "Silakan tambah email terlebih dahulu."
+   },
+   "please_add_webhooks_first": {
+      "message": "Silakan tambah webhook terlebih dahulu."
+   },
+   "please_rateus": {
+      "message": "Silakan Beri Kami Rating"
+   },
+   "popup_on_keyword_found": {
+      "message": "Peringatan saat Kata Kunci Ditemukan"
+   },
+   "popup_on_keyword_lost": {
+      "message": "Peringatan saat Kata Kunci Hilang"
+   },
+   "predefined_interval": {
+      "message": "Interval Predefenisi"
+   },
+   "predefined_interval_desc": {
+      "message": "Gunakan nilai waktu preset atau default"
+   },
+   "premium_benefits": {
+      "message": "Manfaat premium:"
+   },
+   "premium_device_sync": {
+      "message": "Kelola hingga 3 perangkat"
+   },
+   "premium_full_access": {
+      "message": "Semua Fitur Premium"
+   },
+   "premium_priority_support": {
+      "message": "Profil pengaturan berbeda"
+   },
+   "premium_tag_aria": {
+      "message": "Fitur Premium: %1. Buka pengumuman."
+   },
+   "premium_tag_default_feature": {
+      "message": "Fitur"
+   },
+   "premium_tag_tooltip_click": {
+      "message": "Klik untuk detail"
+   },
+   "premium_usage_body": {
+      "message": "Fitur premium aktif di paket gratis."
+   },
+   "premium_usage_dismiss": {
+      "message": "Tutup notifikasi"
+   },
+   "premium_usage_status_label": {
+      "message": "Fitur premium sedang digunakan"
+   },
+   "preset_interval": {
+      "message": "Interval Preset"
+   },
+   "pricing": {
+      "message": "Harga"
+   },
+   "pro_announcement_body": {
+      "message": "Auto Refresh Plus secara bertahap memperkenalkan PRO untuk mendukung pengembangan jangka panjang, fitur lanjutan, sinkronisasi cloud, pemantauan yang lebih cerdas, dan pengelolaan multi-perangkat, sambil menjaga fitur refresh inti gratis bagi semua pengguna."
+   },
+   "pro_announcement_close_aria": {
+      "message": "Tutup dialog"
+   },
+   "pro_announcement_days_label": {
+      "message": "hari"
+   },
+   "pro_announcement_days_remaining_aria": {
+      "message": "Tersisa %1 hari"
+   },
+   "pro_announcement_fresh_install_body": {
+      "message": "Buka %1 dan pengalaman premium penuh dengan PRO — termasuk alat lanjutan, pemantauan lebih cerdas, sinkron cloud, dan akses multi-perangkat."
+   },
+   "pro_announcement_fresh_install_title_suffix": {
+      "message": "adalah fitur Premium"
+   },
+   "pro_announcement_fresh_install_trial": {
+      "message": "Trial gratis 15 hari"
+   },
+   "pro_announcement_important_badge": {
+      "message": "Penting"
+   },
+   "pro_announcement_important_notice_aria": {
+      "message": "Pemberitahuan penting"
+   },
+   "pro_announcement_moving_to_pro": {
+      "message": "Beralih ke PRO"
+   },
+   "pro_announcement_premium_badge": {
+      "message": "PREMIUM"
+   },
+   "pro_announcement_premium_badge_aria": {
+      "message": "Premium"
+   },
+   "pro_announcement_rollout_date": {
+      "message": "1 Juni"
+   },
+   "pro_announcement_rollout_intro": {
+      "message": "Peluncuran dimulai dari"
+   },
+   "pro_announcement_rollout_outro": {
+      "message": "."
+   },
+   "pro_announcement_view_pricing": {
+      "message": "Lihat harga — mulai $2,99/bulan"
+   },
+   "random_interval": {
+      "message": "Interval Acak"
+   },
+   "random_interval_desc": {
+      "message": "Penyegaran acak antara min-maks"
+   },
+   "random_interval_help": {
+      "message": "Dengan pengaturan saat ini, halaman akan menyegarkan secara acak setiap %1 hingga %2 detik."
+   },
+   "random_time_interval": {
+      "message": "Rentang Penyegaran Acak"
+   },
+   "rate_us": {
+      "message": "Beri Kami Rating"
+   },
+   "rateus_title": {
+      "message": "Beri Rating Ekstensi Ini"
+   },
+   "ready_expressions_load_error": {
+      "message": "Tidak dapat memuat templat. Silakan coba lagi nanti."
+   },
+   "real_time_detection_during_refresh": {
+      "message": "Deteksi Waktu Nyata"
+   },
+   "real_time_detection_switch_desc": {
+      "message": "Periksa terus-menerus tanpa muat ulang penuh"
+   },
+   "realtime_help": {
+      "message": "Deteksi perubahan secara terus-menerus selama penyegaran, tidak hanya di akhir interval."
+   },
+   "receive_emails_alerts": {
+      "message": "Terima Peringatan Email"
+   },
+   "receive_webhook_alerts": {
+      "message": "Terima Peringatan Webhook"
+   },
+   "redirection_behavior": {
+      "message": "Perilaku Pengalihan"
+   },
+   "redirection_behavior_desc": {
+      "message": "Kelola pengalihan saat penyegaran"
+   },
+   "redirection_behavior_help": {
+      "message": "Pilih bagaimana Auto Refresh Plus menangani perubahan URL. Anda dapat mengunci domain asli atau mengikuti pengalihan."
+   },
+   "refresh_cycles_completed": {
+      "message": "Siklus refresh selesai"
+   },
+   "refresh_interval_mode": {
+      "message": "Mode Interval Penyegaran"
+   },
+   "refresh_limit": {
+      "message": "Batas penyegaran"
+   },
+   "refresh_limit_times": {
+      "message": "kali"
+   },
+   "refresh_number": {
+      "message": "Atur Nomor Penyegaran"
+   },
+   "refresh_number_desc": {
+      "message": "Berhenti setelah jumlah tetap"
+   },
+   "refresh_number_help": {
+      "message": "Atur berapa kali Anda ingin menyegarkan halaman."
+   },
+   "refresh_position_hint_body": {
+      "message": "Anda dapat mengubah tombol refresh dan pengaturan UI lainnya dari menu ini."
+   },
+   "refresh_position_hint_understand": {
+      "message": "Saya mengerti"
+   },
+   "refresh_top_pause": {
+      "message": "Jeda"
+   },
+   "refresh_top_resume": {
+      "message": "Lanjut"
+   },
+   "refresh_top_start": {
+      "message": "Mulai"
+   },
+   "refresh_top_stop": {
+      "message": "Stop"
+   },
+   "refresh_type": {
+      "message": "Jenis Penyegaran"
+   },
+   "refresh_type_help": {
+      "message": "Bagaimana halaman dimuat ulang sebelum setiap pemindaian. Halaman Penuh memuat ulang seluruh URL seperti menekan refresh — andal tetapi lebih berat. XHR hanya menembakkan permintaan AJAX/XHR latar belakang (tanpa muat ulang penuh) — lebih cepat dan ringan, ideal untuk halaman dinamis yang memperbarui konten tanpa memuat ulang."
+   },
+   "regex": {
+      "message": "Regex"
+   },
+   "regex_expression": {
+      "message": "Ekspresi Regex"
+   },
+   "regex_expression_desc": {
+      "message": "Auto Refresh Plus juga mendukung ekspresi Regex dan harus diinisialisasi dengan simbol $ diikuti dengan ekspresi regex."
+   },
+   "regex_expression_example_1_desc": {
+      "message": "Cocok dengan \"product\" diikuti oleh satu atau lebih digit (product1, product42, dll.)"
+   },
+   "regex_expression_example_2_desc": {
+      "message": "Cocok dengan \"in stock\" peka huruf besar-kecil menggunakan bendera regex"
+   },
+   "regex_expression_example_3_desc": {
+      "message": "Cocok dengan format harga seperti \"$19.99\", \"$299.00\", dll."
+   },
+   "remove_email": {
+      "message": "Hapus Email"
+   },
+   "restart": {
+      "message": "Mulai Ulang"
+   },
+   "restart_wait_seconds_desc": {
+      "message": "Atur jumlah detik untuk ditunggu sebelum penyegaran dimulai lagi"
+   },
+   "resume": {
+      "message": "Lanjutkan"
+   },
+   "resume_refreshing": {
+      "message": "Lanjutkan Penyegaran"
+   },
+   "save": {
+      "message": "Simpan"
+   },
+   "scan_method_title": {
+      "message": "Metode pemindaian"
+   },
+   "sch_description": {
+      "message": "Berjalan otomatis pada waktu dan hari yang dipilih."
+   },
+   "schedule_add": {
+      "message": "Tambah jadwal"
+   },
+   "schedule_auto_disable_aria": {
+      "message": "Nonaktif otomatis"
+   },
+   "schedule_auto_stop_aria": {
+      "message": "Berhenti otomatis"
+   },
+   "schedule_delete_aria": {
+      "message": "Hapus jadwal"
+   },
+   "schedule_disconnected": {
+      "message": "Jadwal telah diputuskan"
+   },
+   "schedule_edit_aria": {
+      "message": "Edit jadwal"
+   },
+   "schedule_enable_aria": {
+      "message": "Aktifkan jadwal"
+   },
+   "schedule_help": {
+      "message": "Jadwal memungkinkan refresh otomatis pada waktu dan hari tertentu. Setiap jadwal dapat memiliki waktu mulai, hari kerja yang dipilih, berhenti otomatis, dan nonaktif otomatis."
+   },
+   "schedule_options_label": {
+      "message": "opsi"
+   },
+   "schedule_select_days": {
+      "message": "pilih hari"
+   },
+   "schedule_start_time_label": {
+      "message": "waktu mulai"
+   },
+   "schedules": {
+      "message": "Jadwal"
+   },
+   "schedules_active_count": {
+      "message": "%1 aktif"
+   },
+   "schedules_empty": {
+      "message": "Belum ada jadwal"
+   },
+   "search_templates": {
+      "message": "Cari templat..."
+   },
+   "seconds": {
+      "message": "Detik"
+   },
+   "select_area": {
+      "message": "Pilih Area"
+   },
+   "select_area_desc": {
+      "message": "Masukkan pemilih CSS untuk membatasi area pencarian"
+   },
+   "select_css_selector": {
+      "message": "Pilih elemen untuk mengatur pemilih area"
+   },
+   "select_date_time": {
+      "message": "Pilih tanggal & waktu"
+   },
+   "select_days": {
+      "message": "Pilih hari"
+   },
+   "select_element": {
+      "message": "Pilih Elemen"
+   },
+   "select_language": {
+      "message": "Pilih bahasa Anda"
+   },
+   "select_time": {
+      "message": "Pilih Waktu"
+   },
+   "session_expired": {
+      "message": "Sesi Anda telah berakhir. Silakan login lagi."
+   },
+   "settings_card_collapse_aria": {
+      "message": "Ciutkan %1"
+   },
+   "settings_card_expand_aria": {
+      "message": "Perluas %1"
+   },
+   "show_tab": {
+      "message": "Tampilkan Tab"
+   },
+   "signup_requirement_body": {
+      "message": "Akun akan segera diperlukan untuk melanjutkan."
+   },
+   "signup_requirement_countdown_days": {
+      "message": "Tersisa %1 hari menuju wajib akun"
+   },
+   "signup_requirement_countdown_one_day": {
+      "message": "Tersisa 1 hari menuju wajib akun"
+   },
+   "signup_requirement_days_abbr": {
+      "message": "hari"
+   },
+   "signup_requirement_dismiss": {
+      "message": "Tutup pemberitahuan"
+   },
+   "signup_requirement_sign_up": {
+      "message": "Daftar gratis →"
+   },
+   "signup_requirement_status_label": {
+      "message": "Pemberitahuan wajib akun"
+   },
+   "skip_repeated_keyword": {
+      "message": "Lewati Kata Kunci Berulang"
+   },
+   "skip_repeated_keyword_desc": {
+      "message": "Abaikan kata kunci yang sudah terdeteksi"
+   },
+   "skip_repeated_keyword_help": {
+      "message": "Abaikan kata kunci yang sudah terdeteksi pada penyegaran berikutnya."
+   },
+   "slave_device_alert_body": {
+      "message": "Ekstensi ini dikonfigurasi sebagai perangkat sekunder tertaut. Setelan dan kontrol penyegaran dapat mengikuti perangkat utama Anda."
+   },
+   "slave_device_alert_dismiss": {
+      "message": "Tutup notifikasi"
+   },
+   "slave_device_alert_read_more": {
+      "message": "Baca selengkapnya"
+   },
+   "slave_device_alert_status_label": {
+      "message": "Perangkat sekunder"
+   },
+   "slave_message_alert": {
+      "message": "Anda tidak dapat mengubah opsi ini karena Anda adalah pengguna slave."
+   },
+   "source_find_text": {
+      "message": "Sumber (Sumber HTML)"
+   },
+   "source_find_text_caution": {
+      "message": "Opsi ini terutama ditujukan untuk pengembang. Memindai sumber HTML mentah dapat cocok dengan markup tersembunyi atau tidak terlihat, yang sering menyebabkan positif palsu. Lebih lambat dan tidak disarankan untuk pemantauan sehari-hari — aktifkan hanya ketika pencocokan teks yang terlihat tidak cukup."
+   },
+   "source_find_text_help": {
+      "message": "Mengekstrak teks langsung dari kode sumber HTML. Mungkin termasuk konten tersembunyi atau dinamis."
+   },
+   "start_countdown": {
+      "message": "Mulai Hitungan Mundur"
+   },
+   "start_msg": {
+      "message": "Mulai"
+   },
+   "start_refreshing": {
+      "message": "Mulai Penyegaran"
+   },
+   "start_time": {
+      "message": "Waktu Mulai"
+   },
+   "stop": {
+      "message": "Berhenti"
+   },
+   "stop_countdown": {
+      "message": "Hentikan Hitungan Mundur"
+   },
+   "stop_refreshing": {
+      "message": "Hentikan Penyegaran"
+   },
+   "stop_time": {
+      "message": "Waktu Berhenti"
+   },
+   "subscription": {
+      "message": "Langganan"
+   },
+   "success": {
+      "message": "Pengaturan Disimpan Dengan Sukses"
+   },
+   "support_ticket": {
+      "message": "Tiket Dukungan"
+   },
+   "supported_expressions": {
+      "message": "Ekspresi yang Didukung"
+   },
+   "supported_expressions_msg_monitor": {
+      "message": "Ekspresi yang didukung untuk pemantauan halaman"
+   },
+   "syntax_css_desc": {
+      "message": "Targetkan elemen dengan selektor CSS standar — berdasarkan id, kelas, atribut, atau hierarki."
+   },
+   "syntax_css_ex1_desc": {
+      "message": "Memilih elemen dengan id \"price\""
+   },
+   "syntax_css_ex1_title": {
+      "message": "Berdasarkan id"
+   },
+   "syntax_css_ex2_desc": {
+      "message": "Memilih elemen dengan kelas \"stock-status\""
+   },
+   "syntax_css_ex2_title": {
+      "message": "Berdasarkan kelas"
+   },
+   "syntax_css_ex3_desc": {
+      "message": "Memilih elemen di mana data-testid adalah \"add-to-cart\""
+   },
+   "syntax_css_ex3_title": {
+      "message": "Berdasarkan atribut"
+   },
+   "syntax_css_title": {
+      "message": "Selektor CSS"
+   },
+   "syntax_custom_desc": {
+      "message": "Dimulai dengan ## dan menggabungkan kata kunci dengan logika Boolean AND / OR / NOT."
+   },
+   "syntax_custom_ex1_desc": {
+      "message": "Picu hanya saat \"In Stock\" dan \"Add to Cart\" muncul"
+   },
+   "syntax_custom_ex1_title": {
+      "message": "Kondisi AND"
+   },
+   "syntax_custom_ex2_desc": {
+      "message": "Picu saat salah satu kata kunci muncul"
+   },
+   "syntax_custom_ex2_title": {
+      "message": "Kondisi OR"
+   },
+   "syntax_custom_ex3_desc": {
+      "message": "Picu saat \"In Stock\" muncul tetapi \"Sold Out\" tidak"
+   },
+   "syntax_custom_ex3_title": {
+      "message": "Kondisi NOT"
+   },
+   "syntax_custom_title": {
+      "message": "Ekspresi kustom"
+   },
+   "syntax_norm_ex1_desc": {
+      "message": "Cocok dengan teks tepat \"In Stock\" di mana pun di halaman"
+   },
+   "syntax_norm_ex1_title": {
+      "message": "In Stock"
+   },
+   "syntax_norm_ex2_desc": {
+      "message": "Beberapa kata kunci — tekan Enter setelah masing-masing"
+   },
+   "syntax_norm_ex2_title": {
+      "message": "Available, Out of Stock"
+   },
+   "syntax_norm_ex3_desc": {
+      "message": "Cocok dengan tombol atau teks \"Add to Cart\" di halaman"
+   },
+   "syntax_norm_ex3_title": {
+      "message": "Add to Cart"
+   },
+   "syntax_regex_desc": {
+      "message": "Dibungkus garis miring /.../ untuk mencocokkan pola teks. Berguna untuk harga, SKU, dan pencocokan fleksibel."
+   },
+   "syntax_regex_ex1_desc": {
+      "message": "Cocok dengan jumlah dolar seperti $19.99 atau $1,299.00"
+   },
+   "syntax_regex_ex1_title": {
+      "message": "Pencocokan harga"
+   },
+   "syntax_regex_ex2_desc": {
+      "message": "Cocok dengan \"In Stock\" atau \"in stock\" (tidak peka huruf besar/kecil)"
+   },
+   "syntax_regex_ex2_title": {
+      "message": "Status stok"
+   },
+   "syntax_regex_ex3_desc": {
+      "message": "Cocok dengan SKU produk seperti SKU-12345"
+   },
+   "syntax_regex_ex3_title": {
+      "message": "Kode SKU"
+   },
+   "syntax_regex_title": {
+      "message": "Ekspresi reguler"
+   },
+   "syntax_text_matching_desc": {
+      "message": "Mencari kata kunci biasa di halaman web. Tanpa simbol — tekan Enter setelah setiap kata kunci."
+   },
+   "syntax_text_matching_title": {
+      "message": "Pencocokan teks"
+   },
+   "syntax_xpath_desc": {
+      "message": "Dimulai dengan // untuk menargetkan elemen berdasarkan posisi dalam struktur HTML."
+   },
+   "syntax_xpath_ex1_desc": {
+      "message": "Memilih elemen apa pun dengan kelas \"price\""
+   },
+   "syntax_xpath_ex1_title": {
+      "message": "Berdasarkan kelas"
+   },
+   "syntax_xpath_ex2_desc": {
+      "message": "Memilih tombol dengan teks \"Add to Cart\""
+   },
+   "syntax_xpath_ex2_title": {
+      "message": "Tombol berdasarkan teks"
+   },
+   "syntax_xpath_ex3_desc": {
+      "message": "Memilih elemen dengan id \"availability\""
+   },
+   "syntax_xpath_ex3_title": {
+      "message": "Berdasarkan id"
+   },
+   "syntax_xpath_title": {
+      "message": "Ekspresi XPath"
+   },
+   "tabs": {
+      "message": "Tab"
+   },
+   "tabs_alerts": {
+      "message": "Tab dengan Peringatan"
+   },
+   "tabs_refreshing": {
+      "message": "Tab Aktif Menyegarkan"
+   },
+   "template_add_to_cart_button": {
+      "message": "Tombol Tambah ke keranjang"
+   },
+   "template_add_to_cart_button_desc": {
+      "message": "Cocokkan tombol keranjang via test id"
+   },
+   "template_any_stock_term": {
+      "message": "Istilah stok apa pun"
+   },
+   "template_any_stock_term_desc": {
+      "message": "Picu pada salah satu kata kunci stok"
+   },
+   "template_buy_button": {
+      "message": "Tombol Beli"
+   },
+   "template_buy_button_desc": {
+      "message": "Temukan tombol beli atau pembelian"
+   },
+   "template_email_address": {
+      "message": "Alamat Email"
+   },
+   "template_email_address_desc": {
+      "message": "Cocok dengan alamat email"
+   },
+   "template_expression_description": {
+      "message": "Ekspresi templat untuk pemantauan halaman"
+   },
+   "template_in_stock_buyable": {
+      "message": "Tersedia & dapat dibeli"
+   },
+   "template_in_stock_buyable_desc": {
+      "message": "Peringatan hanya saat tersedia DAN dapat dibeli"
+   },
+   "template_in_stock_not_sold_out": {
+      "message": "Tersedia, tidak habis"
+   },
+   "template_in_stock_not_sold_out_desc": {
+      "message": "Tersedia tanpa teks habis terjual"
+   },
+   "template_input_field_value": {
+      "message": "Nilai Bidang Input"
+   },
+   "template_input_field_value_desc": {
+      "message": "Temukan input dengan nilai pencarian"
+   },
+   "template_phone_number": {
+      "message": "Nomor Telepon"
+   },
+   "template_phone_number_desc": {
+      "message": "Cocok dengan format (123) 456-7890"
+   },
+   "template_price_changes": {
+      "message": "Perubahan Harga"
+   },
+   "template_price_changes_desc": {
+      "message": "Pantau kata kunci terkait harga"
+   },
+   "template_price_detector": {
+      "message": "Detektor harga"
+   },
+   "template_price_detector_desc": {
+      "message": "Cocok dengan harga dolar seperti $19.99"
+   },
+   "template_price_element": {
+      "message": "Elemen Harga"
+   },
+   "template_price_element_desc": {
+      "message": "Temukan elemen dengan kelas harga"
+   },
+   "template_price_format": {
+      "message": "Format Harga"
+   },
+   "template_price_format_desc": {
+      "message": "Cocok dengan harga seperti $19.99"
+   },
+   "template_product_availability": {
+      "message": "Ketersediaan Produk"
+   },
+   "template_product_availability_desc": {
+      "message": "Pantau status ketersediaan produk"
+   },
+   "template_product_id_pattern": {
+      "message": "Pola ID Produk"
+   },
+   "template_product_id_pattern_desc": {
+      "message": "Cocok dengan ID produk seperti product-123"
+   },
+   "template_product_status": {
+      "message": "Status Produk"
+   },
+   "template_product_status_desc": {
+      "message": "Produk baru atau edisi terbatas"
+   },
+   "template_restock_alert": {
+      "message": "Peringatan restok"
+   },
+   "template_restock_alert_desc": {
+      "message": "Tangkap momen saat item kembali"
+   },
+   "template_shipping_options": {
+      "message": "Opsi Pengiriman"
+   },
+   "template_shipping_options_desc": {
+      "message": "Opsi pengiriman cepat tersedia"
+   },
+   "template_shopping_actions": {
+      "message": "Tindakan Belanja"
+   },
+   "template_shopping_actions_desc": {
+      "message": "Lacak ketersediaan tombol belanja"
+   },
+   "template_stock_and_price": {
+      "message": "Stok DAN Harga"
+   },
+   "template_stock_and_price_desc": {
+      "message": "Item di stok DAN sedang dijual"
+   },
+   "template_stock_status_element": {
+      "message": "Elemen status stok"
+   },
+   "template_stock_status_element_desc": {
+      "message": "Targetkan elemen berdasarkan kelasnya"
+   },
+   "template_stock_status_text": {
+      "message": "Teks Status Stok"
+   },
+   "template_stock_status_text_desc": {
+      "message": "Temukan teks yang berisi \"In Stock\""
+   },
+   "template_ticket_availability": {
+      "message": "Ketersediaan tiket"
+   },
+   "template_ticket_availability_desc": {
+      "message": "Pantau saat tiket mulai dijual"
+   },
+   "templates": {
+      "message": "Templat"
+   },
+   "templates_add_to_keywords": {
+      "message": "Tambahkan ke kata kunci"
+   },
+   "templates_ai_aria": {
+      "message": "Generator ekspresi AI"
+   },
+   "templates_ai_label": {
+      "message": "AI"
+   },
+   "templates_back_to_templates": {
+      "message": "Kembali ke templat"
+   },
+   "templates_close_aria": {
+      "message": "Tutup dialog"
+   },
+   "templates_copy_aria": {
+      "message": "Salin ekspresi %1"
+   },
+   "templates_header_templates_aria": {
+      "message": "Kembali ke templat"
+   },
+   "templates_ready_made": {
+      "message": "Siap pakai"
+   },
+   "templates_syntax_aria": {
+      "message": "Bantuan sintaks"
+   },
+   "templates_syntax_button": {
+      "message": "Sintaks"
+   },
+   "templates_tooltip": {
+      "message": "Jelajahi templat pemantauan siap pakai"
+   },
+   "templates_type_css": {
+      "message": "CSS"
+   },
+   "templates_type_custom": {
+      "message": "Kustom"
+   },
+   "templates_type_normal": {
+      "message": "Normal"
+   },
+   "templates_type_regex": {
+      "message": "Regex"
+   },
+   "templates_type_xpath": {
+      "message": "XPath"
+   },
+   "text": {
+      "message": "Teks"
+   },
+   "thankyou_msg": {
+      "message": "Terima kasih atas umpan balik Anda"
+   },
+   "this_is_not_valid_css_selector": {
+      "message": "Ini bukan pemilih CSS yang valid."
+   },
+   "thnakyou_desc": {
+      "message": "Umpan balik Anda membantu kami meningkat"
+   },
+   "time": {
+      "message": "Waktu"
+   },
+   "time_has_passed": {
+      "message": "Waktu telah berlalu"
+   },
+   "time_is_invalid": {
+      "message": "Waktu yang dipilih tidak valid"
+   },
+   "timer": {
+      "message": "Pengatur Waktu"
+   },
+   "timer_position": {
+      "message": "Posisi Pengatur Waktu"
+   },
+   "timer_position_bottom_left": {
+      "message": "Kiri bawah"
+   },
+   "timer_position_bottom_right": {
+      "message": "Kanan bawah"
+   },
+   "timer_position_center": {
+      "message": "Tengah"
+   },
+   "timer_position_top_left": {
+      "message": "Kiri atas"
+   },
+   "timer_position_top_right": {
+      "message": "Kanan atas"
+   },
+   "upgrade": {
+      "message": "Upgrade"
+   },
+   "use_default": {
+      "message": "Gunakan Kata Kunci Standar"
+   },
+   "user_menu_account_aria": {
+      "message": "Menu akun"
+   },
+   "user_menu_avatar_alt": {
+      "message": "Avatar pengguna"
+   },
+   "user_menu_classic_view": {
+      "message": "Classic"
+   },
+   "user_menu_classic_view_aria": {
+      "message": "Tampilan Classic"
+   },
+   "user_menu_command_view": {
+      "message": "Command"
+   },
+   "user_menu_command_view_aria": {
+      "message": "Tampilan Command"
+   },
+   "user_menu_focus_mode": {
+      "message": "Mode fokus"
+   },
+   "user_menu_focus_mode_aria": {
+      "message": "Alihkan mode fokus"
+   },
+   "user_menu_focus_mode_tooltip": {
+      "message": "Sembunyikan elemen UI tambahan"
+   },
+   "user_menu_refresh_position": {
+      "message": "Tombol di atas"
+   },
+   "user_menu_refresh_position_aria": {
+      "message": "Tampilkan tombol segarkan di atas"
+   },
+   "user_menu_refresh_position_tooltip": {
+      "message": "Tampilkan tombol segarkan di header"
+   },
+   "user_menu_theme_dark_aria": {
+      "message": "Tema gelap"
+   },
+   "user_menu_theme_light_aria": {
+      "message": "Tema terang"
+   },
+   "user_menu_theme_system_aria": {
+      "message": "Tema sistem"
+   },
+   "user_menu_ui_cosmetics": {
+      "message": "Kosmetik UI"
+   },
+   "user_menu_view": {
+      "message": "Tampilan"
+   },
+   "user_menu_view_aria": {
+      "message": "Pilih mode tampilan"
+   },
+   "view_pricing_plans": {
+      "message": "Lihat Paket Harga"
+   },
+   "visual_find_text": {
+      "message": "Visual (Teks Layar)"
+   },
+   "visual_find_text_help": {
+      "message": "Mengekstrak teks yang terlihat dari layar seperti yang dilihat manusia."
+   },
+   "visual_timer_desc": {
+      "message": "Tampilkan hitung mundur di halaman"
+   },
+   "visual_timer_done": {
+      "message": "selesai"
+   },
+   "visual_timer_help": {
+      "message": "Pengatur waktu visual menampilkan hitungan mundur langsung di halaman web. Ini menunjukkan waktu yang tersisa hingga penyegaran berikutnya dan mencakup kontrol untuk menjeda, melanjutkan, atau mereset pengatur waktu."
+   },
+   "visual_timer_live_monitor": {
+      "message": "Monitor Langsung"
+   },
+   "visual_timer_msg": {
+      "message": "Tampilkan pengatur waktu visual"
+   },
+   "visual_timer_next_refresh_in": {
+      "message": "Penyegaran berikutnya dalam"
+   },
+   "visual_timer_pause_aria": {
+      "message": "Jeda timer"
+   },
+   "visual_timer_paused": {
+      "message": "DIJEDA"
+   },
+   "visual_timer_restart_tooltip": {
+      "message": "Mulai ulang hitung mundur"
+   },
+   "visual_timer_resume_aria": {
+      "message": "Mulai timer"
+   },
+   "visual_timer_running": {
+      "message": "BERJALAN"
+   },
+   "visual_timer_stop_aria": {
+      "message": "Hentikan timer"
+   },
+   "wait_content_load": {
+      "message": "Tunggu Konten Dimuat"
+   },
+   "wait_content_load_desc": {
+      "message": "Tunda pemindaian setelah setiap penyegaran"
+   },
+   "wait_content_load_help": {
+      "message": "Tunggu sebelum deteksi untuk memungkinkan konten dimuat sepenuhnya."
+   },
+   "warning_random_interval": {
+      "message": "Nilai maksimum harus lebih besar dari nilai minimum agar interval acak berfungsi dengan baik."
+   },
+   "webhook_alert_help": {
+      "message": "Webhook memungkinkan Anda mengirim peringatan ke aplikasi atau layanan lain saat perubahan terdeteksi."
+   },
+   "webhook_alerts_switch_desc": {
+      "message": "Kirim payload ke endpoint Anda"
+   },
+   "webhooks": {
+      "message": "Webhook"
+   },
+   "webhooks_tooltip": {
+      "message": "Buka pengaturan webhook untuk peringatan"
+   },
+   "whats_new": {
+      "message": "Apa yang baru"
+   },
+   "whats_new_close_aria": {
+      "message": "Tutup apa yang baru"
+   },
+   "whats_new_latest": {
+      "message": "Terbaru"
+   },
+   "whats_new_load_error": {
+      "message": "Tidak dapat memuat catatan rilis. Silakan coba lagi nanti."
+   },
+   "whats_new_subtitle": {
+      "message": "Catatan rilis Auto Refresh Plus"
+   },
+   "whats_new_thank_you": {
+      "message": "Terima kasih telah menggunakan Auto Refresh Plus"
+   },
+   "window_focus_on_detection": {
+      "message": "Fokus Jendela saat Deteksi Kata Kunci"
+   },
+   "window_focus_on_detection_desc": {
+      "message": "Bawa tab ke depan saat cocok"
+   },
+   "window_focus_on_detection_help": {
+      "message": "Aktifkan fokus jendela saat Page Monitor menemukan atau kehilangan kata kunci. Fitur ini memastikan bahwa jendela secara otomatis datang ke depan layar Anda kapan pun kata kunci yang ditentukan terdeteksi atau hilang."
+   },
+   "without_full": {
+      "message": "Penyegaran XHR"
+   },
+   "xhr_page_help": {
+      "message": "Ambil data dari URL tanpa harus melakukan penyegaran halaman penuh. Ini memungkinkan halaman web untuk memperbarui hanya bagian halaman tanpa mengganggu apa yang dilakukan pengguna."
+   },
+   "xhr_request_autoclick": {
+      "message": "Elemen Klik Otomatis"
+   },
+   "xhr_request_autoclick_desc": {
+      "message": "Klik elemen halaman yang ingin Anda klik otomatis."
+   },
+   "xpath": {
+      "message": "XPath"
+   },
+   "xpath_expression": {
+      "message": "Ekspresi XPath"
+   },
+   "xpath_expression_desc": {
+      "message": "Bahasa Jalur XML menyediakan cara fleksibel untuk menangani berbagai bagian dokumen. Harus diinisialisasi dengan dua simbol @@."
+   },
+   "xpath_expression_example_1_desc": {
+      "message": "Mencari elemen apa pun yang berisi teks \"In Stock\""
+   },
+   "xpath_expression_example_2_desc": {
+      "message": "Mencari elemen input dengan atribut value yang berisi \"Search\""
+   },
+   "xpath_expression_example_3_desc": {
+      "message": "Mencari elemen div dengan kelas \"price\" yang berisi simbol \"$\""
+   },
+   "your_expressions": {
+      "message": "Ekspresi Anda"
+   },
+   "your_expressions_add_new": {
+      "message": "Tambah baru"
+   },
+   "your_expressions_define_placeholder": {
+      "message": "Tentukan ekspresi (mis. Tersedia atau ##Tersedia AND Tambah ke Keranjang)"
+   },
+   "your_expressions_delete_aria": {
+      "message": "Hapus %1"
+   },
+   "your_expressions_edit_aria": {
+      "message": "Edit %1"
+   },
+   "your_expressions_empty": {
+      "message": "Belum ada ekspresi tersimpan. Ketuk \"Tambah baru\" untuk membuatnya."
+   },
+   "your_expressions_name_placeholder": {
+      "message": "Nama ekspresi (mis. Peringatan Restock Saya)"
+   },
+   "your_expressions_yours_badge": {
+      "message": "Milik Anda"
+   }
+}

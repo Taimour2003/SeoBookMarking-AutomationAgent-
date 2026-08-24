@@ -1,0 +1,2186 @@
+{
+   "action_on_detection": {
+      "message": "Действие при обнаружении"
+   },
+   "action_report_bug_feedback": {
+      "message": "Сообщить об ошибке / Отзыв"
+   },
+   "action_stop_refresh": {
+      "message": "Остановить обновление"
+   },
+   "active_tabs_alerts_help": {
+      "message": "Вкладки с сработавшим оповещением монитора. Закройте отдельные оповещения или очистите все."
+   },
+   "active_tabs_alerts_title": {
+      "message": "Оповещения"
+   },
+   "active_tabs_clear_all": {
+      "message": "очистить все"
+   },
+   "active_tabs_paused": {
+      "message": "на паузе"
+   },
+   "active_tabs_refreshing_help": {
+      "message": "Вкладки с автообновлением. Наведите для паузы, перезапуска или остановки."
+   },
+   "active_tabs_refreshing_title": {
+      "message": "Обновление"
+   },
+   "active_tabs_stop_all": {
+      "message": "остановить все"
+   },
+   "active_tabs_time_day_ago": {
+      "message": "%1 день назад"
+   },
+   "active_tabs_time_days_ago": {
+      "message": "%1 дн назад"
+   },
+   "active_tabs_time_hour_ago": {
+      "message": "%1 час назад"
+   },
+   "active_tabs_time_hours_ago": {
+      "message": "%1 ч назад"
+   },
+   "active_tabs_time_just_now": {
+      "message": "Только что"
+   },
+   "active_tabs_time_min_ago": {
+      "message": "%1 мин назад"
+   },
+   "active_tabs_time_sec_ago": {
+      "message": "%1 сек назад"
+   },
+   "add": {
+      "message": "Добавить"
+   },
+   "add_email": {
+      "message": "Добавить адрес электронной почты"
+   },
+   "add_email_tooltip": {
+      "message": "Добавьте email для получения уведомлений"
+   },
+   "add_keywords": {
+      "message": "Добавить целевые ключевые слова по умолчанию"
+   },
+   "add_new": {
+      "message": "Добавить новое"
+   },
+   "added": {
+      "message": "Добавлено"
+   },
+   "alert_settings": {
+      "message": "Параметры оповещения"
+   },
+   "alert_when_any_change_detected": {
+      "message": "Auto Refresh Plus уведомит вас, когда на этой веб-странице будет обнаружено какое-либо изменение"
+   },
+   "alert_when_keyword_appears": {
+      "message": "Получайте уведомление, когда появляется ваше ключевое слово."
+   },
+   "alert_when_keyword_disappears": {
+      "message": "Получайте уведомление, когда ваше ключевое слово исчезает."
+   },
+   "all_days": {
+      "message": "Все дни"
+   },
+   "any": {
+      "message": "Любой"
+   },
+   "app_description": {
+      "description": "The description of extension",
+      "message": "Автоматически обновляйте страницу с помощью мощных функций мониторинга страницы."
+   },
+   "app_name": {
+      "description": "The extension name",
+      "message": "Auto Refresh Plus | Page Monitor"
+   },
+   "appearance": {
+      "message": "Внешний вид"
+   },
+   "apply": {
+      "message": "Применить"
+   },
+   "are_you_sure": {
+      "message": "Вы уверены, что хотите удалить?"
+   },
+   "ast": {
+      "message": "Таймер обратного отсчета"
+   },
+   "auto_click_element_aria": {
+      "message": "Селектор элемента авто-клика"
+   },
+   "auto_click_element_label": {
+      "message": "элемент авто-клика"
+   },
+   "auto_click_help": {
+      "message": "Автоматически щелкайте ссылку, если отслеживаемое ключевое слово содержит ссылку."
+   },
+   "auto_click_targets_desc": {
+      "message": "Кликать по элементам после каждого обновления или при совпадении ключевого слова"
+   },
+   "auto_click_targets_label": {
+      "message": "Цели автоклика"
+   },
+   "auto_clicker": {
+      "message": "Автоматический щелкатель"
+   },
+   "auto_clicker_msg1": {
+      "message": "Автоматический клик по ключевому слову мониторинга"
+   },
+   "auto_disable_on_first": {
+      "message": "Автоматически отключить после первого запуска"
+   },
+   "auto_disable_on_first_desc": {
+      "message": "Отключите это расписание после первого запуска"
+   },
+   "auto_stop_schedule": {
+      "message": "Автоматическая остановка"
+   },
+   "auto_stop_schedule_desc": {
+      "message": "напр., обновление с 10 до 11"
+   },
+   "auto_tasks_add_another": {
+      "message": "Добавить ещё клик"
+   },
+   "auto_tasks_add_element": {
+      "message": "Добавить элемент"
+   },
+   "auto_tasks_empty": {
+      "message": "Элементы ещё не добавлены"
+   },
+   "auto_tasks_help": {
+      "message": "Автоматически нажимает на выбранные элементы страницы."
+   },
+   "auto_tasks_label": {
+      "message": "Клик по дополнительным элементам"
+   },
+   "auto_tasks_new_tab_short": {
+      "message": "Новая вкладка"
+   },
+   "auto_tasks_open_in_new_tab": {
+      "message": "Открыть в новой вкладке, если ссылка"
+   },
+   "auto_tasks_open_new_tab_aria": {
+      "message": "Открыть клик %1 в новой вкладке"
+   },
+   "auto_tasks_options": {
+      "message": "Параметры"
+   },
+   "auto_tasks_pick": {
+      "message": "Выбрать"
+   },
+   "auto_tasks_remove": {
+      "message": "Удалить"
+   },
+   "auto_tasks_remove_target_aria": {
+      "message": "Удалить цель клика %1"
+   },
+   "auto_tasks_selector_aria": {
+      "message": "CSS-селектор для цели клика %1"
+   },
+   "auto_tasks_set_selector": {
+      "message": "Задать селектор…"
+   },
+   "auto_tasks_toggle_target_aria": {
+      "message": "Развернуть/свернуть цель клика %1"
+   },
+   "auto_tasks_trigger": {
+      "message": "Триггер"
+   },
+   "auto_tasks_trigger_each_refresh": {
+      "message": "При каждом обновлении"
+   },
+   "auto_tasks_trigger_on_detection": {
+      "message": "Когда срабатывает оповещение"
+   },
+   "auto_tasks_trigger_on_detection_short": {
+      "message": "При обнаружении"
+   },
+   "auto_tasks_trigger_refresh_short": {
+      "message": "Обновление"
+   },
+   "bad": {
+      "message": "Плохо"
+   },
+   "behavior_on_interaction": {
+      "message": "Поведение при взаимодействии"
+   },
+   "bulk_keywords_results": {
+      "message": "Результаты массовых ключевых слов"
+   },
+   "calendar_weekday_fri": {
+      "message": "Пт"
+   },
+   "calendar_weekday_mon": {
+      "message": "Пн"
+   },
+   "calendar_weekday_sat": {
+      "message": "Сб"
+   },
+   "calendar_weekday_sun": {
+      "message": "Вс"
+   },
+   "calendar_weekday_thu": {
+      "message": "Чт"
+   },
+   "calendar_weekday_tue": {
+      "message": "Вт"
+   },
+   "calendar_weekday_wed": {
+      "message": "Ср"
+   },
+   "cancel": {
+      "message": "Отмена"
+   },
+   "captcha_detection": {
+      "message": "Обнаружение Captcha"
+   },
+   "caution_badge": {
+      "message": "Внимание"
+   },
+   "choose_interval": {
+      "message": "Выберите временной интервал"
+   },
+   "clear": {
+      "message": "Очистить"
+   },
+   "clear_all": {
+      "message": "Очистить все"
+   },
+   "clear_all_keywords": {
+      "message": "Очистить все ключевые слова"
+   },
+   "clear_all_keywords_desc": {
+      "message": "Вы уверены, что хотите очистить все ключевые слова?"
+   },
+   "click_automation_title": {
+      "message": "Автоматизация кликов"
+   },
+   "close": {
+      "message": "Закрыть"
+   },
+   "continue": {
+      "message": "Продолжить"
+   },
+   "continue_refreshing_after_alert": {
+      "message": "Продолжить обновление после уведомления"
+   },
+   "continue_refreshing_help": {
+      "message": "Срабатывайте сигнал при обнаружении ключевого слова, но продолжайте обновление как обычно."
+   },
+   "continue_refreshing_switch_desc": {
+      "message": "Продолжать обновление после срабатывания оповещения"
+   },
+   "copy_expression": {
+      "message": "Копировать выражение"
+   },
+   "copy_to_clipboard": {
+      "message": "Копировать в буфер обмена"
+   },
+   "countdown_decrease_hours": {
+      "message": "Уменьшить часы"
+   },
+   "countdown_decrease_min": {
+      "message": "Уменьшить мин"
+   },
+   "countdown_decrease_sec": {
+      "message": "Уменьшить сек"
+   },
+   "countdown_duration_label": {
+      "message": "длительность отсчёта"
+   },
+   "countdown_fires_after": {
+      "message": "срабатывает через %1"
+   },
+   "countdown_hms_header": {
+      "message": "ч : м : с"
+   },
+   "countdown_hours_value": {
+      "message": "Значение часов"
+   },
+   "countdown_increase_hours": {
+      "message": "Увеличить часы"
+   },
+   "countdown_increase_min": {
+      "message": "Увеличить мин"
+   },
+   "countdown_increase_sec": {
+      "message": "Увеличить сек"
+   },
+   "countdown_min_value": {
+      "message": "Значение минут"
+   },
+   "countdown_sec_value": {
+      "message": "Значение секунд"
+   },
+   "countdown_target_date_time": {
+      "message": "целевые дата и время"
+   },
+   "countdown_timer_modes_help": {
+      "message": "Выберите режим таймера: Длительность отсчитывает часы/минуты/секунды; Дата и время срабатывает один раз в выбранный момент."
+   },
+   "countdown_triggers_once": {
+      "message": "срабатывает один раз в выбранный момент"
+   },
+   "countdown_unit_hours": {
+      "message": "Часы"
+   },
+   "countdown_unit_min": {
+      "message": "Мин"
+   },
+   "countdown_unit_sec": {
+      "message": "Сек"
+   },
+   "css_selector": {
+      "message": "Селектор CSS"
+   },
+   "css_selector_aria": {
+      "message": "CSS-селектор"
+   },
+   "css_selector_placeholder": {
+      "message": "напр., button или a[href=\"/login\"]"
+   },
+   "custom": {
+      "message": "Пользовательский"
+   },
+   "custom_expression": {
+      "message": "Пользовательское выражение"
+   },
+   "custom_expression_desc": {
+      "message": "Инициализируется двумя символами ##, они являются логическими операторами для операторов OR и AND. Должен быть заключен в скобки (всего 4 скобки)."
+   },
+   "custom_expression_example_1_desc": {
+      "message": "Ищет \"В наличии\" ИЛИ \"доступно\" И \"Добавить в корзину\" ИЛИ \"Купить сейчас\""
+   },
+   "custom_expression_example_2_desc": {
+      "message": "Ищет \"Распродажа\" ИЛИ \"скидка\" И \"50%\" ИЛИ \"30%\""
+   },
+   "custom_expression_example_3_desc": {
+      "message": "Булево выражение, использующее операторы ИЛИ (|) и И со скобками"
+   },
+   "custom_interval": {
+      "message": "Пользовательский интервал"
+   },
+   "custom_interval_desc": {
+      "message": "Установите точные часы, минуты и секунды"
+   },
+   "custom_monitor": {
+      "message": "Пользовательский мониторинг"
+   },
+   "custom_time_interval": {
+      "message": "Пользовательский интервал времени"
+   },
+   "date_picker_next_month": {
+      "message": "Следующий месяц"
+   },
+   "date_picker_previous_month": {
+      "message": "Предыдущий месяц"
+   },
+   "date_time_desc": {
+      "message": "Установите обратный отсчет для срабатывания в определенную дату и время."
+   },
+   "date_time_mode": {
+      "message": "Режим даты и времени"
+   },
+   "date_time_target": {
+      "message": "Целевые дата и время"
+   },
+   "day_abbr_fri": {
+      "message": "Пт"
+   },
+   "day_abbr_mon": {
+      "message": "Пн"
+   },
+   "day_abbr_sat": {
+      "message": "Сб"
+   },
+   "day_abbr_sun": {
+      "message": "Вс"
+   },
+   "day_abbr_thu": {
+      "message": "Чт"
+   },
+   "day_abbr_tue": {
+      "message": "Вт"
+   },
+   "day_abbr_wed": {
+      "message": "Ср"
+   },
+   "decrease_aria": {
+      "message": "Уменьшить"
+   },
+   "default_help_description": {
+      "message": "Вы также можете настроить \"%1\" в общих параметрах, чтобы применить это ко всем веб-сайтам."
+   },
+   "default_interval": {
+      "message": "Интервал времени по умолчанию"
+   },
+   "delay_before_scanning": {
+      "message": "Задержка перед сканированием"
+   },
+   "detect_any_change": {
+      "message": "Auto Refresh Plus обнаружил изменение на этом веб-сайте."
+   },
+   "detect_any_change_title": {
+      "message": "Мониторинг страницы"
+   },
+   "detect_captcha_on_page": {
+      "message": "Обнаружить Captcha на странице"
+   },
+   "detect_error_on_page": {
+      "message": "Обнаружить страницы ошибок (например, 404)"
+   },
+   "detection_behavior": {
+      "message": "Поведение обнаружения"
+   },
+   "developer_mode_msg": {
+      "message": "По соображениям безопасности и стабильности режим разработчика не разрешен.\u003Cbr> Пожалуйста, загрузите и установите расширение из официального магазина, чтобы убедиться, что у вас есть последняя и самая безопасная версия"
+   },
+   "dismiss": {
+      "message": "Закрыть"
+   },
+   "dismiss_alert": {
+      "message": "Закрыть оповещение"
+   },
+   "donation_msg2": {
+      "message": "Я уже это сделал."
+   },
+   "download_in_store": {
+      "message": "Установить из веб-магазина"
+   },
+   "duplicates": {
+      "message": "Дубликаты"
+   },
+   "duration_desc": {
+      "message": "Установите обратный отсчет, используя часы, минуты и секунды."
+   },
+   "duration_help": {
+      "message": "Используйте это действие для установки обратного отсчета на основе определенной продолжительности в часах, минутах и секундах"
+   },
+   "duration_mode": {
+      "message": "Режим продолжительности"
+   },
+   "email_alert_help": {
+      "message": "Уведомления по электронной почте информируют вас о том, когда происходят определенные изменения или события. Добавьте адрес электронной почты, чтобы начать получать эти уведомления"
+   },
+   "email_alerts_switch_desc": {
+      "message": "Отправлять email при срабатывании монитора"
+   },
+   "email_daily_limit": {
+      "message": "%1 / %2 дневной лимит"
+   },
+   "email_disconnect": {
+      "message": "Отключить"
+   },
+   "email_limit_reached": {
+      "message": "Достигнут лимит электронной почты"
+   },
+   "email_limit_toast_description": {
+      "message": "Вы достигли дневного лимита электронной почты. Обновитесь, чтобы продолжить отправку уведомлений электронной почты."
+   },
+   "email_remaining_count": {
+      "message": "%1 осталось"
+   },
+   "email_sent_today": {
+      "message": "%1 отправлено сегодня"
+   },
+   "email_usage_count": {
+      "message": "Писем отправлено сегодня: %1 / %2"
+   },
+   "emails_remaining": {
+      "message": "писем осталось"
+   },
+   "enable_captcha_detection_help": {
+      "message": "Включите, чтобы обнаружить, когда появляется задача captcha."
+   },
+   "enable_error_detection_help": {
+      "message": "Включите, чтобы обнаружить неудачные или поврежденные страницы."
+   },
+   "enter_custom_interval": {
+      "message": "Введите пользовательский интервал в секундах."
+   },
+   "enter_time_duration": {
+      "message": "Введите продолжительность времени"
+   },
+   "error_page_detection": {
+      "message": "Обнаружение страницы ошибки"
+   },
+   "error_save_preferences": {
+      "message": "Не удалось сохранить настройки. Попробуйте снова."
+   },
+   "error_schedule_one_day": {
+      "message": "Вы должны выбрать хотя бы один день."
+   },
+   "error_stop_time": {
+      "message": "Время остановки должно быть позже времени начала."
+   },
+   "example": {
+      "message": "Пример"
+   },
+   "expression_templates": {
+      "message": "Шаблоны выражений"
+   },
+   "ext_action_failed": {
+      "message": "Действие не выполнено"
+   },
+   "ext_applying": {
+      "message": "Применение..."
+   },
+   "ext_approve_action": {
+      "message": "одобрить"
+   },
+   "ext_approve_apply": {
+      "message": "Одобрить и применить"
+   },
+   "ext_auto_generated": {
+      "message": "(создано автоматически)"
+   },
+   "ext_blacklist": {
+      "message": "Чёрный список"
+   },
+   "ext_changes_merged": {
+      "message": "Изменения, которые будут объединены с локальными параметрами."
+   },
+   "ext_code": {
+      "message": "Код"
+   },
+   "ext_completed": {
+      "message": "Завершено"
+   },
+   "ext_configuration_review": {
+      "message": "Проверка конфигурации"
+   },
+   "ext_created": {
+      "message": "Создано"
+   },
+   "ext_current": {
+      "message": "Текущее"
+   },
+   "ext_custom_script": {
+      "message": "Пользовательский скрипт"
+   },
+   "ext_custom_script_add_new": {
+      "message": "Пользовательский скрипт (Добавить новый)"
+   },
+   "ext_custom_script_add_only": {
+      "message": "Эта операция только добавляет новый скрипт и никогда не перезаписывает существующие скрипты без уведомления."
+   },
+   "ext_domain_config": {
+      "message": "Конфиг. домена"
+   },
+   "ext_domain_configuration": {
+      "message": "Конфигурация домена"
+   },
+   "ext_empty": {
+      "message": "(пусто)"
+   },
+   "ext_enabled": {
+      "message": "Включено"
+   },
+   "ext_error_action": {
+      "message": "Не удалось %1 запрос."
+   },
+   "ext_error_storage": {
+      "message": "Не удалось прочитать ожидающую проверку из хранилища расширения."
+   },
+   "ext_error_sync": {
+      "message": "Не удалось %1 запрос из-за ошибки синхронизации хранилища."
+   },
+   "ext_execution_timing": {
+      "message": "Время выполнения"
+   },
+   "ext_expires": {
+      "message": "Истекает"
+   },
+   "ext_extension_wide_settings": {
+      "message": "Настройки расширения"
+   },
+   "ext_field": {
+      "message": "Поле"
+   },
+   "ext_global_options": {
+      "message": "Глобальные параметры"
+   },
+   "ext_global_options_changes": {
+      "message": "Изменения глобальных параметров"
+   },
+   "ext_id": {
+      "message": "ID"
+   },
+   "ext_injection_type": {
+      "message": "Тип инъекции"
+   },
+   "ext_name": {
+      "message": "Имя"
+   },
+   "ext_new": {
+      "message": "Новое"
+   },
+   "ext_new_script_injection": {
+      "message": "Новая инъекция скрипта"
+   },
+   "ext_no_changes_detected": {
+      "message": "Эффективные изменения не обнаружены."
+   },
+   "ext_no_pending_description": {
+      "message": "Нет ожидающих изменений для проверки. Эта страница появится, когда внешний источник запросит обновление конфигурации."
+   },
+   "ext_no_pending_request": {
+      "message": "Нет ожидающих запросов"
+   },
+   "ext_proposed_changes": {
+      "message": "Предложенные изменения"
+   },
+   "ext_refresh": {
+      "message": "Обновить"
+   },
+   "ext_reject": {
+      "message": "Отклонить"
+   },
+   "ext_reject_action": {
+      "message": "отклонить"
+   },
+   "ext_rejecting": {
+      "message": "Отклонение..."
+   },
+   "ext_request": {
+      "message": "Запрос"
+   },
+   "ext_review_description": {
+      "message": "Проверьте предложенные изменения и одобрите только если они соответствуют вашим намерениям. Ничего не будет применено до вашего подтверждения."
+   },
+   "ext_review_pending_changes": {
+      "message": "Проверить ожидающие изменения"
+   },
+   "ext_site_specific_rules": {
+      "message": "Правила для сайта"
+   },
+   "ext_source": {
+      "message": "Источник"
+   },
+   "ext_target": {
+      "message": "Цель"
+   },
+   "ext_type": {
+      "message": "Тип"
+   },
+   "ext_unknown": {
+      "message": "Неизвестно"
+   },
+   "ext_url_pattern": {
+      "message": "Шаблон URL"
+   },
+   "ext_whitelist": {
+      "message": "Белый список"
+   },
+   "extension_settings": {
+      "message": "Параметры расширения"
+   },
+   "extension_update_dismiss_aria": {
+      "message": "Закрыть уведомление об обновлении"
+   },
+   "extension_update_notification_aria": {
+      "message": "Уведомление об обновлении расширения"
+   },
+   "extension_updated_to_version": {
+      "message": "Расширение обновлено до v%1"
+   },
+   "feature_is_premium": {
+      "message": "%1 - это функция премиум. Обновитесь, чтобы получить доступ ко всем инструментам премиум и улучшить свой опыт."
+   },
+   "find_mtr_msg": {
+      "message": "Найти текст мониторинга в"
+   },
+   "follow_all_redirects": {
+      "message": "Следить за всеми перенаправлениями"
+   },
+   "follow_all_redirects_desc": {
+      "message": "Продолжайте обновление, даже если страница перенаправляется на другой URL-адрес."
+   },
+   "follow_canonical_url": {
+      "message": "Следить за каноническим URL-адресом"
+   },
+   "follow_canonical_url_desc": {
+      "message": "Используйте канонический (исходный) URL-адрес страницы."
+   },
+   "found": {
+      "message": "Найдено"
+   },
+   "frozen_tab_noti_message": {
+      "message": "Браузер заморозил эту вкладку в фоне для экономии памяти. Автообновление возобновится, когда вы вернётесь на эту вкладку."
+   },
+   "frozen_tab_noti_title": {
+      "message": "Автообновление приостановлено"
+   },
+   "full_documentation": {
+      "message": "Полная документация"
+   },
+   "full_page": {
+      "message": "Полное обновление страницы"
+   },
+   "full_page_type_desc": {
+      "message": "Перезагрузить всю страницу для проверки изменений"
+   },
+   "full_page_type_help": {
+      "message": "Обычное обновление позволяет проверить изменения на всей странице, включая весь контент и ресурсы."
+   },
+   "go_premium_full_access": {
+      "message": "Перейти на премиум - полный доступ"
+   },
+   "go_to_top": {
+      "description": "Accessible label for scroll-to-top button",
+      "message": "К началу"
+   },
+   "go_top": {
+      "message": "Наверх"
+   },
+   "good": {
+      "message": "Хорошо"
+   },
+   "grace_period_banner": {
+      "message": "Льготный период истекает 1 июля. Премиум-функции будут отключены"
+   },
+   "grace_period_consent_body": {
+      "message": "Вы собираетесь потерять доступ к премиум-функциям. Вы уверены, что хотите продолжить с бесплатным тарифом?"
+   },
+   "grace_period_consent_title": {
+      "message": "Продолжить без Premium?"
+   },
+   "grace_period_dismiss_aria": {
+      "message": "Закрыть уведомление о льготном периоде"
+   },
+   "grace_period_expired_data_safe": {
+      "message": "Ваши настройки и данные в безопасности и останутся сохранёнными."
+   },
+   "grace_period_expired_description": {
+      "message": "Премиум-функции больше не активны в вашем аккаунте."
+   },
+   "grace_period_expired_disable_button": {
+      "message": "Отключить премиум-функции"
+   },
+   "grace_period_expired_title": {
+      "message": "Льготный период истёк"
+   },
+   "grace_period_expired_upgrade_button": {
+      "message": "Перейти на Premium"
+   },
+   "grace_period_expired_upgrade_hint": {
+      "message": "Вы можете перейти на Premium в любое время, чтобы восстановить все премиум-функции."
+   },
+   "grace_period_ok_with_free": {
+      "message": "Продолжить с бесплатной версией"
+   },
+   "grace_period_upgrade_button": {
+      "message": "Сохранить Premium"
+   },
+   "great": {
+      "message": "Отлично!"
+   },
+   "handle_redirects": {
+      "message": "Обработка перенаправлений"
+   },
+   "hard_refresh": {
+      "message": "Жесткое обновление"
+   },
+   "hard_refresh_desc": {
+      "message": "Обходить кэш при каждой перезагрузке"
+   },
+   "hard_refresh_help": {
+      "message": "Перезагрузите страницу без использования кэшированных данных."
+   },
+   "highlight_element": {
+      "message": "Выделить элемент на странице"
+   },
+   "highlight_keyword": {
+      "message": "Выделить ключевое слово на странице"
+   },
+   "highlight_keyword_desc": {
+      "message": "Выделять найденное ключевое слово"
+   },
+   "highlight_keyword_help": {
+      "message": "При обнаружении ключевого слова оно будет визуально выделено на странице."
+   },
+   "hotkeys_label": {
+      "message": "Горячие клавиши"
+   },
+   "hour": {
+      "message": "Час"
+   },
+   "hours": {
+      "message": "Часы"
+   },
+   "increase_aria": {
+      "message": "Увеличить"
+   },
+   "individual_plan": {
+      "message": "индивидуальный план"
+   },
+   "individual_plan_starts_at": {
+      "message": "Индивидуальный план начинается с $2.99"
+   },
+   "interaction_help": {
+      "message": "Автоматически остановить обновление при взаимодействии пользователя со страницей."
+   },
+   "interactions_switch_desc": {
+      "message": "Что происходит при взаимодействии со страницей"
+   },
+   "interactions_title_opt": {
+      "message": "Поведение обновления при взаимодействии пользователя"
+   },
+   "interval": {
+      "message": "Интервал"
+   },
+   "interval_card_custom_duration": {
+      "message": "пользовательская длительность"
+   },
+   "interval_card_interval": {
+      "message": "Интервал"
+   },
+   "interval_card_random_range": {
+      "message": "случайный диапазон"
+   },
+   "interval_custom_summary": {
+      "message": "каждые %1ч %2м %3с"
+   },
+   "interval_decrease_by": {
+      "message": "Уменьшить на %1"
+   },
+   "interval_edit_custom_aria": {
+      "message": "Изменить пользовательский интервал"
+   },
+   "interval_in_seconds_aria": {
+      "message": "Интервал в секундах"
+   },
+   "interval_increase_by": {
+      "message": "Увеличить на %1"
+   },
+   "interval_max_sec": {
+      "message": "макс (сек)"
+   },
+   "interval_max_sec_aria": {
+      "message": "максимальные секунды"
+   },
+   "interval_min_sec": {
+      "message": "мин (сек)"
+   },
+   "interval_min_sec_aria": {
+      "message": "минимальные секунды"
+   },
+   "interval_modes_help": {
+      "message": "Фиксированный: обновление каждые N секунд. Случайный: интервал в диапазоне. Пользовательский: точная длительность в часах/минутах/секундах."
+   },
+   "interval_preset_minutes": {
+      "message": "%1м"
+   },
+   "interval_preset_seconds": {
+      "message": "%1с"
+   },
+   "interval_random_summary": {
+      "message": "обновление каждые %1–%2 с"
+   },
+   "interval_range_to": {
+      "message": "до"
+   },
+   "interval_tab_custom": {
+      "message": "Свой"
+   },
+   "interval_tab_fixed": {
+      "message": "Фиксированный"
+   },
+   "interval_tab_random": {
+      "message": "Случайный"
+   },
+   "interval_unit_hrs": {
+      "message": "ч"
+   },
+   "interval_unit_min": {
+      "message": "мин"
+   },
+   "interval_unit_sec": {
+      "message": "сек"
+   },
+   "interval_unit_seconds_header": {
+      "message": "секунды"
+   },
+   "keyword_input_placeholder": {
+      "message": "Введите ключевое слово, регулярное выражение, XPath или селектор CSS (разделите несколько запятыми)..."
+   },
+   "keywords_to_monitor": {
+      "message": "Ключевые слова для мониторинга"
+   },
+   "kill_notification": {
+      "message": "Отключить сигнал уведомления"
+   },
+   "kill_successfully": {
+      "message": "Успешно отключено"
+   },
+   "lang_code": {
+      "message": "ru"
+   },
+   "language": {
+      "message": "Язык"
+   },
+   "lost": {
+      "message": "Потеряно"
+   },
+   "loved": {
+      "message": "Очень нравится!"
+   },
+   "match_html_source_desc": {
+      "message": "Сканировать исходный код — медленнее, использовать с осторожностью"
+   },
+   "match_html_source_label": {
+      "message": "Совпадение HTML-источника"
+   },
+   "match_visible_text_desc": {
+      "message": "Сканировать отображаемый на экране текст"
+   },
+   "match_visible_text_label": {
+      "message": "Совпадение видимого текста"
+   },
+   "maximum": {
+      "message": "Максимум"
+   },
+   "minimum": {
+      "message": "Минимум"
+   },
+   "minute": {
+      "message": "Минута"
+   },
+   "minutes": {
+      "message": "Минуты"
+   },
+   "monitor": {
+      "message": "Мониторинг"
+   },
+   "monitor_area_select": {
+      "message": "Выбрать"
+   },
+   "monitor_area_selector_desc": {
+      "message": "Введите CSS-селектор или выберите элемент на странице."
+   },
+   "monitor_area_switch_desc": {
+      "message": "Ограничить поиск одним регионом"
+   },
+   "monitor_area_switch_label": {
+      "message": "Область мониторинга"
+   },
+   "monitor_custom_area": {
+      "message": "Поиск в пользовательской области страницы"
+   },
+   "monitor_custom_area_help": {
+      "message": "Включите, чтобы указать пользовательскую область страницы для мониторинга или поиска."
+   },
+   "monitor_full_page": {
+      "message": "Мониторить полную страницу"
+   },
+   "monitor_full_page_help": {
+      "message": "Включите, чтобы отслеживать изменения на всей веб-странице."
+   },
+   "monitor_page_for_any_changes": {
+      "message": "Автоматически отслеживайте любые изменения страницы."
+   },
+   "monitored_area": {
+      "message": "Отслеживаемая область"
+   },
+   "monitoring_active": {
+      "message": "Мониторинг активен"
+   },
+   "monitoring_auto_click_label": {
+      "message": "Автоклик при совпадении ключевого слова"
+   },
+   "monitoring_engine_advanced": {
+      "message": "Расширенный"
+   },
+   "monitoring_engine_aria": {
+      "message": "Версия движка мониторинга"
+   },
+   "monitoring_engine_basic": {
+      "message": "Базовый"
+   },
+   "monitoring_engine_beta": {
+      "message": "бета"
+   },
+   "monitoring_engine_tooltip_desc": {
+      "message": "Работает для всех режимов — Найдено, Потеряно и Пользовательский — с более быстрым и умным обнаружением."
+   },
+   "monitoring_engine_tooltip_title": {
+      "message": "Новое бета-ядро"
+   },
+   "monitoring_keyword_input_aria": {
+      "message": "Ключевое слово для мониторинга"
+   },
+   "monitoring_keywords_empty": {
+      "message": "Ключевых слов пока нет — добавьте хотя бы одно для начала мониторинга."
+   },
+   "monitoring_mode": {
+      "message": "Режим мониторинга"
+   },
+   "monitoring_mode_custom_info_highlight": {
+      "message": "любого изменения"
+   },
+   "monitoring_mode_custom_info_prefix": {
+      "message": "Пользовательский режим оповещает вас при обнаружении "
+   },
+   "monitoring_mode_custom_info_suffix": {
+      "message": " на этой странице — ключевые слова не требуются."
+   },
+   "monitoring_mode_custom_intro": {
+      "message": "Автоматически отслеживайте любые изменения страницы."
+   },
+   "monitoring_mode_custom_short": {
+      "message": "Пользовательский"
+   },
+   "monitoring_mode_found_desc": {
+      "message": "Получайте уведомления, когда появляется ваше ключевое слово."
+   },
+   "monitoring_mode_found_short": {
+      "message": "Найдено"
+   },
+   "monitoring_mode_help": {
+      "message": "Выберите, когда Auto Refresh Plus должен оповещать вас"
+   },
+   "monitoring_mode_lost_desc": {
+      "message": "Получайте уведомления, когда исчезает ваше ключевое слово."
+   },
+   "monitoring_mode_lost_short": {
+      "message": "Потеряно"
+   },
+   "monitoring_remove_keyword_aria": {
+      "message": "Удалить %1"
+   },
+   "monitoring_tip_banner": {
+      "message": "Нужно больше действий? Попробуйте мульти-клик автоматизацию."
+   },
+   "monitoring_tip_label": {
+      "message": "Совет:"
+   },
+   "new_badge": {
+      "message": "Новое"
+   },
+   "no_active_tabs": {
+      "message": "Нет активных вкладок"
+   },
+   "no_active_tabs_desc": {
+      "message": "В настоящее время нет вкладок, которые отслеживаются или обновляются. Начните обновлять вкладку, чтобы увидеть ее здесь."
+   },
+   "no_keyword": {
+      "message": "Ключевые слова еще не добавлены. Добавьте ключевые слова для мониторинга."
+   },
+   "no_tabs_refreshing": {
+      "message": "Нет обновляемых вкладок"
+   },
+   "no_templates_match": {
+      "message": "Нет шаблонов, соответствующих вашим критериям поиска."
+   },
+   "normal_expression": {
+      "message": "Нормальное выражение"
+   },
+   "normal_expression_desc": {
+      "message": "Он ищет ключевые слова на веб-странице и не нуждается в инициализации с помощью каких-либо символов. Просто нажмите Enter на каждом ключевом слове."
+   },
+   "normal_expression_example_1_desc": {
+      "message": "Ищет точный текст \"В наличии\" на веб-странице"
+   },
+   "normal_expression_example_2_desc": {
+      "message": "Ищет несколько ключевых слов, нажмите Enter после каждого ключевого слова"
+   },
+   "normal_expression_example_3_desc": {
+      "message": "Ищет кнопку \"Добавить в корзину\" или текст на странице"
+   },
+   "not_allowed": {
+      "message": "Вам не разрешено использовать это здесь."
+   },
+   "noti_msg": {
+      "message": "Auto Refresh Plus %1 ваш целевой текст."
+   },
+   "noti_msg_title": {
+      "message": "Целевой текст!"
+   },
+   "notification_domain_info": {
+      "message": "на %1"
+   },
+   "ok": {
+      "message": "ОК"
+   },
+   "okay": {
+      "message": "Хорошо"
+   },
+   "open_link_help": {
+      "message": "Открывает щелкнутую ссылку в новой вкладке браузера."
+   },
+   "open_link_tab": {
+      "message": "Открыть ссылку в новой вкладке"
+   },
+   "options": {
+      "message": "Опции"
+   },
+   "partial_page_desc": {
+      "message": "Отслеживать только AJAX/XHR-запросы"
+   },
+   "pause": {
+      "message": "Пауза"
+   },
+   "pause_on_interact": {
+      "message": "Пауза при взаимодействии"
+   },
+   "pause_refreshing": {
+      "message": "Приостановить обновление"
+   },
+   "permissions_attention": {
+      "message": "Внимание"
+   },
+   "permissions_btn_grant": {
+      "message": "Предоставить доступ к сайту для хостов панели"
+   },
+   "permissions_btn_opening_dialog": {
+      "message": "Открытие диалога разрешений..."
+   },
+   "permissions_btn_refresh": {
+      "message": "Обновить статус"
+   },
+   "permissions_config_missing_body": {
+      "message": "не задана в среде сборки. Пересоберите проект, указав имя хоста панели."
+   },
+   "permissions_config_missing_title": {
+      "message": "Отсутствует конфигурация"
+   },
+   "permissions_error_denied": {
+      "message": "Разрешения отклонены. Предоставьте доступ для хоста панели, чтобы синхронизация и внедряемые функции работали стабильно."
+   },
+   "permissions_error_dialog": {
+      "message": "Не удалось открыть диалог разрешений. Повторите попытку или проверьте настройки браузера."
+   },
+   "permissions_error_read_state": {
+      "message": "Не удалось прочитать состояние разрешения сайта. Перезагрузите страницу или повторите попытку позже."
+   },
+   "permissions_go_to_options": {
+      "message": "Перейти в настройки"
+   },
+   "permissions_granted_body": {
+      "message": "У расширения уже есть соответствующее разрешение хоста для вашей платформы. Можно закрыть эту вкладку."
+   },
+   "permissions_granted_ok": {
+      "message": "OK"
+   },
+   "permissions_granted_title": {
+      "message": "Доступ к сайту включён"
+   },
+   "permissions_heading_dashboard": {
+      "message": "Разрешения хоста панели"
+   },
+   "permissions_intro_dashboard": {
+      "message": "Управляйте тем, может ли расширение работать на доменах панели Auto Refresh Plus (контент-скрипты и интеграция платформы)."
+   },
+   "permissions_label_dashboard_host": {
+      "message": "Хост панели"
+   },
+   "permissions_revoke_hint": {
+      "message": "Чтобы позже отозвать доступ, удалите этот сайт из списка доступа расширений в настройках браузера."
+   },
+   "permissions_subtitle": {
+      "message": "Доступ к сайту платформы"
+   },
+   "permissions_warn_body_prefix": {
+      "message": "Предоставьте доступ, чтобы расширение могло работать на панели, синхронизировать настройки и согласовать опыт с расширением (тот же шаблон хоста, что у контент-скрипта:"
+   },
+   "permissions_warn_body_suffix": {
+      "message": ")."
+   },
+   "permissions_warn_title": {
+      "message": "Доступ к сайту ещё не предоставлен"
+   },
+   "play_alarm_on_captcha_detection": {
+      "message": "Воспроизвести сигнал при обнаружении Captcha"
+   },
+   "play_alarm_on_captcha_detection_help": {
+      "message": "Воспроизведение звукового сигнала при обнаружении captcha."
+   },
+   "play_alarm_on_error_detection": {
+      "message": "Воспроизвести сигнал при обнаружении ошибки"
+   },
+   "play_alarm_on_error_detection_help": {
+      "message": "Воспроизведение звукового сигнала при обнаружении страницы ошибки."
+   },
+   "please_add_email_first": {
+      "message": "Пожалуйста, сначала добавьте адрес электронной почты."
+   },
+   "please_add_webhooks_first": {
+      "message": "Пожалуйста, сначала добавьте веб-хуки."
+   },
+   "please_rateus": {
+      "message": "Пожалуйста, оцените нас"
+   },
+   "popup_on_keyword_found": {
+      "message": "Уведомление при найденном ключевом слове"
+   },
+   "popup_on_keyword_lost": {
+      "message": "Уведомление при потерянном ключевом слове"
+   },
+   "predefined_interval": {
+      "message": "Предопределенный интервал"
+   },
+   "predefined_interval_desc": {
+      "message": "Используйте предустановленные или стандартные значения времени"
+   },
+   "premium_benefits": {
+      "message": "Преимущества премиум:"
+   },
+   "premium_device_sync": {
+      "message": "Управление до 3 устройствами"
+   },
+   "premium_full_access": {
+      "message": "Все функции премиум"
+   },
+   "premium_priority_support": {
+      "message": "Различные профили параметров"
+   },
+   "premium_tag_aria": {
+      "message": "Функция PRO: %1. Открыть объявление."
+   },
+   "premium_tag_default_feature": {
+      "message": "Функция"
+   },
+   "premium_tag_tooltip_click": {
+      "message": "Подробнее"
+   },
+   "premium_usage_body": {
+      "message": "Премиум-функции активны на бесплатном тарифе."
+   },
+   "premium_usage_dismiss": {
+      "message": "Закрыть уведомление"
+   },
+   "premium_usage_status_label": {
+      "message": "Используются премиум-функции"
+   },
+   "preset_interval": {
+      "message": "Предустановленные интервалы"
+   },
+   "pricing": {
+      "message": "Цены"
+   },
+   "pro_announcement_body": {
+      "message": "Auto Refresh Plus постепенно внедряет PRO, чтобы поддерживать долгосрочную разработку, продвинутые функции, облачную синхронизацию, более умный мониторинг и управление несколькими устройствами, при этом базовые функции обновления остаются бесплатными для всех."
+   },
+   "pro_announcement_close_aria": {
+      "message": "Закрыть диалог"
+   },
+   "pro_announcement_days_label": {
+      "message": "дн."
+   },
+   "pro_announcement_days_remaining_aria": {
+      "message": "Осталось %1 дн."
+   },
+   "pro_announcement_fresh_install_body": {
+      "message": "Откройте %1 и полный премиум-опыт с PRO: расширенные инструменты, более умный мониторинг, облачную синхронизацию и доступ с нескольких устройств."
+   },
+   "pro_announcement_fresh_install_title_suffix": {
+      "message": "является премиальной функцией"
+   },
+   "pro_announcement_fresh_install_trial": {
+      "message": "15-дневный бесплатный пробный период"
+   },
+   "pro_announcement_important_badge": {
+      "message": "Важно"
+   },
+   "pro_announcement_important_notice_aria": {
+      "message": "Важное уведомление"
+   },
+   "pro_announcement_moving_to_pro": {
+      "message": "Переходит в PRO"
+   },
+   "pro_announcement_premium_badge": {
+      "message": "PREMIUM"
+   },
+   "pro_announcement_premium_badge_aria": {
+      "message": "Премиум"
+   },
+   "pro_announcement_rollout_date": {
+      "message": "1 июня"
+   },
+   "pro_announcement_rollout_intro": {
+      "message": "Развёртывание с"
+   },
+   "pro_announcement_rollout_outro": {
+      "message": "."
+   },
+   "pro_announcement_view_pricing": {
+      "message": "Тарифы — от 2,99 $/мес."
+   },
+   "random_interval": {
+      "message": "Случайный интервал"
+   },
+   "random_interval_desc": {
+      "message": "Случайное обновление между мин.–макс."
+   },
+   "random_interval_help": {
+      "message": "При текущих параметрах страница будет обновляться случайно каждые %1 - %2 секунд."
+   },
+   "random_time_interval": {
+      "message": "Диапазон случайного обновления"
+   },
+   "rate_us": {
+      "message": "Оцените нас"
+   },
+   "rateus_title": {
+      "message": "Оцените это расширение"
+   },
+   "ready_expressions_load_error": {
+      "message": "Не удалось загрузить шаблоны. Попробуйте позже."
+   },
+   "real_time_detection_during_refresh": {
+      "message": "Обнаружение в реальном времени"
+   },
+   "real_time_detection_switch_desc": {
+      "message": "Проверять непрерывно без полной перезагрузки"
+   },
+   "realtime_help": {
+      "message": "Непрерывно обнаруживайте изменения во время обновления, а не только в конце интервала."
+   },
+   "receive_emails_alerts": {
+      "message": "Получать уведомления по электронной почте"
+   },
+   "receive_webhook_alerts": {
+      "message": "Получать уведомления веб-хука"
+   },
+   "redirection_behavior": {
+      "message": "Поведение перенаправления"
+   },
+   "redirection_behavior_desc": {
+      "message": "Обрабатывать перенаправления при обновлении"
+   },
+   "redirection_behavior_help": {
+      "message": "Выберите, как Auto Refresh Plus обрабатывает изменения URL-адреса. Вы можете заблокировать исходный домен или следить за перенаправлениями."
+   },
+   "refresh_cycles_completed": {
+      "message": "Завершённые циклы обновления"
+   },
+   "refresh_interval_mode": {
+      "message": "Режим интервала обновления"
+   },
+   "refresh_limit": {
+      "message": "Лимит обновлений"
+   },
+   "refresh_limit_times": {
+      "message": "раз"
+   },
+   "refresh_number": {
+      "message": "Установить количество обновлений"
+   },
+   "refresh_number_desc": {
+      "message": "Остановить после фиксированного числа"
+   },
+   "refresh_number_help": {
+      "message": "Установите, сколько раз вы хотите обновить страницу."
+   },
+   "refresh_position_hint_body": {
+      "message": "Вы можете изменить кнопку обновления и другие элементы интерфейса в этом меню."
+   },
+   "refresh_position_hint_understand": {
+      "message": "Понятно"
+   },
+   "refresh_top_pause": {
+      "message": "Пауза"
+   },
+   "refresh_top_resume": {
+      "message": "Далее"
+   },
+   "refresh_top_start": {
+      "message": "Старт"
+   },
+   "refresh_top_stop": {
+      "message": "Стоп"
+   },
+   "refresh_type": {
+      "message": "Тип обновления"
+   },
+   "refresh_type_help": {
+      "message": "Как страница перезагружается перед каждым сканированием. Полная страница перезагружает весь URL как при обновлении — надёжно, но тяжелее. XHR запускает только фоновые AJAX/XHR-запросы (без полной перезагрузки) — быстрее и легче, идеально для динамических страниц, обновляющих контент без перезагрузки."
+   },
+   "regex": {
+      "message": "Регулярное выражение"
+   },
+   "regex_expression": {
+      "message": "Регулярное выражение"
+   },
+   "regex_expression_desc": {
+      "message": "Auto Refresh Plus также поддерживает регулярные выражения и должен быть инициализирован символом $ и последующим регулярным выражением."
+   },
+   "regex_expression_example_1_desc": {
+      "message": "Совпадает с \"продуктом\", за которым следует одна или несколько цифр (product1, product42 и т. д.)"
+   },
+   "regex_expression_example_2_desc": {
+      "message": "Совпадает с \"В наличии\" без учета регистра с использованием флагов регулярных выражений"
+   },
+   "regex_expression_example_3_desc": {
+      "message": "Совпадает с форматом цены, таким как \"$19.99\", \"$299.00\" и т. д."
+   },
+   "remove_email": {
+      "message": "Удалить адрес электронной почты"
+   },
+   "restart": {
+      "message": "Перезапустить"
+   },
+   "restart_wait_seconds_desc": {
+      "message": "Установите количество секунд ожидания перед возобновлением обновления"
+   },
+   "resume": {
+      "message": "Возобновить"
+   },
+   "resume_refreshing": {
+      "message": "Возобновить обновление"
+   },
+   "save": {
+      "message": "Сохранить"
+   },
+   "scan_method_title": {
+      "message": "Метод сканирования"
+   },
+   "sch_description": {
+      "message": "Автоматический запуск в выбранное время и дни."
+   },
+   "schedule_add": {
+      "message": "Добавить расписание"
+   },
+   "schedule_auto_disable_aria": {
+      "message": "Автоотключение"
+   },
+   "schedule_auto_stop_aria": {
+      "message": "Автостоп"
+   },
+   "schedule_delete_aria": {
+      "message": "Удалить расписание"
+   },
+   "schedule_disconnected": {
+      "message": "Расписание было отключено"
+   },
+   "schedule_edit_aria": {
+      "message": "Редактировать расписание"
+   },
+   "schedule_enable_aria": {
+      "message": "Включить расписание"
+   },
+   "schedule_help": {
+      "message": "Расписания позволяют автоматически обновлять страницу в определённое время и дни. Каждое расписание может иметь время начала, выбранные дни недели, автостоп и автоматическое отключение."
+   },
+   "schedule_options_label": {
+      "message": "параметры"
+   },
+   "schedule_select_days": {
+      "message": "выбрать дни"
+   },
+   "schedule_start_time_label": {
+      "message": "время начала"
+   },
+   "schedules": {
+      "message": "Расписания"
+   },
+   "schedules_active_count": {
+      "message": "%1 активных"
+   },
+   "schedules_empty": {
+      "message": "Расписаний пока нет"
+   },
+   "search_templates": {
+      "message": "Поиск шаблонов..."
+   },
+   "seconds": {
+      "message": "Секунды"
+   },
+   "select_area": {
+      "message": "Выберите область"
+   },
+   "select_area_desc": {
+      "message": "Введите селектор CSS, чтобы ограничить область поиска"
+   },
+   "select_css_selector": {
+      "message": "Выберите элемент для установки селектора области"
+   },
+   "select_date_time": {
+      "message": "Выбрать дату и время"
+   },
+   "select_days": {
+      "message": "Выберите дни"
+   },
+   "select_element": {
+      "message": "Выберите элемент"
+   },
+   "select_language": {
+      "message": "Выберите язык"
+   },
+   "select_time": {
+      "message": "Выберите время"
+   },
+   "session_expired": {
+      "message": "Ваша сессия истекла. Пожалуйста, войдите снова."
+   },
+   "settings_card_collapse_aria": {
+      "message": "Свернуть %1"
+   },
+   "settings_card_expand_aria": {
+      "message": "Развернуть %1"
+   },
+   "show_tab": {
+      "message": "Показать вкладку"
+   },
+   "signup_requirement_body": {
+      "message": "Скоро для продолжения потребуется аккаунт."
+   },
+   "signup_requirement_countdown_days": {
+      "message": "Осталось %1 дн. до требования аккаунта"
+   },
+   "signup_requirement_countdown_one_day": {
+      "message": "Остался 1 день до требования аккаунта"
+   },
+   "signup_requirement_days_abbr": {
+      "message": "дн."
+   },
+   "signup_requirement_dismiss": {
+      "message": "Закрыть уведомление"
+   },
+   "signup_requirement_sign_up": {
+      "message": "Регистрация бесплатно →"
+   },
+   "signup_requirement_status_label": {
+      "message": "Уведомление о требовании аккаунта"
+   },
+   "skip_repeated_keyword": {
+      "message": "Пропустить повторяющееся ключевое слово"
+   },
+   "skip_repeated_keyword_desc": {
+      "message": "Игнорировать уже обнаруженные ключевые слова"
+   },
+   "skip_repeated_keyword_help": {
+      "message": "Игнорируйте уже обнаруженные ключевые слова при следующем обновлении."
+   },
+   "slave_device_alert_body": {
+      "message": "Это расширение настроено как связанное вторичное устройство. Параметры и управление обновлением страницы могут совпадать с основным устройством."
+   },
+   "slave_device_alert_dismiss": {
+      "message": "Закрыть уведомление"
+   },
+   "slave_device_alert_read_more": {
+      "message": "Подробнее"
+   },
+   "slave_device_alert_status_label": {
+      "message": "Вторичное устройство"
+   },
+   "slave_message_alert": {
+      "message": "Вы не можете изменить этот параметр, потому что вы пользователь раб."
+   },
+   "source_find_text": {
+      "message": "Источник (источник HTML)"
+   },
+   "source_find_text_caution": {
+      "message": "Эта опция предназначена в основном для разработчиков. Сканирование исходного HTML может совпадать со скрытой или невидимой разметкой, что часто приводит к ложным срабатываниям. Это медленнее и не рекомендуется для повседневного мониторинга — включайте только когда сопоставления видимого текста недостаточно."
+   },
+   "source_find_text_help": {
+      "message": "Извлекает текст непосредственно из исходного кода HTML. Может включать скрытый или динамический контент."
+   },
+   "start_countdown": {
+      "message": "Начать обратный отсчет"
+   },
+   "start_msg": {
+      "message": "Начать"
+   },
+   "start_refreshing": {
+      "message": "Начать обновление"
+   },
+   "start_time": {
+      "message": "Время начала"
+   },
+   "stop": {
+      "message": "Остановить"
+   },
+   "stop_countdown": {
+      "message": "Остановить обратный отсчет"
+   },
+   "stop_refreshing": {
+      "message": "Остановить обновление"
+   },
+   "stop_time": {
+      "message": "Время остановки"
+   },
+   "subscription": {
+      "message": "Подписка"
+   },
+   "success": {
+      "message": "Параметры успешно сохранены"
+   },
+   "support_ticket": {
+      "message": "Билет поддержки"
+   },
+   "supported_expressions": {
+      "message": "Поддерживаемые выражения"
+   },
+   "supported_expressions_msg_monitor": {
+      "message": "Поддерживаемые выражения для мониторинга страницы"
+   },
+   "syntax_css_desc": {
+      "message": "Нацеливание на элементы стандартными CSS-селекторами — по id, классу, атрибуту или иерархии."
+   },
+   "syntax_css_ex1_desc": {
+      "message": "Выбирает элемент с id «price»"
+   },
+   "syntax_css_ex1_title": {
+      "message": "По id"
+   },
+   "syntax_css_ex2_desc": {
+      "message": "Выбирает элементы с классом «stock-status»"
+   },
+   "syntax_css_ex2_title": {
+      "message": "По классу"
+   },
+   "syntax_css_ex3_desc": {
+      "message": "Выбирает элемент, где data-testid равен «add-to-cart»"
+   },
+   "syntax_css_ex3_title": {
+      "message": "По атрибуту"
+   },
+   "syntax_css_title": {
+      "message": "CSS-селекторы"
+   },
+   "syntax_custom_desc": {
+      "message": "Начинаются с ## и объединяют ключевые слова логикой Boolean AND / OR / NOT."
+   },
+   "syntax_custom_ex1_desc": {
+      "message": "Срабатывает только когда появляются «In Stock» и «Add to Cart»"
+   },
+   "syntax_custom_ex1_title": {
+      "message": "Условие AND"
+   },
+   "syntax_custom_ex2_desc": {
+      "message": "Срабатывает при появлении любого ключевого слова"
+   },
+   "syntax_custom_ex2_title": {
+      "message": "Условие OR"
+   },
+   "syntax_custom_ex3_desc": {
+      "message": "Срабатывает когда «In Stock» есть, а «Sold Out» нет"
+   },
+   "syntax_custom_ex3_title": {
+      "message": "Условие NOT"
+   },
+   "syntax_custom_title": {
+      "message": "Пользовательские выражения"
+   },
+   "syntax_norm_ex1_desc": {
+      "message": "Совпадает с точным текстом «In Stock» в любом месте страницы"
+   },
+   "syntax_norm_ex1_title": {
+      "message": "In Stock"
+   },
+   "syntax_norm_ex2_desc": {
+      "message": "Несколько ключевых слов — Enter после каждого"
+   },
+   "syntax_norm_ex2_title": {
+      "message": "Available, Out of Stock"
+   },
+   "syntax_norm_ex3_desc": {
+      "message": "Совпадает с кнопкой или текстом «Add to Cart» на странице"
+   },
+   "syntax_norm_ex3_title": {
+      "message": "Add to Cart"
+   },
+   "syntax_regex_desc": {
+      "message": "В слэшах /.../ для сопоставления текстовых шаблонов. Полезно для цен, SKU и гибких совпадений."
+   },
+   "syntax_regex_ex1_desc": {
+      "message": "Совпадает с суммой в долларах, например $19.99 или $1,299.00"
+   },
+   "syntax_regex_ex1_title": {
+      "message": "Совпадение цены"
+   },
+   "syntax_regex_ex2_desc": {
+      "message": "Совпадает с «In Stock» или «in stock» (без учёта регистра)"
+   },
+   "syntax_regex_ex2_title": {
+      "message": "Статус наличия"
+   },
+   "syntax_regex_ex3_desc": {
+      "message": "Совпадает с SKU продукта, например SKU-12345"
+   },
+   "syntax_regex_ex3_title": {
+      "message": "Код SKU"
+   },
+   "syntax_regex_title": {
+      "message": "Регулярные выражения"
+   },
+   "syntax_text_matching_desc": {
+      "message": "Ищет простые ключевые слова на странице. Символ не нужен — нажимайте Enter после каждого слова."
+   },
+   "syntax_text_matching_title": {
+      "message": "Сопоставление текста"
+   },
+   "syntax_xpath_desc": {
+      "message": "Начинаются с // для нацеливания на элементы по позиции в HTML-структуре."
+   },
+   "syntax_xpath_ex1_desc": {
+      "message": "Выбирает любой элемент с классом «price»"
+   },
+   "syntax_xpath_ex1_title": {
+      "message": "По классу"
+   },
+   "syntax_xpath_ex2_desc": {
+      "message": "Выбирает кнопку с текстом «Add to Cart»"
+   },
+   "syntax_xpath_ex2_title": {
+      "message": "Кнопка по тексту"
+   },
+   "syntax_xpath_ex3_desc": {
+      "message": "Выбирает элемент с id «availability»"
+   },
+   "syntax_xpath_ex3_title": {
+      "message": "По id"
+   },
+   "syntax_xpath_title": {
+      "message": "Выражения XPath"
+   },
+   "tabs": {
+      "message": "Вкладки"
+   },
+   "tabs_alerts": {
+      "message": "Вкладки с уведомлениями"
+   },
+   "tabs_refreshing": {
+      "message": "Активные вкладки обновляются"
+   },
+   "template_add_to_cart_button": {
+      "message": "Кнопка «В корзину»"
+   },
+   "template_add_to_cart_button_desc": {
+      "message": "Совпадение с кнопкой корзины по test id"
+   },
+   "template_any_stock_term": {
+      "message": "Любой термин наличия"
+   },
+   "template_any_stock_term_desc": {
+      "message": "Срабатывает при любом ключевом слове наличия"
+   },
+   "template_buy_button": {
+      "message": "Кнопка покупки"
+   },
+   "template_buy_button_desc": {
+      "message": "Найти кнопки покупки"
+   },
+   "template_email_address": {
+      "message": "Адрес электронной почты"
+   },
+   "template_email_address_desc": {
+      "message": "Совпадают адреса электронной почты"
+   },
+   "template_expression_description": {
+      "message": "Выражение шаблона для мониторинга страницы"
+   },
+   "template_in_stock_buyable": {
+      "message": "В наличии и доступен для покупки"
+   },
+   "template_in_stock_buyable_desc": {
+      "message": "Оповещение только при наличии И возможности покупки"
+   },
+   "template_in_stock_not_sold_out": {
+      "message": "В наличии, не распродано"
+   },
+   "template_in_stock_not_sold_out_desc": {
+      "message": "В наличии без текста о распродаже"
+   },
+   "template_input_field_value": {
+      "message": "Значение поля ввода"
+   },
+   "template_input_field_value_desc": {
+      "message": "Найти ввод со значением поиска"
+   },
+   "template_phone_number": {
+      "message": "Номер телефона"
+   },
+   "template_phone_number_desc": {
+      "message": "Совпадают формат телефона (123) 456-7890"
+   },
+   "template_price_changes": {
+      "message": "Изменения цены"
+   },
+   "template_price_changes_desc": {
+      "message": "Мониторить ключевые слова, связанные с ценой"
+   },
+   "template_price_detector": {
+      "message": "Детектор цен"
+   },
+   "template_price_detector_desc": {
+      "message": "Совпадение с любой ценой в долларах, например $19.99"
+   },
+   "template_price_element": {
+      "message": "Элемент цены"
+   },
+   "template_price_element_desc": {
+      "message": "Найти элементы с классом цены"
+   },
+   "template_price_format": {
+      "message": "Формат цены"
+   },
+   "template_price_format_desc": {
+      "message": "Совпадают цены, например $19.99"
+   },
+   "template_product_availability": {
+      "message": "Доступность продукта"
+   },
+   "template_product_availability_desc": {
+      "message": "Мониторить статус доступности продукта"
+   },
+   "template_product_id_pattern": {
+      "message": "Шаблон ID продукта"
+   },
+   "template_product_id_pattern_desc": {
+      "message": "Совпадают ID продукта, например product-123"
+   },
+   "template_product_status": {
+      "message": "Статус продукта"
+   },
+   "template_product_status_desc": {
+      "message": "Новые или ограниченные издания товаров"
+   },
+   "template_restock_alert": {
+      "message": "Оповещение о пополнении"
+   },
+   "template_restock_alert_desc": {
+      "message": "Поймайте момент возврата товара"
+   },
+   "template_shipping_options": {
+      "message": "Варианты доставки"
+   },
+   "template_shipping_options_desc": {
+      "message": "Доступны варианты быстрой доставки"
+   },
+   "template_shopping_actions": {
+      "message": "Действия покупок"
+   },
+   "template_shopping_actions_desc": {
+      "message": "Отслеживать доступность кнопки покупки"
+   },
+   "template_stock_and_price": {
+      "message": "Товарный запас И цена"
+   },
+   "template_stock_and_price_desc": {
+      "message": "Товары в наличии И в продаже"
+   },
+   "template_stock_status_element": {
+      "message": "Элемент статуса наличия"
+   },
+   "template_stock_status_element_desc": {
+      "message": "Нацеливание на элемент по классу"
+   },
+   "template_stock_status_text": {
+      "message": "Текст статуса запаса"
+   },
+   "template_stock_status_text_desc": {
+      "message": "Найти текст, содержащий \"В наличии\""
+   },
+   "template_ticket_availability": {
+      "message": "Доступность билетов"
+   },
+   "template_ticket_availability_desc": {
+      "message": "Следите за появлением билетов в продаже"
+   },
+   "templates": {
+      "message": "Шаблоны"
+   },
+   "templates_add_to_keywords": {
+      "message": "Добавить в ключевые слова"
+   },
+   "templates_ai_aria": {
+      "message": "Генератор выражений ИИ"
+   },
+   "templates_ai_label": {
+      "message": "ИИ"
+   },
+   "templates_back_to_templates": {
+      "message": "Назад к шаблонам"
+   },
+   "templates_close_aria": {
+      "message": "Закрыть диалог"
+   },
+   "templates_copy_aria": {
+      "message": "Копировать выражение %1"
+   },
+   "templates_header_templates_aria": {
+      "message": "Назад к шаблонам"
+   },
+   "templates_ready_made": {
+      "message": "Готовые шаблоны"
+   },
+   "templates_syntax_aria": {
+      "message": "Справка по синтаксису"
+   },
+   "templates_syntax_button": {
+      "message": "Синтаксис"
+   },
+   "templates_tooltip": {
+      "message": "Просмотр готовых шаблонов мониторинга"
+   },
+   "templates_type_css": {
+      "message": "CSS"
+   },
+   "templates_type_custom": {
+      "message": "Пользовательский"
+   },
+   "templates_type_normal": {
+      "message": "Обычный"
+   },
+   "templates_type_regex": {
+      "message": "Regex"
+   },
+   "templates_type_xpath": {
+      "message": "XPath"
+   },
+   "text": {
+      "message": "Текст"
+   },
+   "thankyou_msg": {
+      "message": "Спасибо за ваш отзыв"
+   },
+   "this_is_not_valid_css_selector": {
+      "message": "Это не действительный селектор CSS."
+   },
+   "thnakyou_desc": {
+      "message": "Ваш отзыв помогает нам улучшиться"
+   },
+   "time": {
+      "message": "Время"
+   },
+   "time_has_passed": {
+      "message": "Время прошло"
+   },
+   "time_is_invalid": {
+      "message": "Выбранное время недействительно"
+   },
+   "timer": {
+      "message": "Таймер"
+   },
+   "timer_position": {
+      "message": "Позиция таймера"
+   },
+   "timer_position_bottom_left": {
+      "message": "Внизу слева"
+   },
+   "timer_position_bottom_right": {
+      "message": "Внизу справа"
+   },
+   "timer_position_center": {
+      "message": "По центру"
+   },
+   "timer_position_top_left": {
+      "message": "Вверху слева"
+   },
+   "timer_position_top_right": {
+      "message": "Вверху справа"
+   },
+   "upgrade": {
+      "message": "Обновить"
+   },
+   "use_default": {
+      "message": "Использовать ключевые слова по умолчанию"
+   },
+   "user_menu_account_aria": {
+      "message": "Меню аккаунта"
+   },
+   "user_menu_avatar_alt": {
+      "message": "Аватар пользователя"
+   },
+   "user_menu_classic_view": {
+      "message": "Classic"
+   },
+   "user_menu_classic_view_aria": {
+      "message": "Вид Classic"
+   },
+   "user_menu_command_view": {
+      "message": "Command"
+   },
+   "user_menu_command_view_aria": {
+      "message": "Вид Command"
+   },
+   "user_menu_focus_mode": {
+      "message": "Режим фокуса"
+   },
+   "user_menu_focus_mode_aria": {
+      "message": "Переключить режим фокуса"
+   },
+   "user_menu_focus_mode_tooltip": {
+      "message": "Скрыть лишние элементы интерфейса"
+   },
+   "user_menu_refresh_position": {
+      "message": "Кнопки сверху"
+   },
+   "user_menu_refresh_position_aria": {
+      "message": "Показать кнопку обновления сверху"
+   },
+   "user_menu_refresh_position_tooltip": {
+      "message": "Показать кнопки обновления в шапке"
+   },
+   "user_menu_theme_dark_aria": {
+      "message": "Тёмная тема"
+   },
+   "user_menu_theme_light_aria": {
+      "message": "Светлая тема"
+   },
+   "user_menu_theme_system_aria": {
+      "message": "Системная тема"
+   },
+   "user_menu_ui_cosmetics": {
+      "message": "Оформление UI"
+   },
+   "user_menu_view": {
+      "message": "Вид"
+   },
+   "user_menu_view_aria": {
+      "message": "Выбрать режим отображения"
+   },
+   "view_pricing_plans": {
+      "message": "Просмотр планов ценообразования"
+   },
+   "visual_find_text": {
+      "message": "Визуальный (текст экрана)"
+   },
+   "visual_find_text_help": {
+      "message": "Извлекает видимый текст с экрана так, как его видит человек."
+   },
+   "visual_timer_desc": {
+      "message": "Показывать обратный отсчёт на странице"
+   },
+   "visual_timer_done": {
+      "message": "выполнено"
+   },
+   "visual_timer_help": {
+      "message": "Визуальный таймер отображает обратный отсчет непосредственно на веб-странице. Он показывает оставшееся время до следующего обновления и включает элементы управления для паузы, возобновления или сброса таймера."
+   },
+   "visual_timer_live_monitor": {
+      "message": "Живой монитор"
+   },
+   "visual_timer_msg": {
+      "message": "Показать визуальный таймер"
+   },
+   "visual_timer_next_refresh_in": {
+      "message": "Следующее обновление через"
+   },
+   "visual_timer_pause_aria": {
+      "message": "Приостановить таймер"
+   },
+   "visual_timer_paused": {
+      "message": "ПАУЗА"
+   },
+   "visual_timer_restart_tooltip": {
+      "message": "Перезапустить отсчёт"
+   },
+   "visual_timer_resume_aria": {
+      "message": "Запустить таймер"
+   },
+   "visual_timer_running": {
+      "message": "РАБОТАЕТ"
+   },
+   "visual_timer_stop_aria": {
+      "message": "Остановить таймер"
+   },
+   "wait_content_load": {
+      "message": "Дождитесь загрузки контента"
+   },
+   "wait_content_load_desc": {
+      "message": "Задерживать сканирование после каждого обновления"
+   },
+   "wait_content_load_help": {
+      "message": "Дождитесь обнаружения, чтобы позволить контенту полностью загрузиться."
+   },
+   "warning_random_interval": {
+      "message": "Максимальное значение должно быть больше минимального значения, чтобы случайные интервалы работали правильно."
+   },
+   "webhook_alert_help": {
+      "message": "Веб-хуки позволяют отправлять оповещения другим приложениям или сервисам при обнаружении изменений."
+   },
+   "webhook_alerts_switch_desc": {
+      "message": "Отправлять payload на ваш endpoint"
+   },
+   "webhooks": {
+      "message": "Веб-хуки"
+   },
+   "webhooks_tooltip": {
+      "message": "Открыть настройки webhook для уведомлений"
+   },
+   "whats_new": {
+      "message": "Что нового"
+   },
+   "whats_new_close_aria": {
+      "message": "Закрыть что нового"
+   },
+   "whats_new_latest": {
+      "message": "Последняя"
+   },
+   "whats_new_load_error": {
+      "message": "Не удалось загрузить примечания к выпуску. Попробуйте позже."
+   },
+   "whats_new_subtitle": {
+      "message": "Примечания к выпуску Auto Refresh Plus"
+   },
+   "whats_new_thank_you": {
+      "message": "Спасибо, что пользуетесь Auto Refresh Plus"
+   },
+   "window_focus_on_detection": {
+      "message": "Фокус окна при обнаружении ключевого слова"
+   },
+   "window_focus_on_detection_desc": {
+      "message": "Выводить вкладку на передний план при совпадении"
+   },
+   "window_focus_on_detection_help": {
+      "message": "Включите фокус окна, когда Page Monitor найдет или потеряет ключевое слово. Эта функция гарантирует, что окно автоматически переместится на передний план вашего экрана, когда обнаружится или потеряется указанное ключевое слово."
+   },
+   "without_full": {
+      "message": "XHR обновление"
+   },
+   "xhr_page_help": {
+      "message": "Получайте данные с URL-адреса без полного обновления страницы. Это позволяет веб-странице обновлять только часть страницы, не прерывая действия пользователя."
+   },
+   "xhr_request_autoclick": {
+      "message": "Элемент автоматического щелчка"
+   },
+   "xhr_request_autoclick_desc": {
+      "message": "Нажмите на элемент страницы, который нужно автоматически кликать."
+   },
+   "xpath": {
+      "message": "XPath"
+   },
+   "xpath_expression": {
+      "message": "Выражение XPath"
+   },
+   "xpath_expression_desc": {
+      "message": "Язык путей XML предоставляет гибкий способ обращения к различным частям документа. Должен быть инициализирован двумя символами @@."
+   },
+   "xpath_expression_example_1_desc": {
+      "message": "Ищет любой элемент, содержащий текст \"В наличии\""
+   },
+   "xpath_expression_example_2_desc": {
+      "message": "Ищет элементы ввода с атрибутом значения, содержащим \"Поиск\""
+   },
+   "xpath_expression_example_3_desc": {
+      "message": "Ищет элементы div с классом \"цена\", содержащие символ \"$\""
+   },
+   "your_expressions": {
+      "message": "Ваши выражения"
+   },
+   "your_expressions_add_new": {
+      "message": "Добавить новое"
+   },
+   "your_expressions_define_placeholder": {
+      "message": "Определить выражение (напр. В наличии или ##В наличии AND В корзину)"
+   },
+   "your_expressions_delete_aria": {
+      "message": "Удалить %1"
+   },
+   "your_expressions_edit_aria": {
+      "message": "Редактировать %1"
+   },
+   "your_expressions_empty": {
+      "message": "Сохранённых выражений пока нет. Нажмите «Добавить новое», чтобы создать."
+   },
+   "your_expressions_name_placeholder": {
+      "message": "Название выражения (напр. Моё уведомление о пополнении)"
+   },
+   "your_expressions_yours_badge": {
+      "message": "Ваши"
+   }
+}

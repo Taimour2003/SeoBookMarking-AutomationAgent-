@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Keyword search volume, CPC and insights for all keywords you search. Works with Google, YouTube and Amazon. SEO tool by Neil Patel."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Ubersuggest - SEO and Keyword Discovery"
+   }
+}

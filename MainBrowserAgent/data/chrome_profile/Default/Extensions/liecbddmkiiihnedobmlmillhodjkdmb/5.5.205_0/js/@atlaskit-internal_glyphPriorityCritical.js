@@ -1,0 +1,5 @@
+"use strict";
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="52c1015f-c765-5a8e-8563-4af9a640bf51")}catch(e){}}();
+(self.webpackChunk_loomhq_chrome_extension=self.webpackChunk_loomhq_chrome_extension||[]).push([[1188],{248895:(e,l,t)=>{Object.defineProperty(l,"__esModule",{value:!0}),l.default=void 0;var a=r(t(792860)),o=r(t(828654));function r(e){return e&&e.__esModule?e:{default:e}}const n=e=>a.default.createElement(o.default,Object.assign({name:"PriorityCriticalIcon",dangerouslySetGlyph:'<path fill="currentcolor" d="M12.837 14.836A.75.75 0 0 0 14 14.21v-9a.75.75 0 0 0-.337-.626l-5.25-3.46a.75.75 0 0 0-.826 0l-5.25 3.46A.75.75 0 0 0 2 5.21v9l.007.103a.75.75 0 0 0 1.156.523L8 11.65zm-4.424-4.713a.75.75 0 0 0-.826 0L3.5 12.818V5.614L8 2.65l4.5 2.965v7.204z"/>'},e));n.displayName="PriorityCriticalIcon",l.default=n}}]);
+//# sourceMappingURL=@atlaskit-internal_glyphPriorityCritical.js.map
+//# debugId=52c1015f-c765-5a8e-8563-4af9a640bf51

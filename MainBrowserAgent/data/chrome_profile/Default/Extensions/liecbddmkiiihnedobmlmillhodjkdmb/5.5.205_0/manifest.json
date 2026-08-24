@@ -1,0 +1,92 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "images/icon_128.png",
+         "16": "images/icon_16.png",
+         "32": "images/icon_32.png",
+         "48": "images/icon_64.png"
+      },
+      "default_popup": "html/popup.html"
+   },
+   "background": {
+      "service_worker": "js/sw.js"
+   },
+   "commands": {
+      "_execute_action": {
+         "suggested_key": {
+            "chromeos": "Alt+Shift+L",
+            "linux": "Alt+Shift+L",
+            "mac": "Alt+Shift+L",
+            "windows": "Alt+Shift+L"
+         }
+      },
+      "cancel-recording": {
+         "description": "Cancel a Recording",
+         "suggested_key": {
+            "chromeos": "Alt+Shift+C",
+            "linux": "Alt+Shift+C",
+            "mac": "Alt+Shift+C",
+            "windows": "Alt+Shift+C"
+         }
+      },
+      "restart-recording": {
+         "description": "Restart a Recording",
+         "suggested_key": {
+            "chromeos": "Alt+Shift+R",
+            "linux": "Alt+Shift+R",
+            "mac": "Alt+Shift+R",
+            "windows": "Alt+Shift+R"
+         }
+      },
+      "toggle-pause-recording": {
+         "description": "Pause/Resume a Recording",
+         "suggested_key": {
+            "chromeos": "Alt+Shift+P",
+            "linux": "Alt+Shift+P",
+            "mac": "Alt+Shift+P",
+            "windows": "Alt+Shift+S"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "js": [ "js/companionBubble.js" ],
+      "matches": [ "https://www.figma.com/*", "https://docs.google.com/spreadsheets/*", "https://snowflake.com/*", "https://*.github.com/*", "https://*.airtable.com/*", "https://*.atlassian.net/*", "https://trello.com/", "https://app.hubspot.com/*", "https://www.notion.so/*", "https://*.snowflakecomputing.com/console#/*", "https://app.slack.com/client/*", "https://mail.google.com/*", "https://*.monday.com/*", "https://www.linkedin.com/*", "https://business.facebook.com/*", "https://docs.google.com/presentation/*", "https://app.asana.com/*", "https://docs.google.com/document/*", "https://drive.google.com/drive/*", "https://app.clickup.com/*", "https://*.canva.com/*", "https://*.outreach.io/*", "https://*.salesloft.com/*", "https://meet.google.com/*", "https://*.snowflakecomputing.com/console#/*" ]
+   }, {
+      "js": [ "js/gmail.js" ],
+      "matches": [ "https://mail.google.com/*" ]
+   }, {
+      "js": [ "js/recordConsoleEventsInjector.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   }, {
+      "js": [ "js/recordNetworkEventsInjector.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   }, {
+      "js": [ "js/linkExpand.js" ],
+      "matches": [ "https://github.com/*", "https://gitlab.com/*", "https://app.intercom.io/*", "https://*.intercom.help/*", "https://support.loom.com/*", "https://support.loom.com/*", "https://www.producthunt.com/*", "https://www.dropbox.com/*", "https://news.ycombinator.com/*", "https://docs.google.com/document/*", "https://*.force.com/*", "https://app.salesforceiq.com/*", "https://app.outreach.io/*", "https://app.hubspot.com/*", "https://app.salesloft.com/*" ]
+   } ],
+   "content_security_policy": {
+      "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'"
+   },
+   "description": "Record your screen and camera with one click. Share that content in an instant with a link.",
+   "externally_connectable": {
+      "matches": [ "https://www.loom.com/*" ]
+   },
+   "host_permissions": [ "\u003Call_urls>", "*://.loom.com/" ],
+   "icons": {
+      "128": "images/icon_128.png",
+      "16": "images/icon_16.png",
+      "32": "images/icon_32.png",
+      "48": "images/icon_64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmZFj917h4EU9f4REZfCPN8trg2B2rJhv74sHdsu3ii+OeKu2TZTBH6gewXMvw+cBb/jPwhho0JF/RJAuRe1DrAEXmbMhBmYrE5Zj3aNP1o5VPGMxqCHWX30UP8HqUzL6OYoIB04u8gu43yXiTqdo9+HV27mPbR4OSssGsJELeT9uGah8oO5ouSFrxNiPwqgP/7ZggwwB16H1T6foQAk4JNL43Zm9dKHAz43ev+/eBRb19yl6K66GPgyxx7fryXv0Y4g+IEM9lu948t26AUncIr/TwJ0bca8cadsjrYAomDYiqCGUZcbLmYryR20FnAtsjTH1Mj1nHThwuvn2bJUc+wIDAQAB",
+   "manifest_version": 3,
+   "name": "Loom – Screen Recorder & Screen Capture",
+   "permissions": [ "system.memory", "activeTab", "alarms", "contextMenus", "cookies", "desktopCapture", "scripting", "storage", "system.cpu", "system.display", "tabCapture", "webNavigation", "webRequest" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "5.5.205",
+   "version_name": "5.5.205",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "html/bubble.html", "html/pinnedTab.html", "html/permissionsCheck.html", "html/embedView.html", "html/audioVisualizer.html", "html/videoPreview.html", "html/videoPreviewThumbnail.html", "images/allow_site_access.png", "images/ai-avatars-preview.png", "images/avatar-placeholder.svg", "images/blur-ftux.webp", "images/dark-loading-ring.svg", "images/loom-logo-cursor.svg", "images/pinned-tab.png", "images/pinned-tab-preview.png", "images/updated-extension.png", "images/video-limit.png", "images/dragbar_arrow.png", "images/live-rewind-popup.png", "images/os-permission-tutorial.png", "images/camfort/templates/meeting.png", "images/camfort/templates/standup.png", "images/camfort/templates/celebration.png", "images/camfort/templates/news.png", "images/camfort/templates/intro.png", "images/camfort/templates/gradient.png", "images/camfort/templates/rainbow.png", "images/camfort/templates/paint.png", "images/camfort/templates/splash.png", "images/camfort/templates/geometric.png", "images/camfort/templates/flowers.png", "images/camfort/templates/empty.png", "images/camfort/templates/centered.png", "images/camfort/templates/slide_one.png", "images/camfort/templates/slide_two.png", "images/camfort/templates/short_list.png", "images/camfort/templates/long_list.png", "images/camfort/templates/bubbleGoesHereThumbnail.png", "images/gmail/bullets.svg", "images/gmail/bullets-salmon.svg", "images/gmail/compose-button.svg", "images/gmail/gmail-integration-button.svg", "images/blur_hover_preview.png", "images/canvas_hover_preview.png", "images/filter_reference.png", "img/installed.jpg", "fonts/AtlassianSans-cyrillic-ext.woff2", "fonts/AtlassianSans-cyrillic.woff2", "fonts/AtlassianSans-greek-ext.woff2", "fonts/AtlassianSans-greek.woff2", "fonts/AtlassianSans-latin-ext.woff2", "fonts/AtlassianSans-latin.woff2", "fonts/AtlassianSans-vietnamese.woff2", "audio/loom_complete.mp3", "audio/loom_countdown.mp3", "audio/loom_pause.mp3", "audio/loom_start.mp3", "audio/screenshot-shutter.mp3", "images/blurred-ellipse.png", "images/facepile-theme-dark.png", "images/facepile-theme-light.png", "js/muxer.wasm", "js/recordConsoleEvents.js", "js/recordNetworkEvents.js" ]
+   } ]
+}

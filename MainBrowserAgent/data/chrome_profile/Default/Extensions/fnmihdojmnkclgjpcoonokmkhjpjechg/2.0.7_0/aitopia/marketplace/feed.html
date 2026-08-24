@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+<script src="/aitopia/marketplace/js/extension-config.js"></script>
+  <script src="/aitopia/marketplace/js/shared/pre-auth.js"></script>
+
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <base href="/aitopia/marketplace/home.html">
+  <title> Smart Sidebar (AITOPIA)</title>
+  <meta name="description" content="Your feed of followed creators.">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <link rel="icon" type="image/x-icon" href="/aitopia/marketplace/favicon.ico">
+  <link href="/aitopia/marketplace/css/vendor/css2.css" rel="stylesheet">
+
+  <script src="/aitopia/marketplace/js/vendor/tailwindcss.min.js"></script>
+  <script src="/aitopia/marketplace/store/tailwind-config.js"></script>
+  <link rel="stylesheet" href="/aitopia/marketplace/store/shared.css">
+  <link rel="stylesheet" href="/aitopia/marketplace/social.css">
+
+  <script src="/aitopia/marketplace/js/inline/feed-inline-1.js"></script>
+  <script src="/aitopia/marketplace/js/inline/feed-inline-2.js"></script>
+</head>
+
+<body class="min-h-screen font-sans antialiased bg-white dark:bg-neutral-950 text-gray-900 dark:text-white transition-colors aifnmjmchg aifnmjmchg-marketplace">
+  <div id="navbar-container"></div>
+  <script src="/aitopia/marketplace/js/shared/cache.js"></script>
+  <script src="/aitopia/marketplace/js/components/navbar.js"></script>
+
+  <main class="max-w-[1600px] mx-auto px-3 sm:px-4 lg:px-6 py-8 max-w-5xl">
+    <div class="flex items-end justify-between gap-4">
+      <div>
+        <h1 class="text-3xl font-bold tracking-tight">Feed</h1>
+        <p class="text-sm text-muted-foreground mt-2">Creations and remixes from people you follow.</p>
+      </div>
+      <a href="/aitopia/marketplace/discover.html" class="h-11 px-5 inline-flex items-center justify-center rounded-full bg-secondary hover:bg-secondary/80 text-sm font-semibold transition-colors">
+        Discover
+      </a>
+    </div>
+
+    <div id="notice" class="mt-6 hidden rounded-ios-xl border border-border bg-card p-4 text-sm"></div>
+
+    <div id="list" class="mt-8 space-y-6"></div>
+    <div id="scrollSentinel" class="h-px w-full"></div>
+
+    <div id="emptyState" class="hidden mt-14 text-center">
+      <div class="w-16 h-16 mx-auto rounded-ios-2xl bg-secondary flex items-center justify-center text-3xl">📰</div>
+      <h2 class="mt-5 text-xl font-semibold">No posts yet</h2>
+      <p class="mt-2 text-sm text-muted-foreground">Follow creators to see their new creations here.</p>
+      <a href="/aitopia/marketplace/discover.html" class="mt-6 inline-flex items-center justify-center h-11 px-6 rounded-full bg-secondary hover:bg-secondary/80 text-sm font-semibold transition-colors">Go to Discover</a>
+    </div>
+
+    <div class="mt-10 flex justify-center">
+      <button id="loadMore" type="button" class="hidden h-11 px-6 rounded-full bg-secondary hover:bg-secondary/80 text-sm font-semibold transition-colors">
+        Load more
+      </button>
+    </div>
+  </main>
+
+  <script type="module" src="/aitopia/marketplace/js/shared/fetch-helper.js"></script>
+  <script type="module" src="/aitopia/marketplace/js/feed/feed.js"></script>
+  <script src="/aitopia/marketplace/js/shared/global-nav.js"></script>
+<script src="/aitopia/marketplace/js/shared/footer.js"></script>
+</body>
+</html>

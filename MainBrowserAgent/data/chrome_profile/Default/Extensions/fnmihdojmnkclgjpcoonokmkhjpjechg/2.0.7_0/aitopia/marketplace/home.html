@@ -1,0 +1,1648 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+<script src="/aitopia/marketplace/js/extension-config.js"></script>
+  <script src="/aitopia/marketplace/js/shared/pre-auth.js"></script>
+  
+
+
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <base href="/aitopia/marketplace/home.html">
+  <title> Smart Sidebar (AITOPIA)</title>
+  <link rel="icon" type="image/x-icon" href="/aitopia/marketplace/favicon.ico">
+  <meta name="description" content="Discover amazing AI agents for image, video, and content creation.">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <link href="/aitopia/marketplace/css/vendor/css2.css" rel="stylesheet">
+  <script src="/aitopia/marketplace/js/vendor/tailwindcss.min.js"></script>
+  <script src="/aitopia/marketplace/store/tailwind-config.js"></script>
+  <script src="/aitopia/marketplace/js/inline/home-inline-2.js"></script>
+  <style>
+    /* CSS Variables for light theme */
+    :root {
+      --aifnmjmchg-m-background: 0 0% 100%;
+      --aifnmjmchg-m-foreground: 0 0% 3.9%;
+      --aifnmjmchg-m-card: 0 0% 100%;
+      --aifnmjmchg-m-card-foreground: 0 0% 3.9%;
+      --aifnmjmchg-m-popover: 0 0% 100%;
+      --aifnmjmchg-m-popover-foreground: 0 0% 3.9%;
+      --aifnmjmchg-m-primary: 0 0% 0%;
+      --aifnmjmchg-m-primary-foreground: 210 40% 98%;
+      --aifnmjmchg-m-secondary: 0 0% 100%;
+      --aifnmjmchg-m-secondary-foreground: 222.2 47.4% 11.2%;
+      --aifnmjmchg-m-muted: 210 40% 96.1%;
+      --aifnmjmchg-m-muted-foreground: 215.4 16.3% 46.9%;
+      --aifnmjmchg-m-accent: 210 40% 96.1%;
+      --aifnmjmchg-m-accent-foreground: 222.2 47.4% 11.2%;
+      --aifnmjmchg-m-destructive: 0 84.2% 60.2%;
+      --aifnmjmchg-m-border: 214.3 31.8% 91.4%;
+      --aifnmjmchg-m-input: 214.3 31.8% 91.4%;
+      --aifnmjmchg-m-ring: 260 79% 59%;
+    }
+
+    /* CSS Variables for dark theme */
+    .dark {
+      --aifnmjmchg-m-background: 0 0% 3.9%;
+      --aifnmjmchg-m-foreground: 0 0% 98%;
+      --aifnmjmchg-m-card: 0 0% 7%;
+      --aifnmjmchg-m-card-foreground: 0 0% 98%;
+      --aifnmjmchg-m-popover: 0 0% 7%;
+      --aifnmjmchg-m-popover-foreground: 0 0% 98%;
+      --aifnmjmchg-m-primary: 0 0% 100%;
+      --aifnmjmchg-m-primary-foreground: 0 0% 0%;
+      --aifnmjmchg-m-secondary: 0 0% 0%;
+      --aifnmjmchg-m-secondary-foreground: 210 40% 98%;
+      --aifnmjmchg-m-muted: 217.2 32.6% 17.5%;
+      --aifnmjmchg-m-muted-foreground: 215 20.2% 65.1%;
+      --aifnmjmchg-m-accent: 217.2 32.6% 17.5%;
+      --aifnmjmchg-m-accent-foreground: 210 40% 98%;
+      --aifnmjmchg-m-destructive: 0 62.8% 30.6%;
+      --aifnmjmchg-m-border: 217.2 32.6% 17.5%;
+      --aifnmjmchg-m-input: 217.2 32.6% 17.5%;
+      --aifnmjmchg-m-ring: 260 79% 59%;
+    }
+
+    * {
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: hsl(var(--aifnmjmchg-m-muted-foreground) / 0.3);
+      border-radius: 4px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: hsl(var(--aifnmjmchg-m-muted-foreground) / 0.5);
+    }
+
+    /* iOS-style Multi-Page Navigation Drawer */
+    .nav-drawer-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.5);
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+      transition: opacity 0.3s ease, visibility 0.3s ease;
+      z-index: 100;
+    }
+
+    .nav-drawer-overlay.open {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+    }
+
+    .nav-drawer {
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      width: 320px;
+      max-width: 85vw;
+      background: hsl(var(--aifnmjmchg-m-card));
+      transform: translateX(-100%);
+      transition: transform 0.35s cubic-bezier(0.32, 0.72, 0, 1);
+      z-index: 101;
+      overflow: hidden;
+      padding-top: env(safe-area-inset-top, 0px);
+      padding-bottom: env(safe-area-inset-bottom, 0px);
+    }
+
+    .nav-drawer.open {
+      transform: translateX(0);
+    }
+
+    /* Multi-page container */
+    .nav-pages-container {
+      display: flex;
+      width: 200%;
+      height: 100%;
+      transition: transform 0.35s cubic-bezier(0.32, 0.72, 0, 1);
+    }
+
+    .nav-pages-container.show-subpage {
+      transform: translateX(-50%);
+    }
+
+    .nav-page {
+      width: 50%;
+      height: 100%;
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+      flex-shrink: 0;
+    }
+
+    .nav-drawer-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px 20px;
+      border-bottom: 1px solid hsl(var(--aifnmjmchg-m-border));
+      position: sticky;
+      top: 0;
+      background: hsl(var(--aifnmjmchg-m-card));
+      z-index: 1;
+      min-height: 60px;
+    }
+
+    .nav-drawer-header-left {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .nav-back-btn {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      padding: 6px 10px 6px 4px;
+      border-radius: 8px;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      color: #007AFF;
+      font-size: 15px;
+      font-weight: 500;
+      transition: background 0.15s;
+    }
+
+    .nav-back-btn:hover {
+      background: hsl(var(--aifnmjmchg-m-secondary));
+    }
+
+    .nav-back-btn:active {
+      opacity: 0.7;
+    }
+
+    .nav-back-btn svg {
+      width: 20px;
+      height: 20px;
+    }
+
+    .nav-drawer-title {
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    .nav-drawer-close {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: hsl(var(--aifnmjmchg-m-secondary));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+      cursor: pointer;
+      transition: background 0.15s;
+      flex-shrink: 0;
+    }
+
+    .nav-drawer-close:hover {
+      background: hsl(var(--aifnmjmchg-m-muted));
+    }
+
+    .nav-drawer-close:active {
+      transform: scale(0.95);
+    }
+
+    .nav-section {
+      padding: 16px 20px;
+      border-bottom: 1px solid hsl(var(--aifnmjmchg-m-border));
+    }
+
+    .nav-section:last-child {
+      border-bottom: none;
+    }
+
+    .nav-section-title {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: hsl(var(--aifnmjmchg-m-muted-foreground));
+      margin-bottom: 12px;
+    }
+
+    /* Main menu item - links to sub-pages */
+    .nav-menu-item {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 14px 16px;
+      margin: 4px 0;
+      cursor: pointer;
+      transition: background 0.15s;
+      border-radius: 12px;
+      background: hsl(var(--aifnmjmchg-m-secondary) / 0.5);
+    }
+
+    .nav-menu-item:hover {
+      background: hsl(var(--aifnmjmchg-m-secondary));
+    }
+
+    .nav-menu-item:active {
+      background: hsl(var(--aifnmjmchg-m-muted));
+      transform: scale(0.98);
+    }
+
+    .nav-menu-item.active {
+      background: hsl(var(--aifnmjmchg-m-primary) / 0.15);
+      border: 1px solid hsl(var(--aifnmjmchg-m-primary) / 0.3);
+    }
+
+    .nav-menu-item.active .nav-menu-text {
+      color: hsl(var(--aifnmjmchg-m-primary));
+      font-weight: 600;
+    }
+
+    .nav-menu-icon {
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      flex-shrink: 0;
+      background: #F3F5F9;
+    }
+    .dark .nav-menu-icon {
+      background: #262626;
+    }
+    .dark .nav-menu-icon img {
+      filter: brightness(0) invert(1);
+    }
+
+    .nav-menu-text {
+      flex: 1;
+      font-size: 16px;
+      font-weight: 500;
+    }
+
+    .nav-menu-badge {
+      font-size: 13px;
+      color: hsl(var(--aifnmjmchg-m-muted-foreground));
+      padding: 2px 8px;
+      background: hsl(var(--aifnmjmchg-m-secondary));
+      border-radius: 10px;
+    }
+
+    .nav-menu-badge.active {
+      background: #007AFF;
+      color: white;
+    }
+
+    .nav-menu-chevron {
+      width: 18px;
+      height: 18px;
+      color: hsl(var(--aifnmjmchg-m-muted-foreground));
+    }
+
+    /* Category item in subpage */
+    .nav-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 12px 16px;
+      margin: 2px 0;
+      cursor: pointer;
+      transition: all 0.15s;
+      border-radius: 10px;
+    }
+
+    .nav-item:hover {
+      background: hsl(var(--aifnmjmchg-m-secondary) / 0.5);
+    }
+
+    .nav-item:active {
+      background: hsl(var(--aifnmjmchg-m-secondary));
+    }
+
+    .nav-item.selected {
+      background: hsl(var(--aifnmjmchg-m-primary) / 0.15);
+    }
+
+    .nav-item-icon {
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      flex-shrink: 0;
+      background: #F3F5F9;
+    }
+    .dark .nav-item-icon {
+      background: #262626;
+    }
+    .dark .nav-item-icon img {
+      filter: brightness(0) invert(1);
+    }
+
+    .nav-item-text {
+      flex: 1;
+      font-size: 15px;
+      font-weight: 500;
+    }
+
+    .nav-item-count {
+      font-size: 13px;
+      color: hsl(var(--aifnmjmchg-m-muted-foreground));
+    }
+
+    .nav-item-check {
+      width: 20px;
+      height: 20px;
+      color: #007AFF;
+      display: none;
+    }
+
+    .nav-item.selected .nav-item-check {
+      display: block;
+    }
+
+    /* Filter chips in subpages */
+    .nav-filter-list {
+      padding: 8px 16px;
+    }
+
+    .nav-filter-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 16px;
+      margin: 4px 0;
+      background: hsl(var(--aifnmjmchg-m-secondary) / 0.5);
+      border-radius: 12px;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+
+    .nav-filter-item:hover {
+      background: hsl(var(--aifnmjmchg-m-secondary));
+    }
+
+    .nav-filter-item:active {
+      transform: scale(0.98);
+    }
+
+    .nav-filter-item.active {
+      background: hsl(var(--aifnmjmchg-m-primary) / 0.15);
+      border: 1px solid hsl(var(--aifnmjmchg-m-primary) / 0.3);
+    }
+
+    .nav-filter-item-left {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .nav-filter-item-icon {
+      width: 28px;
+      height: 28px;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+    }
+
+    .nav-filter-item-text {
+      font-size: 15px;
+      font-weight: 500;
+    }
+
+    .nav-filter-item-count {
+      font-size: 13px;
+      color: hsl(var(--aifnmjmchg-m-muted-foreground));
+      background: hsl(var(--aifnmjmchg-m-secondary));
+      padding: 2px 8px;
+      border-radius: 10px;
+    }
+
+    .nav-filter-item.active .nav-filter-item-count {
+      background: #007AFF;
+      color: white;
+    }
+
+    .nav-filter-check {
+      width: 20px;
+      height: 20px;
+      color: #007AFF;
+      opacity: 0;
+      transition: opacity 0.15s;
+    }
+
+    .nav-filter-item.active .nav-filter-check {
+      opacity: 1;
+    }
+
+    /* Clear filters button */
+    .nav-clear-filters {
+      margin: 16px;
+      padding: 14px;
+      border-radius: 12px;
+      background: hsl(var(--aifnmjmchg-m-destructive) / 0.1);
+      color: hsl(var(--aifnmjmchg-m-destructive));
+      font-size: 15px;
+      font-weight: 600;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.15s;
+      border: none;
+      width: calc(100% - 32px);
+    }
+
+    .nav-clear-filters:hover {
+      background: hsl(var(--aifnmjmchg-m-destructive) / 0.15);
+    }
+
+    .nav-clear-filters:active {
+      transform: scale(0.98);
+    }
+
+    /* Hamburger Menu Button */
+    .hamburger-btn {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: background 0.15s;
+      flex-shrink: 0;
+    }
+
+    .hamburger-btn:hover {
+      background: hsl(var(--aifnmjmchg-m-secondary));
+    }
+
+    .hamburger-btn:active {
+      transform: scale(0.95);
+    }
+
+    .hamburger-icon {
+      width: 20px;
+      height: 14px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .hamburger-icon span {
+      display: block;
+      width: 100%;
+      height: 2px;
+      background: currentColor;
+      border-radius: 1px;
+      transition: all 0.3s;
+    }
+
+    /* Active filter indicator */
+    .active-filters-badge {
+      position: absolute;
+      top: 6px;
+      right: 6px;
+      width: 8px;
+      height: 8px;
+      background: hsl(var(--aifnmjmchg-m-primary));
+      border-radius: 50%;
+    }
+
+    /* Hide scrollbar for horizontal scroll */
+    .hide-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .hide-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    /* Glassmorphism */
+    .glass {
+      background: rgba(255, 255, 255, 0.72);
+      backdrop-filter: saturate(180%) blur(20px);
+      -webkit-backdrop-filter: saturate(180%) blur(20px);
+    }
+
+    .dark .glass {
+      background: rgba(28, 28, 30, 0.72);
+    }
+
+    /* Card hover effects */
+    .card-hover {
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .card-hover:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    }
+
+    .card-hover:active {
+      transform: scale(0.98);
+    }
+
+    /* Mobile masonry layout */
+    @media (max-width: 639px) {
+      /* Masonry-style 2-column grid with varied heights */
+      .masonry-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 8px;
+        grid-auto-flow: dense;
+        gap: 6px;
+      }
+      /* Card info on mobile - dark background with title + description */
+      .masonry-grid .agent-card {
+        background: hsl(var(--aifnmjmchg-m-card)) !important;
+        border: 1px solid hsl(var(--aifnmjmchg-m-border) / 0.3) !important;
+        overflow: hidden;
+      }
+      .masonry-grid .card-info {
+        padding: 10px 12px 12px !important;
+        background: hsl(var(--aifnmjmchg-m-card));
+      }
+      .masonry-grid .card-info h3 {
+        font-size: 13px !important;
+        font-weight: 700;
+        line-height: 1.3;
+        margin: 0 0 2px 0 !important;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .masonry-grid .card-info p {
+        font-size: 11px !important;
+        line-height: 1.3;
+        margin: 0 !important;
+        opacity: 0.6;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: block !important;
+      }
+      /* Hide price badge and button on mobile */
+      .masonry-grid .card-info > div {
+        display: none !important;
+      }
+      /* Base card style */
+      .masonry-grid .agent-card {
+        border-radius: 16px;
+        border: none;
+        box-shadow: none;
+        background: transparent;
+      }
+      /* Force odd items to column 1, even items to column 2 */
+      .masonry-grid .agent-card:nth-child(odd) { grid-column: 1; }
+      .masonry-grid .agent-card:nth-child(even) { grid-column: 2; }
+
+      /* Card media fills the card */
+      .masonry-grid .card-media {
+        height: 100%;
+        border-radius: 16px;
+        overflow: hidden;
+      }
+      .masonry-grid .card-media img,
+      .masonry-grid .card-media video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+
+      /* Horizontal = short height cards (JS overrides for dynamic balancing) */
+      /* All cards short/horizontal as fallback */
+      .masonry-grid .agent-card { grid-row: span 15; }
+
+      /* Minimal popular badge on mobile */
+      .masonry-grid .popular-badge {
+        padding: 3px 8px;
+        font-size: 9px;
+        top: 6px;
+        left: 6px;
+        background: rgba(139, 92, 246, 0.85);
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+      }
+    }
+
+    /* Button press effect */
+    .btn-press {
+      transition: all 0.15s ease;
+    }
+
+    .btn-press:active {
+      transform: scale(0.95);
+    }
+
+    /* Slider tab active state */
+    .slider-tab.active {
+      background: hsl(var(--aifnmjmchg-m-card));
+      box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    }
+
+    /* Image zoom on hover */
+    .img-zoom {
+      transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .img-zoom:hover {
+      transform: scale(1.05);
+    }
+
+    /* Gradient text */
+    .gradient-text {
+      background: linear-gradient(135deg, #007AFF 0%, #5856D6 50%, #AF52DE 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    /* Skeleton loading */
+    .skeleton {
+      background: linear-gradient(90deg, hsl(var(--aifnmjmchg-m-muted)) 25%, hsl(var(--aifnmjmchg-m-muted-foreground) / 0.1) 50%, hsl(var(--aifnmjmchg-m-muted)) 75%);
+      background-size: 200% 100%;
+      animation: shimmer 2s infinite;
+    }
+
+    /* iOS-style app icon */
+    .app-icon {
+      border-radius: 22.37%;
+      box-shadow: 0 0 0 0.5px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.1);
+    }
+
+    /* Smooth page transitions */
+    .page-enter {
+      animation: fadeUp 0.4s ease-out;
+    }
+
+    /* Detail modal */
+    .modal-backdrop {
+      transition: opacity 0.3s ease;
+    }
+
+    .modal-content {
+      transition: all 0.35s cubic-bezier(0.32, 0.72, 0, 1);
+    }
+
+    /* Stagger animation for lists - using @keyframes directly */
+    @keyframes staggerFadeUp {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    .stagger-item {
+      animation: staggerFadeUp 0.4s ease-out forwards;
+    }
+
+    .stagger-item:nth-child(1) { animation-delay: 0ms; }
+    .stagger-item:nth-child(2) { animation-delay: 50ms; }
+    .stagger-item:nth-child(3) { animation-delay: 100ms; }
+    .stagger-item:nth-child(4) { animation-delay: 150ms; }
+    .stagger-item:nth-child(5) { animation-delay: 200ms; }
+    .stagger-item:nth-child(6) { animation-delay: 250ms; }
+    .stagger-item:nth-child(7) { animation-delay: 300ms; }
+    .stagger-item:nth-child(8) { animation-delay: 350ms; }
+
+    /* Safe area for mobile */
+    .safe-top {
+      padding-top: env(safe-area-inset-top, 0px);
+    }
+
+    .safe-bottom {
+      padding-bottom: env(safe-area-inset-bottom, 0px);
+    }
+
+    /* Share menu styles */
+    @keyframes shareMenuIn {
+      0% { opacity: 0; transform: scale(0.95) translateY(-4px); }
+      100% { opacity: 1; transform: scale(1) translateY(0); }
+    }
+
+    .share-menu {
+      animation: shareMenuIn 0.15s ease-out;
+    }
+
+    .share-menu-item {
+      transition: background-color 0.15s ease;
+    }
+
+    .share-menu-item:hover:not(:disabled) {
+      background: hsl(var(--aifnmjmchg-m-muted));
+    }
+
+    .share-menu-item:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    /* Toast notification */
+    @keyframes toastIn {
+      0% { opacity: 0; transform: translateY(16px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes toastOut {
+      0% { opacity: 1; transform: translateY(0); }
+      100% { opacity: 0; transform: translateY(16px); }
+    }
+
+    .toast {
+      animation: toastIn 0.2s ease-out;
+    }
+
+    .toast.hiding {
+      animation: toastOut 0.2s ease-in forwards;
+    }
+
+  </style>
+  <!-- Shared styles (for consistency with static SEO pages) -->
+  <link rel="stylesheet" href="/aitopia/marketplace/store/shared.css">
+</head>
+<body class="bg-background text-foreground min-h-screen antialiased aifnmjmchg aifnmjmchg-marketplace">
+
+
+  <!-- Navbar -->
+  <div id="navbar-container" data-navbar-context="home"></div>
+  <script src="/aitopia/marketplace/js/components/navbar.js"></script>
+  <script src="/aitopia/marketplace/js/shared/global-nav.js"></script>
+
+  <!-- Main Content -->
+  <main class="max-w-[1600px] mx-auto px-3 sm:px-4 lg:px-6">
+    <!-- Today Tab Content -->
+    <div id="todayTab" class="tab-content">
+      <!-- Date Header -->
+      <div class="py-4">
+        <p class="text-sm font-semibold text-muted-foreground uppercase tracking-wide" id="dateDisplay"></p>
+        <h1 class="text-3xl md:text-4xl font-bold mt-1">Today</h1>
+      </div>
+
+      <!-- Featured Card (App Store Style) -->
+      <section class="py-4">
+        <div class="relative overflow-hidden rounded-ios-2xl bg-gradient-to-br from-primary/90 via-indigo-600 to-blue-600 cursor-pointer group" data-action="openDetail" data-param="video-generator">
+          <div class="absolute inset-0 opacity-30">
+            <img src="https://aitopia.ai/agent-images/video-generator-1.webp" class="w-full h-full object-cover" alt="">
+          </div>
+          <div class="relative p-6 md:p-8">
+            <span class="text-xs font-semibold text-white/70 uppercase tracking-wider">Featured Agent</span>
+            <h2 class="text-2xl md:text-3xl font-bold text-white mt-2 mb-2">Video Generator</h2>
+            <p class="text-white/80 text-sm md:text-base max-w-md mb-4">Create stunning AI videos with Runway Gen-3 Alpha</p>
+            <div class="flex items-center gap-3">
+              <img src="https://aitopia.ai/agent-images/video-generator-1.webp" class="w-12 h-12 rounded-ios object-cover app-icon" alt="">
+              <div class="flex-1">
+                <p class="text-white font-semibold text-sm">Video Generator</p>
+              </div>
+              <button class="px-5 py-2 rounded-full bg-primary-foreground/20 backdrop-blur-sm text-white text-sm font-semibold hover:bg-primary-foreground/30 transition-colors btn-press">
+                Get
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- Quick Categories (dynamically populated from API) -->
+    <section class="py-4">
+      <div class="category-buttons-container flex gap-2 overflow-x-auto hide-scrollbar pb-2">
+        <!-- Fallback buttons (replaced by API data on load) -->
+        <button data-action="goToAgentsPage" class="category-btn active flex-shrink-0 px-4 py-2 rounded-full bg-primary text-primary-foreground text-sm font-medium transition-all btn-press" data-category="all">
+          All Agents
+        </button>
+        <button data-action="goToAgentsPage" data-param="image" class="category-btn flex-shrink-0 px-4 py-2 rounded-full bg-secondary hover:bg-secondary/80 text-secondary-foreground text-sm font-medium transition-all btn-press" data-category="image">
+          Image
+        </button>
+        <button data-action="goToAgentsPage" data-param="video" class="category-btn flex-shrink-0 px-4 py-2 rounded-full bg-secondary hover:bg-secondary/80 text-secondary-foreground text-sm font-medium transition-all btn-press" data-category="video">
+          Video
+        </button>
+        <button data-action="goToAgentsPage" data-param="audio" class="category-btn flex-shrink-0 px-4 py-2 rounded-full bg-secondary hover:bg-secondary/80 text-secondary-foreground text-sm font-medium transition-all btn-press" data-category="audio">
+          Audio & Voice
+        </button>
+        <button data-action="goToAgentsPage" data-param="productivity" class="category-btn flex-shrink-0 px-4 py-2 rounded-full bg-secondary hover:bg-secondary/80 text-secondary-foreground text-sm font-medium transition-all btn-press" data-category="productivity">
+          Productivity
+        </button>
+        <button data-action="goToAgentsPage" data-param="commerce" class="category-btn flex-shrink-0 px-4 py-2 rounded-full bg-secondary hover:bg-secondary/80 text-secondary-foreground text-sm font-medium transition-all btn-press" data-category="commerce">
+          Commerce
+        </button>
+        <button data-action="goToAgentsPage" data-param="marketing" class="category-btn flex-shrink-0 px-4 py-2 rounded-full bg-secondary hover:bg-secondary/80 text-secondary-foreground text-sm font-medium transition-all btn-press" data-category="marketing">
+          Marketing
+        </button>
+        <button data-action="goToAgentsPage" data-param="dev" class="category-btn flex-shrink-0 px-4 py-2 rounded-full bg-secondary hover:bg-secondary/80 text-secondary-foreground text-sm font-medium transition-all btn-press" data-category="dev">
+          Dev & Data
+        </button>
+        <button data-action="goToAgentsPage" data-param="business" class="category-btn flex-shrink-0 px-4 py-2 rounded-full bg-secondary hover:bg-secondary/80 text-secondary-foreground text-sm font-medium transition-all btn-press" data-category="business">
+          Business
+        </button>
+        <!-- AI Models button added dynamically by renderCategoryButtons() -->
+      </div>
+    </section>
+
+    <!-- Filter Chips (platforms, verticals, channels, models) - HIDDEN: Use hamburger menu instead -->
+    <section class="py-2 hidden" id="filterChipsSection">
+      <div id="filterChipsContainer" class="space-y-1">
+        <!-- Populated dynamically by renderFilterChips() -->
+      </div>
+    </section>
+
+    <!-- Popular Agents -->
+    <section class="py-2" id="popularSection">
+      <div class="flex items-center justify-between mb-4">
+        <h2 id="popularTitle" class="text-xl md:text-2xl font-bold">Popular Right Now</h2>
+        <button data-scroll-to="allAgents" class="text-sm font-medium text-primary hover:text-primary/80 transition-colors">See All</button>
+      </div>
+      <div class="masonry-grid sm:grid sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 sm:gap-4 sm:justify-items-center" id="popularAgents">
+        <!-- Loading skeleton -->
+        <div class="agent-card bg-card rounded-ios-2xl border border-border/40 overflow-hidden w-full flex flex-col animate-pulse"><div class="aspect-square bg-muted/60 rounded-b-[20px]"></div><div class="p-4 flex flex-col flex-1"><div class="h-5 bg-muted/60 rounded w-3/4 mt-1"></div><div class="h-3 bg-muted/40 rounded w-full mt-3"></div><div class="h-3 bg-muted/40 rounded w-2/3 mt-1.5"></div><div class="mt-auto pt-4 flex items-center justify-between gap-3"><div class="h-8 bg-muted/50 rounded-full w-24"></div><div class="w-10 h-10 rounded-full bg-muted/40"></div></div></div></div>
+        <div class="agent-card bg-card rounded-ios-2xl border border-border/40 overflow-hidden w-full flex flex-col animate-pulse"><div class="aspect-square bg-muted/60 rounded-b-[20px]"></div><div class="p-4 flex flex-col flex-1"><div class="h-5 bg-muted/60 rounded w-3/4 mt-1"></div><div class="h-3 bg-muted/40 rounded w-full mt-3"></div><div class="h-3 bg-muted/40 rounded w-2/3 mt-1.5"></div><div class="mt-auto pt-4 flex items-center justify-between gap-3"><div class="h-8 bg-muted/50 rounded-full w-24"></div><div class="w-10 h-10 rounded-full bg-muted/40"></div></div></div></div>
+        <div class="agent-card bg-card rounded-ios-2xl border border-border/40 overflow-hidden w-full flex flex-col animate-pulse"><div class="aspect-square bg-muted/60 rounded-b-[20px]"></div><div class="p-4 flex flex-col flex-1"><div class="h-5 bg-muted/60 rounded w-3/4 mt-1"></div><div class="h-3 bg-muted/40 rounded w-full mt-3"></div><div class="h-3 bg-muted/40 rounded w-2/3 mt-1.5"></div><div class="mt-auto pt-4 flex items-center justify-between gap-3"><div class="h-8 bg-muted/50 rounded-full w-24"></div><div class="w-10 h-10 rounded-full bg-muted/40"></div></div></div></div>
+        <div class="agent-card bg-card rounded-ios-2xl border border-border/40 overflow-hidden w-full flex flex-col animate-pulse"><div class="aspect-square bg-muted/60 rounded-b-[20px]"></div><div class="p-4 flex flex-col flex-1"><div class="h-5 bg-muted/60 rounded w-3/4 mt-1"></div><div class="h-3 bg-muted/40 rounded w-full mt-3"></div><div class="h-3 bg-muted/40 rounded w-2/3 mt-1.5"></div><div class="mt-auto pt-4 flex items-center justify-between gap-3"><div class="h-8 bg-muted/50 rounded-full w-24"></div><div class="w-10 h-10 rounded-full bg-muted/40"></div></div></div></div>
+        <div class="agent-card bg-card rounded-ios-2xl border border-border/40 overflow-hidden w-full flex flex-col animate-pulse hidden sm:flex"><div class="aspect-square bg-muted/60 rounded-b-[20px]"></div><div class="p-4 flex flex-col flex-1"><div class="h-5 bg-muted/60 rounded w-3/4 mt-1"></div><div class="h-3 bg-muted/40 rounded w-full mt-3"></div><div class="h-3 bg-muted/40 rounded w-2/3 mt-1.5"></div><div class="mt-auto pt-4 flex items-center justify-between gap-3"><div class="h-8 bg-muted/50 rounded-full w-24"></div><div class="w-10 h-10 rounded-full bg-muted/40"></div></div></div></div>
+        <div class="agent-card bg-card rounded-ios-2xl border border-border/40 overflow-hidden w-full flex flex-col animate-pulse hidden lg:flex"><div class="aspect-square bg-muted/60 rounded-b-[20px]"></div><div class="p-4 flex flex-col flex-1"><div class="h-5 bg-muted/60 rounded w-3/4 mt-1"></div><div class="h-3 bg-muted/40 rounded w-full mt-3"></div><div class="h-3 bg-muted/40 rounded w-2/3 mt-1.5"></div><div class="mt-auto pt-4 flex items-center justify-between gap-3"><div class="h-8 bg-muted/50 rounded-full w-24"></div><div class="w-10 h-10 rounded-full bg-muted/40"></div></div></div></div>
+        <div class="agent-card bg-card rounded-ios-2xl border border-border/40 overflow-hidden w-full flex flex-col animate-pulse hidden lg:flex"><div class="aspect-square bg-muted/60 rounded-b-[20px]"></div><div class="p-4 flex flex-col flex-1"><div class="h-5 bg-muted/60 rounded w-3/4 mt-1"></div><div class="h-3 bg-muted/40 rounded w-full mt-3"></div><div class="h-3 bg-muted/40 rounded w-2/3 mt-1.5"></div><div class="mt-auto pt-4 flex items-center justify-between gap-3"><div class="h-8 bg-muted/50 rounded-full w-24"></div><div class="w-10 h-10 rounded-full bg-muted/40"></div></div></div></div>
+        <div class="agent-card bg-card rounded-ios-2xl border border-border/40 overflow-hidden w-full flex flex-col animate-pulse hidden xl:flex"><div class="aspect-square bg-muted/60 rounded-b-[20px]"></div><div class="p-4 flex flex-col flex-1"><div class="h-5 bg-muted/60 rounded w-3/4 mt-1"></div><div class="h-3 bg-muted/40 rounded w-full mt-3"></div><div class="h-3 bg-muted/40 rounded w-2/3 mt-1.5"></div><div class="mt-auto pt-4 flex items-center justify-between gap-3"><div class="h-8 bg-muted/50 rounded-full w-24"></div><div class="w-10 h-10 rounded-full bg-muted/40"></div></div></div></div>
+      </div>
+    </section>
+
+    <!-- Showcase Gallery -->
+    <section class="py-4">
+      <div class="flex items-center justify-between mb-4">
+        <h2 class="text-xl md:text-2xl font-bold">See It In Action</h2>
+        <span class="text-sm text-muted-foreground">AI Generated Content</span>
+      </div>
+
+      <!-- Featured Video Card (Large) -->
+      <div class="mb-4">
+        <div class="relative rounded-ios-2xl overflow-hidden bg-black group cursor-pointer">
+          <video class="w-full aspect-video object-cover pointer-events-none" autoplay muted loop playsinline>
+            <source src="https://aitopia.ai/agent-images/bullet-time-scene-video.mp4" type="video/mp4">
+          </video>
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent pointer-events-none"></div>
+          <!-- Clickable Overlay -->
+          <div class="absolute inset-0 z-10" data-action="openDetail" data-param="bullet-time-scene"></div>
+          <div class="absolute bottom-0 left-0 right-0 p-4 z-20 pointer-events-none">
+            <div class="flex items-center gap-3">
+              <img src="https://aitopia.ai/agent-images/bullet-time-scene-1.webp" class="w-10 h-10 rounded-ios object-cover" alt="Bullet Time Scene">
+              <div class="flex-1">
+                <h3 class="text-white font-semibold text-sm">Bullet Time Scene</h3>
+                <p class="text-white/70 text-xs">Create stunning 360° freeze-frame effects</p>
+              </div>
+              <div class="w-10 h-10 rounded-full bg-primary-foreground/20 backdrop-blur-sm flex items-center justify-center group-hover:bg-primary-foreground/30 transition-colors">
+                <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Horizontal Scroll Gallery -->
+      <div class="flex gap-3 overflow-x-auto hide-scrollbar pb-2 -mx-4 px-4 sm:mx-0 sm:px-0">
+        <!-- Video Card 1 - Flying Cam Transition -->
+        <div class="flex-shrink-0 w-72 group cursor-pointer">
+          <div class="relative rounded-ios-xl overflow-hidden bg-black mb-2">
+            <video class="w-full aspect-square object-cover pointer-events-none" preload="none" muted loop playsinline>
+              <source src="https://aitopia.ai/agent-images/transition-flying-cam.mp4" type="video/mp4">
+            </video>
+            <div class="absolute inset-0 z-10" data-action="openDetail" data-param="transitions"></div>
+            <div class="absolute top-2 left-2 px-2 py-1 rounded-full bg-black/50 backdrop-blur-sm z-20 pointer-events-none">
+              <span class="text-white text-xs font-medium">Transitions</span>
+            </div>
+            <div class="absolute bottom-2 right-2 w-8 h-8 rounded-full bg-primary-foreground/20 backdrop-blur-sm flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity z-20 pointer-events-none">
+              <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+            </div>
+          </div>
+          <p class="text-sm font-medium truncate" data-action="openDetail" data-param="transitions">Flying Camera</p>
+          <p class="text-xs text-muted-foreground">Transitions</p>
+        </div>
+
+        <!-- Video Card 2 - Sticker Match Cut -->
+        <div class="flex-shrink-0 w-72 group cursor-pointer">
+          <div class="relative rounded-ios-xl overflow-hidden bg-black mb-2">
+            <video class="w-full aspect-square object-cover pointer-events-none" preload="none" muted loop playsinline>
+              <source src="https://aitopia.ai/agent-images/sticker-match-cut.mp4" type="video/mp4">
+            </video>
+            <div class="absolute inset-0 z-10" data-action="openDetail" data-param="sticker-match-cut"></div>
+            <div class="absolute top-2 left-2 px-2 py-1 rounded-full bg-black/50 backdrop-blur-sm z-20 pointer-events-none">
+              <span class="text-white text-xs font-medium">Sticker Match</span>
+            </div>
+            <div class="absolute bottom-2 right-2 w-8 h-8 rounded-full bg-primary-foreground/20 backdrop-blur-sm flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity z-20 pointer-events-none">
+              <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+            </div>
+          </div>
+          <p class="text-sm font-medium truncate" data-action="openDetail" data-param="sticker-match-cut">Sticker Match Cut</p>
+          <p class="text-xs text-muted-foreground">Sticker Match Cut</p>
+        </div>
+
+        <!-- Video Card - ASMR Classic -->
+        <div class="flex-shrink-0 w-72 group cursor-pointer">
+          <div class="relative rounded-ios-xl overflow-hidden bg-black mb-2">
+            <video class="w-full aspect-square object-cover pointer-events-none" preload="none" muted loop playsinline>
+              <source src="https://aitopia.ai/agent-images/asmr-classic-video.mp4" type="video/mp4">
+            </video>
+            <div class="absolute inset-0 z-10" data-action="openDetail" data-param="asmr-classic"></div>
+            <div class="absolute top-2 left-2 px-2 py-1 rounded-full bg-black/50 backdrop-blur-sm z-20 pointer-events-none">
+              <span class="text-white text-xs font-medium">ASMR</span>
+            </div>
+            <div class="absolute bottom-2 right-2 w-8 h-8 rounded-full bg-primary-foreground/20 backdrop-blur-sm flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity z-20 pointer-events-none">
+              <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+            </div>
+          </div>
+          <p class="text-sm font-medium truncate" data-action="openDetail" data-param="asmr-classic">ASMR Classic</p>
+          <p class="text-xs text-muted-foreground">ASMR Classic</p>
+        </div>
+
+        <!-- Video Card 3 - Dissolve Transition -->
+        <div class="flex-shrink-0 w-72 group cursor-pointer">
+          <div class="relative rounded-ios-xl overflow-hidden bg-black mb-2">
+            <video class="w-full aspect-square object-cover pointer-events-none" preload="none" muted loop playsinline>
+              <source src="https://aitopia.ai/agent-images/transition-dissolve.mp4" type="video/mp4">
+            </video>
+            <div class="absolute inset-0 z-10" data-action="openDetail" data-param="transitions"></div>
+            <div class="absolute top-2 left-2 px-2 py-1 rounded-full bg-black/50 backdrop-blur-sm z-20 pointer-events-none">
+              <span class="text-white text-xs font-medium">Transitions</span>
+            </div>
+            <div class="absolute bottom-2 right-2 w-8 h-8 rounded-full bg-primary-foreground/20 backdrop-blur-sm flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity z-20 pointer-events-none">
+              <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+            </div>
+          </div>
+          <p class="text-sm font-medium truncate" data-action="openDetail" data-param="transitions">Dissolve Effect</p>
+          <p class="text-xs text-muted-foreground">Transitions</p>
+        </div>
+
+        <!-- Video Card - Fade Transition -->
+        <div class="flex-shrink-0 w-72 group cursor-pointer">
+          <div class="relative rounded-ios-xl overflow-hidden bg-black mb-2">
+            <video class="w-full aspect-square object-cover pointer-events-none" preload="none" muted loop playsinline>
+              <source src="https://aitopia.ai/agent-images/transition-fade.mp4" type="video/mp4">
+            </video>
+            <div class="absolute inset-0 z-10" data-action="openDetail" data-param="transitions"></div>
+            <div class="absolute top-2 left-2 px-2 py-1 rounded-full bg-black/50 backdrop-blur-sm z-20 pointer-events-none">
+              <span class="text-white text-xs font-medium">Transitions</span>
+            </div>
+            <div class="absolute bottom-2 right-2 w-8 h-8 rounded-full bg-primary-foreground/20 backdrop-blur-sm flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity z-20 pointer-events-none">
+              <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+            </div>
+          </div>
+          <p class="text-sm font-medium truncate" data-action="openDetail" data-param="transitions">Fade Effect</p>
+          <p class="text-xs text-muted-foreground">Transitions</p>
+        </div>
+
+        <!-- Video Card - 3D Rotation -->
+        <div class="flex-shrink-0 w-72 group cursor-pointer">
+          <div class="relative rounded-ios-xl overflow-hidden bg-black mb-2">
+            <video class="w-full aspect-square object-cover pointer-events-none" preload="none" muted loop playsinline>
+              <source src="https://aitopia.ai/agent-images/3d-rotation-video.mp4" type="video/mp4">
+            </video>
+            <div class="absolute inset-0 z-10" data-action="openDetail" data-param="3d-rotation"></div>
+            <div class="absolute top-2 left-2 px-2 py-1 rounded-full bg-black/50 backdrop-blur-sm z-20 pointer-events-none">
+              <span class="text-white text-xs font-medium">3D Rotation</span>
+            </div>
+            <div class="absolute bottom-2 right-2 w-8 h-8 rounded-full bg-primary-foreground/20 backdrop-blur-sm flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity z-20 pointer-events-none">
+              <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+            </div>
+          </div>
+          <p class="text-sm font-medium truncate" data-action="openDetail" data-param="3d-rotation">3D Rotation</p>
+          <p class="text-xs text-muted-foreground">3D Rotation</p>
+        </div>
+
+        <!-- Video Card - Morph Transition -->
+        <div class="flex-shrink-0 w-72 group cursor-pointer">
+          <div class="relative rounded-ios-xl overflow-hidden bg-black mb-2">
+            <video class="w-full aspect-square object-cover pointer-events-none" preload="none" muted loop playsinline>
+              <source src="https://aitopia.ai/agent-images/transition-morph.mp4" type="video/mp4">
+            </video>
+            <div class="absolute inset-0 z-10" data-action="openDetail" data-param="transitions"></div>
+            <div class="absolute top-2 left-2 px-2 py-1 rounded-full bg-black/50 backdrop-blur-sm z-20 pointer-events-none">
+              <span class="text-white text-xs font-medium">Transitions</span>
+            </div>
+            <div class="absolute bottom-2 right-2 w-8 h-8 rounded-full bg-primary-foreground/20 backdrop-blur-sm flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity z-20 pointer-events-none">
+              <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+            </div>
+          </div>
+          <p class="text-sm font-medium truncate" data-action="openDetail" data-param="transitions">Morph Effect</p>
+          <p class="text-xs text-muted-foreground">Transitions</p>
+        </div>
+
+        <!-- Video Card - Slide Transition -->
+        <div class="flex-shrink-0 w-72 group cursor-pointer">
+          <div class="relative rounded-ios-xl overflow-hidden bg-black mb-2">
+            <video class="w-full aspect-square object-cover pointer-events-none" preload="none" muted loop playsinline>
+              <source src="https://aitopia.ai/agent-images/transition-slide.mp4" type="video/mp4">
+            </video>
+            <div class="absolute inset-0 z-10" data-action="openDetail" data-param="transitions"></div>
+            <div class="absolute top-2 left-2 px-2 py-1 rounded-full bg-black/50 backdrop-blur-sm z-20 pointer-events-none">
+              <span class="text-white text-xs font-medium">Transitions</span>
+            </div>
+            <div class="absolute bottom-2 right-2 w-8 h-8 rounded-full bg-primary-foreground/20 backdrop-blur-sm flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity z-20 pointer-events-none">
+              <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+            </div>
+          </div>
+          <p class="text-sm font-medium truncate" data-action="openDetail" data-param="transitions">Slide Effect</p>
+          <p class="text-xs text-muted-foreground">Transitions</p>
+        </div>
+
+        <!-- Video Card - Smoke Transition -->
+        <div class="flex-shrink-0 w-72 group cursor-pointer">
+          <div class="relative rounded-ios-xl overflow-hidden bg-black mb-2">
+            <video class="w-full aspect-square object-cover pointer-events-none" preload="none" muted loop playsinline>
+              <source src="https://aitopia.ai/agent-images/transition-smoke.mp4" type="video/mp4">
+            </video>
+            <div class="absolute inset-0 z-10" data-action="openDetail" data-param="transitions"></div>
+            <div class="absolute top-2 left-2 px-2 py-1 rounded-full bg-black/50 backdrop-blur-sm z-20 pointer-events-none">
+              <span class="text-white text-xs font-medium">Transitions</span>
+            </div>
+            <div class="absolute bottom-2 right-2 w-8 h-8 rounded-full bg-primary-foreground/20 backdrop-blur-sm flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity z-20 pointer-events-none">
+              <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+            </div>
+          </div>
+          <p class="text-sm font-medium truncate" data-action="openDetail" data-param="transitions">Smoke Effect</p>
+          <p class="text-xs text-muted-foreground">Transitions</p>
+        </div>
+
+        <!-- Video Card - Wipe Transition -->
+        <div class="flex-shrink-0 w-72 group cursor-pointer">
+          <div class="relative rounded-ios-xl overflow-hidden bg-black mb-2">
+            <video class="w-full aspect-square object-cover pointer-events-none" preload="none" muted loop playsinline>
+              <source src="https://aitopia.ai/agent-images/transition-wipe.mp4" type="video/mp4">
+            </video>
+            <div class="absolute inset-0 z-10" data-action="openDetail" data-param="transitions"></div>
+            <div class="absolute top-2 left-2 px-2 py-1 rounded-full bg-black/50 backdrop-blur-sm z-20 pointer-events-none">
+              <span class="text-white text-xs font-medium">Transitions</span>
+            </div>
+            <div class="absolute bottom-2 right-2 w-8 h-8 rounded-full bg-primary-foreground/20 backdrop-blur-sm flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity z-20 pointer-events-none">
+              <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+            </div>
+          </div>
+          <p class="text-sm font-medium truncate" data-action="openDetail" data-param="transitions">Wipe Effect</p>
+          <p class="text-xs text-muted-foreground">Transitions</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Creations From Community -->
+    <section class="py-4" id="communityCreationsSection" style="display:none;">
+      <div class="flex items-center justify-between mb-4">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-lg flex items-center justify-center bg-[#F3F5F9] dark:bg-[#262626]">
+            <svg class="w-5 h-5 text-foreground" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.455 2.456L21.75 6l-1.036.259a3.375 3.375 0 00-2.455 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z"/>
+            </svg>
+          </div>
+          <h2 class="text-xl md:text-2xl font-bold">Creations From Community</h2>
+        </div>
+        <a href="/aitopia/marketplace/outputs.html" class="text-sm font-medium text-primary hover:text-primary/80 transition-colors">See All</a>
+      </div>
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:lg:grid-cols-5 gap-3" id="communityCreationsGrid">
+        <!-- Populated by JS -->
+      </div>
+    </section>
+
+    <!-- Slider Tabs Section (4 tabs) -->
+    <section class="py-4">
+      <div class="flex gap-1 p-1 bg-muted rounded-ios-lg overflow-x-auto hide-scrollbar">
+        <button data-action="switchSliderTab" data-param="new-noteworthy" class="slider-tab active flex-shrink-0 px-4 py-2 rounded-ios text-sm font-medium transition-all" data-slider="new-noteworthy">
+          New & Noteworthy
+        </button>
+        <button data-action="switchSliderTab" data-param="top-charts" class="slider-tab flex-shrink-0 px-4 py-2 rounded-ios text-sm font-medium text-muted-foreground hover:text-foreground transition-all" data-slider="top-charts">
+          Top Charts
+        </button>
+        <button data-action="switchSliderTab" data-param="top-rated" class="slider-tab flex-shrink-0 px-4 py-2 rounded-ios text-sm font-medium text-muted-foreground hover:text-foreground transition-all" data-slider="top-rated">
+          Top Rated
+        </button>
+        <button data-action="switchSliderTab" data-param="editors-choice" class="slider-tab flex-shrink-0 px-4 py-2 rounded-ios text-sm font-medium text-muted-foreground hover:text-foreground transition-all" data-slider="editors-choice">
+          Editor's Choice
+        </button>
+      </div>
+    </section>
+
+    <!-- Slider Tab Contents (shown above category sections) -->
+    <div id="sliderTabContents">
+      <!-- New & Noteworthy Content -->
+      <div id="sliderNewNoteworthyContent" class="slider-content">
+        <section class="py-2">
+          <div class="mb-4">
+            <h2 class="text-xl md:text-2xl font-bold mb-2">New & Noteworthy</h2>
+            <p class="text-muted-foreground">Recently added agents worth checking out</p>
+          </div>
+          <div class="masonry-grid sm:grid sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 sm:gap-4 sm:justify-items-center" id="newNoteworthyGrid">
+            <!-- Populated by JS -->
+          </div>
+        </section>
+      </div>
+
+      <!-- Top Charts Content -->
+      <div id="sliderTopChartsContent" class="slider-content hidden">
+        <section class="py-2">
+          <div class="flex items-center justify-between mb-4">
+            <h2 class="text-xl md:text-2xl font-bold">Top Charts</h2>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" id="topChartsGrid">
+            <!-- Populated by JS -->
+          </div>
+        </section>
+      </div>
+
+      <!-- Top Rated Content -->
+      <div id="sliderTopRatedContent" class="slider-content hidden">
+        <section class="py-2">
+          <div class="flex items-center justify-between mb-4">
+            <h2 class="text-xl md:text-2xl font-bold">Top Rated Agents</h2>
+          </div>
+          <div class="masonry-grid sm:grid sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 sm:gap-4 sm:justify-items-center" id="topRatedGrid">
+            <!-- Populated by JS -->
+          </div>
+        </section>
+      </div>
+
+      <!-- Editor's Choice Content -->
+      <div id="sliderEditorsChoiceContent" class="slider-content hidden">
+        <section class="py-2">
+          <div class="mb-4">
+            <h2 class="text-xl md:text-2xl font-bold mb-2">Editor's Choice</h2>
+            <p class="text-muted-foreground">Hand-picked agents we love</p>
+          </div>
+          <div class="masonry-grid sm:grid sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 sm:gap-4 sm:justify-items-center" id="editorsChoiceGrid">
+            <!-- Populated by JS -->
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- Image Agents Category Section -->
+    <section class="py-4" id="imageAgentsSection">
+      <div class="flex items-center justify-between mb-4">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-lg flex items-center justify-center bg-[#F3F5F9] dark:bg-[#262626]">
+            <img src="https://aitopia.ai/icons/image.svg" alt="" class="dark:invert" style="width: 20px; height: 20px; object-fit: contain;">
+          </div>
+          <h2 class="text-xl md:text-2xl font-bold">Image Agents</h2>
+        </div>
+        <button data-action="goToAgentsPage" data-param="image" class="text-sm font-medium text-primary hover:text-primary/80 transition-colors">See All</button>
+      </div>
+      <div class="masonry-grid sm:grid sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 sm:gap-4 sm:justify-items-center" id="imageAgentsGrid">
+        <div class="agent-card bg-card rounded-ios-2xl border border-border/40 overflow-hidden w-full flex flex-col animate-pulse"><div class="aspect-square bg-muted/60 rounded-b-[20px]"></div><div class="p-4 flex flex-col flex-1"><div class="h-5 bg-muted/60 rounded w-3/4 mt-1"></div><div class="h-3 bg-muted/40 rounded w-full mt-3"></div><div class="h-3 bg-muted/40 rounded w-2/3 mt-1.5"></div><div class="mt-auto pt-4 flex items-center justify-between gap-3"><div class="h-8 bg-muted/50 rounded-full w-24"></div><div class="w-10 h-10 rounded-full bg-muted/40"></div></div></div></div>
+        <div class="agent-card bg-card rounded-ios-2xl border border-border/40 overflow-hidden w-full flex flex-col animate-pulse hidden sm:flex"><div class="aspect-square bg-muted/60 rounded-b-[20px]"></div><div class="p-4 flex flex-col flex-1"><div class="h-5 bg-muted/60 rounded w-3/4 mt-1"></div><div class="h-3 bg-muted/40 rounded w-full mt-3"></div><div class="h-3 bg-muted/40 rounded w-2/3 mt-1.5"></div><div class="mt-auto pt-4 flex items-center justify-between gap-3"><div class="h-8 bg-muted/50 rounded-full w-24"></div><div class="w-10 h-10 rounded-full bg-muted/40"></div></div></div></div>
+        <div class="agent-card bg-card rounded-ios-2xl border border-border/40 overflow-hidden w-full flex flex-col animate-pulse hidden lg:flex"><div class="aspect-square bg-muted/60 rounded-b-[20px]"></div><div class="p-4 flex flex-col flex-1"><div class="h-5 bg-muted/60 rounded w-3/4 mt-1"></div><div class="h-3 bg-muted/40 rounded w-full mt-3"></div><div class="h-3 bg-muted/40 rounded w-2/3 mt-1.5"></div><div class="mt-auto pt-4 flex items-center justify-between gap-3"><div class="h-8 bg-muted/50 rounded-full w-24"></div><div class="w-10 h-10 rounded-full bg-muted/40"></div></div></div></div>
+        <div class="agent-card bg-card rounded-ios-2xl border border-border/40 overflow-hidden w-full flex flex-col animate-pulse hidden lg:flex"><div class="aspect-square bg-muted/60 rounded-b-[20px]"></div><div class="p-4 flex flex-col flex-1"><div class="h-5 bg-muted/60 rounded w-3/4 mt-1"></div><div class="h-3 bg-muted/40 rounded w-full mt-3"></div><div class="h-3 bg-muted/40 rounded w-2/3 mt-1.5"></div><div class="mt-auto pt-4 flex items-center justify-between gap-3"><div class="h-8 bg-muted/50 rounded-full w-24"></div><div class="w-10 h-10 rounded-full bg-muted/40"></div></div></div></div>
+        <div class="agent-card bg-card rounded-ios-2xl border border-border/40 overflow-hidden w-full flex flex-col animate-pulse hidden xl:flex"><div class="aspect-square bg-muted/60 rounded-b-[20px]"></div><div class="p-4 flex flex-col flex-1"><div class="h-5 bg-muted/60 rounded w-3/4 mt-1"></div><div class="h-3 bg-muted/40 rounded w-full mt-3"></div><div class="h-3 bg-muted/40 rounded w-2/3 mt-1.5"></div><div class="mt-auto pt-4 flex items-center justify-between gap-3"><div class="h-8 bg-muted/50 rounded-full w-24"></div><div class="w-10 h-10 rounded-full bg-muted/40"></div></div></div></div>
+      </div>
+    </section>
+
+    <!-- Video Agents Category Section -->
+    <section class="py-4" id="videoAgentsSection">
+      <div class="flex items-center justify-between mb-4">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-lg flex items-center justify-center bg-[#F3F5F9] dark:bg-[#262626]">
+            <img src="https://aitopia.ai/icons/video.svg" alt="" class="dark:invert" style="width: 20px; height: 20px; object-fit: contain;">
+          </div>
+          <h2 class="text-xl md:text-2xl font-bold">Video Agents</h2>
+        </div>
+        <button data-action="goToAgentsPage" data-param="video" class="text-sm font-medium text-primary hover:text-primary/80 transition-colors">See All</button>
+      </div>
+      <div class="masonry-grid sm:grid sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 sm:gap-4 sm:justify-items-center" id="videoAgentsGrid">
+        <div class="agent-card bg-card rounded-ios-2xl border border-border/40 overflow-hidden w-full flex flex-col animate-pulse"><div class="aspect-square bg-muted/60 rounded-b-[20px]"></div><div class="p-4 flex flex-col flex-1"><div class="h-5 bg-muted/60 rounded w-3/4 mt-1"></div><div class="h-3 bg-muted/40 rounded w-full mt-3"></div><div class="h-3 bg-muted/40 rounded w-2/3 mt-1.5"></div><div class="mt-auto pt-4 flex items-center justify-between gap-3"><div class="h-8 bg-muted/50 rounded-full w-24"></div><div class="w-10 h-10 rounded-full bg-muted/40"></div></div></div></div>
+        <div class="agent-card bg-card rounded-ios-2xl border border-border/40 overflow-hidden w-full flex flex-col animate-pulse hidden sm:flex"><div class="aspect-square bg-muted/60 rounded-b-[20px]"></div><div class="p-4 flex flex-col flex-1"><div class="h-5 bg-muted/60 rounded w-3/4 mt-1"></div><div class="h-3 bg-muted/40 rounded w-full mt-3"></div><div class="h-3 bg-muted/40 rounded w-2/3 mt-1.5"></div><div class="mt-auto pt-4 flex items-center justify-between gap-3"><div class="h-8 bg-muted/50 rounded-full w-24"></div><div class="w-10 h-10 rounded-full bg-muted/40"></div></div></div></div>
+        <div class="agent-card bg-card rounded-ios-2xl border border-border/40 overflow-hidden w-full flex flex-col animate-pulse hidden lg:flex"><div class="aspect-square bg-muted/60 rounded-b-[20px]"></div><div class="p-4 flex flex-col flex-1"><div class="h-5 bg-muted/60 rounded w-3/4 mt-1"></div><div class="h-3 bg-muted/40 rounded w-full mt-3"></div><div class="h-3 bg-muted/40 rounded w-2/3 mt-1.5"></div><div class="mt-auto pt-4 flex items-center justify-between gap-3"><div class="h-8 bg-muted/50 rounded-full w-24"></div><div class="w-10 h-10 rounded-full bg-muted/40"></div></div></div></div>
+        <div class="agent-card bg-card rounded-ios-2xl border border-border/40 overflow-hidden w-full flex flex-col animate-pulse hidden lg:flex"><div class="aspect-square bg-muted/60 rounded-b-[20px]"></div><div class="p-4 flex flex-col flex-1"><div class="h-5 bg-muted/60 rounded w-3/4 mt-1"></div><div class="h-3 bg-muted/40 rounded w-full mt-3"></div><div class="h-3 bg-muted/40 rounded w-2/3 mt-1.5"></div><div class="mt-auto pt-4 flex items-center justify-between gap-3"><div class="h-8 bg-muted/50 rounded-full w-24"></div><div class="w-10 h-10 rounded-full bg-muted/40"></div></div></div></div>
+        <div class="agent-card bg-card rounded-ios-2xl border border-border/40 overflow-hidden w-full flex flex-col animate-pulse hidden xl:flex"><div class="aspect-square bg-muted/60 rounded-b-[20px]"></div><div class="p-4 flex flex-col flex-1"><div class="h-5 bg-muted/60 rounded w-3/4 mt-1"></div><div class="h-3 bg-muted/40 rounded w-full mt-3"></div><div class="h-3 bg-muted/40 rounded w-2/3 mt-1.5"></div><div class="mt-auto pt-4 flex items-center justify-between gap-3"><div class="h-8 bg-muted/50 rounded-full w-24"></div><div class="w-10 h-10 rounded-full bg-muted/40"></div></div></div></div>
+      </div>
+    </section>
+
+    <!-- E-Commerce Agents Category Section -->
+    <section class="py-4" id="ecommerceAgentsSection">
+      <div class="flex items-center justify-between mb-4">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-lg flex items-center justify-center bg-[#F3F5F9] dark:bg-[#262626]">
+            <img src="https://aitopia.ai/icons/commerce.svg" alt="" class="dark:invert" style="width: 20px; height: 20px; object-fit: contain;">
+          </div>
+          <h2 class="text-xl md:text-2xl font-bold">E-Commerce Agents</h2>
+        </div>
+        <button data-action="goToAgentsPage" data-param="commerce" class="text-sm font-medium text-primary hover:text-primary/80 transition-colors">See All</button>
+      </div>
+      <div class="masonry-grid sm:grid sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 sm:gap-4 sm:justify-items-center" id="ecommerceAgentsGrid">
+        <div class="agent-card bg-card rounded-ios-2xl border border-border/40 overflow-hidden w-full flex flex-col animate-pulse"><div class="aspect-square bg-muted/60 rounded-b-[20px]"></div><div class="p-4 flex flex-col flex-1"><div class="h-5 bg-muted/60 rounded w-3/4 mt-1"></div><div class="h-3 bg-muted/40 rounded w-full mt-3"></div><div class="h-3 bg-muted/40 rounded w-2/3 mt-1.5"></div><div class="mt-auto pt-4 flex items-center justify-between gap-3"><div class="h-8 bg-muted/50 rounded-full w-24"></div><div class="w-10 h-10 rounded-full bg-muted/40"></div></div></div></div>
+        <div class="agent-card bg-card rounded-ios-2xl border border-border/40 overflow-hidden w-full flex flex-col animate-pulse hidden sm:flex"><div class="aspect-square bg-muted/60 rounded-b-[20px]"></div><div class="p-4 flex flex-col flex-1"><div class="h-5 bg-muted/60 rounded w-3/4 mt-1"></div><div class="h-3 bg-muted/40 rounded w-full mt-3"></div><div class="h-3 bg-muted/40 rounded w-2/3 mt-1.5"></div><div class="mt-auto pt-4 flex items-center justify-between gap-3"><div class="h-8 bg-muted/50 rounded-full w-24"></div><div class="w-10 h-10 rounded-full bg-muted/40"></div></div></div></div>
+        <div class="agent-card bg-card rounded-ios-2xl border border-border/40 overflow-hidden w-full flex flex-col animate-pulse hidden lg:flex"><div class="aspect-square bg-muted/60 rounded-b-[20px]"></div><div class="p-4 flex flex-col flex-1"><div class="h-5 bg-muted/60 rounded w-3/4 mt-1"></div><div class="h-3 bg-muted/40 rounded w-full mt-3"></div><div class="h-3 bg-muted/40 rounded w-2/3 mt-1.5"></div><div class="mt-auto pt-4 flex items-center justify-between gap-3"><div class="h-8 bg-muted/50 rounded-full w-24"></div><div class="w-10 h-10 rounded-full bg-muted/40"></div></div></div></div>
+        <div class="agent-card bg-card rounded-ios-2xl border border-border/40 overflow-hidden w-full flex flex-col animate-pulse hidden lg:flex"><div class="aspect-square bg-muted/60 rounded-b-[20px]"></div><div class="p-4 flex flex-col flex-1"><div class="h-5 bg-muted/60 rounded w-3/4 mt-1"></div><div class="h-3 bg-muted/40 rounded w-full mt-3"></div><div class="h-3 bg-muted/40 rounded w-2/3 mt-1.5"></div><div class="mt-auto pt-4 flex items-center justify-between gap-3"><div class="h-8 bg-muted/50 rounded-full w-24"></div><div class="w-10 h-10 rounded-full bg-muted/40"></div></div></div></div>
+        <div class="agent-card bg-card rounded-ios-2xl border border-border/40 overflow-hidden w-full flex flex-col animate-pulse hidden xl:flex"><div class="aspect-square bg-muted/60 rounded-b-[20px]"></div><div class="p-4 flex flex-col flex-1"><div class="h-5 bg-muted/60 rounded w-3/4 mt-1"></div><div class="h-3 bg-muted/40 rounded w-full mt-3"></div><div class="h-3 bg-muted/40 rounded w-2/3 mt-1.5"></div><div class="mt-auto pt-4 flex items-center justify-between gap-3"><div class="h-8 bg-muted/50 rounded-full w-24"></div><div class="w-10 h-10 rounded-full bg-muted/40"></div></div></div></div>
+      </div>
+    </section>
+
+    <!-- Productivity Agents Category Section -->
+    <section class="py-4" id="productivityAgentsSection">
+      <div class="flex items-center justify-between mb-4">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-lg flex items-center justify-center bg-[#F3F5F9] dark:bg-[#262626]">
+            <img src="https://aitopia.ai/icons/productivity.svg" alt="" class="dark:invert" style="width: 20px; height: 20px; object-fit: contain;">
+          </div>
+          <h2 class="text-xl md:text-2xl font-bold">Productivity Agents</h2>
+        </div>
+        <button data-action="goToAgentsPage" data-param="productivity" class="text-sm font-medium text-primary hover:text-primary/80 transition-colors">See All</button>
+      </div>
+      <div class="masonry-grid sm:grid sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 sm:gap-4 sm:justify-items-center" id="productivityAgentsGrid">
+        <div class="agent-card bg-card rounded-ios-2xl border border-border/40 overflow-hidden w-full flex flex-col animate-pulse"><div class="aspect-square bg-muted/60 rounded-b-[20px]"></div><div class="p-4 flex flex-col flex-1"><div class="h-5 bg-muted/60 rounded w-3/4 mt-1"></div><div class="h-3 bg-muted/40 rounded w-full mt-3"></div><div class="h-3 bg-muted/40 rounded w-2/3 mt-1.5"></div><div class="mt-auto pt-4 flex items-center justify-between gap-3"><div class="h-8 bg-muted/50 rounded-full w-24"></div><div class="w-10 h-10 rounded-full bg-muted/40"></div></div></div></div>
+        <div class="agent-card bg-card rounded-ios-2xl border border-border/40 overflow-hidden w-full flex flex-col animate-pulse hidden sm:flex"><div class="aspect-square bg-muted/60 rounded-b-[20px]"></div><div class="p-4 flex flex-col flex-1"><div class="h-5 bg-muted/60 rounded w-3/4 mt-1"></div><div class="h-3 bg-muted/40 rounded w-full mt-3"></div><div class="h-3 bg-muted/40 rounded w-2/3 mt-1.5"></div><div class="mt-auto pt-4 flex items-center justify-between gap-3"><div class="h-8 bg-muted/50 rounded-full w-24"></div><div class="w-10 h-10 rounded-full bg-muted/40"></div></div></div></div>
+        <div class="agent-card bg-card rounded-ios-2xl border border-border/40 overflow-hidden w-full flex flex-col animate-pulse hidden lg:flex"><div class="aspect-square bg-muted/60 rounded-b-[20px]"></div><div class="p-4 flex flex-col flex-1"><div class="h-5 bg-muted/60 rounded w-3/4 mt-1"></div><div class="h-3 bg-muted/40 rounded w-full mt-3"></div><div class="h-3 bg-muted/40 rounded w-2/3 mt-1.5"></div><div class="mt-auto pt-4 flex items-center justify-between gap-3"><div class="h-8 bg-muted/50 rounded-full w-24"></div><div class="w-10 h-10 rounded-full bg-muted/40"></div></div></div></div>
+        <div class="agent-card bg-card rounded-ios-2xl border border-border/40 overflow-hidden w-full flex flex-col animate-pulse hidden lg:flex"><div class="aspect-square bg-muted/60 rounded-b-[20px]"></div><div class="p-4 flex flex-col flex-1"><div class="h-5 bg-muted/60 rounded w-3/4 mt-1"></div><div class="h-3 bg-muted/40 rounded w-full mt-3"></div><div class="h-3 bg-muted/40 rounded w-2/3 mt-1.5"></div><div class="mt-auto pt-4 flex items-center justify-between gap-3"><div class="h-8 bg-muted/50 rounded-full w-24"></div><div class="w-10 h-10 rounded-full bg-muted/40"></div></div></div></div>
+        <div class="agent-card bg-card rounded-ios-2xl border border-border/40 overflow-hidden w-full flex flex-col animate-pulse hidden xl:flex"><div class="aspect-square bg-muted/60 rounded-b-[20px]"></div><div class="p-4 flex flex-col flex-1"><div class="h-5 bg-muted/60 rounded w-3/4 mt-1"></div><div class="h-3 bg-muted/40 rounded w-full mt-3"></div><div class="h-3 bg-muted/40 rounded w-2/3 mt-1.5"></div><div class="mt-auto pt-4 flex items-center justify-between gap-3"><div class="h-8 bg-muted/50 rounded-full w-24"></div><div class="w-10 h-10 rounded-full bg-muted/40"></div></div></div></div>
+      </div>
+    </section>
+
+    <!-- AI Models Category Section -->
+    <section class="py-4" id="modelsSection">
+      <div class="flex items-center justify-between mb-4">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-lg flex items-center justify-center bg-[#F3F5F9] dark:bg-[#262626]">
+            <img src="https://aitopia.ai/icons/models.svg" alt="" class="dark:invert" style="width: 20px; height: 20px; object-fit: contain;">
+          </div>
+          <h2 class="text-xl md:text-2xl font-bold">AI Models</h2>
+        </div>
+        <a href="/aitopia/marketplace/models.html" class="text-sm font-medium text-primary hover:text-primary/80 transition-colors">See All</a>
+      </div>
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4" id="modelsGrid">
+        <!-- Populated by JS -->
+      </div>
+    </section>
+
+    <!-- All Agents Grid -->
+    <section class="py-4">
+      <div class="flex items-center justify-between mb-4">
+        <h2 id="allAgentsTitle" class="text-xl md:text-2xl font-bold">All Agents</h2>
+        <span class="text-sm text-muted-foreground" id="agentCount">28 agents</span>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" id="allAgents">
+        <!-- Populated by JS -->
+      </div>
+    </section>
+
+    </div><!-- End Today Tab -->
+
+    <!-- Agents Tab Content -->
+    <div id="agentsTab" class="tab-content hidden">
+      <div class="pt-4 pb-4">
+        <h1 class="text-3xl md:text-4xl font-bold">Agents</h1>
+      </div>
+
+      <!-- Categories List (Dynamic from API) -->
+      <section class="py-4">
+        <div class="bg-card rounded-ios-xl border border-border/50 overflow-hidden divide-y divide-border/50" id="categoryListContainer">
+          <!-- Categories populated dynamically from API -->
+          <div class="p-4 text-center text-muted-foreground">
+            <div class="animate-pulse">Loading categories...</div>
+          </div>
+        </div>
+      </section>
+
+	      <!-- Top Low-Cost -->
+	      <section class="py-4">
+	        <div class="flex items-center justify-between mb-4">
+	          <h2 class="text-xl font-bold">Top Low-Cost</h2>
+	          <button data-action="showTab" data-param="today" data-after="filterCategory" data-after-param="all" class="text-sm font-medium text-primary hover:text-primary/80 transition-colors">See All</button>
+	        </div>
+	        <div class="bg-card rounded-ios-xl border border-border/50 overflow-hidden divide-y divide-border/50" id="topFreeAgents">
+	        </div>
+	      </section>
+
+	      <!-- Top Premium -->
+	      <section class="py-4">
+	        <div class="flex items-center justify-between mb-4">
+	          <h2 class="text-xl font-bold">Top Premium</h2>
+	          <button data-action="showTab" data-param="today" data-after="filterCategory" data-after-param="all" class="text-sm font-medium text-primary hover:text-primary/80 transition-colors">See All</button>
+	        </div>
+	        <div class="bg-card rounded-ios-xl border border-border/50 overflow-hidden divide-y divide-border/50" id="topPaidAgents">
+	        </div>
+	      </section>
+    </div><!-- End Agents Tab -->
+
+    <!-- Search Tab Content -->
+    <div id="searchTab" class="tab-content hidden">
+      <div class="pt-6 pb-4">
+        <h1 class="text-3xl md:text-4xl font-bold">Search</h1>
+      </div>
+
+      <!-- Search Input -->
+      <div class="relative mb-6">
+        <svg class="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <circle cx="11" cy="11" r="8"/>
+          <path d="M21 21l-4.35-4.35" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <input
+          type="text"
+          id="searchInputMain"
+          placeholder="Agents, Categories, Developers"
+          class="w-full h-12 pl-12 pr-4 rounded-ios-lg bg-muted border-0 text-base placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/30 transition-all"
+        >
+        <div
+          id="searchAutocompleteMain"
+          class="hidden absolute top-full left-0 right-0 mt-2 z-50 bg-card border border-border rounded-ios-xl shadow-2xl max-h-[420px] overflow-y-auto"
+        ></div>
+      </div>
+
+      <!-- Discover -->
+      <section class="py-4">
+        <h2 class="text-xl font-bold mb-4">Discover</h2>
+        <div class="flex flex-wrap gap-2">
+          <button data-action="searchFor" data-param="face swap" class="px-4 py-2 rounded-full bg-muted hover:bg-muted/70 text-sm font-medium transition-colors btn-press">#face swap</button>
+          <button data-action="searchFor" data-param="video" class="px-4 py-2 rounded-full bg-muted hover:bg-muted/70 text-sm font-medium transition-colors btn-press">#video</button>
+          <button data-action="searchFor" data-param="image generator" class="px-4 py-2 rounded-full bg-muted hover:bg-muted/70 text-sm font-medium transition-colors btn-press">#image generator</button>
+          <button data-action="searchFor" data-param="background" class="px-4 py-2 rounded-full bg-muted hover:bg-muted/70 text-sm font-medium transition-colors btn-press">#background</button>
+          <button data-action="searchFor" data-param="portrait" class="px-4 py-2 rounded-full bg-muted hover:bg-muted/70 text-sm font-medium transition-colors btn-press">#portrait</button>
+          <button data-action="searchFor" data-param="music" class="px-4 py-2 rounded-full bg-muted hover:bg-muted/70 text-sm font-medium transition-colors btn-press">#music</button>
+        </div>
+      </section>
+
+      <!-- Search Results -->
+      <section class="py-4">
+        <h2 class="text-xl font-bold mb-4" id="searchResultsTitle">Suggested</h2>
+        <div class="bg-card rounded-ios-xl border border-border/50 overflow-hidden divide-y divide-border/50" id="searchResults">
+        </div>
+      </section>
+    </div><!-- End Search Tab -->
+
+  </main>
+
+  <!-- Agent Detail Page (Full Screen) -->
+  <div id="agentDetailPage" class="fixed inset-0 z-[100] bg-background transform translate-x-full transition-transform duration-300 ease-out overflow-hidden">
+    <!-- Header with back button -->
+    <header class="sticky top-0 z-10 glass border-b border-border/40 safe-top">
+      <div class="flex items-center h-14 px-4">
+        <button data-action="closeDetail" class="flex items-center gap-2 text-primary font-medium">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+            <path d="M15 19l-7-7 7-7"/>
+          </svg>
+          <span>Back</span>
+        </button>
+        <h1 id="detailPageTitle" class="flex-1 text-center font-semibold truncate mx-4">Agent</h1>
+        <div class="w-14"></div>
+      </div>
+    </header>
+
+    <!-- Scrollable Content -->
+    <div id="modalContent" class="overflow-y-auto h-[calc(100vh-56px)] pb-safe">
+      <!-- Dynamic content -->
+    </div>
+  </div>
+
+    <script src="/aitopia/marketplace/js/shared/lazy-media.js"></script>
+    <script type="module" src="/aitopia/marketplace/js/shared/fetch-helper.js"></script>
+    <script src="/aitopia/marketplace/js/shared/cache.js"></script>
+    <script src="/aitopia/marketplace/js/vendor/minisearch.min.js"></script>
+    <script type="module" src="/aitopia/marketplace/js/shared/credits.js"></script>
+    <script type="module" src="/aitopia/marketplace/js/shared/pending-paid-global.js"></script>
+    <script type="module" src="/aitopia/marketplace/js/store/featured-agents.js"></script>
+  <script type="module" src="/aitopia/marketplace/js/store/store.js"></script>
+  <script src="/aitopia/marketplace/js/inline/home-inline-3.js"></script>
+
+  <!-- Promo modal: homepage only, free users only, 3s after login -->
+  <script type="module" src="/aitopia/marketplace/js/shared/promo-gate.js"></script>
+
+
+  <!-- Automation Modal -->
+  <div id="automationModal" class="fixed inset-0 z-[90] hidden">
+    <div class="absolute inset-0 bg-black/60 backdrop-blur-sm" data-action="closeAutomationModal"></div>
+    <div class="absolute inset-4 md:inset-20 flex items-center justify-center pointer-events-none">
+      <div class="pointer-events-auto bg-card border border-border rounded-ios-2xl shadow-2xl w-full max-w-xl p-6 animate-modal-in">
+        <div class="flex items-center justify-between mb-4">
+          <div>
+            <p class="text-xs uppercase tracking-wide text-muted-foreground">Automations</p>
+            <h3 id="automationType" class="text-lg font-semibold">Create Trigger</h3>
+          </div>
+          <button data-action="closeAutomationModal" class="p-2 rounded-ios-lg hover:bg-muted transition-colors" aria-label="Close">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+            </svg>
+          </button>
+        </div>
+
+        <div class="space-y-3 text-sm">
+          <div>
+            <label class="block text-xs font-semibold text-muted-foreground mb-1">Name</label>
+            <input id="automationName" type="text" class="w-full px-3 py-2 rounded-ios-lg border border-border bg-background focus:outline-none focus:border-primary" placeholder="My automation">
+          </div>
+
+          <div id="automationWebhookFields" class="space-y-3">
+            <div>
+              <label class="block text-xs font-semibold text-muted-foreground mb-1">Webhook Path</label>
+              <input id="automationPath" type="text" class="w-full px-3 py-2 rounded-ios-lg border border-border bg-background focus:outline-none focus:border-primary" placeholder="my-webhook">
+              <p class="text-[11px] text-muted-foreground mt-1">Full URL: <code class="bg-muted px-1 py-0.5 rounded"><span id="automationUrlBase"></span>/webhooks/<span id="automationPathPreview">my-webhook</span></code></p>
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-muted-foreground mb-1">Secret (optional)</label>
+              <input id="automationSecret" type="text" class="w-full px-3 py-2 rounded-ios-lg border border-border bg-background focus:outline-none focus:border-primary" placeholder="Minimum 16 characters">
+            </div>
+          </div>
+
+          <div id="automationScheduleFields" class="space-y-3 hidden">
+            <div>
+              <label class="block text-xs font-semibold text-muted-foreground mb-1">Cron Expression</label>
+              <input id="automationCron" type="text" class="w-full px-3 py-2 rounded-ios-lg border border-border bg-background focus:outline-none focus:border-primary" placeholder="0 9 * * *">
+              <p class="text-[11px] text-muted-foreground mt-1">Examples: <code>0 * * * *</code> (hourly), <code>0 9 * * *</code> (daily 9am)</p>
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-muted-foreground mb-1">Timezone</label>
+              <input id="automationTimezone" type="text" class="w-full px-3 py-2 rounded-ios-lg border border-border bg-background focus:outline-none focus:border-primary" placeholder="UTC">
+            </div>
+          </div>
+
+          <div id="automationActionNotice" class="hidden text-xs text-muted-foreground bg-muted/50 border border-border/60 rounded-ios-lg p-3">
+            Post-run actions (webhook/agent-chain) are best configured via the API for now. Use <code>POST /actions</code>.
+          </div>
+        </div>
+
+        <div class="flex items-center justify-end gap-2 mt-5">
+          <button data-action="closeAutomationModal" class="px-3 py-2 rounded-ios-lg border border-border text-sm font-medium hover:bg-muted transition-colors">Cancel</button>
+          <button data-action="submitAutomationForm" class="px-4 py-2 rounded-ios-lg bg-primary text-primary-foreground text-sm font-semibold hover:opacity-90 transition-colors">Save</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- API Modal -->
+  <div id="apiModal" class="fixed inset-0 z-[100] hidden">
+    <!-- Backdrop -->
+    <div id="apiModalBackdrop" class="absolute inset-0 bg-black/60 backdrop-blur-sm" data-action="closeApiModal"></div>
+
+    <!-- Modal Container -->
+    <div class="absolute inset-4 md:inset-8 lg:inset-12 xl:inset-16 flex items-center justify-center pointer-events-none">
+      <div class="bg-card border border-border rounded-ios-2xl shadow-2xl w-full max-w-4xl max-h-full overflow-hidden flex flex-col pointer-events-auto animate-modal-in">
+        <!-- Header -->
+        <div class="flex items-center justify-between p-4 md:p-6 border-b border-border bg-muted/30">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-ios-lg bg-primary/10 flex items-center justify-center">
+              <svg class="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
+              </svg>
+            </div>
+            <div>
+              <h2 id="apiModalTitle" class="text-lg font-semibold">Run via API</h2>
+              <p class="text-sm text-muted-foreground">Code examples for integration</p>
+            </div>
+          </div>
+          <button data-action="closeApiModal" class="p-2 rounded-ios hover:bg-muted transition-colors" aria-label="Close">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+            </svg>
+          </button>
+        </div>
+
+        <!-- Tabs -->
+        <div class="flex border-b border-border bg-muted/20 overflow-x-auto">
+          <button data-action="switchApiTab" data-param="curl" data-tab="curl" class="api-tab px-4 md:px-6 py-3 text-sm font-medium whitespace-nowrap border-b-2 border-transparent hover:text-foreground transition-colors">cURL</button>
+          <button data-action="switchApiTab" data-param="javascript" data-tab="javascript" class="api-tab px-4 md:px-6 py-3 text-sm font-medium whitespace-nowrap border-b-2 border-transparent hover:text-foreground transition-colors">JavaScript</button>
+          <button data-action="switchApiTab" data-param="python" data-tab="python" class="api-tab px-4 md:px-6 py-3 text-sm font-medium whitespace-nowrap border-b-2 border-transparent hover:text-foreground transition-colors">Python</button>
+          <button data-action="switchApiTab" data-param="prompt" data-tab="prompt" class="api-tab px-4 md:px-6 py-3 text-sm font-medium whitespace-nowrap border-b-2 border-transparent hover:text-foreground transition-colors">Prompt</button>
+          <button data-action="switchApiTab" data-param="jsonschema" data-tab="jsonschema" class="api-tab px-4 md:px-6 py-3 text-sm font-medium whitespace-nowrap border-b-2 border-transparent hover:text-foreground transition-colors">JSONSchema</button>
+        </div>
+
+        <!-- Content -->
+        <div id="apiModalContent" class="flex-1 overflow-auto p-4 md:p-6">
+          <!-- Loading State -->
+          <div id="apiModalLoading" class="flex flex-col items-center justify-center py-12">
+            <div class="w-8 h-8 border-2 border-primary border-t-transparent rounded-full animate-spin"></div>
+            <p class="mt-4 text-sm text-muted-foreground">Loading API documentation...</p>
+          </div>
+
+          <!-- Error State -->
+          <div id="apiModalError" class="hidden flex-col items-center justify-center py-12">
+            <svg class="w-12 h-12 text-destructive/50 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+            </svg>
+            <p id="apiModalErrorMsg" class="text-sm text-muted-foreground mb-4">Failed to load API documentation</p>
+            <button data-action="retryApiDocs" class="px-4 py-2 rounded-ios bg-primary text-primary-foreground text-sm font-medium hover:opacity-90 transition-colors">
+              Retry
+            </button>
+          </div>
+
+          <!-- Code Display -->
+          <div id="apiCodeContainer" class="hidden">
+            <div class="relative">
+              <pre id="apiCodeBlock" class="bg-neutral-900 text-neutral-100 rounded-ios-xl p-4 overflow-x-auto text-sm font-mono whitespace-pre-wrap break-words"></pre>
+              <button data-action="copyApiCode" class="absolute top-3 right-3 p-2 rounded-ios bg-neutral-800 hover:bg-neutral-700 text-neutral-300 transition-colors" title="Copy to clipboard">
+                <svg id="copyIcon" class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/>
+                </svg>
+                <svg id="copySuccessIcon" class="w-4 h-4 hidden text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-width="2" d="M5 13l4 4L19 7"/>
+                </svg>
+              </button>
+            </div>
+
+            <!-- Streaming Toggle -->
+            <div id="streamingToggle" class="hidden mt-4 p-3 bg-muted/50 rounded-ios-lg items-center justify-between">
+              <div>
+                <p class="text-sm font-medium">Streaming Mode</p>
+                <p class="text-xs text-muted-foreground">View SSE streaming example</p>
+              </div>
+              <label class="relative inline-flex items-center cursor-pointer">
+                <input type="checkbox" id="streamingCheckbox" class="sr-only peer" data-onchange="toggleStreaming">
+                <div class="w-11 h-6 bg-muted rounded-full peer peer-checked:bg-primary transition-colors after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:after:translate-x-5"></div>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer Notes -->
+        <div id="apiModalNotes" class="hidden border-t border-border p-4 md:p-6 bg-muted/20">
+          <h4 class="text-sm font-medium mb-2">Notes</h4>
+          <ul id="apiNotesList" class="text-xs text-muted-foreground space-y-1"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    @keyframes modal-in {
+      from {
+        opacity: 0;
+        transform: scale(0.95) translateY(10px);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+      }
+    }
+    .animate-modal-in {
+      animation: modal-in 0.2s ease-out;
+    }
+    .api-tab.active {
+      color: hsl(var(--aifnmjmchg-m-primary));
+      border-color: hsl(var(--aifnmjmchg-m-primary));
+    }
+    .api-tab:not(.active) {
+      color: hsl(var(--aifnmjmchg-m-muted-foreground));
+    }
+    /* Syntax highlighting for code blocks */
+    .syntax-string { color: #a5d6ff; }
+    .syntax-keyword { color: #ff7b72; }
+    .syntax-number { color: #79c0ff; }
+    .syntax-comment { color: #8b949e; }
+    .syntax-key { color: #7ee787;     }
+
+    @keyframes shimmer {
+      0% {
+        background-position: -200% 0;
+      }
+      100% {
+        background-position: 200% 0;
+      }
+    }
+
+    .credits-shimmer {
+      background: linear-gradient(
+        90deg,
+        hsl(var(--aifnmjmchg-m-primary) / 0.1) 0%,
+        hsl(var(--aifnmjmchg-m-primary) / 0.3) 50%,
+        hsl(var(--aifnmjmchg-m-primary) / 0.1) 100%
+      );
+      background-size: 200% 100%;
+      animation: shimmer 1.5s ease-in-out infinite;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      display: inline-block;
+    }
+
+    .credits-shimmer.loaded {
+      animation: none;
+      -webkit-text-fill-color: hsl(var(--aifnmjmchg-m-primary));
+      background: none;
+    }
+  </style>
+  <!-- Auth, profile, credits, notifications: handled by navbar.js -->
+
+  <!-- Footer -->
+  <footer class="border-t border-border my-4 lg:mb-0">
+    <div class="max-w-[1600px] mx-auto px-3 sm:px-4 lg:px-6 py-8 flex flex-col md:flex-row items-center justify-between gap-4">
+      <p class="text-sm text-muted-foreground">&copy; 2026 AITOPIA. All rights reserved.</p>
+      <div class="flex items-center gap-6">
+        <a href="/aitopia/marketplace/terms-policies.html" class="text-sm text-muted-foreground hover:text-foreground transition-colors">Terms & Policies</a>
+      </div>
+    </div>
+  </footer>
+  <script src="/aitopia/marketplace/js/shared/footer.js"></script>
+</body>
+</html>

@@ -1,0 +1,2186 @@
+{
+   "action_on_detection": {
+      "message": "检测时的操作"
+   },
+   "action_report_bug_feedback": {
+      "message": "报告错误 / 反馈"
+   },
+   "action_stop_refresh": {
+      "message": "停止刷新"
+   },
+   "active_tabs_alerts_help": {
+      "message": "触发页面监控提醒的标签页。可关闭单个提醒或全部清除。"
+   },
+   "active_tabs_alerts_title": {
+      "message": "提醒"
+   },
+   "active_tabs_clear_all": {
+      "message": "全部清除"
+   },
+   "active_tabs_paused": {
+      "message": "已暂停"
+   },
+   "active_tabs_refreshing_help": {
+      "message": "正在自动刷新的标签页。悬停可暂停、重启或停止。"
+   },
+   "active_tabs_refreshing_title": {
+      "message": "刷新中"
+   },
+   "active_tabs_stop_all": {
+      "message": "全部停止"
+   },
+   "active_tabs_time_day_ago": {
+      "message": "%1 天前"
+   },
+   "active_tabs_time_days_ago": {
+      "message": "%1 天前"
+   },
+   "active_tabs_time_hour_ago": {
+      "message": "%1 小时前"
+   },
+   "active_tabs_time_hours_ago": {
+      "message": "%1 小时前"
+   },
+   "active_tabs_time_just_now": {
+      "message": "刚刚"
+   },
+   "active_tabs_time_min_ago": {
+      "message": "%1 分钟前"
+   },
+   "active_tabs_time_sec_ago": {
+      "message": "%1 秒前"
+   },
+   "add": {
+      "message": "添加"
+   },
+   "add_email": {
+      "message": "添加电子邮件"
+   },
+   "add_email_tooltip": {
+      "message": "添加邮箱以接收提醒"
+   },
+   "add_keywords": {
+      "message": "添加默认目标关键字"
+   },
+   "add_new": {
+      "message": "添加新项"
+   },
+   "added": {
+      "message": "已添加"
+   },
+   "alert_settings": {
+      "message": "警报设置"
+   },
+   "alert_when_any_change_detected": {
+      "message": "检测到此网页上的任何变化时，自动刷新加强版将向您发出警报"
+   },
+   "alert_when_keyword_appears": {
+      "message": "当您的关键字出现时获得通知。"
+   },
+   "alert_when_keyword_disappears": {
+      "message": "当您的关键字消失时获得通知。"
+   },
+   "all_days": {
+      "message": "所有日期"
+   },
+   "any": {
+      "message": "任意"
+   },
+   "app_description": {
+      "description": "The description of extension",
+      "message": "自动刷新页面，具有强大的页面监控功能。"
+   },
+   "app_name": {
+      "description": "The extension name",
+      "message": "自动刷新加强版 | 页面监控"
+   },
+   "appearance": {
+      "message": "外观"
+   },
+   "apply": {
+      "message": "应用"
+   },
+   "are_you_sure": {
+      "message": "您确定要删除吗？"
+   },
+   "ast": {
+      "message": "倒计时器"
+   },
+   "auto_click_element_aria": {
+      "message": "自动点击元素选择器"
+   },
+   "auto_click_element_label": {
+      "message": "自动点击元素"
+   },
+   "auto_click_help": {
+      "message": "如果监控的关键字包含链接，则自动点击该链接。"
+   },
+   "auto_click_targets_desc": {
+      "message": "每次刷新后或关键词匹配时点击元素"
+   },
+   "auto_click_targets_label": {
+      "message": "自动点击目标"
+   },
+   "auto_clicker": {
+      "message": "自动点击器"
+   },
+   "auto_clicker_msg1": {
+      "message": "自动点击监控关键词"
+   },
+   "auto_disable_on_first": {
+      "message": "首次运行后自动禁用"
+   },
+   "auto_disable_on_first_desc": {
+      "message": "该计划运行一次后将其禁用"
+   },
+   "auto_stop_schedule": {
+      "message": "自动停止"
+   },
+   "auto_stop_schedule_desc": {
+      "message": "例如：在上午 10–11 点之间刷新"
+   },
+   "auto_tasks_add_another": {
+      "message": "添加另一个点击"
+   },
+   "auto_tasks_add_element": {
+      "message": "添加元素"
+   },
+   "auto_tasks_empty": {
+      "message": "尚未添加元素"
+   },
+   "auto_tasks_help": {
+      "message": "自动点击页面上选定的元素。"
+   },
+   "auto_tasks_label": {
+      "message": "点击其他元素"
+   },
+   "auto_tasks_new_tab_short": {
+      "message": "新标签页"
+   },
+   "auto_tasks_open_in_new_tab": {
+      "message": "如果是链接则在新标签页打开"
+   },
+   "auto_tasks_open_new_tab_aria": {
+      "message": "在新标签页中打开点击 %1"
+   },
+   "auto_tasks_options": {
+      "message": "选项"
+   },
+   "auto_tasks_pick": {
+      "message": "选择"
+   },
+   "auto_tasks_remove": {
+      "message": "删除"
+   },
+   "auto_tasks_remove_target_aria": {
+      "message": "移除点击目标 %1"
+   },
+   "auto_tasks_selector_aria": {
+      "message": "点击目标 %1 的 CSS 选择器"
+   },
+   "auto_tasks_set_selector": {
+      "message": "设置选择器…"
+   },
+   "auto_tasks_toggle_target_aria": {
+      "message": "切换点击目标 %1"
+   },
+   "auto_tasks_trigger": {
+      "message": "触发条件"
+   },
+   "auto_tasks_trigger_each_refresh": {
+      "message": "每次刷新"
+   },
+   "auto_tasks_trigger_on_detection": {
+      "message": "触发警报时"
+   },
+   "auto_tasks_trigger_on_detection_short": {
+      "message": "检测时"
+   },
+   "auto_tasks_trigger_refresh_short": {
+      "message": "刷新"
+   },
+   "bad": {
+      "message": "差"
+   },
+   "behavior_on_interaction": {
+      "message": "交互时的行为"
+   },
+   "bulk_keywords_results": {
+      "message": "批量关键字结果"
+   },
+   "calendar_weekday_fri": {
+      "message": "五"
+   },
+   "calendar_weekday_mon": {
+      "message": "一"
+   },
+   "calendar_weekday_sat": {
+      "message": "六"
+   },
+   "calendar_weekday_sun": {
+      "message": "日"
+   },
+   "calendar_weekday_thu": {
+      "message": "四"
+   },
+   "calendar_weekday_tue": {
+      "message": "二"
+   },
+   "calendar_weekday_wed": {
+      "message": "三"
+   },
+   "cancel": {
+      "message": "取消"
+   },
+   "captcha_detection": {
+      "message": "验证码检测"
+   },
+   "caution_badge": {
+      "message": "注意"
+   },
+   "choose_interval": {
+      "message": "选择时间间隔"
+   },
+   "clear": {
+      "message": "清除"
+   },
+   "clear_all": {
+      "message": "全部清除"
+   },
+   "clear_all_keywords": {
+      "message": "清除所有关键字"
+   },
+   "clear_all_keywords_desc": {
+      "message": "您确定要清除所有关键字吗？"
+   },
+   "click_automation_title": {
+      "message": "点击自动化"
+   },
+   "close": {
+      "message": "关闭"
+   },
+   "continue": {
+      "message": "继续"
+   },
+   "continue_refreshing_after_alert": {
+      "message": "警报后继续刷新"
+   },
+   "continue_refreshing_help": {
+      "message": "在关键字检测时触发警报但继续正常刷新。"
+   },
+   "continue_refreshing_switch_desc": {
+      "message": "警报触发后继续刷新"
+   },
+   "copy_expression": {
+      "message": "复制表达式"
+   },
+   "copy_to_clipboard": {
+      "message": "复制到剪贴板"
+   },
+   "countdown_decrease_hours": {
+      "message": "减少小时"
+   },
+   "countdown_decrease_min": {
+      "message": "减少分"
+   },
+   "countdown_decrease_sec": {
+      "message": "减少秒"
+   },
+   "countdown_duration_label": {
+      "message": "倒计时持续时间"
+   },
+   "countdown_fires_after": {
+      "message": "%1 后触发"
+   },
+   "countdown_hms_header": {
+      "message": "时 : 分 : 秒"
+   },
+   "countdown_hours_value": {
+      "message": "小时值"
+   },
+   "countdown_increase_hours": {
+      "message": "增加小时"
+   },
+   "countdown_increase_min": {
+      "message": "增加分"
+   },
+   "countdown_increase_sec": {
+      "message": "增加秒"
+   },
+   "countdown_min_value": {
+      "message": "分值"
+   },
+   "countdown_sec_value": {
+      "message": "秒值"
+   },
+   "countdown_target_date_time": {
+      "message": "目标日期和时间"
+   },
+   "countdown_timer_modes_help": {
+      "message": "选择计时器触发方式：时长从设置的时/分/秒倒计时；日期和时间在您选择的精确时刻触发一次。"
+   },
+   "countdown_triggers_once": {
+      "message": "在选定时刻触发一次"
+   },
+   "countdown_unit_hours": {
+      "message": "时"
+   },
+   "countdown_unit_min": {
+      "message": "分"
+   },
+   "countdown_unit_sec": {
+      "message": "秒"
+   },
+   "css_selector": {
+      "message": "CSS 选择器"
+   },
+   "css_selector_aria": {
+      "message": "CSS 选择器"
+   },
+   "css_selector_placeholder": {
+      "message": "例如 button 或 a[href=\"/login\"]"
+   },
+   "custom": {
+      "message": "自定义"
+   },
+   "custom_expression": {
+      "message": "自定义表达式"
+   },
+   "custom_expression_desc": {
+      "message": "它由两个 ## 符号进行初始化，它们是 OR 和 AND 运算符的布尔语句。必须用括号括起来（总共 4 个括号）。"
+   },
+   "custom_expression_example_1_desc": {
+      "message": "搜索\"库存中\"OR\"可用\"AND\"加入购物车\"OR\"立即购买\""
+   },
+   "custom_expression_example_2_desc": {
+      "message": "搜索\"销售\"OR\"折扣\"AND\"50%\"OR\"30%\""
+   },
+   "custom_expression_example_3_desc": {
+      "message": "使用 OR (|) 和 AND 运算符与括号的布尔表达式"
+   },
+   "custom_interval": {
+      "message": "自定义间隔"
+   },
+   "custom_interval_desc": {
+      "message": "设置精确的小时、分钟和秒数"
+   },
+   "custom_monitor": {
+      "message": "自定义监控"
+   },
+   "custom_time_interval": {
+      "message": "自定义时间间隔"
+   },
+   "date_picker_next_month": {
+      "message": "下个月"
+   },
+   "date_picker_previous_month": {
+      "message": "上个月"
+   },
+   "date_time_desc": {
+      "message": "设置倒计时以在特定日期和时间触发。"
+   },
+   "date_time_mode": {
+      "message": "日期时间模式"
+   },
+   "date_time_target": {
+      "message": "目标日期和时间"
+   },
+   "day_abbr_fri": {
+      "message": "周五"
+   },
+   "day_abbr_mon": {
+      "message": "周一"
+   },
+   "day_abbr_sat": {
+      "message": "周六"
+   },
+   "day_abbr_sun": {
+      "message": "周日"
+   },
+   "day_abbr_thu": {
+      "message": "周四"
+   },
+   "day_abbr_tue": {
+      "message": "周二"
+   },
+   "day_abbr_wed": {
+      "message": "周三"
+   },
+   "decrease_aria": {
+      "message": "减少"
+   },
+   "default_help_description": {
+      "message": "您也可以在常规设置中配置\"%1\"以将其应用于所有网站。"
+   },
+   "default_interval": {
+      "message": "默认时间间隔"
+   },
+   "delay_before_scanning": {
+      "message": "扫描前延迟"
+   },
+   "detect_any_change": {
+      "message": "自动刷新加强版已检测到此网站发生了变化。"
+   },
+   "detect_any_change_title": {
+      "message": "页面监控"
+   },
+   "detect_captcha_on_page": {
+      "message": "检测页面上的验证码"
+   },
+   "detect_error_on_page": {
+      "message": "检测错误页面（例如 404）"
+   },
+   "detection_behavior": {
+      "message": "检测行为"
+   },
+   "developer_mode_msg": {
+      "message": "出于安全和稳定性考虑，不允许开发者模式。\u003Cbr>请从官方应用店下载并安装该扩展程序，以确保您拥有最新和最安全的版本"
+   },
+   "dismiss": {
+      "message": "关闭"
+   },
+   "dismiss_alert": {
+      "message": "关闭提醒"
+   },
+   "donation_msg2": {
+      "message": "我已经完成了。"
+   },
+   "download_in_store": {
+      "message": "从网上应用店安装"
+   },
+   "duplicates": {
+      "message": "重复"
+   },
+   "duration_desc": {
+      "message": "使用小时、分钟和秒数设置倒计时。"
+   },
+   "duration_help": {
+      "message": "使用此操作根据小时、分钟和秒的特定时长设置倒计时"
+   },
+   "duration_mode": {
+      "message": "时长模式"
+   },
+   "email_alert_help": {
+      "message": "电子邮件警报会在发生特定更改或事件时通知您。添加电子邮件地址以开始接收这些通知"
+   },
+   "email_alerts_switch_desc": {
+      "message": "监控触发时发送邮件"
+   },
+   "email_daily_limit": {
+      "message": "%1 / %2 每日限额"
+   },
+   "email_disconnect": {
+      "message": "断开连接"
+   },
+   "email_limit_reached": {
+      "message": "已达到电子邮件限制"
+   },
+   "email_limit_toast_description": {
+      "message": "您已达到每日电子邮件限制。升级以继续发送电子邮件警报。"
+   },
+   "email_remaining_count": {
+      "message": "剩余 %1"
+   },
+   "email_sent_today": {
+      "message": "今日已发送 %1"
+   },
+   "email_usage_count": {
+      "message": "今天发送的电子邮件：%1 / %2"
+   },
+   "emails_remaining": {
+      "message": "剩余电子邮件"
+   },
+   "enable_captcha_detection_help": {
+      "message": "启用以检测验证码质询何时出现。"
+   },
+   "enable_error_detection_help": {
+      "message": "启用以检测故障或损坏的页面。"
+   },
+   "enter_custom_interval": {
+      "message": "输入自定义间隔（以秒为单位）。"
+   },
+   "enter_time_duration": {
+      "message": "输入时间时长"
+   },
+   "error_page_detection": {
+      "message": "错误页面检测"
+   },
+   "error_save_preferences": {
+      "message": "保存偏好设置失败，请重试。"
+   },
+   "error_schedule_one_day": {
+      "message": "您必须至少选择一天。"
+   },
+   "error_stop_time": {
+      "message": "停止时间必须晚于开始时间。"
+   },
+   "example": {
+      "message": "示例"
+   },
+   "expression_templates": {
+      "message": "表达式模板"
+   },
+   "ext_action_failed": {
+      "message": "操作失败"
+   },
+   "ext_applying": {
+      "message": "应用中..."
+   },
+   "ext_approve_action": {
+      "message": "批准"
+   },
+   "ext_approve_apply": {
+      "message": "批准并应用"
+   },
+   "ext_auto_generated": {
+      "message": "（自动生成）"
+   },
+   "ext_blacklist": {
+      "message": "黑名单"
+   },
+   "ext_changes_merged": {
+      "message": "将合并到本地选项的更改。"
+   },
+   "ext_code": {
+      "message": "代码"
+   },
+   "ext_completed": {
+      "message": "已完成"
+   },
+   "ext_configuration_review": {
+      "message": "配置审核"
+   },
+   "ext_created": {
+      "message": "创建时间"
+   },
+   "ext_current": {
+      "message": "当前"
+   },
+   "ext_custom_script": {
+      "message": "自定义脚本"
+   },
+   "ext_custom_script_add_new": {
+      "message": "自定义脚本（添加新项）"
+   },
+   "ext_custom_script_add_only": {
+      "message": "此操作仅添加新脚本，绝不会静默覆盖现有脚本。"
+   },
+   "ext_domain_config": {
+      "message": "域名配置"
+   },
+   "ext_domain_configuration": {
+      "message": "域名配置"
+   },
+   "ext_empty": {
+      "message": "（空）"
+   },
+   "ext_enabled": {
+      "message": "已启用"
+   },
+   "ext_error_action": {
+      "message": "无法%1请求。"
+   },
+   "ext_error_storage": {
+      "message": "无法从扩展存储读取待审核内容。"
+   },
+   "ext_error_sync": {
+      "message": "由于存储同步错误，无法%1请求。"
+   },
+   "ext_execution_timing": {
+      "message": "执行时机"
+   },
+   "ext_expires": {
+      "message": "过期"
+   },
+   "ext_extension_wide_settings": {
+      "message": "扩展范围设置"
+   },
+   "ext_field": {
+      "message": "字段"
+   },
+   "ext_global_options": {
+      "message": "全局选项"
+   },
+   "ext_global_options_changes": {
+      "message": "全局选项更改"
+   },
+   "ext_id": {
+      "message": "ID"
+   },
+   "ext_injection_type": {
+      "message": "注入类型"
+   },
+   "ext_name": {
+      "message": "名称"
+   },
+   "ext_new": {
+      "message": "新"
+   },
+   "ext_new_script_injection": {
+      "message": "新脚本注入"
+   },
+   "ext_no_changes_detected": {
+      "message": "未检测到有效更改。"
+   },
+   "ext_no_pending_description": {
+      "message": "没有待审核的更改。当外部来源请求配置更新时，此页面将出现。"
+   },
+   "ext_no_pending_request": {
+      "message": "无待处理请求"
+   },
+   "ext_proposed_changes": {
+      "message": "提议的更改"
+   },
+   "ext_refresh": {
+      "message": "刷新"
+   },
+   "ext_reject": {
+      "message": "拒绝"
+   },
+   "ext_reject_action": {
+      "message": "拒绝"
+   },
+   "ext_rejecting": {
+      "message": "拒绝中..."
+   },
+   "ext_request": {
+      "message": "请求"
+   },
+   "ext_review_description": {
+      "message": "请审核提议的更改，仅当符合您的意图时再批准。在您确认之前不会应用任何更改。"
+   },
+   "ext_review_pending_changes": {
+      "message": "审核待处理更改"
+   },
+   "ext_site_specific_rules": {
+      "message": "站点特定规则"
+   },
+   "ext_source": {
+      "message": "来源"
+   },
+   "ext_target": {
+      "message": "目标"
+   },
+   "ext_type": {
+      "message": "类型"
+   },
+   "ext_unknown": {
+      "message": "未知"
+   },
+   "ext_url_pattern": {
+      "message": "URL 模式"
+   },
+   "ext_whitelist": {
+      "message": "白名单"
+   },
+   "extension_settings": {
+      "message": "扩展程序设置"
+   },
+   "extension_update_dismiss_aria": {
+      "message": "关闭更新通知"
+   },
+   "extension_update_notification_aria": {
+      "message": "扩展更新通知"
+   },
+   "extension_updated_to_version": {
+      "message": "扩展已更新至 v%1"
+   },
+   "feature_is_premium": {
+      "message": "%1 是高级功能。升级以访问所有高级工具并增强您的体验。"
+   },
+   "find_mtr_msg": {
+      "message": "查找监控文本"
+   },
+   "follow_all_redirects": {
+      "message": "跟随所有重定向"
+   },
+   "follow_all_redirects_desc": {
+      "message": "即使页面重定向到不同的 URL，也继续刷新。"
+   },
+   "follow_canonical_url": {
+      "message": "跟随规范 URL"
+   },
+   "follow_canonical_url_desc": {
+      "message": "使用页面的规范（原始）URL。"
+   },
+   "found": {
+      "message": "找到"
+   },
+   "frozen_tab_noti_message": {
+      "message": "浏览器为节省内存已在后台冻结此标签页。返回该标签页后，自动刷新将恢复。"
+   },
+   "frozen_tab_noti_title": {
+      "message": "自动刷新已暂停"
+   },
+   "full_documentation": {
+      "message": "完整文档"
+   },
+   "full_page": {
+      "message": "完整页面刷新"
+   },
+   "full_page_type_desc": {
+      "message": "重新加载整个页面以检查更改"
+   },
+   "full_page_type_help": {
+      "message": "正常刷新允许您检查整个页面的更改，包括所有内容和资源。"
+   },
+   "go_premium_full_access": {
+      "message": "升级至高级版 - 完全访问权限"
+   },
+   "go_to_top": {
+      "description": "Accessible label for scroll-to-top button",
+      "message": "返回顶部"
+   },
+   "go_top": {
+      "message": "顶部"
+   },
+   "good": {
+      "message": "好"
+   },
+   "grace_period_banner": {
+      "message": "您的宽限期将于7月1日到期。高级功能将被禁用"
+   },
+   "grace_period_consent_body": {
+      "message": "您即将失去对高级功能的访问权限。确定要继续使用免费套餐吗？"
+   },
+   "grace_period_consent_title": {
+      "message": "不使用高级版继续？"
+   },
+   "grace_period_dismiss_aria": {
+      "message": "关闭宽限期通知"
+   },
+   "grace_period_expired_data_safe": {
+      "message": "您的设置和数据是安全的，并将继续保存。"
+   },
+   "grace_period_expired_description": {
+      "message": "您账户中的高级功能已不再可用。"
+   },
+   "grace_period_expired_disable_button": {
+      "message": "禁用高级功能"
+   },
+   "grace_period_expired_title": {
+      "message": "宽限期已结束"
+   },
+   "grace_period_expired_upgrade_button": {
+      "message": "升级至 Premium"
+   },
+   "grace_period_expired_upgrade_hint": {
+      "message": "您可以随时升级以恢复所有高级功能。"
+   },
+   "grace_period_ok_with_free": {
+      "message": "继续使用免费版"
+   },
+   "grace_period_upgrade_button": {
+      "message": "保留高级版"
+   },
+   "great": {
+      "message": "很好！"
+   },
+   "handle_redirects": {
+      "message": "处理重定向"
+   },
+   "hard_refresh": {
+      "message": "强制刷新"
+   },
+   "hard_refresh_desc": {
+      "message": "每次重新加载时绕过缓存"
+   },
+   "hard_refresh_help": {
+      "message": "重新加载页面而不依赖缓存数据。"
+   },
+   "highlight_element": {
+      "message": "在页面上突出显示元素"
+   },
+   "highlight_keyword": {
+      "message": "在页面上突出显示关键字"
+   },
+   "highlight_keyword_desc": {
+      "message": "高亮显示匹配的关键词"
+   },
+   "highlight_keyword_help": {
+      "message": "检测到关键字时，它将在页面上以视觉方式突出显示。"
+   },
+   "hotkeys_label": {
+      "message": "快捷键"
+   },
+   "hour": {
+      "message": "小时"
+   },
+   "hours": {
+      "message": "小时"
+   },
+   "increase_aria": {
+      "message": "增加"
+   },
+   "individual_plan": {
+      "message": "个人计划"
+   },
+   "individual_plan_starts_at": {
+      "message": "个人计划起价为 $2.99"
+   },
+   "interaction_help": {
+      "message": "当用户与页面交互时自动停止刷新。"
+   },
+   "interactions_switch_desc": {
+      "message": "使用页面时的行为"
+   },
+   "interactions_title_opt": {
+      "message": "用户交互时的刷新行为"
+   },
+   "interval": {
+      "message": "间隔"
+   },
+   "interval_card_custom_duration": {
+      "message": "自定义时长"
+   },
+   "interval_card_interval": {
+      "message": "间隔"
+   },
+   "interval_card_random_range": {
+      "message": "随机范围"
+   },
+   "interval_custom_summary": {
+      "message": "每 %1时 %2分 %3秒"
+   },
+   "interval_decrease_by": {
+      "message": "减少 %1"
+   },
+   "interval_edit_custom_aria": {
+      "message": "编辑自定义间隔"
+   },
+   "interval_in_seconds_aria": {
+      "message": "以秒为单位的间隔"
+   },
+   "interval_increase_by": {
+      "message": "增加 %1"
+   },
+   "interval_max_sec": {
+      "message": "最大 (秒)"
+   },
+   "interval_max_sec_aria": {
+      "message": "最大秒数"
+   },
+   "interval_min_sec": {
+      "message": "最小 (秒)"
+   },
+   "interval_min_sec_aria": {
+      "message": "最小秒数"
+   },
+   "interval_modes_help": {
+      "message": "固定：每 N 秒刷新。随机：在范围内变化间隔。自定义：设置精确的时/分/秒时长。"
+   },
+   "interval_preset_minutes": {
+      "message": "%1分"
+   },
+   "interval_preset_seconds": {
+      "message": "%1秒"
+   },
+   "interval_random_summary": {
+      "message": "每 %1–%2 秒刷新"
+   },
+   "interval_range_to": {
+      "message": "至"
+   },
+   "interval_tab_custom": {
+      "message": "自定义"
+   },
+   "interval_tab_fixed": {
+      "message": "固定"
+   },
+   "interval_tab_random": {
+      "message": "随机"
+   },
+   "interval_unit_hrs": {
+      "message": "时"
+   },
+   "interval_unit_min": {
+      "message": "分"
+   },
+   "interval_unit_sec": {
+      "message": "秒"
+   },
+   "interval_unit_seconds_header": {
+      "message": "秒"
+   },
+   "keyword_input_placeholder": {
+      "message": "输入关键字、正则表达式、XPath 或 CSS 选择器（用逗号分隔多个）..."
+   },
+   "keywords_to_monitor": {
+      "message": "要监控的关键字"
+   },
+   "kill_notification": {
+      "message": "关闭通知警报"
+   },
+   "kill_successfully": {
+      "message": "已成功关闭"
+   },
+   "lang_code": {
+      "message": "zh_CN"
+   },
+   "language": {
+      "message": "语言"
+   },
+   "lost": {
+      "message": "丢失"
+   },
+   "loved": {
+      "message": "非常喜欢！"
+   },
+   "match_html_source_desc": {
+      "message": "扫描原始源代码 — 较慢，请谨慎使用"
+   },
+   "match_html_source_label": {
+      "message": "匹配 HTML 源代码"
+   },
+   "match_visible_text_desc": {
+      "message": "扫描屏幕上渲染的文本"
+   },
+   "match_visible_text_label": {
+      "message": "匹配可见文本"
+   },
+   "maximum": {
+      "message": "最大值"
+   },
+   "minimum": {
+      "message": "最小值"
+   },
+   "minute": {
+      "message": "分钟"
+   },
+   "minutes": {
+      "message": "分钟"
+   },
+   "monitor": {
+      "message": "监控"
+   },
+   "monitor_area_select": {
+      "message": "选择"
+   },
+   "monitor_area_selector_desc": {
+      "message": "输入 CSS 选择器或在页面上选取元素。"
+   },
+   "monitor_area_switch_desc": {
+      "message": "将搜索限制在一个区域"
+   },
+   "monitor_area_switch_label": {
+      "message": "监控区域"
+   },
+   "monitor_custom_area": {
+      "message": "监控页面的自定义区域"
+   },
+   "monitor_custom_area_help": {
+      "message": "启用以指定页面的自定义区域进行监控或搜索。"
+   },
+   "monitor_full_page": {
+      "message": "监控完整页面"
+   },
+   "monitor_full_page_help": {
+      "message": "启用以监控整个网页的变化。"
+   },
+   "monitor_page_for_any_changes": {
+      "message": "自动跟踪任何页面变化。"
+   },
+   "monitored_area": {
+      "message": "监控区域"
+   },
+   "monitoring_active": {
+      "message": "监控已启用"
+   },
+   "monitoring_auto_click_label": {
+      "message": "关键词匹配时自动点击"
+   },
+   "monitoring_engine_advanced": {
+      "message": "高级"
+   },
+   "monitoring_engine_aria": {
+      "message": "监控引擎版本"
+   },
+   "monitoring_engine_basic": {
+      "message": "基础"
+   },
+   "monitoring_engine_beta": {
+      "message": "测试版"
+   },
+   "monitoring_engine_tooltip_desc": {
+      "message": "适用于所有选择 — 发现、丢失和自定义 — 检测更快更智能。"
+   },
+   "monitoring_engine_tooltip_title": {
+      "message": "全新测试版核心"
+   },
+   "monitoring_keyword_input_aria": {
+      "message": "要监控的关键词"
+   },
+   "monitoring_keywords_empty": {
+      "message": "尚无关键词 — 请至少添加一个以开始监控。"
+   },
+   "monitoring_mode": {
+      "message": "监控模式"
+   },
+   "monitoring_mode_custom_info_highlight": {
+      "message": "任何更改"
+   },
+   "monitoring_mode_custom_info_prefix": {
+      "message": "自定义模式会在检测到"
+   },
+   "monitoring_mode_custom_info_suffix": {
+      "message": "时提醒您 — 无需关键词。"
+   },
+   "monitoring_mode_custom_intro": {
+      "message": "自动跟踪任何页面更改。"
+   },
+   "monitoring_mode_custom_short": {
+      "message": "自定义"
+   },
+   "monitoring_mode_found_desc": {
+      "message": "当您的关键词出现时收到通知。"
+   },
+   "monitoring_mode_found_short": {
+      "message": "发现"
+   },
+   "monitoring_mode_help": {
+      "message": "选择 Auto Refresh Plus 何时提醒您"
+   },
+   "monitoring_mode_lost_desc": {
+      "message": "当您的关键词消失时收到通知。"
+   },
+   "monitoring_mode_lost_short": {
+      "message": "丢失"
+   },
+   "monitoring_remove_keyword_aria": {
+      "message": "移除 %1"
+   },
+   "monitoring_tip_banner": {
+      "message": "需要更多操作？试试多点击自动化。"
+   },
+   "monitoring_tip_label": {
+      "message": "提示："
+   },
+   "new_badge": {
+      "message": "新"
+   },
+   "no_active_tabs": {
+      "message": "没有活跃标签页"
+   },
+   "no_active_tabs_desc": {
+      "message": "当前没有被监控或刷新的标签页。开始刷新一个标签页以在此查看它。"
+   },
+   "no_keyword": {
+      "message": "尚未添加关键字。添加关键字进行监控。"
+   },
+   "no_tabs_refreshing": {
+      "message": "没有正在刷新的标签页"
+   },
+   "no_templates_match": {
+      "message": "没有模板与您的搜索条件匹配。"
+   },
+   "normal_expression": {
+      "message": "正常表达式"
+   },
+   "normal_expression_desc": {
+      "message": "它在网页上搜索关键字，不需要使用任何符号进行初始化。只需在每个关键字上按回车键。"
+   },
+   "normal_expression_example_1_desc": {
+      "message": "在网页上搜索精确文本\"库存中\""
+   },
+   "normal_expression_example_2_desc": {
+      "message": "搜索多个关键字，在每个关键字后按回车键"
+   },
+   "normal_expression_example_3_desc": {
+      "message": "在页面上搜索\"加入购物车\"按钮或文本"
+   },
+   "not_allowed": {
+      "message": "不允许在此处使用。"
+   },
+   "noti_msg": {
+      "message": "自动刷新加强版已%1您的目标文本。"
+   },
+   "noti_msg_title": {
+      "message": "目标文本！"
+   },
+   "notification_domain_info": {
+      "message": "在 %1"
+   },
+   "ok": {
+      "message": "确定"
+   },
+   "okay": {
+      "message": "一般"
+   },
+   "open_link_help": {
+      "message": "在新浏览器标签页中打开单击的链接。"
+   },
+   "open_link_tab": {
+      "message": "在新标签页中打开链接"
+   },
+   "options": {
+      "message": "选项"
+   },
+   "partial_page_desc": {
+      "message": "仅监控 AJAX/XHR 请求"
+   },
+   "pause": {
+      "message": "暂停"
+   },
+   "pause_on_interact": {
+      "message": "交互时暂停"
+   },
+   "pause_refreshing": {
+      "message": "暂停刷新"
+   },
+   "permissions_attention": {
+      "message": "请注意"
+   },
+   "permissions_btn_grant": {
+      "message": "授予仪表板主机的网站访问权限"
+   },
+   "permissions_btn_opening_dialog": {
+      "message": "正在打开权限对话框..."
+   },
+   "permissions_btn_refresh": {
+      "message": "刷新状态"
+   },
+   "permissions_config_missing_body": {
+      "message": "未在构建环境中定义。请重新构建并设置为您的仪表板主机名。"
+   },
+   "permissions_config_missing_title": {
+      "message": "缺少配置"
+   },
+   "permissions_error_denied": {
+      "message": "权限被拒绝。请授予仪表板主机的访问权限，以确保同步和注入功能正常工作。"
+   },
+   "permissions_error_dialog": {
+      "message": "打开权限对话框时出错。请重试或检查浏览器设置。"
+   },
+   "permissions_error_read_state": {
+      "message": "无法读取网站权限状态。请重新加载此页面或稍后重试。"
+   },
+   "permissions_go_to_options": {
+      "message": "前往选项"
+   },
+   "permissions_granted_body": {
+      "message": "扩展程序已为您的平台拥有匹配的主机权限。您可以关闭此标签页。"
+   },
+   "permissions_granted_ok": {
+      "message": "确定"
+   },
+   "permissions_granted_title": {
+      "message": "已启用网站访问"
+   },
+   "permissions_heading_dashboard": {
+      "message": "仪表板主机权限"
+   },
+   "permissions_intro_dashboard": {
+      "message": "控制扩展程序是否可在您的 Auto Refresh Plus 仪表板域名上运行（内容脚本与平台集成）。"
+   },
+   "permissions_label_dashboard_host": {
+      "message": "仪表板主机"
+   },
+   "permissions_revoke_hint": {
+      "message": "若要稍后撤销，请在浏览器设置的扩展程序网站访问列表中移除此网站。"
+   },
+   "permissions_subtitle": {
+      "message": "平台网站访问权限"
+   },
+   "permissions_warn_body_prefix": {
+      "message": "授予访问权限，以便扩展程序可注入您的仪表板、同步偏好设置并保持与扩展一致的体验（与内容脚本相同的主机匹配模式："
+   },
+   "permissions_warn_body_suffix": {
+      "message": "）。"
+   },
+   "permissions_warn_title": {
+      "message": "尚未授予网站访问权限"
+   },
+   "play_alarm_on_captcha_detection": {
+      "message": "验证码检测时播放警报"
+   },
+   "play_alarm_on_captcha_detection_help": {
+      "message": "检测到验证码时播放声音警报。"
+   },
+   "play_alarm_on_error_detection": {
+      "message": "错误检测时播放警报"
+   },
+   "play_alarm_on_error_detection_help": {
+      "message": "检测到错误页面时播放声音警报。"
+   },
+   "please_add_email_first": {
+      "message": "请先添加电子邮件。"
+   },
+   "please_add_webhooks_first": {
+      "message": "请先添加网络钩子。"
+   },
+   "please_rateus": {
+      "message": "请给我们评分"
+   },
+   "popup_on_keyword_found": {
+      "message": "找到关键字时的警报"
+   },
+   "popup_on_keyword_lost": {
+      "message": "关键字丢失时的警报"
+   },
+   "predefined_interval": {
+      "message": "预定义间隔"
+   },
+   "predefined_interval_desc": {
+      "message": "使用预设或默认时间值"
+   },
+   "premium_benefits": {
+      "message": "高级权益："
+   },
+   "premium_device_sync": {
+      "message": "管理最多 3 台设备"
+   },
+   "premium_full_access": {
+      "message": "所有高级功能"
+   },
+   "premium_priority_support": {
+      "message": "不同的设置配置文件"
+   },
+   "premium_tag_aria": {
+      "message": "专业版功能：%1。打开公告。"
+   },
+   "premium_tag_default_feature": {
+      "message": "功能"
+   },
+   "premium_tag_tooltip_click": {
+      "message": "点击查看详情"
+   },
+   "premium_usage_body": {
+      "message": "免费套餐中已启用高级功能。"
+   },
+   "premium_usage_dismiss": {
+      "message": "关闭通知"
+   },
+   "premium_usage_status_label": {
+      "message": "正在使用高级功能"
+   },
+   "preset_interval": {
+      "message": "预设间隔"
+   },
+   "pricing": {
+      "message": "定价"
+   },
+   "pro_announcement_body": {
+      "message": "Auto Refresh Plus 正在逐步推出专业版，以支持长期开发、高级功能、云端同步、更智能的监控与多设备管理，同时核心刷新功能仍对所有用户免费开放。"
+   },
+   "pro_announcement_close_aria": {
+      "message": "关闭对话框"
+   },
+   "pro_announcement_days_label": {
+      "message": "天"
+   },
+   "pro_announcement_days_remaining_aria": {
+      "message": "还剩 %1 天"
+   },
+   "pro_announcement_fresh_install_body": {
+      "message": "解锁 %1 以及 PRO 的完整高级体验，包括高级工具、更智能监测、云端同步和多设备访问。"
+   },
+   "pro_announcement_fresh_install_title_suffix": {
+      "message": "是高级版权益"
+   },
+   "pro_announcement_fresh_install_trial": {
+      "message": "15 天免费试用"
+   },
+   "pro_announcement_important_badge": {
+      "message": "重要"
+   },
+   "pro_announcement_important_notice_aria": {
+      "message": "重要提示"
+   },
+   "pro_announcement_moving_to_pro": {
+      "message": "将迁至专业版"
+   },
+   "pro_announcement_premium_badge": {
+      "message": "PREMIUM"
+   },
+   "pro_announcement_premium_badge_aria": {
+      "message": "高级版"
+   },
+   "pro_announcement_rollout_date": {
+      "message": "6 月 1 日"
+   },
+   "pro_announcement_rollout_intro": {
+      "message": "上线时间从"
+   },
+   "pro_announcement_rollout_outro": {
+      "message": "开始。"
+   },
+   "pro_announcement_view_pricing": {
+      "message": "查看价格 — 每月 $2.99 起"
+   },
+   "random_interval": {
+      "message": "随机间隔"
+   },
+   "random_interval_desc": {
+      "message": "随机刷新（最小值-最大值之间）"
+   },
+   "random_interval_help": {
+      "message": "按照当前设置，页面将随机刷新，间隔为 %1 到 %2 秒。"
+   },
+   "random_time_interval": {
+      "message": "随机刷新范围"
+   },
+   "rate_us": {
+      "message": "给我们评分"
+   },
+   "rateus_title": {
+      "message": "评分此扩展程序"
+   },
+   "ready_expressions_load_error": {
+      "message": "无法加载模板，请稍后再试。"
+   },
+   "real_time_detection_during_refresh": {
+      "message": "实时检测"
+   },
+   "real_time_detection_switch_desc": {
+      "message": "无需完整刷新即可持续检查"
+   },
+   "realtime_help": {
+      "message": "在刷新期间持续检测变化，而不仅仅在间隔结束时。"
+   },
+   "receive_emails_alerts": {
+      "message": "接收电子邮件警报"
+   },
+   "receive_webhook_alerts": {
+      "message": "接收网络钩子警报"
+   },
+   "redirection_behavior": {
+      "message": "重定向行为"
+   },
+   "redirection_behavior_desc": {
+      "message": "刷新期间处理重定向"
+   },
+   "redirection_behavior_help": {
+      "message": "选择自动刷新加强版如何处理 URL 变化。您可以锁定到原始域或跟随重定向。"
+   },
+   "refresh_cycles_completed": {
+      "message": "已完成的刷新周期"
+   },
+   "refresh_interval_mode": {
+      "message": "刷新间隔模式"
+   },
+   "refresh_limit": {
+      "message": "刷新次数限制"
+   },
+   "refresh_limit_times": {
+      "message": "次"
+   },
+   "refresh_number": {
+      "message": "设置刷新次数"
+   },
+   "refresh_number_desc": {
+      "message": "达到固定次数后停止"
+   },
+   "refresh_number_help": {
+      "message": "设置要刷新页面的次数。"
+   },
+   "refresh_position_hint_body": {
+      "message": "您可以在此菜单中更改刷新按钮和其他界面设置。"
+   },
+   "refresh_position_hint_understand": {
+      "message": "我知道了"
+   },
+   "refresh_top_pause": {
+      "message": "暂停"
+   },
+   "refresh_top_resume": {
+      "message": "继续"
+   },
+   "refresh_top_start": {
+      "message": "开始"
+   },
+   "refresh_top_stop": {
+      "message": "停止"
+   },
+   "refresh_type": {
+      "message": "刷新类型"
+   },
+   "refresh_type_help": {
+      "message": "每次扫描前如何重新加载页面。完整页面会像按刷新一样重新加载整个 URL——可靠但更重。XHR 仅触发后台 AJAX/XHR 请求（无需完整刷新）——更快更轻，适合无需刷新即可更新内容的动态页面。"
+   },
+   "regex": {
+      "message": "正则表达式"
+   },
+   "regex_expression": {
+      "message": "正则表达式"
+   },
+   "regex_expression_desc": {
+      "message": "自动刷新加强版也支持正则表达式，必须使用 $ 符号进行初始化，然后是正则表达式。"
+   },
+   "regex_expression_example_1_desc": {
+      "message": "匹配\"product\"后跟一个或多个数字（product1、product42 等）"
+   },
+   "regex_expression_example_2_desc": {
+      "message": "使用正则表达式标志匹配不区分大小写的\"库存中\""
+   },
+   "regex_expression_example_3_desc": {
+      "message": "匹配价格格式，如\"$19.99\"、\"$299.00\"等"
+   },
+   "remove_email": {
+      "message": "移除电子邮件"
+   },
+   "restart": {
+      "message": "重新开始"
+   },
+   "restart_wait_seconds_desc": {
+      "message": "设置刷新再次开始前要等待的秒数"
+   },
+   "resume": {
+      "message": "恢复"
+   },
+   "resume_refreshing": {
+      "message": "继续刷新"
+   },
+   "save": {
+      "message": "保存"
+   },
+   "scan_method_title": {
+      "message": "扫描方式"
+   },
+   "sch_description": {
+      "message": "在选定的时间和日期自动运行。"
+   },
+   "schedule_add": {
+      "message": "添加计划"
+   },
+   "schedule_auto_disable_aria": {
+      "message": "自动禁用"
+   },
+   "schedule_auto_stop_aria": {
+      "message": "自动停止"
+   },
+   "schedule_delete_aria": {
+      "message": "删除计划"
+   },
+   "schedule_disconnected": {
+      "message": "计划已断开连接"
+   },
+   "schedule_edit_aria": {
+      "message": "编辑计划"
+   },
+   "schedule_enable_aria": {
+      "message": "启用计划"
+   },
+   "schedule_help": {
+      "message": "计划任务可让您在特定时间和日期自动刷新。每个计划可设置开始时间、所选工作日、自动停止和自动禁用选项。"
+   },
+   "schedule_options_label": {
+      "message": "选项"
+   },
+   "schedule_select_days": {
+      "message": "选择日期"
+   },
+   "schedule_start_time_label": {
+      "message": "开始时间"
+   },
+   "schedules": {
+      "message": "计划"
+   },
+   "schedules_active_count": {
+      "message": "%1 个启用"
+   },
+   "schedules_empty": {
+      "message": "暂无计划"
+   },
+   "search_templates": {
+      "message": "搜索模板..."
+   },
+   "seconds": {
+      "message": "秒"
+   },
+   "select_area": {
+      "message": "选择区域"
+   },
+   "select_area_desc": {
+      "message": "输入 CSS 选择器以限制搜索区域"
+   },
+   "select_css_selector": {
+      "message": "选择元素以设置区域选择器"
+   },
+   "select_date_time": {
+      "message": "选择日期和时间"
+   },
+   "select_days": {
+      "message": "选择日期"
+   },
+   "select_element": {
+      "message": "选择元素"
+   },
+   "select_language": {
+      "message": "选择您的语言"
+   },
+   "select_time": {
+      "message": "选择时间"
+   },
+   "session_expired": {
+      "message": "您的会话已过期。请重新登录。"
+   },
+   "settings_card_collapse_aria": {
+      "message": "折叠%1"
+   },
+   "settings_card_expand_aria": {
+      "message": "展开%1"
+   },
+   "show_tab": {
+      "message": "显示标签页"
+   },
+   "signup_requirement_body": {
+      "message": "即将需要账号才能继续使用。"
+   },
+   "signup_requirement_countdown_days": {
+      "message": "距离必须登录还剩 %1 天"
+   },
+   "signup_requirement_countdown_one_day": {
+      "message": "距离必须登录还剩 1 天"
+   },
+   "signup_requirement_days_abbr": {
+      "message": "天"
+   },
+   "signup_requirement_dismiss": {
+      "message": "关闭通知"
+   },
+   "signup_requirement_sign_up": {
+      "message": "免费注册 →"
+   },
+   "signup_requirement_status_label": {
+      "message": "需要账号的通知"
+   },
+   "skip_repeated_keyword": {
+      "message": "跳过重复关键字"
+   },
+   "skip_repeated_keyword_desc": {
+      "message": "忽略已检测到的关键词"
+   },
+   "skip_repeated_keyword_help": {
+      "message": "在下次刷新时忽略已检测到的关键字。"
+   },
+   "slave_device_alert_body": {
+      "message": "此扩展已配置为已关联的辅助设备。刷新设置与控制可能会与主设备保持一致。"
+   },
+   "slave_device_alert_dismiss": {
+      "message": "关闭通知"
+   },
+   "slave_device_alert_read_more": {
+      "message": "了解更多"
+   },
+   "slave_device_alert_status_label": {
+      "message": "辅助设备"
+   },
+   "slave_message_alert": {
+      "message": "您无法修改此选项，因为您是从属用户。"
+   },
+   "source_find_text": {
+      "message": "源（HTML 源）"
+   },
+   "source_find_text_caution": {
+      "message": "此选项主要面向开发者。扫描原始 HTML 源代码可能匹配隐藏或不可见的标记，这通常会导致误报。速度较慢，不建议用于日常监控——仅在可见文本匹配不足时启用。"
+   },
+   "source_find_text_help": {
+      "message": "直接从 HTML 源代码中提取文本。可能包括隐藏或动态内容。"
+   },
+   "start_countdown": {
+      "message": "开始倒计时"
+   },
+   "start_msg": {
+      "message": "开始"
+   },
+   "start_refreshing": {
+      "message": "开始刷新"
+   },
+   "start_time": {
+      "message": "开始时间"
+   },
+   "stop": {
+      "message": "停止"
+   },
+   "stop_countdown": {
+      "message": "停止倒计时"
+   },
+   "stop_refreshing": {
+      "message": "停止刷新"
+   },
+   "stop_time": {
+      "message": "停止时间"
+   },
+   "subscription": {
+      "message": "订阅"
+   },
+   "success": {
+      "message": "设置保存成功"
+   },
+   "support_ticket": {
+      "message": "支持工单"
+   },
+   "supported_expressions": {
+      "message": "支持的表达式"
+   },
+   "supported_expressions_msg_monitor": {
+      "message": "页面监控支持的表达式"
+   },
+   "syntax_css_desc": {
+      "message": "用标准 CSS 选择器定位元素 — 按 id、类、属性或层级。"
+   },
+   "syntax_css_ex1_desc": {
+      "message": "选择 id 为 \"price\" 的元素"
+   },
+   "syntax_css_ex1_title": {
+      "message": "按 id"
+   },
+   "syntax_css_ex2_desc": {
+      "message": "选择类名为 \"stock-status\" 的元素"
+   },
+   "syntax_css_ex2_title": {
+      "message": "按类名"
+   },
+   "syntax_css_ex3_desc": {
+      "message": "选择 data-testid 为 \"add-to-cart\" 的元素"
+   },
+   "syntax_css_ex3_title": {
+      "message": "按属性"
+   },
+   "syntax_css_title": {
+      "message": "CSS 选择器"
+   },
+   "syntax_custom_desc": {
+      "message": "以 ## 开头，使用 Boolean AND / OR / NOT 逻辑组合关键词。"
+   },
+   "syntax_custom_ex1_desc": {
+      "message": "仅当 \"In Stock\" 和 \"Add to Cart\" 都出现时才触发"
+   },
+   "syntax_custom_ex1_title": {
+      "message": "AND 条件"
+   },
+   "syntax_custom_ex2_desc": {
+      "message": "任一关键词出现时触发"
+   },
+   "syntax_custom_ex2_title": {
+      "message": "OR 条件"
+   },
+   "syntax_custom_ex3_desc": {
+      "message": "当出现 \"In Stock\" 但没有 \"Sold Out\" 时触发"
+   },
+   "syntax_custom_ex3_title": {
+      "message": "NOT 条件"
+   },
+   "syntax_custom_title": {
+      "message": "自定义表达式"
+   },
+   "syntax_norm_ex1_desc": {
+      "message": "匹配页面上任何位置的精确文本 \"In Stock\""
+   },
+   "syntax_norm_ex1_title": {
+      "message": "In Stock"
+   },
+   "syntax_norm_ex2_desc": {
+      "message": "多个关键词 — 每个之后按 Enter"
+   },
+   "syntax_norm_ex2_title": {
+      "message": "Available, Out of Stock"
+   },
+   "syntax_norm_ex3_desc": {
+      "message": "匹配页面上的 \"Add to Cart\" 按钮或文本"
+   },
+   "syntax_norm_ex3_title": {
+      "message": "Add to Cart"
+   },
+   "syntax_regex_desc": {
+      "message": "用斜杠 /.../ 包裹以匹配文本模式。适用于价格、SKU 和灵活匹配。"
+   },
+   "syntax_regex_ex1_desc": {
+      "message": "匹配美元金额，如 $19.99 或 $1,299.00"
+   },
+   "syntax_regex_ex1_title": {
+      "message": "价格匹配"
+   },
+   "syntax_regex_ex2_desc": {
+      "message": "匹配 \"In Stock\" 或 \"in stock\"（不区分大小写）"
+   },
+   "syntax_regex_ex2_title": {
+      "message": "库存状态"
+   },
+   "syntax_regex_ex3_desc": {
+      "message": "匹配产品 SKU，如 SKU-12345"
+   },
+   "syntax_regex_ex3_title": {
+      "message": "SKU 代码"
+   },
+   "syntax_regex_title": {
+      "message": "正则表达式"
+   },
+   "syntax_text_matching_desc": {
+      "message": "在网页上搜索普通关键词。无需符号 — 每个关键词后按 Enter。"
+   },
+   "syntax_text_matching_title": {
+      "message": "文本匹配"
+   },
+   "syntax_xpath_desc": {
+      "message": "以 // 开头，按页面 HTML 结构中的位置定位元素。"
+   },
+   "syntax_xpath_ex1_desc": {
+      "message": "选择类名为 \"price\" 的任何元素"
+   },
+   "syntax_xpath_ex1_title": {
+      "message": "按类名"
+   },
+   "syntax_xpath_ex2_desc": {
+      "message": "选择文本为 \"Add to Cart\" 的按钮"
+   },
+   "syntax_xpath_ex2_title": {
+      "message": "按文本的按钮"
+   },
+   "syntax_xpath_ex3_desc": {
+      "message": "选择 id 为 \"availability\" 的元素"
+   },
+   "syntax_xpath_ex3_title": {
+      "message": "按 id"
+   },
+   "syntax_xpath_title": {
+      "message": "XPath 表达式"
+   },
+   "tabs": {
+      "message": "标签页"
+   },
+   "tabs_alerts": {
+      "message": "带有警报的标签页"
+   },
+   "tabs_refreshing": {
+      "message": "正在刷新的活跃标签页"
+   },
+   "template_add_to_cart_button": {
+      "message": "加入购物车按钮"
+   },
+   "template_add_to_cart_button_desc": {
+      "message": "通过 test id 匹配购物车按钮"
+   },
+   "template_any_stock_term": {
+      "message": "任意库存词"
+   },
+   "template_any_stock_term_desc": {
+      "message": "任一库存关键词即触发"
+   },
+   "template_buy_button": {
+      "message": "购买按钮"
+   },
+   "template_buy_button_desc": {
+      "message": "查找购买或购物按钮"
+   },
+   "template_email_address": {
+      "message": "电子邮件地址"
+   },
+   "template_email_address_desc": {
+      "message": "匹配电子邮件地址"
+   },
+   "template_expression_description": {
+      "message": "用于页面监控的模板表达式"
+   },
+   "template_in_stock_buyable": {
+      "message": "有货且可购买"
+   },
+   "template_in_stock_buyable_desc": {
+      "message": "仅在有货且可购买时提醒"
+   },
+   "template_in_stock_not_sold_out": {
+      "message": "有货，未售罄"
+   },
+   "template_in_stock_not_sold_out_desc": {
+      "message": "有货但排除售罄文本"
+   },
+   "template_input_field_value": {
+      "message": "输入字段值"
+   },
+   "template_input_field_value_desc": {
+      "message": "查找带有搜索值的输入"
+   },
+   "template_phone_number": {
+      "message": "电话号码"
+   },
+   "template_phone_number_desc": {
+      "message": "匹配电话格式 (123) 456-7890"
+   },
+   "template_price_changes": {
+      "message": "价格变化"
+   },
+   "template_price_changes_desc": {
+      "message": "监控与价格相关的关键字"
+   },
+   "template_price_detector": {
+      "message": "价格检测"
+   },
+   "template_price_detector_desc": {
+      "message": "匹配任何美元价格，如 $19.99"
+   },
+   "template_price_element": {
+      "message": "价格元素"
+   },
+   "template_price_element_desc": {
+      "message": "查找具有价格类的元素"
+   },
+   "template_price_format": {
+      "message": "价格格式"
+   },
+   "template_price_format_desc": {
+      "message": "匹配像 $19.99 这样的价格"
+   },
+   "template_product_availability": {
+      "message": "产品可用性"
+   },
+   "template_product_availability_desc": {
+      "message": "监控产品可用性状态"
+   },
+   "template_product_id_pattern": {
+      "message": "产品 ID 模式"
+   },
+   "template_product_id_pattern_desc": {
+      "message": "匹配像 product-123 这样的产品 ID"
+   },
+   "template_product_status": {
+      "message": "产品状态"
+   },
+   "template_product_status_desc": {
+      "message": "新产品或限量版产品"
+   },
+   "template_restock_alert": {
+      "message": "补货提醒"
+   },
+   "template_restock_alert_desc": {
+      "message": "捕捉商品重新上架的时刻"
+   },
+   "template_shipping_options": {
+      "message": "配送选项"
+   },
+   "template_shipping_options_desc": {
+      "message": "快速配送选项可用"
+   },
+   "template_shopping_actions": {
+      "message": "购物操作"
+   },
+   "template_shopping_actions_desc": {
+      "message": "跟踪购物按钮可用性"
+   },
+   "template_stock_and_price": {
+      "message": "库存且价格"
+   },
+   "template_stock_and_price_desc": {
+      "message": "库存中的商品且打折"
+   },
+   "template_stock_status_element": {
+      "message": "库存状态元素"
+   },
+   "template_stock_status_element_desc": {
+      "message": "通过类名定位元素"
+   },
+   "template_stock_status_text": {
+      "message": "库存状态文本"
+   },
+   "template_stock_status_text_desc": {
+      "message": "查找包含\"库存中\"的文本"
+   },
+   "template_ticket_availability": {
+      "message": "票务可用性"
+   },
+   "template_ticket_availability_desc": {
+      "message": "监控票务开售"
+   },
+   "templates": {
+      "message": "模板"
+   },
+   "templates_add_to_keywords": {
+      "message": "添加到关键词"
+   },
+   "templates_ai_aria": {
+      "message": "AI 表达式生成器"
+   },
+   "templates_ai_label": {
+      "message": "AI"
+   },
+   "templates_back_to_templates": {
+      "message": "返回模板"
+   },
+   "templates_close_aria": {
+      "message": "关闭对话框"
+   },
+   "templates_copy_aria": {
+      "message": "复制表达式 %1"
+   },
+   "templates_header_templates_aria": {
+      "message": "返回模板"
+   },
+   "templates_ready_made": {
+      "message": "现成模板"
+   },
+   "templates_syntax_aria": {
+      "message": "语法帮助"
+   },
+   "templates_syntax_button": {
+      "message": "语法"
+   },
+   "templates_tooltip": {
+      "message": "浏览现成的监控模板"
+   },
+   "templates_type_css": {
+      "message": "CSS"
+   },
+   "templates_type_custom": {
+      "message": "自定义"
+   },
+   "templates_type_normal": {
+      "message": "普通"
+   },
+   "templates_type_regex": {
+      "message": "Regex"
+   },
+   "templates_type_xpath": {
+      "message": "XPath"
+   },
+   "text": {
+      "message": "文本"
+   },
+   "thankyou_msg": {
+      "message": "感谢您的反馈"
+   },
+   "this_is_not_valid_css_selector": {
+      "message": "这不是有效的 CSS 选择器。"
+   },
+   "thnakyou_desc": {
+      "message": "您的反馈帮助我们改进"
+   },
+   "time": {
+      "message": "时间"
+   },
+   "time_has_passed": {
+      "message": "时间已过"
+   },
+   "time_is_invalid": {
+      "message": "选择的时间无效"
+   },
+   "timer": {
+      "message": "计时器"
+   },
+   "timer_position": {
+      "message": "计时器位置"
+   },
+   "timer_position_bottom_left": {
+      "message": "左下"
+   },
+   "timer_position_bottom_right": {
+      "message": "右下"
+   },
+   "timer_position_center": {
+      "message": "居中"
+   },
+   "timer_position_top_left": {
+      "message": "左上"
+   },
+   "timer_position_top_right": {
+      "message": "右上"
+   },
+   "upgrade": {
+      "message": "升级"
+   },
+   "use_default": {
+      "message": "使用默认关键字"
+   },
+   "user_menu_account_aria": {
+      "message": "账户菜单"
+   },
+   "user_menu_avatar_alt": {
+      "message": "用户头像"
+   },
+   "user_menu_classic_view": {
+      "message": "Classic"
+   },
+   "user_menu_classic_view_aria": {
+      "message": "Classic 视图"
+   },
+   "user_menu_command_view": {
+      "message": "Command"
+   },
+   "user_menu_command_view_aria": {
+      "message": "Command 视图"
+   },
+   "user_menu_focus_mode": {
+      "message": "专注模式"
+   },
+   "user_menu_focus_mode_aria": {
+      "message": "切换专注模式"
+   },
+   "user_menu_focus_mode_tooltip": {
+      "message": "隐藏多余的界面元素"
+   },
+   "user_menu_refresh_position": {
+      "message": "按钮在顶部"
+   },
+   "user_menu_refresh_position_aria": {
+      "message": "在顶部显示刷新按钮"
+   },
+   "user_menu_refresh_position_tooltip": {
+      "message": "在顶部栏显示刷新按钮"
+   },
+   "user_menu_theme_dark_aria": {
+      "message": "深色主题"
+   },
+   "user_menu_theme_light_aria": {
+      "message": "浅色主题"
+   },
+   "user_menu_theme_system_aria": {
+      "message": "系统主题"
+   },
+   "user_menu_ui_cosmetics": {
+      "message": "界面外观"
+   },
+   "user_menu_view": {
+      "message": "视图"
+   },
+   "user_menu_view_aria": {
+      "message": "选择视图模式"
+   },
+   "view_pricing_plans": {
+      "message": "查看定价计划"
+   },
+   "visual_find_text": {
+      "message": "可视（屏幕文本）"
+   },
+   "visual_find_text_help": {
+      "message": "提取人类可以看到的屏幕上的可见文本。"
+   },
+   "visual_timer_desc": {
+      "message": "在页面上显示倒计时"
+   },
+   "visual_timer_done": {
+      "message": "次已完成"
+   },
+   "visual_timer_help": {
+      "message": "可视计时器直接显示在网页上的倒计时。它显示距下次刷新的剩余时间，并包括暂停、恢复或重置计时器的控件。"
+   },
+   "visual_timer_live_monitor": {
+      "message": "实时监控"
+   },
+   "visual_timer_msg": {
+      "message": "显示可视计时器"
+   },
+   "visual_timer_next_refresh_in": {
+      "message": "下次刷新倒计时"
+   },
+   "visual_timer_pause_aria": {
+      "message": "暂停计时器"
+   },
+   "visual_timer_paused": {
+      "message": "已暂停"
+   },
+   "visual_timer_restart_tooltip": {
+      "message": "重新开始倒计时"
+   },
+   "visual_timer_resume_aria": {
+      "message": "启动计时器"
+   },
+   "visual_timer_running": {
+      "message": "运行中"
+   },
+   "visual_timer_stop_aria": {
+      "message": "停止计时器"
+   },
+   "wait_content_load": {
+      "message": "等待内容加载"
+   },
+   "wait_content_load_desc": {
+      "message": "每次刷新后延迟扫描"
+   },
+   "wait_content_load_help": {
+      "message": "在检测前等待以允许内容完全加载。"
+   },
+   "warning_random_interval": {
+      "message": "最大值必须大于最小值，随机间隔才能正常工作。"
+   },
+   "webhook_alert_help": {
+      "message": "网络钩子允许您在检测到更改时向其他应用程序或服务发送警报。"
+   },
+   "webhook_alerts_switch_desc": {
+      "message": "向您的端点发送 payload"
+   },
+   "webhooks": {
+      "message": "网络钩子"
+   },
+   "webhooks_tooltip": {
+      "message": "打开 Webhook 设置以接收提醒"
+   },
+   "whats_new": {
+      "message": "新功能"
+   },
+   "whats_new_close_aria": {
+      "message": "关闭新功能"
+   },
+   "whats_new_latest": {
+      "message": "最新"
+   },
+   "whats_new_load_error": {
+      "message": "无法加载发行说明，请稍后再试。"
+   },
+   "whats_new_subtitle": {
+      "message": "Auto Refresh Plus 发行说明"
+   },
+   "whats_new_thank_you": {
+      "message": "感谢使用 Auto Refresh Plus"
+   },
+   "window_focus_on_detection": {
+      "message": "关键字检测时的窗口焦点"
+   },
+   "window_focus_on_detection_desc": {
+      "message": "匹配时将标签页置于前台"
+   },
+   "window_focus_on_detection_help": {
+      "message": "当页面监控找到或丢失关键字时启用窗口焦点。此功能确保每当检测到或丢失指定的关键字时，窗口会自动显示在屏幕的最前面。"
+   },
+   "without_full": {
+      "message": "XHR 刷新"
+   },
+   "xhr_page_help": {
+      "message": "从URL检索数据而无需进行完整页面刷新。这使网页能够只更新页面的一部分，而不会中断用户的操作。"
+   },
+   "xhr_request_autoclick": {
+      "message": "自动点击元素"
+   },
+   "xhr_request_autoclick_desc": {
+      "message": "点击您想要自动点击的页面元素。"
+   },
+   "xpath": {
+      "message": "XPath"
+   },
+   "xpath_expression": {
+      "message": "XPath 表达式"
+   },
+   "xpath_expression_desc": {
+      "message": "XML 路径语言提供了一种灵活的方式来寻址文档的不同部分。必须用两个 @@ 符号进行初始化。"
+   },
+   "xpath_expression_example_1_desc": {
+      "message": "搜索任何包含文本\"库存中\"的元素"
+   },
+   "xpath_expression_example_2_desc": {
+      "message": "搜索值属性包含\"搜索\"的输入元素"
+   },
+   "xpath_expression_example_3_desc": {
+      "message": "搜索类为\"价格\"且包含\"$\"符号的 div 元素"
+   },
+   "your_expressions": {
+      "message": "您的表达式"
+   },
+   "your_expressions_add_new": {
+      "message": "新增"
+   },
+   "your_expressions_define_placeholder": {
+      "message": "定义表达式（例如：有货 或 ##有货 AND 加入购物车）"
+   },
+   "your_expressions_delete_aria": {
+      "message": "删除 %1"
+   },
+   "your_expressions_edit_aria": {
+      "message": "编辑 %1"
+   },
+   "your_expressions_empty": {
+      "message": "尚无已保存的表达式。点击\"新增\"创建一个。"
+   },
+   "your_expressions_name_placeholder": {
+      "message": "表达式名称（例如：我的补货提醒）"
+   },
+   "your_expressions_yours_badge": {
+      "message": "您的"
+   }
+}

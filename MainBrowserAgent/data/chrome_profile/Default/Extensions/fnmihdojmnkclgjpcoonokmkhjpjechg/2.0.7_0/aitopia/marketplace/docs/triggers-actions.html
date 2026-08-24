@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+<script src="/aitopia/marketplace/js/extension-config.js"></script>
+  <script src="/aitopia/marketplace/js/shared/pre-auth.js"></script>
+
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Smart Sidebar (AITOPIA)</title>
+  <link href="/aitopia/marketplace/css/vendor/css2.css" rel="stylesheet">
+  <script src="/aitopia/marketplace/js/vendor/tailwindcss.min.js"></script>
+  <script src="/aitopia/marketplace/js/inline/docs-triggers-actions-inline-1.js"></script>
+  <style>
+    pre { background: #1e1e1e; border-radius: 8px; padding: 1rem; overflow-x: auto; }
+    code { font-family: 'Monaco', 'Menlo', monospace; font-size: 0.875rem; }
+    .prose code { background: #374151; padding: 0.125rem 0.375rem; border-radius: 4px; }
+  </style>
+</head>
+<body class="bg-neutral-950 text-white font-sans aifnmjmchg aifnmjmchg-marketplace">
+  <div class="max-w-4xl mx-auto px-4 py-12">
+    <!-- Header -->
+    <div class="mb-12">
+      <a href="/aitopia/marketplace/store.html" class="text-sm text-primary/90 hover:text-primary/90 mb-4 inline-block">&larr; Back to Store</a>
+      <h1 class="text-4xl font-bold mb-4">Triggers & Actions</h1>
+      <p class="text-xl text-gray-400">Automate agent executions with webhooks, schedules, and action chains.</p>
+    </div>
+
+    <!-- Overview -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold mb-4">Overview</h2>
+      <div class="bg-neutral-900 rounded-xl p-6 border border-neutral-800">
+        <pre class="text-green-400"><code>External Event &rarr; Trigger &rarr; Agent Execution &rarr; Actions &rarr; Next Agent/Webhook</code></pre>
+      </div>
+      <ul class="mt-4 space-y-2 text-gray-300">
+        <li><strong class="text-white">Triggers</strong> - Start agent executions based on webhooks or cron schedules</li>
+        <li><strong class="text-white">Actions</strong> - Execute after an agent completes (webhook notifications, agent chaining)</li>
+      </ul>
+    </section>
+
+    <!-- Triggers -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold mb-4">Triggers</h2>
+
+      <div class="space-y-6">
+        <!-- Webhook Trigger -->
+        <div class="bg-neutral-900 rounded-xl p-6 border border-neutral-800">
+          <h3 class="text-lg font-semibold mb-3 flex items-center gap-2">
+            <span class="w-3 h-3 rounded-full bg-blue-500"></span>
+            Webhook Trigger
+          </h3>
+          <p class="text-gray-400 mb-4">Create an HTTP endpoint that triggers agent execution.</p>
+          <pre><code class="text-gray-300">POST /triggers
+Content-Type: application/json
+X-Tenant-Id: my-tenant
+
+{
+  "name": "GitHub PR Analyzer",
+  "type": "webhook",
+  "agentId": "code-reviewer",
+  "path": "github-pr",
+  "secret": "my-webhook-secret-16chars",
+  "inputMapping": {
+    "fromPayload": {
+      "prNumber": "body.pull_request.number",
+      "prTitle": "body.pull_request.title"
+    },
+    "static": {
+      "repository": "my-org/my-repo"
+    }
+  },
+  "rateLimit": {
+    "windowMs": 60000,
+    "maxRequests": 10
+  }
+}</code></pre>
+        </div>
+
+        <!-- Schedule Trigger -->
+        <div class="bg-neutral-900 rounded-xl p-6 border border-neutral-800">
+          <h3 class="text-lg font-semibold mb-3 flex items-center gap-2">
+            <span class="w-3 h-3 rounded-full bg-orange-500"></span>
+            Schedule Trigger
+          </h3>
+          <p class="text-gray-400 mb-4">Run agents on a cron schedule.</p>
+          <pre><code class="text-gray-300">POST /triggers
+{
+  "name": "Daily Report Generator",
+  "type": "schedule",
+  "agentId": "smart-data-analyzer",
+  "cron": "0 9 * * *",
+  "timezone": "America/New_York",
+  "inputMapping": {
+    "static": {
+      "task": "Generate daily sales report"
+    }
+  }
+}</code></pre>
+        </div>
+
+        <!-- Webhook URL -->
+        <div class="bg-neutral-900 rounded-xl p-6 border border-neutral-800">
+          <h3 class="text-lg font-semibold mb-3">Calling a Webhook</h3>
+          <pre><code class="text-gray-300">POST /webhooks/{path}
+Content-Type: application/json
+X-Signature: t=1234567890,v1=...
+Idempotency-Key: unique-request-id
+
+{
+  "your": "payload"
+}</code></pre>
+          <div class="mt-4 space-y-2">
+            <p class="text-sm text-gray-400"><code class="text-primary/90">X-Signature</code> - HMAC-SHA256 signature (required if secret configured)</p>
+            <p class="text-sm text-gray-400"><code class="text-primary/90">Idempotency-Key</code> - Prevents duplicate processing (optional)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Actions -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold mb-4">Actions</h2>
+
+      <div class="space-y-6">
+        <!-- Webhook Action -->
+        <div class="bg-neutral-900 rounded-xl p-6 border border-neutral-800">
+          <h3 class="text-lg font-semibold mb-3 flex items-center gap-2">
+            <span class="w-3 h-3 rounded-full bg-green-500"></span>
+            Webhook Action
+          </h3>
+          <p class="text-gray-400 mb-4">Send HTTP POST to external URL when agent completes.</p>
+          <pre><code class="text-gray-300">POST /actions
+{
+  "name": "Notify Slack",
+  "type": "webhook",
+  "agentId": "smart-data-analyzer",
+  "webhook": {
+    "url": "https://hooks.slack.com/services/xxx",
+    "method": "POST",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "timeoutMs": 10000,
+    "retries": 3
+  },
+  "conditions": {
+    "status": ["success"]
+  }
+}</code></pre>
+        </div>
+
+        <!-- Agent Chain Action -->
+        <div class="bg-neutral-900 rounded-xl p-6 border border-neutral-800">
+          <h3 class="text-lg font-semibold mb-3 flex items-center gap-2">
+            <span class="w-3 h-3 rounded-full bg-pink-500"></span>
+            Agent Chain Action
+          </h3>
+          <p class="text-gray-400 mb-4">Trigger another agent with mapped output.</p>
+          <pre><code class="text-gray-300">POST /actions
+{
+  "name": "Analyze then Summarize",
+  "type": "agent_chain",
+  "agentId": "smart-data-analyzer",
+  "agentChain": {
+    "targetAgentId": "content-summarizer",
+    "inputMapping": {
+      "content": "output.analysis",
+      "format": "output.metadata.format"
+    },
+    "async": false,
+    "propagateBudget": true
+  },
+  "conditions": {
+    "status": ["success", "partial"]
+  }
+}</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold mb-4">Key Features</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="bg-neutral-900 rounded-xl p-5 border border-neutral-800">
+          <h3 class="font-semibold mb-2">HMAC Signatures</h3>
+          <p class="text-sm text-gray-400">Webhooks verified with SHA-256 HMAC for security</p>
+        </div>
+        <div class="bg-neutral-900 rounded-xl p-5 border border-neutral-800">
+          <h3 class="font-semibold mb-2">Rate Limiting</h3>
+          <p class="text-sm text-gray-400">Configurable per-trigger sliding window limits</p>
+        </div>
+        <div class="bg-neutral-900 rounded-xl p-5 border border-neutral-800">
+          <h3 class="font-semibold mb-2">Idempotency</h3>
+          <p class="text-sm text-gray-400">Duplicate requests automatically handled</p>
+        </div>
+        <div class="bg-neutral-900 rounded-xl p-5 border border-neutral-800">
+          <h3 class="font-semibold mb-2">Circuit Breaker</h3>
+          <p class="text-sm text-gray-400">Auto-disable failing webhook actions</p>
+        </div>
+        <div class="bg-neutral-900 rounded-xl p-5 border border-neutral-800">
+          <h3 class="font-semibold mb-2">Budget Propagation</h3>
+          <p class="text-sm text-gray-400">Share remaining budget across agent chains</p>
+        </div>
+        <div class="bg-neutral-900 rounded-xl p-5 border border-neutral-800">
+          <h3 class="font-semibold mb-2">Async Execution</h3>
+          <p class="text-sm text-gray-400">Fire-and-forget or wait for completion</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- API Reference -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold mb-4">API Reference</h2>
+
+      <div class="space-y-4">
+        <div class="bg-neutral-900 rounded-xl border border-neutral-800 overflow-hidden">
+          <table class="w-full text-sm">
+            <thead class="bg-neutral-800">
+              <tr>
+                <th class="px-4 py-3 text-left font-medium">Endpoint</th>
+                <th class="px-4 py-3 text-left font-medium">Method</th>
+                <th class="px-4 py-3 text-left font-medium">Description</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-neutral-800">
+              <tr><td class="px-4 py-3"><code>/triggers</code></td><td class="px-4 py-3">GET</td><td class="px-4 py-3 text-gray-400">List triggers</td></tr>
+              <tr><td class="px-4 py-3"><code>/triggers</code></td><td class="px-4 py-3">POST</td><td class="px-4 py-3 text-gray-400">Create trigger</td></tr>
+              <tr><td class="px-4 py-3"><code>/triggers/:id</code></td><td class="px-4 py-3">GET/PUT/DELETE</td><td class="px-4 py-3 text-gray-400">Manage trigger</td></tr>
+              <tr><td class="px-4 py-3"><code>/triggers/:id/enable</code></td><td class="px-4 py-3">POST</td><td class="px-4 py-3 text-gray-400">Enable trigger</td></tr>
+              <tr><td class="px-4 py-3"><code>/triggers/:id/disable</code></td><td class="px-4 py-3">POST</td><td class="px-4 py-3 text-gray-400">Disable trigger</td></tr>
+              <tr><td class="px-4 py-3"><code>/actions</code></td><td class="px-4 py-3">GET/POST</td><td class="px-4 py-3 text-gray-400">List/Create actions</td></tr>
+              <tr><td class="px-4 py-3"><code>/actions/:id</code></td><td class="px-4 py-3">GET/PUT/DELETE</td><td class="px-4 py-3 text-gray-400">Manage action</td></tr>
+              <tr><td class="px-4 py-3"><code>/actions/:id/reset-circuit</code></td><td class="px-4 py-3">POST</td><td class="px-4 py-3 text-gray-400">Reset circuit breaker</td></tr>
+              <tr><td class="px-4 py-3"><code>/webhooks/:path</code></td><td class="px-4 py-3">POST/PUT</td><td class="px-4 py-3 text-gray-400">Trigger webhook</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Signature Generation -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold mb-4">Generating Signatures</h2>
+      <div class="bg-neutral-900 rounded-xl p-6 border border-neutral-800">
+        <pre><code class="text-gray-300">const crypto = require('crypto');
+
+function signWebhook(payload, secret) {
+  const timestamp = Date.now();
+  const signedPayload = `${timestamp}.${payload}`;
+  const signature = crypto
+    .createHmac('sha256', secret)
+    .update(signedPayload)
+    .digest('hex');
+  return `t=${timestamp},v1=${signature}`;
+}
+
+// Usage
+const signature = signWebhook(JSON.stringify(data), 'your-secret');
+// Set header: X-Signature: t=1699999999,v1=abc123...</code></pre>
+      </div>
+    </section>
+
+    <!-- Environment Variables -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold mb-4">Environment Variables</h2>
+      <div class="bg-neutral-900 rounded-xl p-6 border border-neutral-800">
+        <table class="w-full text-sm">
+          <tbody class="divide-y divide-neutral-800">
+            <tr>
+              <td class="py-3"><code class="text-primary/90">SCHEDULER_ENABLED</code></td>
+              <td class="py-3 text-gray-400">Enable cron scheduler (default: true)</td>
+            </tr>
+            <tr>
+              <td class="py-3"><code class="text-primary/90">WEBHOOK_MAX_PAYLOAD_SIZE</code></td>
+              <td class="py-3 text-gray-400">Max webhook body size (default: 1MB)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="pt-8 border-t border-neutral-800 text-center text-gray-500 text-sm">
+      <p>&copy; 2024 AITOPIA. All rights reserved.</p>
+      <p class="mt-2">
+        <a href="/aitopia/marketplace/store.html" class="text-primary/90 hover:text-primary/90">Back to Store</a>
+      </p>
+    </footer>
+  </div>
+<script src="/aitopia/marketplace/js/shared/footer.js"></script>
+</body>
+</html>

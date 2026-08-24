@@ -1,0 +1,2186 @@
+{
+   "action_on_detection": {
+      "message": "الإجراء عند الاكتشاف"
+   },
+   "action_report_bug_feedback": {
+      "message": "الإبلاغ عن خطأ / ملاحظات"
+   },
+   "action_stop_refresh": {
+      "message": "إيقاف التحديث"
+   },
+   "active_tabs_alerts_help": {
+      "message": "علامات تبويب أطلقت تنبيه المراقبة. تجاهل تنبيهات فردية أو امسح الكل."
+   },
+   "active_tabs_alerts_title": {
+      "message": "التنبيهات"
+   },
+   "active_tabs_clear_all": {
+      "message": "مسح الكل"
+   },
+   "active_tabs_paused": {
+      "message": "متوقف مؤقتًا"
+   },
+   "active_tabs_refreshing_help": {
+      "message": "علامات تبويب يتم تحديثها تلقائيًا. مرر للإيقاف المؤقت أو إعادة التشغيل أو الإيقاف."
+   },
+   "active_tabs_refreshing_title": {
+      "message": "جاري التحديث"
+   },
+   "active_tabs_stop_all": {
+      "message": "إيقاف الكل"
+   },
+   "active_tabs_time_day_ago": {
+      "message": "منذ %1 يوم"
+   },
+   "active_tabs_time_days_ago": {
+      "message": "منذ %1 أيام"
+   },
+   "active_tabs_time_hour_ago": {
+      "message": "منذ %1 ساعة"
+   },
+   "active_tabs_time_hours_ago": {
+      "message": "منذ %1 ساعات"
+   },
+   "active_tabs_time_just_now": {
+      "message": "الآن"
+   },
+   "active_tabs_time_min_ago": {
+      "message": "منذ %1 د"
+   },
+   "active_tabs_time_sec_ago": {
+      "message": "منذ %1 ث"
+   },
+   "add": {
+      "message": "إضافة"
+   },
+   "add_email": {
+      "message": "إضافة بريد"
+   },
+   "add_email_tooltip": {
+      "message": "أضف بريداً إلكترونياً لتلقي التنبيهات"
+   },
+   "add_keywords": {
+      "message": "إضافة كلمات هدف افتراضية"
+   },
+   "add_new": {
+      "message": "إضافة جديدة"
+   },
+   "added": {
+      "message": "مُضاف"
+   },
+   "alert_settings": {
+      "message": "إعدادات التنبيه"
+   },
+   "alert_when_any_change_detected": {
+      "message": "تنبِّهك Auto Refresh Plus عند اكتشاف أي تغيّر في هذه الصفحة."
+   },
+   "alert_when_keyword_appears": {
+      "message": "تلقَّ إشعارًا عند ظهور كلمة البحث."
+   },
+   "alert_when_keyword_disappears": {
+      "message": "تلقَّ إشعارًا عند اختفاء كلمة البحث."
+   },
+   "all_days": {
+      "message": "كل الأيام"
+   },
+   "any": {
+      "message": "أيّ"
+   },
+   "app_description": {
+      "description": "The description of extension",
+      "message": "حدِّث الصفحة تلقائيًا بوظائف قوية لمراقبة التغيّرات والتنبيهات على الصفحات."
+   },
+   "app_name": {
+      "description": "The extension name",
+      "message": "Auto Refresh Plus | مراقب الصفحة"
+   },
+   "appearance": {
+      "message": "المظهر"
+   },
+   "apply": {
+      "message": "تطبيق"
+   },
+   "are_you_sure": {
+      "message": "هل أنت متأكد أنك تريد الحذف؟"
+   },
+   "ast": {
+      "message": "مؤقت العدّ التنازلي"
+   },
+   "auto_click_element_aria": {
+      "message": "محدد عنصر النقر التلقائي"
+   },
+   "auto_click_element_label": {
+      "message": "عنصر النقر التلقائي"
+   },
+   "auto_click_help": {
+      "message": "ينفِّذ نقرًا على الرابط تلقائيًا إذا احتوت الكلمة المراقَبة على رابط."
+   },
+   "auto_click_targets_desc": {
+      "message": "النقر على العناصر بعد كل تحديث أو عند تطابق الكلمة المفتاحية"
+   },
+   "auto_click_targets_label": {
+      "message": "أهداف النقر التلقائي"
+   },
+   "auto_clicker": {
+      "message": "النقر التلقائي"
+   },
+   "auto_clicker_msg1": {
+      "message": "نقر تلقائي على كلمة المراقبة"
+   },
+   "auto_disable_on_first": {
+      "message": "تعطيل تلقائي عند أول تشغيل"
+   },
+   "auto_disable_on_first_desc": {
+      "message": "تعطيل هذا الجدول بعد تشغيله مرة واحدة"
+   },
+   "auto_stop_schedule": {
+      "message": "إيقاف تلقائي"
+   },
+   "auto_stop_schedule_desc": {
+      "message": "مثال: التحديث بين 10–11 صباحًا"
+   },
+   "auto_tasks_add_another": {
+      "message": "إضافة نقرة أخرى"
+   },
+   "auto_tasks_add_element": {
+      "message": "إضافة عنصر"
+   },
+   "auto_tasks_empty": {
+      "message": "لم تتم إضافة عناصر بعد"
+   },
+   "auto_tasks_help": {
+      "message": "ينقر تلقائيًا على العناصر المحددة في الصفحة."
+   },
+   "auto_tasks_label": {
+      "message": "النقر على عناصر إضافية"
+   },
+   "auto_tasks_new_tab_short": {
+      "message": "علامة تبويب جديدة"
+   },
+   "auto_tasks_open_in_new_tab": {
+      "message": "فتح في علامة تبويب جديدة إذا كان رابطًا"
+   },
+   "auto_tasks_open_new_tab_aria": {
+      "message": "فتح النقرة %1 في علامة تبويب جديدة"
+   },
+   "auto_tasks_options": {
+      "message": "خيارات"
+   },
+   "auto_tasks_pick": {
+      "message": "اختيار"
+   },
+   "auto_tasks_remove": {
+      "message": "إزالة"
+   },
+   "auto_tasks_remove_target_aria": {
+      "message": "إزالة هدف النقر %1"
+   },
+   "auto_tasks_selector_aria": {
+      "message": "محدد CSS لهدف النقر %1"
+   },
+   "auto_tasks_set_selector": {
+      "message": "تعيين المحدد…"
+   },
+   "auto_tasks_toggle_target_aria": {
+      "message": "تبديل هدف النقر %1"
+   },
+   "auto_tasks_trigger": {
+      "message": "المشغّل"
+   },
+   "auto_tasks_trigger_each_refresh": {
+      "message": "عند كل تحديث"
+   },
+   "auto_tasks_trigger_on_detection": {
+      "message": "عند تشغيل التنبيه"
+   },
+   "auto_tasks_trigger_on_detection_short": {
+      "message": "عند الاكتشاف"
+   },
+   "auto_tasks_trigger_refresh_short": {
+      "message": "تحديث"
+   },
+   "bad": {
+      "message": "سيّء"
+   },
+   "behavior_on_interaction": {
+      "message": "السلوك عند التفاعل"
+   },
+   "bulk_keywords_results": {
+      "message": "نتائج الكلمات المجمّعة"
+   },
+   "calendar_weekday_fri": {
+      "message": "جم"
+   },
+   "calendar_weekday_mon": {
+      "message": "إث"
+   },
+   "calendar_weekday_sat": {
+      "message": "سب"
+   },
+   "calendar_weekday_sun": {
+      "message": "أح"
+   },
+   "calendar_weekday_thu": {
+      "message": "خم"
+   },
+   "calendar_weekday_tue": {
+      "message": "ثل"
+   },
+   "calendar_weekday_wed": {
+      "message": "أر"
+   },
+   "cancel": {
+      "message": "إلغاء"
+   },
+   "captcha_detection": {
+      "message": "اكتشاف الكابتشا"
+   },
+   "caution_badge": {
+      "message": "تحذير"
+   },
+   "choose_interval": {
+      "message": "اختر الفاصل الزمني"
+   },
+   "clear": {
+      "message": "مسح"
+   },
+   "clear_all": {
+      "message": "مسح الكل"
+   },
+   "clear_all_keywords": {
+      "message": "مسح كل الكلمات المفتاحية"
+   },
+   "clear_all_keywords_desc": {
+      "message": "هل أنت متأكد أنك تريد مسح كل الكلمات؟"
+   },
+   "click_automation_title": {
+      "message": "أتمتة النقر"
+   },
+   "close": {
+      "message": "إغلاق"
+   },
+   "continue": {
+      "message": "متابعة"
+   },
+   "continue_refreshing_after_alert": {
+      "message": "مواصلة التحديث بعد التنبيه"
+   },
+   "continue_refreshing_help": {
+      "message": "إرسال التنبيه عند اكتشاف الكلمة ومتابعة التحديث كالمعتاد."
+   },
+   "continue_refreshing_switch_desc": {
+      "message": "متابعة التحديث بعد التنبيه"
+   },
+   "copy_expression": {
+      "message": "نسخ التعبير"
+   },
+   "copy_to_clipboard": {
+      "message": "نسخ إلى الحافظة"
+   },
+   "countdown_decrease_hours": {
+      "message": "إنقاص الساعات"
+   },
+   "countdown_decrease_min": {
+      "message": "إنقاص الدقائق"
+   },
+   "countdown_decrease_sec": {
+      "message": "إنقاص الثواني"
+   },
+   "countdown_duration_label": {
+      "message": "مدة العد التنازلي"
+   },
+   "countdown_fires_after": {
+      "message": "يتم التشغيل بعد %1"
+   },
+   "countdown_hms_header": {
+      "message": "س : د : ث"
+   },
+   "countdown_hours_value": {
+      "message": "قيمة الساعات"
+   },
+   "countdown_increase_hours": {
+      "message": "زيادة الساعات"
+   },
+   "countdown_increase_min": {
+      "message": "زيادة الدقائق"
+   },
+   "countdown_increase_sec": {
+      "message": "زيادة الثواني"
+   },
+   "countdown_min_value": {
+      "message": "قيمة الدقائق"
+   },
+   "countdown_sec_value": {
+      "message": "قيمة الثواني"
+   },
+   "countdown_target_date_time": {
+      "message": "التاريخ والوقت المستهدف"
+   },
+   "countdown_timer_modes_help": {
+      "message": "اختر كيفية تشغيل المؤقت: المدة تعد تنازلياً من ساعات/دقائق/ثوانٍ؛ التاريخ والوقت يعمل مرة واحدة في اللحظة المحددة."
+   },
+   "countdown_triggers_once": {
+      "message": "يُفعَّل مرة واحدة في اللحظة المحددة"
+   },
+   "countdown_unit_hours": {
+      "message": "ساعات"
+   },
+   "countdown_unit_min": {
+      "message": "دقيقة"
+   },
+   "countdown_unit_sec": {
+      "message": "ثانية"
+   },
+   "css_selector": {
+      "message": "منتقي CSS"
+   },
+   "css_selector_aria": {
+      "message": "محدد CSS"
+   },
+   "css_selector_placeholder": {
+      "message": "مثال: button أو a[href=\"/login\"]"
+   },
+   "custom": {
+      "message": "مخصّص"
+   },
+   "custom_expression": {
+      "message": "تعبير مخصّص"
+   },
+   "custom_expression_desc": {
+      "message": "يبدأ برمزَي ##، وبيانات بوليانية باستخدام | (أو) و & (و). ضع كل تعبير داخل قوسين، مع أربعة أقواس لكل مجموعة متداخلة."
+   },
+   "custom_expression_example_1_desc": {
+      "message": "بحث بوليني مركَّب («متوفر» أو «متوفر») و («أضف» أو «اشتر الآن»)"
+   },
+   "custom_expression_example_2_desc": {
+      "message": "عبارات تسويق وحسومات وبنسب مئويّة مركَّبة."
+   },
+   "custom_expression_example_3_desc": {
+      "message": "تعبير بوليني باستخدام المعاملات المنطقية | (أو) و AND (و) داخل الأقواس."
+   },
+   "custom_interval": {
+      "message": "فاصل مخصّص"
+   },
+   "custom_interval_desc": {
+      "message": "تعيين الساعات والدقائق والثواني بدقّة"
+   },
+   "custom_monitor": {
+      "message": "مراقب مخصّص"
+   },
+   "custom_time_interval": {
+      "message": "فاصل زمني مخصّص"
+   },
+   "date_picker_next_month": {
+      "message": "الشهر التالي"
+   },
+   "date_picker_previous_month": {
+      "message": "الشهر السابق"
+   },
+   "date_time_desc": {
+      "message": "ضبط العدّ التنازلي لينتهي في تاريخ ووقت محدّدين."
+   },
+   "date_time_mode": {
+      "message": "وضع التاريخ والوقت"
+   },
+   "date_time_target": {
+      "message": "تاريخ ووقت الهدف"
+   },
+   "day_abbr_fri": {
+      "message": "جم"
+   },
+   "day_abbr_mon": {
+      "message": "إثن"
+   },
+   "day_abbr_sat": {
+      "message": "سبت"
+   },
+   "day_abbr_sun": {
+      "message": "أحد"
+   },
+   "day_abbr_thu": {
+      "message": "خميس"
+   },
+   "day_abbr_tue": {
+      "message": "ثلا"
+   },
+   "day_abbr_wed": {
+      "message": "أرب"
+   },
+   "decrease_aria": {
+      "message": "إنقاص"
+   },
+   "default_help_description": {
+      "message": "يمكنك أيضًا ضبط «%1» في الإعدادات العامة لتطبيقها على كل المواقع."
+   },
+   "default_interval": {
+      "message": "الفاصل الزمني الافتراضي"
+   },
+   "delay_before_scanning": {
+      "message": "تأخير قبل المسح"
+   },
+   "detect_any_change": {
+      "message": "اكتشف Auto Refresh Plus تغييرًا على هذا الموقع."
+   },
+   "detect_any_change_title": {
+      "message": "مراقب الصفحة"
+   },
+   "detect_captcha_on_page": {
+      "message": "اكتشاف الكابتشا في الصفحة"
+   },
+   "detect_error_on_page": {
+      "message": "اكتشاف صفحات الأخطاء (مثل 404)"
+   },
+   "detection_behavior": {
+      "message": "سلوك الاكتشاف"
+   },
+   "developer_mode_msg": {
+      "message": "لأسباب أمنية واستقرار، لا يُسمح بوضع المطوّر.\u003Cbr> حمّل الإضافة من المتجر الرسمي لضمان أحدث إصدار آمن."
+   },
+   "dismiss": {
+      "message": "إخفاء"
+   },
+   "dismiss_alert": {
+      "message": "تجاهل التنبيه"
+   },
+   "donation_msg2": {
+      "message": "لقد سبق وفعلت ذلك."
+   },
+   "download_in_store": {
+      "message": "تثبيت من المتجر"
+   },
+   "duplicates": {
+      "message": "مكررات"
+   },
+   "duration_desc": {
+      "message": "ضبط العدّ التنازلي بالساعات والدقائق والثواني."
+   },
+   "duration_help": {
+      "message": "عرّف مدّة بالساعات والدقائق والثواني لبدء العدّ التنازلي."
+   },
+   "duration_mode": {
+      "message": "وضع المدّة"
+   },
+   "email_alert_help": {
+      "message": "تنبيهات البريد تُعلمك بتغيّرات أو أحداث محدّدة. أضف عنوان بريد لاستلام هذه الإشعارات."
+   },
+   "email_alerts_switch_desc": {
+      "message": "إرسال بريد عند تفعيل المراقب"
+   },
+   "email_daily_limit": {
+      "message": "%1 / %2 الحد اليومي"
+   },
+   "email_disconnect": {
+      "message": "قطع الاتصال"
+   },
+   "email_limit_reached": {
+      "message": "بلغت الحدّ الأقصى للبريد"
+   },
+   "email_limit_toast_description": {
+      "message": "وصلتَ إلى الحدّ اليومي للبريد. ترقَّ لمواصلة إرسال تنبيهات البريد."
+   },
+   "email_remaining_count": {
+      "message": "%1 متبقية"
+   },
+   "email_sent_today": {
+      "message": "%1 أُرسلت اليوم"
+   },
+   "email_usage_count": {
+      "message": "الرسائل المُرسَلة اليوم: %1 من %2"
+   },
+   "emails_remaining": {
+      "message": "رسائل متبقية"
+   },
+   "enable_captcha_detection_help": {
+      "message": "فعِّل ذلك لاكتشاف ظهور تحدٍّ من نوع كابتشا."
+   },
+   "enable_error_detection_help": {
+      "message": "فعِّل ذلك لاكتشاف الصفحات المعطوبة أو الفاشلة."
+   },
+   "enter_custom_interval": {
+      "message": "أدخل الفاصل المخصّص بالثواني."
+   },
+   "enter_time_duration": {
+      "message": "أدخل المدّة"
+   },
+   "error_page_detection": {
+      "message": "اكتشاف صفحات الأخطاء"
+   },
+   "error_save_preferences": {
+      "message": "تعذّر حفظ التفضيلات. حاول مرة أخرى."
+   },
+   "error_schedule_one_day": {
+      "message": "يجب اختيار يوم واحد على الأقل."
+   },
+   "error_stop_time": {
+      "message": "يجب أن يكون وقت الإيقاف بعد وقت البدء."
+   },
+   "example": {
+      "message": "مثال"
+   },
+   "expression_templates": {
+      "message": "قوالب التعبير"
+   },
+   "ext_action_failed": {
+      "message": "فشل الإجراء"
+   },
+   "ext_applying": {
+      "message": "جارٍ التطبيق…"
+   },
+   "ext_approve_action": {
+      "message": "الموافقة"
+   },
+   "ext_approve_apply": {
+      "message": "موافقة وتطبيق"
+   },
+   "ext_auto_generated": {
+      "message": "(يُنشَأ تلقائيًا)"
+   },
+   "ext_blacklist": {
+      "message": "القائمة السوداء"
+   },
+   "ext_changes_merged": {
+      "message": "التغيّرات التي ستُدمَج في الخيارات المحلية."
+   },
+   "ext_code": {
+      "message": "الرمز"
+   },
+   "ext_completed": {
+      "message": "اكتمل"
+   },
+   "ext_configuration_review": {
+      "message": "مراجعة الإعدادات"
+   },
+   "ext_created": {
+      "message": "تاريخ الإنشاء"
+   },
+   "ext_current": {
+      "message": "الحالي"
+   },
+   "ext_custom_script": {
+      "message": "نصّ مخصّص"
+   },
+   "ext_custom_script_add_new": {
+      "message": "نصّ مخصّص (إضافة جديد)"
+   },
+   "ext_custom_script_add_only": {
+      "message": "تضيف هذه العملية نصًا جديدًا فقط ولن تستبدِل النصوص الحالية بدون تأكيدك."
+   },
+   "ext_domain_config": {
+      "message": "تهيئة النطاقات"
+   },
+   "ext_domain_configuration": {
+      "message": "تهيئة النطاق"
+   },
+   "ext_empty": {
+      "message": "(فارغ)"
+   },
+   "ext_enabled": {
+      "message": "مفعّل"
+   },
+   "ext_error_action": {
+      "message": "فشل تنفيذ إجراء %1 للطلب."
+   },
+   "ext_error_storage": {
+      "message": "فشل قراءة المراجعة المعلّقة من تخزين الإضافة."
+   },
+   "ext_error_sync": {
+      "message": "فشل إجراء %1 بسبب خطأ في مزامنة التخزين."
+   },
+   "ext_execution_timing": {
+      "message": "توقيت التنفيذ"
+   },
+   "ext_expires": {
+      "message": "انتهاء الصلاحية"
+   },
+   "ext_extension_wide_settings": {
+      "message": "إعدادات على مستوى الإضافة"
+   },
+   "ext_field": {
+      "message": "حقل"
+   },
+   "ext_global_options": {
+      "message": "خيارات عامة"
+   },
+   "ext_global_options_changes": {
+      "message": "تغيّرات الخيارات العامة"
+   },
+   "ext_id": {
+      "message": "المعرّف"
+   },
+   "ext_injection_type": {
+      "message": "نوع الحقن"
+   },
+   "ext_name": {
+      "message": "الاسم"
+   },
+   "ext_new": {
+      "message": "الجديد"
+   },
+   "ext_new_script_injection": {
+      "message": "حقن نصّ جديد"
+   },
+   "ext_no_changes_detected": {
+      "message": "لم يُعثَر على تغيّرات فعّالة."
+   },
+   "ext_no_pending_description": {
+      "message": "لا توجد تغيّرات بانتظار المراجعة. ستظهر هذه الصفحة عندما يطلب مصدر خارجي تحديث الإعدادات."
+   },
+   "ext_no_pending_request": {
+      "message": "لا يوجد طلب معلّق"
+   },
+   "ext_proposed_changes": {
+      "message": "التغيّرات المقترحة"
+   },
+   "ext_refresh": {
+      "message": "تحديث"
+   },
+   "ext_reject": {
+      "message": "رفض"
+   },
+   "ext_reject_action": {
+      "message": "الرفض"
+   },
+   "ext_rejecting": {
+      "message": "جارٍ الرفض…"
+   },
+   "ext_request": {
+      "message": "طلب"
+   },
+   "ext_review_description": {
+      "message": "راجع التغيّرات المقترحة ووافق عليها فقط إذا كانت تتوافق مع قصدك. لا يُطبَّق أي شيء قبل تأكيدك."
+   },
+   "ext_review_pending_changes": {
+      "message": "مراجعة التغيّرات المعلّقة"
+   },
+   "ext_site_specific_rules": {
+      "message": "قواعد خاصة بالمواقع"
+   },
+   "ext_source": {
+      "message": "المصدر"
+   },
+   "ext_target": {
+      "message": "الهدف"
+   },
+   "ext_type": {
+      "message": "النوع"
+   },
+   "ext_unknown": {
+      "message": "غير معروف"
+   },
+   "ext_url_pattern": {
+      "message": "نمط عنوان URL"
+   },
+   "ext_whitelist": {
+      "message": "القائمة البيضاء"
+   },
+   "extension_settings": {
+      "message": "إعدادات الإضافة"
+   },
+   "extension_update_dismiss_aria": {
+      "message": "إغلاق إشعار التحديث"
+   },
+   "extension_update_notification_aria": {
+      "message": "إشعار تحديث الإضافة"
+   },
+   "extension_updated_to_version": {
+      "message": "تم تحديث الإضافة إلى الإصدار %1"
+   },
+   "feature_is_premium": {
+      "message": "«%1» ميزة في الإصدار المميّز. ترقَّ للوصول إلى كل الأدوات المميّزة وتحسين تجربتك."
+   },
+   "find_mtr_msg": {
+      "message": "البحث عن نصّ المراقبة في"
+   },
+   "follow_all_redirects": {
+      "message": "متابعة كل التحويلات"
+   },
+   "follow_all_redirects_desc": {
+      "message": "الاستمرار بالتحديث حتى إذا انتقلت الصفحة إلى عنوان مختلف."
+   },
+   "follow_canonical_url": {
+      "message": "متابعة الرابط المعياري"
+   },
+   "follow_canonical_url_desc": {
+      "message": "استخدام الرابط المعياري (الأصلي) للصفحة."
+   },
+   "found": {
+      "message": "وجدت"
+   },
+   "frozen_tab_noti_message": {
+      "message": "قام المتصفح بتجميد هذا التبويب في الخلفية لتوفير الذاكرة. سيستأنف التحديث التلقائي عند العودة إليه."
+   },
+   "frozen_tab_noti_title": {
+      "message": "تم إيقاف التحديث التلقائي مؤقتًا"
+   },
+   "full_documentation": {
+      "message": "التوثيق الكامل"
+   },
+   "full_page": {
+      "message": "تحديث الصفحة بالكامل"
+   },
+   "full_page_type_desc": {
+      "message": "إعادة تحميل الصفحة بالكامل للتحقق من التغييرات"
+   },
+   "full_page_type_help": {
+      "message": "التحديث العادي يفحص الصفحة كلها بما فيها المحتوى والموارد."
+   },
+   "go_premium_full_access": {
+      "message": "انتقل إلى الإصدار المميّز – وصول كامل"
+   },
+   "go_to_top": {
+      "description": "Accessible label for scroll-to-top button",
+      "message": "الانتقال إلى الأعلى"
+   },
+   "go_top": {
+      "message": "للأعلى"
+   },
+   "good": {
+      "message": "جيد"
+   },
+   "grace_period_banner": {
+      "message": "تنتهي فترة السماح في 1 يوليو. سيتم تعطيل الميزات المميزة"
+   },
+   "grace_period_consent_body": {
+      "message": "أنت على وشك فقدان الوصول إلى الميزات المميزة. هل أنت متأكد أنك تريد المتابعة بالخطة المجانية؟"
+   },
+   "grace_period_consent_title": {
+      "message": "المتابعة بدون Premium؟"
+   },
+   "grace_period_dismiss_aria": {
+      "message": "إغلاق إشعار فترة السماح"
+   },
+   "grace_period_expired_data_safe": {
+      "message": "إعداداتك وبياناتك آمنة وستبقى محفوظة."
+   },
+   "grace_period_expired_description": {
+      "message": "لم تعد الميزات المميزة نشطة في حسابك."
+   },
+   "grace_period_expired_disable_button": {
+      "message": "تعطيل الميزات المميزة"
+   },
+   "grace_period_expired_title": {
+      "message": "انتهت فترة السماح"
+   },
+   "grace_period_expired_upgrade_button": {
+      "message": "الترقية إلى Premium"
+   },
+   "grace_period_expired_upgrade_hint": {
+      "message": "يمكنك الترقية في أي وقت لاستعادة جميع الميزات المميزة."
+   },
+   "grace_period_ok_with_free": {
+      "message": "المتابعة بالمجاني"
+   },
+   "grace_period_upgrade_button": {
+      "message": "الاحتفاظ بـ Premium"
+   },
+   "great": {
+      "message": "رائع!"
+   },
+   "handle_redirects": {
+      "message": "إدارة إعادة التوجيه"
+   },
+   "hard_refresh": {
+      "message": "تحديث قسري للصفحة"
+   },
+   "hard_refresh_desc": {
+      "message": "تجاوز الذاكرة المؤقتة في كل إعادة تحميل"
+   },
+   "hard_refresh_help": {
+      "message": "إعادة تحميل الصفحة دون الاعتماد على ذاكرة التخزين المؤقت."
+   },
+   "highlight_element": {
+      "message": "تمييز العنصر في الصفحة"
+   },
+   "highlight_keyword": {
+      "message": "تمييز الكلمة في الصفحة"
+   },
+   "highlight_keyword_desc": {
+      "message": "تمييز الكلمة المفتاحية المطابقة"
+   },
+   "highlight_keyword_help": {
+      "message": "عند العثور على الكلمة، يُعرَض تمييز بصري لها على الصفحة."
+   },
+   "hotkeys_label": {
+      "message": "اختصارات لوحة المفاتيح"
+   },
+   "hour": {
+      "message": "ساعة"
+   },
+   "hours": {
+      "message": "ساعات"
+   },
+   "increase_aria": {
+      "message": "زيادة"
+   },
+   "individual_plan": {
+      "message": "الباقة الفردية"
+   },
+   "individual_plan_starts_at": {
+      "message": "الباقة الفردية من 2.99 دولار"
+   },
+   "interaction_help": {
+      "message": "إيقاف التحديث تلقائيًا عند تفاعل المستخدم مع الصفحة."
+   },
+   "interactions_switch_desc": {
+      "message": "ما يحدث عند استخدام الصفحة"
+   },
+   "interactions_title_opt": {
+      "message": "سلوك التحديث عند تفاعل المستخدم"
+   },
+   "interval": {
+      "message": "الفاصل"
+   },
+   "interval_card_custom_duration": {
+      "message": "مدة مخصصة"
+   },
+   "interval_card_interval": {
+      "message": "الفاصل"
+   },
+   "interval_card_random_range": {
+      "message": "نطاق عشوائي"
+   },
+   "interval_custom_summary": {
+      "message": "كل %1س %2د %3ث"
+   },
+   "interval_decrease_by": {
+      "message": "إنقاص بمقدار %1"
+   },
+   "interval_edit_custom_aria": {
+      "message": "تعديل الفاصل المخصص"
+   },
+   "interval_in_seconds_aria": {
+      "message": "الفاصل بالثواني"
+   },
+   "interval_increase_by": {
+      "message": "زيادة بمقدار %1"
+   },
+   "interval_max_sec": {
+      "message": "الحد الأقصى (ث)"
+   },
+   "interval_max_sec_aria": {
+      "message": "الحد الأقصى للثواني"
+   },
+   "interval_min_sec": {
+      "message": "الحد الأدنى (ث)"
+   },
+   "interval_min_sec_aria": {
+      "message": "الحد الأدنى للثواني"
+   },
+   "interval_modes_help": {
+      "message": "ثابت: التحديث كل N ثانية. عشوائي: تغيير الفاصل ضمن نطاق. مخصص: تحديد مدة دقيقة بالساعات/الدقائق/الثواني."
+   },
+   "interval_preset_minutes": {
+      "message": "%1د"
+   },
+   "interval_preset_seconds": {
+      "message": "%1ث"
+   },
+   "interval_random_summary": {
+      "message": "تحديث كل %1–%2 ث"
+   },
+   "interval_range_to": {
+      "message": "إلى"
+   },
+   "interval_tab_custom": {
+      "message": "مخصص"
+   },
+   "interval_tab_fixed": {
+      "message": "ثابت"
+   },
+   "interval_tab_random": {
+      "message": "عشوائي"
+   },
+   "interval_unit_hrs": {
+      "message": "ساعة"
+   },
+   "interval_unit_min": {
+      "message": "دقيقة"
+   },
+   "interval_unit_sec": {
+      "message": "ثانية"
+   },
+   "interval_unit_seconds_header": {
+      "message": "ثوانٍ"
+   },
+   "keyword_input_placeholder": {
+      "message": "أدخل كلمة أو تعبيرًا عاديًا أو Regex أو XPath أو CSS (افصل المتعددة بفواصل)..."
+   },
+   "keywords_to_monitor": {
+      "message": "الكلمات المفتاحية للمراقبة"
+   },
+   "kill_notification": {
+      "message": "إيقاف إنذار الإشعار"
+   },
+   "kill_successfully": {
+      "message": "تم الإيقاف بنجاح"
+   },
+   "lang_code": {
+      "message": "ar"
+   },
+   "language": {
+      "message": "اللغة"
+   },
+   "lost": {
+      "message": "لم تجد"
+   },
+   "loved": {
+      "message": "أعجبتني جدًا!"
+   },
+   "match_html_source_desc": {
+      "message": "مسح المصدر الخام — أبطأ، استخدم بحذر"
+   },
+   "match_html_source_label": {
+      "message": "مطابقة مصدر HTML"
+   },
+   "match_visible_text_desc": {
+      "message": "مسح النص المعروض على الشاشة"
+   },
+   "match_visible_text_label": {
+      "message": "مطابقة النص المرئي"
+   },
+   "maximum": {
+      "message": "الحدّ الأعلى"
+   },
+   "minimum": {
+      "message": "الحدّ الأدنى"
+   },
+   "minute": {
+      "message": "دقيقة"
+   },
+   "minutes": {
+      "message": "دقائق"
+   },
+   "monitor": {
+      "message": "المراقبة"
+   },
+   "monitor_area_select": {
+      "message": "تحديد"
+   },
+   "monitor_area_selector_desc": {
+      "message": "أدخل محدد CSS أو اختر عنصراً في الصفحة."
+   },
+   "monitor_area_switch_desc": {
+      "message": "تقييد البحث بمنطقة واحدة"
+   },
+   "monitor_area_switch_label": {
+      "message": "منطقة المراقبة"
+   },
+   "monitor_custom_area": {
+      "message": "البحث في منطقة مخصّصة من الصفحة"
+   },
+   "monitor_custom_area_help": {
+      "message": "فعِّل ذلك لتحديد منطقة من الصفحة للمراقبة أو البحث."
+   },
+   "monitor_full_page": {
+      "message": "مراقبة الصفحة بالكامل"
+   },
+   "monitor_full_page_help": {
+      "message": "فعِّل ذلك لاكتشاف التغيّرات على كامل الصفحة."
+   },
+   "monitor_page_for_any_changes": {
+      "message": "تعقّب أي تغيّرات على الصفحة تلقائيًا."
+   },
+   "monitored_area": {
+      "message": "المنطقة المراقبة"
+   },
+   "monitoring_active": {
+      "message": "المراقبة نشطة"
+   },
+   "monitoring_auto_click_label": {
+      "message": "نقر تلقائي عند تطابق الكلمة المفتاحية"
+   },
+   "monitoring_engine_advanced": {
+      "message": "متقدم"
+   },
+   "monitoring_engine_aria": {
+      "message": "إصدار محرك المراقبة"
+   },
+   "monitoring_engine_basic": {
+      "message": "أساسي"
+   },
+   "monitoring_engine_beta": {
+      "message": "تجريبي"
+   },
+   "monitoring_engine_tooltip_desc": {
+      "message": "يعمل عبر جميع الاختيارات — موجود ومفقود ومخصص — مع كشف أسرع وأذكى."
+   },
+   "monitoring_engine_tooltip_title": {
+      "message": "نواة تجريبية جديدة"
+   },
+   "monitoring_keyword_input_aria": {
+      "message": "الكلمة المفتاحية للمراقبة"
+   },
+   "monitoring_keywords_empty": {
+      "message": "لا توجد كلمات مفتاحية بعد — أضف واحدة على الأقل لبدء المراقبة."
+   },
+   "monitoring_mode": {
+      "message": "وضع المراقبة"
+   },
+   "monitoring_mode_custom_info_highlight": {
+      "message": "أي تغيير"
+   },
+   "monitoring_mode_custom_info_prefix": {
+      "message": "ينبهك الوضع المخصص عند اكتشاف "
+   },
+   "monitoring_mode_custom_info_suffix": {
+      "message": " في هذه الصفحة — لا حاجة لكلمات مفتاحية."
+   },
+   "monitoring_mode_custom_intro": {
+      "message": "تتبع أي تغييرات في الصفحة تلقائياً."
+   },
+   "monitoring_mode_custom_short": {
+      "message": "مخصص"
+   },
+   "monitoring_mode_found_desc": {
+      "message": "احصل على إشعار عند ظهور كلمتك المفتاحية."
+   },
+   "monitoring_mode_found_short": {
+      "message": "موجود"
+   },
+   "monitoring_mode_help": {
+      "message": "اختر متى يجب أن ينبهك Auto Refresh Plus"
+   },
+   "monitoring_mode_lost_desc": {
+      "message": "احصل على إشعار عند اختفاء كلمتك المفتاحية."
+   },
+   "monitoring_mode_lost_short": {
+      "message": "مفقود"
+   },
+   "monitoring_remove_keyword_aria": {
+      "message": "إزالة %1"
+   },
+   "monitoring_tip_banner": {
+      "message": "تحتاج إلى المزيد من الإجراءات؟ جرّب أتمتة النقرات المتعددة."
+   },
+   "monitoring_tip_label": {
+      "message": "نصيحة:"
+   },
+   "new_badge": {
+      "message": "جديد"
+   },
+   "no_active_tabs": {
+      "message": "لا توجد علامات تبويب نشطة"
+   },
+   "no_active_tabs_desc": {
+      "message": "لا توجد علامات تبويب تحت المراقبة أو التحديث الآن. ابدأ تحديث أي تبويب ليظهر هنا."
+   },
+   "no_keyword": {
+      "message": "لم تُضف كلمات بعد. أضف كلمًا لمراقبتها."
+   },
+   "no_tabs_refreshing": {
+      "message": "لا توجد علامات تبويب قيد التحديث"
+   },
+   "no_templates_match": {
+      "message": "لا توجد قوالب تطابق بحثك."
+   },
+   "normal_expression": {
+      "message": "تعبير عادي"
+   },
+   "normal_expression_desc": {
+      "message": "يبحث عن كلمات دون أي رمز بداية. اضغط Enter بعد كل كلمة."
+   },
+   "normal_expression_example_1_desc": {
+      "message": "يبحث عن النصّ «In Stock» حرفًا بحرف على الصفحة."
+   },
+   "normal_expression_example_2_desc": {
+      "message": "عدة كلمات، اضغط Enter بعد كل منها."
+   },
+   "normal_expression_example_3_desc": {
+      "message": "يبحث عن زرّ أو عبارة «إضافة إلى السلة»."
+   },
+   "not_allowed": {
+      "message": "لا يُسمح لك باستخدام ذلك هنا."
+   },
+   "noti_msg": {
+      "message": "«Auto Refresh Plus» %1 نصّك الهدف."
+   },
+   "noti_msg_title": {
+      "message": "النصّ الهدف!"
+   },
+   "notification_domain_info": {
+      "message": "على %1"
+   },
+   "ok": {
+      "message": "حسنًا"
+   },
+   "okay": {
+      "message": "مقبول"
+   },
+   "open_link_help": {
+      "message": "يفتح الرابط الذي نُقِر عليه في علامة تبويب جديدة."
+   },
+   "open_link_tab": {
+      "message": "فتح الرابط في علامة تبويب جديدة"
+   },
+   "options": {
+      "message": "الخيارات"
+   },
+   "partial_page_desc": {
+      "message": "مراقبة طلبات AJAX/XHR فقط"
+   },
+   "pause": {
+      "message": "إيقاف مؤقت"
+   },
+   "pause_on_interact": {
+      "message": "إيقاف مؤقت عند التفاعل"
+   },
+   "pause_refreshing": {
+      "message": "إيقاف التحديث مؤقتًا"
+   },
+   "permissions_attention": {
+      "message": "تنبيه"
+   },
+   "permissions_btn_grant": {
+      "message": "منح الوصول لمضيفات لوحة التحكم"
+   },
+   "permissions_btn_opening_dialog": {
+      "message": "جارٍ فتح نافذة الأذونات…"
+   },
+   "permissions_btn_refresh": {
+      "message": "تحديث الحالة"
+   },
+   "permissions_config_missing_body": {
+      "message": "غير معرّف في بيئة البناء. أعد البناء بعد تعيين اسم مضيف لوحة التحكم."
+   },
+   "permissions_config_missing_title": {
+      "message": "التكوين ناقص"
+   },
+   "permissions_error_denied": {
+      "message": "تمّ رفض الأذونات. منح الوصول لمضيف لوحة التحكم ليعمل كلٌّ من المزامنة والميزات المحقونة بثبات."
+   },
+   "permissions_error_dialog": {
+      "message": "حدث خطأ أثناء فتح نافذة الأذونات. حاول مرّة أخرى أو راجع إعدادات المتصفّح."
+   },
+   "permissions_error_read_state": {
+      "message": "تعذّر قراءة حالة الإذن. أعد تحميل الصفحة أو حاول لاحقًا."
+   },
+   "permissions_go_to_options": {
+      "message": "الانتقال إلى الخيارات"
+   },
+   "permissions_granted_body": {
+      "message": "تملك الإضافة بالفعل إذن مضيف يطابق منصّتك. يمكنك إغلاق هذه الصفحة."
+   },
+   "permissions_granted_ok": {
+      "message": "حسنًا"
+   },
+   "permissions_granted_title": {
+      "message": "تم تفعيل الوصول إلى الموقع"
+   },
+   "permissions_heading_dashboard": {
+      "message": "أذونات مضيف لوحة التحكم"
+   },
+   "permissions_intro_dashboard": {
+      "message": "تحكّم فيما إذا كانت الإضافة تعمل على نطاقات لوحة Auto Refresh Plus (نصوص المحتوى والتكامل مع المنصّة)."
+   },
+   "permissions_label_dashboard_host": {
+      "message": "مضيف لوحة التحكم"
+   },
+   "permissions_revoke_hint": {
+      "message": "لإزالة الإذن لاحقًا، احذف الموقع من قائمة الوصول إلى المواقع في إعدادات الإضافة."
+   },
+   "permissions_subtitle": {
+      "message": "الوصول إلى موقع المنصّة"
+   },
+   "permissions_warn_body_prefix": {
+      "message": "منح الوصول لتتمكن الإضافة من التشغيل في لوحة التحكم ومزامنة التفضيلات والمحافظة على تجربة موحّدة بنفس نمط نص المحتوى:"
+   },
+   "permissions_warn_body_suffix": {
+      "message": ")."
+   },
+   "permissions_warn_title": {
+      "message": "لم يُمنَح الوصول إلى الموقع بعد"
+   },
+   "play_alarm_on_captcha_detection": {
+      "message": "تشغيل تنبيه عند اكتشاف الكابتشا"
+   },
+   "play_alarm_on_captcha_detection_help": {
+      "message": "تشغيل تنبيه صوتي عند اكتشاف كابتشا."
+   },
+   "play_alarm_on_error_detection": {
+      "message": "تشغيل تنبيه عند اكتشاف الخطأ"
+   },
+   "play_alarm_on_error_detection_help": {
+      "message": "تشغيل تنبيه صوتي عند اكتشاف صفحة خطأ."
+   },
+   "please_add_email_first": {
+      "message": "يرجى إضافة بريد إلكتروني أولًا."
+   },
+   "please_add_webhooks_first": {
+      "message": "يرجى إضافة Webhooks أولًا."
+   },
+   "please_rateus": {
+      "message": "يرجى تقييمنا"
+   },
+   "popup_on_keyword_found": {
+      "message": "تنبيه عند ظهور كلمة مفتاحية"
+   },
+   "popup_on_keyword_lost": {
+      "message": "تنبيه عند اختفاء كلمة مفتاحية"
+   },
+   "predefined_interval": {
+      "message": "فاصل محدّد مسبقًا"
+   },
+   "predefined_interval_desc": {
+      "message": "استخدام قيم زمنية جاهزة أو افتراضية"
+   },
+   "premium_benefits": {
+      "message": "مزايا الإصدار المميّز:"
+   },
+   "premium_device_sync": {
+      "message": "إدارة حتى ثلاثة أجهزة"
+   },
+   "premium_full_access": {
+      "message": "كلّ الميزات المميّزة"
+   },
+   "premium_priority_support": {
+      "message": "ملفّات إعدادات مختلفة"
+   },
+   "premium_tag_aria": {
+      "message": "ميّزة Pro: %1. فتح الإعلان."
+   },
+   "premium_tag_default_feature": {
+      "message": "ميّزة"
+   },
+   "premium_tag_tooltip_click": {
+      "message": "انقر للتفاصيل"
+   },
+   "premium_usage_body": {
+      "message": "ميزات مميزة مفعّلة على الخطة المجانية."
+   },
+   "premium_usage_dismiss": {
+      "message": "إغلاق الإشعار"
+   },
+   "premium_usage_status_label": {
+      "message": "ميزات مميزة قيد الاستخدام"
+   },
+   "preset_interval": {
+      "message": "فواصل جاهزة"
+   },
+   "pricing": {
+      "message": "الأسعار"
+   },
+   "pro_announcement_body": {
+      "message": "تُدخل Auto Refresh Plus ميزة Pro تدريجيًا لدعم التطوير على المدى الطويل والميزات المتقدمة ومزامنة السحابة والمراقبة الأذكى وإدارة الأجهزة المتعددة، مع إبقاء ميزات التحديث الأساسية مجانية للجميع."
+   },
+   "pro_announcement_close_aria": {
+      "message": "إغلاق الحوار"
+   },
+   "pro_announcement_days_label": {
+      "message": "يوم"
+   },
+   "pro_announcement_days_remaining_aria": {
+      "message": "متبقٍّ %1 يومًا"
+   },
+   "pro_announcement_fresh_install_body": {
+      "message": "فعِّل %1 وجرِّب التجربة الكاملة للبريميوم مع PRO، بما في ذلك أدوات متقدمة ومراقبة أذكى ومزامنة سحابية ووصول عبر أجهزة متعددة."
+   },
+   "pro_announcement_fresh_install_title_suffix": {
+      "message": "هي ميزة Premium"
+   },
+   "pro_announcement_fresh_install_trial": {
+      "message": "تجربة مجانية 15 يومًا"
+   },
+   "pro_announcement_important_badge": {
+      "message": "هام"
+   },
+   "pro_announcement_important_notice_aria": {
+      "message": "تنبيه هام"
+   },
+   "pro_announcement_moving_to_pro": {
+      "message": "تنتقل إلى Pro"
+   },
+   "pro_announcement_premium_badge": {
+      "message": "PREMIUM"
+   },
+   "pro_announcement_premium_badge_aria": {
+      "message": "بريميوم"
+   },
+   "pro_announcement_rollout_date": {
+      "message": "1 يونيو"
+   },
+   "pro_announcement_rollout_intro": {
+      "message": "يبدأ طرح الميزات اعتبارًا من"
+   },
+   "pro_announcement_rollout_outro": {
+      "message": "."
+   },
+   "pro_announcement_view_pricing": {
+      "message": "عرض الأسعار — من 2.99 دولار/شهر"
+   },
+   "random_interval": {
+      "message": "فاصل عشوائي"
+   },
+   "random_interval_desc": {
+      "message": "تحديث عشوائي بين الحدّين الأدنى والأعلى"
+   },
+   "random_interval_help": {
+      "message": "مع الإعدادات الحالية، ستُحدَّث الصفحة عشوائيًا كل %1 إلى %2 ثانية."
+   },
+   "random_time_interval": {
+      "message": "نطاق تحديث عشوائي"
+   },
+   "rate_us": {
+      "message": "قيّمنا"
+   },
+   "rateus_title": {
+      "message": "قيّم هذه الإضافة"
+   },
+   "ready_expressions_load_error": {
+      "message": "تعذر تحميل القوالب. يرجى المحاولة لاحقاً."
+   },
+   "real_time_detection_during_refresh": {
+      "message": "اكتشاف فوري أثناء التحديث"
+   },
+   "real_time_detection_switch_desc": {
+      "message": "التحقق باستمرار دون إعادة تحميل كاملة"
+   },
+   "realtime_help": {
+      "message": "اكتشاف التغيّرات باستمرار أثناء دورة التحديث، وليس عند نهاية الفاصل فقط."
+   },
+   "receive_emails_alerts": {
+      "message": "استلام تنبيهات البريد"
+   },
+   "receive_webhook_alerts": {
+      "message": "استلام تنبيهات Webhook"
+   },
+   "redirection_behavior": {
+      "message": "سلوك التحويل"
+   },
+   "redirection_behavior_desc": {
+      "message": "التعامل مع إعادة التوجيه أثناء التحديث"
+   },
+   "redirection_behavior_help": {
+      "message": "اختر كيف تتعامل Auto Refresh Plus مع تغيّر عنوان URL: إما البقاء على النطاق الأصلي أو متابعة التحويلات."
+   },
+   "refresh_cycles_completed": {
+      "message": "دورات التحديث المكتملة"
+   },
+   "refresh_interval_mode": {
+      "message": "وضع فاصل التحديث"
+   },
+   "refresh_limit": {
+      "message": "حد التحديث"
+   },
+   "refresh_limit_times": {
+      "message": "مرات"
+   },
+   "refresh_number": {
+      "message": "عدد مرات التحديث"
+   },
+   "refresh_number_desc": {
+      "message": "التوقف بعد عدد ثابت"
+   },
+   "refresh_number_help": {
+      "message": "حدّد عدد مرات تحديث الصفحة."
+   },
+   "refresh_position_hint_body": {
+      "message": "يمكنك تغيير زر التحديث وإعدادات الواجهة الأخرى من هذه القائمة."
+   },
+   "refresh_position_hint_understand": {
+      "message": "فهمت"
+   },
+   "refresh_top_pause": {
+      "message": "إيقاف"
+   },
+   "refresh_top_resume": {
+      "message": "متابعة"
+   },
+   "refresh_top_start": {
+      "message": "بدء"
+   },
+   "refresh_top_stop": {
+      "message": "إيقاف"
+   },
+   "refresh_type": {
+      "message": "نوع التحديث"
+   },
+   "refresh_type_help": {
+      "message": "كيفية إعادة تحميل الصفحة قبل كل فحص. الصفحة الكاملة تعيد تحميل عنوان URL بالكامل كما عند التحديث — موثوقة لكن أثقل. XHR يطلق طلبات AJAX/XHR في الخلفية فقط (بدون إعادة تحميل كاملة) — أسرع وأخف، مثالي للصفحات الديناميكية التي تحدّث المحتوى دون إعادة تحميل."
+   },
+   "regex": {
+      "message": "Regex"
+   },
+   "regex_expression": {
+      "message": "تعبير Regex"
+   },
+   "regex_expression_desc": {
+      "message": "يدعم Auto Refresh Plus تعبيرات Regex، ويجب أن يبدأ التعبير بعلامة $ ثم نمطك."
+   },
+   "regex_expression_example_1_desc": {
+      "message": "يطابق كلمة منتج وتبعًا لها أرقامًا (product1، product42...)."
+   },
+   "regex_expression_example_2_desc": {
+      "message": "عبارة insensitive لـ «في المخزون»."
+   },
+   "regex_expression_example_3_desc": {
+      "message": "تنسيق سعر كـ \"$19.99\"."
+   },
+   "remove_email": {
+      "message": "إزالة البريد"
+   },
+   "restart": {
+      "message": "إعادة التشغيل"
+   },
+   "restart_wait_seconds_desc": {
+      "message": "عدد الثواني قبل استئناف التحديث بعد الإيقاف المؤقت."
+   },
+   "resume": {
+      "message": "متابعة"
+   },
+   "resume_refreshing": {
+      "message": "استئناف التحديث"
+   },
+   "save": {
+      "message": "حفظ"
+   },
+   "scan_method_title": {
+      "message": "طريقة المسح"
+   },
+   "sch_description": {
+      "message": "التشغيل تلقائيًا في الأوقات والأيام المحددة."
+   },
+   "schedule_add": {
+      "message": "إضافة جدول"
+   },
+   "schedule_auto_disable_aria": {
+      "message": "تعطيل تلقائي"
+   },
+   "schedule_auto_stop_aria": {
+      "message": "إيقاف تلقائي"
+   },
+   "schedule_delete_aria": {
+      "message": "حذف الجدول"
+   },
+   "schedule_disconnected": {
+      "message": "تم فصل الجدول"
+   },
+   "schedule_edit_aria": {
+      "message": "تعديل الجدول"
+   },
+   "schedule_enable_aria": {
+      "message": "تفعيل الجدول"
+   },
+   "schedule_help": {
+      "message": "تتيح لك الجداول التحديث التلقائي في أوقات وأيام محددة. يمكن أن يحتوي كل جدول على وقت بدء وأيام أسبوع محددة وإيقاف تلقائي وتعطيل تلقائي."
+   },
+   "schedule_options_label": {
+      "message": "الخيارات"
+   },
+   "schedule_select_days": {
+      "message": "اختر الأيام"
+   },
+   "schedule_start_time_label": {
+      "message": "وقت البدء"
+   },
+   "schedules": {
+      "message": "الجداول"
+   },
+   "schedules_active_count": {
+      "message": "%1 نشط"
+   },
+   "schedules_empty": {
+      "message": "لا توجد جداول بعد"
+   },
+   "search_templates": {
+      "message": "البحث عن قوالب…"
+   },
+   "seconds": {
+      "message": "ثوانٍ"
+   },
+   "select_area": {
+      "message": "اختيار المنطقة"
+   },
+   "select_area_desc": {
+      "message": "أدخل منتقي CSS لتحديد نطاق البحث."
+   },
+   "select_css_selector": {
+      "message": "اختر عنصرًا لتحديد منطقة الاستعلام (CSS)"
+   },
+   "select_date_time": {
+      "message": "اختر التاريخ والوقت"
+   },
+   "select_days": {
+      "message": "اختر الأيام"
+   },
+   "select_element": {
+      "message": "اختر العنصر"
+   },
+   "select_language": {
+      "message": "اختر لغتك"
+   },
+   "select_time": {
+      "message": "اختر الوقت"
+   },
+   "session_expired": {
+      "message": "انتهت جلستك. سجّل الدخول مرة أخرى."
+   },
+   "settings_card_collapse_aria": {
+      "message": "طي %1"
+   },
+   "settings_card_expand_aria": {
+      "message": "توسيع %1"
+   },
+   "show_tab": {
+      "message": "إظهار علامة التبويب"
+   },
+   "signup_requirement_body": {
+      "message": "سيُطلب حساب قريبًا للمتابعة."
+   },
+   "signup_requirement_countdown_days": {
+      "message": "يتبقّى %1 يومًا قبل إلزامية الحساب"
+   },
+   "signup_requirement_countdown_one_day": {
+      "message": "يتبقّى يوم واحد قبل إلزامية الحساب"
+   },
+   "signup_requirement_days_abbr": {
+      "message": "يوم"
+   },
+   "signup_requirement_dismiss": {
+      "message": "تجاهل الإشعار"
+   },
+   "signup_requirement_sign_up": {
+      "message": "سجّل مجانًا ←"
+   },
+   "signup_requirement_status_label": {
+      "message": "إشعار يتطلب إنشاء حساب"
+   },
+   "skip_repeated_keyword": {
+      "message": "تجاهل الكلمة المتكررة"
+   },
+   "skip_repeated_keyword_desc": {
+      "message": "تجاهل الكلمات المفتاحية المكتشفة مسبقاً"
+   },
+   "skip_repeated_keyword_help": {
+      "message": "تخطّي الكلمات التي اُكتُشفت بالفعل في التحديث التالي."
+   },
+   "slave_device_alert_body": {
+      "message": "تم ضبط هذه الإضافة كجهاز ثانوي مرتبط. قد تعكس الإعدادات وتحكم التحديث جهازك الرئيسي."
+   },
+   "slave_device_alert_dismiss": {
+      "message": "إغلاق الإشعار"
+   },
+   "slave_device_alert_read_more": {
+      "message": "اقرأ المزيد"
+   },
+   "slave_device_alert_status_label": {
+      "message": "جهاز ثانوي"
+   },
+   "slave_message_alert": {
+      "message": "لا يمكنك تعديل هذا الخيار لأن هذا الجهاز مسجَّل للمزامنة كجهاز تابع (قراءة فقط)."
+   },
+   "source_find_text": {
+      "message": "المصدر (HTML)"
+   },
+   "source_find_text_caution": {
+      "message": "هذا الخيار مخصص بشكل أساسي للمطورين. قد يطابق فحص مصدر HTML الخام علامات مخفية أو غير مرئية، مما يؤدي غالباً إلى إنذارات كاذبة. إنه أبطأ ولا يُنصح به للمراقبة اليومية — فعّله فقط عندما لا يكفي مطابقة النص المرئي."
+   },
+   "source_find_text_help": {
+      "message": "يستخرج النصّ من شفرة الصفحة. قد يشمل محتوى مخفيًا أو ديناميكيًا."
+   },
+   "start_countdown": {
+      "message": "بدء العدّ التنازلي"
+   },
+   "start_msg": {
+      "message": "بدء"
+   },
+   "start_refreshing": {
+      "message": "بدء التحديث"
+   },
+   "start_time": {
+      "message": "وقت البدء"
+   },
+   "stop": {
+      "message": "إيقاف"
+   },
+   "stop_countdown": {
+      "message": "إيقاف العدّ التنازلي"
+   },
+   "stop_refreshing": {
+      "message": "إيقاف التحديث"
+   },
+   "stop_time": {
+      "message": "وقت الإيقاف"
+   },
+   "subscription": {
+      "message": "الاشتراك"
+   },
+   "success": {
+      "message": "تم حفظ الإعدادات بنجاح"
+   },
+   "support_ticket": {
+      "message": "تذكرة الدعم"
+   },
+   "supported_expressions": {
+      "message": "التعبيرات المدعومة"
+   },
+   "supported_expressions_msg_monitor": {
+      "message": "التعبيرات المدعومة لمراقبة الصفحة"
+   },
+   "syntax_css_desc": {
+      "message": "استهدف العناصر بمحددات CSS قياسية — حسب المعرف أو الصنف أو السمة أو التسلسل."
+   },
+   "syntax_css_ex1_desc": {
+      "message": "يحدد العنصر بمعرف \"price\""
+   },
+   "syntax_css_ex1_title": {
+      "message": "حسب المعرف"
+   },
+   "syntax_css_ex2_desc": {
+      "message": "يحدد العناصر بصنف \"stock-status\""
+   },
+   "syntax_css_ex2_title": {
+      "message": "حسب الصنف"
+   },
+   "syntax_css_ex3_desc": {
+      "message": "يحدد العنصر حيث data-testid هو \"add-to-cart\""
+   },
+   "syntax_css_ex3_title": {
+      "message": "حسب السمة"
+   },
+   "syntax_css_title": {
+      "message": "محددات CSS"
+   },
+   "syntax_custom_desc": {
+      "message": "تبدأ بـ ## وتجمع الكلمات المفتاحية بمنطق Boolean AND / OR / NOT."
+   },
+   "syntax_custom_ex1_desc": {
+      "message": "يُفعّل فقط عند ظهور \"In Stock\" و \"Add to Cart\""
+   },
+   "syntax_custom_ex1_title": {
+      "message": "شرط AND"
+   },
+   "syntax_custom_ex2_desc": {
+      "message": "يُفعّل عند ظهور أي كلمة مفتاحية"
+   },
+   "syntax_custom_ex2_title": {
+      "message": "شرط OR"
+   },
+   "syntax_custom_ex3_desc": {
+      "message": "يُفعّل عند ظهور \"In Stock\" دون \"Sold Out\""
+   },
+   "syntax_custom_ex3_title": {
+      "message": "شرط NOT"
+   },
+   "syntax_custom_title": {
+      "message": "تعبيرات مخصصة"
+   },
+   "syntax_norm_ex1_desc": {
+      "message": "يطابق النص الدقيق \"In Stock\" في أي مكان على الصفحة"
+   },
+   "syntax_norm_ex1_title": {
+      "message": "In Stock"
+   },
+   "syntax_norm_ex2_desc": {
+      "message": "كلمات مفتاحية متعددة — اضغط Enter بعد كل واحدة"
+   },
+   "syntax_norm_ex2_title": {
+      "message": "Available, Out of Stock"
+   },
+   "syntax_norm_ex3_desc": {
+      "message": "يطابق زر أو نص \"Add to Cart\" على الصفحة"
+   },
+   "syntax_norm_ex3_title": {
+      "message": "Add to Cart"
+   },
+   "syntax_regex_desc": {
+      "message": "بين شرطتين /.../ لمطابقة أنماط النص. مفيد للأسعار وSKU والمطابقات المرنة."
+   },
+   "syntax_regex_ex1_desc": {
+      "message": "يطابق مبلغاً بالدولار مثل $19.99 أو $1,299.00"
+   },
+   "syntax_regex_ex1_title": {
+      "message": "مطابقة السعر"
+   },
+   "syntax_regex_ex2_desc": {
+      "message": "يطابق \"In Stock\" أو \"in stock\" (بدون تمييز حالة الأحرف)"
+   },
+   "syntax_regex_ex2_title": {
+      "message": "حالة المخزون"
+   },
+   "syntax_regex_ex3_desc": {
+      "message": "يطابق SKU منتج مثل SKU-12345"
+   },
+   "syntax_regex_ex3_title": {
+      "message": "رمز SKU"
+   },
+   "syntax_regex_title": {
+      "message": "التعبيرات النمطية"
+   },
+   "syntax_text_matching_desc": {
+      "message": "يبحث عن كلمات مفتاحية بسيطة في الصفحة. لا حاجة لرمز — اضغط Enter بعد كل كلمة."
+   },
+   "syntax_text_matching_title": {
+      "message": "مطابقة النص"
+   },
+   "syntax_xpath_desc": {
+      "message": "تبدأ بـ // لاستهداف العناصر حسب موضعها في بنية HTML."
+   },
+   "syntax_xpath_ex1_desc": {
+      "message": "يحدد أي عنصر بصنف \"price\""
+   },
+   "syntax_xpath_ex1_title": {
+      "message": "حسب الصنف"
+   },
+   "syntax_xpath_ex2_desc": {
+      "message": "يحدد زراً نصه \"Add to Cart\""
+   },
+   "syntax_xpath_ex2_title": {
+      "message": "زر حسب النص"
+   },
+   "syntax_xpath_ex3_desc": {
+      "message": "يحدد العنصر بمعرف \"availability\""
+   },
+   "syntax_xpath_ex3_title": {
+      "message": "حسب المعرف"
+   },
+   "syntax_xpath_title": {
+      "message": "تعبيرات XPath"
+   },
+   "tabs": {
+      "message": "علامات التبويب"
+   },
+   "tabs_alerts": {
+      "message": "علامات تبويب فيها تنبيهات"
+   },
+   "tabs_refreshing": {
+      "message": "علامات تبويب يجري تحديثها"
+   },
+   "template_add_to_cart_button": {
+      "message": "زر أضف إلى السلة"
+   },
+   "template_add_to_cart_button_desc": {
+      "message": "يطابق زر السلة عبر test id"
+   },
+   "template_any_stock_term": {
+      "message": "أي مصطلح مخزون"
+   },
+   "template_any_stock_term_desc": {
+      "message": "يُفعّل عند أي كلمة مفتاحية للمخزون"
+   },
+   "template_buy_button": {
+      "message": "زرّ الشراء"
+   },
+   "template_buy_button_desc": {
+      "message": "أزرار اشترِ أو شراء"
+   },
+   "template_email_address": {
+      "message": "عنوان بريد إلكتروني"
+   },
+   "template_email_address_desc": {
+      "message": "يتوافق مع عناوين البريد"
+   },
+   "template_expression_description": {
+      "message": "قالب تعبير لمراقبة الصفحة"
+   },
+   "template_in_stock_buyable": {
+      "message": "متوفر وقابل للشراء"
+   },
+   "template_in_stock_buyable_desc": {
+      "message": "تنبيه فقط عند التوفر وإمكانية الشراء"
+   },
+   "template_in_stock_not_sold_out": {
+      "message": "متوفر، غير نفد"
+   },
+   "template_in_stock_not_sold_out_desc": {
+      "message": "متوفر مع استبعاد نص النفاد"
+   },
+   "template_input_field_value": {
+      "message": "قيمة حقل الإدخال"
+   },
+   "template_input_field_value_desc": {
+      "message": "حقل إدخال بقيمة بحث"
+   },
+   "template_phone_number": {
+      "message": "رقم هاتف"
+   },
+   "template_phone_number_desc": {
+      "message": "يتوافق مع تنسيق (123) 456-7890"
+   },
+   "template_price_changes": {
+      "message": "تغيّر الأسعار"
+   },
+   "template_price_changes_desc": {
+      "message": "راقب كلمات مرتبطة بالسعر"
+   },
+   "template_price_detector": {
+      "message": "كاشف الأسعار"
+   },
+   "template_price_detector_desc": {
+      "message": "يطابق أي سعر بالدولار مثل $19.99"
+   },
+   "template_price_element": {
+      "message": "عنصر السعر"
+   },
+   "template_price_element_desc": {
+      "message": "عناصر بصف سعر"
+   },
+   "template_price_format": {
+      "message": "تنسيق السعر"
+   },
+   "template_price_format_desc": {
+      "message": "يتوافق مع أسعار مثل $19.99"
+   },
+   "template_product_availability": {
+      "message": "توافر المنتج"
+   },
+   "template_product_availability_desc": {
+      "message": "راقب حالة التوافر"
+   },
+   "template_product_id_pattern": {
+      "message": "نمط معرّف المنتج"
+   },
+   "template_product_id_pattern_desc": {
+      "message": "يتوافق مع معرّفات مثل product-123"
+   },
+   "template_product_status": {
+      "message": "حالة المنتج"
+   },
+   "template_product_status_desc": {
+      "message": "منتجات جديدة أو محدودة"
+   },
+   "template_restock_alert": {
+      "message": "تنبيه إعادة التخزين"
+   },
+   "template_restock_alert_desc": {
+      "message": "التقط اللحظة التي يعود فيها المنتج"
+   },
+   "template_shipping_options": {
+      "message": "خيارات الشحن"
+   },
+   "template_shipping_options_desc": {
+      "message": "شحن سريع متاح"
+   },
+   "template_shopping_actions": {
+      "message": "إجراءات الشراء"
+   },
+   "template_shopping_actions_desc": {
+      "message": "تعقّب أزرار الشراء"
+   },
+   "template_stock_and_price": {
+      "message": "المخزون والسعر"
+   },
+   "template_stock_and_price_desc": {
+      "message": "متوفر ومخفّض معًا"
+   },
+   "template_stock_status_element": {
+      "message": "عنصر حالة المخزون"
+   },
+   "template_stock_status_element_desc": {
+      "message": "استهدف عنصراً حسب صنفه"
+   },
+   "template_stock_status_text": {
+      "message": "نصّ حالة المخزون"
+   },
+   "template_stock_status_text_desc": {
+      "message": "نصّ يحوي «In Stock»"
+   },
+   "template_ticket_availability": {
+      "message": "توفر التذاكر"
+   },
+   "template_ticket_availability_desc": {
+      "message": "راقب طرح التذاكر للبيع"
+   },
+   "templates": {
+      "message": "قوالب"
+   },
+   "templates_add_to_keywords": {
+      "message": "إضافة إلى الكلمات المفتاحية"
+   },
+   "templates_ai_aria": {
+      "message": "مولّد التعبيرات بالذكاء الاصطناعي"
+   },
+   "templates_ai_label": {
+      "message": "ذكاء اصطناعي"
+   },
+   "templates_back_to_templates": {
+      "message": "العودة إلى القوالب"
+   },
+   "templates_close_aria": {
+      "message": "إغلاق الحوار"
+   },
+   "templates_copy_aria": {
+      "message": "نسخ التعبير %1"
+   },
+   "templates_header_templates_aria": {
+      "message": "العودة إلى القوالب"
+   },
+   "templates_ready_made": {
+      "message": "جاهزة للاستخدام"
+   },
+   "templates_syntax_aria": {
+      "message": "مساعدة الصياغة"
+   },
+   "templates_syntax_button": {
+      "message": "الصياغة"
+   },
+   "templates_tooltip": {
+      "message": "تصفح قوالب المراقبة الجاهزة"
+   },
+   "templates_type_css": {
+      "message": "CSS"
+   },
+   "templates_type_custom": {
+      "message": "مخصص"
+   },
+   "templates_type_normal": {
+      "message": "عادي"
+   },
+   "templates_type_regex": {
+      "message": "Regex"
+   },
+   "templates_type_xpath": {
+      "message": "XPath"
+   },
+   "text": {
+      "message": "النصّ"
+   },
+   "thankyou_msg": {
+      "message": "شكرًا على ملاحظاتك."
+   },
+   "this_is_not_valid_css_selector": {
+      "message": "هذا منتقي CSS غير صالح."
+   },
+   "thnakyou_desc": {
+      "message": "مساهمتك تساعدنا على التحسين."
+   },
+   "time": {
+      "message": "الوقت"
+   },
+   "time_has_passed": {
+      "message": "انقضى الوقت"
+   },
+   "time_is_invalid": {
+      "message": "الوقت المحدّد غير صالح"
+   },
+   "timer": {
+      "message": "المؤقت"
+   },
+   "timer_position": {
+      "message": "موضع المؤقت"
+   },
+   "timer_position_bottom_left": {
+      "message": "أسفل اليسار"
+   },
+   "timer_position_bottom_right": {
+      "message": "أسفل اليمين"
+   },
+   "timer_position_center": {
+      "message": "الوسط"
+   },
+   "timer_position_top_left": {
+      "message": "أعلى اليسار"
+   },
+   "timer_position_top_right": {
+      "message": "أعلى اليمين"
+   },
+   "upgrade": {
+      "message": "ترقية"
+   },
+   "use_default": {
+      "message": "استخدام الكلمات الافتراضية"
+   },
+   "user_menu_account_aria": {
+      "message": "قائمة الحساب"
+   },
+   "user_menu_avatar_alt": {
+      "message": "صورة المستخدم"
+   },
+   "user_menu_classic_view": {
+      "message": "Classic"
+   },
+   "user_menu_classic_view_aria": {
+      "message": "عرض Classic"
+   },
+   "user_menu_command_view": {
+      "message": "Command"
+   },
+   "user_menu_command_view_aria": {
+      "message": "عرض Command"
+   },
+   "user_menu_focus_mode": {
+      "message": "وضع التركيز"
+   },
+   "user_menu_focus_mode_aria": {
+      "message": "تبديل وضع التركيز"
+   },
+   "user_menu_focus_mode_tooltip": {
+      "message": "إخفاء عناصر الواجهة الإضافية"
+   },
+   "user_menu_refresh_position": {
+      "message": "الأزرار في الأعلى"
+   },
+   "user_menu_refresh_position_aria": {
+      "message": "إظهار زر التحديث في الأعلى"
+   },
+   "user_menu_refresh_position_tooltip": {
+      "message": "إظهار أزرار التحديث في الرأس"
+   },
+   "user_menu_theme_dark_aria": {
+      "message": "سمة داكنة"
+   },
+   "user_menu_theme_light_aria": {
+      "message": "سمة فاتحة"
+   },
+   "user_menu_theme_system_aria": {
+      "message": "سمة النظام"
+   },
+   "user_menu_ui_cosmetics": {
+      "message": "تخصيص الواجهة"
+   },
+   "user_menu_view": {
+      "message": "العرض"
+   },
+   "user_menu_view_aria": {
+      "message": "اختر وضع العرض"
+   },
+   "view_pricing_plans": {
+      "message": "عرض أسعار الباقات"
+   },
+   "visual_find_text": {
+      "message": "مرئي (نصّ الشاشة)"
+   },
+   "visual_find_text_help": {
+      "message": "يستخرج النصّ الظاهر كما يظهر للمستخدم."
+   },
+   "visual_timer_desc": {
+      "message": "عرض عد تنازلي على الصفحة"
+   },
+   "visual_timer_done": {
+      "message": "مكتمل"
+   },
+   "visual_timer_help": {
+      "message": "يعرض المؤقت المرئي عدًّا تنازليًا على الصفحة، ويُظهر الوقت المتبقي حتى التحديث التالي، مع إيقاف مؤقت ومتابعة وإعادة ضبط."
+   },
+   "visual_timer_live_monitor": {
+      "message": "مراقبة مباشرة"
+   },
+   "visual_timer_msg": {
+      "message": "إظهار المؤقت المرئي"
+   },
+   "visual_timer_next_refresh_in": {
+      "message": "التحديث التالي خلال"
+   },
+   "visual_timer_pause_aria": {
+      "message": "إيقاف المؤقت مؤقتاً"
+   },
+   "visual_timer_paused": {
+      "message": "متوقف مؤقتاً"
+   },
+   "visual_timer_restart_tooltip": {
+      "message": "إعادة تشغيل العد التنازلي"
+   },
+   "visual_timer_resume_aria": {
+      "message": "تشغيل المؤقت"
+   },
+   "visual_timer_running": {
+      "message": "قيد التشغيل"
+   },
+   "visual_timer_stop_aria": {
+      "message": "إيقاف المؤقت"
+   },
+   "wait_content_load": {
+      "message": "انتظر اكتمال التحميل"
+   },
+   "wait_content_load_desc": {
+      "message": "تأخير المسح بعد كل تحديث"
+   },
+   "wait_content_load_help": {
+      "message": "انتظر قبل الاكتشاف لاكتمال تحميل المحتوى."
+   },
+   "warning_random_interval": {
+      "message": "يجب أن يكون الحدّ الأعلى أكبر من الأدنى حتى يعمل الفاصل العشوائي بشكل صحيح."
+   },
+   "webhook_alert_help": {
+      "message": "يتيح Webhooks إرسال تنبيهات إلى تطبيقات أو خدمات أخرى عند اكتشاف تغيّر."
+   },
+   "webhook_alerts_switch_desc": {
+      "message": "إرسال حمولة إلى نقطة النهاية"
+   },
+   "webhooks": {
+      "message": "Webhooks"
+   },
+   "webhooks_tooltip": {
+      "message": "افتح إعدادات webhook للتنبيهات"
+   },
+   "whats_new": {
+      "message": "ما الجديد"
+   },
+   "whats_new_close_aria": {
+      "message": "إغلاق ما الجديد"
+   },
+   "whats_new_latest": {
+      "message": "الأحدث"
+   },
+   "whats_new_load_error": {
+      "message": "تعذر تحميل ملاحظات الإصدار. يرجى المحاولة لاحقاً."
+   },
+   "whats_new_subtitle": {
+      "message": "ملاحظات إصدار Auto Refresh Plus"
+   },
+   "whats_new_thank_you": {
+      "message": "شكراً لاستخدامك Auto Refresh Plus"
+   },
+   "window_focus_on_detection": {
+      "message": "جلب نافذة المتصفّح للمقدّمة عند الاكتشاف"
+   },
+   "window_focus_on_detection_desc": {
+      "message": "إحضار التبويب للأمام عند التطابق"
+   },
+   "window_focus_on_detection_help": {
+      "message": "عند العثور على الكلمات أو فقدها، تجلب النافذة لمقدمة الشاشة تلقائيًا."
+   },
+   "without_full": {
+      "message": "تحديث XHR"
+   },
+   "xhr_page_help": {
+      "message": "جلب بيانات من عنوان URL بدون إعادة تحميل كامل للصفحة. يتيح ذلك تحديث جزء من الصفحة دون مقاطعة المستخدم."
+   },
+   "xhr_request_autoclick": {
+      "message": "نقر تلقائي على عنصر"
+   },
+   "xhr_request_autoclick_desc": {
+      "message": "انقر على عنصر الصفحة الذي تريد النقر عليه تلقائياً."
+   },
+   "xpath": {
+      "message": "XPath"
+   },
+   "xpath_expression": {
+      "message": "تعبير XPath"
+   },
+   "xpath_expression_desc": {
+      "message": "يبدأ مسار XPath برمزَي @@ يليه التعبير."
+   },
+   "xpath_expression_example_1_desc": {
+      "message": "أي عنصر يحوي النصّ «In Stock»."
+   },
+   "xpath_expression_example_2_desc": {
+      "message": "حقول الإدخال التي قيمتها تحوي «Search»."
+   },
+   "xpath_expression_example_3_desc": {
+      "message": "عنصر div ذو الفئة السعر مع رمز $."
+   },
+   "your_expressions": {
+      "message": "تعبيراتك"
+   },
+   "your_expressions_add_new": {
+      "message": "إضافة جديد"
+   },
+   "your_expressions_define_placeholder": {
+      "message": "تحديد التعبير (مثال: متوفر أو ##متوفر AND أضف إلى السلة)"
+   },
+   "your_expressions_delete_aria": {
+      "message": "حذف %1"
+   },
+   "your_expressions_edit_aria": {
+      "message": "تعديل %1"
+   },
+   "your_expressions_empty": {
+      "message": "لا توجد تعبيرات محفوظة بعد. اضغط على \"إضافة جديد\" لإنشاء واحد."
+   },
+   "your_expressions_name_placeholder": {
+      "message": "اسم التعبير (مثال: تنبيه إعادة التخزين)"
+   },
+   "your_expressions_yours_badge": {
+      "message": "خاصتك"
+   }
+}

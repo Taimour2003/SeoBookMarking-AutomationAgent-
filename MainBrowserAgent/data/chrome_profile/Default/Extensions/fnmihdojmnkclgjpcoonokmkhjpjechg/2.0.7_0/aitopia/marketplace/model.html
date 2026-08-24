@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+<script src="/aitopia/marketplace/js/extension-config.js"></script>
+  <script src="/aitopia/marketplace/js/shared/pre-auth.js"></script>
+  
+
+
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title> Smart Sidebar (AITOPIA)</title>
+  <meta name="description" content="Try AI models with an interactive playground. Full parameter control.">
+
+  <!-- Favicon & Theme -->
+  <link rel="icon" type="image/x-icon" href="/aitopia/marketplace/favicon.ico">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+
+  <!-- Fonts -->
+  <link href="/aitopia/marketplace/css/vendor/css2.css" rel="stylesheet">
+
+  <!-- Tailwind CSS -->
+  <script src="/aitopia/marketplace/js/vendor/tailwindcss.min.js"></script>
+  <script src="/aitopia/marketplace/store/tailwind-config.js"></script>
+  
+  <script src="/aitopia/marketplace/js/inline/model-inline-2.js"></script>
+  
+  <style>
+    :root {
+      --aifnmjmchg-m-background: 0 0% 100%;
+      --aifnmjmchg-m-foreground: 0 0% 3.9%;
+      --aifnmjmchg-m-card: 0 0% 100%;
+      --aifnmjmchg-m-card-foreground: 0 0% 3.9%;
+      --aifnmjmchg-m-popover: 0 0% 100%;
+      --aifnmjmchg-m-popover-foreground: 0 0% 3.9%;
+      --aifnmjmchg-m-primary: 0 0% 0%;
+      --aifnmjmchg-m-primary-foreground: 210 40% 98%;
+      --aifnmjmchg-m-secondary: 0 0% 100%;
+      --aifnmjmchg-m-secondary-foreground: 222.2 47.4% 11.2%;
+      --aifnmjmchg-m-muted: 210 40% 96.1%;
+      --aifnmjmchg-m-muted-foreground: 215.4 16.3% 46.9%;
+      --aifnmjmchg-m-accent: 210 40% 96.1%;
+      --aifnmjmchg-m-accent-foreground: 222.2 47.4% 11.2%;
+      --aifnmjmchg-m-destructive: 0 84.2% 60.2%;
+      --aifnmjmchg-m-border: 214.3 31.8% 91.4%;
+      --aifnmjmchg-m-input: 214.3 31.8% 91.4%;
+      --aifnmjmchg-m-ring: 260 79% 59%;
+    }
+
+    .dark {
+      --aifnmjmchg-m-background: 0 0% 3.9%;
+      --aifnmjmchg-m-foreground: 0 0% 98%;
+      --aifnmjmchg-m-card: 0 0% 7%;
+      --aifnmjmchg-m-card-foreground: 0 0% 98%;
+      --aifnmjmchg-m-popover: 0 0% 7%;
+      --aifnmjmchg-m-popover-foreground: 0 0% 98%;
+      --aifnmjmchg-m-primary: 0 0% 100%;
+      --aifnmjmchg-m-primary-foreground: 0 0% 0%;
+      --aifnmjmchg-m-secondary: 0 0% 0%;
+      --aifnmjmchg-m-secondary-foreground: 210 40% 98%;
+      --aifnmjmchg-m-muted: 217.2 32.6% 17.5%;
+      --aifnmjmchg-m-muted-foreground: 215 20.2% 65.1%;
+      --aifnmjmchg-m-accent: 217.2 32.6% 17.5%;
+      --aifnmjmchg-m-accent-foreground: 210 40% 98%;
+      --aifnmjmchg-m-destructive: 0 62.8% 30.6%;
+      --aifnmjmchg-m-border: 217.2 32.6% 17.5%;
+      --aifnmjmchg-m-input: 217.2 32.6% 17.5%;
+      --aifnmjmchg-m-ring: 260 79% 59%;
+    }
+
+    * { -webkit-tap-highlight-color: transparent; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    ::-webkit-scrollbar { width: 8px; height: 8px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: hsl(var(--aifnmjmchg-m-muted-foreground) / 0.3); border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: hsl(var(--aifnmjmchg-m-muted-foreground) / 0.5); }
+    .glass {
+      background: rgba(255, 255, 255, 0.72);
+      backdrop-filter: blur(20px) saturate(180%);
+      -webkit-backdrop-filter: blur(20px) saturate(180%);
+    }
+    .dark .glass { background: rgba(28, 28, 30, 0.72); }
+    .btn-press { transition: transform 0.1s ease; }
+    .btn-press:active { transform: scale(0.96); }
+  </style>
+  
+  <link rel="stylesheet" href="/aitopia/marketplace/store/shared.css">
+  <script src="/aitopia/marketplace/js/inline/model-inline-3.js"></script>
+  <script type="module" src="/aitopia/marketplace/js/shared/pending-paid-global.js"></script>
+</head>
+<body class="min-h-screen font-sans antialiased bg-white dark:bg-neutral-950 text-gray-900 dark:text-white transition-colors aifnmjmchg aifnmjmchg-marketplace">
+
+
+
+  <!-- Navbar Component -->
+  <div id="navbar-container"></div>
+  <script src="/aitopia/marketplace/js/shared/cache.js"></script>
+  <script src="/aitopia/marketplace/js/components/navbar.js"></script>
+
+  <main>
+    <!-- Loading State -->
+    <div id="loadingState" class="max-w-[1600px] mx-auto px-3 sm:px-4 lg:px-6 flex flex-col items-center justify-center py-20">
+      <div class="animate-spin h-10 w-10 border-4 border-primary border-t-transparent rounded-full mb-4"></div>
+      <p class="text-muted-foreground">Loading model...</p>
+    </div>
+
+    <!-- Error State -->
+    <div id="errorState" class="hidden max-w-[1600px] mx-auto px-3 sm:px-4 lg:px-6 flex-col items-center justify-center py-20">
+      <div class="w-16 h-16 rounded-full bg-red-500/20 flex items-center justify-center mb-4">
+        <svg class="w-8 h-8 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+        </svg>
+      </div>
+      <h2 class="text-xl font-semibold mb-2">Model Not Found</h2>
+      <p id="errorMessage" class="text-muted-foreground mb-4">The requested model could not be loaded.</p>
+      <a href="/aitopia/marketplace/home.html" class="px-4 py-2 bg-primary/90 hover:bg-primary text-primary-foreground rounded-2xl text-sm font-medium transition-colors">Back to Store</a>
+    </div>
+
+    <!-- Model Content -->
+    <div id="modelContent" class="hidden">
+      <!-- Top Bar: Breadcrumb | Tabs -->
+      <div class="max-w-[1600px] mx-auto px-3 sm:px-4 lg:px-6 pt-2 pb-2">
+        <div class="flex flex-col gap-2 w-full lg:grid lg:grid-cols-[1fr_auto_1fr] lg:gap-4 lg:items-center">
+          <!-- Breadcrumb -->
+          <div class="min-w-0 flex items-center">
+            <nav class="flex-1 min-w-0 py-0" aria-label="Breadcrumb">
+              <ol class="flex items-center gap-2 text-sm text-muted-foreground overflow-x-auto">
+                <li><a href="/aitopia/marketplace/home.html" class="hover:text-primary transition-colors">Home</a></li>
+                <li class="flex items-center gap-2">
+                  <svg class="w-4 h-4 flex-shrink-0 text-muted-foreground/50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-width="2" stroke-linecap="round" d="M9 5l7 7-7 7"/>
+                  </svg>
+                  <a href="/aitopia/marketplace/models.html" class="hover:text-primary transition-colors truncate">Models</a>
+                </li>
+                <li class="flex items-center gap-2">
+                  <svg class="w-4 h-4 flex-shrink-0 text-muted-foreground/50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-width="2" stroke-linecap="round" d="M9 5l7 7-7 7"/>
+                  </svg>
+                  <a id="breadcrumbProvider" href="#" class="hover:text-primary transition-colors truncate">Provider</a>
+                </li>
+                <li class="flex items-center gap-2">
+                  <svg class="w-4 h-4 flex-shrink-0 text-muted-foreground/50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-width="2" stroke-linecap="round" d="M9 5l7 7-7 7"/>
+                  </svg>
+                  <span id="breadcrumbModel" class="text-foreground font-medium truncate">Model</span>
+                </li>
+              </ol>
+            </nav>
+          </div>
+          <!-- Tabs -->
+          <div class="w-full flex flex-wrap items-center justify-center gap-2 lg:justify-center lg:items-center">
+            <div class="inline-flex h-10 p-1 bg-[#F2F5F9] dark:bg-[#121212] border border-[#D9D9D9]/20 dark:border-[#D9D9D9]/[4%] rounded-[24px] gap-0.5 min-w-0 overflow-x-auto scrollbar-hide" style="-ms-overflow-style: none; scrollbar-width: none;">
+              <button data-model-tab="playground" class="lg:hidden px-4 h-8 rounded-2xl text-[13px] font-semibold transition-all bg-white dark:bg-[#272727] text-[#0D0D0D] dark:text-foreground shadow-sm whitespace-nowrap">
+                Create
+              </button>
+              <button data-model-tab="details" class="px-4 h-8 rounded-2xl text-[13px] font-semibold transition-all lg:bg-white lg:dark:bg-[#272727] lg:text-[#0D0D0D] lg:dark:text-foreground lg:shadow-sm text-[#898A8B] dark:text-muted-foreground hover:text-[#0D0D0D] dark:hover:text-foreground hover:bg-white/50 dark:hover:bg-[#272727]/50 whitespace-nowrap">
+                Details
+              </button>
+              <button data-model-tab="history" class="px-4 h-8 rounded-2xl text-[13px] font-semibold transition-all text-[#898A8B] dark:text-muted-foreground hover:text-[#0D0D0D] dark:hover:text-foreground hover:bg-white/50 dark:hover:bg-[#272727]/50 whitespace-nowrap">
+                Creation History
+              </button>
+              <button data-model-tab="info" class="px-4 h-8 rounded-2xl text-[13px] font-semibold transition-all text-[#898A8B] dark:text-muted-foreground hover:text-[#0D0D0D] dark:hover:text-foreground hover:bg-white/50 dark:hover:bg-[#272727]/50 whitespace-nowrap">
+                Info
+              </button>
+              <!-- <button data-model-tab="similar" class="px-4 h-8 rounded-2xl text-[13px] font-semibold transition-all text-[#898A8B] dark:text-muted-foreground hover:text-[#0D0D0D] dark:hover:text-foreground hover:bg-white/50 dark:hover:bg-[#272727]/50 whitespace-nowrap">
+                Similar
+              </button> -->
+            </div>
+          </div>
+          <div class="hidden lg:flex lg:justify-end lg:items-center lg:gap-1.5">
+            <div id="model-tab-row-share-more" class="flex items-center gap-1.5">
+              <div class="relative flex-shrink-0" id="model-share-menu">
+                <button type="button" data-model-share-toggle class="w-8 h-8 rounded-2xl flex items-center justify-center text-[#898A8B] dark:text-muted-foreground hover:text-[#0D0D0D] dark:hover:text-foreground hover:bg-white dark:hover:bg-[#272727] transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-primary/50" aria-label="Share" aria-haspopup="menu" aria-expanded="false">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"/>
+                  </svg>
+                </button>
+                <div class="hidden absolute right-0 top-full mt-2 w-52 bg-card border border-border rounded-ios-lg shadow-xl z-50 py-1 text-sm" role="menu">
+                  <button type="button" data-model-share="copy" class="w-full px-4 py-2.5 text-left hover:bg-secondary transition-colors flex items-center gap-3">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"/></svg>
+                    Copy Link
+                  </button>
+                  <button type="button" data-model-share="email" class="w-full px-4 py-2.5 text-left hover:bg-secondary transition-colors flex items-center gap-3">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                    Email
+                  </button>
+                  <div class="border-t border-border my-1"></div>
+                  <button type="button" data-model-share="x" class="w-full px-4 py-2.5 text-left hover:bg-secondary transition-colors flex items-center gap-3">
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    X (Twitter)
+                  </button>
+                  <button type="button" data-model-share="facebook" class="w-full px-4 py-2.5 text-left hover:bg-secondary transition-colors flex items-center gap-3">
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                    Facebook
+                  </button>
+                  <button type="button" data-model-share="linkedin" class="w-full px-4 py-2.5 text-left hover:bg-secondary transition-colors flex items-center gap-3">
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                    LinkedIn
+                  </button>
+                  <button type="button" data-model-share="whatsapp" class="w-full px-4 py-2.5 text-left hover:bg-secondary transition-colors flex items-center gap-3">
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                    WhatsApp
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div id="history-controls" class="hidden items-center gap-3">
+              <input type="range" id="preview-size-slider" min="0" max="100" value="100" class="size-slider hidden lg:block" aria-label="Preview size" />
+              <div class="view-toggle-container">
+                <button type="button" data-view-mode="list" class="view-toggle-btn active" aria-label="List view">
+                  <svg class="w-4 h-4" viewBox="0 0 16 16" fill="none">
+                    <g opacity="0.7">
+                      <path d="M7.16016 11.3333H9.29349" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M6 8H10.4533" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M7.16016 4.66675H9.29349" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M14.6673 10.0001V6.00008C14.6673 2.66675 13.334 1.33342 10.0007 1.33342H6.00065C2.66732 1.33342 1.33398 2.66675 1.33398 6.00008L1.33398 10.0001C1.33398 13.3334 2.66732 14.6667 6.00065 14.6667H10.0007C13.334 14.6667 14.6673 13.3334 14.6673 10.0001Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                  </svg>
+                </button>
+                <button type="button" data-view-mode="grid" class="view-toggle-btn" aria-label="Grid view">
+                  <svg class="w-4 h-4" viewBox="0 0 16 16" fill="none">
+                    <path d="M3.33398 6.66659H4.66732C6.00065 6.66659 6.66732 5.99992 6.66732 4.66659V3.33325C6.66732 1.99992 6.00065 1.33325 4.66732 1.33325H3.33398C2.00065 1.33325 1.33398 1.99992 1.33398 3.33325V4.66659C1.33398 5.99992 2.00065 6.66659 3.33398 6.66659Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M11.334 6.66659H12.6673C14.0007 6.66659 14.6673 5.99992 14.6673 4.66659V3.33325C14.6673 1.99992 14.0007 1.33325 12.6673 1.33325H11.334C10.0007 1.33325 9.33398 1.99992 9.33398 3.33325V4.66659C9.33398 5.99992 10.0007 6.66659 11.334 6.66659Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M11.334 14.6666H12.6673C14.0007 14.6666 14.6673 13.9999 14.6673 12.6666V11.3333C14.6673 9.99992 14.0007 9.33325 12.6673 9.33325H11.334C10.0007 9.33325 9.33398 9.99992 9.33398 11.3333V12.6666C9.33398 13.9999 10.0007 14.6666 11.334 14.6666Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M3.33398 14.6666H4.66732C6.00065 14.6666 6.66732 13.9999 6.66732 12.6666V11.3333C6.66732 9.99992 6.00065 9.33325 4.66732 9.33325H3.33398C2.00065 9.33325 1.33398 9.99992 1.33398 11.3333V12.6666C1.33398 13.9999 2.00065 14.6666 3.33398 14.6666Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Content Area: Sidebar + Right Panel -->
+      <div class="max-w-[1600px] mx-auto px-3 sm:px-4 lg:px-6 pt-1 pb-4">
+        <div class="flex flex-col lg:grid lg:grid-cols-[320px_minmax(0,1fr)] gap-3 lg:gap-4 items-start">
+
+          <!-- Left Panel - Hidden on mobile unless Create tab is active, always visible on desktop -->
+          <div data-model-panel="playground" class="hidden lg:block w-full self-start lg:order-1">
+            <div class="rounded-ios-2xl border border-[#D9D9D9]/20 dark:border-[#D9D9D9]/[4%] bg-[#F2F5F9] dark:bg-[#131517] overflow-hidden sticky top-4">
+              <div id="heroSection" class="relative overflow-hidden" style="aspect-ratio: 23/10;">
+                <div id="heroGradient" class="absolute inset-0 bg-gradient-to-br from-purple-600 via-indigo-600 to-purple-800"></div>
+                <img id="heroCoverImage" class="absolute inset-0 w-full h-full object-cover hidden" alt="" data-hide-on-error-show-id="heroGradient">
+                <video id="heroCoverVideo" class="absolute inset-0 w-full h-full object-cover hidden" autoplay muted loop playsinline></video>
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+                <div class="absolute top-3 right-3">
+                  <span id="modelCost" class="px-2.5 py-1 text-xs font-semibold bg-black/30 text-white rounded-full backdrop-blur-sm">Credits vary</span>
+                </div>
+                <div class="absolute bottom-3 left-4 right-4">
+                  <div class="flex items-center gap-3 mb-1.5">
+                    <div id="modelIcon" class="w-10 h-10 rounded-xl bg-primary-foreground/20 backdrop-blur-sm flex items-center justify-center flex-shrink-0 overflow-hidden">
+                      <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                      </svg>
+                    </div>
+                    <div class="min-w-0">
+                      <h1 id="modelName" class="text-lg font-bold text-white leading-tight">Model Name</h1>
+                      <p id="modelId" class="text-xs text-white/60 font-mono truncate">provider/model-name</p>
+                    </div>
+                  </div>
+                  <p id="modelDescription" class="text-xs text-white/70 line-clamp-1">Model description will appear here.</p>
+                </div>
+              </div>
+
+              <!-- Form Section -->
+              <div class="p-3 space-y-3">
+                <div class="flex flex-wrap gap-2">
+                  <!-- <span id="modelProvider" class="px-2.5 py-1 text-xs font-medium bg-primary/90/15 text-primary/90 dark:text-primary/90 rounded-full">Provider</span> -->
+                  <span id="modelRunCount" class="px-2.5 py-1 text-xs font-medium bg-[#E9EEF7] dark:bg-[#1C1E20] text-muted-foreground rounded-full hidden">0 runs</span>
+                </div>
+
+                <form id="playgroundForm" class="space-y-3" data-agent-run-form>
+                  <!-- Form fields will be dynamically inserted here -->
+                </form>
+
+                <div>
+                  <button type="button" data-action="generate" id="generateBtn" data-agent-run-button class="w-full h-12 px-4 rounded-2xl text-[13px] font-semibold text-primary-foreground bg-primary hover:bg-primary/60 disabled:opacity-50 disabled:cursor-not-allowed transition-colors flex items-center justify-center gap-2">
+                    <span id="generateBtnText">Run Model</span>
+                    <span id="generateBtnCost" class="hidden ml-2 inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-primary-foreground/20 text-xs font-medium"><svg class="w-3 h-3" viewBox="0 0 24 24" fill="currentColor"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg><span id="generateBtnCostValue"></span></span>
+                    <span id="generateBtnLoading" class="hidden">
+                      <svg class="animate-spin h-5 w-5 inline" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                      </svg>
+                      Processing...
+                    </span>
+                  </button>
+                  <p id="modelCreditsHint" class="text-xs text-muted-foreground text-center mt-2"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Panel -->
+          <div class="lg:order-2 w-full self-start">
+            <!-- Details Panel (Hero + Remix) -->
+            <div data-model-panel="details" class="hidden">
+              <!-- Desktop Hero Layout -->
+              <div class="hidden lg:block rounded-ios-2xl border border-[#D9D9D9]/20 dark:border-[#D9D9D9]/[4%] bg-[#F2F5F9] dark:bg-[#131517] overflow-hidden h-[260px]">
+                <div class="grid grid-cols-[1fr_1fr] gap-0 h-full">
+                  <div class="relative h-full">
+                    <div class="pl-4 pr-4 pt-10">
+                      <h2 id="heroModelName" class="text-4xl font-bold leading-tight">Model Name</h2>
+                      <!-- <div class="flex items-center gap-1.5 mt-2">
+                        <svg class="w-4 h-4 text-ios-orange" fill="currentColor" viewBox="0 0 20 20">
+                          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                        </svg>
+                        <span class="text-sm font-medium">4.8</span>
+                        <span class="text-sm text-muted-foreground">(1.2K)</span>
+                      </div> -->
+                      <p id="heroModelDescription" class="text-base text-muted-foreground mt-3 line-clamp-2">Model description</p>
+                    </div>
+                  </div>
+                  <div class="relative h-full overflow-hidden flex items-center justify-center">
+                    <div id="hero-media-main" class="w-full h-full flex items-center justify-end">
+                      <div id="heroDetailGradient" class="w-[439px] h-[247px] rounded-2xl bg-gradient-to-br from-purple-600 via-indigo-600 to-purple-800"></div>
+                      <img id="heroDetailImage" class="w-[439px] h-[247px] object-cover rounded-2xl hidden" alt="">
+                      <video id="heroDetailVideo" class="w-[439px] h-[247px] object-cover rounded-2xl hidden" autoplay muted loop playsinline></video>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Mobile Hero Layout -->
+              <div class="lg:hidden rounded-ios-2xl border border-[#D9D9D9]/20 dark:border-[#D9D9D9]/[4%] bg-[#F2F5F9] dark:bg-[#131517] overflow-hidden">
+                <div class="p-4 pb-2">
+                  <h2 id="heroModelNameMobile" class="text-2xl font-bold leading-tight">Model Name</h2>
+                  <!-- <div class="flex items-center gap-1.5 mt-1.5">
+                    <svg class="w-4 h-4 text-ios-orange" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                    </svg>
+                    <span class="text-sm font-medium">4.8</span>
+                    <span class="text-sm text-muted-foreground">(1.2K)</span>
+                  </div> -->
+                  <p id="heroModelDescMobile" class="text-sm text-muted-foreground mt-2 line-clamp-2">Model description</p>
+                </div>
+                <div class="px-4">
+                  <div id="hero-media-main-mobile" class="aspect-[16/9] rounded-ios-xl overflow-hidden bg-gradient-to-br from-purple-600 via-indigo-600 to-purple-800">
+                  </div>
+                </div>
+                <div class="p-4 pt-3"></div>
+              </div>
+
+              <!-- Remix Area -->
+              <div id="remix-area" data-agent-run-creations class="mt-3 lg:mt-4 flex rounded-ios-2xl border border-[#D9D9D9]/20 dark:border-[#D9D9D9]/[4%] bg-[#F2F5F9] dark:bg-[#131517] overflow-hidden min-h-[260px] flex-col">
+                <div class="p-3">
+                  <div class="flex items-center justify-between">
+                    <h3 class="text-[14px] font-semibold">Remix area</h3>
+                    <div class="flex gap-1 p-1 bg-[#DFE4EC] dark:bg-[#121212] border border-transparent dark:border-[#D9D9D9]/[4%] rounded-full">
+                      <button data-remix-tab="community" class="px-4 py-2 rounded-full text-[13px] font-medium bg-white dark:bg-[#272727] text-[#0D0D0D] dark:text-foreground shadow-sm transition-colors">Community</button>
+                      <button data-remix-tab="mine" class="px-4 py-2 rounded-full text-[13px] font-medium text-[#898A8B] dark:text-muted-foreground hover:text-[#0D0D0D] dark:hover:text-foreground hover:bg-white/50 dark:hover:bg-[#272727]/50 transition-colors">Mine</button>
+                    </div>
+                  </div>
+                </div>
+                <div data-remix-content class="px-3 pt-0 mb-4 flex-1 flex items-center justify-center">
+                  <div class="remix-grid w-full" id="remixGrid">
+                    <div class="w-full text-center py-10 text-[#898A8B]" style="column-span:all">
+                      <img src="https://aitopia.ai/icons/gallery.svg" alt="" class="w-9 h-9 mx-auto mb-3" data-hide-on-error>
+                      <p class="text-sm">No shared posts yet.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Creation History Panel -->
+            <div data-model-panel="history" class="hidden h-full">
+              <!-- Output area (shown during generation) -->
+              <div id="outputPanel" class="rounded-ios-2xl border border-[#D9D9D9]/20 dark:border-[#D9D9D9]/[4%] bg-[#F2F5F9] dark:bg-[#131517] overflow-hidden mb-4">
+                <!-- Job Queue List -->
+                <div id="jobQueue" class="hidden">
+                  <div class="p-3 border-b border-[#D9D9D9]/20 dark:border-[#D9D9D9]/[4%]">
+                    <div class="flex items-center justify-between">
+                      <h3 class="text-[13px] font-semibold flex items-center gap-2">
+                        <svg class="w-4 h-4 text-primary/90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+                        Queue
+                        <span id="jobQueueCount" class="px-1.5 py-0.5 text-[11px] rounded-full bg-primary/90/10 text-primary/90 font-medium">0</span>
+                      </h3>
+                      <button data-action="clearCompletedJobs" id="clearCompletedBtn" class="hidden text-[11px] text-muted-foreground hover:text-foreground transition-colors">Clear completed</button>
+                    </div>
+                  </div>
+                  <div id="jobQueueList" class="divide-y divide-[#D9D9D9]/10 dark:divide-[#D9D9D9]/[3%] max-h-[500px] overflow-y-auto">
+                  </div>
+                </div>
+
+                <!-- Success State -->
+                <div id="outputSuccess" class="hidden p-4">
+                  <div id="outputContent"></div>
+                </div>
+
+                <!-- Error State -->
+                <div id="outputError" class="hidden text-center py-10">
+                  <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-red-500/20 flex items-center justify-center">
+                    <svg class="w-8 h-8 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+                    </svg>
+                  </div>
+                  <p class="text-red-400 font-medium mb-2">Error</p>
+                  <p id="outputErrorMessage" class="text-sm text-muted-foreground max-w-md mx-auto text-center"></p>
+                  <button data-action="generate" class="mt-4 px-4 py-2 bg-[#E9EEF7] dark:bg-[#1C1E20] hover:bg-[#DFE4EC] dark:hover:bg-[#252729] rounded-2xl text-sm transition-colors">Retry</button>
+                </div>
+
+                <!-- Pending Paid State (insufficient credits) — rendered by pending-paid.js -->
+                <div id="outputPendingPaid" class="hidden"></div>
+              </div>
+
+              <!-- Creation History (rendered by creation-history.js) -->
+              <div id="modelHistoryList" class="flex flex-col gap-3 lg:gap-4 overflow-hidden min-h-[400px]">
+                <div class="flex items-center justify-center py-16 min-h-[350px]">
+                  <div class="animate-spin w-8 h-8 border-2 border-primary/90 border-t-transparent rounded-full"></div>
+                </div>
+              </div>
+              <div data-history-grid-view class="hidden"></div>
+            </div>
+
+            <!-- Info Panel -->
+            <div data-model-panel="info" class="hidden">
+              <div class="rounded-ios-2xl border border-[#D9D9D9]/20 dark:border-[#D9D9D9]/[4%] bg-[#F2F5F9] dark:bg-[#131517] overflow-hidden divide-y divide-[#D9D9D9]/20 dark:divide-[#D9D9D9]/[4%]">
+
+                <!-- Capabilities -->
+                <div class="p-4">
+                  <div class="flex items-center gap-2 mb-3">
+                    <div class="w-7 h-7 rounded-lg bg-primary/90/10 flex items-center justify-center">
+                      <svg class="w-3.5 h-3.5 text-primary/90" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                    </div>
+                    <h3 class="text-[13px] font-semibold text-foreground">Capabilities</h3>
+                  </div>
+                  <div id="capabilitiesList" class="flex flex-wrap gap-1.5">
+                  </div>
+                </div>
+
+                <!-- Schema Info -->
+                <div class="p-4">
+                  <div class="flex items-center gap-2 mb-3">
+                    <div class="w-7 h-7 rounded-lg bg-blue-600/10 flex items-center justify-center">
+                      <svg class="w-3.5 h-3.5 text-blue-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+                    </div>
+                    <h3 class="text-[13px] font-semibold text-foreground">Schema Info</h3>
+                  </div>
+                  <dl id="schemaInfo" class="space-y-2 text-sm">
+                  </dl>
+                </div>
+
+                <!-- API Code Examples -->
+                <div class="p-4">
+                  <div class="flex items-center gap-2 mb-3">
+                    <div class="w-7 h-7 rounded-lg bg-green-600/10 flex items-center justify-center">
+                      <svg class="w-3.5 h-3.5 text-green-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/></svg>
+                    </div>
+                    <h3 class="text-[13px] font-semibold text-foreground">API Examples</h3>
+                  </div>
+                  <div class="space-y-3">
+                    <div class="inline-flex p-0.5 bg-[#E9EEF7] dark:bg-[#1C1E20] rounded-lg gap-0.5">
+                      <button data-action="showCodeExample" data-param="curl" class="code-tab text-xs px-3 py-1 rounded-md bg-white dark:bg-[#272727] text-foreground shadow-sm font-medium" data-tab="curl">cURL</button>
+                      <button data-action="showCodeExample" data-param="python" class="code-tab text-xs px-3 py-1 rounded-md text-muted-foreground hover:text-foreground font-medium" data-tab="python">Python</button>
+                      <button data-action="showCodeExample" data-param="js" class="code-tab text-xs px-3 py-1 rounded-md text-muted-foreground hover:text-foreground font-medium" data-tab="js">JavaScript</button>
+                    </div>
+                    <div id="codeExampleContent" class="text-xs font-mono bg-[#E9EEF7] dark:bg-[#1C1E20] rounded-xl p-3 overflow-x-auto max-h-48 overflow-y-auto text-foreground">
+                      <pre id="curlExample" class="whitespace-pre-wrap"></pre>
+                      <pre id="pythonExample" class="whitespace-pre-wrap hidden"></pre>
+                      <pre id="jsExample" class="whitespace-pre-wrap hidden"></pre>
+                    </div>
+                    <button data-action="copyCodeExample" class="w-full text-xs text-center py-2 bg-[#E9EEF7] dark:bg-[#1C1E20] hover:bg-[#DFE4EC] dark:hover:bg-[#252729] text-foreground font-medium rounded-xl transition-colors">
+                      Copy to Clipboard
+                    </button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- Similar Panel -->
+            <div data-model-panel="similar" class="hidden">
+              <div class="text-center py-16">
+                <p class="text-sm text-[#898A8B]">Coming soon...</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="border-t border-[#D9D9D9]/20 dark:border-white/10 mt-12">
+    <div class="max-w-[1600px] mx-auto px-3 sm:px-4 lg:px-6 py-12">
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
+        <a href="/aitopia/marketplace/home.html" class="text-primary hover:text-primary/80 transition-colors">&larr; Back to AI App Store</a>
+        <p class="text-sm text-muted-foreground">&copy; 2026 AITOPIA. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+<style>
+  /* Range inputs */
+  input[type="range"] { -webkit-appearance: none; height: 6px; border-radius: 3px; }
+  input[type="range"] { background: #DFE4EC; }
+  .dark input[type="range"] { background: #1C1E20; }
+  input[type="range"]::-webkit-slider-thumb { -webkit-appearance: none; width: 18px; height: 18px; background: #7348E4; border-radius: 50%; cursor: pointer; }
+
+  /* File drop zone — match agent detail ui.js dropzone */
+  .file-drop-zone { border: 1px dashed #D9D9D9; background: #EAEFF6; transition: all 0.2s; }
+  .dark .file-drop-zone { border: 1px dashed #3a3a3a; background: #1C1E20; }
+  .file-drop-zone:hover, .file-drop-zone.dragover { border-color: #bbb; background: #dde4ed; }
+  .dark .file-drop-zone:hover, .dark .file-drop-zone.dragover { border-color: #555; background: #252729; }
+  .file-drop-zone.has-file { border-style: solid; border-color: #9335EC; }
+
+  /* Radio options */
+  .radio-option input:checked + span { border-color: #9335EC; background: rgba(147, 53, 236, 0.1); color: #9335EC; }
+
+  .custom-select-dropdown { scrollbar-width: thin; }
+  .custom-select-dropdown::-webkit-scrollbar { width: 4px; }
+  .custom-select-dropdown::-webkit-scrollbar-thumb { background: rgba(147, 53, 236, 0.3); border-radius: 2px; }
+
+  /* Size Slider */
+  .size-slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100px;
+    height: 4px;
+    background: #404040;
+    border-radius: 9999px;
+    cursor: pointer;
+    outline: none;
+  }
+  .size-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #9335EC;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 2px 8px rgba(147, 53, 236, 0.5);
+  }
+  .size-slider::-moz-range-thumb {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #9335EC;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 2px 8px rgba(147, 53, 236, 0.5);
+  }
+  .size-slider::-moz-range-track {
+    background: #404040;
+    height: 4px;
+    border-radius: 9999px;
+  }
+
+  /* View Toggle Container */
+  .view-toggle-container {
+    display: flex;
+    align-items: center;
+    width: 94px;
+    padding: 5px;
+    background: #262626;
+    border-radius: 24px;
+    gap: 2px;
+  }
+  .view-toggle-btn {
+    flex: 1;
+    height: 30px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #737373;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+  .view-toggle-btn:hover { color: #a3a3a3; }
+  .view-toggle-btn.active { background: #404040; color: #ffffff; }
+
+  /* Light mode adjustments */
+  :root:not(.dark) .size-slider { background: #D9D9D9; }
+  :root:not(.dark) .size-slider::-moz-range-track { background: #D9D9D9; }
+  :root:not(.dark) .view-toggle-container { background: #DFE4EC; }
+  :root:not(.dark) .view-toggle-btn { color: #898A8B; }
+  :root:not(.dark) .view-toggle-btn:hover { color: #0D0D0D; }
+  :root:not(.dark) .view-toggle-btn.active {
+    background: #ffffff;
+    color: #0D0D0D;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+
+  /* Creation History Grid */
+  .history-grid {
+    display: grid;
+    grid-template-columns: repeat(var(--cols), minmax(0, 1fr));
+    gap: 12px;
+    width: 100%;
+  }
+  .history-grid.cols-4 { --cols: 4; }
+  .history-grid.cols-3 { --cols: 3; }
+  .history-grid.cols-2 { --cols: 2; }
+
+  /* History card */
+  .history-card {
+    position: relative;
+    width: 100%;
+    border-radius: 16px;
+    overflow: hidden;
+    background: hsl(var(--aifnmjmchg-m-card));
+    border: 1px solid hsl(var(--aifnmjmchg-m-border));
+  }
+  .history-grid .history-card {
+    align-self: start;
+    height: 0;
+    padding-bottom: 73.75%;
+  }
+  .history-card-media {
+    position: absolute;
+    inset: 0;
+    background: hsl(var(--aifnmjmchg-m-secondary));
+  }
+  .history-card-media-el {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .history-media-video { object-fit: cover; }
+  .history-media-image { object-fit: contain; background: rgba(0,0,0,0.04); }
+  .history-card-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%, transparent 40%, transparent 60%, rgba(0,0,0,0.8) 100%);
+    opacity: 0;
+    transition: opacity 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 12px;
+  }
+  .history-card:hover .history-card-overlay { opacity: 1; }
+  .history-card-actions { display: flex; gap: 8px; }
+  .history-card-action {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(8px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .history-card-action:hover { background: rgba(255,255,255,0.25); }
+  .history-card-text {
+    color: white;
+    font-size: 13px;
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .history-card-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+  }
+  .history-card-badge {
+    padding: 6px 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    line-height: 1;
+    background: rgba(255,255,255,0.15);
+    color: white;
+    backdrop-filter: blur(8px);
+  }
+
+  /* List view for history */
+  .history-list .history-card {
+    aspect-ratio: auto;
+    display: grid;
+    grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+    gap: 16px;
+    padding: 12px;
+    border-radius: 16px;
+    align-items: start;
+    height: auto;
+    padding-bottom: 12px;
+  }
+  .history-list .history-card-media {
+    position: relative;
+    inset: auto;
+    border-radius: 12px;
+    overflow: hidden;
+    aspect-ratio: 4 / 3;
+    background: hsl(var(--aifnmjmchg-m-secondary));
+  }
+  .history-list .history-card-media-el {
+    position: absolute;
+    inset: 0;
+  }
+  .history-list .history-card-overlay {
+    position: static;
+    opacity: 1;
+    background: none;
+    padding: 4px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .history-list .history-card-text {
+    color: hsl(var(--aifnmjmchg-m-foreground));
+    -webkit-line-clamp: 8;
+  }
+  .history-list .history-card-actions {
+    justify-content: flex-end;
+    gap: 8px;
+  }
+  .history-list .history-card-badge {
+    background: hsl(var(--aifnmjmchg-m-secondary));
+    color: hsl(var(--aifnmjmchg-m-foreground));
+    backdrop-filter: none;
+  }
+</style>
+
+<script src="/aitopia/marketplace/js/inline/model-inline-4.js"></script>
+
+  <script src="/aitopia/marketplace/js/shared/lazy-media.js"></script>
+  <script src="/aitopia/marketplace/js/shared/global-nav.js"></script>
+<script src="/aitopia/marketplace/js/shared/credits.js"></script>
+<script src="/aitopia/marketplace/js/inline/model-inline-5.js" type="module"></script>
+<script src="/aitopia/marketplace/js/shared/footer.js"></script>
+</body>
+</html>

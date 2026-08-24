@@ -1,0 +1,38 @@
+{
+   "acceptButton": {
+      "message": "Прихвати"
+   },
+   "appTitle": {
+      "message": "Auto Refresh Plus"
+   },
+   "consentText": {
+      "message": "Да бисмо побољшали Auto Refresh Plus, ово проширење прикупља веб адресе (URL) страница које посећујете и страницу са које сте дошли (URL упућивача), повезане са насумичним анонимним ID-ом. То користимо за мерење начина коришћења проширења и за проналажење страница на којима аутоматско освежавање не ради. Ови подаци се шаљу на наше сервере, никада се не продају и никада се не деле са трећим странама. Можете одбити и наставити да користите проширење. Више можете сазнати у нашој"
+   },
+   "declineButton": {
+      "message": "Одбиј"
+   },
+   "enterTimeText": {
+      "message": "Унесите време у секундама"
+   },
+   "extensionDescription": {
+      "message": "Auto Refresh Plus аутоматски освежава и поново учитава било коју страницу или картицу након одређеног броја секунди"
+   },
+   "extensionName": {
+      "message": "Auto Refresh Plus"
+   },
+   "extensionTitle": {
+      "message": "Auto Refresh Plus"
+   },
+   "privacyPolicy": {
+      "message": "Политика приватности"
+   },
+   "secondsText": {
+      "message": "секунди"
+   },
+   "startButton": {
+      "message": "ПОКРЕНИ"
+   },
+   "stopButton": {
+      "message": "ЗАУСТАВИ"
+   }
+}

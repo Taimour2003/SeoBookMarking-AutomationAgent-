@@ -1,0 +1,38 @@
+{
+   "acceptButton": {
+      "message": "Accept"
+   },
+   "appTitle": {
+      "message": "Auto Refresh Plus"
+   },
+   "consentText": {
+      "message": "Auto Refresh Plus ን ለማሻሻል፣ ይህ ቅጥያ የሚጎበኟቸውን ገጾች የድር አድራሻዎች (URLs) እና የመጡበትን ገጽ (የመጥቀሻ URL) ከዘፈቀደ ስም-አልባ መታወቂያ ጋር በማገናኘት ይሰበስባል። ይህንን ቅጥያው እንዴት ጥቅም ላይ እንደሚውል ለመለካት እና ራስ-ማደስ የማይሰራባቸውን ገጾች ለማግኘት እንጠቀምበታለን። ይህ መረጃ ወደ አገልጋዮቻችን ይላካል፣ ፈጽሞ አይሸጥም፣ እና ፈጽሞ ለሶስተኛ ወገኖች አይጋራም። እምቢ ማለት እና አሁንም ቅጥያውን መጠቀም ይችላሉ። የበለጠ በእኛ"
+   },
+   "declineButton": {
+      "message": "እምቢ ማለት"
+   },
+   "enterTimeText": {
+      "message": "Enter time in seconds"
+   },
+   "extensionDescription": {
+      "message": "Auto Refresh Plus automatically refresh and reload any page or tab after a specified number of seconds"
+   },
+   "extensionName": {
+      "message": "Auto Refresh Plus"
+   },
+   "extensionTitle": {
+      "message": "Auto Refresh Plus"
+   },
+   "privacyPolicy": {
+      "message": "Privacy Policy"
+   },
+   "secondsText": {
+      "message": "seconds"
+   },
+   "startButton": {
+      "message": "START"
+   },
+   "stopButton": {
+      "message": "STOP"
+   }
+}

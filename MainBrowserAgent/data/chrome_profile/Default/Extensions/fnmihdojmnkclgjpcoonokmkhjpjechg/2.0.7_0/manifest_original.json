@@ -1,0 +1,90 @@
+{
+  "action": {
+    "default_icon": {
+      "16": "images/16.png",
+      "19": "images/19.png",
+      "32": "images/32.png",
+      "38": "images/38.png",
+      "48": "images/48.png",
+      "64": "images/64.png",
+      "128": "images/128.png"
+    },
+    "default_popup": "bluePopup.html",
+    "default_title": "__MSG_extName__"
+  },
+  "background": {
+    "service_worker": "blueBackground.js",
+    "type": "module"
+  },
+  "commands": {
+    "show-popup": {
+      "description": "Show extension popup",
+      "suggested_key": {
+        "default": "Ctrl+Shift+P"
+      }
+    }
+  },
+  "content_scripts": [
+    {
+      "css": [],
+      "js": [
+        "loader.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "default_locale": "en",
+  "description": "__MSG_extShortDesc__",
+  "externally_connectable": {
+    "matches": [
+      "*://*.aitopia.ai/*",
+      "*://*.chatgptextension.ai/*"
+    ]
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "icons": {
+    "16": "images/16.png",
+    "19": "images/19.png",
+    "32": "images/32.png",
+    "38": "images/38.png",
+    "48": "images/48.png",
+    "64": "images/64.png",
+    "128": "images/128.png"
+  },
+  "manifest_version": 3,
+  "name": "__MSG_extName__",
+  "permissions": [
+    "storage",
+    "scripting",
+    "system.display",
+    "contextMenus"
+  ],
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "version": "2.0.0",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAi8Jy7ag87+FtAktyxbGJ4UrCL6OmwLbPbIG6lKPJcqm8Y3LfHL+CpzhDFpvRf/1mNwI+kf27cDg3e+mwSBGxjlA4vc4LV+TVM16oWKRBE9qfZvPRZkMrq4PCd95QsLSU8zLAxN2Vu/0vJCSMWuIZITP17oDByIeg/8AQUU0J/I/OGlC5805f88mhCAD9shwqZB1dm3g3Fp5ebGzLtB4ct6Umc3xobAXdwEwAjVSo9DVVN2XbdtmuuBoaBGZYDB3vxPyjYgDnt8FQDK03dKrjZDYoQhXgKbgbUaOxoHZrJ4lDjcYpU++yXNRfP4mIP3A5ghY+qv4y9WqvH7+dmtXH6wIDAQAB",
+  "web_accessible_resources": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "resources": [
+        "*.png",
+        "*.svg",
+        "*.otf",
+        "*.mp4",
+        "*.webm",
+        "*.js",
+        "*.css",
+        "*.woff",
+        "./aitopia/assets/images/*",
+        "./aitopia/assets/videos/*"
+      ],
+      "use_dynamic_url": false
+    }
+  ]
+}

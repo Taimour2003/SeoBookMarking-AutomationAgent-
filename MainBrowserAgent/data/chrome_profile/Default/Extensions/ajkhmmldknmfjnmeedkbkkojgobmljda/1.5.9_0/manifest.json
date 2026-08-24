@@ -1,0 +1,23 @@
+{
+   "action": {
+      "default_icon": "128.png",
+      "default_popup": "popup.html"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "description": "Download CRX Files directly as crx or zip file depending upon your choice",
+   "host_permissions": [ "*://clients2.google.com/service/update2/crx*", "*://clients2.googleusercontent.com/crx/download/*" ],
+   "icons": {
+      "128": "128.png",
+      "16": "16.png",
+      "32": "32.png",
+      "48": "48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7CG5lcYZc9U6pxuoQehMDjgRWhYtI+PhTs5hP+ybol3S2Rklg3gFsPLlT2ktdP06ue3fUU8V8JFs0vva55vj/oxg9teo4xvjSJpIWa/+f3b1aoF6Gc5wDMIL0vp+ufAT0pA+ywL/3tq0fJnAb5jpDjDjM0lG8r84EP0/dxtQpe86iIRn+/0RJjanXxgA+s9lhbVLoM+uThu8wZKcjn1jZRC2Gu4zYPJqsQnPnXLU/82rLguhYDveluopxxMlxZYXBfEfHMbEm/AN0b1jT5x+0eyavniZQS/3xVgS8b/lltNlRDpOekFQrE77fd+hOiouHzcevQ/kGRbz4uuLOo3JLQIDAQAB",
+   "manifest_version": 3,
+   "name": "CRX Extractor/Downloader",
+   "permissions": [ "downloads", "contextMenus", "activeTab", "downloads" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.5.9"
+}
