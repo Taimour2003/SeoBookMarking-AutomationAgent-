@@ -2,6 +2,7 @@ import asyncio
 from tkinter import Tk, filedialog
 import pandas as pd
 from typing import Any
+from playwright.async_api import TimeoutError
 
 from playwright.async_api import Page, async_playwright
 
@@ -29,7 +30,7 @@ import gspread
 
 from google_sheets.published_url_sheets import PublishedUrlSheets
 
-from core.signup_page_navigator import is_valid_signup_page, find_signup_url
+from core.signup_page_navigator import find_signup_url
 
 AI_FIXABLE_STATUSES = {
     "VALIDATION_FAILED",
@@ -245,14 +246,9 @@ async def prepare_all_pages(
             )
 
 
-import asyncio
-from playwright.async_api import TimeoutError
-
-
 async def open_single_url(
     context, url, timeout_failed_list, semaphore, timeout_ms=10000
 ):
-    """Ek single URL ko async load karega. Timeout hone par array mein add kar dega."""
     async with semaphore:  # Ek waqt mein browser par over-load na pade
         page = None
         closed_event = asyncio.Event()
@@ -370,8 +366,62 @@ def fetchUrlsFromSheet() -> list[str]:
     return cleaned_urls
 
 
-async def main():
+async def process_url(context, url, failed_urls, timeout_ms):
+    page: Page | None = None
 
+    closed_event = asyncio.Event()
+
+    try:
+        page = await context.new_page()
+        print(f"Worker processing: {url}")
+        page.on("close", lambda: closed_event.set())  # Wait until the page is closed
+
+        print(f"Navigating to: {url}")
+
+        signup_url = await find_signup_url(page, url, timeout_ms=timeout_ms)
+        if signup_url:
+            print(f"[SIGNUP FOUND] Signup Page: {signup_url}")
+        else:
+            print(f"[NO SIGNUP] No signup page found for: {url}")
+
+        await closed_event.wait()  # Wait until the page is closed
+        print(f"Finished processing: {url}")
+
+        return True
+
+    except Exception as e:
+        print(f"Error processing {url}: {e}")
+        failed_urls.append(url)
+        if page and not page.is_closed():
+            await page.close()  # Close the page on error
+        return False
+
+
+async def url_worker(
+    worker_id: int, context, url_queue: asyncio.Queue, failed_urls: list[str]
+):
+
+    while True:
+        url = await url_queue.get()
+
+        print("Worker {worker_id} got URL: {url}")
+
+        try:
+            if url is None:
+                # None signal mila, worker exit karein
+                print(f"Worker {worker_id} exiting.")
+                return
+
+            print(f"Worker {worker_id} processing URL: {url}")
+
+            await process_url(context, url, failed_urls, timeout_ms=17000)
+
+        finally:
+            url_queue.task_done()
+
+
+async def main():
+    data_navigator, current_data = await load_sheet_navigator()
     try:
         urls_from_sheet = fetchUrlsFromSheet()
         print("Fetched URLs from Google Sheet:", urls_from_sheet)
@@ -380,7 +430,7 @@ async def main():
         print("Error fetching URLs from Google Sheet:", str(e))
         return
 
-    data_navigator, current_data = await load_sheet_navigator()
+    # data_navigator, current_data = await load_sheet_navigator()
     print("innitial data loaded from Google Sheet:", current_data)
     # Apni Google Sheet ka exact naam yahan likhein
     # data_service = LocalDataService(str(settings.current_record_path))
@@ -408,20 +458,38 @@ async def main():
                 initial_page,
             )
 
-            opened_pages = []
+            url_queue = asyncio.Queue()
 
-            tasks = [
-                open_single_url(
-                    browser_manager.context, url, timeout_failed_urls, semaphore, 10000
+            timeout_failed_urls = []  # Timeout hone wale URLs ka list
+
+            for url in urls_from_sheet[:5]:
+                await url_queue.put(url)
+
+            workers = [
+                asyncio.create_task(
+                    url_worker(
+                        worker_id=i + 1,
+                        context=browser_manager.context,
+                        url_queue=url_queue,
+                        failed_urls=timeout_failed_urls,
+                    )
                 )
-                for url in urls_from_sheet
+                for i in range(max_concurrent_pages)
             ]
 
-            results = await asyncio.gather(*tasks)
-            opened_pages = [page for page in results if page is not None]
+            await url_queue.join()  # Wait until all URLs are processed
+
+            for _ in workers:
+                await url_queue.put(None)  # Signal workers to exit
+
+            await asyncio.gather(
+                *workers
+            )  # Wait for all workers to finish, as they finish there work , they will canceled by the above .cancel command
+
+            # results = await asyncio.gather(*tasks)
+            # opened_pages = [page for page in results if page is not None]
 
             print("\n--- Summary ---")
-            print("Successfully opened tabs:", len(opened_pages))
             print("Failed/Timeout URLs array:", timeout_failed_urls)
 
             if settings.browser_mode == "playwright":

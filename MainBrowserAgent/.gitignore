@@ -1,2 +1,27 @@
+# Environment
+.venv/
+venv/
+env/
+
+# Secrets / credentials
 credentials/
-data/*.db
+.env
+.env.*
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Browser data / Chrome profiles
+data/
+Chrome/
+chrome_profile/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# IDE
+.vscode/
+.idea/
