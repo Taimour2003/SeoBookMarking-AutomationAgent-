@@ -1,9 +1,0 @@
-2026/08/24-12:37:13.889 a468 Reusing MANIFEST D:\ComputerXperts\WebAgent\newSolution\MainBrowserAgent\data\chrome_profile\Default\Sync Data\LevelDB/MANIFEST-000001
-2026/08/24-12:37:13.890 a468 Recovering log #63
-2026/08/24-12:37:13.893 a468 Reusing old log D:\ComputerXperts\WebAgent\newSolution\MainBrowserAgent\data\chrome_profile\Default\Sync Data\LevelDB/000063.log 
-2026/08/24-14:15:17.286 5f80 Level-0 table #67: started
-2026/08/24-14:15:17.322 5f80 Level-0 table #67: 99833 bytes OK
-2026/08/24-14:15:17.324 5f80 Delete type=0 #63
-2026/08/24-14:25:24.438 5f80 Level-0 table #69: started
-2026/08/24-14:25:24.444 5f80 Level-0 table #69: 62743 bytes OK
-2026/08/24-14:25:24.447 5f80 Delete type=0 #66

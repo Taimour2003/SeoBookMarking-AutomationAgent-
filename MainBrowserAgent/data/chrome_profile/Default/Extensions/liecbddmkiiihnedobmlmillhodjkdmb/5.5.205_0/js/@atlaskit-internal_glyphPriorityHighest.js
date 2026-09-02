@@ -1,5 +1,0 @@
-"use strict";
-!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="881a55d6-d70a-5ecf-b55e-152ab08827b4")}catch(e){}}();
-(self.webpackChunk_loomhq_chrome_extension=self.webpackChunk_loomhq_chrome_extension||[]).push([[2521],{853108:(e,t,l)=>{Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var o=n(l(792860)),a=n(l(828654));function n(e){return e&&e.__esModule?e:{default:e}}const r=e=>o.default.createElement(a.default,Object.assign({name:"PriorityHighestIcon",dangerouslySetGlyph:'<path fill="currentcolor" d="m13.913 6.75-5.5-3.625a.75.75 0 0 0-.826 0l-5.5 3.625L2.913 8 8 4.65 13.087 8zm0 4.5-5.5-3.625a.75.75 0 0 0-.826 0l-5.5 3.624.826 1.252L8 9.15l5.087 3.353z"/>'},e));r.displayName="PriorityHighestIcon",t.default=r}}]);
-//# sourceMappingURL=@atlaskit-internal_glyphPriorityHighest.js.map
-//# debugId=881a55d6-d70a-5ecf-b55e-152ab08827b4
