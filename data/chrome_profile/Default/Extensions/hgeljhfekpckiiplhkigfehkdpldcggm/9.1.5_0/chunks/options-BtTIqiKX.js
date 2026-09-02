@@ -1,1 +1,0 @@
-import"./_virtual_wxt-html-plugins-vKkFGUJp.js";document.addEventListener(`DOMContentLoaded`,()=>{location.href=`https://account.autorefresh.io/time-interval`});

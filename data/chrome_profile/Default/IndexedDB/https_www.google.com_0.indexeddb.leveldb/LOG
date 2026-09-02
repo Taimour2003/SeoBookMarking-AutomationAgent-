@@ -1,7 +1,0 @@
-2026/08/07-15:10:57.900 a170 Reusing MANIFEST D:\ComputerXperts\WebAgent\newSolution\data\chrome_profile\Default\IndexedDB\https_www.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/08/07-15:10:57.901 a170 Recovering log #3
-2026/08/07-15:10:57.901 a170 Reusing old log D:\ComputerXperts\WebAgent\newSolution\data\chrome_profile\Default\IndexedDB\https_www.google.com_0.indexeddb.leveldb/000003.log 
-2026/08/07-15:11:03.845 268 Level-0 table #5: started
-2026/08/07-15:11:03.847 268 Level-0 table #5: 828 bytes OK
-2026/08/07-15:11:03.849 268 Delete type=0 #3
-2026/08/07-15:11:03.850 268 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
