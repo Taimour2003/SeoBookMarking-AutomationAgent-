@@ -1,2 +1,0 @@
-import '../shared/credits.js';
-

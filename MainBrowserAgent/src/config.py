@@ -6,6 +6,7 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
+import sys
 
 # Project root:
 # WebAgent/
@@ -13,7 +14,18 @@ from dotenv import load_dotenv
 # ├── data/
 # └── src/
 #     └── config.py
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
+
+
+def get_project_root() -> Path:
+    if getattr(sys, "frozen", False):
+        # Running as PyInstaller EXE
+        return Path(sys.executable).resolve().parent
+
+    # Running from Python source
+    return Path(__file__).resolve().parent.parent
+
+
+PROJECT_ROOT = get_project_root()
 
 ENV_FILE = PROJECT_ROOT / ".env"
 

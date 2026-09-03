@@ -1,3 +1,2 @@
-2026/08/24-14:33:52.116 b728 Reusing MANIFEST D:\ComputerXperts\WebAgent\newSolution\MainBrowserAgent\data\chrome_profile\Default\IndexedDB\https_atavi.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/08/24-14:33:52.119 b728 Recovering log #3
-2026/08/24-14:33:52.119 b728 Reusing old log D:\ComputerXperts\WebAgent\newSolution\MainBrowserAgent\data\chrome_profile\Default\IndexedDB\https_atavi.com_0.indexeddb.leveldb/000003.log 
+2026/09/03-04:45:33.187 4058 Creating DB D:\ComputerXperts\WebAgent\newSolution\MainBrowserAgent\data\chrome_profile\Default\IndexedDB\https_atavi.com_0.indexeddb.leveldb since it was missing.
+2026/09/03-04:45:33.194 4058 Reusing MANIFEST D:\ComputerXperts\WebAgent\newSolution\MainBrowserAgent\data\chrome_profile\Default\IndexedDB\https_atavi.com_0.indexeddb.leveldb/MANIFEST-000001

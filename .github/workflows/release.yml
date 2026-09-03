@@ -31,7 +31,7 @@ jobs:
       # Step 4: App ko .exe mein compile karega
       - name: Build Executable File
         run: |
-          pyinstaller --onefile --name "MyApp" main.py
+          pyinstaller --onefile --name "MyApp" MainBrowserAgent/src/main.py
 
       # Step 5: Automatic Release banayega aur dist/MyApp.exe ko attach kar dega
       - name: Create GitHub Release

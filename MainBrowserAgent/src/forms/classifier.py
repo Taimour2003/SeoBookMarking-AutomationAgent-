@@ -22,7 +22,6 @@ FIELD_KEYWORDS = {
         "brief description",
         "meta description",
     ),
-
     "long_description": (
         "long description",
         "description",
@@ -32,7 +31,6 @@ FIELD_KEYWORDS = {
         "body",
         "about",
     ),
-
     "category": (
         "category",
         "topic",
@@ -40,13 +38,14 @@ FIELD_KEYWORDS = {
         "industry",
         "business type",
     ),
-
     "tags": (
+        "tag",
         "tags",
+        "keyword",
         "keywords",
+        "label",
         "labels",
     ),
-
     "company_name": (
         "company",
         "company name",
@@ -62,43 +61,37 @@ def normalize_text(
     if not value:
         return ""
 
-    return re.sub(
-        r"\s+",
-        " ",
-        value,
-    ).strip().lower()
+    return (
+        re.sub(
+            r"\s+",
+            " ",
+            value,
+        )
+        .strip()
+        .lower()
+    )
 
 
 def classify_field(
     field: dict,
 ) -> tuple[str | None, int]:
-    input_type = normalize_text(
-        field.get("inputType")
-    )
+    input_type = normalize_text(field.get("inputType"))
 
     if input_type == "url":
         return "website_url", 99
 
     combined = " ".join(
         [
-            normalize_text(
-                field.get("label")
-            ),
-            normalize_text(
-                field.get("name")
-            ),
-            normalize_text(
-                field.get("placehoklder")
-            ),
+            normalize_text(field.get("label")),
+            normalize_text(field.get("name")),
+            normalize_text(field.get("placeholder")),
         ]
     )
 
     best_field = None
     best_score = 0
 
-    for logical_field, keywords in (
-        FIELD_KEYWORDS.items()
-    ):
+    for logical_field, keywords in FIELD_KEYWORDS.items():
         for keyword in keywords:
             keyword = normalize_text(keyword)
 
@@ -114,5 +107,5 @@ def classify_field(
             if score > best_score:
                 best_score = score
                 best_field = logical_field
-
+    print("[CLASSIFIER] Classified field:", best_field, "Score:", best_score)
     return best_field, best_score

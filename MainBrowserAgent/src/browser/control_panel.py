@@ -23,7 +23,7 @@ async def install_control_panel(page: Page) -> bool:
         return False
 
     try:
-        await page.wait_for_selector("body", state="attached", timeout=10_000)
+        await page.wait_for_selector("body", state="attached", timeout=20000)
     except Exception as error:
         print("Error occurred while waiting for page body:", str(error))
         return False
@@ -76,7 +76,7 @@ async def install_control_panel(page: Page) -> bool:
                     #submit-url {
                         background: #0f766e;
                     }
-
+                    #change-sheet{background: #d97706;}
                     #current-data-title {
                         font-weight: 700;
                         color: #ffffff;
@@ -101,6 +101,7 @@ async def install_control_panel(page: Page) -> bool:
                     #data-view.open {
                         display: block;
                     }
+                    #fill-signup { background: #6366f1; }
 
                     .data-view-header {
                         display: flex;
@@ -292,6 +293,10 @@ async def install_control_panel(page: Page) -> bool:
                 <button class="action" id="download-sheet">
                         Download Sheet
                 </button>
+                <button class="action" id="change-sheet">
+                    Change GoogleSheet
+                </button>
+                <button class="action" id="fill-signup">Fill Signup Data</button>
                 <button class="action" id="fill">Fill Website Data</button>
                 
                     <div class="section-divider"></div>
@@ -333,7 +338,7 @@ async def install_control_panel(page: Page) -> bool:
 
                 shadow.append(style, launcher, panel);
                 document.body.appendChild(host);
-                
+                const fillSignupButton = shadow.getElementById("fill-signup");
                 const mainActions =
                     shadow.getElementById(
                         "main-actions"
@@ -352,6 +357,7 @@ async def install_control_panel(page: Page) -> bool:
                 shadow.getElementById(
                     "download-sheet"
                 );
+                const changeSheetButton = shadow.getElementById("change-sheet");
                 const fillButton = shadow.getElementById("fill");
                 const submitUrlButton =
                 shadow.getElementById(
@@ -361,6 +367,7 @@ async def install_control_panel(page: Page) -> bool:
                 shadow.getElementById(
                     "save-backlink"
                 );
+                
                 const currentDataButton =
                     shadow.getElementById(
                         "current-data"
@@ -393,7 +400,9 @@ async def install_control_panel(page: Page) -> bool:
                     window.__webAgentEnabled = false;
                     window.__webAgentAction = null;
                 };
-
+                fillSignupButton.addEventListener("click", () => {
+                    window.__webAgentAction = "FILL_SIGNUP";
+                });
                 launcher.addEventListener("click", openPanel);
                 collapseButton.addEventListener("click", collapsePanel);
                 downloadSheetButton.addEventListener(
@@ -430,6 +439,10 @@ async def install_control_panel(page: Page) -> bool:
                             "SUBMIT_URL";
                     }
                 );
+                
+                changeSheetButton.addEventListener("click", () => {
+                    window.__webAgentAction = "CHANGE_GOOGLESHEET";
+                });
 
                 currentDataButton.addEventListener(
                 "click",

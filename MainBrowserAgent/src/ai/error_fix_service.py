@@ -21,13 +21,9 @@ ALLOWED_PATCH_FIELDS = {
 class AiErrorFixService:
     def __init__(self):
         if not settings.groq_api_key:
-            raise RuntimeError(
-                "GROQ_API_KEY is missing."
-            )
+            raise RuntimeError("GROQ_API_KEY is missing.")
 
-        self.client = Groq(
-            api_key=settings.groq_api_key
-        )
+        self.client = Groq(api_key=settings.groq_api_key)
 
     def create_patch(
         self,
@@ -82,15 +78,11 @@ Strict rules:
                     ),
                 },
             ],
-            response_format={
-                "type": "json_object"
-            },
+            response_format={"type": "json_object"},
             temperature=0.0,
         )
 
-        raw_result = json.loads(
-            response.choices[0].message.content
-        )
+        raw_result = json.loads(response.choices[0].message.content)
 
         return self._validate_patch(
             raw_result,
@@ -105,10 +97,7 @@ Strict rules:
         patch: dict,
         current_data: dict,
     ) -> dict:
-        if (
-            patch.get("status")
-            != "PATCH_AVAILABLE"
-        ):
+        if patch.get("status") != "PATCH_AVAILABLE":
             return {
                 "status": "NO_SAFE_PATCH",
                 "reason": patch.get(
@@ -137,9 +126,7 @@ Strict rules:
                 continue
 
             safe_changes[field] = {
-                "old_value": current_data.get(
-                    field
-                ),
+                "old_value": current_data.get(field),
                 "new_value": new_value,
                 "reason": change.get(
                     "reason",
@@ -150,10 +137,7 @@ Strict rules:
         if not safe_changes:
             return {
                 "status": "NO_SAFE_PATCH",
-                "reason": (
-                    "No allowed field changes "
-                    "were returned."
-                ),
+                "reason": ("No allowed field changes were returned."),
                 "changes": {},
                 "should_resubmit": False,
             }

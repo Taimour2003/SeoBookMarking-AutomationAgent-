@@ -1,9 +1,0 @@
-# AITOPIA AI App Store
-User-agent: *
-Allow: /
-
-# Sitemap
-Sitemap: https://aitopia.ai/sitemap.xml
-
-# Crawl-delay (be nice to servers)
-Crawl-delay: 1
