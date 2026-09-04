@@ -1,13 +1,14 @@
 import asyncio
 
-from app_executor import flow_runner
+from app_executor import FlowRunner
 
 
 async def main():
 
-    fr= flow_runner.FlowRunner()
-    
+    fr = FlowRunner()
+
     await fr.run_flow()
+
 
 if __name__ == "__main__":
     asyncio.run(main())
