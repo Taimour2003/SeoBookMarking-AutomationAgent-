@@ -34,7 +34,7 @@ jobs:
       # Step 4: App ko .exe mein compile karega
       - name: Build Executable
         run: |
-          pyinstaller --noconfirm --onefile --windowed --name "MyApp" MainBrowserAgent/src/main.py
+          pyinstaller --noconfirm --onefile --windowed --name "WebAgent" MainBrowserAgent/src/main.py
           powershell Compress-Archive -Path dist/WebAgent.exe -DestinationPath dist/MyApp.exe
 
       # Step 5: Automatic Release banayega aur dist/MyApp.exe ko attach kar dega
