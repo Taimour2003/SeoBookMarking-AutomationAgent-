@@ -1,2 +1,26 @@
 credentials/
-data/*.db
+# data/*.db
+# data/
+**/data/
+chrome_profile/
+**/chrome_profile/
+
+# Environments & Credentials (VERY IMPORTANT)
+.env
+.venv/
+venv/
+credentials/
+
+# Cache & Compiled Files
+**/__pycache__/
+*.pyc
+
+# Build & Release Folders
+dist/
+build/
+*.spec
+
+# Local Excel & Data Files
+*.xlsx
+*.csv
+saved_session_data.json
