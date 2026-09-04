@@ -1,6 +1,6 @@
+import gspread
 from config import settings
 
-import gspread
 
 def fetch_bookmarking_urls_from_sheet() -> list[str]:
     spreadsheet_id = settings.BookmarkingSitesSheetId
