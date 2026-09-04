@@ -41,11 +41,7 @@ jobs:
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          files: dist/MyApp.exe
+          files: dist/WebAgent-Windows.zip
           name: Release ${{ github.ref_name }}
-          body: |
-            Automated Release for version ${{ github.ref_name }}
-          draft: false
-          prerelease: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
