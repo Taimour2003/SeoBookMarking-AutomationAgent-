@@ -35,7 +35,7 @@ jobs:
       - name: Build Executable
         run: |
           pyinstaller --noconfirm --onefile --windowed --name "WebAgent" MainBrowserAgent/src/main.py
-          powershell Compress-Archive -Path dist/WebAgent.exe -DestinationPath dist/MyApp.exe
+          powershell Compress-Archive -Path dist/WebAgent.exe -DestinationPath dist/WebAgent-Windows.zip
 
       # Step 5: Automatic Release banayega aur dist/MyApp.exe ko attach kar dega
       - name: Create GitHub Release
