@@ -2,7 +2,7 @@
 from PyInstaller.utils.hooks import collect_all, collect_submodules
 
 # Jin libraries ke missing modules aate hain, unhe yahan list karein
-packages_to_collect = ['playwright', 'requests']
+packages_to_collect = ['playwright', 'requests','groq]
 
 datas = []
 binaries = []
@@ -13,6 +13,11 @@ for package in packages_to_collect:
     datas.extend(tmp_datas)
     binaries.extend(tmp_binaries)
     hiddenimports.extend(tmp_hiddenimports)
+
+hiddenimports.extend([
+    'playwright.async_api',
+    'groq',
+])
 
 a = Analysis(
     ['MainBrowserAgent/src/main.py'],
