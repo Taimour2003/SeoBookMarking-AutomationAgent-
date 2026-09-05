@@ -82,6 +82,7 @@ jobs:
           python -c "import groq; print('groq OK')"
           python -c "import pandas; print('pandas OK')"
           python -c "import requests; print('requests OK')"
+          
       - name: Show Installed Packages
         shell: powershell
         run: |
@@ -97,11 +98,11 @@ jobs:
           python -c "import openpyxl"
 
 
-      # Step 4: App ko .exe mein compile karega
-      - name: Build Executable
-        run: |
-          pyinstaller --noconfirm WebAgent.spec
-          powershell Compress-Archive -Path dist/WebAgent.exe -DestinationPath dist/WebAgent-Windows.zip
+      # # Step 4: App ko .exe mein compile karega
+      # - name: Build Executable
+      #   run: |
+      #     pyinstaller --noconfirm WebAgent.spec
+      #     powershell Compress-Archive -Path dist/WebAgent.exe -DestinationPath dist/WebAgent-Windows.zip
       
       - name: Test Packaged EXE
         shell: powershell
