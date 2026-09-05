@@ -1,38 +1,39 @@
+# name: Automatic Release Builder
+
+# # Signal: Jab bhi koi 'v' se start hone wala tag push ho (e.g. v1.0.0, v1.0.1)
+# on:
+#   push:
+#     tags:
+#       - 'v*'
+
+# permissions:
+#   contents: write
+
+# jobs:
+#   build-and-release:
+#     # GitHub cloud par Windows PC start karega
+#     runs-on: windows-latest
+
+#     steps:
+#       # Step 1: Virtual machine par aapka code pull/download karega
+#       - name: Checkout Repository
+#         uses: actions/checkout@v4
+
+#       # Step 2: Python environment install karega
+#       - name: Set up Python
+#         uses: actions/setup-python@v5
+#         with:
+#           python-version: '3.11'
+
+#       # Step 3: Required libraries aur PyInstaller install karega
+#       - name: Install Dependencies
+#         run: |
+#           python -m pip install --upgrade pip
+#           if (Test-Path "requirements.txt") { pip install -r requirements.txt }
+#           pip install pyinstaller
+
+      
 name: Automatic Release Builder
-
-# Signal: Jab bhi koi 'v' se start hone wala tag push ho (e.g. v1.0.0, v1.0.1)
-on:
-  push:
-    tags:
-      - 'v*'
-
-permissions:
-  contents: write
-
-jobs:
-  build-and-release:
-    # GitHub cloud par Windows PC start karega
-    runs-on: windows-latest
-
-    steps:
-      # Step 1: Virtual machine par aapka code pull/download karega
-      - name: Checkout Repository
-        uses: actions/checkout@v4
-
-      # Step 2: Python environment install karega
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      # Step 3: Required libraries aur PyInstaller install karega
-      - name: Install Dependencies
-        run: |
-          python -m pip install --upgrade pip
-          if (Test-Path "requirements.txt") { pip install -r requirements.txt }
-          pip install pyinstaller
-
-      name: Automatic Release Builder
 
 # Signal: Jab bhi koi 'v' se start hone wala tag push ho (e.g. v1.0.0, v1.0.1)
 on:

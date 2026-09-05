@@ -24,3 +24,9 @@ build/
 *.xlsx
 *.csv
 saved_session_data.json
+
+
+build/
+dist/
+*.exe
+*.pkg
