@@ -6,7 +6,7 @@ chrome_profile/
 **/chrome_profile/
 
 # Environments & Credentials (VERY IMPORTANT)
-.env
+# .env
 .venv/
 venv/
 credentials/
