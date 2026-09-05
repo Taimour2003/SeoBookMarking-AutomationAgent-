@@ -30,3 +30,5 @@ build/
 dist/
 *.exe
 *.pkg
+../build/
+../dist/
