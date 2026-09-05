@@ -66,7 +66,6 @@ jobs:
           python -m pip install --upgrade pip
           if (Test-Path "requirements.txt") { pip install -r requirements.txt }
           pip install pyinstaller playwright requests
-          playwright install chromium
 
       # Step 4: App ko .exe mein compile karega
       - name: Build Executable
@@ -82,7 +81,7 @@ jobs:
           python -c "import groq; print('groq OK')"
           python -c "import pandas; print('pandas OK')"
           python -c "import requests; print('requests OK')"
-          
+
       - name: Show Installed Packages
         shell: powershell
         run: |
