@@ -30,6 +30,40 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           if (Test-Path "requirements.txt") { pip install -r requirements.txt }
+          pip install pyinstaller
+
+      name: Automatic Release Builder
+
+# Signal: Jab bhi koi 'v' se start hone wala tag push ho (e.g. v1.0.0, v1.0.1)
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    # GitHub cloud par Windows PC start karega
+    runs-on: windows-latest
+
+    steps:
+      # Step 1: Virtual machine par aapka code pull/download karega
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      # Step 2: Python environment install karega
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # Step 3: Required libraries aur PyInstaller install karega
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if (Test-Path "requirements.txt") { pip install -r requirements.txt }
           pip install pyinstaller playwright requests
           playwright install chromium
 
@@ -38,6 +72,40 @@ jobs:
         run: |
           pyinstaller --noconfirm WebAgent.spec
           powershell Compress-Archive -Path dist/WebAgent.exe -DestinationPath dist/WebAgent-Windows.zip
+
+      # Step 5: Automatic Release banayega aur dist/MyApp.exe ko attach kar dega
+      - name: Verify Runtime Dependencies
+        shell: powershell
+        run: |
+          python -c "import playwright; print('playwright OK')"
+          python -c "import groq; print('groq OK')"
+          python -c "import pandas; print('pandas OK')"
+          python -c "import requests; print('requests OK')"
+      - name: Show Installed Packages
+        shell: powershell
+        run: |
+          pip list
+
+      - name: Verify Required Imports
+        shell: powershell
+        run: |
+          python -c "import playwright"
+          python -c "import groq"
+          python -c "import pandas"
+          python -c "import requests"
+          python -c "import openpyxl"
+
+
+      # Step 4: App ko .exe mein compile karega
+      - name: Build Executable
+        run: |
+          pyinstaller --noconfirm WebAgent.spec
+          powershell Compress-Archive -Path dist/WebAgent.exe -DestinationPath dist/WebAgent-Windows.zip
+      
+      - name: Test Packaged EXE
+        shell: powershell
+        run: |
+          .\dist\WebAgent.exe --self-test
 
       # Step 5: Automatic Release banayega aur dist/MyApp.exe ko attach kar dega
       - name: Create GitHub Release

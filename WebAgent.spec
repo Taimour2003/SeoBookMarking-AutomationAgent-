@@ -2,7 +2,7 @@
 from PyInstaller.utils.hooks import collect_all, collect_submodules
 
 # Jin libraries ke missing modules aate hain, unhe yahan list karein
-packages_to_collect = ['playwright', 'requests','groq']
+packages_to_collect = ['playwright','groq']
 
 datas = []
 binaries = []
@@ -44,7 +44,7 @@ exe = EXE(
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
-    upx=True,
+    upx=False,
     upx_exclude=[],
     runtime_tmpdir=None,
     console=False,
