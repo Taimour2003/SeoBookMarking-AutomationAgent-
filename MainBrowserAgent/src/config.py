@@ -191,7 +191,7 @@ def get_settings() -> Settings:
         .lower(),
         cdp_url=os.getenv(
             "CDP_URL",
-            "ws://localhost:9222/devtools/browser",
+            "http://127.0.0.1:9222",
         ),
     )
 
