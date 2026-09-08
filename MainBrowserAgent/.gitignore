@@ -32,3 +32,8 @@ dist/
 *.pkg
 ../build/
 ../dist/
+
+
+.env
+*.env
+MainBrowserAgent/.env

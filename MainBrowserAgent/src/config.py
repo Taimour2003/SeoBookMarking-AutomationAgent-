@@ -8,6 +8,14 @@ from dotenv import load_dotenv
 
 import sys
 
+
+BookmarkingSitesSheetId = "1eDDKR_ondkto7xP3VUPVVC42ecDzV0jePO73dM4bMCw"
+BookmarkingSitesSheetName = "BookmarkingSites"
+
+
+GROQ_API_KEY = "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"
+GROQ_MODEL = "llama-3.3-70b-versatile"
+
 # Project root:
 # WebAgent/
 # ├── .env
@@ -98,29 +106,18 @@ class Settings:
 
     BookmarkingSitesSheetId: str
     BookmarkingSitesSheetName: str
+
     GOOGLE_SERVICE_ACCOUNT_FILE: str
-
-    # Default form values
-
-    # def ensure_directories(self) -> None:
-    #     directories = [
-    #         self.browser_profile_dir.mkdir(parents=True, exist_ok=True),
-    #         self.current_record_path.parent.mkdir(parents=True, exist_ok=True),
-    #     ]
-
-    #     for directory in directories:
-    #         directory.mkdir(
-    #             parents=True,
-    #             exist_ok=True,
-    #         )
 
 
 def get_settings() -> Settings:
     settings = Settings(
-        BookmarkingSitesSheetId=os.getenv("BookmarkingSitesSheetId", "").strip("'\""),
-        BookmarkingSitesSheetName=os.getenv(
-            "BookmarkingSitesSheetName", "Sheet1"
-        ).strip("'\""),
+        # BookmarkingSitesSheetId=os.getenv("BookmarkingSitesSheetId", "").strip("'\""),
+        BookmarkingSitesSheetId=BookmarkingSitesSheetId,
+        # BookmarkingSitesSheetName=os.getenv(
+        #     "BookmarkingSitesSheetName", "Sheet1"
+        # ).strip("'\""),
+        BookmarkingSitesSheetName=BookmarkingSitesSheetName,
         GOOGLE_SERVICE_ACCOUNT_FILE=PROJECT_ROOT
         / os.getenv(
             "google_service_account_file", "credentials/credentials.json"
@@ -171,35 +168,17 @@ def get_settings() -> Settings:
             "CURRENT_RECORD_PATH",
             "data/current_record.json",
         ),
-        # screenshot_dir=PROJECT_ROOT
-        # / os.getenv(
-        #     "SCREENSHOT_DIR",
-        #     "screenshots",
-        # ),
-        # session_dir=PROJECT_ROOT
-        # / os.getenv(
-        #     "SESSION_DIR",
-        #     "data/sessions",
-        # ),
-        # log_dir=PROJECT_ROOT
-        # / os.getenv(
-        #     "LOG_DIR",
-        #     "logs",
-        # ),
-        # database_dir=PROJECT_ROOT
-        # / os.getenv(
-        #     "DATABASE_DIR",
-        #     "database",
-        # ),
         use_ai_fallback=_env_bool(
             "USE_AI_FALLBACK",
             True,
         ),
-        groq_api_key=os.getenv("GROQ_API_KEY"),
-        groq_model=os.getenv(
-            "GROQ_MODEL",
-            "llama-3.3-70b-versatile",
-        ),
+        # groq_api_key=os.getenv("GROQ_API_KEY"),
+        groq_api_key=GROQ_API_KEY,
+        # groq_model=os.getenv(
+        #     "GROQ_MODEL",
+        #     "llama-3.3-70b-versatile",
+        # ),
+        groq_model=GROQ_MODEL,
         default_category=os.getenv(
             "DEFAULT_CATEGORY",
             "Business",
@@ -215,8 +194,6 @@ def get_settings() -> Settings:
             "ws://localhost:9222/devtools/browser",
         ),
     )
-
-    # settings.ensure_directories()
 
     return settings
 
