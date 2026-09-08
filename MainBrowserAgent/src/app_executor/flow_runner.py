@@ -23,6 +23,9 @@ from panel.safely_install_panel import safely_install_panel
 from playwright.async_api import async_playwright
 from signup_form.signup_form_filling import fill_signup_form
 from submission.assistant import SubmissionAssistant
+from google_login.google_login import (
+    login_google,
+)
 
 
 class FlowRunner:
@@ -90,6 +93,13 @@ class FlowRunner:
                 print("Waiting for data before panel loop...")
 
                 data_navigator, signup_data = await self.sheet_task
+
+                if signup_data.get("email") and signup_data.get("password"):
+                    await login_google(
+                        initial_page,
+                        signup_data["email"],
+                        signup_data["password"],
+                    )
 
                 print("[SHEET] Data ready.")
 
