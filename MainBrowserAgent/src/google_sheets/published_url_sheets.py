@@ -26,15 +26,15 @@ class PublishedUrlSheets:
 
             wb.save(self.sheet_path)
 
-            print(f"Sheet '{self.sheet_name}' has been created.")
+            print(f"Sheet '{self.sheet_path}' has been created.")
         else:
-            print(f"Sheet '{self.sheet_name}' already exists.")
+            print(f"Sheet '{self.sheet_path}' already exists.")
 
     def file_setup(self):
         if not self.check_file_presence():
             self.create_sheet()
         else:
-            print(f"Sheet '{self.sheet_name}' already exists.")
+            print(f"Sheet '{self.sheet_path}' already exists.")
 
     def submitted_Url(self, published_url):
         try:
@@ -44,7 +44,7 @@ class PublishedUrlSheets:
             ws.append([published_url])
             wb.save(self.sheet_path)
             print(
-                f"Published URL '{published_url}' has been added to the sheet '{self.sheet_name}'."
+                f"Published URL '{published_url}' has been added to the sheet '{self.sheet_path}'."
             )
         except Exception as e:
             print(f"An error occurred while adding the URL: {e}")
@@ -57,12 +57,12 @@ class PublishedUrlSheets:
         wb = load_workbook(self.sheet_path)
         ws = wb.active
 
-        print(f"Published URLs in the sheet '{self.sheet_name}':")
+        print(f"Published URLs in the sheet '{self.sheet_path}':")
 
         for index, row in enumerate(ws.iter_rows(values_only=True), start=1):
             print(f"{index}: {row[0]}")
 
     async def download_sheet(self) -> str:
         if not self.check_file_presence():
-            raise FileNotFoundError(f"The sheet '{self.sheet_name}' does not exist.")
+            raise FileNotFoundError(f"The sheet '{self.sheet_path}' does not exist.")
         return str(self.sheet_path.resolve())
