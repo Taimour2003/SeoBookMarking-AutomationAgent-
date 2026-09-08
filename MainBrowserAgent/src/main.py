@@ -13,7 +13,6 @@ def run_self_test():
 
     print("[OK] groq")
 
-    import pandas
 
     print("[OK] pandas")
 
