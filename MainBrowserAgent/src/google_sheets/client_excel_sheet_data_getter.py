@@ -1,21 +1,22 @@
 from tkinter import filedialog
-from tkinter.tix import Tk
+import tkinter as tk
 
 import pandas as pd
 
 
 def get_data_from_uploaded_file() -> list[list[str]]:
     print("Enter in the get_data_from_uploaded_file function")
-    root = Tk()
+    root = tk.Tk()
     root.withdraw()  # Hide the main window
     root.attributes("-topmost", True)  # Bring the file dialog to the front
-
-    print("Waiting for user to select a file...")
-    file_path = filedialog.askopenfilename(
-        title="Select Excel or CSV sheet file",
-        filetypes=[("Excel/CSV Files", "*.xlsx *.xls *.csv"), ("All files", "*.*")],
-    )
-    root.destroy()  # Close the Tkinter root window after file selection
+    try:
+        print("Waiting for user to select a file...")
+        file_path = filedialog.askopenfilename(
+            title="Select Excel or CSV sheet file",
+            filetypes=[("Excel/CSV Files", "*.xlsx *.xls *.csv"), ("All files", "*.*")],
+        )
+    finally:
+        root.destroy()  # Close the Tkinter root window after file selection
     if not file_path:
         raise RuntimeError("No file selected. Please select a valid Excel or CSV file.")
 
