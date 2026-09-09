@@ -9,7 +9,7 @@ chrome_profile/
 # .env
 .venv/
 venv/
-credentials/
+# credentials/
 
 # Cache & Compiled Files
 **/__pycache__/
