@@ -26,7 +26,7 @@ from panel.safely_install_panel import safely_install_panel
 from playwright.async_api import async_playwright
 from signup_form.signup_form_filling import fill_signup_form
 from submission.assistant import SubmissionAssistant
-from fallback_urls import FALLBACK_BOOKMARKING_URLS
+from .fallback_urls import FALLBACK_BOOKMARKING_URLS
 
 
 class FlowRunner:
