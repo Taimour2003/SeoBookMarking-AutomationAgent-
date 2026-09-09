@@ -59,8 +59,10 @@ class FlowRunner:
     async def bookmarking_urls_handler(self):
         await self.saving_bookmarking_urls_in_queue()
         self.scheduling_urls_in_eventloop()
+        print("Scheduling URLs in event loop...")
 
     async def saving_bookmarking_urls_in_queue(self):
+        print(len(self.bookmarking_urls_from_sheet), "URLs to be added to the queue.")
         for url in self.bookmarking_urls_from_sheet:
             await self.urls_queue.put(url)
 
@@ -539,7 +541,8 @@ class FlowRunner:
                 print("Waiting for data before panel loop...")
 
                 await self.pages_prepration_and_handler(
-                    page_manager, data_navigator, signup_data)
+                    page_manager, data_navigator, signup_data
+                )
 
             finally:
                 await self.browser_manager.close()
