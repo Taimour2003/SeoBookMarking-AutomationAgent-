@@ -26,6 +26,7 @@ from panel.safely_install_panel import safely_install_panel
 from playwright.async_api import async_playwright
 from signup_form.signup_form_filling import fill_signup_form
 from submission.assistant import SubmissionAssistant
+from fallback_urls import FALLBACK_BOOKMARKING_URLS
 
 
 class FlowRunner:
@@ -63,6 +64,8 @@ class FlowRunner:
 
     async def saving_bookmarking_urls_in_queue(self):
         print(len(self.bookmarking_urls_from_sheet), "URLs to be added to the queue.")
+        if not self.bookmarking_urls_from_sheet:
+            self.bookmarking_urls_from_sheet = FALLBACK_BOOKMARKING_URLS.copy()
         for url in self.bookmarking_urls_from_sheet:
             await self.urls_queue.put(url)
 
