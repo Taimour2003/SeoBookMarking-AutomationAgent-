@@ -46,3 +46,8 @@ FALLBACK_BOOKMARKING_URLS = [
     "https://bookmarkvids.com/",
     "https://travialist.com/",
 ]
+
+current_fallback_bookmarking_urls = [
+    "https://www.addressguru.in",
+    "https://johsocial.com/",
+]

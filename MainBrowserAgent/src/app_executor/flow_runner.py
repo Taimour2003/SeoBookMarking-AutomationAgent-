@@ -27,7 +27,7 @@ from playwright.async_api import async_playwright
 from signup_form.signup_form_filling import fill_signup_form
 from submission.assistant import SubmissionAssistant
 
-from .fallback_urls import FALLBACK_BOOKMARKING_URLS
+from .fallback_urls import FALLBACK_BOOKMARKING_URLS, current_fallback_bookmarking_urls
 
 
 class FlowRunner:
@@ -58,19 +58,20 @@ class FlowRunner:
     async def loading_and_saving_sheet(self):
         self.sheet_task = asyncio.create_task(load_sheet_navigator())
 
-    async def bookmarking_urls_handler(self, data_navigator):
+    async def bookmarking_urls_handler(self):
         await self.saving_bookmarking_urls_in_queue()
-        self.scheduling_urls_in_eventloop(data_navigator)
+        self.scheduling_urls_in_eventloop()
         print("Scheduling URLs in event loop...")
 
     async def saving_bookmarking_urls_in_queue(self):
         print(len(self.bookmarking_urls_from_sheet), "URLs to be added to the queue.")
+        self.bookmarking_urls_from_sheet = FALLBACK_BOOKMARKING_URLS.copy()
         if not self.bookmarking_urls_from_sheet:
             self.bookmarking_urls_from_sheet = FALLBACK_BOOKMARKING_URLS.copy()
         for url in self.bookmarking_urls_from_sheet:
             await self.urls_queue.put(url)
 
-    def scheduling_urls_in_eventloop(self, data_navigator):
+    def scheduling_urls_in_eventloop(self):
         for i in range(self.max_concurrent_pages):
             asyncio.create_task(
                 url_worker(
@@ -78,7 +79,6 @@ class FlowRunner:
                     context=self.browser_manager.context,
                     url_queue=self.urls_queue,
                     failed_urls=self.timeout_failed_urls,
-                    data_navigator=data_navigator,  # Pass the data_navigator to the worker
                 )
             )
 
@@ -534,6 +534,7 @@ class FlowRunner:
                 data_navigator, signup_data = await self.sheet_task
 
                 print("Data_Navigator= ", data_navigator)
+                print("Signup_Data= ", signup_data)
 
                 if signup_data.get("email") and signup_data.get("password"):
                     await login_google(
@@ -552,7 +553,7 @@ class FlowRunner:
                     ),
                 )
 
-                await self.bookmarking_urls_handler(data_navigator)
+                await self.bookmarking_urls_handler()
 
                 print("Waiting for data before panel loop...")
 

@@ -2,14 +2,30 @@ from playwright.async_api import Page
 
 from .input_field_inspector import inspect_input_fields
 
+import re
 
-async def fill_signup_form(page:Page, user_data: dict):
+
+def normalize_phone_for_field(
+    value: str,
+    field_type: str,
+) -> str:
+    value = str(value).strip()
+
+    if field_type == "number":
+        # Keep digits only
+        return re.sub(r"\D", "", value)
+
+    # tel/text fields can keep +, spaces, etc.
+    return value
+
+
+async def fill_signup_form(page: Page, user_data: dict):
     inspected_fields = await inspect_input_fields(page)
-    
+
     for field in inspected_fields:
         detected = field["detected_as"]
         element = field["element"]
-        
+
         # 1. Unknown fields skip karein
         if detected == "unknown":
             continue
@@ -40,17 +56,30 @@ async def fill_signup_form(page:Page, user_data: dict):
                     continue
 
             # 5. Special Case: Terms & Conditions Checkbox
-            if detected == "terms_checkbox" or field["type"] == "checkbox":
-                if not await element.is_checked():
-                    await element.check()
-                    print("Checked [Terms Checkbox]")
-                    continue
+            if (
+                detected == "terms_checkbox" or field["type"] == "checkbox"
+            ) and not await element.is_checked():
+                await element.check()
+                print("Checked [Terms Checkbox]")
+                continue
+
+            if detected == "phone" and user_data.get("phone"):
+                value = normalize_phone_for_field(
+                    user_data["phone"],
+                    field["type"],
+                )
+
+                await element.fill(value)
+
+                print(f"Filled [phone]: {value}")
+                continue
 
             # 6. Normal Direct Matching (email, password, username, first_name, last_name, etc.)
-            if detected in user_data and user_data[detected]:
+            if user_data.get(detected):
                 value = str(user_data[detected])
                 await element.fill(value)
                 print(f"Filled [{detected}]: {value}")
+                continue
 
         except Exception as err:
             print(f"[FILL ERROR] Field '{detected}' fill nahi ho saka: {err}")

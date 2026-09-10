@@ -30,6 +30,7 @@ def parse_sheet_entries(raw_rows: list[list[str]]) -> list[dict]:
         "confirm_password": "",
         "first_name": "",
         "last_name": "",
+        "phone": "",
     }
 
     for row in raw_rows[:header_row_index]:
@@ -72,6 +73,9 @@ def parse_sheet_entries(raw_rows: list[list[str]]) -> list[dict]:
             name_parts = val.split(maxsplit=1)  # Space se split karein
             personal_data["first_name"] = name_parts[0] if name_parts else ""
             personal_data["last_name"] = name_parts[1] if len(name_parts) > 1 else ""
+            
+        elif "phone" in key_lower or "mobile" in key_lower:
+            personal_data["phone"] = val
 
     # 3. Main Sheet Entries Process Karein
     complete_data = []

@@ -35,9 +35,9 @@
 
 
 import csv
+import tkinter as tk
 from pathlib import Path
 from tkinter import filedialog
-import tkinter as tk
 
 from openpyxl import load_workbook
 

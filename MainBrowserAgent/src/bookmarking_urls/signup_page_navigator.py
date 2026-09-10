@@ -1,8 +1,8 @@
-import asyncio
 import re
 from enum import Enum
 from urllib.parse import urljoin, urlparse
 
+from playwright.async_api import Error as PlaywrightError
 from playwright.async_api import Page
 
 # Top Common Signup Slugs
@@ -41,7 +41,9 @@ async def validate_signup_url(
 ) -> SignupPageStatus:
 
     try:
-        body_text = (await page.locator("body").inner_text(timeout=timeout_ms)).lower()
+        body_text = (
+            await page.locator("body").first.inner_text(timeout=timeout_ms)
+        ).lower()
 
         security_signals = (
             "verify you are human",
@@ -85,7 +87,7 @@ async def validate_signup_url(
         password_count = await page.locator("input[type='password']").count()
 
         email_count = await page.locator(
-            ("input[type='email'], input[name*='email' i]")
+            "input[type='email'], input[name*='email' i]"
         ).count()
 
         signup_button_count = await page.get_by_role(
@@ -109,26 +111,25 @@ async def validate_signup_url(
             and SIGNUP_PATTERN.search(body_text[:5000])
         ):
             return SignupPageStatus.VALID
-
+        print(f"[INVALID PAGE] {candidate_url}")
         return SignupPageStatus.INVALID
 
-    except Exception as error:
+    except PlaywrightError as error:
         print(f"[VALIDATION ERROR] {candidate_url}: {error}")
-
+        print("Invalid due to playwright exception during validation.")
         return SignupPageStatus.INVALID
 
 
-async def find_signup_url(
-    page: Page, base_url: str, timeout_ms: int = 10000
-) -> str | None:
+async def find_signup_url(page: Page, base_url: str, timeout_ms: int) -> str | None:
     try:
         await page.goto(base_url, wait_until="domcontentloaded", timeout=timeout_ms)
 
-    except Exception as e:
+    except PlaywrightError as e:
         print(f"Error navigating to base URL {base_url}: {e}")
         return None
 
     possible_links = page.get_by_role("link", name=SIGNUP_PATTERN)
+
     print(f"Found {await possible_links.count()} possible signup links on {base_url}")
 
     count = min(await possible_links.count(), 10)  # Limit to first 10 links
@@ -172,7 +173,7 @@ async def find_signup_url(
 
             await page.goto(base_url, wait_until="domcontentloaded", timeout=timeout_ms)
 
-        except Exception as e:
+        except PlaywrightError as e:
             print(f"Error checking candidate URL {candidate_url}: {e}")
             continue
 
@@ -228,7 +229,7 @@ async def find_signup_url(
 
                 continue
 
-        except Exception as error:
+        except PlaywrightError as error:
             print(f"[FALLBACK ERROR] {candidate}: {error}")
 
             continue
@@ -236,7 +237,7 @@ async def find_signup_url(
     print(f"[NO SIGNUP FOUND] Returning tab to base URL: {base_url}")
     try:
         await page.goto(base_url, wait_until="domcontentloaded", timeout=timeout_ms)
-    except Exception as e:
+    except PlaywrightError as e:
         print(f"Error returning to base URL: {e}")
 
     return None
