@@ -3,7 +3,7 @@ import re
 from enum import Enum
 from urllib.parse import urljoin, urlparse
 
-from playwright.async_api import Page, async_playwright
+from playwright.async_api import Page
 
 # Top Common Signup Slugs
 SIGNUP_PATTERN = re.compile(

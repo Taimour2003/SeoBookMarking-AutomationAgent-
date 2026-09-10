@@ -2,7 +2,7 @@ import asyncio
 from playwright.async_api import Page
 from .process_url import process_url
 async def url_worker(
-    worker_id: int, context, url_queue: asyncio.Queue, failed_urls: list[str]):
+    worker_id: int, context, url_queue: asyncio.Queue, failed_urls: list[str],data_navigator):
 
     while True:
         url = await url_queue.get()
@@ -17,7 +17,7 @@ async def url_worker(
 
             print(f"Worker {worker_id} processing URL: {url}")
 
-            await process_url(context, url, failed_urls, timeout_ms=17000)
+            await process_url(context, url, failed_urls, timeout_ms=17000,data_navigator=data_navigator)
 
         finally:
             url_queue.task_done()

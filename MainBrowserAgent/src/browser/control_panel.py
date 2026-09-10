@@ -2,7 +2,6 @@ from __future__ import annotations
 
 from playwright.async_api import Page
 
-
 SUPPORTED_SCHEMES = ("http://", "https://")
 
 

@@ -6,8 +6,10 @@ from browser.control_panel import (
 )
 from panel import safely_install_panel
 
+from browser.page_preparation import control_panel_installation
 
-async def process_url(context, url, failed_urls, timeout_ms):
+
+async def process_url(context, url, failed_urls, timeout_ms, data_navigator):
     page: Page | None = None
 
     closed_event = asyncio.Event()
@@ -22,9 +24,16 @@ async def process_url(context, url, failed_urls, timeout_ms):
         signup_url = await find_signup_url(page, url, timeout_ms=timeout_ms)
         if signup_url:
             print(f"[SIGNUP FOUND] Signup Page: {signup_url}")
+
         else:
             print(f"[NO SIGNUP] No signup page found for: {url}")
 
+        # installed = await control_panel_installation(page, data_navigator)
+
+        # if installed:
+        #     print("[CONTROL PANEL] Installed successfully.")
+        # else:
+        #     print("[CONTROL PANEL] Installation failed.")
 
         await closed_event.wait()  # Wait until the page is closed
 
